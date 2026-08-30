@@ -1,10 +1,11 @@
 ---
-slug: /voice-tts
+slug: /tts
 sidebar_position: 5
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
 import SiteLink from '@site/src/components/SiteLink';
+import TtsAbLoop from '@site/static/img/help/tts-ab-loop-en.png';
 
 # Voice / TTS
 
@@ -39,6 +40,28 @@ Uses Google Cloud Voices or your browser's own speech synthesis.
 - **Autoplay** — toggle automatic playback (subject to the browser's
   autoplay policy).
 
+## A-B loop — repeat a passage for memorization
+
+The **AB** button next to the player is a separate tool layered on top of
+normal playback: pick a start and end point in the text, and the player
+repeats just that passage, with a pause between repeats and a repeat
+limit (or infinite).
+
+<img src={TtsAbLoop} alt="A-B loop panel: A/B points, pause between repeats, repeat counter" style={{maxWidth: 300, display: 'block', margin: '0 auto 1.5rem'}} />
+
+- Click **AB** — if a line was already selected, it immediately becomes
+  point **A** and the panel waits for you to click a line for point **B**;
+  if nothing was selected, click a line for **A** first, then for **B**.
+  As soon as both points are set, the loop starts automatically.
+- **Pause (sec)** — how long to wait between repeats.
+- **Repeat count** — defaults to ∞ (infinite); type your own number and
+  the loop stops on its own once it's done.
+- To move a point, click it again and pick a new line. To clear a point,
+  **right-click** (or **long-press** on phones) directly on the A or B
+  button.
+- The passage between the two points is marked in the text with a
+  vertical bar on the left.
+
 ## Hotkeys
 
 | Key | Action |
@@ -53,6 +76,13 @@ Uses Google Cloud Voices or your browser's own speech synthesis.
 | 4 | Mode: Translation + Pāḷi |
 | + / - | Increase / decrease speed |
 | R | Reset speed to default |
+
+:::info[Space and the arrow keys only work with auto-scroll on]
+If "Autoscroll" is off (the **S** key, or the toggle in the player
+settings), Space and the arrow keys stop responding to player control —
+that's expected behavior, not a bug. The 1–4 keys and +/- always work,
+regardless of autoscroll.
+:::
 
 ## Getting a Pali voice on your device
 

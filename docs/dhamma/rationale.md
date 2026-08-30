@@ -5,10 +5,13 @@ sidebar_label: Rationale
 ---
 
 import SiteLink from '@site/src/components/SiteLink';
+import AlbumartSamadhi from '@site/static/img/albumart-samadhi-nobg.png';
 
 # Rationale
 
-*The detailed reasoning and examples behind the [Principles of Translation](/translation-principles). This page is translated from the Russian original, which is kept more up to date and contains a few additional examples — see the <SiteLink to="/ru/docs/rationale">Russian version</SiteLink>.*
+<img src={AlbumartSamadhi} alt="Rationale" className="dg-hero-image" />
+
+*The detailed reasoning and examples behind the [Principles of Translation](/principles). This page is translated from the Russian original, which is kept more up to date and contains a few additional examples — see the <SiteLink to="/ru/docs/rationale">Russian version</SiteLink>.*
 
 ## Issues with Contextual Translation
 

@@ -1,12 +1,15 @@
 ---
-slug: /dhamma-principles
+slug: /sutta
 sidebar_position: 1
 sidebar_label: Principles by Suttas
 ---
 
 import SuttaBrowser from '@site/src/components/SuttaBrowser';
+import VijjaHatthipada from '@site/static/img/vijja-hatthipada-nobg.png';
 
 # Dhamma Principles
+
+<img src={VijjaHatthipada} alt="Dhamma Principles" className="dg-hero-image" />
 
 Dhamma.gift exists to make the earliest available texts (the Pali root and
 its translations) easy to check against each other. That only matters if
@@ -117,5 +120,5 @@ Pick a sutta to read it in the live reader, in Pali and translation:
 
 ## See also
 
-- [Principles of Translation](/translation-principles) — how these criteria shape word-level translation choices.
+- [Principles of Translation](/principles) — how these criteria shape word-level translation choices.
 - [Rationale](/rationale) — the detailed reasoning and examples behind those principles.

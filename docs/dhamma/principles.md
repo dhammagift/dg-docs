@@ -1,12 +1,15 @@
 ---
-slug: /translation-principles
+slug: /principles
 sidebar_position: 2
 sidebar_label: Principles of Translation
 ---
 
 import SiteLink from '@site/src/components/SiteLink';
+import MemoBigwheel from '@site/static/img/albumart-memo-bigwheel-nobg.png';
 
 # Principles of Translation
+
+<img src={MemoBigwheel} alt="Principles of Translation" className="dg-hero-image" />
 
 *See also the [translation glossary](https://docs.google.com/spreadsheets/d/1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg/edit?gid=0#gid=0) (Google Sheet) and [Rationale](/rationale) for the detailed reasoning and examples behind these principles. This page is translated from the Russian original; some linguistic examples are best understood with reference to the source language — see the <SiteLink to="/ru/docs/principles">Russian version</SiteLink>.*
 

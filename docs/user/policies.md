@@ -1,5 +1,5 @@
 ---
-slug: /privacy
+slug: /policies
 sidebar_position: 3
 ---
 
