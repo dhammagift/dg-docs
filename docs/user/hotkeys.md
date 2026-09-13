@@ -11,7 +11,8 @@ the reader. **Alt** shortcuts work even while the cursor is in the search field;
 **Option** instead of Alt.
 
 :::tip[Try them right here]
-Click inside the window below (a real reader page), then press any shortcut from the tables.
+Click inside the reader window (a real page of the site — next to the tables on a computer, below
+on a phone), then press any shortcut from the tables.
 :::
 
 <AppFrame src="/mn1" title="Try the shortcuts: MN 1 in the reader" height={520} />
