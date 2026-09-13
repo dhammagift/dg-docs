@@ -18,27 +18,22 @@ clone — click around, switch modes, change the font):
 
 ## Reading modes
 
-Five reading modes, listed under "Reading modes" in the burger menu (☰),
-each with its own Alt hotkey:
+Four reading modes, listed under "Reading modes" in the burger menu (☰),
+each with its own Alt+Shift hotkey:
 
 <img src={ReaderModesDrawer} alt="The 'Reading modes' panel in the burger menu" style={{maxWidth: 320, display: 'block', margin: '0 auto 1.5rem'}} />
 
 | Hotkey | Mode | What it shows |
 |---|---|---|
-| Alt+1 | One Translation | Pāḷi + one translation |
-| Alt+2 | Multi Translation | Pāḷi + translation (two translators side by side) |
-| Alt+3 | For Memorization | First-letter mnemonic (the same trick as [Memo](/memo#transform--first-letter-hints), applied straight to the live sutta text) |
-| Alt+4 | Devanagari | Pāḷi in another script + Pāḷi in Latin |
-| Alt+5 | Multi Language | Pāḷi alongside several translation languages |
+| Alt+Shift+1 | Reading | Pāḷi + one translation, always in your main language |
+| Alt+Shift+2 | Multi | Pāḷi + your saved set of languages and translators side by side |
+| Alt+Shift+3 | For Memorization | First-letter mnemonic (the same trick as [Memo](/memo#transform--first-letter-hints), applied straight to the live sutta text) |
+| Alt+Shift+4 | Devanagari | Pāḷi in another script + Pāḷi in Latin |
 
-:::tip[Alt+1…5 — mode first, language second]
-The first press switches the mode TYPE on whatever language you're
-currently reading in (reading in English stays in English). Pressing the
-SAME key again is what cycles the language/translator inside the mode
-that's already open — it cycles through whatever languages are actually
-loaded for that text, and in single-column modes (One Translation / For
-Memorization / Devanagari), where there's nothing to cycle through, it's
-simply an En/Ru toggle.
+:::tip[Alt+Shift+digit — the mode, Alt+1 — the language]
+Alt+Shift+1…4 switch the mode and keep the language you're reading in.
+The language switches with **Alt+1**, the same on every page of the site;
+**Alt+2** opens the table of contents and **Alt+3** the dictionary.
 :::
 
 A mode isn't tied to one fixed language — "Devanagari", for instance,
@@ -119,7 +114,8 @@ keyboard doesn't have them.
 
 | Key | Action |
 |---|---|
-| Alt+1 … Alt+5 | Switch reading mode (see table above); repeat to cycle language |
+| Alt+Shift+1 … Alt+Shift+4 | Switch reading mode (see table above) |
+| Alt+1 | Switch the language (English / Russian) |
 | Alt+C | Toggle 1-column / 2-column layout |
 | Alt+V | Show/hide Pali spelling variants |
 | Alt+F | Add/remove the current page from favorites |

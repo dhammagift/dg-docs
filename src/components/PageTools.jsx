@@ -18,7 +18,11 @@ import React, { useEffect, useRef, useState } from 'react';
 // данных для воспроизведения" and never speaks. Rather than force this content into that
 // legacy shape, this uses the browser's own Web Speech API directly against the article's
 // rendered text — simpler and it actually works.
-export default function PageTools({ articleSelector = '.theme-doc-markdown' }) {
+// `inline`: only the dictionary on/off icon, as a span that sits inside a sentence ("tap this icon
+// to turn the dictionary on and off") — used on the Dictionary help page. Same loading/tagging.
+// `termSelector`: which elements count as Pali terms. The Dictionary page passes "em" — there
+// **bold** and `code` hold key names (Alt+A, DPD) that must not turn into word lookups.
+export default function PageTools({ articleSelector = '.theme-doc-markdown', inline = false, termSelector = 'code, em, strong' }) {
   const [dictOn, setDictOn] = useState(true);
   const [speaking, setSpeaking] = useState(false);
   // Starts false (matches server-rendered output, no `window` at build time) and is corrected
@@ -53,7 +57,7 @@ export default function PageTools({ articleSelector = '.theme-doc-markdown' }) {
 
     const article = document.querySelector(articleSelector);
     if (article) {
-      article.querySelectorAll('code, em, strong').forEach((el) => {
+      article.querySelectorAll(termSelector).forEach((el) => {
         const text = el.textContent;
         // eslint-disable-next-line no-control-regex
         if (/[Ѐ-ӿ]/.test(text)) return; // has Cyrillic -> not a Pali/Sanskrit term
@@ -66,7 +70,7 @@ export default function PageTools({ articleSelector = '.theme-doc-markdown' }) {
     return () => {
       if (window.speechSynthesis) window.speechSynthesis.cancel();
     };
-  }, [articleSelector]);
+  }, [articleSelector, termSelector]);
 
   function toggleDict() {
     const next = !dictOn;
@@ -95,6 +99,30 @@ export default function PageTools({ articleSelector = '.theme-doc-markdown' }) {
     setSpeaking(true);
   }
 
+  const dictToggle = (
+    <a
+      onClick={toggleDict}
+      title={
+        isRu
+          ? 'Словарь по клику на слово (Alt+A)'
+          : 'Popup dictionary on word click (Alt+A)'
+      }
+      className="toggle-dict-btn cursor-pointer"
+      style={{ cursor: 'pointer', display: 'inline-flex', verticalAlign: 'middle' }}
+      role="button"
+      aria-pressed={dictOn}
+    >
+      <img
+        src={dictOn ? '/assets/svg/comment.svg' : '/assets/svg/comment-slash.svg'}
+        alt={isRu ? 'Словарь вкл/выкл' : 'Dictionary on/off'}
+        width="22"
+        height="22"
+      />
+    </a>
+  );
+
+  if (inline) return dictToggle;
+
   return (
     <div
       style={{
@@ -104,21 +132,7 @@ export default function PageTools({ articleSelector = '.theme-doc-markdown' }) {
         margin: '0 0 1.5rem',
       }}
     >
-      <a
-        onClick={toggleDict}
-        title={
-          isRu
-            ? 'Словарь по клику на слово (Alt+A)'
-            : 'Popup dictionary on word click (Alt+A)'
-        }
-        className="toggle-dict-btn cursor-pointer"
-        style={{ cursor: 'pointer', display: 'inline-flex' }}
-      >
-        <img
-          src={dictOn ? '/assets/svg/comment.svg' : '/assets/svg/comment-slash.svg'}
-          alt=""
-        />
-      </a>
+      {dictToggle}
       <a
         onClick={toggleListen}
         title={isRu ? (speaking ? 'Остановить' : 'Слушать статью') : speaking ? 'Stop' : 'Listen to this page'}

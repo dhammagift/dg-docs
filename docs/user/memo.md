@@ -31,7 +31,7 @@ also opens that word's **dictionary** entry right next to it:
 :::tip[For a whole canonical text, switch reader modes instead of copying]
 "Transform" is for your own text — notes, a hand-picked set of lines. To
 read an entire sutta this way, don't copy it in here — switch the reader
-to **"For Memorization"** mode instead (Alt+3, see [Reading modes](/read#reading-modes))
+to **"For Memorization"** mode instead (Alt+Shift+3, see [Reading modes](/read#reading-modes))
 — same first-letter trick, applied directly to the live sutta text, with
 its translation, and no manual copying.
 :::

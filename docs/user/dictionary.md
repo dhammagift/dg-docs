@@ -4,9 +4,67 @@ sidebar_position: 4
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
+import PageTools from '@site/src/components/PageTools';
+import ThemedImage from '@theme/ThemedImage';
 import DictPlatformDropdown from '@site/static/img/help/dict-platform-dropdown-en.png';
+import PopupLight from '@site/static/img/help/dict-popup-light-en.png';
+import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
 
 # Dictionary
+
+The dictionary is built into the site: it pops up when you click a Pali word
+while reading, and it opens in the "Dictionary" tab of the [Quick
+Window](/quickmodal). The built-in dictionary is **DPD** (Digital Pāḷi
+Dictionary). The full version with every dictionary is a separate site,
+[dict.dhamma.gift](https://dict.dhamma.gift) — more on it below.
+
+## Try it on this page
+
+The dictionary is connected right here: click a Pali word — *bhagavā*,
+*dukkha*, *nibbāna*. The icon <PageTools inline termSelector="em" /> turns the
+dictionary on and off; on the site **Alt+A** does the same.
+
+## Pick a dictionary mode and try it in the reader
+
+Below is a real reader page with Quick Settings open. In the "Dictionary"
+block pick the language and the mode, then click any Pali word in the text. On
+the site Quick Settings open from the sliders icon in the search field or with
+**Alt+S**.
+
+<AppFrame src="/mn1?quick=1" title="MN 1 in the reader with Quick Settings" height={560} />
+
+Modes in the list: the built-in DPD, Dict.DG in a popup or a new window
+(compact or full), DharmaMitra.org, sutta search only, and external apps
+(DictTango, Mdict, GoldenDict-NG). **Alt+B** switches the mode.
+
+### Multi-select: phrases and sentences
+
+A click opens one word. To look up a phrase or translate a whole sentence,
+turn on multi-select — the selection icon in the reader toolbar or **Alt+J** —
+and select that part of the Pali text. After 3 seconds the selection opens
+by itself in the dictionary of the chosen mode. For translating and parsing a
+sentence, the DharmaMitra.org mode or a right click on the **DG** button in
+the dictionary window works best. The delay (3 or 5 seconds) can be changed
+in [Settings](/settings), under "Multi-select".
+
+## The dictionary window
+
+<ThemedImage
+  alt="Dictionary entry for bhagavā with the buttons in the top right corner"
+  sources={{light: PopupLight, dark: PopupDark}}
+  style={{maxWidth: '100%', width: 640, display: 'block', margin: '1rem auto'}}
+/>
+
+| Button | What it does |
+|---|---|
+| 🔍 | Searches the texts on Dhamma.Gift for the word |
+| **DG** | Opens the word in the full dictionary — dict.dhamma.gift |
+| **DG** with a right click, a middle click or a long tap on a phone | Opens DharmaMitra — grammar analysis and research on the word |
+| ✕ | Closes the window (Esc) |
+
+Drag the window by its title and resize it from the bottom right corner.
+
+## The full version: Dict.Dhamma.Gift
 
 [Dict.Dhamma.Gift](https://dict.dhamma.gift) isn't just one dictionary,
 it's a platform — the page itself is titled "Pali Multi-Dictionary", and
@@ -15,26 +73,21 @@ Gandhari, PTS, Sanskrit and Sutta-Vinaya definitions in one place". The
 📘 button next to the search box opens access to all of these sources —
 see below.
 
-The dictionary is built into the site: the popup dictionary while reading
-(Alt+A, click a word) and the "Dictionary" tab of the [Quick
-Window](/quickmodal). The standalone dictionary is **DPD** (Digital Pāḷi
-Dictionary).
-
 <AppFrame src="/dict/" title="Dict.Dhamma.Gift" height={550} />
 
-## Dictionary hotkeys
+### Dictionary hotkeys
 
 | Key | Action |
 |---|---|
 | `/` | Focus the search box |
-| Ctrl/Alt+1 | Switch interface language (En/Ru) |
-| Ctrl/Alt+2 | Open Dhamma.Gift (without the current word) |
-| Ctrl/Alt+3 | Open Dhamma.Gift with the current query |
+| Alt+1 | Switch interface language (En/Ru) |
+| Alt+2 | Open Dhamma.Gift (without the current word) |
+| Alt+3 | Open Dhamma.Gift with the current query |
 | Alt+T | Toggle theme |
 
 Double-clicking any word inside an entry also searches for it.
 
-## The whole platform at once — the 📘 button
+### The whole platform at once — the 📘 button
 
 <img src={DictPlatformDropdown} alt="Dict.Dhamma.Gift's menu of every connected dictionary" style={{maxWidth: 320, display: 'block', margin: '0 auto 1.5rem'}} />
 
@@ -47,18 +100,19 @@ Double-clicking any word inside an entry also searches for it.
 - **Other resources** — WisdomLib, Google Custom Search, Aksharamukha
   (script converter).
 
-## Display settings
+### Display settings
 
 The right-hand panel has font size, dark/light theme, serif font,
 niggahita spelling (ṃ/ṁ), collapsing grammar/examples/summary sections by
 default, an "one section at a time" accordion mode, the sandhi mark (’),
 male/female voice for read-aloud, and showing/hiding source links.
 
-## Dictionary mode while reading
+## A separate site and browser extensions
 
-Which dictionary window opens when you click a word while reading
-(Alt+A) is a separate setting, in the app's own **Quick Settings** panel
-(the sliders icon next to the search box), under **"Dictionary"**: the
-built-in DPD, a Dict.DG popup or new window (compact or full),
-DharmaMitra.org, sutta-search-only, or an external app (DictTango,
-Mdict, GoldenDict-NG).
+Dict.Dhamma.Gift is a separate site you can open directly:
+[dict.dhamma.gift](https://dict.dhamma.gift). The DPD popup dictionary also
+works outside Dhamma.Gift — as a [browser extension](/browser-extension)
+(Chrome, Firefox, Edge, Opera) and as a Tampermonkey script
+([installation](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md));
+the plugin can be embedded on any site
+([details](https://github.com/dhammagift/dictPlugin?tab=readme-ov-file#dictplugin)).

@@ -28,7 +28,9 @@ way.
 | **Alt+H** | Help |
 | **Alt+T** | Light / dark theme |
 | **Alt+−** / **Alt+=** | Smaller / larger text |
-| **Alt+1** | Switch the site language (English / Russian); in the reader — see below |
+| **Alt+1** | Switch the site language (English / Russian) |
+| **Alt+2** | Table of contents: suttas and Vinaya |
+| **Alt+3** | Dictionary (dict.dhamma.gift) |
 | **/** | Put the cursor into the search field |
 | **Esc** | Close the open window, menu or notification |
 | **Ctrl+Shift+F** or **Alt+Shift+F** | Find on the page |
@@ -41,7 +43,7 @@ way.
 | Shortcut | What it does |
 |---|---|
 | **Ctrl+→** / **Ctrl+←** | Next / previous text |
-| **Alt+1** … **Alt+7** | Reader modes (a second press of the current mode's key switches the language) |
+| **Alt+Shift+1** … **Alt+Shift+4** | Reader modes: Reading, Multi, For Memorization, Devanagari |
 | **Alt+Z** | Show / hide the second language (Pali or translation) |
 | **Alt+C** | One or two columns |
 | **Alt+V** | Show / hide variant readings |
