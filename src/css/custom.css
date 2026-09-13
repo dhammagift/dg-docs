@@ -123,10 +123,11 @@
    right on very wide screens. Height/opacity with the settings preview's curve and duration. */
 .dg-appframe--sticky {
   position: sticky;
-  top: calc(var(--ifm-navbar-height) + 0.5rem);
+  top: var(--ifm-navbar-height);
   z-index: 2;
   overflow: hidden;
-  background: var(--ifm-background-color);
+  /* --ifm-background-color is transparent in the light theme — the tables showed through the bar. */
+  background: var(--ifm-background-surface-color);
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: 8px;
 }
