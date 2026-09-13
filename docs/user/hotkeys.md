@@ -24,17 +24,15 @@ Click inside the window below (a real reader page), then press any shortcut from
 | **Alt+S** | Quick settings |
 | **Alt+P** or **Alt+Y** | Quick window (compass): favorites, history, key suttas |
 | **Alt+H** | Help |
-| **Alt+G** | Search history |
 | **Alt+T** | Light / dark theme |
 | **Alt+−** / **Alt+=** | Smaller / larger text |
-| **Ctrl+Shift+1** | Switch the site language (English / Russian) |
-| **Alt+1** | Outside the reader: switch the language, like the menu's EN/RU switch |
+| **Alt+1** | Switch the site language (English / Russian); in the reader — see below |
 | **/** | Put the cursor into the search field |
 | **Esc** | Close the open window, menu or notification |
 | **Ctrl+Shift+F** or **Alt+Shift+F** | Find on the page |
 | **Ctrl+1** | Home / search |
-| **Ctrl+2** | Read suttas and Vinaya |
-| **Ctrl+3** | Read by chapters |
+| **Ctrl+2** | Table of contents: suttas and Vinaya |
+| **Ctrl+3** | Dictionary (dict.dhamma.gift) |
 
 ## Reading
 
@@ -42,7 +40,7 @@ Click inside the window below (a real reader page), then press any shortcut from
 |---|---|
 | **Ctrl+→** / **Ctrl+←** | Next / previous text |
 | **Alt+1** … **Alt+7** | Reader modes (a second press of the current mode's key switches the language) |
-| **Alt+Space** or **Alt+Z** | Show / hide the second language (Pali or translation) |
+| **Alt+Z** | Show / hide the second language (Pali or translation) |
 | **Alt+C** | One or two columns |
 | **Alt+V** | Show / hide variant readings |
 | **Alt+W** | Table of contents of the text |
@@ -55,7 +53,7 @@ Click inside the window below (a real reader page), then press any shortcut from
 
 | Shortcut | What it does |
 |---|---|
-| **Alt+X** or **Shift+Space** | Expand / collapse all results |
+| **Shift+Space** | Expand / collapse all results |
 
 ## Dictionary
 

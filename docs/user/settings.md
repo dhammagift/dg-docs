@@ -127,12 +127,11 @@ shown in the UI but marked "coming soon" — not available yet.
 | Alt+S | Open/close Quick Settings (the sliders icon next to search) |
 | Alt+Shift+S | Open/close this full Settings page |
 | Ctrl+Shift+F (Cmd+Shift+F on Mac) | Find on page — not Alt+F, that's [favorites](/read); not plain Ctrl+F either, real browsers reserve that for their own find bar |
-| Alt+Space / Alt+Z | Switch interface language |
+| Alt+Z | Show/hide the second language |
 | Alt+T | Theme |
 | Alt+. | Strip Pali punctuation |
 | Alt+J | Multi-select for the dictionary |
 | Alt+= / Alt+- | Text size |
-| Ctrl+1 / Ctrl+2 / Ctrl+3 | Home / Read / "read by chapters" |
-| Ctrl+Shift+1 | Site language |
-| Alt+G | Toggle the history panel |
+| Ctrl+1 / Ctrl+2 / Ctrl+3 | Home / Table of contents / Dictionary |
+| Alt+1 | Site language |
 | Alt+8 | ml/th display mode |
