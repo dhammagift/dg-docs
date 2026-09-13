@@ -195,3 +195,13 @@
   .dg-appframe--sticky iframe { transition: opacity 200ms ease; }
   .dg-appframe__toggle svg { transition: none; }
 }
+
+/* Navbar dropdowns (the language menu) on phones: the menu opens left-aligned from its toggle near
+   the right edge and, even while hidden, stuck out past the screen — every docs page scrolled
+   sideways on mobile, and the popup dictionary sized itself to that wider page and got cut off. */
+@media (max-width: 996px) {
+  .navbar__items--right .dropdown__menu {
+    left: auto;
+    right: 0;
+  }
+}

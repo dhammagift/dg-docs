@@ -73,6 +73,13 @@ export default function PageTools({ articleSelector = '.theme-doc-markdown', inl
   }, [articleSelector, termSelector]);
 
   function toggleDict() {
+    // paliLookup.js itself listens for clicks on .toggle-dict-btn (document level) and flips its
+    // own in-memory flag + localStorage — toggling here as well cancelled it out, so the icon
+    // never changed. Once the script is loaded, only mirror its result.
+    if (typeof window.toggleDictionaryVisible === 'function') {
+      setTimeout(() => setDictOn(window.localStorage.getItem('dictionaryVisible') !== 'false'), 0);
+      return;
+    }
     const next = !dictOn;
     setDictOn(next);
     window.localStorage.setItem('dictionaryVisible', String(next));
