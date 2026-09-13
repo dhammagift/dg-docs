@@ -14,11 +14,17 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 // wrapper (mouse over the iframe counts) and by .is-active after a tap/click
 // inside the iframe (:focus-within does NOT match when focus is inside an
 // iframe, checked in Chromium). Styles: src/css/custom.css.
-export default function AppFrame({src, title, height = 600}) {
+//
+// `sticky` (the keyboard shortcuts page): the frame stays pinned under the
+// navbar while the page scrolls, with a title bar that folds it away and back —
+// the same pattern as the preview on the settings page (owner). A side-by-side
+// layout was tried first and only looked right on very wide screens.
+export default function AppFrame({src, title, height = 600, sticky = false}) {
   const {i18n} = useDocusaurusContext();
   const isRu = i18n.currentLocale === 'ru';
   const frameRef = useRef(null);
   const [active, setActive] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
   useEffect(() => {
     // A tap inside the iframe never reaches this document, and window blur is
     // unreliable (embedded pages like /dict autofocus on load, so the window is
@@ -40,15 +46,43 @@ export default function AppFrame({src, title, height = 600}) {
       try { frame.contentWindow.removeEventListener('pointerdown', on); } catch (e) { /* ignore */ }
     };
   }, []);
+
+  const openIcon = (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+      <polyline points="15 3 21 3 21 9" />
+      <line x1="10" y1="14" x2="21" y2="3" />
+    </svg>
+  );
+  const openLabel = isRu ? 'Открыть в новом окне' : 'Open in a new window';
+
+  if (sticky) {
+    const toggleLabel = collapsed
+      ? (isRu ? 'Развернуть окно' : 'Expand the window')
+      : (isRu ? 'Свернуть окно' : 'Collapse the window');
+    return (
+      <div className={collapsed ? 'dg-appframe dg-appframe--sticky is-collapsed' : 'dg-appframe dg-appframe--sticky'}>
+        <div className="dg-appframe__bar">
+          <span className="dg-appframe__title">{title}</span>
+          <a className="dg-appframe__bar-link" href={src} target="_blank" rel="noopener noreferrer" title={openLabel}>
+            {openIcon}<span>{openLabel}</span>
+          </a>
+          <button type="button" className="dg-appframe__toggle" aria-expanded={!collapsed} aria-label={toggleLabel} title={toggleLabel} onClick={() => setCollapsed((c) => !c)}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <polyline points="6 15 12 9 18 15" />
+            </svg>
+          </button>
+        </div>
+        <iframe ref={frameRef} src={src} title={title} tabIndex={collapsed ? -1 : undefined} />
+      </div>
+    );
+  }
+
   return (
     <div className={active ? 'dg-appframe is-active' : 'dg-appframe'}>
       <a className="dg-appframe__open" href={src} target="_blank" rel="noopener noreferrer">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-          <polyline points="15 3 21 3 21 9" />
-          <line x1="10" y1="14" x2="21" y2="3" />
-        </svg>
-        {isRu ? 'Открыть в новом окне' : 'Open in a new window'}
+        {openIcon}
+        {openLabel}
       </a>
       <iframe ref={frameRef} src={src} title={title} loading="lazy" style={{height}} />
     </div>

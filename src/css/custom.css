@@ -117,32 +117,80 @@
   }
 }
 
-/* Keyboard shortcuts page (docs/user/hotkeys.md), wide screens: the live reader sits in a sticky
-   column next to the tables, so any shortcut can be tried without scrolling back up (owner).
-   Phones and narrower windows keep the plain flow — the frame right under the tip. The desktop
-   TOC is hidden on this page to make room; its sections are short and visible at a glance. */
-@media (min-width: 1280px) {
-  html.docs-doc-id-user\/hotkeys .row > .col--3 { display: none; }
-  html.docs-doc-id-user\/hotkeys [class*='docItemCol'] { max-width: 100% !important; }
-  html.docs-doc-id-user\/hotkeys .theme-doc-markdown {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    column-gap: 2rem;
-    align-items: start;
-  }
-  html.docs-doc-id-user\/hotkeys .theme-doc-markdown > * { grid-column: 1; }
-  /* Title, intro and the tip span both columns; the frame is the 4th child and starts after them. */
-  html.docs-doc-id-user\/hotkeys .theme-doc-markdown > header,
-  html.docs-doc-id-user\/hotkeys .theme-doc-markdown > header + p,
-  html.docs-doc-id-user\/hotkeys .theme-doc-markdown > header + p + .theme-admonition { grid-column: 1 / -1; }
-  html.docs-doc-id-user\/hotkeys .theme-doc-markdown > .dg-appframe {
-    grid-column: 2;
-    grid-row: 4 / span 200;
-    position: sticky;
-    top: calc(var(--ifm-navbar-height) + 1.25rem);
-    margin: 0.5rem 0 1rem;
-  }
-  html.docs-doc-id-user\/hotkeys .theme-doc-markdown > .dg-appframe iframe {
-    height: calc(100vh - var(--ifm-navbar-height) - 3rem) !important;
-  }
+/* Sticky, collapsible variant (<AppFrame sticky>, the keyboard shortcuts page): the live reader stays
+   pinned under the navbar while the tables scroll and folds to its title bar — the same pattern as
+   the preview on the site's settings page (owner). Replaces a side-by-side layout that only looked
+   right on very wide screens. Height/opacity with the settings preview's curve and duration. */
+.dg-appframe--sticky {
+  position: sticky;
+  top: calc(var(--ifm-navbar-height) + 0.5rem);
+  z-index: 2;
+  overflow: hidden;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+}
+.dg-appframe--sticky iframe {
+  height: min(45vh, 480px);
+  border: 0;
+  border-radius: 0;
+  transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1), opacity 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.dg-appframe--sticky.is-collapsed iframe {
+  height: 0;
+  opacity: 0;
+}
+.dg-appframe__bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.4rem 0.3rem 0.9rem;
+  font-size: 0.85rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+.dg-appframe--sticky.is-collapsed .dg-appframe__bar {
+  border-bottom-color: transparent;
+}
+.dg-appframe__title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dg-appframe__bar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.78rem;
+  color: var(--ifm-color-emphasis-700);
+  white-space: nowrap;
+}
+.dg-appframe__toggle {
+  display: inline-flex;
+  padding: 6px;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+}
+.dg-appframe__toggle svg {
+  transition: transform 150ms ease;
+}
+.dg-appframe--sticky.is-collapsed .dg-appframe__toggle svg {
+  transform: rotate(180deg);
+}
+@media (hover: hover) and (pointer: fine) {
+  .dg-appframe__toggle:hover { background: var(--ifm-color-emphasis-200); }
+  .dg-appframe__bar-link:hover { color: var(--ifm-color-primary); text-decoration: none; }
+}
+@media (max-width: 600px) {
+  .dg-appframe__bar-link span { display: none; }
+  .dg-appframe--sticky iframe { height: 40vh; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dg-appframe--sticky iframe { transition: opacity 200ms ease; }
+  .dg-appframe__toggle svg { transition: none; }
 }
