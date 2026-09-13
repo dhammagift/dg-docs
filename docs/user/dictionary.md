@@ -15,11 +15,10 @@ Gandhari, PTS, Sanskrit and Sutta-Vinaya definitions in one place". The
 📘 button next to the search box opens access to all of these sources —
 see below.
 
-**DPD** (Digital Pāḷi Dictionary) specifically is what's built into the
-popup dictionary while reading (Alt+A, click a word) and into the [Quick
-Window](/quickmodal)'s "Dictionary" tab: just the one dictionary, without
-the rest of the platform, because a click on a word inside the text
-needs an instant answer, not a menu of sources to pick from.
+The dictionary is built into the site: the popup dictionary while reading
+(Alt+A, click a word) and the "Dictionary" tab of the [Quick
+Window](/quickmodal). The standalone dictionary is **DPD** (Digital Pāḷi
+Dictionary).
 
 <AppFrame src="/dict/" title="Dict.Dhamma.Gift" height={550} />
 

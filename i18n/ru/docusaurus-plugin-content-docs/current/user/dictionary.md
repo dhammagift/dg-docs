@@ -14,11 +14,9 @@ import DictPlatformDropdown from '@site/static/img/help/dict-platform-dropdown.p
 Sanskrit and Sutta-Vinaya definitions in one place». Кнопка 📘 рядом с полем
 поиска открывает доступ сразу ко всем источникам — см. ниже.
 
-Именно **DPD** (Digital Pāḷi Dictionary) — это то, что встроено во
-всплывающий словарь при чтении (Alt+A, клик по слову) и в [Быстрое
-окно](/quickmodal) (вкладка «Словарь»): он один, без остальной платформы,
-потому что для клика по слову внутри текста нужен мгновенный ответ, а не
-меню выбора источника.
+Словарь встроен в сайт: всплывающий словарь при чтении (Alt+A, клик по
+слову) и вкладка «Словарь» в [Быстром окне](/quickmodal). Standalone-словарь —
+это **DPD** (Digital Pāḷi Dictionary).
 
 <AppFrame src="/dict/ru" title="Dict.Dhamma.Gift" height={550} />
 
