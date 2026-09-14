@@ -19,7 +19,7 @@ import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
   <ThemedImage
     alt="Dict.Dhamma.Gift logo: pāḷi in Brahmi script on a green line"
     sources={{light: useBaseUrl('/img/dict-logo-light.svg'), dark: useBaseUrl('/img/dict-logo-dark.svg')}}
-    style={{width: 120, display: 'block'}}
+    style={{width: 88, display: 'block'}}
   />
 </a>
 

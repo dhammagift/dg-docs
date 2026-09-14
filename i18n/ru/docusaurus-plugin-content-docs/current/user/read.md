@@ -11,7 +11,7 @@ import ReaderQuickSettingsDict from '@site/static/img/help/reader-quick-settings
 
 # Ридер
 
-<img src={ReaderLogo} className="dg-page-logo" alt="Логотип Dhamma.Gift: раковина над открытой книгой" style={{width: 170}} />
+<img src={ReaderLogo} className="dg-page-logo" alt="Логотип Dhamma.Gift: раковина над открытой книгой" style={{width: 124}} />
 
 Открывайте любую сутту напрямую по её id (`dn22`, `mn139`, `sn56.11`,
 `an4.180`) — поиск не нужен. Попробуйте прямо здесь (это настоящий ридер, а

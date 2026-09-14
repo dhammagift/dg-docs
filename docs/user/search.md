@@ -12,9 +12,13 @@ import SearchQuickSettings from '@site/static/img/help/search-quick-settings-en.
 
 # Search
 
-<img src={SearchLogo} className="dg-page-logo" alt="Search icon: a magnifying glass with a diamond lens" style={{width: 110}} />
+<img src={SearchLogo} className="dg-page-logo" alt="Search icon: a magnifying glass with a transparent green diamond lens" style={{width: 84}} />
 
-Live search — try it directly (this is the real search page):
+Search the Pali Canon and its translations by a word, a phrase or a regular
+expression. Plenty of filters and settings narrow it down — where to search,
+which languages, how much context around each quote — and the **Words** view
+gives a report on every word form that was found. Try it live below (this is
+the real search page):
 
 <AppFrame src="/nodejs/res/?q=kacchapa&scope=dhamma" title="Live search" height={700} />
 

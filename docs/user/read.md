@@ -11,7 +11,7 @@ import ReaderQuickSettingsDict from '@site/static/img/help/reader-quick-settings
 
 # Reader
 
-<img src={ReaderLogo} className="dg-page-logo" alt="Dhamma.Gift logo: a conch shell over an open book" style={{width: 170}} />
+<img src={ReaderLogo} className="dg-page-logo" alt="Dhamma.Gift logo: a conch shell over an open book" style={{width: 124}} />
 
 Open any sutta directly by its id (`dn22`, `mn139`, `sn56.11`, `an4.180`) —
 no search needed. Try it live below (this is the real reader, not a demo

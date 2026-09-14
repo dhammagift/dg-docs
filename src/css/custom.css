@@ -210,6 +210,6 @@
    paragraph on desktop; whatever follows that paragraph starts below the logo. */
 .dg-page-logo { display: inline-block; margin: 0 0 1rem; }
 @media (min-width: 997px) {
-  .dg-page-logo { float: right; margin: 0.25rem 0 1rem 2.5rem; }
+  .dg-page-logo { float: right; margin: 0.35rem 0.5rem 2.25rem 2.5rem; }
   .dg-page-logo + p + * { clear: both; }
 }
