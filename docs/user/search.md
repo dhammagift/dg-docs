@@ -4,6 +4,7 @@ sidebar_position: 1
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
+import SiteLink from '@site/src/components/SiteLink';
 import RegexTester from '@site/src/components/RegexTester';
 import SearchToolbar from '@site/static/img/help/search-toolbar-en.png';
 import SearchQuickSettings from '@site/static/img/help/search-quick-settings-en.png';
@@ -16,19 +17,19 @@ Live search — try it directly (this is the real search page):
 
 ## Toolbar above the results
 
-<img src={SearchToolbar} alt="Buttons above the search results table" style={{maxWidth: 700, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={SearchToolbar} alt="Buttons above the search results table" style={{maxWidth: 'min(700px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Saṁvaṭṭo / Vivaṭṭo** — yes, the labels are literally Pali ("collapsing" /
   "unfolding") — expands or collapses the quoted lines in every row at
   once (same as Shift+Space).
 - **Words** — switches the table from a list of texts to a list of the
   matched words instead.
-- **Dict** (Alt+A) — turns the click-to-look-up popup dictionary on/off.
+- **Dictionary** (speech-bubble icon, Alt+A) — turns the click-to-look-up popup dictionary on/off.
 - **Multi-select** (Alt+J) — select several words or a whole sentence and
   it opens in the dictionary by itself (see [Dictionary](/dictionary)).
 - **1/2 columns** — toggles quotes between one wide column and Pali +
   translation side by side.
-- **Marks** — adds a "read" checkbox column to every row. These marks
+- **Read marks** — adds a "read" checkbox column to every row. These marks
   belong to the current result set (this query + this scope), not to the
   sutta as a whole — rerun the same search later and you'll see the same
   marks, but that's a different thing from a sutta's overall reading
@@ -62,7 +63,7 @@ Itivuttaka, Suttanipāta, Theragāthā, Therīgāthā). Change this from the
 that's also where you turn on the Vinaya and pick which other Khuddaka
 Nikāya books to include:
 
-<img src={SearchQuickSettings} alt="Quick Settings panel — choosing where to search" style={{maxWidth: 345, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={SearchQuickSettings} alt="Quick Settings panel — choosing where to search" style={{maxWidth: 'min(345px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 The same panel controls how many lines of context to show before/after a
 quote ("Quote context") — the same setting as the `lb`/`la` parameters in
@@ -133,7 +134,7 @@ GitHub.
   (Theravada.ru or Theravada.su, when available).
 
 For edition abbreviations (`ms`, `pts1ed`, `sya-all`, `mr`, etc.), see the
-[Edition Abbreviations](pathname:///assets/texts/abbr.html) page or
+<SiteLink to="/assets/texts/abbr.html">Edition Abbreviations</SiteLink> page or
 [SuttaCentral's list](https://suttacentral.net/abbreviations).
 
 ## Hotkeys
@@ -147,7 +148,7 @@ For edition abbreviations (`ms`, `pts1ed`, `sya-all`, `mr`, etc.), see the
 | Alt+Space, Alt+Z | Show/hide Pali or other languages in results |
 | Ctrl+Shift+F (Cmd+Shift+F on Mac) | Find on page (site-wide, not just here) — also in the burger menu |
 | Shift+Space | Collapse/expand all search results |
-| / | Focus the Search Builder input |
+| / | Put the cursor into the search field |
 
 ## Advanced
 

@@ -4,6 +4,7 @@ sidebar_position: 9
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
+import SiteLink from '@site/src/components/SiteLink';
 
 # Translation Editor
 
@@ -19,7 +20,7 @@ downloading locally and sending to the server — is deliberately turned
 off in this demo, so nobody can accidentally (or on purpose) overwrite a
 real translation file with this draft. Clicking "Save" here just shows a
 warning. To actually save, open the tool at its direct link:
-[/assets/lbl-en.html](pathname:///assets/lbl-en.html) — that one isn't a
+<SiteLink to="/assets/lbl-en.html">/assets/lbl-en.html</SiteLink> — that one isn't a
 demo, saving works for real there.
 :::
 

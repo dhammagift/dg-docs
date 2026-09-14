@@ -24,7 +24,7 @@ import SettingsLanguages from '@site/static/img/help/settings-languages.png';
 Набор групп меняется в зависимости от того, где вы находитесь — вот все
 группы, которые в ней встречаются:
 
-<img src={QuickSettingsFull} alt="Панель «Быстрые настройки» на странице результатов поиска — все группы сразу" style={{maxWidth: 340, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={QuickSettingsFull} alt="Панель «Быстрые настройки» на странице результатов поиска — все группы сразу" style={{maxWidth: 'min(340px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Где искать** — те же 4 Никаи / Кхуддака Никая / Виная, что и «Где
   искать по умолчанию» ниже на этой странице, но меняет область поиска
@@ -63,7 +63,7 @@ import SettingsLanguages from '@site/static/img/help/settings-languages.png';
   в ридере (см. [Режимы чтения](/read#режимы-чтения)); порядок можно
   менять перетаскиванием чипов.
 
-  <img src={SettingsLanguages} alt="Выбор языков для чтения — далеко не только русский и английский" style={{maxWidth: 460, display: 'block', margin: '0 auto 1.5rem'}} />
+  <img src={SettingsLanguages} alt="Выбор языков для чтения — далеко не только русский и английский" style={{maxWidth: 'min(460px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Система письма пали** — ISO-латиница и другие системы письма (см.
   [Систему письма пали](/read#система-письма-пали) в статье про Ридер).

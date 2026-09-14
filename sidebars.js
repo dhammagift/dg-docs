@@ -137,6 +137,7 @@ const sidebars = {
           className: 'dg-cat-tech',
           items: [
             'tech/installation',
+            'tech/offline-db',
             {
               type: 'link',
               label: 'API',

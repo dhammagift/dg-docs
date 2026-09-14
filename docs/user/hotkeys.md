@@ -24,9 +24,10 @@ way.
 |---|---|
 | **Alt+M** | Open / close the menu (burger) |
 | **Alt+S** | Quick settings |
+| **Alt+Shift+S** | Full settings |
 | **Alt+P** or **Alt+Y** | Quick window (compass): favorites, history, key suttas |
-| **Alt+H** | Help |
-| **Alt+T** | Light / dark theme |
+| **Alt+H** | Help for the current page: search, reader, table of contents |
+| **Alt+T** | Light / dark / auto theme |
 | **Alt+−** / **Alt+=** / **Alt+0** | Smaller / larger / normal text size |
 | **Alt+1** | Switch the site language (English / Russian) |
 | **Alt+2** | Table of contents: suttas and Vinaya |

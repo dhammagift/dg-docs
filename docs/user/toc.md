@@ -12,7 +12,7 @@ import TocPatimokkhaInline from '@site/static/img/help/toc-patimokkha-inline-en.
 A canon-wide table of contents (Sutta Piṭaka + Vinaya), separate from the
 reader's own per-sutta TOC (see [Reader](/read)) — this one lets you
 browse the whole collection and jump straight into a chapter. You can
-also open it from inside the reader — **Alt+W**.
+also open it from anywhere on the site — **Alt+2**.
 
 <AppFrame src="/toc" title="Live TOC navigator" height={700} />
 
@@ -33,7 +33,7 @@ also open it from inside the reader — **Alt+W**.
   sections expand right on the page, with Pali text and a built-in audio
   player for each sub-section, no need to jump into the full reader:
 
-  <img src={TocPatimokkhaInline} alt="Inline Pātimokkha preview right inside the TOC navigator" style={{maxWidth: 700, display: 'block', margin: '0 auto 1.5rem'}} />
+  <img src={TocPatimokkhaInline} alt="Inline Pātimokkha preview right inside the TOC navigator" style={{maxWidth: 'min(700px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Short URLs** — `/toc/<id>` opens the TOC scrolled straight to a given
   section (e.g. `/toc/mn`, `/toc/sn25`).
@@ -52,7 +52,7 @@ collection is shown — by default just Itivuttaka, Udāna, Suttanipāta,
 Dhammapada, Theragāthā and Therīgāthā. Hover the asterisk to see the
 list:
 
-<img src={TocKhuddakaTooltip} alt="Tooltip listing which Khuddaka Nikāya books show by default" style={{maxWidth: 420, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={TocKhuddakaTooltip} alt="Tooltip listing which Khuddaka Nikāya books show by default" style={{maxWidth: 'min(420px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 The remaining books (Jātaka and others) turn on from the **Quick
 Settings** panel → "Where to search" — see [Search](/search-guide) — the

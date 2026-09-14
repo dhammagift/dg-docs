@@ -4,6 +4,7 @@ sidebar_position: 1
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
+import SiteLink from '@site/src/components/SiteLink';
 import RegexTester from '@site/src/components/RegexTester';
 import SearchToolbar from '@site/static/img/help/search-toolbar.png';
 import SearchQuickSettings from '@site/static/img/help/search-quick-settings.png';
@@ -16,14 +17,14 @@ import SearchQuickSettings from '@site/static/img/help/search-quick-settings.png
 
 ## Панель инструментов над результатами
 
-<img src={SearchToolbar} alt="Кнопки над таблицей результатов поиска" style={{maxWidth: 700, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={SearchToolbar} alt="Кнопки над таблицей результатов поиска" style={{maxWidth: 'min(700px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Saṁvaṭṭo / Vivaṭṭo** — да, подписи буквально на пали («сворачивание» /
   «разворачивание») — разворачивает или сворачивает цитаты во всех строках
   таблицы разом (то же самое, что и Shift+Space).
 - **Слова** — переключает таблицу на список найденных слов вместо списка
   текстов.
-- **Словарь** (Alt+A) — вкл/выкл всплывающий словарь по клику на слово.
+- **Словарь** (значок реплики, Alt+A) — вкл/выкл всплывающий словарь по клику на слово.
 - **Мультивыбор** (Alt+J) — выделите несколько слов или целое предложение, и
   они сами откроются в словаре (см. [Словарь](/dictionary)).
 - **1/2 колонки** — переключает цитаты между одной широкой колонкой и
@@ -62,7 +63,7 @@ RegEx](#памятка-по-regex--попробуйте-вживую) ниже.
 включается поиск по Винае и выбирается, какие ещё книги Кхуддака Никаи
 подключить:
 
-<img src={SearchQuickSettings} alt="Панель «Быстрые настройки» — выбор области поиска" style={{maxWidth: 345, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={SearchQuickSettings} alt="Панель «Быстрые настройки» — выбор области поиска" style={{maxWidth: 'min(345px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 В той же панели настраивается количество строк контекста до/после цитаты
 («Контекст в цитатах») — тот же параметр, что и кнопки `lb`/`la` в API.
@@ -131,7 +132,7 @@ RegEx](#памятка-по-regex--попробуйте-вживую) ниже.
   (Theravada.ru или Theravada.su, когда доступно).
 
 Аббревиатуры изданий (`ms`, `pts1ed`, `sya-all`, `mr` и т.п.) — смотрите
-[Edition Abbreviations](pathname:///assets/texts/abbr.html) или
+<SiteLink to="/assets/texts/abbr.html">Edition Abbreviations</SiteLink> или
 [список SuttaCentral](https://suttacentral.net/abbreviations?lang=ru).
 
 ## Горячие клавиши
@@ -145,7 +146,7 @@ RegEx](#памятка-по-regex--попробуйте-вживую) ниже.
 | Alt+Space, Alt+Z | Показать/скрыть пали или другие языки в результатах |
 | Ctrl+Shift+F (на Mac — Cmd+Shift+F) | Найти на странице (работает на всём сайте, не только тут) — есть и в бургер-меню |
 | Shift+Space | Свернуть/развернуть все результаты поиска |
-| / | Активировать поле ввода Search Builder |
+| / | Поставить курсор в поле поиска |
 
 ## Для продвинутых
 

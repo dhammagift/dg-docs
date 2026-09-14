@@ -89,7 +89,7 @@ one place.
 
 ### The ☰ menu
 
-<img src={DictMenu} alt="The dictionary menu: find on the page, compass, language, theme, font size, settings, help" style={{maxWidth: 330, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={DictMenu} alt="The dictionary menu: find on the page, compass, language, theme, font size, settings, help" style={{maxWidth: 'min(330px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Find on the page** (Alt+F) — search the open entry, the same as on the site.
 - **Compass** (Alt+P) — the Dhamma.Gift quick window: the site's favorites and
@@ -107,7 +107,7 @@ one place.
 The book button in the search box (or Alt+S) opens the same word in other
 dictionaries and resources:
 
-<img src={DictPlatformDropdown} alt="The 'Look this word up in another dictionary' menu" style={{maxWidth: 520, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={DictPlatformDropdown} alt="The 'Look this word up in another dictionary' menu" style={{maxWidth: 'min(520px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Dhamma.Gift and DharmaMitra.org** — search the texts and grammar analysis.
 - **Pali dictionaries** — PTS Dictionary, Cone (Gandhari.org), DPR Analysis,

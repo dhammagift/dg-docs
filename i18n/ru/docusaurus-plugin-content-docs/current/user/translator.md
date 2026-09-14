@@ -4,6 +4,7 @@ sidebar_position: 9
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
+import SiteLink from '@site/src/components/SiteLink';
 
 # Редактор переводов
 
@@ -20,7 +21,7 @@ import AppFrame from '@site/src/components/AppFrame';
 перезаписать этим черновиком реальный файл перевода. Клик по «Сохранить»
 здесь просто покажет предупреждение. Чтобы сохранять по-настоящему —
 откройте инструмент по прямой ссылке
-[/assets/lbl.html](pathname:///assets/lbl.html).
+<SiteLink to="/assets/lbl.html">/assets/lbl.html</SiteLink>.
 :::
 
 ## Панель инструментов
@@ -81,5 +82,5 @@ import AppFrame from '@site/src/components/AppFrame';
 
 ---
 
-*Английская версия инструмента — [/assets/lbl-en.html](pathname:///assets/lbl-en.html)
+*Английская версия инструмента — <SiteLink to="/assets/lbl-en.html">/assets/lbl-en.html</SiteLink>
 — это уже настоящий инструмент, не демо: сохранение там работает по-настоящему.*

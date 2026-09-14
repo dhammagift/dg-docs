@@ -86,7 +86,7 @@ DPD, словари Gandhari и PTS, Buddhadust, Wisdom Library, санскри�
 
 ### Меню ☰
 
-<img src={DictMenu} alt="Меню словаря: найти на странице, компас, язык, тема, размер шрифта, настройки, справка" style={{maxWidth: 330, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={DictMenu} alt="Меню словаря: найти на странице, компас, язык, тема, размер шрифта, настройки, справка" style={{maxWidth: 'min(330px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Найти на странице** (Alt+F) — поиск по открытой статье, как на сайте.
 - **Компас** (Alt+P) — быстрое окно Dhamma.Gift: избранное и история сайта,
@@ -104,7 +104,7 @@ DPD, словари Gandhari и PTS, Buddhadust, Wisdom Library, санскри�
 Кнопка с книжкой в поле поиска (или Alt+S) открывает то же слово в других
 словарях и ресурсах:
 
-<img src={DictPlatformDropdown} alt="Меню «Искать это слово в другом словаре»" style={{maxWidth: 520, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={DictPlatformDropdown} alt="Меню «Искать это слово в другом словаре»" style={{maxWidth: 'min(520px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Dhamma.Gift и DharmaMitra.org** — поиск по текстам и грамматический разбор.
 - **Палийские словари** — PTS Dictionary, Cone (Gandhari.org), DPR Analysis,

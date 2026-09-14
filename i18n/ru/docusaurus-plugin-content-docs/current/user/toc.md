@@ -12,7 +12,7 @@ import TocPatimokkhaInline from '@site/static/img/help/toc-patimokkha-inline.png
 Оглавление всего канона (Сутта Питака + Виная), отдельное от TOC самого
 ридера для одной сутты (см. [Ридер](/read)) — здесь можно
 просматривать всю коллекцию и переходить прямо в нужную главу. Открыть
-можно и прямо из ридера — **Alt+W**.
+можно с любой страницы сайта — **Alt+2**.
 
 <AppFrame src="/toc" title="Живой навигатор TOC" height={700} />
 
@@ -33,7 +33,7 @@ import TocPatimokkhaInline from '@site/static/img/help/toc-patimokkha-inline.png
   разворачиваются прямо на странице, с текстом на пали и встроенным
   аудиоплеером на каждый подраздел, без перехода в отдельный ридер:
 
-  <img src={TocPatimokkhaInline} alt="Инлайн-просмотр Патимоккхи прямо в навигаторе TOC" style={{maxWidth: 700, display: 'block', margin: '0 auto 1.5rem'}} />
+  <img src={TocPatimokkhaInline} alt="Инлайн-просмотр Патимоккхи прямо в навигаторе TOC" style={{maxWidth: 'min(700px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Короткие ссылки** — `/toc/<id>` открывает оглавление сразу на нужном
   разделе (например `/toc/mn`, `/toc/sn25`).
@@ -52,7 +52,7 @@ import TocPatimokkhaInline from '@site/static/img/help/toc-patimokkha-inline.png
 Дхаммапада, Тхерагатха и Тхеригатха. Наведите курсор на звёздочку, чтобы
 увидеть список:
 
-<img src={TocKhuddakaTooltip} alt="Подсказка: какие книги Кхуддака Никаи показаны по умолчанию" style={{maxWidth: 420, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={TocKhuddakaTooltip} alt="Подсказка: какие книги Кхуддака Никаи показаны по умолчанию" style={{maxWidth: 'min(420px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 Остальные книги (Джатаки и другие) включаются в панели «Быстрые
 настройки» → «Где искать» — см. [Поиск](/search-guide) — тот же

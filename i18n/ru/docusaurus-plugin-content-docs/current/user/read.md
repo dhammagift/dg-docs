@@ -21,7 +21,7 @@ import ReaderQuickSettingsDict from '@site/static/img/help/reader-quick-settings
 Четыре режима чтения (панель «Режимы чтения» в бургер-меню ☰, каждый со
 своим хоткеем Alt+Shift):
 
-<img src={ReaderModesDrawer} alt="Панель «Режимы чтения» в бургер-меню" style={{maxWidth: 320, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={ReaderModesDrawer} alt="Панель «Режимы чтения» в бургер-меню" style={{maxWidth: 'min(320px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 | Хоткей | Режим | Что показывает |
 |---|---|---|
@@ -92,7 +92,7 @@ ISO-латиница → деванагари → тайское письмо. �
 чтения — в панели **«Быстрые настройки»** (значок с ползунками рядом с
 полем поиска, работает и внутри ридера):
 
-<img src={ReaderQuickSettingsDict} alt="Панель «Быстрые настройки» в ридере: режим словаря и опции чтения" style={{maxWidth: 300, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={ReaderQuickSettingsDict} alt="Панель «Быстрые настройки» в ридере: режим словаря и опции чтения" style={{maxWidth: 'min(300px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Словарь** — тот же список режимов, что описан на странице
   [Словарь](/dictionary): встроенный DPD, попап или новое окно Dict.DG
@@ -119,7 +119,8 @@ ISO-латиница → деванагари → тайское письмо. �
 | Alt+Q | Добавить/убрать текущую страницу из избранного |
 | Alt+A | Вкл/выкл [словарь](/dictionary) по клику на слово |
 | Alt+N | Открыть [словарь](/dictionary) в отдельном окне |
-| Alt+W | Открыть [Навигатор TOC](/toc) |
+| Alt+W | Оглавление текста |
+| Alt+2 | Открыть [Навигатор TOC](/toc) |
 | Ctrl+← / Ctrl+→ | Предыдущая / следующая сутта |
 | Клик по строке | Выделить для голосового плеера (см. [Голос / TTS](/tts)) |
 | Клик по ✦ в начале/конце строки | Открыть контекстное меню (см. выше) |
@@ -138,9 +139,8 @@ ISO-латиница → деванагари → тайское письмо. �
 - **DPR** — Digital Pali Reader, мьянманское и тайское письмо.
 - **BJT** — Buddha Jayanthi Tipitaka.
 - **SC** — SuttaCentral.net.
-- **BB** — переводы Бхиккху Бодхи и другие.
 - **TBW** — TheBuddhasWords.net.
-- **Th.ru / Th.su** — Theravada.ru / Theravada.su.
+- **Th.ru / Th.su** — Theravada.ru / Theravada.su (только в русском интерфейсе).
 - **Final** (только у текстов Винаи) — переход к финальной редакции
   правила, если оно менялось по ходу истории/обсуждения.
 

@@ -18,7 +18,7 @@ import LoginSynced from '@site/static/img/help/login-synced.png';
   устройстве, получит доступ к тем же синхронизированным данным —
   относитесь к ней как к паролю.
 
-<AppFrame src="/login" title="Вход / облачная синхронизация" height={500} />
+<AppFrame src="/ru/login/" title="Вход / облачная синхронизация" height={500} />
 
 ## Если на устройстве уже есть локальные данные
 
@@ -32,7 +32,7 @@ import LoginSynced from '@site/static/img/help/login-synced.png';
 
 ## После входа
 
-<img src={LoginSynced} alt="Экран после входа: фраза, время синхронизации, активные устройства, выйти/удалить данные" style={{maxWidth: 380, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={LoginSynced} alt="Экран после входа: фраза, время синхронизации, активные устройства, выйти/удалить данные" style={{maxWidth: 'min(380px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Синхр.** — принудительно запустить синхронизацию сразу, не дожидаясь
   автоматической.

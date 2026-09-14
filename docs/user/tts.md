@@ -11,9 +11,9 @@ import TtsAbLoop from '@site/static/img/help/tts-ab-loop-en.png';
 
 > The Dhamma was originally an oral teaching. — <SiteLink to="/an5.209">AN 5.209</SiteLink>
 
-Live demo — voice mode starts automatically via a URL parameter, no
-clicking required (the floating player at the bottom is the point here, not
-the reader text behind it):
+Live demo — the reader with voice mode loaded (`?autoplay=1` in the address).
+Click inside the frame and press **Alt+R**, or **Voice** in the links strip
+under the title, to open the player:
 
 <AppFrame src="/an5.209?autoplay=1&lang=en" title="Live voice player" height={260} />
 
@@ -47,7 +47,7 @@ normal playback: pick a start and end point in the text, and the player
 repeats just that passage, with a pause between repeats and a repeat
 limit (or infinite).
 
-<img src={TtsAbLoop} alt="A-B loop panel: A/B points, pause between repeats, repeat counter" style={{maxWidth: 300, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={TtsAbLoop} alt="A-B loop panel: A/B points, pause between repeats, repeat counter" style={{maxWidth: 'min(300px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - Click **AB** — if a line was already selected, it immediately becomes
   point **A** and the panel waits for you to click a line for point **B**;

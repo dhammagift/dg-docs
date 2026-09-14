@@ -34,7 +34,7 @@ Know a site or app that belongs here? Tell us via
 The set of tiles isn't fixed — open the burger menu (☰), all the way at
 the bottom, under "Settings":
 
-<img src={DrawerSettings} alt="'Add your own button' and 'Edit buttons' entries in the burger menu" style={{maxWidth: 340, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={DrawerSettings} alt="'Add your own button' and 'Edit buttons' entries in the burger menu" style={{maxWidth: 'min(340px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Add your own button** — your own link with fields for **Label** (up
   to 24 characters), **Address** (you can drop `{{q}}` into it — it gets
@@ -42,7 +42,7 @@ the bottom, under "Settings":
   (optional, shown as a tooltip), and an **Icon** — pick one from the
   built-in set or type your own emoji:
 
-  <img src={EditTile} alt="Button edit form: label, address, description, icon" style={{maxWidth: 480, display: 'block', margin: '0 auto 1.5rem'}} />
+  <img src={EditTile} alt="Button edit form: label, address, description, icon" style={{maxWidth: 'min(480px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Edit buttons** — a list of every tile (built-in and your own) with a
   visibility checkbox next to each: uncheck it and the tile disappears
@@ -53,7 +53,7 @@ the bottom, under "Settings":
   original" in the same menu undoes the edit and turns auto-updating
   back on):
 
-  <img src={EditList} alt="List of tiles with visibility checkboxes" style={{maxWidth: 480, display: 'block', margin: '0 auto 1.5rem'}} />
+  <img src={EditList} alt="List of tiles with visibility checkboxes" style={{maxWidth: 'min(480px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 - **Tile order** — on the home screen itself, tiles can be dragged: with
   a mouse, just drag (a small initial movement starts the drag, so it
   doesn't interfere with a plain click); on a phone, press and hold for

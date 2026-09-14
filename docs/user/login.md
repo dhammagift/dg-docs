@@ -32,7 +32,7 @@ favorites shows a choice:
 
 ## After logging in
 
-<img src={LoginSynced} alt="Post-login screen: phrase, last sync time, active devices, sign out/delete data" style={{maxWidth: 380, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={LoginSynced} alt="Post-login screen: phrase, last sync time, active devices, sign out/delete data" style={{maxWidth: 'min(380px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Sync now** — force a sync right away instead of waiting for the
   automatic one.

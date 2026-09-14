@@ -24,7 +24,7 @@ working: on the home screen, in search results, or in the reader,
 without leaving for a separate page. Which groups show up depends on
 where you are — here are all of them, together:
 
-<img src={QuickSettingsFull} alt="The Quick Settings panel on the search results page — every group at once" style={{maxWidth: 340, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={QuickSettingsFull} alt="The Quick Settings panel on the search results page — every group at once" style={{maxWidth: 'min(340px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Where to search** — the same 4 Nikāyas / Khuddaka Nikāya / Vinaya
   toggles as "Default search scope" below on this page, but this one
@@ -63,7 +63,7 @@ anywhere.
   reader's display mode (see [Reading modes](/read#reading-modes)); drag
   the chips to reorder them.
 
-  <img src={SettingsLanguages} alt="Choosing reading languages — well beyond just English and Russian" style={{maxWidth: 460, display: 'block', margin: '0 auto 1.5rem'}} />
+  <img src={SettingsLanguages} alt="Choosing reading languages — well beyond just English and Russian" style={{maxWidth: 'min(460px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Pali script** — Latin (ISO) and other scripts (see [Pali
   script](/read#pali-script) on the Reader page). A separate toggle

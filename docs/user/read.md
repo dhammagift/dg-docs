@@ -21,7 +21,7 @@ clone — click around, switch modes, change the font):
 Four reading modes, listed under "Reading modes" in the burger menu (☰),
 each with its own Alt+Shift hotkey:
 
-<img src={ReaderModesDrawer} alt="The 'Reading modes' panel in the burger menu" style={{maxWidth: 320, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={ReaderModesDrawer} alt="The 'Reading modes' panel in the burger menu" style={{maxWidth: 'min(320px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 | Hotkey | Mode | What it shows |
 |---|---|---|
@@ -46,7 +46,7 @@ The reader's real gem is the per-line context menu. Hover (or tap) the
 start or end of any line — Pali or translation — and a tiny **✦**
 appears; clicking it opens a menu with 7 actions:
 
-<img src={ReaderContextMenu} alt="Segment context menu: Line, Paragraph, Link, Voice, Bookmark, Memorize, Compare" style={{maxWidth: 460, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={ReaderContextMenu} alt="Segment context menu: Line, Paragraph, Link, Voice, Bookmark, Memorize, Compare" style={{maxWidth: 'min(460px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Line** — copy this line (Pali + translation) with a link to it.
 - **Paragraph** — copy every line from here to the end of the paragraph
@@ -92,7 +92,7 @@ The dictionary mode (which window it opens) and a couple of other reading
 options live in the **Quick Settings** panel (the sliders icon next to
 the search box — also works inside the reader):
 
-<img src={ReaderQuickSettingsDict} alt="Quick Settings panel in the reader: dictionary mode and reading options" style={{maxWidth: 300, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={ReaderQuickSettingsDict} alt="Quick Settings panel in the reader: dictionary mode and reading options" style={{maxWidth: 'min(300px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Dictionary** — the same list of modes described on the
   [Dictionary](/dictionary) page: built-in DPD, Dict.DG popup or new
@@ -121,7 +121,8 @@ keyboard doesn't have them.
 | Alt+Q | Add/remove the current page from favorites |
 | Alt+A | Toggle the [dictionary](/dictionary) on word click |
 | Alt+N | Open the [dictionary](/dictionary) in a separate window |
-| Alt+W | Open the [TOC Navigator](/toc) |
+| Alt+W | Table of contents of the text |
+| Alt+2 | Open the [TOC Navigator](/toc) |
 | Ctrl+← / Ctrl+→ | Previous / next sutta |
 | Click a line | Select it for the voice player (see [Voice / TTS](/tts)) |
 | Click ✦ at the start/end of a line | Open the context menu (see above) |
@@ -140,9 +141,8 @@ the same passage:
 - **DPR** — Digital Pali Reader, Burmese and Thai script.
 - **BJT** — Buddha Jayanthi Tipitaka.
 - **SC** — SuttaCentral.net.
-- **BB** — Bhikkhu Bodhi's translations and others.
 - **TBW** — TheBuddhasWords.net.
-- **Th.ru / Th.su** — Theravada.ru / Theravada.su.
+- **Th.ru / Th.su** — Theravada.ru / Theravada.su (Russian interface only).
 - **Final** (Vinaya texts only) — jumps to the final edition of a rule, if
   it changed over the course of the history/discussion.
 

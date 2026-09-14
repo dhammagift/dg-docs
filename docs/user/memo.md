@@ -26,7 +26,7 @@ whole text in your head and the page only shows you the anchor letters.
 Clicking a letter doesn't just reveal the full word in a tooltip — it
 also opens that word's **dictionary** entry right next to it:
 
-<img src={MemoBubble} alt="Clicking a first letter reveals the word and its dictionary entry" style={{maxWidth: 700, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={MemoBubble} alt="Clicking a first letter reveals the word and its dictionary entry" style={{maxWidth: 'min(700px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 :::tip[For a whole canonical text, switch reader modes instead of copying]
 "Transform" is for your own text — notes, a hand-picked set of lines. To

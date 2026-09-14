@@ -16,7 +16,7 @@ import MemoBubble from '@site/static/img/help/memo-firstletter-bubble.png';
 пункт **«Запомнить»** в [контекстном меню ридера](/read#контекстное-меню)
 открывает Мемо сразу с нужным отрывком.
 
-<AppFrame src="/memo" title="Мемо — Memorize & Meditate" height={700} />
+<AppFrame src="/ru/memo/" title="Мемо — Memorize & Meditate" height={700} />
 
 ## Сжать — подсказки по первой букве
 
@@ -26,7 +26,7 @@ import MemoBubble from '@site/static/img/help/memo-firstletter-bubble.png';
 показывает целое слово во всплывающей подсказке — рядом сразу открывается
 статья **словаря** для этого слова:
 
-<img src={MemoBubble} alt="Клик по первой букве показывает слово и его статью в словаре" style={{maxWidth: 700, display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={MemoBubble} alt="Клик по первой букве показывает слово и его статью в словаре" style={{maxWidth: 'min(700px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 :::tip[Для целых канонических текстов — не копируйте, а переключите режим ридера]
 «Сжать» — для своего текста (заметки, собственная подборка строк). Чтобы
