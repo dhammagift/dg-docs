@@ -15,7 +15,7 @@ import PopupDark from '@site/static/img/help/dict-popup-dark.png';
 
 # Словарь
 
-<a href="https://dict.dhamma.gift" style={{display: 'inline-block', margin: '0 0 1rem'}}>
+<a href="https://dict.dhamma.gift" className="dg-dict-logo">
   <ThemedImage
     alt="Логотип Dict.Dhamma.Gift: pāḷi письмом брахми на зелёной черте"
     sources={{light: useBaseUrl('/img/dict-logo-light.svg'), dark: useBaseUrl('/img/dict-logo-dark.svg')}}
