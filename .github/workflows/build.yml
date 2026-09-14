@@ -7,17 +7,21 @@ name: Build docs
 # The server does not build: installing Docusaurus and running two builds needs ~1GB of RAM on a
 # box that has already gone down from memory pressure. There, dg-node's dg-docs/ directory is a
 # plain clone of this repo's `dist` branch, refreshed by a periodic `git pull` — no Node involved.
+#
+# Preview: pushes to `preview` publish to `dist-preview` instead. test.dhamma.gift follows
+# `dist-preview`, dhamma.gift follows `dist` — docs changes are checked on the test site first and
+# reach production only when `preview` is fast-forwarded into `main`.
 
 on:
   push:
-    branches: [main]
+    branches: [main, preview]
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: dist
+  group: dist-${{ github.ref_name }}
   cancel-in-progress: true
 
 jobs:
@@ -40,18 +44,19 @@ jobs:
       - name: Build RU
         run: npm run build:ru
 
-      - name: Publish to dist
+      - name: Publish (main → dist, preview → dist-preview)
         run: |
           set -e
           SRC_SHA="$(git rev-parse --short HEAD)"
+          TARGET=$([ "$GITHUB_REF_NAME" = main ] && echo dist || echo dist-preview)
           mkdir -p "$RUNNER_TEMP/dist"
           cp -r build build-ru "$RUNNER_TEMP/dist/"
           cd "$RUNNER_TEMP/dist"
-          git init -q -b dist
+          git init -q -b "$TARGET"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -q -m "docs build from main ${SRC_SHA}"
+          git commit -q -m "docs build from ${GITHUB_REF_NAME} ${SRC_SHA}"
           # One commit, force-pushed: the branch is a deploy artifact, not history. The server's
           # clone follows it with `git fetch && git reset --hard origin/dist`, not a merge.
-          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" dist
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "$TARGET"
