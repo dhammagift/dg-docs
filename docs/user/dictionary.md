@@ -7,6 +7,8 @@ import AppFrame from '@site/src/components/AppFrame';
 import PageTools from '@site/src/components/PageTools';
 import ThemedImage from '@theme/ThemedImage';
 import DictPlatformDropdown from '@site/static/img/help/dict-platform-dropdown-en.png';
+import DictMenu from '@site/static/img/help/dict-menu-en.png';
+import DictWordPage from '@site/static/img/help/dict-word-page-en.png';
 import PopupLight from '@site/static/img/help/dict-popup-light-en.png';
 import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
 
@@ -67,13 +69,54 @@ Drag the window by its title and resize it from the bottom right corner.
 ## The full version: Dict.Dhamma.Gift
 
 [Dict.Dhamma.Gift](https://dict.dhamma.gift) isn't just one dictionary,
-it's a platform — the page itself is titled "Pali Multi-Dictionary", and
-its manifest describes it as "a Pāḷi multi-dictionary combining DPD,
-Gandhari, PTS, Sanskrit and Sutta-Vinaya definitions in one place". The
-📘 button next to the search box opens access to all of these sources —
-see below.
+it's a platform: DPD, the Gandhari and PTS dictionaries, Buddhadust, Wisdom
+Library, Sanskrit dictionaries and definitions from the Suttas and Vinaya in
+one place.
 
 <AppFrame src="/dict/" title="Dict.Dhamma.Gift" height={550} />
+
+### The word page
+
+<img src={DictWordPage} alt="The page for dukkha: history on the left, the DPD entry, buttons next to the word" style={{maxWidth: '100%', display: 'block', margin: '0 auto 1.5rem'}} />
+
+- **On the left** — favorite and recent words. The clock button in the header
+  hides and shows this column; on a phone it opens the list.
+- **Next to the word** — ☆ to favorites (Alt+Q), 🔊 read aloud (Alt+R), copy
+  the word and a link to it.
+- **"Open on Dhamma.Gift"** — searches the site's texts for the word (Alt+3
+  does the same).
+- Double-clicking any word inside an entry also searches for it.
+
+### The ☰ menu
+
+<img src={DictMenu} alt="The dictionary menu: find on the page, compass, language, theme, font size, settings, help" style={{maxWidth: 330, display: 'block', margin: '0 auto 1.5rem'}} />
+
+- **Find on the page** (Alt+F) — search the open entry, the same as on the site.
+- **Compass** (Alt+P) — the Dhamma.Gift quick window: the site's favorites and
+  history, key suttas, Memo.
+- **Appearance** — interface language, light or dark theme, font size
+  (Alt+− / Alt+= / Alt+0).
+- **Settings** (Alt+Shift+S) — everything else: serif font, niggahita
+  spelling (ṃ/ṁ), which entry sections open right away, the "one section at
+  a time" mode, the sandhi mark (’), the read-aloud voice, project links,
+  clearing history and resetting settings.
+- **Help** (Alt+H) — this page.
+
+### Other dictionaries — Alt+S
+
+The book button in the search box (or Alt+S) opens the same word in other
+dictionaries and resources:
+
+<img src={DictPlatformDropdown} alt="The 'Look this word up in another dictionary' menu" style={{maxWidth: 520, display: 'block', margin: '0 auto 1.5rem'}} />
+
+- **Dhamma.Gift and DharmaMitra.org** — search the texts and grammar analysis.
+- **Pali dictionaries** — PTS Dictionary, Cone (Gandhari.org), DPR Analysis,
+  Critical Pali Dictionary (CPD).
+- **Sanskrit dictionaries** — Monier-Williams and other dictionaries from
+  sanskrit-lexicon.uni-koeln.de, Glosbe Pāḷi-Sanskrit, Sanskrit Dictionary,
+  LearnSanskrit.
+- **Other resources** — WisdomLib, Google Custom Search, Aksharamukha (script
+  converter).
 
 ### Dictionary hotkeys
 
@@ -93,28 +136,6 @@ see below.
 | Alt+1 | Switch interface language (En/Ru) |
 | Alt+2 | Dhamma.Gift table of contents |
 | Alt+3 | This word in Dhamma.Gift search |
-
-Double-clicking any word inside an entry also searches for it.
-
-### The whole platform at once — the 📘 button
-
-<img src={DictPlatformDropdown} alt="Dict.Dhamma.Gift's menu of every connected dictionary" style={{maxWidth: 320, display: 'block', margin: '0 auto 1.5rem'}} />
-
-- **Quick links** — search via Dhamma.Gift, DharmaMitra.org.
-- **Pali dictionaries** — PTS Dictionary, Cone (Gandhari.org), DPR
-  Analysis, Critical Pali Dictionary (CPD).
-- **Sanskrit dictionaries** — Monier-Williams and three more from
-  sanskrit-lexicon.uni-koeln.de (Śabda-sāgara, Apte, Macdonell), Glosbe
-  Pāḷi-Sanskrit, Sanskrit Dictionary, LearnSanskrit.
-- **Other resources** — WisdomLib, Google Custom Search, Aksharamukha
-  (script converter).
-
-### Display settings
-
-The right-hand panel has font size, dark/light theme, serif font,
-niggahita spelling (ṃ/ṁ), collapsing grammar/examples/summary sections by
-default, an "one section at a time" accordion mode, the sandhi mark (’),
-male/female voice for read-aloud, and showing/hiding source links.
 
 ## A separate site and browser extensions
 

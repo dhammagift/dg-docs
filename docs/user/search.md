@@ -24,6 +24,8 @@ Live search — try it directly (this is the real search page):
 - **Words** — switches the table from a list of texts to a list of the
   matched words instead.
 - **Dict** (Alt+A) — turns the click-to-look-up popup dictionary on/off.
+- **Multi-select** (Alt+J) — select several words or a whole sentence and
+  it opens in the dictionary by itself (see [Dictionary](/dictionary)).
 - **1/2 columns** — toggles quotes between one wide column and Pali +
   translation side by side.
 - **Marks** — adds a "read" checkbox column to every row. These marks

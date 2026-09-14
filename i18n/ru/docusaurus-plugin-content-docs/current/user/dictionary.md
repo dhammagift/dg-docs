@@ -7,6 +7,8 @@ import AppFrame from '@site/src/components/AppFrame';
 import PageTools from '@site/src/components/PageTools';
 import ThemedImage from '@theme/ThemedImage';
 import DictPlatformDropdown from '@site/static/img/help/dict-platform-dropdown.png';
+import DictMenu from '@site/static/img/help/dict-menu.png';
+import DictWordPage from '@site/static/img/help/dict-word-page.png';
 import PopupLight from '@site/static/img/help/dict-popup-light.png';
 import PopupDark from '@site/static/img/help/dict-popup-dark.png';
 
@@ -66,12 +68,52 @@ import PopupDark from '@site/static/img/help/dict-popup-dark.png';
 ## Полная версия: Dict.Dhamma.Gift
 
 [Dict.Dhamma.Gift](https://dict.dhamma.gift) — не один словарь, а платформа:
-собственная страница так и называется «Пали Мультисловарь», а её манифест
-описывает её как «Pāḷi multi-dictionary combining DPD, Gandhari, PTS,
-Sanskrit and Sutta-Vinaya definitions in one place». Кнопка 📘 рядом с полем
-поиска открывает доступ сразу ко всем источникам — см. ниже.
+DPD, словари Gandhari и PTS, Buddhadust, Wisdom Library, санскритские словари и
+определения из Сутт и Винаи в одном месте.
 
 <AppFrame src="/dict/ru" title="Dict.Dhamma.Gift" height={550} />
+
+### Страница слова
+
+<img src={DictWordPage} alt="Страница слова dukkha: история слева, статья DPD, кнопки у слова" style={{maxWidth: '100%', display: 'block', margin: '0 auto 1.5rem'}} />
+
+- **Слева** — избранное и история слов. Кнопка с часами в шапке скрывает и
+  показывает эту колонку, на телефоне открывает список.
+- **У слова** — ☆ в избранное (Alt+Q), 🔊 озвучить (Alt+R), скопировать слово
+  и ссылку на него.
+- **«Открыть на Dhamma.Gift»** — искать слово в текстах сайта (то же делает Alt+3).
+- Двойной клик по любому слову в статье — тоже поиск.
+
+### Меню ☰
+
+<img src={DictMenu} alt="Меню словаря: найти на странице, компас, язык, тема, размер шрифта, настройки, справка" style={{maxWidth: 330, display: 'block', margin: '0 auto 1.5rem'}} />
+
+- **Найти на странице** (Alt+F) — поиск по открытой статье, как на сайте.
+- **Компас** (Alt+P) — быстрое окно Dhamma.Gift: избранное и история сайта,
+  ключевые сутты, «Запоминание».
+- **Вид** — язык интерфейса, светлая или тёмная тема, размер шрифта
+  (Alt+− / Alt+= / Alt+0).
+- **Настройки** (Alt+Shift+S) — всё остальное: шрифт с засечками, написание
+  ниггахиты (ṃ/ṁ), какие разделы статьи раскрывать сразу, режим «по одному
+  разделу за раз», символ сандхи (’), голос озвучки, ссылки на проекты,
+  очистка истории и сброс настроек.
+- **Справка** (Alt+H) — эта страница.
+
+### Другие словари — Alt+S
+
+Кнопка с книжкой в поле поиска (или Alt+S) открывает то же слово в других
+словарях и ресурсах:
+
+<img src={DictPlatformDropdown} alt="Меню «Искать это слово в другом словаре»" style={{maxWidth: 520, display: 'block', margin: '0 auto 1.5rem'}} />
+
+- **Dhamma.Gift и DharmaMitra.org** — поиск по текстам и грамматический разбор.
+- **Палийские словари** — PTS Dictionary, Cone (Gandhari.org), DPR Analysis,
+  Critical Pali Dictionary (CPD).
+- **Санскритские словари** — Monier-Williams и другие словари
+  sanskrit-lexicon.uni-koeln.de, Glosbe Pāḷi-Sanskrit, Sanskrit Dictionary,
+  LearnSanskrit.
+- **Другие ресурсы** — WisdomLib, Google Custom Search, Aksharamukha
+  (конвертер письма).
 
 ### Горячие клавиши словаря
 
@@ -91,29 +133,6 @@ Sanskrit and Sutta-Vinaya definitions in one place». Кнопка 📘 рядо
 | Alt+1 | Переключить язык интерфейса (En/Ru) |
 | Alt+2 | Оглавление Dhamma.Gift |
 | Alt+3 | Это слово в поиске Dhamma.Gift |
-
-Двойной клик по любому слову в статье — тоже поиск.
-
-### Вся платформа сразу — кнопка 📘
-
-<img src={DictPlatformDropdown} alt="Меню Dict.Dhamma.Gift со всеми подключёнными словарями" style={{maxWidth: 320, display: 'block', margin: '0 auto 1.5rem'}} />
-
-- **Быстрые ссылки** — поиск через Dhamma.Gift, DharmaMitra.org.
-- **Палийские словари** — PTS Dictionary, Cone (Gandhari.org), DPR Analysis,
-  Critical Pali Dictionary (CPD).
-- **Санскритские словари** — Monier-Williams и ещё три словаря с
-  sanskrit-lexicon.uni-koeln.de (Śabda-sāgara, Apte, Macdonell), Glosbe
-  Pāḷi-Sanskrit, Sanskrit Dictionary, LearnSanskrit.
-- **Другие ресурсы** — WisdomLib, Google Custom Search, Aksharamukha
-  (конвертер письма).
-
-### Настройки отображения
-
-В панели справа — размер шрифта, тёмная/светлая тема, засечки шрифта,
-написание нигга̄хиты (ṃ/ṁ), сворачивание разделов грамматики/примеров/сводки
-по умолчанию, режим «по одному разделу за раз» (аккордеон вместо всего
-сразу), символ сандхи (’), озвучка мужским/женским голосом и показ/скрытие
-ссылок на источники.
 
 ## Отдельный сайт и расширения для браузеров
 
