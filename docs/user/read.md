@@ -4,11 +4,14 @@ sidebar_position: 2
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
+import ReaderLogo from '@site/static/img/reader-logo.png';
 import ReaderModesDrawer from '@site/static/img/help/reader-modes-drawer-en.png';
 import ReaderContextMenu from '@site/static/img/help/reader-context-menu-en.png';
 import ReaderQuickSettingsDict from '@site/static/img/help/reader-quick-settings-dict-en.png';
 
 # Reader
+
+<img src={ReaderLogo} className="dg-page-logo" alt="Dhamma.Gift logo: a conch shell over an open book" style={{width: 170}} />
 
 Open any sutta directly by its id (`dn22`, `mn139`, `sn56.11`, `an4.180`) —
 no search needed. Try it live below (this is the real reader, not a demo

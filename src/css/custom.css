@@ -206,9 +206,10 @@
   }
 }
 
-/* Dictionary page logo: its own line on phones, floated beside the intro paragraph on desktop. */
-.dg-dict-logo { display: inline-block; margin: 0 0 1rem; }
+/* Page logos (dictionary, reader, search): their own line on phones, floated beside the intro
+   paragraph on desktop; whatever follows that paragraph starts below the logo. */
+.dg-page-logo { display: inline-block; margin: 0 0 1rem; }
 @media (min-width: 997px) {
-  .dg-dict-logo { float: right; margin: 0.25rem 0 1rem 2.5rem; }
-  .dg-dict-logo ~ h2 { clear: both; }
+  .dg-page-logo { float: right; margin: 0.25rem 0 1rem 2.5rem; }
+  .dg-page-logo + p + * { clear: both; }
 }

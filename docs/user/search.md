@@ -4,12 +4,15 @@ sidebar_position: 1
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
+import SearchLogo from '@site/static/img/search-logo.png';
 import SiteLink from '@site/src/components/SiteLink';
 import RegexTester from '@site/src/components/RegexTester';
 import SearchToolbar from '@site/static/img/help/search-toolbar-en.png';
 import SearchQuickSettings from '@site/static/img/help/search-quick-settings-en.png';
 
 # Search
+
+<img src={SearchLogo} className="dg-page-logo" alt="Search icon: a magnifying glass with a diamond lens" style={{width: 110}} />
 
 Live search — try it directly (this is the real search page):
 

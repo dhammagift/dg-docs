@@ -4,11 +4,14 @@ sidebar_position: 2
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
+import ReaderLogo from '@site/static/img/reader-logo.png';
 import ReaderModesDrawer from '@site/static/img/help/reader-modes-drawer.png';
 import ReaderContextMenu from '@site/static/img/help/reader-context-menu.png';
 import ReaderQuickSettingsDict from '@site/static/img/help/reader-quick-settings-dict.png';
 
 # Ридер
+
+<img src={ReaderLogo} className="dg-page-logo" alt="Логотип Dhamma.Gift: раковина над открытой книгой" style={{width: 170}} />
 
 Открывайте любую сутту напрямую по её id (`dn22`, `mn139`, `sn56.11`,
 `an4.180`) — поиск не нужен. Попробуйте прямо здесь (это настоящий ридер, а

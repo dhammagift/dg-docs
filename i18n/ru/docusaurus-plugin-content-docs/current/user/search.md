@@ -4,12 +4,15 @@ sidebar_position: 1
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
+import SearchLogo from '@site/static/img/search-logo.png';
 import SiteLink from '@site/src/components/SiteLink';
 import RegexTester from '@site/src/components/RegexTester';
 import SearchToolbar from '@site/static/img/help/search-toolbar.png';
 import SearchQuickSettings from '@site/static/img/help/search-quick-settings.png';
 
 # Поиск
+
+<img src={SearchLogo} className="dg-page-logo" alt="Значок поиска: лупа с линзой-бриллиантом" style={{width: 110}} />
 
 Живой поиск — попробуйте прямо здесь (это настоящая страница поиска):
 
