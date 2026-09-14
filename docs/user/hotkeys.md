@@ -27,13 +27,13 @@ way.
 | **Alt+P** or **Alt+Y** | Quick window (compass): favorites, history, key suttas |
 | **Alt+H** | Help |
 | **Alt+T** | Light / dark theme |
-| **Alt+−** / **Alt+=** | Smaller / larger text |
+| **Alt+−** / **Alt+=** / **Alt+0** | Smaller / larger / normal text size |
 | **Alt+1** | Switch the site language (English / Russian) |
 | **Alt+2** | Table of contents: suttas and Vinaya |
 | **Alt+3** | Dictionary (dict.dhamma.gift) |
 | **/** | Put the cursor into the search field |
 | **Esc** | Close the open window, menu or notification |
-| **Ctrl+Shift+F** or **Alt+Shift+F** | Find on the page |
+| **Alt+F**, **Alt+Shift+F** or **Ctrl+Shift+F** | Find on the page |
 | **Ctrl+1** | Home / search |
 | **Ctrl+2** | Table of contents: suttas and Vinaya |
 | **Ctrl+3** | Dictionary (dict.dhamma.gift) |
@@ -50,7 +50,7 @@ way.
 | **Alt+W** | Table of contents of the text |
 | **Alt+L** | Pali script: Latin → Devanagari → Thai |
 | **Alt+.** or **Alt+,** | Show / hide punctuation in Pali |
-| **Alt+F** | Add to / remove from favorites |
+| **Alt+Q** | Add to / remove from favorites |
 | **Alt+R** | Read aloud: start / pause |
 
 ## Search results

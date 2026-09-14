@@ -118,7 +118,7 @@ keyboard doesn't have them.
 | Alt+1 | Switch the language (English / Russian) |
 | Alt+C | Toggle 1-column / 2-column layout |
 | Alt+V | Show/hide Pali spelling variants |
-| Alt+F | Add/remove the current page from favorites |
+| Alt+Q | Add/remove the current page from favorites |
 | Alt+A | Toggle the [dictionary](/dictionary) on word click |
 | Alt+N | Open the [dictionary](/dictionary) in a separate window |
 | Alt+W | Open the [TOC Navigator](/toc) |

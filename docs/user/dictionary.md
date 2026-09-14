@@ -80,10 +80,19 @@ see below.
 | Key | Action |
 |---|---|
 | `/` | Focus the search box |
-| Alt+1 | Switch interface language (En/Ru) |
-| Alt+2 | Open Dhamma.Gift (without the current word) |
-| Alt+3 | Open Dhamma.Gift with the current query |
+| Alt+M | Menu |
+| Alt+P or Alt+Y | Compass — the Dhamma.Gift quick window |
+| Alt+F | Find on the page |
+| Alt+S | Look the word up in another dictionary |
+| Alt+Shift+S | Settings |
+| Alt+H | Help |
+| Alt+Q | Add the word to favorites |
+| Alt+R | Read the word aloud |
 | Alt+T | Toggle theme |
+| Alt+− / Alt+= / Alt+0 | Smaller / larger / normal font size |
+| Alt+1 | Switch interface language (En/Ru) |
+| Alt+2 | Dhamma.Gift table of contents |
+| Alt+3 | This word in Dhamma.Gift search |
 
 Double-clicking any word inside an entry also searches for it.
 
