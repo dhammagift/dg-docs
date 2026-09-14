@@ -28,7 +28,7 @@ import SiteLink from '@site/src/components/SiteLink';
 - Dhamma.Gift Android TWA — доступно в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
 - [Dict.Dhamma.Gift PWA](https://dict.dhamma.gift) — специализированное
   словарное PWA.
-- Dict.Dhamma.Gift Android TWA — доступно в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
+- Dict.Dhamma.Gift Android TWA — скоро в Google Play.
 
 **Браузерные расширения**
 - [Расширение для Chrome](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)

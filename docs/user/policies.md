@@ -26,7 +26,7 @@ Pali texts does not require users to reveal their personal identity.
 - <SiteLink to="/">Dhamma.Gift PWA</SiteLink> — installable Progressive Web App.
 - Dhamma.Gift Android TWA — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
 - [Dict.Dhamma.Gift PWA](https://dict.dhamma.gift) — specialized dictionary PWA.
-- Dict.Dhamma.Gift Android TWA — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
+- Dict.Dhamma.Gift Android TWA — coming to Google Play.
 
 **Browser Extensions**
 - [Chrome Extension](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
