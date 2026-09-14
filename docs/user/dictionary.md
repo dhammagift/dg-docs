@@ -142,7 +142,7 @@ dictionaries and resources:
 | Alt+R | Read the word aloud |
 | Alt+T | Toggle theme |
 | Alt+− / Alt+= / Alt+0 | Smaller / larger / normal font size |
-| Alt+1 | Switch interface language (En/Ru) |
+| Alt+1 | Switch interface language (En/Ru) — or click «Pāḷi → En/Ru» next to the logo |
 | Alt+2 | Dhamma.Gift table of contents |
 | Alt+3 | This word in Dhamma.Gift search |
 
