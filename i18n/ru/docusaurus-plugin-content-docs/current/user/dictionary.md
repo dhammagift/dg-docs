@@ -6,6 +6,7 @@ sidebar_position: 4
 import AppFrame from '@site/src/components/AppFrame';
 import PageTools from '@site/src/components/PageTools';
 import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import DictPlatformDropdown from '@site/static/img/help/dict-platform-dropdown.png';
 import DictMenu from '@site/static/img/help/dict-menu.png';
 import DictWordPage from '@site/static/img/help/dict-word-page.png';
@@ -13,6 +14,14 @@ import PopupLight from '@site/static/img/help/dict-popup-light.png';
 import PopupDark from '@site/static/img/help/dict-popup-dark.png';
 
 # Словарь
+
+<a href="https://dict.dhamma.gift" style={{display: 'inline-block', margin: '0 0 1rem'}}>
+  <ThemedImage
+    alt="Логотип Dict.Dhamma.Gift: pāḷi письмом брахми на зелёной черте"
+    sources={{light: useBaseUrl('/img/dict-logo-light.svg'), dark: useBaseUrl('/img/dict-logo-dark.svg')}}
+    style={{width: 120, display: 'block'}}
+  />
+</a>
 
 Словарь встроен в сайт: он всплывает по клику на палийское слово при чтении и
 открывается во вкладке «Словарь» в [Быстром окне](/quickmodal). Встроенный

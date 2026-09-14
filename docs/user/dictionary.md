@@ -6,6 +6,7 @@ sidebar_position: 4
 import AppFrame from '@site/src/components/AppFrame';
 import PageTools from '@site/src/components/PageTools';
 import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import DictPlatformDropdown from '@site/static/img/help/dict-platform-dropdown-en.png';
 import DictMenu from '@site/static/img/help/dict-menu-en.png';
 import DictWordPage from '@site/static/img/help/dict-word-page-en.png';
@@ -13,6 +14,14 @@ import PopupLight from '@site/static/img/help/dict-popup-light-en.png';
 import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
 
 # Dictionary
+
+<a href="https://dict.dhamma.gift" style={{display: 'inline-block', margin: '0 0 1rem'}}>
+  <ThemedImage
+    alt="Dict.Dhamma.Gift logo: pāḷi in Brahmi script on a green line"
+    sources={{light: useBaseUrl('/img/dict-logo-light.svg'), dark: useBaseUrl('/img/dict-logo-dark.svg')}}
+    style={{width: 120, display: 'block'}}
+  />
+</a>
 
 The dictionary is built into the site: it pops up when you click a Pali word
 while reading, and it opens in the "Dictionary" tab of the [Quick
