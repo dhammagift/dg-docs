@@ -4,7 +4,6 @@ sidebar_position: 9
 ---
 
 import AppFrame from '@site/src/components/AppFrame';
-import SiteLink from '@site/src/components/SiteLink';
 
 # Translation Editor
 
@@ -14,14 +13,8 @@ templates, and two ways to work with the text.
 
 <AppFrame src="/assets/lbl-en.html?q=mn1&demo=1" title="Translation Editor" height={650} />
 
-:::info[The "Save" button is disabled in this demo]
-The tool embedded here is the real thing, not a copy, so saving — both
-downloading locally and sending to the server — is deliberately turned
-off in this demo, so nobody can accidentally (or on purpose) overwrite a
-real translation file with this draft. Clicking "Save" here just shows a
-warning. To actually save, open the tool at its direct link:
-<SiteLink to="/assets/lbl-en.html">/assets/lbl-en.html</SiteLink> — that one isn't a
-demo, saving works for real there.
+:::info[Demo]
+This is a demo — saving does not work.
 :::
 
 ## Toolbar
