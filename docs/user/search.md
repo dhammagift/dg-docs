@@ -138,7 +138,7 @@ For edition abbreviations (`ms`, `pts1ed`, `sya-all`, `mr`, etc.), see the
 
 | Key | Action |
 |---|---|
-| Alt+A | Toggle dictionary (clicking a word triggers [DPD](pathname:///assets/common/dictHelp.html)) |
+| Alt+A | Toggle dictionary (clicking a word triggers [DPD](/dictionary)) |
 | Alt+S | Open/close [Quick Settings](/settings) (the sliders icon next to the search box) |
 | Alt+Shift+S | Open/close the full [Settings](/settings) page |
 | Alt+T | Dark / light / auto theme |
