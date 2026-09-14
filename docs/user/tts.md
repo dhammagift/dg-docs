@@ -11,9 +11,9 @@ import TtsAbLoop from '@site/static/img/help/tts-ab-loop-en.png';
 
 > The Dhamma was originally an oral teaching. — <SiteLink to="/an5.209">AN 5.209</SiteLink>
 
-Live demo — the reader with voice mode loaded (`?autoplay=1` in the address).
-Click inside the frame and press **Alt+R**, or **Voice** in the links strip
-under the title, to open the player:
+Live demo — voice mode starts automatically via a URL parameter, no
+clicking required (the floating player at the bottom is the point here, not
+the reader text behind it):
 
 <AppFrame src="/an5.209?autoplay=1&lang=en" title="Live voice player" height={260} />
 
