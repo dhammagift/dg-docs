@@ -22,13 +22,13 @@ import SiteLink from '@site/src/components/SiteLink';
 - Мини-приложения Telegram: [поиск](http://t.me/dhammagift_bot/find),
   [чтение](http://t.me/dhammagift_bot/read), [словарь](http://t.me/dhammagift_bot/dict).
 
-**PWA- и TWA-приложения**
+**Веб- и Android-приложения**
 - <SiteLink to="/">Dhamma.Gift PWA</SiteLink> — устанавливаемое прогрессивное
   веб-приложение.
-- Dhamma.Gift Android TWA — доступно в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
+- Приложение Dhamma.Gift для Android — доступно в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
 - [Dict.Dhamma.Gift PWA](https://dict.dhamma.gift) — специализированное
   словарное PWA.
-- Dict.Dhamma.Gift Android TWA — скоро в Google Play.
+- Приложение Dict.Dhamma.Gift для Android — доступно в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.pali).
 
 **Браузерные расширения**
 - [Расширение для Chrome](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
@@ -37,7 +37,7 @@ import SiteLink from '@site/src/components/SiteLink';
 
 ### Облачная синхронизация (опционально)
 
-Эта функция включается на сайте и/или в PWA/TWA-приложении Dhamma.gift
+Эта функция включается на сайте и/или в PWA или Android-приложении Dhamma.gift
 **только по желанию пользователя** для сохранения настроек, избранного и
 истории между устройствами.
 
@@ -97,6 +97,14 @@ import SiteLink from '@site/src/components/SiteLink';
   `localStorage` вашего браузера.
 - **При синхронизации** — данные (избранное, настройки, история) хранятся
   в облачной базе Google до тех пор, пока пользователь не решит их удалить.
+- **Офлайн-библиотека (опционально)** — только по вашему согласию PWA или
+  приложение скачивает с dhamma.gift полную базу текстов (около 200 МБ
+  загрузки, около 590 МБ на устройстве) и хранит её только на вашем
+  устройстве. База содержит только тексты и не содержит данных о вас. В
+  офлайн-режиме поиск и чтение текстов выполняются на устройстве, без
+  запросов к нашему серверу. Обновления базы предлагаются не чаще раза в две
+  недели. Удалить базу можно кнопкой «Удалить» в настройках
+  офлайн-библиотеки.
 - **Логи** — технические логи серверов хранятся максимум 30 дней.
 
 ### Обновления политики конфиденциальности
@@ -108,7 +116,7 @@ import SiteLink from '@site/src/components/SiteLink';
 По всем вопросам обращайтесь на
 [agiftofdhamma@gmail.com](mailto:agiftofdhamma@gmail.com).
 
-*Последнее обновление: апрель 2026.*
+*Последнее обновление: сентябрь 2026.*
 
 ## Условия использования
 

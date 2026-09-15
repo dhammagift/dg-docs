@@ -22,11 +22,11 @@ Pali texts does not require users to reveal their personal identity.
 - Telegram Mini Apps: [Search](http://t.me/dhammagift_bot/find),
   [Reader](http://t.me/dhammagift_bot/read), [Dictionary](http://t.me/dhammagift_bot/dict).
 
-**PWA & TWA Applications**
+**Web & Android Apps**
 - <SiteLink to="/">Dhamma.Gift PWA</SiteLink> — installable Progressive Web App.
-- Dhamma.Gift Android TWA — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
+- Dhamma.Gift for Android — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
 - [Dict.Dhamma.Gift PWA](https://dict.dhamma.gift) — specialized dictionary PWA.
-- Dict.Dhamma.Gift Android TWA — coming to Google Play.
+- Dict.Dhamma.Gift for Android — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.pali).
 
 **Browser Extensions**
 - [Chrome Extension](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
@@ -35,7 +35,7 @@ Pali texts does not require users to reveal their personal identity.
 
 ### Cloud Synchronization (Optional)
 
-This is an **opt-in feature** available on the website and within PWA/TWA
+This is an **opt-in feature** available on the website and within the PWA and Android
 applications, used solely to synchronize your settings, favorites, and
 history across multiple devices.
 
@@ -97,6 +97,13 @@ marketing or advertising purposes.
   on our servers; all data remains local to your browser's `localStorage`.
 - **With synchronization** — favorites, settings, and history are stored
   in the Google Cloud database until deleted by the user.
+- **Offline library (optional)** — only with your consent, the PWA or app
+  downloads the full text database from dhamma.gift (about 200 MB to
+  download, about 590 MB on the device) and keeps it on your device only. It
+  contains texts only and no data about you. In offline mode, searching and
+  reading texts run on the device without requests to our server. Database
+  updates are offered at most once every two weeks. You can remove the
+  database with the "Delete" button in the offline library settings.
 - **Logs** — technical server logs are retained for a maximum of 30 days.
 
 ### Updates to This Policy
@@ -108,7 +115,7 @@ policy.
 For inquiries regarding your privacy, please contact us at
 [agiftofdhamma@gmail.com](mailto:agiftofdhamma@gmail.com).
 
-*Last updated: April 2026.*
+*Last updated: September 2026.*
 
 ## Terms
 
