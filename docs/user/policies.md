@@ -24,7 +24,7 @@ Pali texts does not require users to reveal their personal identity.
 
 **Web & Android Apps**
 - <SiteLink to="/">Dhamma.Gift PWA</SiteLink> — installable Progressive Web App.
-- Dhamma.Gift for Android — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
+- Dhamma.Gift for Android (online and offline) — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
 - [Dict.Dhamma.Gift PWA](https://dict.dhamma.gift) — specialized dictionary PWA.
 - Dict.Dhamma.Gift for Android — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.pali).
 
@@ -97,13 +97,15 @@ marketing or advertising purposes.
   on our servers; all data remains local to your browser's `localStorage`.
 - **With synchronization** — favorites, settings, and history are stored
   in the Google Cloud database until deleted by the user.
-- **Offline library (optional)** — only with your consent, the PWA or app
-  downloads the full text database from dhamma.gift (about 200 MB to
-  download, about 590 MB on the device) and keeps it on your device only. It
-  contains texts only and no data about you. In offline mode, searching and
-  reading texts run on the device without requests to our server. Database
-  updates are offered at most once every two weeks. You can remove the
-  database with the "Delete" button in the offline library settings.
+- **Offline library** — the full text database (about 200 MB to download,
+  about 590 MB on the device) is downloaded from dhamma.gift and kept on
+  your device only. On the website and in the PWA the download starts only
+  with your consent. In the Android app it starts automatically on Wi-Fi and
+  can be cancelled; on mobile data the app asks first. It contains texts
+  only and no data about you. In offline mode, searching and reading texts
+  run on the device without requests to our server. Database updates are
+  offered at most once every two weeks. You can remove the database with the
+  "Delete" button in the offline library settings.
 - **Logs** — technical server logs are retained for a maximum of 30 days.
 
 ### Updates to This Policy
