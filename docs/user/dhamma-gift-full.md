@@ -13,4 +13,11 @@ connection on the site too). Same shortcuts and "Share to Search" as in
 [Dhamma.Gift online](/dhamma-gift-online), described in more detail on
 ["PWA: install straight from the browser"](/pwa).
 
-A download link will appear here once the app is ready.
+**Download:** the latest build is on GitHub —
+[dg-app-full releases](https://github.com/dhammagift/dg-app-full/releases/latest)
+(`app-debug.apk`). Android asks to confirm an install from outside Google
+Play. The texts are downloaded on first run, not bundled into the APK.
+
+The same link is behind the "Download Android APK" button on the site's
+front page. The Google Play button next to it installs
+[Dhamma.Gift online](/dhamma-gift-online) — the other app.

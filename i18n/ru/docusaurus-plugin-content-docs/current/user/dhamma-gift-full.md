@@ -13,4 +13,11 @@ sidebar_position: 14
 [Dhamma.Gift online](/dhamma-gift-online), подробнее описано на странице
 [«PWA: установка прямо из браузера»](/pwa).
 
-Ссылка на скачивание появится здесь, когда приложение будет готово.
+**Скачать:** последняя сборка лежит на GitHub —
+[релизы dg-app-full](https://github.com/dhammagift/dg-app-full/releases/latest)
+(файл `app-debug.apk`). Android спросит подтверждение: приложение ставится
+не из Google Play. Тексты скачиваются при первом запуске, в APK их нет.
+
+Эта же ссылка — за кнопкой «Download Android APK» на главной странице
+сайта. Кнопка Google Play рядом с ней ставит
+[Dhamma.Gift online](/dhamma-gift-online) — другое приложение.
