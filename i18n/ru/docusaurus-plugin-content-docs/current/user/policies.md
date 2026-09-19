@@ -22,10 +22,13 @@ import SiteLink from '@site/src/components/SiteLink';
 - Мини-приложения Telegram: [поиск](http://t.me/dhammagift_bot/find),
   [чтение](http://t.me/dhammagift_bot/read), [словарь](http://t.me/dhammagift_bot/dict).
 
-**Веб- и Android-приложения**
+**Веб-, Android- и iOS-приложения**
 - <SiteLink to="/">Dhamma.Gift PWA</SiteLink> — устанавливаемое прогрессивное
   веб-приложение.
 - Приложение Dhamma.Gift для Android (онлайн и офлайн) — доступно в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
+- Приложение Dhamma.Gift для iOS (онлайн и офлайн) — то же приложение для iPhone
+  и iPad; во всём, что описано в этой политике, оно ведёт себя так же, как
+  Android-версия.
 - [Dict.Dhamma.Gift PWA](https://dict.dhamma.gift) — специализированное
   словарное PWA.
 - Приложение Dict.Dhamma.Gift для Android — доступно в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.pali).
@@ -37,9 +40,9 @@ import SiteLink from '@site/src/components/SiteLink';
 
 ### Облачная синхронизация (опционально)
 
-Эта функция включается на сайте и/или в PWA или Android-приложении Dhamma.gift
-**только по желанию пользователя** для сохранения настроек, избранного и
-истории между устройствами.
+Эта функция включается на сайте и/или в PWA, Android- или iOS-приложении
+Dhamma.gift **только по желанию пользователя** для сохранения настроек,
+избранного и истории между устройствами.
 
 - **Инфраструктура** — данные хранятся во внешней облачной базе данных
   **Google Firebase**.
@@ -100,7 +103,7 @@ import SiteLink from '@site/src/components/SiteLink';
 - **Офлайн-библиотека** — полная база текстов (около 200 МБ загрузки, около
   590 МБ на устройстве) скачивается с dhamma.gift и хранится только на вашем
   устройстве. На сайте и в PWA загрузка начинается только по вашему
-  согласию. В приложении для Android при подключении к Wi-Fi загрузка
+  согласию. В приложениях для Android и iOS при подключении к Wi-Fi загрузка
   начинается автоматически, её можно отменить; при мобильном интернете
   приложение сначала спросит разрешение. База содержит только тексты и не
   содержит данных о вас. В офлайн-режиме поиск и чтение текстов выполняются

@@ -22,9 +22,11 @@ Pali texts does not require users to reveal their personal identity.
 - Telegram Mini Apps: [Search](http://t.me/dhammagift_bot/find),
   [Reader](http://t.me/dhammagift_bot/read), [Dictionary](http://t.me/dhammagift_bot/dict).
 
-**Web & Android Apps**
+**Web, Android & iOS Apps**
 - <SiteLink to="/">Dhamma.Gift PWA</SiteLink> — installable Progressive Web App.
 - Dhamma.Gift for Android (online and offline) — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
+- Dhamma.Gift for iOS (online and offline) — the same application for iPhone and
+  iPad; it behaves exactly as the Android one does throughout this policy.
 - [Dict.Dhamma.Gift PWA](https://dict.dhamma.gift) — specialized dictionary PWA.
 - Dict.Dhamma.Gift for Android — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.pali).
 
@@ -35,9 +37,9 @@ Pali texts does not require users to reveal their personal identity.
 
 ### Cloud Synchronization (Optional)
 
-This is an **opt-in feature** available on the website and within the PWA and Android
-applications, used solely to synchronize your settings, favorites, and
-history across multiple devices.
+This is an **opt-in feature** available on the website and within the PWA and the
+Android and iOS applications, used solely to synchronize your settings,
+favorites, and history across multiple devices.
 
 - **Infrastructure** — data is stored in **Google Firebase** (a third-party
   cloud database).
@@ -100,8 +102,8 @@ marketing or advertising purposes.
 - **Offline library** — the full text database (about 200 MB to download,
   about 590 MB on the device) is downloaded from dhamma.gift and kept on
   your device only. On the website and in the PWA the download starts only
-  with your consent. In the Android app it starts automatically on Wi-Fi and
-  can be cancelled; on mobile data the app asks first. It contains texts
+  with your consent. In the Android and iOS apps it starts automatically on Wi-Fi
+  and can be cancelled; on mobile data the app asks first. It contains texts
   only and no data about you. In offline mode, searching and reading texts
   run on the device without requests to our server. Database updates are
   offered at most once every two weeks. You can remove the database with the
