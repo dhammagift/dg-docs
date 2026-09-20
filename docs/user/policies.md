@@ -130,8 +130,34 @@ For inquiries regarding your privacy, please contact us at
 
 ## Terms
 
-The Pali root text, its traditional commentarial material, and translations
-served here come from [SuttaCentral](https://suttacentral.net/) (Bilara
-data) and the Dhamma.gift project's own curated translations, under their
-respective licenses. Dhamma.gift adds no restrictions of its own beyond
-those already carried by the source material.
+Two cases, and the difference matters.
+
+### Public domain — SuttaCentral
+
+All materials from [SuttaCentral](https://suttacentral.net/) (Bilara data) —
+the Pali root texts, the traditional commentarial material and the
+translations — are dedicated to the public domain under
+[CC0](https://creativecommons.org/public-domain/cc0/). You may use, copy and
+adapt them freely, including commercially, with no permission needed. See
+[SuttaCentral licensing](https://suttacentral.net/licensing).
+
+### Everything else — free, non-commercial use only
+
+Materials created by the Dhamma.gift project are distributed under
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+All other texts are published here with the permission of their authors and
+publishers, for **free, non-commercial use only**; the rights remain with
+them:
+
+- English translations by **Ṭhānissaro Bhikkhu** — see
+  [dhammatalks.org](https://www.dhammatalks.org/);
+- Russian translations by **A. Ya. Syrkin**, **V. N. Toporov** and the other
+  translators credited on each text;
+- edited versions of those Russian translations, prepared by the project;
+- materials from **[TheBuddhasWords.net](https://thebuddhaswords.net/)**.
+
+For any use beyond free, personal, non-commercial reading, please contact the
+copyright holders. The Dhamma.gift website and applications are offered free
+of charge, and Dhamma.gift adds no restrictions of its own beyond those
+already carried by the source material.
