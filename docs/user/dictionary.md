@@ -48,6 +48,12 @@ Modes in the list: the built-in DPD, Dict.DG in a popup or a new window
 (compact or full), DharmaMitra.org, sutta search only, and external apps
 (DictTango, Mdict, GoldenDict-NG). **Alt+B** switches the mode.
 
+The **built-in DPD** mode works fully offline: the dictionary data loads
+once (as a script, in English or Russian) and every lookup after that runs
+locally in the browser — no request to dict.dhamma.gift or anywhere else.
+It's a smaller, single-dictionary alternative to the full Dict.Dhamma.Gift
+platform below, meant for reading with no or a poor connection.
+
 ### Multi-select: phrases and sentences
 
 A click opens one word. To look up a phrase or translate a whole sentence,
