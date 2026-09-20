@@ -80,15 +80,22 @@ functionality:
 
 ### Data Transmission
 
-Data is transmitted exclusively to our core services or trusted
-infrastructure:
+Our own services:
 
 - <SiteLink to="/">dhamma.gift</SiteLink> / [dict.dhamma.gift](https://dict.dhamma.gift/)
   — for search and reader functionality.
-- [dpdict.net](https://dpdict.net/) — for comprehensive Pali dictionary
-  results.
 - **Google Firebase** — solely to provide the optional cloud
-  synchronization service.
+  synchronization service, and only if you sign in.
+
+One external service:
+
+- [dpdict.net](https://dpdict.net/) — the Digital Pāḷi Dictionary, for
+  dictionary entries our own bundled dictionary does not cover. Only the
+  single Pāḷi word being looked up is sent, with no account, identifier or
+  other context attached. Some of these lookups are made by our server on
+  your behalf; others your browser or the app makes directly, in which case
+  dpdict.net also sees your IP address as it would on any website you visit.
+  This is their service, under their own privacy policy, not ours.
 
 We do not share, sell, or transmit user data to any third parties for
 marketing or advertising purposes.
