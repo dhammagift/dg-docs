@@ -16,7 +16,6 @@ are all one continuous workflow rather than separate apps.
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Install as a PWA" style={{maxWidth: '220px'}} /></SiteLink>
   <a href="https://play.google.com/store/apps/details?id=gift.dhamma.twa"><img src="/assets/img/buttons/google-play-cta.png" alt="Get it on Google Play" style={{maxWidth: '220px'}} /></a>
-  <a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{maxWidth: '220px'}} /></a>
 </div>
 
 ## Dhamma.Gift — a multi-tool / one-window portal
