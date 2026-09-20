@@ -28,7 +28,7 @@
 - **Дхамма:** `/principles`, `/sutta`, `/rationale`
 - **Помощь, сайт:** `/key-features`, `/multitool`, `/search-guide`, `/read`, `/toc`, `/dictionary`,
   `/tts`, `/login`, `/memo`, `/settings`, `/quickmodal`, `/hotkeys`, `/translator`
-- **Приложения и расширения:** `/dhamma-gift-online`, `/dhamma-gift-full`, `/pwa`,
+- **Приложения и расширения:** `/dhamma-gift-full`, `/pwa`,
   `/browser-extension`, `/telegram-bot`, `/installation`, `/policies`
 
 Адрес страницы: `<база документации><slug>/`, например https://test.dhamma.gift/ru/docs/dictionary/.

@@ -12,13 +12,12 @@ import SiteLink from '@site/src/components/SiteLink';
   <SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Install as a PWA" style={{maxWidth: '220px'}} /></SiteLink>
 </div>
 
-In short, it's the same thing as [Dhamma.Gift online](/dhamma-gift-online)
-— the same site as a standalone app with its own icon, just without
-installing it through Google Play: one button right in your browser, and
-an icon appears on your phone or computer, just like a regular app.
+In short, it's the same site as a standalone app with its own icon,
+without installing anything through an app store: one button right in
+your browser, and an icon appears on your phone or computer, just like a
+regular app.
 
-Just like Dhamma.Gift online, two small conveniences are added on top of
-the site:
+Two small conveniences are added on top of the site:
 
 ## Shortcuts
 

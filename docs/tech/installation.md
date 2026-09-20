@@ -16,8 +16,7 @@ together make up one product:
 | [`offline-data`](https://github.com/dhammagift/offline-data) | The project's own translations (best ru/en translation, second opinion, AI translation) |
 | [`suttacentral/sc-data`](https://github.com/suttacentral/sc-data) | The external SuttaCentral repository — Pali texts and translations in Bilara format (not ours, public) |
 | [`dgift_bot`](https://github.com/dhammagift/dgift_bot) | The Telegram bot (Python) |
-| [`dg-twa`](https://github.com/dhammagift/dg-twa) | The **Dhamma.Gift online** Android app (Bubblewrap/TWA) |
-| [`dictPlugin`](https://github.com/dhammagift/dictPlugin) | The browser extension (Chrome/Firefox) + userscript |
+| [`dictPlugin`](https://github.com/dhammagift/dictPlugin) | The browser extension (Chrome/Firefox/Safari) + userscript |
 
 Only the site itself (`dg-node`) can be brought up fully automatically
 with one script — everything else (the legacy repo, the texts) it uses
@@ -210,28 +209,14 @@ Word autocomplete and `watcher.py`'s notifications expect a `dg-node`
 running alongside (they read `assets/texts/...`) — the bot doesn't crash
 without it, those features just silently stay off.
 
-## Android app (`dg-twa`)
-
-Requires: JDK 17, Android SDK (API 36, build-tools 36.0.0).
-
-```bash
-git clone https://github.com/dhammagift/dg-twa.git
-cd dg-twa
-./scripts/build.sh
-```
-
-Builds the APK/AAB with the same command CI uses
-(`./gradlew app:assembleRelease`/`bundleRelease`). The result is
-**unsigned** — CI applies the signature in a separate step from secrets
-(`KEYSTORE_BASE64` etc.), locally you'll need to sign it yourself
-(`apksigner`) before installing it on a device.
-
 ## Browser extension (`dictPlugin`)
 
-The Chrome and Firefox builds already sit as ready folders in the
-repository (`browser-extention/dictLookup-extention-*-{chrome,firefox}/`)
-— no build step needed. To test locally: `chrome://extensions` →
-"Developer mode" → "Load unpacked" → pick the folder.
+The Chrome, Firefox and Safari builds already sit as ready folders in the
+repository (`browser-extention/dictLookup-extention-*-{chrome,firefox,safari}/`)
+— no build step needed for Chrome/Firefox. To test locally:
+`chrome://extensions` → "Developer mode" → "Load unpacked" → pick the
+folder. The Safari build needs converting to an Xcode project first — see
+`.github/workflows/safari-macos.yml` in that repository.
 
 ## See also
 

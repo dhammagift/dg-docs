@@ -25,7 +25,7 @@ import SiteLink from '@site/src/components/SiteLink';
 **Веб- и Android-приложения**
 - <SiteLink to="/">Dhamma.Gift PWA</SiteLink> — устанавливаемое прогрессивное
   веб-приложение.
-- Приложение Dhamma.Gift для Android (онлайн и офлайн) — доступно в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.twa).
+- Приложение Dhamma.Gift для Android — [APK на GitHub](https://github.com/dhammagift/dg-app-full/releases/latest) (работает офлайн).
 - [Dict.Dhamma.Gift PWA](https://dict.dhamma.gift) — специализированное
   словарное PWA.
 - Приложение Dict.Dhamma.Gift для Android — доступно в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.pali).

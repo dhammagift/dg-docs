@@ -15,7 +15,6 @@ Dhamma.gift — это набор связанных инструментов в
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Установить как PWA" style={{maxWidth: '220px'}} /></SiteLink>
-  <a href="https://play.google.com/store/apps/details?id=gift.dhamma.twa"><img src="/assets/img/buttons/google-play-cta.png" alt="Скачать в Google Play" style={{maxWidth: '220px'}} /></a>
 </div>
 
 ## Dhamma.Gift — мультитул / портал в одно окно

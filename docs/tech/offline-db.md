@@ -6,7 +6,7 @@ title: The offline database
 
 The site works without a network on top of one artifact: a SQLite file with the corpus and a trigram
 FTS index. It is built **in this repository** — nothing depends on the old `dg-app-full` checkout any
-more — and the same file serves the web PWA, the TWA and, later, the native apps.
+more — and the same file serves the web PWA and the native apps.
 
 ## Where everything lives
 

@@ -7,13 +7,16 @@ import ExtensionMock from '@site/src/components/ExtensionMock';
 
 # Browser extension
 
-Search the Suttas and look words up in the Pali Digital Dictionary (DPD)
-on any website: select a word or phrase (or just click on a word) and the
-extension shows the translation/dictionary entry right there, without
-leaving the page — or sends the selected text to search on Dhamma.gift
-via the right-click context menu. Toggle it on/off by clicking the
-extension's icon or with a keyboard shortcut (`Ctrl+Shift+L` by default,
-changeable in your browser's settings).
+Search the Suttas and look words up in Dict.Dhamma.Gift — DPD, PTS,
+Gandhari and Sanskrit dictionaries and more — on any website: select a
+word or phrase (or just click on a word) and the extension shows the
+dictionary entry right there, without leaving the page. Show the result
+as a popup, a new window, or a docked side panel (Chrome/Edge/Firefox) —
+pick the mode in the extension's settings. Right-click a selected phrase
+for either a Dhamma.gift text search or a full grammar breakdown via
+DharmaMitra. Toggle the extension on/off by clicking its icon or with a
+keyboard shortcut (`Ctrl+Shift+L` by default, changeable in your
+browser's settings).
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <a href="https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd"><img src="/assets/img/buttons/chrome-cta.png" alt="Chrome Web Store" style={{maxWidth: '180px'}} /></a>

@@ -16,8 +16,7 @@ sidebar_position: 1
 | [`offline-data`](https://github.com/dhammagift/offline-data) | Собственные переводы проекта (лучший ru/en перевод, второе мнение, AI-перевод) |
 | [`suttacentral/sc-data`](https://github.com/suttacentral/sc-data) | Внешний репозиторий SuttaCentral — пали-тексты и переводы в формате Bilara (не наш, публичный) |
 | [`dgift_bot`](https://github.com/dhammagift/dgift_bot) | Telegram-бот (Python) |
-| [`dg-twa`](https://github.com/dhammagift/dg-twa) | Android-приложение **Dhamma.Gift online** (Bubblewrap/TWA) |
-| [`dictPlugin`](https://github.com/dhammagift/dictPlugin) | Браузерное расширение (Chrome/Firefox) + userscript |
+| [`dictPlugin`](https://github.com/dhammagift/dictPlugin) | Браузерное расширение (Chrome/Firefox/Safari) + userscript |
 
 Только сам сайт (`dg-node`) можно поднять полностью автоматически одним
 скриптом — остальное (легаси-репо, тексты) он использует как внешние
@@ -211,29 +210,15 @@ telegram/bin/python main.py config.dgift_bot.json
 запущенный `dg-node` (читают `assets/texts/...`) — при их отсутствии бот
 не падает, просто эти функции молча отключаются.
 
-## Android-приложение (`dg-twa`)
-
-Требуется: JDK 17, Android SDK (API 36, build-tools 36.0.0).
-
-```bash
-git clone https://github.com/dhammagift/dg-twa.git
-cd dg-twa
-./scripts/build.sh
-```
-
-Собирает APK/AAB той же командой, что и CI
-(`./gradlew app:assembleRelease`/`bundleRelease`). Результат **не
-подписан** — в CI подпись накладывается отдельным шагом из секретов
-(`KEYSTORE_BASE64` и т.п.), локально нужно подписать самостоятельно
-(`apksigner`) перед установкой на устройство.
-
 ## Браузерное расширение (`dictPlugin`)
 
-Сборки для Chrome и Firefox уже лежат готовыми папками в репозитории
-(`browser-extention/dictLookup-extention-*-{chrome,firefox}/`) — сборочный
-шаг не нужен. Для локальной проверки: `chrome://extensions` → «Режим
-разработчика» → «Загрузить распакованное расширение» → выбрать нужную
-папку.
+Сборки для Chrome, Firefox и Safari уже лежат готовыми папками в
+репозитории (`browser-extention/dictLookup-extention-*-{chrome,firefox,safari}/`)
+— для Chrome/Firefox сборочный шаг не нужен. Для локальной проверки:
+`chrome://extensions` → «Режим разработчика» → «Загрузить распакованное
+расширение» → выбрать нужную папку. Safari-сборку сначала нужно
+сконвертировать в Xcode-проект — см. `.github/workflows/safari-macos.yml`
+в этом репозитории.
 
 ## См. также
 
