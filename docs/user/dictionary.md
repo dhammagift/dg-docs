@@ -117,6 +117,15 @@ one place.
   clearing history and resetting settings.
 - **Help** (Alt+H) — this page.
 
+### Offline mini-dictionary
+
+Under **Settings → Data**, a **Download** button saves a small DPD dataset
+(~3.7 MB) right in the browser. Once downloaded, it works as an automatic
+fallback: if a live lookup can't reach the server, this page shows short
+entries from the downloaded data instead — no separate "offline mode" to
+turn on, it just kicks in when needed. The button turns into **Delete**
+once the data is downloaded, to free the space back up.
+
 ### Other dictionaries — Alt+S
 
 The book button in the search box (or Alt+S) opens the same word in other
