@@ -29,6 +29,7 @@ export default function AppFrame({src, title, height = 600, sticky = false, open
   const [active, setActive] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
   const [autoH, setAutoH] = useState(null);
+  const autoHRef = useRef(null);
   const link = openHref || src;
   useEffect(() => {
     // A tap inside the iframe never reaches this document, and window blur is
@@ -57,12 +58,19 @@ export default function AppFrame({src, title, height = 600, sticky = false, open
     const onMessage = (e) => {
       const frame = frameRef.current;
       if (frame && e.source === frame.contentWindow && e.data && typeof e.data.dgFrameHeight === 'number') {
-        setAutoH(e.data.dgFrameHeight + 4);
+        const next = e.data.dgFrameHeight + 4;
+        const cur = autoHRef.current || height;
+        if (Math.abs(next - cur) <= 2) return;
+        // A frame that resizes ABOVE the reader's viewport moves everything below it: browsers without scroll
+        // anchoring (iOS Safari) then jump the page. Take the difference out of the scroll position instead.
+        if (frame.getBoundingClientRect().bottom <= 0) window.scrollBy(0, next - cur);
+        autoHRef.current = next;
+        setAutoH(next);
       }
     };
     window.addEventListener('message', onMessage);
     return () => window.removeEventListener('message', onMessage);
-  }, [autoHeight]);
+  }, [autoHeight, height]);
 
   const openIcon = (
     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
