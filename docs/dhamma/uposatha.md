@@ -13,7 +13,7 @@ import UposathaCalendar from '@site/src/components/UposathaCalendar';
 
 <PageTools />
 
-According to the suttas, Uposatha is kept on the 8th, 14th and 15th days of the lunar half-month
+According to the suttas, Uposatha is kept on the 14th, 15th and 8th days of the lunar half-month
 (MN 83). Below are the coming days as exact moments of the moon's phases — new moon, first
 quarter, full moon, last quarter — converted to dates in your time zone.
 
