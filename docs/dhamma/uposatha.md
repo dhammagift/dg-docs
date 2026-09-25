@@ -18,6 +18,8 @@ According to the suttas, Uposatha is kept on the 14th, 15th and 8th days of the 
 moments each lunar day begins and ends in your time zone. A lunar day changes when the Moon has
 gained another 12° on the Sun, not at midnight, so it lasts 19–26 hours and usually spans two
 calendar dates. The 15th day of the waxing half is the full moon, of the waning half the new moon.
+The same calendar is available as a [page of its own](pathname:///uposatha-calendar), with a second
+view of every lunar day.
 
 <UposathaCalendar />
 
