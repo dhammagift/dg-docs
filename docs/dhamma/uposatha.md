@@ -14,8 +14,10 @@ import UposathaCalendar from '@site/src/components/UposathaCalendar';
 <PageTools />
 
 According to the suttas, Uposatha is kept on the 14th, 15th and 8th days of the lunar half-month
-(MN 83). Below are the coming days as exact moments of the moon's phases — new moon, first
-quarter, full moon, last quarter — converted to dates in your time zone.
+(MN 83) — three in each half, six a month. Below are the coming Uposatha days with the exact
+moments each lunar day begins and ends in your time zone. A lunar day changes when the Moon has
+gained another 12° on the Sun, not at midnight, so it lasts 19–26 hours and usually spans two
+calendar dates. The 15th day of the waxing half is the full moon, of the waning half the new moon.
 
 <UposathaCalendar />
 
