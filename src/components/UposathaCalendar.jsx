@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import AppFrame from './AppFrame';
 
 // The calendar itself is a page of its own in dg-node (/uposatha-calendar: vanilla JS, astronomy-engine),
-// usable from anywhere; the docs embed it so there is one implementation, not two. The page reports its
-// height with postMessage (?embed=1 drops its own header), and gets the docs' language and theme.
+// usable from anywhere; the docs embed it so there is one implementation, not two. The embed is the bare
+// ?embed=1 view (no header); the "open in a new window" pill of AppFrame leads to the full page. The page
+// reports its height, and gets the docs' language and theme.
 export default function UposathaCalendar() {
   const locale = useDocusaurusContext().i18n.currentLocale === 'ru' ? 'ru' : 'en';
   const [theme, setTheme] = useState('light');
-  const [height, setHeight] = useState(900);
 
   useEffect(() => {
     const root = document.documentElement;
@@ -15,25 +16,16 @@ export default function UposathaCalendar() {
     readTheme();
     const observer = new MutationObserver(readTheme);
     observer.observe(root, { attributes: true, attributeFilter: ['data-theme'] });
-    const onMessage = (e) => {
-      if (e.data && typeof e.data.dgUposathaHeight === 'number') setHeight(e.data.dgUposathaHeight + 4);
-    };
-    window.addEventListener('message', onMessage);
-    return () => { observer.disconnect(); window.removeEventListener('message', onMessage); };
+    return () => observer.disconnect();
   }, []);
 
   return (
-    <>
-      <iframe
-        title={locale === 'ru' ? 'Календарь дней упосатхи' : 'Uposatha calendar'}
-        src={`/uposatha-calendar?embed=1&lang=${locale}&theme=${theme}`}
-        style={{ width: '100%', height, border: 0 }}
-      />
-      <p>
-        <a href={`/uposatha-calendar?lang=${locale}`} target="_blank" rel="noopener noreferrer">
-          {locale === 'ru' ? 'Открыть календарь отдельной страницей →' : 'Open the calendar as a page of its own →'}
-        </a>
-      </p>
-    </>
+    <AppFrame
+      src={`/uposatha-calendar?embed=1&lang=${locale}&theme=${theme}`}
+      openHref={`/uposatha-calendar?lang=${locale}`}
+      title={locale === 'ru' ? 'Календарь дней упосатхи' : 'Uposatha calendar'}
+      height={900}
+      autoHeight
+    />
   );
 }

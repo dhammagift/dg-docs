@@ -19,12 +19,17 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 // navbar while the page scrolls, with a title bar that folds it away and back —
 // the same pattern as the preview on the settings page (owner). A side-by-side
 // layout was tried first and only looked right on very wide screens.
-export default function AppFrame({src, title, height = 600, sticky = false}) {
+// `openHref`: where the pill leads when it differs from what is embedded (the calendar embeds a bare
+// ?embed=1 view but opens the full page). `autoHeight`: the embedded page reports its height with
+// postMessage({dgFrameHeight}) and the frame follows it (the Uposatha calendar grows with its view).
+export default function AppFrame({src, title, height = 600, sticky = false, openHref, autoHeight = false}) {
   const {i18n} = useDocusaurusContext();
   const isRu = i18n.currentLocale === 'ru';
   const frameRef = useRef(null);
   const [active, setActive] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
+  const [autoH, setAutoH] = useState(null);
+  const link = openHref || src;
   useEffect(() => {
     // A tap inside the iframe never reaches this document, and window blur is
     // unreliable (embedded pages like /dict autofocus on load, so the window is
@@ -47,6 +52,18 @@ export default function AppFrame({src, title, height = 600, sticky = false}) {
     };
   }, []);
 
+  useEffect(() => {
+    if (!autoHeight) return undefined;
+    const onMessage = (e) => {
+      const frame = frameRef.current;
+      if (frame && e.source === frame.contentWindow && e.data && typeof e.data.dgFrameHeight === 'number') {
+        setAutoH(e.data.dgFrameHeight + 4);
+      }
+    };
+    window.addEventListener('message', onMessage);
+    return () => window.removeEventListener('message', onMessage);
+  }, [autoHeight]);
+
   const openIcon = (
     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
@@ -64,7 +81,7 @@ export default function AppFrame({src, title, height = 600, sticky = false}) {
       <div className={collapsed ? 'dg-appframe dg-appframe--sticky is-collapsed' : 'dg-appframe dg-appframe--sticky'}>
         <div className="dg-appframe__bar">
           <span className="dg-appframe__title">{title}</span>
-          <a className="dg-appframe__bar-link" href={src} target="_blank" rel="noopener noreferrer" title={openLabel}>
+          <a className="dg-appframe__bar-link" href={link} target="_blank" rel="noopener noreferrer" title={openLabel}>
             {openIcon}<span>{openLabel}</span>
           </a>
           <button type="button" className="dg-appframe__toggle" aria-expanded={!collapsed} aria-label={toggleLabel} title={toggleLabel} onClick={() => setCollapsed((c) => !c)}>
@@ -80,11 +97,11 @@ export default function AppFrame({src, title, height = 600, sticky = false}) {
 
   return (
     <div className={active ? 'dg-appframe is-active' : 'dg-appframe'}>
-      <a className="dg-appframe__open" href={src} target="_blank" rel="noopener noreferrer">
+      <a className="dg-appframe__open" href={link} target="_blank" rel="noopener noreferrer">
         {openIcon}
         {openLabel}
       </a>
-      <iframe ref={frameRef} src={src} title={title} loading="lazy" style={{height}} />
+      <iframe ref={frameRef} src={src} title={title} loading="lazy" style={{height: autoHeight && autoH ? autoH : height}} />
     </div>
   );
 }
