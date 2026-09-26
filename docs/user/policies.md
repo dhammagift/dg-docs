@@ -23,9 +23,9 @@ Pali texts does not require users to reveal their personal identity.
   [Reader](http://t.me/dhammagift_bot/read), [Dictionary](http://t.me/dhammagift_bot/dict).
 
 **Apps** (each one: PWA, Android and iOS)
-- **Dhamma.Gift** — <SiteLink to="/">PWA</SiteLink> · Android ([APK on GitHub](https://github.com/dhammagift/dg-app-full/releases/latest)) · iOS
-- **Dict.Dhamma.Gift** — [PWA](https://dict.dhamma.gift) · Android ([Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.pali)) · iOS
-- **Ariyuposatha** (Uposatha calendar) — <SiteLink to="/uposatha-calendar">PWA</SiteLink> · Android ([Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.uposatha)) · iOS
+- **Dhamma.Gift** — <SiteLink to="/">PWA</SiteLink> · [Android](https://play.google.com/store/apps/details?id=gift.dhamma.mobile) · iOS
+- **Dict.Dhamma.Gift** — [PWA](https://dict.dhamma.gift) · [Android](https://play.google.com/store/apps/details?id=gift.dhamma.pali) · iOS
+- **Ariyuposatha** (Uposatha calendar) — <SiteLink to="/uposatha-calendar">PWA</SiteLink> · [Android](https://play.google.com/store/apps/details?id=gift.dhamma.uposatha) · iOS
 
 The apps work online and offline. Throughout this policy an iOS app behaves exactly as the Android one does.
 
