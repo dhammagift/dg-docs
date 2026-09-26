@@ -58,6 +58,13 @@ menu) the evening is the real sunset and the sun's times are shown; without it t
 When a location is set, the time zone and the hemisphere (which side of the moon is lit in the pictures) are
 taken from it and the manual fields are hidden.
 
+**Parts of the day and night.** The suttas divide the day into three parts — *pubbaṇhasamaya* (morning),
+*majjhanhikasamaya* (midday) and *sāyanhasamaya* (evening) — and the night into three watches — *paṭhama yāma*,
+*majjhima yāma* and *pacchima yāma* (SN 20.4; MN 53; AN 8.9; Ud 1.1). The calendar cuts the time from sunrise to
+sunset into three equal parts, and from sunset to sunrise likewise, for your place and today's date, and marks
+the part that is going on now. The parts are longer or shorter with the season: in summer the day parts are
+long, in winter the night watches. This is a modern reading of the words — the suttas give no clock times.
+
 **Reminders.** Switch on "Remind me" and choose how long before the evening you want to be told (by default
 a day) and for which days: by default the 8th and the 14th; the 15th can be added. The reminder for the
 14th says that there are two Uposatha days, the 14th and the 15th. A web page can show notifications only while
