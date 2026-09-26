@@ -63,7 +63,7 @@ taken from it and the manual fields are hidden.
 *majjhima yāma* and *pacchima yāma* (SN 20.4; MN 53; AN 8.9; Ud 1.1). The calendar cuts the time from sunrise to
 sunset into three equal parts, and from sunset to sunrise likewise, for your place and today's date, and marks
 the part that is going on now. The parts are longer or shorter with the season: in summer the day parts are
-long, in winter the night watches. This is a modern reading of the words — the suttas give no clock times. What the calendar lists for each part (alms in the morning, seclusion at midday, meeting in the evening; walking and sitting, the lion's posture, rising) is how the monks and arahants of the suttas spend it — a picture from the suttas, not a rule: a layperson is not required to do so.
+long, in winter the night watches. This is a modern reading of the words — the suttas give no clock times. The word *majjhanhikasamaya* itself is in MN 79 ("the sun at midday"); SN 28.1 does not use it, but describes that part of the day: after the meal, the day's meditation, coming out in the evening. What the calendar lists for each part (alms in the morning, seclusion at midday, meeting in the evening; walking and sitting, the lion's posture, rising) is how the monks and arahants of the suttas spend it — a picture from the suttas, not a rule: a layperson is not required to do so.
 
 **Reminders.** Switch on "Remind me" and choose how long before the evening you want to be told (by default
 a day) and for which days: by default the 8th and the 14th; the 15th can be added. The reminder for the
