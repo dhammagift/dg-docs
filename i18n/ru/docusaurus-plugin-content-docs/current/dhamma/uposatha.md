@@ -73,6 +73,14 @@ import UposathaCalendar from '@site/src/components/UposathaCalendar';
 - *Скачать файл .ics* один раз добавляет следующие 12 месяцев, с напоминаниями, в любой календарь. Потом
   он не обновляется.
 
+### Другие лунные инструменты
+
+Чтобы сверить моменты или посмотреть на Луну в другом виде:
+
+- Сайт: [Time and Date: фазы Луны](https://www.timeanddate.com/moon/phases/)
+- Приложения: [Daff Moon Phase](https://play.google.com/store/apps/details?id=com.dafftin.android.moon_phase) (Android) или [MOON](https://apps.apple.com/us/app/moon-current-moon-phase/id660036257) (iOS)
+- Для разработчиков: [lunarphase-js](https://jasonsturges.com/lunarphase-js/); сам этот календарь использует [astronomy-engine](https://github.com/cosinekitty/astronomy).
+
 ## С каких сутт начать
 
 Каждое «Читать →» открывает сутту на нужном месте и подсвечивает его.

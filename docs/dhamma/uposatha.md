@@ -74,6 +74,14 @@ the days to your phone's calendar (below). Reminders inside the Android and iOS 
 - *Download .ics file* adds the next 12 months once, with alarms, to any calendar. It does not update
   afterwards.
 
+### Other moon tools
+
+To cross-check the moments or watch the Moon in another form:
+
+- Website: [Time and Date: Moon Phases](https://www.timeanddate.com/moon/phases/)
+- Apps: [Daff Moon Phase](https://play.google.com/store/apps/details?id=com.dafftin.android.moon_phase) (Android) or [MOON](https://apps.apple.com/us/app/moon-current-moon-phase/id660036257) (iOS)
+- For developers: [lunarphase-js](https://jasonsturges.com/lunarphase-js/); this calendar itself uses [astronomy-engine](https://github.com/cosinekitty/astronomy).
+
 ## Key suttas to start with
 
 Each "Read →" opens the sutta at the passage in question and highlights it.
