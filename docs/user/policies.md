@@ -22,13 +22,12 @@ Pali texts does not require users to reveal their personal identity.
 - Telegram Mini Apps: [Search](http://t.me/dhammagift_bot/find),
   [Reader](http://t.me/dhammagift_bot/read), [Dictionary](http://t.me/dhammagift_bot/dict).
 
-**Web, Android & iOS Apps**
-- <SiteLink to="/">Dhamma.Gift PWA</SiteLink> — installable Progressive Web App.
-- Dhamma.Gift for Android (online and offline) — [APK on GitHub](https://github.com/dhammagift/dg-app-full/releases/latest).
-- Dhamma.Gift for iOS (online and offline) — the same application for iPhone and
-  iPad; it behaves exactly as the Android one does throughout this policy.
-- [Dict.Dhamma.Gift PWA](https://dict.dhamma.gift) — specialized dictionary PWA.
-- Dict.Dhamma.Gift for Android — available on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.pali).
+**Apps** (each one: PWA, Android and iOS)
+- **Dhamma.Gift** — <SiteLink to="/">PWA</SiteLink> · Android ([APK on GitHub](https://github.com/dhammagift/dg-app-full/releases/latest)) · iOS
+- **Dict.Dhamma.Gift** — [PWA](https://dict.dhamma.gift) · Android ([Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.pali)) · iOS
+- **Ariyuposatha** (Uposatha calendar) — <SiteLink to="/uposatha-calendar">PWA</SiteLink> · Android ([Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.uposatha)) · iOS
+
+The apps work online and offline. Throughout this policy an iOS app behaves exactly as the Android one does.
 
 **Browser Extensions**
 - [Chrome Extension](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
@@ -66,6 +65,10 @@ functionality:
   dictionary terms are transmitted.
 - **Synchronization** — when enabled, we process session metadata (OS type
   and browser) to help you manage your active devices.
+- **Uposatha calendar (Ariyuposatha)** — the place you share (rounded to about a
+  kilometre) and your settings stay on your device and are not sent to us;
+  the sun and moon times are calculated on the device, and reminders are set
+  on the device itself.
 - **Technical logs** — standard request metadata (IP address, User-Agent)
   is collected by web servers for security purposes and DDoS protection.
 
