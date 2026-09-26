@@ -6,6 +6,9 @@ sidebar_label: Uposatha days
 
 import PageTools from '@site/src/components/PageTools';
 import UposathaCalendar from '@site/src/components/UposathaCalendar';
+import UpoDates from '@site/static/img/help/uposatha-dates-en.png';
+import UpoParts from '@site/static/img/help/uposatha-parts-en.png';
+import UpoSettings from '@site/static/img/help/uposatha-settings-en.png';
 import AlbumartUposatha from '@site/static/img/albumart-uposatha-nobg.png';
 
 # Uposatha days
@@ -26,6 +29,8 @@ the calendar page (the slideshow "From the suttas" and its "Show all" list).
 **Three views.** "By dates" (the first one) is a table of dates with the beginning and the end of each Uposatha and the Moon; "Uposatha days" is a list by months and weeks; "Calendar" is an ordinary month with the days marked. The card
 "Today" above them gives the Moon now: its phase, the lit part, its age since the new moon, and the lunar day with the moments it
 began and ends.
+
+<img src={UpoDates} alt="The table by dates" style={{maxWidth: 'min(380px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 **Dates.** A day in the suttas begins in the evening ("night and day", AN 3.70), so an Uposatha is dated by the **evening it
 begins** and lasts through the night and the next day. In the month calendar the evening date has a ring; the next date, the
@@ -49,6 +54,9 @@ Burmese communities calculate their calendars by tradition and can differ from t
 with a particular community, follow its calendar.
 
 ## Settings
+
+<img src={UpoSettings} alt="The menu: the settings groups" style={{maxWidth: 'min(380px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
+
 
 Open the menu ☰. The settings are in folding groups — "General settings" (language, theme, font size), "Uposatha settings", "Meals" and "Parts of the night and day"; what you leave open is remembered. The link "change" under the card "Today" and "Set a place" by the heading "Structure of
 the night and day" lead straight to the place.
@@ -88,19 +96,14 @@ app closed, each with its own sound; the iOS app is planned. Or add the days to 
 
 ## Meals
 
-The block "Meals" on the page shows whether it is now the time for food (from dawn until midday) or *vikāla*, "the wrong time" (from
-midday until the next dawn; Pc 37). Settings:
-
-- **Count midday by** — the sun (the real noon), the middle of the day between sunrise and sunset, or 12:00 on the clock. Without
-  a place only the clock is possible.
-- **Show in the summary** — the same line at the top of the page.
-- **Remind when the time for food begins / ends** — at dawn, or a set time before midday (from 15 minutes to 2 hours), on Uposatha
-  days or every day. The sound of the reminder for the end is by default the Vinaya definition of *vikāla* read aloud: "Vikālo
-  nāma majjhanhike vītivatte yāva aruṇuggamanā" (Pc 37).
-
-The bell in the corner of the card switches both reminders on and off at once.
+The card "Meals" shows the time for food (dawn to midday) or *vikāla*, "the wrong time" (midday to the next dawn; Pc 37). Midday is
+counted by the sun, the middle of the day, or the clock. The bell in the corner of the card switches on reminders for the end
+(default sound: the Vinaya definition of *vikāla*, read aloud) and for the beginning of the time for food.
 
 ## Structure of the night and day
+
+<img src={UpoParts} alt="Parts of the night and day, with the reminder bell and the meals card" style={{maxWidth: 'min(380px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
+
 
 The suttas divide the day into three parts — *pubbaṇhasamaya* (morning), *majjhanhikasamaya* (midday) and *sāyanhasamaya*
 (evening) — and the night into three parts — *paṭhama yāma*, *majjhima yāma* and *pacchima yāma* (MN 53; AN 8.9; Ud 1.1). The page
@@ -113,10 +116,8 @@ posture, rising — is how the arahants and other monks of the suttas spend it (
 rule; a layperson is not required to do so. The word *majjhanhikasamaya* itself is in MN 79 ("the sun at midday"); SN 28.1 does
 not use it, but describes that part of the day: after the meal, the day's meditation, coming out in the evening.
 
-**Reminders of the parts.** The bell by the heading (and the group "Parts of the night and day" in the settings) sets a reminder
-at the start of each part. By default only the parts of the day, on Uposatha days, so that the night is not disturbed; the night
-parts, "every day" and the sound can be chosen. The default sound is the name of the part read aloud in Pali. The reminders are
-as reliable as any others: in the app they arrive with everything closed, on the site only while the page is open.
+**Reminders of the parts.** The bell by the heading sets a reminder at the start of each part: by default only the day parts, on
+Uposatha days, with the part's name read aloud in Pali. The night parts, every day and the sound are in the menu.
 
 ### Other moon tools
 
