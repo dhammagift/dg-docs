@@ -33,6 +33,47 @@ day; if you keep Uposatha with a particular community, follow its calendar. To c
 [Time and Date: Moon Phases](https://www.timeanddate.com/moon/phases/).
 :::
 
+## How the calendar works
+
+**Two ways of counting.** By default the calendar counts as the suttas do (the switch "By the suttas" in
+its menu): six days a month — the 14th, 15th and 8th lunar days of each half — and a day begins in the
+evening. So an Uposatha is dated by the **evening it begins**: the observance runs from that evening
+through the night, and ends the next evening. Switched off, the calendar shows the modern scheme: four days
+a month — the dates of the new moon, the first quarter, the full moon and the last quarter — each on the
+calendar date it falls on.
+
+**What each line says.** *Begins* is the evening the Uposatha starts; *Observed* is the night and the day it
+covers; *Lunar day* is the real lunar day at that evening, for checking. Real lunar days are numbered 1 to
+30 through the month (the Moon gains 12° on the Sun each day); the suttas name the days by their number
+within a half — so the 8th day of the waning half is the 23rd lunar day of the month, and the 14th of the
+waning half is the 29th. The lunar day changes at an exact moment, not at midnight, and lasts 19 to 26
+hours, so against the calendar dates a number sometimes appears twice or is skipped. The calendar reads
+this from the real Moon and says so in a note under the date ("the 14th is skipped and kept with this
+date", "the same lunar day as the day before"). The switch "Details" in the menu shortens every date to
+one line.
+
+**Place and time.** The moments are shown in your time zone. With your location (or a city chosen in the
+menu) the evening is the real sunset and the sun's times are shown; without it the evening is taken at
+18:00. The location is used only in your browser, rounded to about a kilometre, and is not sent anywhere.
+When a location is set, the time zone and the hemisphere (which side of the moon is lit in the pictures) are
+taken from it and the manual fields are hidden.
+
+**Reminders.** Switch on "Remind me" and choose how long before the evening you want to be told (by default
+a day) and for which days: by default the 8th and the 14th; the 15th can be added. The reminder for the
+14th says that there are two Uposatha days, the 14th and the 15th. A web page can show notifications only while
+it is open or running in the background of your device; for reminders that arrive with everything closed, add
+the days to your phone's calendar (below). Reminders inside the Android and iOS apps are planned.
+
+**Your own calendar.** In the menu, "Calendar":
+- *Apple* opens the subscription in Apple Calendar (also other apps that accept a `webcal` link);
+  *Google* opens the "add by URL" form in Google Calendar; *Copy link* gives the link for any other
+  program. A subscription covers the coming year and renews itself, so the days are always current. Nothing
+  is stored on our side — the link carries your choices (place, scheme, reminder time), so the same link
+  gives the same calendar to whoever opens it. Apple Calendar keeps the alarms from the feed; Google
+  Calendar ignores them for subscribed calendars and uses its own default notifications.
+- *Download .ics file* adds the next 12 months once, with alarms, to any calendar. It does not update
+  afterwards.
+
 ## Key suttas to start with
 
 Each "Read →" opens the sutta at the passage in question and highlights it.
