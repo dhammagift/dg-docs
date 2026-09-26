@@ -221,3 +221,19 @@
   .dg-page-logo { float: right; margin: 0.35rem 0.5rem 2.25rem 2.5rem; }
   .dg-page-logo + p + * { clear: both; }
 }
+
+/* Embedded in a frame of the app (?embed=1, src/clientModules/embed.js): the article alone. */
+.dg-embed .navbar,
+.dg-embed .theme-doc-sidebar-container,
+.dg-embed .theme-doc-toc-desktop,
+.dg-embed .theme-doc-toc-mobile,
+.dg-embed nav[aria-label="Breadcrumbs"],
+.dg-embed .footer,
+.dg-embed .dg-appframe,
+.dg-embed .pagination-nav,
+.dg-embed .theme-doc-footer {
+  display: none !important;
+}
+.dg-embed .main-wrapper { padding-top: 0; }
+.dg-embed [class*="docMainContainer"] { max-width: none; }
+.dg-embed article, .dg-embed .container { max-width: 100%; }

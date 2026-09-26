@@ -43,6 +43,7 @@ const config = {
     './src/clientModules/scrollFix.js',
     './src/clientModules/quickModal.js',
     './src/clientModules/langSwitch.js',
+    './src/clientModules/embed.js',
   ],
 
   i18n: {

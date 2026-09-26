@@ -58,12 +58,12 @@ menu) the evening is the real sunset and the sun's times are shown; without it t
 When a location is set, the time zone and the hemisphere (which side of the moon is lit in the pictures) are
 taken from it and the manual fields are hidden.
 
-**Parts of the day and night.** The suttas divide the day into three parts — *pubbaṇhasamaya* (morning),
+**Structure of the night and day.** The suttas divide the day into three parts — *pubbaṇhasamaya* (morning),
 *majjhanhikasamaya* (midday) and *sāyanhasamaya* (evening) — and the night into three watches — *paṭhama yāma*,
 *majjhima yāma* and *pacchima yāma* (SN 20.4; MN 53; AN 8.9; Ud 1.1). The calendar cuts the time from sunrise to
 sunset into three equal parts, and from sunset to sunrise likewise, for your place and today's date, and marks
 the part that is going on now. The parts are longer or shorter with the season: in summer the day parts are
-long, in winter the night watches. This is a modern reading of the words — the suttas give no clock times.
+long, in winter the night watches. This is a modern reading of the words — the suttas give no clock times. What the calendar lists for each part (alms in the morning, seclusion at midday, meeting in the evening; walking and sitting, the lion's posture, rising) is how the monks and arahants of the suttas spend it — a picture from the suttas, not a rule: a layperson is not required to do so.
 
 **Reminders.** Switch on "Remind me" and choose how long before the evening you want to be told (by default
 a day) and for which days: by default the 8th and the 14th; the 15th can be added. The reminder for the
@@ -89,28 +89,37 @@ To cross-check the moments or watch the Moon in another form:
 - Apps: [Daff Moon Phase](https://play.google.com/store/apps/details?id=com.dafftin.android.moon_phase) (Android) or [MOON](https://apps.apple.com/us/app/moon-current-moon-phase/id660036257) (iOS)
 - For developers: [lunarphase-js](https://jasonsturges.com/lunarphase-js/); this calendar itself uses [astronomy-engine](https://github.com/cosinekitty/astronomy).
 
-## Key suttas to start with
+## Key suttas
 
 Each "Read →" opens the sutta at the passage in question and highlights it.
 
-**AN 10.46** — skipping the uposathas is not allowed ("it is your loss and failure").
-<SuttaLink index={0}>Read →</SuttaLink>
+### How to keep it?
 
-**MN 83** — one should observe the 14th, 15th, and 8th days. <SuttaLink index={1}>Read →</SuttaLink>
+**AN 3.70** — the Noble One's Uposatha <SuttaLink index={8}>Read →</SuttaLink> — like the arahants
+<SuttaLink index={9}>Read →</SuttaLink>; avoid the cowherd's and the Nigaṇṭha's Uposatha
+<SuttaLink index={7}>Read →</SuttaLink>.
 
-**MN 146** — the 14th of the waxing moon <SuttaLink index={2}>Read →</SuttaLink> and the 15th, the
-full moon <SuttaLink index={3}>Read →</SuttaLink>.
+**AN 10.46** — do not skip: "it is your loss and misfortune". <SuttaLink index={0}>Read →</SuttaLink>
 
-**AN 3.37** — the 14th <SuttaLink index={4}>Read →</SuttaLink>, 15th <SuttaLink index={5}>Read →</SuttaLink>
-and 8th <SuttaLink index={6}>Read →</SuttaLink> days compared with the visits of deities of
-different ranks.
+### On which days?
 
-**AN 3.70** — the three kinds of Uposatha <SuttaLink index={7}>Read →</SuttaLink>: how it should
-**not** be observed — the "cowherd's Uposatha" <SuttaLink index={8}>Read →</SuttaLink> and the
-"Nigaṇṭha's Uposatha" <SuttaLink index={9}>Read →</SuttaLink> — and how the Noble One's Uposatha
-should be observed <SuttaLink index={10}>Read →</SuttaLink>. The sutta says "nights and days" rather
-than "days and nights" <SuttaLink index={11}>Read →</SuttaLink>; the Pali has the fixed expression
-*ahoratta* ("day-night") in other contexts.
+**AN 3.37** — the 14th <SuttaLink index={4}>Read →</SuttaLink>, the 15th <SuttaLink index={5}>Read →</SuttaLink>
+and the 8th <SuttaLink index={6}>Read →</SuttaLink>: on these days the guardians of the world look who keeps the Uposatha.
+
+**MN 83** — the 14th, 15th and 8th of the half-month. <SuttaLink index={1}>Read →</SuttaLink>
+
+### When to begin?
+
+**AN 3.70** — begin at night: night and day, "this night and day". <SuttaLink index={10}>Read →</SuttaLink>
+
+**MN 53** — what is the night? The parts of the night — *paṭhama*, *majjhima*, *pacchima yāma* — and what a
+disciple does in each. <SuttaLink index={12}>Read →</SuttaLink>
+
+**SN 28.1** — what is the day? The parts of the day: a monk's day — alms in the morning, seclusion at midday,
+coming out in the evening. <SuttaLink index={11}>Read →</SuttaLink>
+
+**MN 146** — not by the phases of the moon alone: on the 14th it is not full <SuttaLink index={2}>Read →</SuttaLink>,
+on the 15th it is full <SuttaLink index={3}>Read →</SuttaLink>.
 
 <SuttaBrowser items={[
   { label: 'AN 10.46', src: '/an10.46:1.5?lang=en' },
@@ -121,8 +130,9 @@ than "days and nights" <SuttaLink index={11}>Read →</SuttaLink>; the Pali has 
   { label: 'AN 3.37 · 15th', src: '/an3.37:1.5?lang=en' },
   { label: 'AN 3.37 · 8th', src: '/an3.37:1.1?lang=en' },
   { label: 'AN 3.70 · three kinds', src: '/an3.70:2.3?lang=en' },
-  { label: 'AN 3.70 · cowherd', src: '/an3.70:2.4?lang=en' },
-  { label: 'AN 3.70 · Nigaṇṭha', src: '/an3.70:3.1?lang=en' },
   { label: 'AN 3.70 · Noble One', src: '/an3.70:4.1?lang=en' },
-  { label: 'AN 3.70 · nights and days', src: '/an3.70:19.3?lang=en' },
+  { label: 'AN 3.70 · like the arahants', src: '/an3.70:19.1?lang=en' },
+  { label: 'AN 3.70 · night and day', src: '/an3.70:19.3?lang=en' },
+  { label: 'SN 28.1 · a monk\'s day', src: '/sn28.1:1.2?lang=en' },
+  { label: 'MN 53 · parts of the night', src: '/mn53:10.3?lang=en' },
 ]} />
