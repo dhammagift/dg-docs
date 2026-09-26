@@ -43,7 +43,7 @@ a month — the dates of the new moon, the first quarter, the full moon and the 
 calendar date it falls on.
 
 **What each line says.** *Begins* is the evening the Uposatha starts; *Observed* is the night and the day it
-covers; *Lunar day* is the real lunar day at that evening, for checking. Real lunar days are numbered 1 to
+covers; *Lunar day* is the real lunar day of that observance — the one in force at the dawn that follows the evening, because the daytime of the Uposatha lies there — for checking. Real lunar days are numbered 1 to
 30 through the month (the Moon gains 12° on the Sun each day); the suttas name the days by their number
 within a half — so the 8th day of the waning half is the 23rd lunar day of the month, and the 14th of the
 waning half is the 29th. The lunar day changes at an exact moment, not at midnight, and lasts 19 to 26
