@@ -6,8 +6,11 @@ sidebar_label: Uposatha days
 
 import PageTools from '@site/src/components/PageTools';
 import UposathaCalendar from '@site/src/components/UposathaCalendar';
+import AlbumartUposatha from '@site/static/img/albumart-uposatha-nobg.png';
 
 # Uposatha days
+
+<img src={AlbumartUposatha} alt="Uposatha days" className="dg-hero-image" />
 
 <PageTools />
 

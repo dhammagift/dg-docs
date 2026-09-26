@@ -6,8 +6,11 @@ sidebar_label: Дни упосатхи
 
 import PageTools from '@site/src/components/PageTools';
 import UposathaCalendar from '@site/src/components/UposathaCalendar';
+import AlbumartUposatha from '@site/static/img/albumart-uposatha-nobg.png';
 
 # Дни упосатхи
+
+<img src={AlbumartUposatha} alt="Дни упосатхи" className="dg-hero-image" />
 
 <PageTools />
 
