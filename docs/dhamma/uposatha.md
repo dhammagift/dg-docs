@@ -23,7 +23,7 @@ the calendar page (the slideshow "From the suttas" and its "Show all" list).
 
 ## Reading the calendar
 
-**Two views.** "Uposatha days" is a list by months and weeks; "Calendar" is an ordinary month with the days marked. The card
+**Three views.** "By dates" (the first one) is a table of dates with the beginning and the end of each Uposatha and the Moon; "Uposatha days" is a list by months and weeks; "Calendar" is an ordinary month with the days marked. The card
 "Today" above them gives the Moon now: its phase, the lit part, its age since the new moon, and the lunar day with the moments it
 began and ends.
 
@@ -50,7 +50,7 @@ with a particular community, follow its calendar.
 
 ## Settings
 
-Open the menu ☰ → the block "Uposatha". The link "change" under the card "Today" and "Set a place" by the heading "Structure of
+Open the menu ☰. The settings are in folding groups — "General settings" (language, theme, font size), "Uposatha settings", "Meals" and "Parts of the night and day"; what you leave open is remembered. The link "change" under the card "Today" and "Set a place" by the heading "Structure of
 the night and day" lead straight to the place.
 
 **Time zone and hemisphere.** The moments are shown in your time zone; the hemisphere decides which side of the Moon is lit in
@@ -68,10 +68,13 @@ that it is not mistaken).
 
 **Details.** Off — every date in one short line.
 
+**Twilight.** "Dawn and dusk" lets you count the day from sunrise and sunset, or from civil, nautical or astronomical twilight. It needs a place.
+
 **Reminders.** Switch on "Remind me", choose when — from "when it begins" up to two days before — and for which days: by default
 the 8th and the 14th; the 15th can be added. The reminder for the 14th says that there are two Uposatha days, the 14th and the
-15th. A web page can show notifications only while it is open or running in the background of your device; for reminders that
-arrive with everything closed, add the days to your phone's calendar. Reminders inside the Android and iOS apps are planned.
+15th. On the site a reminder comes only while the page is open or running in the background of your device (the sound you choose plays
+then too); Safari and iPhone can hold it back. In the Android app the reminders are set on the device itself and arrive with the
+app closed, each with its own sound; the iOS app is planned. Or add the days to your phone's calendar.
 
 **Your own calendar.** The button "Add to calendar" (and the same row in the menu) opens the options:
 - *Apple* opens the subscription in Apple Calendar (also other apps that accept a `webcal` link); *Google* opens the "add by URL"
@@ -82,6 +85,20 @@ arrive with everything closed, add the days to your phone's calendar. Reminders 
 - *Download .ics file* adds the next 12 months once, with alarms, to any calendar. It does not update afterwards.
 
 **Share** copies the link to the page or opens the share sheet of your device.
+
+## Meals
+
+The block "Meals" on the page shows whether it is now the time for food (from dawn until midday) or *vikāla*, "the wrong time" (from
+midday until the next dawn; Pc 37). Settings:
+
+- **Count midday by** — the sun (the real noon), the middle of the day between sunrise and sunset, or 12:00 on the clock. Without
+  a place only the clock is possible.
+- **Show in the summary** — the same line at the top of the page.
+- **Remind when the time for food begins / ends** — at dawn, or a set time before midday (from 15 minutes to 2 hours), on Uposatha
+  days or every day. The sound of the reminder for the end is by default the Vinaya definition of *vikāla* read aloud: "Vikālo
+  nāma majjhanhike vītivatte yāva aruṇuggamanā" (Pc 37).
+
+The bell in the corner of the card switches both reminders on and off at once.
 
 ## Structure of the night and day
 
@@ -95,6 +112,11 @@ What is written by each part — alms in the morning, seclusion at midday, meeti
 posture, rising — is how the arahants and other monks of the suttas spend it (SN 28.1, MN 53): a picture from the suttas, not a
 rule; a layperson is not required to do so. The word *majjhanhikasamaya* itself is in MN 79 ("the sun at midday"); SN 28.1 does
 not use it, but describes that part of the day: after the meal, the day's meditation, coming out in the evening.
+
+**Reminders of the parts.** The bell by the heading (and the group "Parts of the night and day" in the settings) sets a reminder
+at the start of each part. By default only the parts of the day, on Uposatha days, so that the night is not disturbed; the night
+parts, "every day" and the sound can be chosen. The default sound is the name of the part read aloud in Pali. The reminders are
+as reliable as any others: in the app they arrive with everything closed, on the site only while the page is open.
 
 ### Other moon tools
 
