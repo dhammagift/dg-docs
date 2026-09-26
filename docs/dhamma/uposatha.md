@@ -13,7 +13,7 @@ import UposathaCalendar from '@site/src/components/UposathaCalendar';
 
 The calendar shows the Uposatha days as the suttas count them — the 14th, 15th and 8th lunar days of each half-month, six a
 month — with the exact moments in your time zone and place. It is a [page of its own](pathname:///uposatha-calendar), part of
-the app; below is the same calendar. This page explains how to read it and what its settings do. The suttas themselves are on
+the app; below is the real page, a live demo (scroll inside it, or open it in a new window). This page explains how to read it and what its settings do. The suttas themselves are on
 the calendar page (the slideshow "From the suttas" and its "Show all" list).
 
 <UposathaCalendar />
