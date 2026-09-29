@@ -9,10 +9,12 @@ import LoginSynced from '@site/static/img/help/login-synced-en.png';
 # Login
 
 Dhamma.gift doesn't need an account or an email address. "Login" here
-means cloud sync of your favorites, history, reading progress and
-settings across devices — two ways to do it:
+means cloud sync of your favorites, history, subscriptions, reading
+progress and settings across devices — three ways to do it:
 
 - **Google** — a regular Google account sign-in.
+- **Apple** — Sign in with Apple, with your Apple ID. Apple may let you
+  hide your e-mail; we then only get a private relay address from Apple.
 - **Secret passphrase** — fully anonymous: pick a phrase of at least 8
   characters (no email, no password). Anyone who types the same phrase on
   another device gets access to the same synced data — treat it like a
@@ -46,7 +48,7 @@ data:
 | Action | Where you click it | What it wipes |
 |---|---|---|
 | **Sign out** | On this device | Nothing — it just turns off sync on this device. Local and cloud data are both left alone. |
-| **Delete data** | On this device | Everything in the cloud (history, favorites, progress, settings, the account itself). Doesn't touch local data on this device. |
+| **Delete account & cloud data** | On this device | Everything in the cloud (history, favorites, subscriptions, progress, settings, the account itself). Doesn't touch local data on this device. |
 | **Terminate session** (the ⏻ icon next to another device in the list) | Remotely, from any device in the list | Disconnects THAT device from the cloud and **wipes all of its local data** (except language and theme) — the confirmation prompt warns you about this honestly. |
 
 :::danger["Terminate session" is not just a remote sign-out]

@@ -56,9 +56,10 @@ DigitalPaliReader.online, TheBuddhasWords.net and SuttaCentral.net. See
   together at once.
 - **Favorites & History** — a personal library of texts for quick access.
 - **Reading Progress** — resume exactly where you left off.
-- **Cloud Sync** — favorites, history, reading progress and preferences
-  (languages, theme, font) synced across devices, anonymously via a secret
-  passphrase — no email or registration required. See [Login](/login).
+- **Cloud Sync** — favorites, history, subscriptions, reading progress and
+  preferences (languages, theme, font) synced across devices, anonymously
+  via a secret passphrase — no email or registration required — or with
+  Google or Apple. See [Login](/login).
 - Full online DPD dictionary lookup, plus integration with DictTango
   (Android), Mdict (iOS), GoldenDict-NG (desktop), and Dharmamitra.org for
   deep grammatical analysis.

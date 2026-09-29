@@ -37,8 +37,8 @@ The apps work online and offline. Throughout this policy an iOS app behaves exac
 ### Cloud Synchronization (Optional)
 
 This is an **opt-in feature** available on the website and within the PWA and the
-Android and iOS applications, used solely to synchronize your settings,
-favorites, and history across multiple devices.
+Android and iOS applications, used solely to synchronize your history,
+favorites, subscriptions, and settings across multiple devices.
 
 - **Infrastructure** — data is stored in **Google Firebase** (a third-party
   cloud database).
@@ -50,11 +50,15 @@ favorites, and history across multiple devices.
   - *Google Account* — we use your email address solely for session
     identification. The email is stored as a hashed entry to protect your
     privacy.
-- **Data storage** — only your bookmarks (favorites), search history, and
-  interface preferences are saved. This data is accessible only to you
+  - *Sign in with Apple* — as with Google: we receive your Apple user
+    identifier and the email address Apple provides (if you choose "Hide My
+    Email", this is a private relay address created by Apple) and use them
+    solely for session identification.
+- **Data storage** — only your bookmarks (favorites), search history,
+  subscriptions, and interface preferences are saved. This data is accessible only to you
   upon successful authentication.
 - **Data deletion** — you may permanently delete all your cloud data at
-  any time using the "Delete Cloud Data" button in the Sync menu.
+  any time using the "Delete account & cloud data" button in the Sync menu.
 
 ### Data Processing
 
@@ -75,7 +79,7 @@ functionality:
 ### Information We Do Not Collect
 
 - Personal identification (except the email address used during Google
-  Login).
+  or Apple Login).
 - Telegram user IDs or private chat histories.
 - Browsing history outside of our specific services.
 - Persistent tracking identifiers (beyond the scope of a user-initiated
@@ -107,7 +111,7 @@ marketing or advertising purposes.
 
 - **Without synchronization** — search queries and history are not stored
   on our servers; all data remains local to your browser's `localStorage`.
-- **With synchronization** — favorites, settings, and history are stored
+- **With synchronization** — history, favorites, subscriptions, and settings are stored
   in the Google Cloud database until deleted by the user.
 - **Offline library** — the full text database (about 200 MB to download,
   about 590 MB on the device) is downloaded from dhamma.gift and kept on
