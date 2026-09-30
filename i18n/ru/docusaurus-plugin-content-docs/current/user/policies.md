@@ -23,7 +23,7 @@ import SiteLink from '@site/src/components/SiteLink';
   [чтение](http://t.me/dhammagift_bot/read), [словарь](http://t.me/dhammagift_bot/dict).
 
 **Приложения** (у каждого: PWA, Android и iOS)
-- **Dhamma.Gift** — <SiteLink to="/">PWA</SiteLink> · [Android](https://play.google.com/store/apps/details?id=gift.dhamma.mobile) · iOS
+- **Dhamma.Gift** — <SiteLink to="/">PWA</SiteLink> · [Android](https://play.google.com/store/apps/details?id=gift.dhamma.twa) · [iOS](https://apps.apple.com/app/id6813706217)
 - **Dict.Dhamma.Gift** — [PWA](https://dict.dhamma.gift) · [Android](https://play.google.com/store/apps/details?id=gift.dhamma.pali) · iOS
 - **Ariyuposatha** (календарь упосатхи) — <SiteLink to="/uposatha-calendar">PWA</SiteLink> · [Android](https://play.google.com/store/apps/details?id=gift.dhamma.uposatha) · iOS
 
