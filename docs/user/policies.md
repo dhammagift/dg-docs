@@ -55,7 +55,7 @@ favorites, reading progress, subscriptions, and settings across multiple devices
     Email", this is a private relay address created by Apple) and use them
     solely for session identification.
 - **Data storage** — only your bookmarks (favorites), search history,
-  reading progress in texts, subscriptions, and interface preferences are saved. This data is accessible only to you
+  reading progress in texts, Daily Reading subscriptions with their read marks, and interface preferences are saved. This data is accessible only to you
   upon successful authentication.
 - **Data deletion** — you may permanently delete all your cloud data at
   any time using the "Delete account & cloud data" button in the Sync menu.
