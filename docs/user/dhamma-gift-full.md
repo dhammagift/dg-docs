@@ -44,10 +44,11 @@ aloud ([Voice](/tts)).
   contents, favorites & history, Memo, dictionary, and the texts you read
   last. On iPhone the same actions are available to Siri and the Shortcuts
   app.
-- **The phone's own search.** Type a sutta number or its name (`sn56.11`,
-  `dhammacakkappavattana`, diacritics optional) in the system search — the
-  text is found there and opens in the app. *Android; iOS (Spotlight) —
-  coming.*
+- **The phone's own search.** In Android's system search Dhamma.Gift is
+  offered as a place to search: the query opens as a search in the app. The
+  texts you read recently show up there too. *Android. Finding any sutta by
+  its number or name right in the system results — coming (Android and iOS
+  Spotlight).*
 - **Quick Settings / Control Center.** A Dhamma.Gift button in the
   notification shade: one tap from anywhere, offline. *Android; iOS
   (Control Center) — coming.*
