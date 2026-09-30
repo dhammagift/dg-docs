@@ -54,7 +54,7 @@ favorites, reading progress, subscriptions, and settings across multiple devices
     identifier and the email address Apple provides (if you choose "Hide My
     Email", this is a private relay address created by Apple) and use them
     solely for session identification.
-- **Data storage** — only your bookmarks (favorites), search history,
+- **Data storage** — only your bookmarks (favorites, including quotes saved for memorization in Meditate & Memorize), search history,
   reading progress in texts, Daily Reading subscriptions with their read marks, and interface preferences are saved. This data is accessible only to you
   upon successful authentication.
 - **Data deletion** — you may permanently delete all your cloud data at
