@@ -31,7 +31,7 @@ The apps work online and offline. Throughout this policy an iOS app behaves exac
 
 **Browser Extensions**
 - [Chrome Extension](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
-{/* Firefox hidden (2026-09-30): listing blocked, may come back. - [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/dhamma-gift/) */}
+- [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/dhamma-gift/)
 - [Microsoft Edge Add-on](https://microsoftedge.microsoft.com/addons/detail/dhammagift-search-and-wo/aokegkhdaijkikbdocanadeghllhfmhj)
 
 ### Cloud Synchronization (Optional)
