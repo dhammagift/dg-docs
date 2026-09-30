@@ -1,5 +1,5 @@
 ---
-slug: /dhamma-gift-full
+slug: /dhamma-gift-app
 sidebar_position: 14
 ---
 

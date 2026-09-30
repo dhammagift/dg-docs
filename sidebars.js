@@ -48,7 +48,7 @@ const sidebars = {
               label: 'Приложения и расширения',
               collapsed: false,
               items: [
-                'user/dhamma-gift-full',
+                'user/dhamma-gift-app',
                 'user/browser-extension',
                 'user/telegram-bot',
                 'user/pwa',
@@ -119,7 +119,7 @@ const sidebars = {
               label: 'Apps & Extensions',
               collapsed: false,
               items: [
-                'user/dhamma-gift-full',
+                'user/dhamma-gift-app',
                 'user/browser-extension',
                 'user/telegram-bot',
                 'user/pwa',
