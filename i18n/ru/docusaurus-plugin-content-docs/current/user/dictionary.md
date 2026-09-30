@@ -165,7 +165,7 @@ DPD, словари Gandhari и PTS, Buddhadust, Wisdom Library, санскри�
 Dict.Dhamma.Gift — отдельный сайт, его можно открывать напрямую:
 [dict.dhamma.gift](https://dict.dhamma.gift). Всплывающий словарь DPD есть и
 вне Dhamma.Gift — как [расширение для браузеров](/browser-extension) (Chrome,
-Firefox, Edge, Opera) и как скрипт Tampermonkey
+Edge, Opera) и как скрипт Tampermonkey
 ([установка](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md));
 плагин можно встроить на любой сайт
 ([описание](https://github.com/dhammagift/dictPlugin?tab=readme-ov-file#dictplugin)).

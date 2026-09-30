@@ -166,7 +166,7 @@ dictionaries and resources:
 Dict.Dhamma.Gift is a separate site you can open directly:
 [dict.dhamma.gift](https://dict.dhamma.gift). The DPD popup dictionary also
 works outside Dhamma.Gift — as a [browser extension](/browser-extension)
-(Chrome, Firefox, Edge, Opera) and as a Tampermonkey script
+(Chrome, Edge, Opera) and as a Tampermonkey script
 ([installation](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md));
 the plugin can be embedded on any site
 ([details](https://github.com/dhammagift/dictPlugin?tab=readme-ov-file#dictplugin)).

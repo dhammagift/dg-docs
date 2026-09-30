@@ -31,7 +31,7 @@ import SiteLink from '@site/src/components/SiteLink';
 
 **Браузерные расширения**
 - [Расширение для Chrome](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
-- [Расширение для Firefox](https://addons.mozilla.org/en-US/firefox/addon/dhamma-gift/)
+{/* Firefox hidden (2026-09-30): listing blocked, may come back. - [Расширение для Firefox](https://addons.mozilla.org/en-US/firefox/addon/dhamma-gift/) */}
 - [Расширение для Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/dhammagift-search-and-wo/aokegkhdaijkikbdocanadeghllhfmhj)
 
 ### Облачная синхронизация (опционально)
