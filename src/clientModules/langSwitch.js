@@ -16,6 +16,7 @@ var PAGE_PAIRS = [
   ['/sutta', '/sutta'],
   ['/principles', '/principles'],
   ['/rationale', '/rationale'],
+  ['/uposatha', '/uposatha'],
   ['/key-features', '/key-features'],
   ['/search-guide', '/search-guide'],
   ['/read', '/read'],
@@ -28,8 +29,19 @@ var PAGE_PAIRS = [
   ['/memo', '/memo'],
   ['/quickmodal', '/quickmodal'],
   ['/translator', '/translator'],
+  ['/hotkeys', '/hotkeys'],
+  ['/telegram-bot', '/telegram-bot'],
+  ['/browser-extension', '/browser-extension'],
+  ['/pwa', '/pwa'],
+  ['/dhamma-gift-app', '/dhamma-gift-app'],
+  ['/installation', '/installation'],
   ['/policies', '/policies'],
 ];
+// Every page of both builds, not just the ones that were there at the beginning: a slug missing here
+// is a language switch that drops the reader on the docs home instead of the same page in the other
+// language (that is what /telegram-bot, /uposatha, /hotkeys, /pwa, /installation, /browser-extension
+// and /dhamma-gift-app did). The two builds carry the same slugs — check with:
+//   grep -rh '^slug:' docs/ | sort > /tmp/en && grep -rh '^slug:' i18n/ru/docusaurus-plugin-content-docs/current/ | sort | diff /tmp/en -
 
 function isRuBuild() {
   return window.location.pathname.indexOf('/ru/docs') === 0;
