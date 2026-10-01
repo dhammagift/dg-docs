@@ -16,17 +16,16 @@ import MessageUposatha from '@site/static/img/telegram/message-uposatha.png';
 
 It's the same bot under two names — [@Dhammagift_bot](https://t.me/dhammagift_bot)
 and its short form [@Dgift_bot](https://t.me/dgift_bot) — same functionality,
-either one works. It behaves in two ways:
+either one works. It works in two ways: **inline**, right in the message box of
+any chat or group, and **in its own chat**, where the same things work plus the
+commands and the settings.
 
-- **in any chat or group, without opening a chat with it** — as an inline bot:
-  type `@dgift_bot` right in the message box and keep typing;
-- **in its own chat** — send it a word or a text number, or use a command.
+## Inline
 
-## In any chat (inline)
-
-Type `@dgift_bot` and then a Pali word (`kacchapa`), a text number (`mn10`,
-`sn56.11`) or Velthuis transliteration (`.t .d .n ~n aa ii uu` → `ṭ ḍ ṇ ñ ā ī ū`,
-so `satipa.t.thaana` works as well as `satipaṭṭhāna`). Telegram answers with:
+Type `@dgift_bot` in the message box of any chat and then a Pali word
+(`kacchapa`), a text number (`mn10`, `sn56.11`) or Velthuis transliteration
+(`.t .d .n ~n aa ii uu` → `ṭ ḍ ṇ ñ ā ī ū`, so `satipa.t.thaana` works as well as
+`satipaṭṭhāna`). Telegram answers with:
 
 - `✏️ Send: <text>` — the main result: that text with links to the site and the
   dictionary;
@@ -38,60 +37,37 @@ so `satipa.t.thaana` works as well as `satipaṭṭhāna`). Telegram answers wit
 Above the list there is a button — `🔎 Open Dhamma.gift En: sn56.11` — it opens
 Dhamma.gift as a Mini App with the query already searched.
 
-A picked result lands in the chat as a message of the bot, with the text, the
-links and, under the message, the buttons:
+## Search and read
+
+A picked result lands in the chat as a message of the bot: the text, the links
+and, under the message, the buttons.
 
 <img src={MessageSutta} alt="The sent message: sn56.11 with the links Dhamma.gift and Dictionary, and the buttons Lang En/Ru, Dictionary, Read at Dhamma.gift En" style={{maxWidth: '100%', borderRadius: 10}} />
 
-- the language switch (`Lang En/Ru`) — the same message in the other language;
-- `📘 Dictionary` — the word in the dictionaries;
-- `Read at 🔎 Dhamma.gift En` — the text on the site.
+- `🔎 Dhamma.gift` — the word or the text in the site's search;
+- `📘 Dictionary` — the word in the dictionaries (`dict.dhamma.gift`);
+- `Read at 🔎 Dhamma.gift En` — the text itself, in the reader.
 
 An extra word does not break the link: `mn10 metta` still opens `mn10`.
 
-## In the bot's own chat
-
-Send the bot a word or a text number — you get the same message as above.
-The commands:
-
-| Command | What it does |
-| --- | --- |
-| `/start` | the welcome message and the interface language switch |
-| `/extra` | links to the Mini Apps: search, reading, dictionary |
-| `/uposatha` | Uposatha days for the next 30 days |
-| `/help` | help (in progress) |
-
-The Mini Apps are the same site in a Telegram window:
-
-- [search](http://t.me/dhammagift_bot/find),
-- [reading](http://t.me/dhammagift_bot/read),
-- [dictionary](http://t.me/dhammagift_bot/dict) —
-  the Russian bot has the same set at `t.me/dgift_bot/…`.
-
-Next to the message box there is also the Menu button (`DG en` / `DG ru`): it
-opens dhamma.gift as a Mini App in the language you chose.
-
-## Language
-
-The bot answers in the language set for the user: `/start` offers the switch, and
-every message has a language button under it (`Lang En/Ru` / `Язык Ru/En`). The
-choice is remembered and affects the links too — the Russian interface leads to
-`dhamma.gift/ru` and `dict.dhamma.gift/ru`.
+The same search and reader are the Mini Apps behind `/extra`:
+[search](http://t.me/dhammagift_bot/find),
+[reading](http://t.me/dhammagift_bot/read) and
+[dictionary](http://t.me/dhammagift_bot/dict).
 
 ## Uposatha days
 
-`/uposatha` — the next 30 days as the suttas count them: the 8th, 14th and 15th
-lunar day of each half-month, six days a month. Without a city the list is the one
-for Bodh Gaya, where the day runs from 18:00 to 18:00.
+`/uposatha` in the bot's chat, or `@dgift_bot uposatha` in any chat — the next 30
+days as the suttas count them: the 8th, 14th and 15th lunar day of each half-month,
+six days a month. Without a city the list is the one for Bodh Gaya, where the day
+runs from 18:00 to 18:00.
 
-`/uposatha Chiang Mai` — the same days with the real sun times of a city: when the
-day begins (sunset), dawn, noon and when it ends (the next sunset). The city is
-remembered, so the bare `/uposatha` keeps using it; `/uposatha reset` forgets it.
-The city is looked up in a local gazetteer of every city above ~15 000 people
-(34k of them, spelling mistakes tolerated), with the Open-Meteo geocoder for the
-rest.
-
-In any chat: `@dgift_bot uposatha`, or `@dgift_bot uposatha Chiang Mai`:
+`@dgift_bot uposatha Chiang Mai` (or `/uposatha Chiang Mai`) — the same days with
+the real sun times of a city: when the day begins (sunset), dawn, noon and when it
+ends (the next sunset). The city is remembered, so the bare command keeps using it;
+`/uposatha reset` forgets it. The city is looked up in a local gazetteer of every
+city above ~15 000 people (34k of them, spelling mistakes tolerated), with the
+Open-Meteo geocoder for the rest.
 
 <img src={InlineUposatha} alt="@dgift_bot uposatha bodh gaya in the message box: Uposatha days, next 30 days — Bodh Gaya, Bihar, India" style={{maxWidth: '100%', borderRadius: 10}} />
 
@@ -101,3 +77,26 @@ sit under the message: the Ru/En switch and the link to the full calendar at
 [dhamma.gift/uposatha-calendar](https://dhamma.gift/uposatha-calendar).
 
 <img src={MessageUposatha} alt="The sent Uposatha message: Uposatha by the suttas for the next 30 days (Bodh Gaya, Bihar, India) with six days and their times, the line Times: begin · dawn · noon · end, and the buttons Lang En/Ru and Uposatha calendar" style={{maxWidth: '100%', borderRadius: 10}} />
+
+## In the bot's chat
+
+Everything above works here too — just without `@dgift_bot`: send a word
+(`saariputta`), a text number (`mn10`) or `uposatha`, and you get the same message
+with the same links and buttons. On top of that, the bot has commands and settings.
+
+| Command | What it does |
+| --- | --- |
+| `/start` | the welcome message and the interface language |
+| `/extra` | links to the Mini Apps: search, reading, dictionary |
+| `/uposatha` | Uposatha days for the next 30 days |
+| `/help` | help (in progress) |
+
+### Settings
+
+- **Language** — `/start` switches it, and so does the button under any message
+  (`Lang En/Ru` / `Язык Ru/En`). The choice is remembered and affects the links:
+  the Russian interface leads to `dhamma.gift/ru` and `dict.dhamma.gift/ru`.
+- **The city for the Uposatha list** — `/uposatha <city>` remembers it,
+  `/uposatha reset` forgets it, and the empty `/uposatha` keeps showing it.
+- **The Menu button** next to the message box (`DG en` / `DG ru`) — opens
+  dhamma.gift as a Mini App in the language you chose.
