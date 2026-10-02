@@ -50,7 +50,7 @@ way.
 | **Alt+V** | Show / hide variant readings |
 | **Alt+W** | Table of contents of the text |
 | **Alt+L** | Pali script: Latin → Devanagari → Thai |
-| **Alt+.** or **Alt+,** | Show / hide punctuation in Pali |
+| **Alt+G** | Show / hide punctuation in Pali |
 | **Alt+Q** | Add to / remove from favorites |
 | **Alt+R** | Read aloud: start / pause |
 

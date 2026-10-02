@@ -105,7 +105,7 @@ the search box — also works inside the reader):
 - **Show variants** (Alt+V) and **Column mode** (Alt+C) — the same
   buttons already in the toolbar above the text, duplicated here for
   convenience.
-- **Hide Pāḷi punctuation** (Alt+.) — strips punctuation from the Pali
+- **Hide Pāḷi punctuation** (Alt+G) — strips punctuation from the Pali
   text, handy for memorization.
 
 Further down the same panel is a **"Pāḷi diacritics"** block — buttons

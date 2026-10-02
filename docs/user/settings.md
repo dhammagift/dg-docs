@@ -73,7 +73,7 @@ anywhere.
   everywhere on the site.
 - **Show Pali punctuation** — turn off to strip commas/quotes and
   replace periods/`?`/`!` with a vertical bar — closer to how manuscripts
-  look. **Alt+.**
+  look. **Alt+G**
 
 ## Search
 
@@ -129,7 +129,7 @@ shown in the UI but marked "coming soon" — not available yet.
 | Ctrl+Shift+F (Cmd+Shift+F on Mac) | Find on page — not Alt+F, that's [favorites](/read); not plain Ctrl+F either, real browsers reserve that for their own find bar |
 | Alt+Z | Show/hide the second language |
 | Alt+T | Theme |
-| Alt+. | Strip Pali punctuation |
+| Alt+G | Strip Pali punctuation |
 | Alt+J | Multi-select for the dictionary |
 | Alt+= / Alt+- | Text size |
 | Ctrl+1 / Ctrl+2 / Ctrl+3 | Home / Table of contents / Dictionary |
