@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdg_docs=self.webpackChunkdg_docs||[]).push([["106"],{6087(s,c,d){d.d(c,{A:()=>a});var e=d(4848);d(6540);var n=d(6497);function a(s){let c=(0,n.Ay)("img/diamond-logo.png");return(0,e.jsx)("img",{src:c,alt:"",...s})}}}]);
