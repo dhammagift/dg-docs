@@ -60,10 +60,10 @@ const sidebars = {
         {
           type: 'category',
           label: 'Технические детали',
-          collapsed: false,
+          collapsed: true,
           className: 'dg-cat-tech',
           items: [
-            'tech/installation', 'tech/offline-db',
+            'tech/installation', 'tech/offline-db', 'tech/mcp',
             {
               // /api-docs/ is served by the same Express app as the docs build itself, at
               // the site root, not under this build's own baseUrl (/docs/ or /ru/docs/).
@@ -131,11 +131,12 @@ const sidebars = {
         {
           type: 'category',
           label: 'Tech',
-          collapsed: false,
+          collapsed: true,
           className: 'dg-cat-tech',
           items: [
             'tech/installation',
             'tech/offline-db',
+            'tech/mcp',
             {
               type: 'link',
               label: 'API',
