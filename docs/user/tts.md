@@ -27,18 +27,75 @@ the reader text behind it):
    "Listen".
 5. Press **Alt+R** (**Option+R** on Mac).
 
-## Built-in player
-
-Uses Google Cloud Voices or your browser's own speech synthesis.
+## Player
 
 - **Controls** — Play/Pause, previous/next sentence.
 - **Navigation** — pause, click a Pali sentence to highlight it, press Play
   to resume from there.
-- **Settings** — reading mode (Pali / Pali+Translation / Translation /
-  Translation+Pali) and playback speed.
-- **Scroll** — toggle auto-scroll.
-- **Autoplay** — toggle automatic playback (subject to the browser's
-  autoplay policy).
+- **Mode** — what is read: Pāḷi / Pāḷi + translation / translation /
+  translation + Pāḷi.
+- **Speed** — the speed button opens a slider with presets; the default
+  for Pāḷi is 0.7× ("normal" for the DG voice).
+- **Settings** (⚙) — auto-scroll, autoplay, pause between sentences and
+  **Voice settings**.
+
+## Voices: three kinds
+
+In **⚙ → Voice settings** you choose the voice separately for Pāḷi and for
+the translation, in three steps: kind → language → voice. The ▶ next to a
+voice plays a short sample (DG voices).
+
+:::tip[The first neural Pāḷi voices]
+As far as we know, these are the first neural text-to-speech voices made
+for Pāḷi. Both are in beta and still being tuned by ear, sound by sound —
+but this did not exist before.
+:::
+
+### DG Voice — our own free neural voices (default)
+
+They run on our server: no key, no limits, nothing to install.
+
+- **Pāḷi**
+  - **pratham ♂ · Piper** — a neural voice (Piper) that reads Pāḷi through
+    our own Pāḷi pronunciation rules (letters → sounds, stress, long
+    vowels), tuned in blind listening rounds. Beta.
+  - **o Dhamma.Gift ♂ · beta** — a voice trained on real Pāḷi readings.
+    Pronunciation is closer to living Pāḷi; the sound quality is still
+    rough, a new version is on the way. Beta.
+- **Translation** — English: alan, norman, kathleen; Russian: ruslan,
+  irina. Pāḷi words inside a translation (sutta, Dhamma, bhikkhu, names)
+  are read the Pāḷi way, and abbreviations are spelled out (Ven. →
+  Venerable, SN 56.11 → Saṁyutta Nikāya 56, 11).
+- The next sentences are prepared while one is playing, so there are no
+  gaps between them.
+
+### Google — cloud voices with a free quota
+
+High-quality cloud voices. Pāḷi is read by a Punjabi (pa-IN) voice through
+Devanagari with our own fixes. Needs **your own Google API key** (see
+below); the free monthly quota is generous for personal use.
+
+### Built-in — your device's voices, work offline
+
+Uses the speech synthesis of your system or browser: no internet needed,
+nothing is sent anywhere. There is no Pāḷi voice in any system, so install
+one of **Sanskrit (India)**, **Hindi (India)**, **Nepali** or
+**Indonesian** for the closest pronunciation; if none is installed,
+English is used as a fallback.
+
+- **Android** — Settings → Accessibility → Text-to-speech output, then
+  install voice data for the language:
+  [Android help](https://support.google.com/accessibility/android/answer/6006983).
+- **iPhone / iPad** — Settings → Accessibility → Spoken Content → Voices:
+  [Apple help](https://support.apple.com/guide/iphone/hear-iphone-speak-the-screen-selection-or-typing-iph96b214f0/ios).
+- **Mac** — System Settings → Accessibility → Spoken Content → System
+  voice → Manage Voices:
+  [Apple help](https://support.apple.com/guide/mac-help/change-spoken-content-settings-mchlp2290/mac).
+- **Windows** — Settings → Time & language → Speech → Manage voices → Add
+  voices: [Microsoft help](https://support.microsoft.com/en-us/windows/appendix-a-supported-languages-and-voices-4486e345-7730-53da-fcfe-55cc64300f01).
+
+After installing a voice, reload the page and pick it in **Voice settings
+→ Built-in**.
 
 ## A-B loop — repeat a passage for memorization
 
@@ -84,26 +141,24 @@ that's expected behavior, not a bug. The 1–4 keys and +/- always work,
 regardless of autoscroll.
 :::
 
-## Getting a Pali voice on your device
+## Panel footer
 
-There is no dedicated Pali TTS engine. Install one of **Sanskrit (India)**,
-**Hindi (India)**, **Nepali** or **Indonesian** voices for the closest
-pronunciation; if none is installed, English is used as a fallback.
-
-- **Android** — Settings → Language & Input → Text-to-Speech → Install voice data.
-- **iOS** — Settings → Accessibility → Spoken Content → Voices.
-- **PC / macOS** — install a system voice via your OS settings.
-
-## Extra links (Voice panel footer)
-
-- **TTS** — a dedicated page for external TTS apps (e.g. Read Aloud for
-  Chrome, Voice Aloud Reader for iOS).
-- **VSC** — link to [Voice.SC](https://www.sc-voice.net/) (SuttaCentral Voice).
-- **File** — direct link to an audio file, when one exists for that text.
-- **?** — link to this help page.
+- **Voice settings** — kinds of voices, languages and voices, samples, the
+  Google API key.
+- **File** — a link to an audio file, when one exists for that text.
+- **Help ?** — this page.
 
 ## Google API key (optional)
 
-Enables Google Cloud Text-to-Speech for higher-quality voices with generous
-free limits: create an API key in Google Cloud Console and enable the
-**Text-to-Speech API**.
+Needed only for the Google voices. Create a project in Google Cloud,
+enable the **Text-to-Speech API** and create an API key
+([how to start](https://cloud.google.com/text-to-speech/docs/before-you-begin));
+paste it in **Voice settings → Google API Key**. Free monthly limits and
+prices: [Google Cloud pricing](https://cloud.google.com/text-to-speech/pricing).
+By default translations use the cheaper Standard voices, Pāḷi a premium one.
+
+## MP3 for the Memo page
+
+On the Memo page the ⬇ button saves the text as one MP3 in the voice you
+chose: with the DG voice the pauses between lines can be of any length
+(Google's are limited to 10 seconds).

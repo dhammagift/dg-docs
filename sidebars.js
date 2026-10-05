@@ -63,7 +63,7 @@ const sidebars = {
           collapsed: true,
           className: 'dg-cat-tech',
           items: [
-            'tech/installation', 'tech/offline-db', 'tech/mcp',
+            'tech/installation', 'tech/offline-db', 'tech/mcp', 'tech/voice-api',
             {
               // /api-docs/ is served by the same Express app as the docs build itself, at
               // the site root, not under this build's own baseUrl (/docs/ or /ru/docs/).
@@ -137,6 +137,7 @@ const sidebars = {
             'tech/installation',
             'tech/offline-db',
             'tech/mcp',
+            'tech/voice-api',
             {
               type: 'link',
               label: 'API',
