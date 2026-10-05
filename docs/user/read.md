@@ -78,7 +78,7 @@ line link, no menu.
 
 ## Pali script
 
-**Alt+L** cycles through three common scripts: Latin (ISO) → Devanagari →
+**Alt+L** cycles through four common scripts: Latin (ISO) → Brahmi → Devanagari →
 Thai. The full list — around 160 scripts (Burmese, Khmer, Sinhala, and
 anything else [Aksharamukha](https://www.aksharamukha.com/) can convert
 to) — is in the dropdown on the [Settings](/settings) page.

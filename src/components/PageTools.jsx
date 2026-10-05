@@ -88,22 +88,91 @@ export default function PageTools({ articleSelector = '.theme-doc-markdown', inl
     });
   }
 
-  function toggleListen() {
+  // Web Speech API reads the page. Two things made it silent before: one utterance with the whole
+  // article (Chrome, especially on Android, drops or never starts very long utterances) and no
+  // voice chosen for the page language. So: short chunks read one after another, a voice picked
+  // by language (waiting for the voice list, it is empty on first use), and a message instead of
+  // silence when the browser has no speech engine.
+  function pickVoice(synth, lang) {
+    const base = lang.slice(0, 2).toLowerCase();
+    const voices = synth.getVoices().filter((v) => v.lang && v.lang.toLowerCase().startsWith(base));
+    return voices.find((v) => v.localService) || voices[0] || null;
+  }
+
+  function waitForVoices(synth) {
+    return new Promise((resolve) => {
+      if (synth.getVoices().length) return resolve();
+      const done = () => { synth.removeEventListener('voiceschanged', done); resolve(); };
+      synth.addEventListener('voiceschanged', done);
+      setTimeout(done, 1500);
+    });
+  }
+
+  function speechChunks(text, max = 180) {
+    const parts = text.split(/\n+|(?<=[.!?…])\s+/).map((t) => t.trim()).filter(Boolean);
+    const out = [];
+    parts.forEach((part) => {
+      let rest = part;
+      while (rest.length > max) {
+        let cut = rest.lastIndexOf(', ', max);
+        if (cut < max / 2) cut = rest.lastIndexOf(' ', max);
+        if (cut < 1) cut = max;
+        out.push(rest.slice(0, cut + 1).trim());
+        rest = rest.slice(cut + 1).trim();
+      }
+      if (rest) out.push(rest);
+    });
+    return out;
+  }
+
+  const stopRef = useRef(false);
+
+  async function toggleListen() {
     const synth = window.speechSynthesis;
-    if (!synth) return;
+    if (!synth || typeof window.SpeechSynthesisUtterance === 'undefined') {
+      window.alert(isRu ? 'Этот браузер не умеет озвучивать текст.' : 'This browser cannot read text aloud.');
+      return;
+    }
     if (speaking) {
+      stopRef.current = true;
       synth.cancel();
       setSpeaking(false);
       return;
     }
     const article = document.querySelector(articleSelector);
     if (!article) return;
-    const utter = new SpeechSynthesisUtterance(article.innerText);
-    utter.lang = isRu ? 'ru-RU' : 'en-US';
-    utter.onend = () => setSpeaking(false);
-    utter.onerror = () => setSpeaking(false);
-    synth.speak(utter);
+    const lang = isRu ? 'ru-RU' : 'en-US';
+    const chunks = speechChunks(article.innerText);
+    if (!chunks.length) return;
+
+    stopRef.current = false;
     setSpeaking(true);
+    synth.cancel(); // drop a stale queue (Chrome keeps it after a page reload in the same tab)
+    await waitForVoices(synth);
+    const voice = pickVoice(synth, lang);
+    if (!voice) {
+      window.alert(isRu
+        ? 'В браузере нет голоса для русского языка. Установите голос в настройках речи устройства.'
+        : 'No English voice found in this browser. Install a voice in your device speech settings.');
+      setSpeaking(false);
+      return;
+    }
+
+    let i = 0;
+    const next = () => {
+      if (stopRef.current || i >= chunks.length) { setSpeaking(false); return; }
+      const utter = new SpeechSynthesisUtterance(chunks[i++]);
+      utter.lang = lang;
+      utter.voice = voice;
+      utter.onend = next;
+      utter.onerror = (e) => {
+        if (e.error === 'canceled' || e.error === 'interrupted') return;
+        stopRef.current = true;
+        setSpeaking(false);
+      };
+      synth.speak(utter);
+    };
+    next();
   }
 
   const dictToggle = (
