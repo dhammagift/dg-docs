@@ -33,7 +33,7 @@ way.
 | **Alt+2** | Table of contents: suttas and Vinaya |
 | **Alt+3** | Dictionary (dict.dhamma.gift) |
 | **/** | Put the cursor into the search field |
-| **Esc** | Close the open window, menu or notification |
+| **Esc** | Close the open window, menu, notification or the find-on-page panel (the panel too when its field is not focused) |
 | **Alt+F**, **Alt+Shift+F** or **Ctrl+Shift+F** | Find on the page |
 | **Ctrl+1** | Home / search |
 | **Ctrl+2** | Table of contents: suttas and Vinaya |
@@ -52,7 +52,7 @@ way.
 | **Alt+L** | Pali script: Latin → Brahmi → Devanagari → Thai |
 | **Alt+G** | Show / hide punctuation in Pali |
 | **Alt+Q** | Add to / remove from favorites |
-| **Alt+R** | Read aloud: start / pause |
+| **Alt+R** | Read aloud: start / pause. With a word selected it starts from there, in that language; without a selection, from the beginning |
 
 ## Search results
 
@@ -77,7 +77,7 @@ Work while the player is open, without Alt/Ctrl:
 |---|---|
 | **S** | Auto-scroll on / off |
 | **1** … **4** | What to read: Pali · Pali then translation · translation · translation then Pali |
-| **−** / **+** | Slower / faster |
+| **−** / **+** | Slower / faster (step 0.05) |
 | **R** | Normal speed |
 
 :::note
