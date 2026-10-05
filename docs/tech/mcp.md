@@ -41,8 +41,17 @@ Then ask in plain words, for example: *"Find all suttas about the turtle, quote 
 
 ## Under the hood
 
-The server is `core/mcp-server.js` in the dg-node repository, mounted as `POST /mcp` in `dg-fastify.js`.
-The tools are thin wrappers over the functions behind `/search` and `/api/text`, plus two direct read-only
-queries to `dg.db` (`compare_translations`, `list_structure`). It is stateless: every request gets its own
-server object. The plan and open questions (ranking, a stdio mode for the offline app, a separate
-`mcp.` subdomain) are in `docs/MCP_PLAN.md` of that repository.
+**Our server.** `core/mcp-server.js` in the dg-node repository, mounted as `POST /mcp` in `dg-fastify.js`
+(`GET` and `DELETE` answer 405: it is stateless, every request gets its own server object, no sessions).
+`search` and `get_text` are thin wrappers over the functions behind `/search` and `/api/text`; `compare_translations`
+and `list_structure` read `dg.db` directly (read-only). The tool descriptions and a short instruction for the agent
+(search is literal, try Pali and translation words, quote with the translator and a link) are sent with the server.
+
+**Our use of someone else's server.** The "AI search" on the site (`/api/ai-search`) asks a language model for the
+Pali terms and an English phrase, then calls the hosted [Tripitaka MCP](https://tripitaka-mcp.com) tool `search_hybrid`
+(`core/tipitaka-mcp-client.js`) to find passages by meaning. It holds Pali and Sujato's English only and is used as a
+fallback: the plain exact search never depends on it. Candidates the corpus does not contain are dropped before they
+reach it.
+
+The plan and open questions (ranking, a stdio mode for the offline app, a separate `mcp.` subdomain) are in
+`docs/MCP_PLAN.md` of the repository.
