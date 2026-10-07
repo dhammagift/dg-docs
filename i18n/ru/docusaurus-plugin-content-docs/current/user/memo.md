@@ -63,7 +63,7 @@ import MemoBubble from '@site/static/img/help/memo-firstletter-bubble.png';
 
 ## Pātimokkha — самопроверка наизусть
 
-Внизу страницы — прямые ссылки **Selfcheck** на полный текст Патимоккхи
+Ссылки **Самопроверка** (см. [Ссылки](#ссылки) ниже) открывают полный текст Патимоккхи
 бхиккху и бхиккхуни (без ссылок на пояснения — специально для проверки,
 помните ли вы правила по памяти), и ссылки на сторонние сайты с тем же
 текстом Патимоккхи.
@@ -80,5 +80,22 @@ import MemoBubble from '@site/static/img/help/memo-firstletter-bubble.png';
 Готовую сессию можно скачать как MP3 (значок загрузки) — например, чтобы
 слушать без интернета или не через браузер.
 
+## Ограничения аудиофайла
+
+Когда вы скачиваете сессию как MP3:
+
+- **Голос DG** — интервал и пауза в конце могут быть до **1 часа** каждая;
+  весь файл до **3 часов**; сама речь до **30 минут** (паузы в неё не
+  входят). Не больше 200 строк и 20 000 знаков текста.
+- **Голос Google** (нужен ваш API-ключ в настройках) — паузы до **10 секунд**.
+
 См. также [Голос / TTS](/tts) — более простой плеер прямо в ридере, без
 нарезки и повторов.
+
+## Ссылки
+
+- Советы и хитрости заучивания: [English](https://docs.google.com/document/d/1JWHEFqcaNhYwYneWBnTp9rkgWecDB4IIHX1l3AxSiWM/edit?tab=t.0#heading=h.j8yrupzfcw9i) · [Русский](https://docs.google.com/document/d/12A4jNFrSQywZubM7bL2pgQK0fOtr6LEBJMjGb7nTNlw/edit?tab=t.0#heading=h.j8yrupzfcw9i)
+- [Открыть любую сутту в этом режиме](https://dhamma.gift/memorize/)
+- Pātimokkha: [бхиккху](https://dhamma.gift/pm.php?expand=true) · [бхиккхуни](https://dhamma.gift/bipm.php?expand=true)
+- Pātimokkha на других сайтах: [Dhamma.ru](https://dhamma.gift/ru/assets/materials/prat.html) · [TBW](https://dhamma.gift/bw/vi/vi.html#content) · [ATI](https://dhamma.gift/accesstoinsight.org/tipitaka/vin/sv/index.html)
+- Самопроверка: [бхиккху](https://dhamma.gift/assets/rr.html) · [бхиккхуни](https://dhamma.gift/assets/rrbi.html)

@@ -64,7 +64,7 @@ separator, pauses and repeat count.
 
 ## Pātimokkha — self-check from memory
 
-At the bottom of the page, direct **Selfcheck** links open the full
+The **Selfcheck** links (see [Links](#links) below) open the full
 bhikkhu and bhikkhunī Pātimokkha text (with no links to commentary — on
 purpose, so you can check whether you actually remember the rules), plus
 links to third-party sites hosting the same Pātimokkha text.
@@ -83,5 +83,24 @@ links to third-party sites hosting the same Pātimokkha text.
 A finished session can be downloaded as an MP3 (the download icon) — say,
 to listen offline or outside the browser.
 
+## Limits of the audio file
+
+When you download a session as an MP3:
+
+- **DG voice** — the interval and the end pause can each be up to **1 hour**;
+  the whole file up to **3 hours**; the speech itself up to **30 minutes**
+  (pauses do not count towards it). Up to 200 lines and 20,000 characters
+  of text.
+- **Google voice** (needs your own API key in the settings) — pauses up to
+  **10 seconds**.
+
 See also [Voice / TTS](/tts) for the simpler player built right into the
 reader, without slicing or repeats.
+
+## Links
+
+- Tips & Tricks for memorization: [English](https://docs.google.com/document/d/1JWHEFqcaNhYwYneWBnTp9rkgWecDB4IIHX1l3AxSiWM/edit?tab=t.0#heading=h.j8yrupzfcw9i) · [Russian](https://docs.google.com/document/d/12A4jNFrSQywZubM7bL2pgQK0fOtr6LEBJMjGb7nTNlw/edit?tab=t.0#heading=h.j8yrupzfcw9i)
+- [Open any sutta this way](https://dhamma.gift/memorize/)
+- Pātimokkha: [Bhikkhu](https://dhamma.gift/pm.php?expand=true) · [Bhikkhunī](https://dhamma.gift/bipm.php?expand=true)
+- Pātimokkha on other sites: [Dhamma.ru](https://dhamma.gift/ru/assets/materials/prat.html) · [TBW](https://dhamma.gift/bw/vi/vi.html#content) · [ATI](https://dhamma.gift/accesstoinsight.org/tipitaka/vin/sv/index.html)
+- Selfcheck: [Bhikkhu](https://dhamma.gift/assets/rr.html) · [Bhikkhunī](https://dhamma.gift/assets/rrbi.html)
