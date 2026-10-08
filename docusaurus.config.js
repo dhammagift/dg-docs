@@ -13,7 +13,7 @@ const RU_BUILD = process.env.DOCS_BUILD_LOCALE === 'ru';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: RU_BUILD ? 'Справка Dhamma.gift (БЕТА)' : 'Dhamma.gift Help (BETA)',
+  title: RU_BUILD ? 'Справка Dhamma.gift Бета' : 'Dhamma.gift Help Beta',
   tagline: 'Search & Reader for the Pali Canon',
   favicon: 'img/favicon.ico',
 

@@ -7,7 +7,7 @@ sidebar_label: Главная
 import Albumart from '@site/static/img/diamond-logo.png';
 import SiteLink from '@site/src/components/SiteLink';
 
-# Справка Dhamma.gift (БЕТА)
+# Справка Dhamma.gift Бета
 
 <img src={Albumart} alt="Dhamma.gift" className="dg-hero-image" />
 
