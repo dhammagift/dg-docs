@@ -5,6 +5,7 @@ sidebar_label: Principles of Translation
 ---
 
 import SiteLink from '@site/src/components/SiteLink';
+import Today from '@site/src/components/Today';
 import PageTools from '@site/src/components/PageTools';
 import MemoBigwheel from '@site/static/img/albumart-memo-bigwheel-nobg.png';
 
@@ -26,7 +27,7 @@ A precise translation functions as a necessary "bridge," allowing readers to per
 
 ## Principles
 
-1. Any translation from Pali, or translation of another author's translation — whether a complete text, a text fragment, a dictionary entry, a topical article, or simply a term — in digital, printed, or oral form, is not considered final but is regarded as **"Work in Progress."** To obtain a final translation, meanings and terms must be correctly established. If such a translation is possible, it can only be done by an Arahant with the four "analytical knowledges" (<SiteLink to="/an4.172:0.3?s=pa%E1%B9%ADisambhid&lang=en&hide=id">catasso paṭisambhidā</SiteLink>).
+1. Any translation from Pali, or translation of another author's translation — whether a complete text, a text fragment, a dictionary entry, a topical article, or simply a term — in digital, printed, or oral form, as of today (<Today />) is not considered final but is regarded as **"Work in Progress."** To obtain a final translation, meanings and terms must be correctly established. If such a translation is possible, it can only be done by an Arahant with the four "analytical knowledges" (<SiteLink to="/an4.172:0.3?s=pa%E1%B9%ADisambhid&lang=en&hide=id">catasso paṭisambhidā</SiteLink>).
 2. Terminology in the Buddha's Teaching must be **consistent** — this is an integral part of any adequate set of instructions or documents, let alone the Supreme Teacher and Supreme Teaching describing the most subtle, fundamental principles of the universe's workings and the methods of its realization. Dhamma is **not** fiction. Meanings and definitions are uniform across all texts, especially those concerning the Four Noble Truths and adjacent layers of text. More detail in [Rationale](/rationale).
 3. If a concept has a definition in the suttas, that meaning is applied. Example: *dukkha* has a definition in the suttas — "Pain (dukkha) is bodily pain, bodily discomfort..." (*Analysis of Truths*, <SiteLink to="/mn141:16.1?s=dukkha&lang=en&hide=id">mn141</SiteLink>); see also [Rationale](/rationale). A practical example: in the suttas, when *dukkha* is used in Pali (bodily pain, bodily discomfort), it points the reader to phenomena at the level of *rūpa* and *vedanā*. But in translations that lack consistent terminology and render *dukkha* as "suffering," the reader's attention shifts instead to the level of *saññā* and *saṅkhārā*. Ignoring direct term definitions from the suttas is a sub-optimal approach that renders the whole of the Buddha's Teaching not well-formulated (not *svākkhāto*).
 4. If a definition cannot be found in the suttas but can be found in the Vinaya Vibhaṅga (hereinafter Vinaya), that meaning is applied.
