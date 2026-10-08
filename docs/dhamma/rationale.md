@@ -16,15 +16,17 @@ import AlbumartSamadhi from '@site/static/img/albumart-samadhi-nobg.png';
 
 *The detailed reasoning and examples behind the [Principles of Translation](/principles).*
 
-## Issues with Contextual Translation
+## Issues with Narrowly Contextual Translation
 
 ### Systematic Translation
 
-To avoid confusion, the following terms are used: **Systematic Translation (Consistent Terminology)** is an approach strictly grounded in the direct definitions of terms found within the primary sources themselves (the Suttas and Vinaya). It resolutely adheres to the original text's "internal glossary." The verified meaning is applied consistently and universally across the entire corpus, preserving the underlying logic, coherence, and original structure of the Teaching. For any given Pali concept, the closest possible equivalent — a single English word or a word cluster — is selected. While systematic translation is not always feasible, it is the preferred method wherever possible.
+To avoid confusion, the following terms are used: **precise, systematic, consistent translation** is an approach strictly grounded in the direct definitions of terms found within the primary sources themselves (the Suttas and Vinaya). It does not ignore the original text's "internal glossary." The verified meaning is applied consistently and universally across the entire corpus, preserving the underlying logic, single direction, and original structure of the Teaching. The structure of the text itself is likewise neither ignored nor simplified.
 
-### Contextual Translation
+For any given Pali concept, the closest possible equivalent — a single English word or a word cluster — is selected. While systematic translation is not always feasible, it is the preferred method wherever possible.
 
-**Contextual Translation** is an approach where the strict definitions provided by the primary sources are sidelined or ignored entirely. Consequently, the translation of a single word can vary drastically from one text to another. In these cases, the choice of terminology is driven not by the original's internal logic and glossary, but by established tradition, the translator's stylistic preferences, subjective interpretation, or the expectations of the audience.
+### Narrowly Contextual Translation
+
+**Narrowly contextual (situational, ad hoc) translation** is an approach where the strict definitions provided by the primary sources are sidelined or ignored entirely. Consequently, the translation of a single word can vary drastically from one text to another. In these cases, the choice of terminology is driven not by the original's internal logic and glossary, but by established tradition, the translator's stylistic preferences, subjective interpretation, or the expectations of the audience.
 
 A related error is **heuristic, non-adaptive translation**: once a rendering is picked, it gets locked in and is never revisited, even after contexts turn up that call for a different word.
 
@@ -32,11 +34,11 @@ A related error is **heuristic, non-adaptive translation**: once a rendering is 
 
 **Example:** `Pariññāta` is usually rendered as "fully understood." The choice looks heuristic, made without accounting for the form `pariññātantaṁ`. That creates a logical snag: if *pariññāta* already means "fully understood," then *pariññātantaṁ* would have to mean "understood even more fully" or "fully understood, for good" — leaving the original "fully" not actually full. This points to the need to revisit the initial rendering in light of the word's full range of use across the corpus.
 
-Contextual translation was an appropriate path of least resistance for primary text translations when there were no English translations at all — but a number of problems arose as a result, including fundamental ones.
+Narrowly contextual translation is a perfectly appropriate path of least resistance for compiling the first dictionaries and making the first translations — when there were no English (or other) translations at all, or while translating directly from Pali into English. But as a result a number of problems arose, and keep arising, including fundamental ones.
 
-### The Effect of Contextual Translation
+### The Effect of Narrowly Contextual Translation
 
-**A case in point:** in an imaginary text, word X is translated as "flying fox"; in another, word X is translated as "polo mallet." Contextual translation led to the word "bat" losing both its meanings, or acquiring unnecessary additional connotations.
+**A case in point:** in an imaginary text, word X is translated as "flying fox"; in another, word X is translated as "polo mallet." Narrowly contextual translation led to the word "bat" losing both its meanings, or acquiring unnecessary additional connotations.
 
 **Example 1, from translations:**
 
@@ -48,6 +50,8 @@ And the second case:
 "But he agrees to have them **rub, massage**, bathe, knead him."
 
 `ucchādana` (translated as "deformation" and "rubbing") — as with the word "bat" in the example above, the word's covering-related sense (smearing, covering, including as concealment — appropriate for the case of unreliability and disintegration) acquired an inappropriate meaning here, although it could have been verified and clarified. `parimaddana` (abrasion, massage) — a general word such as "kneading" (something being crumpled) would have been more appropriate.
+
+Polysemy in itself is not a problem, but overusing such substitutions can do far more harm and lead to problems of an entirely different, global scale.
 
 ### Dukkha
 
@@ -72,7 +76,7 @@ And what, friends, is "suffering" (discontent, dissatisfaction)? That which, fri
 
 There is no definition of dukkha (pain) as "suffering" anywhere in the Suttas or Vinaya — on the contrary, "suffering" (*domanassa*) is defined through the concept of "mental" pain (*dukkha*).
 
-In the case of bodily pain-discomfort, contextual translation was not even needed, since the word "pain" already has a meaning even more suitable than "suffering." In a figurative sense, "pain" is a problem, something requiring a solution, without the hyperbolic "loudness" of the word "suffering" — as in "this issue is my long-standing pain." The word "pain" thus covers all the necessary contexts and preserves the priority of bodily sensation over the reaction to that sensation (more on this below).
+In the case of bodily pain-discomfort, narrowly contextual translation was not even needed, since the word "pain" already has a meaning even more suitable than "suffering." In a figurative sense, "pain" is a problem, something requiring a solution, without the hyperbolic "loudness" of the word "suffering" — as in "this issue is my long-standing pain." The word "pain" thus covers all the necessary contexts and preserves the priority of bodily sensation over the reaction to that sensation or experience.
 
 ### Anta
 
@@ -99,9 +103,9 @@ As a result of this distortion, the Teaching leading to maximum clarity and unco
 
 ## Cross-Verifiability of Consistent Terminology
 
-In addition to consistent terminology, cross-verifiability and unidirectionality are easily traceable throughout the Buddha's Teaching, preserving principles including that the Tathagata's speech cannot be ambiguously contradictory (<SiteLink to="/r/?s=dvayag%C4%81min%C4%AB&q=dn24#1.18.1">dvayagāminī</SiteLink>), and conversely, that the Dhamma should be well-formulated (<SiteLink to="/r/?q=an3.70#7.4">svākkhāto</SiteLink>).
+In addition to consistent terminology, cross-verifiability and unidirectionality are easily traceable throughout the Buddha's Teaching, preserving principles including that the Tathagata's speech cannot be ambiguously contradictory (<SiteLink to="/r/?s=dvayag%C4%81min%C4%AB&q=dn24#1.18.1">dvayagāminī</SiteLink>), and conversely, that the Dhamma should be well-formulated (<SiteLink to="/r/?q=an3.70#7.4">svākkhāto</SiteLink>), and the Community (Saṅgha) should practice well, straightly, methodically, and properly (*suppaṭipanno ujuppaṭipanno ñāyappaṭipanno sāmīcippaṭipanno*).
 
-Example: dukkha is defined in mn141, dn22 and other suttas as bodily pain, bodily discomfort. There is no definition of dukkha as "suffering" in the Suttas or Vinaya — that is the result of contextual translation.
+Example: dukkha is defined in mn141, dn22 and other suttas as bodily pain, bodily discomfort. There is no definition of dukkha as "suffering" in the Suttas or Vinaya — that is the result of narrowly contextual translation.
 
 In the Four Noble Truths: `soka-parideva-dukkha-domanass-upāyāsa` — dukkha and domanassa are two direct definitions, bodily and mental pain and discomfort respectively, with the bodily one placed before the mental.
 
@@ -109,7 +113,7 @@ In the satipaṭṭhānas: `kāyo vedana` are the first two parts, `citta` (mind
 
 In the six elements (four great elements plus two): the four great elements are all "bodily" (<SiteLink to="/read/?q=mn28">mn28</SiteLink>); *viññāṇadhātu* is ~mental, or more precisely the phenomenon that produces mentality.
 
-In the five aggregates of clinging: `rūpa vedana sañña saṅkhārā viññāṇa` — ~matter, feeling of pleasant, pain, and neither-pain-nor-pleasant come first, and only then the ~mental phenomena.
+In the five aggregates of sustaining (*upādāna*): `rūpa vedana sañña saṅkhārā viññāṇa` — ~matter, feeling of pleasant, pain, and neither-pain-nor-pleasant come first, and only then the ~mental phenomena.
 
 In the six internal sense bases: `cakkhu soto ghāna jivha kāyo mano` — body is placed before mind-representation.
 
@@ -147,36 +151,36 @@ idaṁ vuccati, bhikkhave, somanassindriyaṁ.
 ```
 And what, monks, is the faculty of satisfaction? That which, monks, is mental pleasure, mental comfort, pleasure and comfort born of mind contact felt — this is called, monks, the faculty of satisfaction. (<SiteLink to="/read/?s=k%C4%81yika%E1%B9%81%20sukha%E1%B9%81&q=sn48.36#4.2">sn48.36</SiteLink>)
 
-With happiness the problem is as fundamental as with dukkha, though due to contextual translation the reader less often encounters *sukha* translated as bodily pleasant feeling. With *taṇhā* the case is more severe, and the problem larger, since the reader has no way to learn that *taṇhā* is not "thirst."
+With happiness the problem is as fundamental as with dukkha, though due to narrowly contextual translation the reader less often — but still sometimes — encounters *sukha* translated as bodily pleasant feeling. With *taṇhā* the case is more severe, and the problem larger, since the reader has no way to learn that *taṇhā* is not "thirst" in its intensity and negativity.
 
 ### If Taṇhā Is Thirst, a Lot Doesn't Add Up
 
-*Taṇhā* (Pali) or *tṛṣṇā* (Sanskrit) can indeed denote clinging, sticking, stickiness, grasping, and even a need to drink — but these are phenomena that can be pleasant, light, agreeable, and desirable, including in a figurative sense. Whereas "thirst" in English is a "loud" and mostly negative concept, even when used positively, as in "thirst for knowledge" or "thirst for travel" — the word itself is being discussed here, not whether wanting knowledge is good or not.
+*Taṇhā* (Pali) or *tṛṣṇā* (Sanskrit) can indeed denote clinging, sticking, stickiness, grasping, a lack and a need to drink — but these are phenomena that can be pleasant, light, agreeable, and desirable, including in a figurative sense. Whereas "thirst" in English is a "loud" and mostly negative concept, even when used positively, as in "thirst for knowledge" or "thirst for travel" — the word itself is being discussed here, not whether wanting knowledge is good or not.
 
 ### Emotional Divergence
 
 <SiteLink to="/read/?q=sn56.11&s=ta%E1%B9%87h%C4%81#4.4">sn56.11</SiteLink> — if *taṇhā* were a full equivalent of the word "thirst," it should be either an unpleasant experience of dryness and dehydration, or a strong, often passionate striving, need, or craving, sharply focused on the result (thirst for life — preserving life and its quality at any cost; thirst for knowledge — the desire to obtain information or experience without regard for other benefits). But the definition of the Second Noble Truth states that *taṇhā* **is accompanied** (*sahagata*, literally "goes together with") by joy-pleasure and passion-enchantment — not "pursues joy and passion," as if lacking them, nor "connected with them," as a potential outcome upon obtaining them, but as if they were already present in the current experience. Judging by the metaphors of one exhausted by heat and thirst, *tasinā* would fit that case better (see below).
 
-*Tatratatrābhinandinī* — delighting here-and-there, now this, now that — is inconsistent with the strong, one-directional, result-focused nature of the English word "thirst." A word like "wanting" would better convey this moderate, even pleasant, sense of desire — though that creates its own problem: both "thirst" and "wanting" produce a pleonasm when translating the common compound *kāma-taṇhā*, since *kāma* already means "desire" or "wanting," yielding either the redundant "desire-thirst" or the tautological "wanting-wanting."
+*Tatratatrābhinandinī* — delighting here-and-there, now this, now that — is inconsistent with the strong, one-directional, result-focused nature of the English word "thirst." A word like "wanting" would better convey this moderate, even pleasant, sense of desire — though that creates its own problem: both "thirst" and "wanting" produce a pleonasm when translating the common compound *kāma-taṇhā*, since *kāma* already means "desire" or "wanting," yielding either the redundant "desire-thirst" or the tautological "wanting-wanting." More on these problems below — but any rendering of *taṇhā* as some kind of desire or striving gives rise to many problems and contradictions at a much deeper level.
 
 ### Translating Taṇhā as "Thirst" Undermines the Second Noble Truth
 
-An even deeper and more serious problem: rendering and understanding *taṇhā* as "thirst" makes the Second Noble Truth untrue. Here is why: whichever approach is used, systematic or contextual, *dukkha* either means bodily pain or includes it — this follows, for instance, from dn22, mn141, and other texts:
+An even deeper and more serious problem: rendering and understanding *taṇhā* as "thirst" makes the Second Noble Truth untrue. Here is why: whichever approach is used, precise or narrowly contextual, *dukkha* either means bodily pain or includes it — this follows, for instance, from dn22, mn141, and other texts:
 
 ```
 soka-parideva-dukkha-domanass-upāyāsā-pi dukkhā
 ```
-sorrow, lamentation, pain, displeasure, and despair are painful too.
+suffering-lamentation-pain-discontent-despair are painful too.
 
 Clearly, "thirst" (a strong desire or urge) cannot be the source of all bodily pain. Pain from a long walk or from sitting still, for example, arises on its own and has nothing to do with whether any desire is present.
 
-An example of a more accurate and appropriate — though contextual, not systematic — translation of *taṇhā* than "thirst" can be found in the Chinese Taishō Tripiṭaka, where *taṇhā* is rendered as "love" (愛), as in "I love you" (我爱你, simplified Chinese):
+An example of an interpretive, not precise, but perhaps more successful rendering than "thirst" is 愛 — attachment, "clinging," love — in the Taishō Tripiṭaka (as in "I love you," 我爱你, simplified Chinese):
 
 > 何謂苦習？謂從愛故而令復有樂性，不離在在貪憙，欲愛、色愛、不色之愛，是習為苦。何謂苦盡？謂覺從愛復有所樂，婬念不受，不念無餘無婬，捨之無復禪，如是為習盡。
 >
 > ([machine translation of the passage](https://dharmamitra.org/?target_lang=english-explained&input_sentence=%E4%BD%95%E8%AC%82%E8%8B%A6%E7%BF%92%EF%BC%9F%E8%AC%82%E5%BE%9E%E6%84%9B%E6%95%85%E8%80%8C%E4%BB%A4%E5%BE%A9%E6%9C%89%E6%A8%82%E6%80%A7%EF%BC%8C%E4%B8%8D%E9%9B%A2%E5%9C%A8%E5%9C%A8%E8%B2%AA%E6%86%99%EF%BC%8C%E6%AC%B2%E6%84%9B%E3%80%81%E8%89%B2%E6%84%9B%E3%80%81%E4%B8%8D%E8%89%B2%E4%B9%8B%E6%84%9B%EF%BC%8C%E6%98%AF%E7%BF%92%E7%82%BA%E8%8B%A6%E3%80%82%E4%BD%95%E8%AC%82%E8%8B%A6%E7%9B%A1%EF%BC%9F%E8%AC%82%E8%A6%BA%E5%BE%9E%E6%84%9B%E5%BE%A9%E6%9C%89%E6%89%80%E6%A8%82%EF%BC%8C%E5%A9%AC%E5%BF%B5%E4%B8%8D%E5%8F%97%EF%BC%8C%E4%B8%8D%E5%BF%B5%E7%84%A1%E9%A4%98%E7%84%A1%E5%A9%AC%EF%BC%8C%E6%8D%A8%E4%B9%8B%E7%84%A1%E5%BE%A9%E7%A6%AA%EF%BC%8C%E5%A6%82%E6%98%AF%E7%82%BA%E7%BF%92%E7%9B%A1%E3%80%82), [T0109](https://suttacentral.net/t109/lzh/taisho?lang=en&reference=none&highlight=false))
 
-By setting aside the semantic fields of clinging, stickiness, dryness, or thirsting-for-liquid, the translators nevertheless preserved what matters most — the lightness of the concept and its association with joy-passion. In English "love" is somewhat closer to *taṇhā* than "thirst," especially in its connotations of desire or craving, though it still overstates the emotional positivity of the term.
+By setting aside the semantic fields of clinging, stickiness, dryness, or thirsting-for-liquid, the translators nevertheless preserved what matters most — the lightness of the concept and its association with joy-passion. Unfortunately, in English "love" applies to *taṇhā* with fewer reservations than "thirst," but still with a much too inflated emotional charge.
 
 ### Taṇhā Is Clinging, Upādāna Is Sustaining — Not the Other Way Around
 
@@ -186,15 +190,21 @@ Translating *taṇhā* as "thirst" and *upādāna* as "clinging" builds a mistak
 
 ## Issues with Sanskritocentrism
 
-Sanskritocentrism (pan-Sanskritism)[^3] is a non-optimal approach to understanding the Buddha's Teaching. The Buddha's Teaching exists in exhaustive completeness in Pali, but not in Sanskrit; it was also formulated in Pali chronologically earlier. Assuming that the conceptual base of Pali (Dhamma) and the Sanskrit (Hindu) base of sacred texts is identical is rash. Even within a single teaching or religion, divergences in the meaning of concepts are great enough to produce separate — sometimes hostile — movements, schools, and sects; yet two languages carrying the heritage of dozens of teachings, schools, and hundreds of sects are assumed to coincide down to subtleties and nuances.
+Sanskritocentrism (pan-Sanskritism)[^3] is considered a non-optimal approach to understanding the Buddha's Teaching. The Buddha's Teaching exists in exhaustive completeness in Pali, whereas Sanskrit materials are often later, more fragmentary, and frequently known not from an independent Sanskrit original but through their Chinese and Tibetan translations. Moreover, comparing the Pali and Sanskrit versions reveals not just lexical differences but fundamental shifts in the concepts themselves. A telling example is the blending of *dukkha* and *domanassa*, and the tendency to understand *dukkha* as a mixture of bodily and mental pain — whereas in the Pali texts, as shown repeatedly above, these concepts are distinguished, never mixed, and never reduced to one another.
+
+And if one looks at Sanskrit spiritual literature as a whole, beyond the Buddhist part alone, assuming that the conceptual base of the Dhamma and of the Vedas is identical or close is quite rash.
+
+Even within a single teaching or religion, divergences in the meaning of concepts are great enough to produce separate — sometimes hostile — movements, schools, and sects. All the more caution is due toward the assumption that two languages carrying the heritage of dozens of teachings, schools, and hundreds of doctrinal lines will coincide not only in general sense but down to the subtlest shades of meaning.
 
 The apparent absence of false cognates and "false friends of the translator" between the two languages is itself a good illustration of the unconvincingness of the pro-Sanskrit approach to Pali — as if someone had made the illogical equation: "if two languages have similar grammar and many related words, then the key concepts of their teachings must also be identical."
 
-*Atta* and *Atman* are a vivid example of clearly existing divergence and non-interchangeability of meaning: *Atta* (essence, selfhood, ~autonomy, the everyday "I") in Pali, and *Atman* (the higher "Self") in Sanskrit. It is also enough to compare the 31 "body parts," as in <SiteLink to="/read/?q=dn22#5.2">dn22</SiteLink> — `kesā lomā... vasā kheḷo siṅghāṇikā lasikā muttanti` — to see how distant and incommensurable the meanings of seemingly similar Pali and Sanskrit words can be.
+*Atta* and *Atman* are a vivid example of clearly existing divergence and non-interchangeability of meaning: *Atta* (essence, selfhood, ~autonomy, the everyday "I") in Pali, and *Atman* (the higher "Self") in Sanskrit.
+
+It is also enough to compare the 31 "body parts," as in <SiteLink to="/read/?q=dn22#5.2">dn22</SiteLink> — `kesā lomā... vasā kheḷo siṅghāṇikā lasikā muttanti` — to see how distant and incommensurable the meanings of seemingly similar Pali and Sanskrit words can be.
 
 With this in mind, in cases where Pali texts genuinely lack context or examples, Sanskrit can still be used — provided this does not lead to contradictions like those listed below. If a definition of a concept exists in Pali but the Sanskrit meaning contradicts it, the latter is not applied.
 
-**Examples of terminological divergence:** `duḥkha`, `tṛṣṇā`, `kāma` and `karma` may, in some cases, correspond to "suffering," "thirst," "sensual desire," and "action" within some teaching recorded in Sanskrit — but in Pali, had the Pali texts themselves been the primary basis for establishing these terms (rather than a literal transfer of meaning between the two languages), this would be unlikely.
+**Examples of terminological divergence:** `duḥkha`, `tṛṣṇā`, `kāma` and `karma` may, in some cases, correspond to "suffering," "thirst," "sensual desire," and "action" within some teaching recorded in Sanskrit — but in Pali, had the Pali texts themselves been the primary basis for establishing these terms (rather than a mechanical transfer of meanings and parallels between the two languages), this would be unlikely.
 
 **Examples from Pali texts:**
 
@@ -226,7 +236,7 @@ With this in mind, in cases where Pali texts genuinely lack context or examples,
      - <SiteLink to="/read/?q=an6.61&s=ta%E1%B9%87ha#12.4">an6.61</SiteLink> — the phenomena listed here, including *phasso*, can be so subtle that there can be no talk of thirst in either a figurative or a direct sense, especially at moments of "quenched thirst" — yet these phenomena remain stitched together and held, whether or not there is "strong wanting."
      - <SiteLink to="/read/?q=thag8.3#8.3">thag8.3</SiteLink> — `Sabbaṁ taṇhaṁ visosetvā`. Another oxymoron, "drying up thirst," on top of the "thirst is moisture" one above, instead of the logical "thirst is already dryness."
 
-   In Pali texts, *taṇhā* has a more complex, subtler, and less "loud" meaning than the English word "thirst," in either its direct or figurative sense.
+   As said more than once, in Pali texts *taṇhā* has a more complex, subtler, and less "loud" meaning than the English word "thirst" — if any Pali word comes close to "thirst," it is *tasinā*, in both its direct and figurative senses.
 3. `kāma`:
    - <SiteLink to="/read/?q=an6.63&s=k%C4%81m#8.10">an6.63</SiteLink> — desires as intention-blank-passion, not merely multipliers of desire (*kāma-guṇas*).
    - <SiteLink to="/read/?q=an6.63&s=k%C4%81mayam%C4%81no#12.1">an6.63 (continuation)</SiteLink> — a desiring person obtains either good or not-good, but "sensual" desires would lead to not-good, as they would contain *akusalamūla*: *lobha*, *dosa*, and/or *moha*.
@@ -239,5 +249,5 @@ The texts above show that the Pali terms `dukkha`, `taṇhā`/`tasinā`, `kāma`
 
 [^1]: In English, **pain**: [meaning 1] in the direct sense — a wide spectrum of unpleasant bodily sensations; [meaning 2] in the figurative sense — a problem, limitation, or inconvenience, something requiring a solution or improvement, as in "the pain of loneliness" or "customer pain." **Suffering**: [meaning 1] in the direct sense — very strong bodily and mental pain, together or separately; [meaning 2] in the figurative sense — mental pain, mental discomfort.
 [^2]: False cognates — words similar in sound and origin but with different meanings. Examples: *fabric* — "cloth" vs. Russian *фабрика* — "factory"; *magazine* — "periodical" vs. Russian *магазин* — "store."
-[^3]: Some of the problems described here may be connected not so much to Sanskrit as to contextual translation itself, since most of the relevant meanings can also be found in Sanskrit dictionaries. Still, a translator's choice in favor of something absent from the Suttas and Vinaya should be justified by something beyond tradition (including translation tradition) — and often what is offered instead is precisely a reference to Sanskrit.
+[^3]: Some of the problems described here may be connected not so much to Sanskrit as to narrowly contextual translation and to semantic shifts between Pali/Sanskrit and English or other languages, since most of the relevant meanings can also be found in Sanskrit dictionaries. Still, a translator's choice in favor of something absent from the Suttas and Vinaya should be justified by something beyond tradition (including translation tradition) — and often what is offered instead is precisely a reference to Sanskrit.
 [^4]: The word *tasina* itself is not found in all editions of the canon, but its derivative *tasito* is found in the vast majority of editions, in metaphors involving one exhausted by heat and thirst.
