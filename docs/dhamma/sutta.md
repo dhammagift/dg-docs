@@ -120,19 +120,19 @@ in the window here, in Pali and translation, scrolled straight to the
 relevant line:
 
 <SuttaBrowser items={[
-  { label: 'AN 4.180', src: '/an4.180:2.6?lang=en' },
-  { label: 'AN 3.65', src: '/an3.65:4.1?lang=en' },
-  { label: 'MN 139', src: '/mn139:3.9?lang=en' },
-  { label: 'MN 103', src: '/mn103:11.2?lang=en' },
-  { label: 'AN 4.3', src: '/an4.3:1.3?lang=en' },
-  { label: 'AN 2.24', src: '/an2.24:1.3?lang=en' },
-  { label: 'AN 2.25', src: '/an2.25:1.3?lang=en' },
-  { label: 'AN 2.23', src: '/an2.23:1.3?lang=en' },
-  { label: 'AN 4.42', src: '/an4.42:1.3?lang=en' },
-  { label: 'SN 20.7', src: '/sn20.7:1.2?lang=en' },
-  { label: 'AN 5.156', src: '/an5.156:1.3?lang=en' },
-  { label: 'AN 8.8', src: '/an8.8:6.7?lang=en' },
-  { label: 'MN 22', src: '/mn22:10.10?lang=en' },
+  { label: 'AN 4.180', src: '/an4.180:2.6?lang=en&hide=id' },
+  { label: 'AN 3.65', src: '/an3.65:4.1?lang=en&hide=id' },
+  { label: 'MN 139', src: '/mn139:3.9?lang=en&hide=id' },
+  { label: 'MN 103', src: '/mn103:11.2?lang=en&hide=id' },
+  { label: 'AN 4.3', src: '/an4.3:1.3?lang=en&hide=id' },
+  { label: 'AN 2.24', src: '/an2.24:1.3?lang=en&hide=id' },
+  { label: 'AN 2.25', src: '/an2.25:1.3?lang=en&hide=id' },
+  { label: 'AN 2.23', src: '/an2.23:1.3?lang=en&hide=id' },
+  { label: 'AN 4.42', src: '/an4.42:1.3?lang=en&hide=id' },
+  { label: 'SN 20.7', src: '/sn20.7:1.2?lang=en&hide=id' },
+  { label: 'AN 5.156', src: '/an5.156:1.3?lang=en&hide=id' },
+  { label: 'AN 8.8', src: '/an8.8:6.7?lang=en&hide=id' },
+  { label: 'MN 22', src: '/mn22:10.10?lang=en&hide=id' },
 ]} />
 
 ## See also
