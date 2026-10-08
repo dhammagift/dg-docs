@@ -26,11 +26,14 @@ import React, { useEffect, useState } from 'react';
 // English words, names (Google, Safari) and the single letters of the examples are left alone.
 const PALI_LETTER = /[āīūṁṃṅñṭḍṇḷĀĪŪṀṂṄÑṬḌṆḶ]/;
 const PALI_PLAIN = new Set(('abyapada akusalamula anicca anta byapada ceto citta dhamma domanassa dosa dukkha kama kamma '
-  + 'kesamuttiya kinti lobha mano moha phasso sahagata soko somanassa sukha sukkha sutta tasina').split(' '));
-const WORD = /[A-Za-zāīūṁṃṅñṭḍṇḷĀĪŪṀṂṄÑṬḌṆḶ]+/g;
-function isPali(word, after) {
-  if (word.length < 3 || after === '.' ) return false; // "Dhamma.gift" is the site's name
-  return PALI_LETTER.test(word) || PALI_PLAIN.has(word.toLowerCase());
+  + 'kesamuttiya kinti lobha mano moha phasso sahagata soko somanassa sukha sukkha sutta tasina tasito').split(' '));
+// \u0300-\u036f: some of the text spells ṇ, ā as a letter plus a combining mark (taṇhā, pipāsā), not one character
+const WORD = /[A-Za-zāīūṁṃṅñṭḍṇḷĀĪŪṀṂṄÑṬḌṆḶ\u0300-\u036f]+/g;
+function isPali(word, next2) {
+  if (/^\.[a-z]/i.test(next2)) return false; // "Dhamma.gift" is the site's name
+  const w = word.normalize('NFC');
+  if (w.length < 3) return false;
+  return PALI_LETTER.test(w) || PALI_PLAIN.has(w.toLowerCase());
 }
 function tagPlainPali(article) {
   const walker = document.createTreeWalker(article, NodeFilter.SHOW_TEXT, {
@@ -44,7 +47,7 @@ function tagPlainPali(article) {
     let last = 0, frag = null, m;
     WORD.lastIndex = 0;
     while ((m = WORD.exec(text))) {
-      if (!isPali(m[0], text.charAt(m.index + m[0].length))) continue;
+      if (!isPali(m[0], text.substr(m.index + m[0].length, 2))) continue;
       frag = frag || document.createDocumentFragment();
       frag.appendChild(document.createTextNode(text.slice(last, m.index)));
       const span = document.createElement('span');
