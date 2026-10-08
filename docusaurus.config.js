@@ -44,6 +44,7 @@ const config = {
     './src/clientModules/quickModal.js',
     './src/clientModules/langSwitch.js',
     './src/clientModules/embed.js',
+    './src/clientModules/hotkeys.js',
   ],
 
   i18n: {
