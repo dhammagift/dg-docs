@@ -16,8 +16,8 @@ import React, { useEffect, useRef, useState } from 'react';
 // (read/js/voice.js) does NOT work on this content — it only knows how to read real sutta
 // segment data or one specific legacy table layout; on a plain prose page it logs "Нет
 // данных для воспроизведения" and never speaks. Rather than force this content into that
-// legacy shape, this uses the browser's own Web Speech API directly against the article's
-// rendered text — simpler and it actually works.
+// legacy shape, this reads the article's rendered text itself: with the DG voices (the reader's
+// Piper server), and with the browser's own Web Speech API only if that server does not answer.
 // `inline`: only the dictionary on/off icon, as a span that sits inside a sentence ("tap this icon
 // to turn the dictionary on and off") — used on the Dictionary help page. Same loading/tagging.
 // `termSelector`: which elements count as Pali terms. The Dictionary page passes "em" — there
@@ -68,6 +68,8 @@ export default function PageTools({ articleSelector = '.theme-doc-markdown', inl
     }
 
     return () => {
+      stopRef.current = true;
+      if (audioRef.current) audioRef.current.pause();
       if (window.speechSynthesis) window.speechSynthesis.cancel();
     };
   }, [articleSelector, termSelector]);
@@ -126,27 +128,79 @@ export default function PageTools({ articleSelector = '.theme-doc-markdown', inl
   }
 
   const stopRef = useRef(false);
+  const audioRef = useRef(null);
+
+  // DG voice first: the same Piper voices and server as the reader's player (read/js/voice.js,
+  // fetchPaliVoiceAudio): dgru for Russian, alan for English, or the voice the reader saved in
+  // tts_dg_voice_<lang>. Each chunk is one request ({audioContent}: base64 mp3); the next one is
+  // fetched while the current one plays. If the voice server does not answer, the browser's own
+  // voice reads the rest (below).
+  const DG_TTS_URLS = ['https://api.dhamma.gift/api/tts/pali', '/api/tts/pali'];
+  const DG_VOICES = { ru: ['dgru', 'ruslan', 'irina'], en: ['alan', 'norman', 'kathleen'] };
+
+  function dgVoice(lang) {
+    const saved = window.localStorage.getItem('tts_dg_voice_' + lang);
+    return DG_VOICES[lang].includes(saved) ? saved : DG_VOICES[lang][0];
+  }
+
+  async function fetchDgAudio(text, voice) {
+    const body = JSON.stringify({ text, rate: 1, voice });
+    for (const url of DG_TTS_URLS) {
+      try {
+        const r = await fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body,
+                                     signal: AbortSignal.timeout(20000) });
+        if (r.ok) return 'data:audio/mp3;base64,' + (await r.json()).audioContent;
+      } catch (e) { /* next url */ }
+    }
+    return null;
+  }
+
+  // Resolves with the index of the first chunk it could not get (chunks.length = all read).
+  async function playDg(chunks, lang) {
+    const voice = dgVoice(lang);
+    let next = fetchDgAudio(chunks[0], voice);
+    for (let i = 0; i < chunks.length; i++) {
+      const src = await next;
+      if (stopRef.current) return chunks.length;
+      if (!src) return i;
+      next = i + 1 < chunks.length ? fetchDgAudio(chunks[i + 1], voice) : null;
+      await new Promise((resolve) => {
+        const audio = new Audio(src);
+        audioRef.current = audio;
+        audio.onended = audio.onerror = resolve;
+        audio.play().catch(resolve);
+      });
+      if (stopRef.current) return chunks.length;
+    }
+    return chunks.length;
+  }
 
   async function toggleListen() {
     const synth = window.speechSynthesis;
-    if (!synth || typeof window.SpeechSynthesisUtterance === 'undefined') {
-      window.alert(isRu ? 'Этот браузер не умеет озвучивать текст.' : 'This browser cannot read text aloud.');
-      return;
-    }
     if (speaking) {
       stopRef.current = true;
-      synth.cancel();
+      if (audioRef.current) audioRef.current.pause();
+      if (synth) synth.cancel();
       setSpeaking(false);
       return;
     }
     const article = document.querySelector(articleSelector);
     if (!article) return;
-    const lang = isRu ? 'ru-RU' : 'en-US';
-    const chunks = speechChunks(article.innerText);
+    let chunks = speechChunks(article.innerText);
     if (!chunks.length) return;
 
     stopRef.current = false;
     setSpeaking(true);
+    const done = await playDg(chunks, isRu ? 'ru' : 'en');
+    if (stopRef.current || done >= chunks.length) { setSpeaking(false); return; }
+    chunks = chunks.slice(done);
+
+    const lang = isRu ? 'ru-RU' : 'en-US';
+    if (!synth || typeof window.SpeechSynthesisUtterance === 'undefined') {
+      window.alert(isRu ? 'Этот браузер не умеет озвучивать текст.' : 'This browser cannot read text aloud.');
+      setSpeaking(false);
+      return;
+    }
     synth.cancel(); // drop a stale queue (Chrome keeps it after a page reload in the same tab)
     await waitForVoices(synth);
     const voice = pickVoice(synth, lang);
