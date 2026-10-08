@@ -20,6 +20,46 @@ import React, { useEffect, useState } from 'react';
 // to turn the dictionary on and off") — used on the Dictionary help page. Same loading/tagging.
 // `termSelector`: which elements count as Pali terms. The Dictionary page passes "em" — there
 // **bold** and `code` hold key names (Alt+A, DPD) that must not turn into word lookups.
+// Pali words written as plain text (not `code`/*em*): the Russian pages write most terms that way, and they were not
+// clickable (pariññātantaṁ, somanassa…). A word counts as Pali when it has a Pali letter (ā, ṁ, ñ, ṭ…), or is one of the
+// plain-Latin terms these pages use. Each is wrapped in its own lang="pi" span, which is all paliLookup.js needs.
+// English words, names (Google, Safari) and the single letters of the examples are left alone.
+const PALI_LETTER = /[āīūṁṃṅñṭḍṇḷĀĪŪṀṂṄÑṬḌṆḶ]/;
+const PALI_PLAIN = new Set(('abyapada akusalamula anicca anta byapada ceto citta dhamma domanassa dosa dukkha kama kamma '
+  + 'kesamuttiya kinti lobha mano moha phasso sahagata soko somanassa sukha sukkha sutta tasina').split(' '));
+const WORD = /[A-Za-zāīūṁṃṅñṭḍṇḷĀĪŪṀṂṄÑṬḌṆḶ]+/g;
+function isPali(word, after) {
+  if (word.length < 3 || after === '.' ) return false; // "Dhamma.gift" is the site's name
+  return PALI_LETTER.test(word) || PALI_PLAIN.has(word.toLowerCase());
+}
+function tagPlainPali(article) {
+  const walker = document.createTreeWalker(article, NodeFilter.SHOW_TEXT, {
+    acceptNode: (n) => n.parentElement.closest('a, code, pre, [lang="pi"], script, style, button, sup, .footnote-backref')
+      ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT,
+  });
+  const nodes = [];
+  for (let n = walker.nextNode(); n; n = walker.nextNode()) nodes.push(n);
+  nodes.forEach((node) => {
+    const text = node.nodeValue;
+    let last = 0, frag = null, m;
+    WORD.lastIndex = 0;
+    while ((m = WORD.exec(text))) {
+      if (!isPali(m[0], text.charAt(m.index + m[0].length))) continue;
+      frag = frag || document.createDocumentFragment();
+      frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+      const span = document.createElement('span');
+      span.setAttribute('lang', 'pi');
+      span.className = 'pli-lang';
+      span.textContent = m[0];
+      frag.appendChild(span);
+      last = m.index + m[0].length;
+    }
+    if (!frag) return;
+    frag.appendChild(document.createTextNode(text.slice(last)));
+    node.parentNode.replaceChild(frag, node);
+  });
+}
+
 export default function PageTools({ articleSelector = '.theme-doc-markdown', inline = false, termSelector = 'code, em, strong' }) {
   const [dictOn, setDictOn] = useState(true);
   // Starts false (matches server-rendered output, no `window` at build time) and is corrected
@@ -71,6 +111,7 @@ export default function PageTools({ articleSelector = '.theme-doc-markdown', inl
         el.setAttribute('lang', 'pi');
         el.classList.add('pli-lang');
       });
+      if (!inline) tagPlainPali(article);
     }
 
     // Docs navigate without reloading: the player must not go on reading the page that was left.
