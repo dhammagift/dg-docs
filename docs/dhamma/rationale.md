@@ -109,13 +109,13 @@ Example: dukkha is defined in mn141, dn22 and other suttas as bodily pain, bodil
 
 In the Four Noble Truths: `soka-parideva-dukkha-domanass-upāyāsa` — dukkha and domanassa are two direct definitions, bodily and mental pain and discomfort respectively, with the bodily one placed before the mental.
 
-In the satipaṭṭhānas: `kāyo vedana` are the first two parts, `citta` (mind-state) is the third.
+In the satipaṭṭhānas: `kāyo vedanā` are the first two parts, `citta` (mind-state) is the third.
 
 In the six elements (four great elements plus two): the four great elements are all "bodily" (<SiteLink to="/mn28?lang=en">mn28</SiteLink>); *viññāṇadhātu* is ~mental, or more precisely the phenomenon that produces mentality.
 
-In the five aggregates of sustaining (*upādāna*): `rūpa vedana sañña saṅkhārā viññāṇa` — ~matter, feeling of pleasant, pain, and neither-pain-nor-pleasant come first, and only then the ~mental phenomena.
+In the five aggregates of sustaining (*upādāna*): `rūpa vedanā saññā saṅkhārā viññāṇa` — ~matter, feeling of pleasant, pain, and neither-pain-nor-pleasant come first, and only then the ~mental phenomena.
 
-In the six internal sense bases: `cakkhu soto ghāna jivha kāyo mano` — body is placed before mind-representation.
+In the six internal sense bases: `cakkhu soto ghāna jivhā kāyo mano` — body is placed before mind-representation.
 
 In dependent origination (<SiteLink to="/sn12.2:14.2?lang=en&hide=id">sn12.2</SiteLink>): *avijjā* has a precise definition — not knowing about pain (dukkha), etc. In the definition of *saṅkhāras*: body, speech, mind (body first). *Viññāṇa* — six types, `kāyo mano` — body comes before mind. `nāma-rūpa` — name-~matter, where "name" is `vedanā, saññā, cetanā, phasso, manasikāro` (feeling, perception, volition, contact, attention) — *vedanā* comes first, before the more ~mental phenomena such as *cetanā* and *manasikāra*. In other sequences of conditions where body and mind can be distinguished, the same principle holds as with *viññāṇa*: body or contact comes before mind or phenomenon (Dhamma).
 

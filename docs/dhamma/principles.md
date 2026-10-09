@@ -39,7 +39,7 @@ A precise translation functions as a necessary "bridge," allowing readers to per
 10. Preserving the word order of the Pali sentence is preferred.
 11. Preserving Pali grammatical structure is preferred.
 12. Consistent, systematic translation of prefixes and endings is preferred, where possible.
-13. Preserving the structure of Pali words with negative prefixes is preferred over antonyms. Example: *byapada* and *abyapada* — "hostility" and "non-hostility," not "hostility" and "friendliness."
+13. Preserving the structure of Pali words with negative prefixes is preferred over antonyms. Example: *byāpāda* and *abyāpāda* — "hostility" and "non-hostility," not "hostility" and "friendliness."
 14. Preserving the structure of compound words as in Pali is preferred. Case endings are used only where the form without them sounds completely unnatural in English. Where possible, it is recommended to omit case endings within compound words,[^2] preserving their open, polysemantic structure — for example, Noble-Truth is both the truth of the Noble, and a truth leading to nobility, and one from the nobles, and one for becoming noble, and one for those already noble.
 15. In cases of semantic divergence, translation should be based on the meaning of the Pali term — as with "false friends of the translator,"[^3] not by external similarity to English equivalents. More detail in [Rationale](/rationale).
 
