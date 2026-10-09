@@ -7,7 +7,7 @@ sidebar_label: Принципы по суттам
 import SuttaBrowser from '@site/src/components/SuttaBrowser';
 import SuttaLink from '@site/src/components/SuttaLink';
 import PageTools from '@site/src/components/PageTools';
-import VijjaHatthipada from '@site/static/img/vijja-hatthipada-nobg.png';
+import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 # Принципы Дхаммы
 

@@ -11,37 +11,11 @@
 // different EN/RU slug doesn't require reshaping this structure. Add a page here when it
 // exists in both builds; anything not listed falls back to that build's home page (still
 // correct, just not page-preserving).
-var PAGE_PAIRS = [
-  ['/', '/'],
-  ['/sutta', '/sutta'],
-  ['/principles', '/principles'],
-  ['/rationale', '/rationale'],
-  ['/uposatha', '/uposatha'],
-  ['/key-features', '/key-features'],
-  ['/search-guide', '/search-guide'],
-  ['/read', '/read'],
-  ['/settings', '/settings'],
-  ['/toc', '/toc'],
-  ['/dictionary', '/dictionary'],
-  ['/tts', '/tts'],
-  ['/multitool', '/multitool'],
-  ['/login', '/login'],
-  ['/memo', '/memo'],
-  ['/quickmodal', '/quickmodal'],
-  ['/translator', '/translator'],
-  ['/hotkeys', '/hotkeys'],
-  ['/telegram-bot', '/telegram-bot'],
-  ['/browser-extension', '/browser-extension'],
-  ['/pwa', '/pwa'],
-  ['/dhamma-gift-app', '/dhamma-gift-app'],
-  ['/installation', '/installation'],
-  ['/policies', '/policies'],
-];
-// Every page of both builds, not just the ones that were there at the beginning: a slug missing here
-// is a language switch that drops the reader on the docs home instead of the same page in the other
-// language (that is what /telegram-bot, /uposatha, /hotkeys, /pwa, /installation, /browser-extension
-// and /dhamma-gift-app did). The two builds carry the same slugs — check with:
-//   grep -rh '^slug:' docs/ | sort > /tmp/en && grep -rh '^slug:' i18n/ru/docusaurus-plugin-content-docs/current/ | sort | diff /tmp/en -
+// Both builds carry the same slugs (and the same file names for pages without a slug), so the
+// other language's URL is just the same path under the other base. Whether that page really
+// exists there is checked with a HEAD request in refreshOtherHref(); if not, the link falls back
+// to that build's home. No per-page list to maintain.
+var otherExists = {};
 
 function isRuBuild() {
   return window.location.pathname.indexOf('/ru/docs') === 0;
@@ -55,14 +29,25 @@ function currentSlug(base) {
 
 function otherLangHref() {
   var ru = isRuBuild();
-  var base = ru ? '/ru/docs' : '/docs';
   var otherBase = ru ? '/docs' : '/ru/docs';
-  var slug = currentSlug(base);
-  var pair = PAGE_PAIRS.filter(function (p) {
-    return (ru ? p[1] : p[0]) === slug;
-  })[0];
-  var targetSlug = pair ? (ru ? pair[0] : pair[1]) : '/';
-  return otherBase + (targetSlug === '/' ? '/' : targetSlug + '/');
+  var slug = currentSlug(ru ? '/ru/docs' : '/docs');
+  var target = otherBase + (slug === '/' ? '/' : slug + '/');
+  // Unknown yet or missing: home of the other build (fixed up asynchronously below).
+  return otherExists[target] === false ? otherBase + '/' : target;
+}
+
+function refreshOtherHref() {
+  var target = otherLangHref();
+  if (target in otherExists || typeof fetch === 'undefined') return;
+  otherExists[target] = true;
+  fetch(target, { method: 'HEAD' }).then(function (r) {
+    if (!r.ok) {
+      otherExists[target] = false;
+      document.querySelectorAll('.dg-lang-link').forEach(function (el) {
+        el.href = hrefForLocale(el.dataset.base);
+      });
+    }
+  }).catch(function () {});
 }
 
 // Real dropdown (Docusaurus's own localeDropdown widget, reused so a 3rd/4th language later is
@@ -274,4 +259,5 @@ export function onRouteDidUpdate() {
   document.querySelectorAll('.dg-lang-link').forEach(function (el) {
     el.href = hrefForLocale(el.dataset.base);
   });
+  refreshOtherHref();
 }

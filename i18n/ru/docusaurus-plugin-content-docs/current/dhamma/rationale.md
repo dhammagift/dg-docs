@@ -6,7 +6,7 @@ sidebar_label: Обоснование
 
 import SiteLink from '@site/src/components/SiteLink';
 import PageTools from '@site/src/components/PageTools';
-import Samadhi from '@site/static/img/albumart-samadhi-nobg.png';
+import Samadhi from '@site/static/img/thumb/albumart-samadhi-nobg.webp';
 
 # Обоснование
 

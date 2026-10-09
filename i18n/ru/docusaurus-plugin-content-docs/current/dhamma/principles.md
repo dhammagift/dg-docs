@@ -7,7 +7,7 @@ sidebar_label: Принципы перевода
 import SiteLink from '@site/src/components/SiteLink';
 import Today from '@site/src/components/Today';
 import PageTools from '@site/src/components/PageTools';
-import MemoBigwheel from '@site/static/img/albumart-memo-bigwheel-nobg.png';
+import MemoBigwheel from '@site/static/img/thumb/albumart-memo-bigwheel-nobg.webp';
 
 # Принципы перевода
 

@@ -9,7 +9,7 @@ import UposathaCalendar from '@site/src/components/UposathaCalendar';
 import UpoDates from '@site/static/img/help/uposatha-dates.png';
 import UpoParts from '@site/static/img/help/uposatha-parts.png';
 import UpoSettings from '@site/static/img/help/uposatha-settings.png';
-import AlbumartUposatha from '@site/static/img/albumart-uposatha-nobg.png';
+import AlbumartUposatha from '@site/static/img/thumb/albumart-uposatha-nobg.webp';
 
 # Дни упосатхи
 

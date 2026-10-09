@@ -6,7 +6,7 @@ sidebar_label: Rationale
 
 import SiteLink from '@site/src/components/SiteLink';
 import PageTools from '@site/src/components/PageTools';
-import AlbumartSamadhi from '@site/static/img/albumart-samadhi-nobg.png';
+import AlbumartSamadhi from '@site/static/img/thumb/albumart-samadhi-nobg.webp';
 
 # Rationale
 
