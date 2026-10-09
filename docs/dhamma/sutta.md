@@ -34,7 +34,7 @@ a community of elders, or a single senior monk). <SuttaLink index={0}>Read →</
 
 ## Rational criteria — not authority, not hearsay
 
-**AN 3.65 (Kesamuttiya / Kālāma Sutta)** — the companion piece to Mahāpadesa:
+**AN 3.65 (Kesamutti / Kālāma Sutta)** — the companion piece to Mahāpadesa:
 don't accept a teaching merely because of tradition, report, hearsay,
 scripture, logic, inference, superficial appearance, agreement with a view
 you already hold, the speaker's apparent competence, or "the ascetic is our
