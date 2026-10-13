@@ -13,13 +13,11 @@ Dhamma.gift — это набор связанных инструментов в
 переводом, прослушать и заучить можно было в одном непрерывном сценарии, а
 не в разных приложениях.
 
-<div style={{display: 'flex', gap: '12px', alignItems: 'center', margin: '1rem 0 8px'}}>
-  <span style={{flex: '0 1 200px'}}><a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать в App Store" style={{width: '100%', display: 'block'}} /></a></span>
-  <span style={{flex: '0 1 200px'}}><a href="https://play.google.com/store/apps/details?id=gift.dhamma.twa"><img src="/assets/img/buttons/google-play-cta.png" alt="Скачать в Google Play" style={{width: '100%', display: 'block'}} /></a></span>
-</div>
-<div style={{display: 'flex', gap: '12px', alignItems: 'center', margin: '0 0 1rem'}}>
-  <span style={{flex: '0 1 140px'}}><SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Установить как PWA" style={{width: '100%', display: 'block'}} /></SiteLink></span>
-  <span style={{flex: '0 1 140px'}}><a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src="/assets/img/buttons/msstore-cta.png" alt="Скачать из Microsoft Store" style={{width: '100%', display: 'block'}} /></a></span>
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
+  <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать в App Store" style={{width: '100%', display: 'block'}} /></a></span>
+  <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://play.google.com/store/apps/details?id=gift.dhamma.twa"><img src="/assets/img/buttons/google-play-cta.png" alt="Скачать в Google Play" style={{width: '100%', display: 'block'}} /></a></span>
+  <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src="/assets/img/buttons/msstore-cta.png" alt="Скачать из Microsoft Store" style={{width: '100%', display: 'block'}} /></a></span>
+  <span style={{flex: '1 1 150px', maxWidth: '200px'}}><SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Установить как PWA" style={{width: '100%', display: 'block'}} /></SiteLink></span>
 </div>
 
 ## Dhamma.Gift — мультитул / портал в одно окно
