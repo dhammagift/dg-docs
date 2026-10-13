@@ -72,8 +72,9 @@ An extra word does not break the link: `mn10 metta` still opens `mn10`.
 
 The same search and reader are the Mini Apps behind `/extra`:
 [search](http://t.me/dhammagift_bot/find),
-[reading](http://t.me/dhammagift_bot/read) and
-[dictionary](http://t.me/dhammagift_bot/dict).
+[reading](http://t.me/dhammagift_bot/read),
+[dictionary](http://t.me/dhammagift_bot/dict) and
+[Memo](http://t.me/dhammagift_bot/memo).
 
 ## Uposatha days
 
@@ -113,9 +114,9 @@ with the same links and buttons. On top of that, the bot has commands and settin
 | --- | --- |
 | `/start` | the welcome message and the interface language |
 | `/language` | choose the interface language (English / Русский) |
-| `/extra` | links to the Mini Apps: search, reading, dictionary |
+| `/extra` | links to the Mini Apps: search, reading, dictionary, and the 🧠 Memo button (in the bot's own chat) |
+| `/docs` | the link to this documentation |
 | `/uposatha` | Uposatha days for the next 30 days |
-| `/help` | help (in progress) |
 
 ### Settings
 
