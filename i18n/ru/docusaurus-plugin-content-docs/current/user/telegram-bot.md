@@ -7,6 +7,7 @@ import InlineSutta from '@site/static/img/telegram/inline-sutta.png';
 import MessageSutta from '@site/static/img/telegram/message-sutta.png';
 import InlineUposatha from '@site/static/img/telegram/inline-uposatha.png';
 import MessageUposatha from '@site/static/img/telegram/message-uposatha.png';
+import InlineMeaning from '@site/static/img/telegram/inline-meaning.webp';
 
 # Telegram-бот
 
@@ -36,6 +37,20 @@ import MessageUposatha from '@site/static/img/telegram/message-uposatha.png';
 
 <p style={{fontSize: '0.85em', opacity: 0.75, marginTop: '0.3em'}}>В рамке — то, что набрано в поле ввода <b>любого чата или группы</b>, а не в чате с ботом.</p>
 
+Если слово есть во встроенном мини-словаре (пали–английском, для русского
+интерфейса — с русским переводом), его краткое значение показывается в списке
+под словом и в отправленном сообщении — между словом и ссылками:
+
+> **kacchapa** — *муж.* черепаха; досл. болотный житель
+
+
+<img src={InlineMeaning} alt="@dgift_bot adhiccasamuppann в поле ввода: в списке adhiccasamuppannā с его значением, выше — отправленное сообщение со значением между словом и ссылками" style={{maxWidth: '100%', borderRadius: 10}} />
+
+Форма сводится к словарному слову (`kacchapā` → **kacchapa**), показываются до
+четырёх слов, а если есть ещё — `…` (список не исчерпывающий); часть речи
+выделена курсивом, а если русского перевода слова нет, показывается английский.
+Машинные русские переводы помечены `[пер. ИИ]`.
+
 Над списком есть кнопка — `🔎 Открыть Dhamma.gift Ru: sn56.11` — она открывает
 Dhamma.gift мини-приложением с уже выполненным поиском.
 
@@ -47,7 +62,8 @@ Dhamma.gift мини-приложением с уже выполненным п�
 <img src={MessageSutta} alt="Отправленное сообщение: sn56.11 со ссылками Dhamma.gift и Словарь и кнопками Язык Ru/En, Словарь, Читать на Dhamma.gift Ru" style={{maxWidth: '100%', borderRadius: 10}} />
 
 - `🔎 Dhamma.gift` — слово или текст в поиске сайта;
-- `📘 Словарь` — слово в словарях (`dict.dhamma.gift`);
+- `📘 Словарь` — слово в словарях (`dict.dhamma.gift`); краткое значение из
+  мини-словаря уже есть в сообщении, над ссылками;
 - `Читать на 🔎 Dhamma.gift Ru` — сам текст, в ридере.
 
 Лишнее слово ссылку не ломает: `mn10 metta` всё равно открывает `mn10`.
@@ -94,13 +110,14 @@ Dhamma.gift мини-приложением с уже выполненным п�
 | Команда | Что делает |
 | --- | --- |
 | `/start` | приветствие и язык интерфейса |
+| `/language` | выбор языка интерфейса (English / Русский) |
 | `/extra` | ссылки на мини-приложения: поиск, чтение, словарь |
 | `/uposatha` | дни Упосатхи на ближайшие 30 дней |
 | `/help` | справка (в работе) |
 
 ### Настройки
 
-- **Язык** — переключается через `/start` или кнопкой под любым сообщением
+- **Язык** — выбирается командой `/language` (две кнопки, текущий отмечен галочкой); `/start` переключает его, так же как и кнопкой под любым сообщением
   (`Язык Ru/En` / `Lang En/Ru`). Выбор запоминается и влияет на ссылки: русский
   интерфейс ведёт на `dhamma.gift/ru` и `dict.dhamma.gift/ru`.
 - **Город для списка Упосатхи** — `/uposatha <город>` запоминает его,
