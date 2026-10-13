@@ -13,11 +13,13 @@ dictionary, and a text-to-speech player, tied together so that finding a
 passage, reading it with a translation, listening to it, and memorizing it
 are all one continuous workflow rather than separate apps.
 
-<div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
-  <a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{maxWidth: '220px'}} /></a>
-  <a href="https://play.google.com/store/apps/details?id=gift.dhamma.twa"><img src="/assets/img/buttons/google-play-cta.png" alt="Get it on Google Play" style={{maxWidth: '220px'}} /></a>
-  <SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Install as a PWA" style={{maxWidth: '150px'}} /></SiteLink>
-  <a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src="/assets/img/buttons/msstore-cta.png" alt="Get it from Microsoft Store" style={{maxWidth: '150px'}} /></a>
+<div style={{display: 'flex', gap: '12px', alignItems: 'center', margin: '1rem 0 8px'}}>
+  <span style={{flex: '0 1 200px'}}><a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{width: '100%', display: 'block'}} /></a></span>
+  <span style={{flex: '0 1 200px'}}><a href="https://play.google.com/store/apps/details?id=gift.dhamma.twa"><img src="/assets/img/buttons/google-play-cta.png" alt="Get it on Google Play" style={{width: '100%', display: 'block'}} /></a></span>
+</div>
+<div style={{display: 'flex', gap: '12px', alignItems: 'center', margin: '0 0 1rem'}}>
+  <span style={{flex: '0 1 140px'}}><SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Install as a PWA" style={{width: '100%', display: 'block'}} /></SiteLink></span>
+  <span style={{flex: '0 1 140px'}}><a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src="/assets/img/buttons/msstore-cta.png" alt="Get it from Microsoft Store" style={{width: '100%', display: 'block'}} /></a></span>
 </div>
 
 ## Dhamma.Gift — a multi-tool / one-window portal
