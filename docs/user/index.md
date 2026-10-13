@@ -15,6 +15,7 @@ are all one continuous workflow rather than separate apps.
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Install as a PWA" style={{maxWidth: '220px'}} /></SiteLink>
+  <a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src="/assets/img/buttons/msstore-cta.png" alt="Get it from Microsoft Store" style={{maxWidth: '220px'}} /></a>
 </div>
 
 ## Dhamma.Gift — a multi-tool / one-window portal
