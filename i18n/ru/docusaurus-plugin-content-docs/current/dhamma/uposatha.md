@@ -10,6 +10,8 @@ import UpoDates from '@site/static/img/help/uposatha-dates.png';
 import UpoParts from '@site/static/img/help/uposatha-parts.png';
 import UpoSettings from '@site/static/img/help/uposatha-settings.png';
 import AlbumartUposatha from '@site/static/img/thumb/albumart-uposatha-nobg.webp';
+import SiteLink from '@site/src/components/SiteLink';
+import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 # Дни упосатхи
 
@@ -23,6 +25,21 @@ import AlbumartUposatha from '@site/static/img/thumb/albumart-uposatha-nobg.webp
 (слайдшоу «Из сутт» и список «Показать все»).
 
 <UposathaCalendar />
+
+## Где работает
+
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
+  <a href="https://apps.microsoft.com/detail/9NMD1L6H52ZN"><img src={MsStore} alt="Uposatha by the Suttas в Microsoft Store" style={{maxWidth: '200px'}} /></a>
+  <a href="https://t.me/dgift_bot"><img src="/assets/img/buttons/telegram-cta.png" alt="Открыть @dgift_bot в Telegram" style={{maxWidth: '200px'}} /></a>
+  <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Открыть календарь как веб-приложение" style={{maxWidth: '200px'}} /></SiteLink>
+</div>
+
+- **Windows 11** — *Uposatha by the Suttas* в [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN): календарь в своём окне и три виджета для доски
+  виджетов (Win + W, затем «+»). *Uposatha + kala* — сколько до ближайшей упосатхи и время ли сейчас для еды; *Day & night* —
+  какая часть дня или ночи идёт; *Month* — месяц с отмеченными днями упосатхи.
+- **Telegram** — `/uposatha` в чате с [@dgift_bot](https://t.me/dgift_bot) или `@dgift_bot упосатха Алматы`, набранное в любом
+  чате: ближайшие 30 дней с временами Солнца для вашего города. Подробнее — на странице [Телеграм-бот](/telegram-bot).
+- **Любой браузер** — [страница календаря](pathname:///uposatha-calendar); через меню браузера она ставится как приложение.
 
 ## Как читать календарь
 

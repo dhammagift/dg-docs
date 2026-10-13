@@ -3,17 +3,23 @@ slug: /dhamma-gift-app
 sidebar_position: 14
 ---
 
+import MsStore from '@site/static/img/buttons/msstore-cta.png';
+
 # Dhamma.Gift (приложение)
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.5rem', margin: '1rem 0'}}>
   <a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Загрузите в App Store" style={{height: '56px'}} /></a>
   <a href="https://play.google.com/store/apps/details?id=gift.dhamma.twa"><img src="/assets/img/buttons/google-play-cta.png" alt="Доступно в Google Play" style={{height: '56px'}} /></a>
+  <a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src={MsStore} alt="Dhamma.Gift в Microsoft Store" style={{height: '56px'}} /></a>
 </div>
 
 Приложение Dhamma.Gift для iPhone, iPad и Android: поиск и чтение
 Палийского канона — сутты и Винаю на пали с русскими и английскими
 переводами — с интернетом и без. Бесплатно, без рекламы, без слежки, без
 обязательного аккаунта.
+
+В Windows 10 и 11 Dhamma.Gift есть в [Microsoft Store](https://apps.microsoft.com/detail/9NK892G5P5GT): сайт в своём окне,
+всегда текущая версия.
 
 ## Офлайн-библиотека
 

@@ -34,6 +34,8 @@ Type `@dgift_bot` in the message box of any chat and then a Pali word
 
 <img src={InlineSutta} alt="@dgift_bot sn56.11 in the message box of a chat: Send: sn56.11, sn56.11 Dhammacakkappavattanasutta, sn56.111-113 Devamanussanirayādisutta" style={{maxWidth: '100%', borderRadius: 10}} />
 
+<p style={{fontSize: '0.85em', opacity: 0.75, marginTop: '0.3em'}}>In the frame: what is typed in the message box of <b>any chat or group</b>, not in the bot's own chat.</p>
+
 Above the list there is a button — `🔎 Open Dhamma.gift En: sn56.11` — it opens
 Dhamma.gift as a Mini App with the query already searched.
 
@@ -71,12 +73,17 @@ Open-Meteo geocoder for the rest.
 
 <img src={InlineUposatha} alt="@dgift_bot uposatha bodh gaya in the message box: Uposatha days, next 30 days — Bodh Gaya, Bihar, India" style={{maxWidth: '100%', borderRadius: 10}} />
 
+<p style={{fontSize: '0.85em', opacity: 0.75, marginTop: '0.3em'}}>In the frame: what is typed in the message box of <b>any chat or group</b>, not in the bot's own chat.</p>
+
 The dates are the same for everybody — the moon is one — and only the sun times
 are local. The list ends with `Times: begin · dawn · noon · end`, and two buttons
 sit under the message: the Ru/En switch and the link to the full calendar at
 [dhamma.gift/uposatha-calendar](https://dhamma.gift/uposatha-calendar).
 
 <img src={MessageUposatha} alt="The sent Uposatha message: Uposatha by the suttas for the next 30 days (Bodh Gaya, Bihar, India) with six days and their times, the line Times: begin · dawn · noon · end, and the buttons Lang En/Ru and Uposatha calendar" style={{maxWidth: '100%', borderRadius: 10}} />
+
+How to read these days is on the [Uposatha days](/uposatha) page. On Windows 11 the same calendar is an app with widgets:
+*Uposatha by the Suttas* in the [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN).
 
 ## In the bot's chat
 

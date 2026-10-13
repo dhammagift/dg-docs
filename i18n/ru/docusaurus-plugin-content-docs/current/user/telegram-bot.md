@@ -34,6 +34,8 @@ import MessageUposatha from '@site/static/img/telegram/message-uposatha.png';
 
 <img src={InlineSutta} alt="@dgift_bot sn56.11 в поле ввода: Отправить: sn56.11, sn56.11 Dhammacakkappavattanasutta, sn56.111-113 Devamanussanirayādisutta" style={{maxWidth: '100%', borderRadius: 10}} />
 
+<p style={{fontSize: '0.85em', opacity: 0.75, marginTop: '0.3em'}}>В рамке — то, что набрано в поле ввода <b>любого чата или группы</b>, а не в чате с ботом.</p>
+
 Над списком есть кнопка — `🔎 Открыть Dhamma.gift Ru: sn56.11` — она открывает
 Dhamma.gift мини-приложением с уже выполненным поиском.
 
@@ -71,12 +73,17 @@ Dhamma.gift мини-приложением с уже выполненным п�
 
 <img src={InlineUposatha} alt="@dgift_bot uposatha bodh gaya в поле ввода: Uposatha days, next 30 days — Bodh Gaya, Bihar, India" style={{maxWidth: '100%', borderRadius: 10}} />
 
+<p style={{fontSize: '0.85em', opacity: 0.75, marginTop: '0.3em'}}>В рамке — то, что набрано в поле ввода <b>любого чата или группы</b>, а не в чате с ботом.</p>
+
 Даты одинаковы для всех — луна одна, — а местными остаются только времена
 Солнца. Список заканчивается строкой `Время: начало · рассвет · полдень ·
 конец`, а под сообщением две кнопки: переключатель Ru/En и ссылка на полный
 календарь [dhamma.gift/uposatha-calendar](https://dhamma.gift/uposatha-calendar).
 
 <img src={MessageUposatha} alt="Отправленное сообщение: Uposatha by the suttas for the next 30 days (Bodh Gaya, Bihar, India) с шестью днями и временами, строка Times: begin · dawn · noon · end и кнопки Lang En/Ru и Uposatha calendar" style={{maxWidth: '100%', borderRadius: 10}} />
+
+Как читать эти дни — на странице [Дни упосатхи](/uposatha). В Windows 11 тот же календарь есть приложением с виджетами:
+*Uposatha by the Suttas* в [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN).
 
 ## В своём чате с ботом
 

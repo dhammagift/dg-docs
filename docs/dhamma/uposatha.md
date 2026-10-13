@@ -10,6 +10,8 @@ import UpoDates from '@site/static/img/help/uposatha-dates-en.png';
 import UpoParts from '@site/static/img/help/uposatha-parts-en.png';
 import UpoSettings from '@site/static/img/help/uposatha-settings-en.png';
 import AlbumartUposatha from '@site/static/img/thumb/albumart-uposatha-nobg.webp';
+import SiteLink from '@site/src/components/SiteLink';
+import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 # Uposatha days
 
@@ -23,6 +25,21 @@ the app; below is the real page, a live demo (scroll inside it, or open it in a 
 the calendar page (the slideshow "From the suttas" and its "Show all" list).
 
 <UposathaCalendar />
+
+## Where it works
+
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
+  <a href="https://apps.microsoft.com/detail/9NMD1L6H52ZN"><img src={MsStore} alt="Get Uposatha by the Suttas from the Microsoft Store" style={{maxWidth: '200px'}} /></a>
+  <a href="https://t.me/dgift_bot"><img src="/assets/img/buttons/telegram-cta.png" alt="Open @dgift_bot on Telegram" style={{maxWidth: '200px'}} /></a>
+  <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Open the calendar as a web app" style={{maxWidth: '200px'}} /></SiteLink>
+</div>
+
+- **Windows 11** — *Uposatha by the Suttas* in the [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN): the calendar in its own window and three
+  widgets for the Widgets Board (Win + W, then "+"). *Uposatha + kala* — how long to the next Uposatha day and whether it is the
+  time for food now; *Day & night* — the part of the day or night that is going on; *Month* — the month with the Uposatha days marked.
+- **Telegram** — `/uposatha` in the chat of [@dgift_bot](https://t.me/dgift_bot), or `@dgift_bot uposatha Chiang Mai` typed in
+  any chat: the next 30 days with the sun times of your city. More on the [Telegram bot](/telegram-bot) page.
+- **Any browser** — the [calendar page](pathname:///uposatha-calendar); the browser's menu installs it as an app.
 
 ## Reading the calendar
 

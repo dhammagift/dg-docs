@@ -3,17 +3,23 @@ slug: /dhamma-gift-app
 sidebar_position: 14
 ---
 
+import MsStore from '@site/static/img/buttons/msstore-cta.png';
+
 # Dhamma.Gift (the application)
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.5rem', margin: '1rem 0'}}>
   <a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{height: '56px'}} /></a>
   <a href="https://play.google.com/store/apps/details?id=gift.dhamma.twa"><img src="/assets/img/buttons/google-play-cta.png" alt="Get it on Google Play" style={{height: '56px'}} /></a>
+  <a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src={MsStore} alt="Get Dhamma.Gift from the Microsoft Store" style={{height: '56px'}} /></a>
 </div>
 
 The Dhamma.Gift app for iPhone, iPad and Android: search and read the Pāli
 Canon — Suttas and Vinaya in Pāli with Russian and English translations —
 with or without an internet connection. Free, no ads, no tracking, no
 account needed.
+
+On Windows 10 and 11 Dhamma.Gift is in the [Microsoft Store](https://apps.microsoft.com/detail/9NK892G5P5GT): the site in its
+own window, always the current version.
 
 ## Offline library
 
