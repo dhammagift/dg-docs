@@ -18,9 +18,6 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 переводами — с интернетом и без. Бесплатно, без рекламы, без слежки, без
 обязательного аккаунта.
 
-В Windows 10 и 11 Dhamma.Gift есть в [Microsoft Store](https://apps.microsoft.com/detail/9NK892G5P5GT): сайт в своём окне,
-всегда текущая версия.
-
 ## Офлайн-библиотека
 
 Скачайте библиотеку один раз (около 216 МБ) — и всё работает в режиме
@@ -71,9 +68,8 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 ## Другие способы установки
 
-- **APK для Android без Google Play:**
-  [релизы dg-app-full](https://github.com/dhammagift/dg-app-full/releases/latest)
-  (файл `app-debug.apk`). Android спросит подтверждение: приложение ставится
-  не из Google Play.
+- **Windows 10 и 11:** Dhamma.Gift в
+  [Microsoft Store](https://apps.microsoft.com/detail/9NK892G5P5GT) — сайт в своём окне,
+  всегда текущая версия.
 - **[PWA](/pwa)** — сайт, установленный из браузера: иконка и ярлыки, но без
   офлайн-библиотеки.

@@ -18,9 +18,6 @@ Canon — Suttas and Vinaya in Pāli with Russian and English translations —
 with or without an internet connection. Free, no ads, no tracking, no
 account needed.
 
-On Windows 10 and 11 Dhamma.Gift is in the [Microsoft Store](https://apps.microsoft.com/detail/9NK892G5P5GT): the site in its
-own window, always the current version.
-
 ## Offline library
 
 Download the whole library once (about 216 MB) and everything works in
@@ -72,9 +69,8 @@ optional and only syncs them between your devices ([Login](/login)).
 
 ## Other ways to install
 
-- **APK for Android without Google Play:**
-  [dg-app-full releases](https://github.com/dhammagift/dg-app-full/releases/latest)
-  (`app-debug.apk`). Android asks to confirm an install from outside Google
-  Play.
+- **Windows 10 and 11:** Dhamma.Gift in the
+  [Microsoft Store](https://apps.microsoft.com/detail/9NK892G5P5GT) — the site in its own
+  window, always the current version.
 - **[PWA](/pwa)** — the site installed from the browser: an icon and
   shortcuts, but no offline library.
