@@ -6,6 +6,7 @@ sidebar_label: Principles by Suttas
 
 import SuttaBrowser from '@site/src/components/SuttaBrowser';
 import SuttaLink from '@site/src/components/SuttaLink';
+import SiteLink from '@site/src/components/SiteLink';
 import PageTools from '@site/src/components/PageTools';
 import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
@@ -82,7 +83,7 @@ them): some questions should be answered directly, some need to be
 analyzed/qualified, some should be turned back with a counter-question, and
 some should be set aside. This is an important aspect of the
 Dhamma, and one of the criteria that, for example, helps establish that
-*anicca* should not be translated as "impermanence." <SuttaLink index={8}>Read →</SuttaLink>
+*anicca* should not be translated as "impermanence."[^1] <SuttaLink index={8}>Read →</SuttaLink>
 
 ## How the Dhamma disappears over time
 
@@ -146,3 +147,5 @@ relevant line:
 
 - [Principles of Translation](/principles) — how these criteria shape word-level translation choices.
 - [Rationale](/rationale) — the detailed reasoning and examples behind those principles.
+
+[^1]: An example: in <SiteLink to="/sn22.59:6.4?lang=en&hide=id">sn22.59</SiteLink> the Buddha asks: *Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā?* — "And what is anicca, is it painful or pleasant?" The monks answer categorically: *Dukkhaṁ, bhante* — "Painful, venerable sir," and the Buddha accepts that answer. So this is a question to be answered categorically (*ekaṁsabyākaraṇīya*). If anicca meant "impermanent," no categorical answer would be possible: what is impermanent is not always painful. An impermanent pain is unpleasant while it lasts and pleasant when it goes; something pleasant, on the contrary, is painful when it goes. Such a question would have to be answered with analysis (*vibhajjabyākaraṇa*): "it depends on what exactly is impermanent." The categorical answer the Buddha accepts shows that anicca is what is always painful: unreliable, unstable, what cannot be relied upon.
