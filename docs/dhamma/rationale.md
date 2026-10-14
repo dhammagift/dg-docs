@@ -184,9 +184,15 @@ By setting aside the semantic fields of clinging, stickiness, dryness, or thirst
 
 ### Taṇhā Is Clinging, Upādāna Is Sustaining — Not the Other Way Around
 
-Translating *taṇhā* as "thirst" and *upādāna* as "clinging" builds a mistaken sequence, as if desire arises first and clinging follows it. But even a faint desire is impossible without some prior clinging, some holding onto experience — not to mention bodily pain, which in most cases has nothing to do with desire at all. You cannot want something without first stopping on it, holding onto it. Clinging sits further upstream than desire, let alone thirst.
+Translating *taṇhā* as "thirst" and *upādāna* as "clinging" builds a mistaken sequence, as if desire arises first and clinging follows it. Why this is not so:
 
-*Upādāna* literally means holding, sustaining, feeding a process. It is not "clinging" itself — it denotes what sustains, feeds, and reinforces clinging that already exists. A more accurate rendering: *taṇhā* — clinging; *upādāna* — sustaining, holding — keeps the causal chain intact.
+1. **Thirst is impossible without clinging.** You cannot want something without first stopping on it, holding onto it. Clinging is subtler than desire and comes before it, let alone before thirst.
+2. **Clinging without thirst is ordinary.** A memory or a song stuck in one's head, an unfinished task, a responsible attitude to one's duties: there may be no thirst or even desire at all, yet there is clinging.
+3. **The source of pain cannot be wanting.** *Taṇhā* is the *dukkhasamudaya*, the accumulation of pain. If *taṇhā* were thirst, pain would arise only from wanting. Yet bodily pain from a long walk or from sitting arises without any desire. More on this in [Translating Taṇhā as "Thirst" Undermines the Second Noble Truth](#translating-taṇhā-as-thirst-undermines-the-second-noble-truth).
+4. **The links of the chain depend one way.** The links of dependent arising are connected by direct, unbreakable dependence, like *jātipaccayā jarāmaraṇaṁ* (<SiteLink to="/sn12.2:2.12?lang=en&hide=id">sn12.2</SiteLink>): aging-and-death depends on birth, not the reverse. Rendering it as "thirst → clinging" makes the dependence mutual: clinging is derived from thirst, while thirst itself is impossible without clinging. The chain breaks.
+5. ***Upādāna* does not mean "clinging."** In <SiteLink to="/sn44.9:5.4?lang=en&hide=id">sn44.9</SiteLink> a fire burns *saupādāno* — with support (fuel), and does not burn without it. A flame carried off by the wind is sustained by the wind: "the wind is its *upādāna*." For a being that has laid down the body, the *upādāna* is *taṇhā* (*taṇhūpādānaṁ*). The wind does not cling to the flame; it sustains and feeds it.
+
+**In sum:** rendering *taṇhā* as "clinging" and *upādāna* as "holding, sustaining, feeding a process" fits the ordinary meaning of these words better and does not break the logic of the Pali: the causal chain stays intact, and the similes of the suttas (fire and fuel, moisture, drying up) keep their sense.
 
 ## Issues with Sanskritocentrism
 
