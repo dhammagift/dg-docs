@@ -113,6 +113,15 @@ Dhamma for the sake of debate and finding fault with others, rather than
 for understanding, is learning it wrongly, and it works against the
 learner rather than for them. <SuttaLink index={12}>Read →</SuttaLink>
 
+## The Dhamma is not sung
+
+**AN 5.209 (Gītassara Sutta)** — five dangers for one who recites the
+Dhamma in a drawn-out, singing voice (*āyatakena gītassarena*): he is
+charmed by his own voice, others are charmed by it, householders take
+offence — "the ascetics sing just as we do", one who aims at a beautiful
+voice breaks his samādhi, and the next generation follows the example.
+<SuttaLink index={13}>Read →</SuttaLink>
+
 ## Read the passages
 
 The "Read →" links next to each principle above open that sutta directly
@@ -133,6 +142,7 @@ relevant line:
   { label: 'AN 5.156', src: '/an5.156:1.3?lang=en&hide=id' },
   { label: 'AN 8.8', src: '/an8.8:6.7?lang=en&hide=id' },
   { label: 'MN 22', src: '/mn22:10.10?lang=en&hide=id' },
+  { label: 'AN 5.209', src: '/an5.209:1.1?lang=en&hide=id' },
 ]} />
 
 ## See also
