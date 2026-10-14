@@ -15,33 +15,31 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 <PageTools />
 
-Dhamma.gift exists to make the earliest available texts (the Pali root and
-its translations) easy to check against each other. That only matters if
-there is a principled way to judge whether a given teaching, or a given
-translation of it, is faithful to the Dhamma — otherwise "compare
-translations" is just noise. The suttas below are not a doctrine invented
-for this project; they are the Buddha's own stated criteria for verifying
-teachings, and they double as a practical checklist for spotting where a
-human or AI translation commonly goes wrong or misleads.
+The "o" translations, and the approach Dhamma.gift offers as a whole, rest on
+the points of the Buddha's Teaching from the Suttas below. These are the
+criteria the Buddha recommended for verifying teachings, and at the same time
+a practical checklist for recognizing the errors and distortions found in the
+vast majority of existing traditions and translations.
 
 ## Textual authenticity — the Four Great References
 
 **AN 4.180 (Mahāpadesa Sutta)** — how to check a claim of "this is the
-Dhamma, this is the Vinaya, this is the Teacher's word": trace it back to
-the suttas and cross-check it against the Vinaya, rather than accepting or
-rejecting it on the authority of who reported it (even the Buddha himself,
-a community of elders, or a single senior monk). <SuttaLink index={0}>Read →</SuttaLink>
+Dhamma, this is the Vinaya, this is the Teacher's word": check it against
+the suttas and the Vinaya, rather than accepting or rejecting it on the
+authority of whoever reported it (the Sutta makes clear that individual
+monks and whole communities can pass on what is not the Teacher's Teaching,
+and verifying it takes a check against the Suttas and the Vinaya). <SuttaLink index={0}>Read →</SuttaLink>
 
-## Rational criteria — not authority, not hearsay
+## Criteria of "effectiveness" — not authority, not hearsay
 
 **AN 3.65 (Kesamutti / Kālāma Sutta)** — the companion piece to Mahāpadesa:
-don't accept a teaching merely because of tradition, report, hearsay,
-scripture, logic, inference, superficial appearance, agreement with a view
-you already hold, the speaker's apparent competence, or "the ascetic is our
-teacher." Test it against what is skillful/unskillful and what leads to
-harm/benefit. <SuttaLink index={1}>Read →</SuttaLink>
+don't accept a teaching merely because of tradition, report, scripture,
+logic, inference, superficial plausibility, agreement with a view you
+already hold, the speaker's apparent competence, or "this ascetic is our
+teacher." Test it by whether it leads to the skillful or the unskillful, to
+harm or to benefit. <SuttaLink index={1}>Read →</SuttaLink>
 
-## The receiving language doesn't need to change
+## The national language doesn't need to change
 
 **MN 139 (Araṇavibhaṅga Sutta)** — a great many points in translations of
 the Dhamma violate this very principle. English words such as *suffering*,
@@ -82,12 +80,11 @@ meaning to him he did not state, or denying one he did. <SuttaLink index={7}>Rea
 **AN 4.42** — four ways of answering a question (*vibhajjabyākaraṇa* among
 them): some questions should be answered directly, some need to be
 analyzed/qualified, some should be turned back with a counter-question, and
-some should be set aside. Treating every question as if it deserved a flat
-yes/no is itself a source of distortion. This is an important aspect of the
+some should be set aside. This is an important aspect of the
 Dhamma, and one of the criteria that, for example, helps establish that
 *anicca* should not be translated as "impermanence." <SuttaLink index={8}>Read →</SuttaLink>
 
-## Memorized texts drift over time
+## How the Dhamma disappears over time
 
 **SN 20.7 (Āṇi Sutta)** — the simile of the drum repaired peg by peg until
 none of the original wood remains: discourses "spoken by the Realized One,
@@ -129,20 +126,20 @@ in the window here, in Pali and translation, scrolled straight to the
 relevant line:
 
 <SuttaBrowser items={[
-  { label: 'AN 4.180', src: '/an4.180:2.6?lang=en&hide=id' },
-  { label: 'AN 3.65', src: '/an3.65:4.1?lang=en&hide=id' },
-  { label: 'MN 139', src: '/mn139:3.9?lang=en&hide=id' },
-  { label: 'MN 103', src: '/mn103:11.2?lang=en&hide=id' },
-  { label: 'AN 4.3', src: '/an4.3:1.3?lang=en&hide=id' },
-  { label: 'AN 2.24', src: '/an2.24:1.3?lang=en&hide=id' },
-  { label: 'AN 2.25', src: '/an2.25:1.3?lang=en&hide=id' },
-  { label: 'AN 2.23', src: '/an2.23:1.3?lang=en&hide=id' },
-  { label: 'AN 4.42', src: '/an4.42:1.3?lang=en&hide=id' },
-  { label: 'SN 20.7', src: '/sn20.7:1.2?lang=en&hide=id' },
-  { label: 'AN 5.156', src: '/an5.156:1.3?lang=en&hide=id' },
-  { label: 'AN 8.8', src: '/an8.8:6.7?lang=en&hide=id' },
-  { label: 'MN 22', src: '/mn22:10.10?lang=en&hide=id' },
-  { label: 'AN 5.209', src: '/an5.209:1.1?lang=en&hide=id' },
+  { label: 'AN 4.180 — Mahāpadesa', desc: 'How to check words attributed to the Buddha: against the suttas and the Vinaya, not by the authority of whoever reports them.', src: '/an4.180:2.6?lang=en&hide=id' },
+  { label: 'AN 3.65 — Kālāma', desc: 'Don\'t accept a teaching only by tradition, hearsay, scripture or authority — test it by whether it leads to the skillful.', src: '/an3.65:4.1?lang=en&hide=id' },
+  { label: 'MN 139', desc: 'Don\'t quarrel over dialect or wording — what matters is the meaning, not a particular regional word.', src: '/mn139:3.9?lang=en&hide=id' },
+  { label: 'MN 103', desc: 'If the meaning (attha) does not agree, it is worth sorting out, even at the cost of some friction.', src: '/mn103:11.2?lang=en&hide=id' },
+  { label: 'AN 4.3', desc: 'Praising or blaming without examining first is a failing; examination comes before judgment.', src: '/an4.3:1.3?lang=en&hide=id' },
+  { label: 'AN 2.24', desc: 'Presenting a discourse of explicit meaning as needing interpretation — a source of mistranslation.', src: '/an2.24:1.3?lang=en&hide=id' },
+  { label: 'AN 2.25', desc: 'The reverse: presenting what needs interpretation as already definitive.', src: '/an2.25:1.3?lang=en&hide=id' },
+  { label: 'AN 2.23', desc: 'Two ways to misrepresent the Realized One: ascribing a meaning he did not state, or denying one he did.', src: '/an2.23:1.3?lang=en&hide=id' },
+  { label: 'AN 4.42', desc: 'Four ways of answering a question — not every question deserves a flat yes/no.', src: '/an4.42:1.3?lang=en&hide=id' },
+  { label: 'SN 20.7 — Āṇi', desc: 'Memorized texts get distorted over time, like a drum repaired peg by peg.', src: '/sn20.7:1.2?lang=en&hide=id' },
+  { label: 'AN 5.156', desc: 'Discourses learned with words and phrases misplaced — the meaning is lost.', src: '/an5.156:1.3?lang=en&hide=id' },
+  { label: 'AN 8.8', desc: '"Whatever is well said is the word of the Buddha" — read together with Mahāpadesa and Kālāma, not as license for anything.', src: '/an8.8:6.7?lang=en&hide=id' },
+  { label: 'MN 22', desc: 'Learning the Dhamma for debate rather than understanding is learning it wrongly.', src: '/mn22:10.10?lang=en&hide=id' },
+  { label: 'AN 5.209', desc: 'Five dangers of reciting the Dhamma in a drawn-out singing voice.', src: '/an5.209:1.1?lang=en&hide=id' },
 ]} />
 
 ## See also
