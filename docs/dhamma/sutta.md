@@ -120,6 +120,12 @@ offence — "the ascetics sing just as we do", one who aims at a beautiful
 voice breaks his samādhi, and the next generation follows the example.
 <SuttaLink index={13}>Read →</SuttaLink>
 
+## The four truths in depth — Hatthipada
+
+As in <SiteLink to="/mn28?lang=en">MN 28</SiteLink>: the footprints of all animals fit into the elephant's, and everything skilful fits into the four noble truths. <SiteLink to="/hatthipada/?lang=en">Hatthipada</SiteLink> shows how the suttas themselves define every word of the truths: click a word and its definitions open ("Katamā ca, bhikkhave, X?" … "idaṁ vuccati X"), their words click again, as deep as you go. Only the Pāḷi of the four nikāyas and the suttas' own formulas; the translation is a reference.
+
+<SiteLink to="/hatthipada/?lang=en">Open Hatthipada →</SiteLink>
+
 ## Read the passages
 
 The "Read →" links next to each principle above open that sutta directly
@@ -147,5 +153,6 @@ relevant line:
 
 - [Principles of Translation](/principles) — how these criteria shape word-level translation choices.
 - [Rationale](/rationale) — the detailed reasoning and examples behind those principles.
+- <SiteLink to="/hatthipada/?lang=en">Hatthipada</SiteLink> — the four truths and every word of them by the suttas' own definitions.
 
 [^1]: An example: in <SiteLink to="/sn22.59:6.4?lang=en&hide=id">sn22.59</SiteLink> the Buddha asks: *Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā?* — "And what is anicca, is it painful or pleasant?" The monks answer categorically: *Dukkhaṁ, bhante* — "Painful, venerable sir," and the Buddha accepts that answer. So this is a question to be answered categorically (*ekaṁsabyākaraṇīya*). If anicca meant "impermanent," no categorical answer would be possible: what is impermanent is not always painful. An impermanent pain is unpleasant while it lasts and pleasant when it goes; something pleasant, on the contrary, is painful when it goes. Such a question would have to be answered with analysis (*vibhajjabyākaraṇa*): "it depends on what exactly is impermanent." The categorical answer the Buddha accepts shows that anicca is what is always painful: unreliable, unstable, what cannot be relied upon. This is a serious argument: in <SiteLink to="/an3.67:2.2?lang=en&hide=id">an3.67</SiteLink> the Buddha states plainly that one who answers categorically a question that calls for analysis (or the reverse) is not fit to talk with. By accepting a categorical answer to a question that calls for analysis, the Buddha would contradict his own words.
