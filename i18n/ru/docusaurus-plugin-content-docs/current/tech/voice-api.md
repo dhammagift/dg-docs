@@ -43,7 +43,7 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 |---|---|---|
 | `pratham` | пали | нейроголос Piper + наши правила произношения пали (IAST → звуки, ударение, долгие гласные). Бета |
 | `dg` | пали | «o Dhamma.Gift»: голос, обученный на настоящем чтении пали. Бета |
-| `alan`, `norman`, `kathleen` | английский | голоса Piper; слова пали и сокращения (Ven., SN 56.11) читаются правильно |
+| `alan`, `miles`, `kathleen` | английский | голоса Piper (`miles` обучен на чтении Майлса, чтеца DG); слова пали и сокращения (Ven., SN 56.11) читаются правильно |
 | `ruslan`, `irina` | русский | голоса Piper; пали латиницей читается по-палийски |
 
 `GET /api/tts/dg-voices` отдаёт список `{"voices": [{"id", "lang", "label"}]}` в порядке меню (первый голос языка — по умолчанию); `GET /api/tts/health` показывает, что
@@ -73,7 +73,7 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 - `pratham`: веса MIT ([rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)), записи
   AI4Bharat IndicVoices (CC BY 4.0).
 - `dg`: CC BY-NC-SA 4.0 — только некоммерческое использование.
-- Английские и русские голоса: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),
+- `alan`, `kathleen` и русские голоса: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),
   у каждого своя лицензия.
 
 ## Что ещё по этому адресу
