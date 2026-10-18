@@ -41,6 +41,11 @@ you already hold, the speaker's apparent competence, or "the ascetic is our
 teacher." Test it against what is skillful/unskillful and what leads to
 harm/benefit. <SuttaLink index={1}>Read →</SuttaLink>
 
+**MN 95 (Caṅkī Sutta)** — the companion to Kālāma: where Kālāma says what
+*not* to infer a teaching's truth from, MN 95 says what one may honestly say
+instead. Safeguarding the truth (*saccānurakkhana*) is to say "such is my
+faith," not "this alone is true, anything else is wrong." <SuttaLink index={2}>Read →</SuttaLink>
+
 ## The receiving language doesn't need to change
 
 **MN 139 (Araṇavibhaṅga Sutta)** — a great many points in translations of
@@ -50,20 +55,20 @@ modified — either broadened or narrowed — meanings within "translated
 Buddhism," which breaks the principle stated by the Buddha himself: the
 receiving language doesn't need to be reshaped, and phenomena should be
 called what they would ordinarily be called in that language — in our
-case, English. More on this in the [Rationale](/rationale). <SuttaLink index={2}>Read →</SuttaLink>
+case, English. More on this in the [Rationale](/rationale). <SuttaLink index={3}>Read →</SuttaLink>
 
 **MN 103 (Kinti Sutta)** — when the meaning (*attha*) agrees but the
 wording (*byañjana*) differs, that is not something to quarrel over;
 disputes over minor phrasing devalue an otherwise correct teaching. But a
 mismatch in meaning does matter — even at the cost of some friction between
 both sides, it is worth clarifying what was poorly grasped as poorly
-grasped, and what was well grasped as well grasped. <SuttaLink index={3}>Read →</SuttaLink>
+grasped, and what was well grasped as well grasped. <SuttaLink index={4}>Read →</SuttaLink>
 
 ## Scrutinize before you praise or blame
 
 **AN 4.3** — praising or condemning something without first examining and
 investigating it (*ananuvicca apariyogāhetvā*) is listed as a failing;
-examining first is the mark of the wise. <SuttaLink index={4}>Read →</SuttaLink>
+examining first is the mark of the wise. <SuttaLink index={5}>Read →</SuttaLink>
 
 ## Definitive vs. interpretable meaning
 
@@ -71,11 +76,11 @@ examining first is the mark of the wise. <SuttaLink index={4}>Read →</SuttaLin
 explicit (*nītattha*) as one that still needs interpreting (*neyyattha*),
 or vice versa, is exactly how mistranslation and misreading happen in
 practice.
-<SuttaLink index={5}>Read AN 2.24 →</SuttaLink>{' '}
-<SuttaLink index={6}>Read AN 2.25 →</SuttaLink>
+<SuttaLink index={6}>Read AN 2.24 →</SuttaLink>{' '}
+<SuttaLink index={7}>Read AN 2.25 →</SuttaLink>
 
 **AN 2.23** — two ways of misrepresenting the Realized One: ascribing a
-meaning to him he did not state, or denying one he did. <SuttaLink index={7}>Read →</SuttaLink>
+meaning to him he did not state, or denying one he did. <SuttaLink index={8}>Read →</SuttaLink>
 
 ## How a question should be answered
 
@@ -85,7 +90,7 @@ analyzed/qualified, some should be turned back with a counter-question, and
 some should be set aside. Treating every question as if it deserved a flat
 yes/no is itself a source of distortion. This is an important aspect of the
 Dhamma, and one of the criteria that, for example, helps establish that
-*anicca* should not be translated as "impermanence." <SuttaLink index={8}>Read →</SuttaLink>
+*anicca* should not be translated as "impermanence." <SuttaLink index={9}>Read →</SuttaLink>
 
 ## Memorized texts drift over time
 
@@ -93,10 +98,15 @@ Dhamma, and one of the criteria that, for example, helps establish that
 none of the original wood remains: discourses "spoken by the Realized One,
 deep, profound in meaning, transcendent" will stop being learned, while
 literary compositions — "composed by poets, disciple-followers" — even
-today often carry more authority than the suttas themselves. <SuttaLink index={9}>Read →</SuttaLink>
+today often carry more authority than the suttas themselves. <SuttaLink index={10}>Read →</SuttaLink>
+
+**SN 16.13 (Saddhammappatirūpaka Sutta)** — where SN 20.7 shows *how* the
+true teaching fades, this shows *why*: it does not disappear while no
+counterfeit of it (*saddhammappatirūpaka*) has arisen in the world — as
+counterfeit gold appears, true gold vanishes. <SuttaLink index={11}>Read →</SuttaLink>
 
 **AN 5.156** (parallel: AN 4.160) — discourses learned with words and
-phrases misplaced, where the meaning goes astray. <SuttaLink index={10}>Read →</SuttaLink>
+phrases misplaced, where the meaning goes astray. <SuttaLink index={12}>Read →</SuttaLink>
 
 ## What counts as "well spoken"
 
@@ -104,14 +114,14 @@ phrases misplaced, where the meaning goes astray. <SuttaLink index={10}>Read →
 "whatever is well said is all the word of the Blessed One." A useful check
 against a narrower, more territorial reading of what counts as legitimate
 Dhamma — while still being read together with Mahāpadesa and Kālāma above,
-not as license for anything to be called Buddha-word. <SuttaLink index={11}>Read →</SuttaLink>
+not as license for anything to be called Buddha-word. <SuttaLink index={13}>Read →</SuttaLink>
 
 ## Grasping the teaching correctly
 
 **MN 22 (Alagaddūpama Sutta)** — the water-snake simile: learning the
 Dhamma for the sake of debate and finding fault with others, rather than
 for understanding, is learning it wrongly, and it works against the
-learner rather than for them. <SuttaLink index={12}>Read →</SuttaLink>
+learner rather than for them. <SuttaLink index={14}>Read →</SuttaLink>
 
 ## Read the passages
 
@@ -122,6 +132,7 @@ relevant line:
 <SuttaBrowser items={[
   { label: 'AN 4.180', src: '/an4.180:2.6?lang=en&hide=id' },
   { label: 'AN 3.65', src: '/an3.65:4.1?lang=en&hide=id' },
+  { label: 'MN 95', src: '/mn95:15.4?lang=en&hide=id' },
   { label: 'MN 139', src: '/mn139:3.9?lang=en&hide=id' },
   { label: 'MN 103', src: '/mn103:11.2?lang=en&hide=id' },
   { label: 'AN 4.3', src: '/an4.3:1.3?lang=en&hide=id' },
@@ -130,6 +141,7 @@ relevant line:
   { label: 'AN 2.23', src: '/an2.23:1.3?lang=en&hide=id' },
   { label: 'AN 4.42', src: '/an4.42:1.3?lang=en&hide=id' },
   { label: 'SN 20.7', src: '/sn20.7:1.2?lang=en&hide=id' },
+  { label: 'SN 16.13', src: '/sn16.13:1.7?lang=en&hide=id' },
   { label: 'AN 5.156', src: '/an5.156:1.3?lang=en&hide=id' },
   { label: 'AN 8.8', src: '/an8.8:6.7?lang=en&hide=id' },
   { label: 'MN 22', src: '/mn22:10.10?lang=en&hide=id' },
