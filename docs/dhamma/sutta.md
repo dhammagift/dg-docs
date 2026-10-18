@@ -31,15 +31,6 @@ authority of whoever reported it (the Sutta makes clear that individual
 monks and whole communities can pass on what is not the Teacher's Teaching,
 and verifying it takes a check against the Suttas and the Vinaya). <SuttaLink index={0}>Read →</SuttaLink>
 
-## Criteria of "effectiveness" — not authority, not hearsay
-
-**AN 3.65 (Kesamutti / Kālāma Sutta)** — the companion piece to Mahāpadesa:
-don't accept a teaching merely because of tradition, report, scripture,
-logic, inference, superficial plausibility, agreement with a view you
-already hold, the speaker's apparent competence, or "this ascetic is our
-teacher." Test it by whether it leads to the skillful or the unskillful, to
-harm or to benefit. <SuttaLink index={1}>Read →</SuttaLink>
-
 ## The national language doesn't need to change
 
 **MN 139 (Araṇavibhaṅga Sutta)** — a great many points in translations of
@@ -49,20 +40,34 @@ modified — either broadened or narrowed — meanings within "translated
 Buddhism," which breaks the principle stated by the Buddha himself: the
 receiving language doesn't need to be reshaped, and phenomena should be
 called what they would ordinarily be called in that language — in our
-case, English. More on this in the [Rationale](/rationale). <SuttaLink index={2}>Read →</SuttaLink>
+case, English. More on this in the [Rationale](/rationale). <SuttaLink index={3}>Read →</SuttaLink>
 
 **MN 103 (Kinti Sutta)** — when the meaning (*attha*) agrees but the
 wording (*byañjana*) differs, that is not something to quarrel over;
 disputes over minor phrasing devalue an otherwise correct teaching. But a
 mismatch in meaning does matter — even at the cost of some friction between
 both sides, it is worth clarifying what was poorly grasped as poorly
-grasped, and what was well grasped as well grasped. <SuttaLink index={3}>Read →</SuttaLink>
+grasped, and what was well grasped as well grasped. <SuttaLink index={4}>Read →</SuttaLink>
+
+## Criteria of "effectiveness" — not authority, not hearsay
+
+**AN 3.65 (Kesamutti / Kālāma Sutta)** — the companion piece to Mahāpadesa:
+don't accept a teaching merely because of tradition, report, scripture,
+logic, inference, superficial plausibility, agreement with a view you
+already hold, the speaker's apparent competence, or "this ascetic is our
+teacher." Test it by whether it leads to the skillful or the unskillful, to
+harm or to benefit. <SuttaLink index={1}>Read →</SuttaLink>
+
+**MN 95 (Caṅkī Sutta)** — the companion to Kālāma: where Kālāma says what
+*not* to infer a teaching's truth from, MN 95 says what one may honestly say
+instead. Safeguarding the truth (*saccānurakkhana*) is to say "such is my
+faith," not "this alone is true, anything else is wrong." <SuttaLink index={2}>Read →</SuttaLink>
 
 ## Scrutinize before you praise or blame
 
 **AN 4.3** — praising or condemning something without first examining and
 investigating it (*ananuvicca apariyogāhetvā*) is listed as a failing;
-examining first is the mark of the wise. <SuttaLink index={4}>Read →</SuttaLink>
+examining first is the mark of the wise. <SuttaLink index={5}>Read →</SuttaLink>
 
 ## Definitive vs. interpretable meaning
 
@@ -70,11 +75,11 @@ examining first is the mark of the wise. <SuttaLink index={4}>Read →</SuttaLin
 explicit (*nītattha*) as one that still needs interpreting (*neyyattha*),
 or vice versa, is exactly how mistranslation and misreading happen in
 practice.
-<SuttaLink index={5}>Read AN 2.24 →</SuttaLink>{' '}
-<SuttaLink index={6}>Read AN 2.25 →</SuttaLink>
+<SuttaLink index={6}>Read AN 2.24 →</SuttaLink>{' '}
+<SuttaLink index={7}>Read AN 2.25 →</SuttaLink>
 
 **AN 2.23** — two ways of misrepresenting the Realized One: ascribing a
-meaning to him he did not state, or denying one he did. <SuttaLink index={7}>Read →</SuttaLink>
+meaning to him he did not state, or denying one he did. <SuttaLink index={8}>Read →</SuttaLink>
 
 ## How a question should be answered
 
@@ -83,7 +88,7 @@ them): some questions should be answered directly, some need to be
 analyzed/qualified, some should be turned back with a counter-question, and
 some should be set aside. This is an important aspect of the
 Dhamma, and one of the criteria that, for example, helps establish that
-*anicca* should not be translated as "impermanence."[^1] <SuttaLink index={8}>Read →</SuttaLink>
+*anicca* should not be translated as "impermanence."[^1] <SuttaLink index={9}>Read →</SuttaLink>
 
 ## How the Dhamma disappears over time
 
@@ -91,10 +96,15 @@ Dhamma, and one of the criteria that, for example, helps establish that
 none of the original wood remains: discourses "spoken by the Realized One,
 deep, profound in meaning, transcendent" will stop being learned, while
 literary compositions — "composed by poets, disciple-followers" — even
-today often carry more authority than the suttas themselves. <SuttaLink index={9}>Read →</SuttaLink>
+today often carry more authority than the suttas themselves. <SuttaLink index={10}>Read →</SuttaLink>
+
+**SN 16.13 (Saddhammappatirūpaka Sutta)** — where SN 20.7 shows *how* the
+true teaching fades, this shows *why*: it does not disappear while no
+counterfeit of it (*saddhammappatirūpaka*) has arisen in the world — as
+counterfeit gold appears, true gold vanishes. <SuttaLink index={11}>Read →</SuttaLink>
 
 **AN 5.156** (parallel: AN 4.160) — discourses learned with words and
-phrases misplaced, where the meaning goes astray. <SuttaLink index={10}>Read →</SuttaLink>
+phrases misplaced, where the meaning goes astray. <SuttaLink index={12}>Read →</SuttaLink>
 
 ## What counts as "well spoken"
 
@@ -102,14 +112,14 @@ phrases misplaced, where the meaning goes astray. <SuttaLink index={10}>Read →
 "whatever is well said is all the word of the Blessed One." A useful check
 against a narrower, more territorial reading of what counts as legitimate
 Dhamma — while still being read together with Mahāpadesa and Kālāma above,
-not as license for anything to be called Buddha-word. <SuttaLink index={11}>Read →</SuttaLink>
+not as license for anything to be called Buddha-word. <SuttaLink index={13}>Read →</SuttaLink>
 
 ## Grasping the teaching correctly
 
 **MN 22 (Alagaddūpama Sutta)** — the water-snake simile: learning the
 Dhamma for the sake of debate and finding fault with others, rather than
 for understanding, is learning it wrongly, and it works against the
-learner rather than for them. <SuttaLink index={12}>Read →</SuttaLink>
+learner rather than for them. <SuttaLink index={14}>Read →</SuttaLink>
 
 ## The Dhamma is not sung
 
@@ -118,7 +128,7 @@ Dhamma in a drawn-out, singing voice (*āyatakena gītassarena*): he is
 charmed by his own voice, others are charmed by it, householders take
 offence — "the ascetics sing just as we do", one who aims at a beautiful
 voice breaks his samādhi, and the next generation follows the example.
-<SuttaLink index={13}>Read →</SuttaLink>
+<SuttaLink index={15}>Read →</SuttaLink>
 
 ## The four truths in depth — Hatthipada
 
@@ -135,6 +145,7 @@ relevant line:
 <SuttaBrowser items={[
   { label: 'AN 4.180 — Mahāpadesa', desc: 'How to check words attributed to the Buddha: against the suttas and the Vinaya, not by the authority of whoever reports them.', src: '/an4.180:2.6?lang=en&hide=id' },
   { label: 'AN 3.65 — Kālāma', desc: 'Don\'t accept a teaching only by tradition, hearsay, scripture or authority — test it by whether it leads to the skillful.', src: '/an3.65:4.1?lang=en&hide=id' },
+  { label: 'MN 95 — Caṅkī', desc: 'What you can honestly say instead of the conclusions Kālāma rules out: "such is my faith," not "this alone is true."', src: '/mn95:15.4?lang=en&hide=id' },
   { label: 'MN 139', desc: 'Don\'t quarrel over dialect or wording — what matters is the meaning, not a particular regional word.', src: '/mn139:3.9?lang=en&hide=id' },
   { label: 'MN 103', desc: 'If the meaning (attha) does not agree, it is worth sorting out, even at the cost of some friction.', src: '/mn103:11.2?lang=en&hide=id' },
   { label: 'AN 4.3', desc: 'Praising or blaming without examining first is a failing; examination comes before judgment.', src: '/an4.3:1.3?lang=en&hide=id' },
@@ -143,6 +154,7 @@ relevant line:
   { label: 'AN 2.23', desc: 'Two ways to misrepresent the Realized One: ascribing a meaning he did not state, or denying one he did.', src: '/an2.23:1.3?lang=en&hide=id' },
   { label: 'AN 4.42', desc: 'Four ways of answering a question — not every question deserves a flat yes/no.', src: '/an4.42:1.3?lang=en&hide=id' },
   { label: 'SN 20.7 — Āṇi', desc: 'Memorized texts get distorted over time, like a drum repaired peg by peg.', src: '/sn20.7:1.2?lang=en&hide=id' },
+  { label: 'SN 16.13 — Saddhammappatirūpaka', desc: 'Why the true Dhamma fades: it does not go while no counterfeit has arisen — like real gold once counterfeit gold appears.', src: '/sn16.13:1.7?lang=en&hide=id' },
   { label: 'AN 5.156', desc: 'Discourses learned with words and phrases misplaced — the meaning is lost.', src: '/an5.156:1.3?lang=en&hide=id' },
   { label: 'AN 8.8', desc: '"Whatever is well said is the word of the Buddha" — read together with Mahāpadesa and Kālāma, not as license for anything.', src: '/an8.8:6.7?lang=en&hide=id' },
   { label: 'MN 22', desc: 'Learning the Dhamma for debate rather than understanding is learning it wrongly.', src: '/mn22:10.10?lang=en&hide=id' },
