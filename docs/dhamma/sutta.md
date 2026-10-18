@@ -32,20 +32,6 @@ the suttas and cross-check it against the Vinaya, rather than accepting or
 rejecting it on the authority of who reported it (even the Buddha himself,
 a community of elders, or a single senior monk). <SuttaLink index={0}>Read →</SuttaLink>
 
-## Rational criteria — not authority, not hearsay
-
-**AN 3.65 (Kesamutti / Kālāma Sutta)** — the companion piece to Mahāpadesa:
-don't accept a teaching merely because of tradition, report, hearsay,
-scripture, logic, inference, superficial appearance, agreement with a view
-you already hold, the speaker's apparent competence, or "the ascetic is our
-teacher." Test it against what is skillful/unskillful and what leads to
-harm/benefit. <SuttaLink index={1}>Read →</SuttaLink>
-
-**MN 95 (Caṅkī Sutta)** — the companion to Kālāma: where Kālāma says what
-*not* to infer a teaching's truth from, MN 95 says what one may honestly say
-instead. Safeguarding the truth (*saccānurakkhana*) is to say "such is my
-faith," not "this alone is true, anything else is wrong." <SuttaLink index={2}>Read →</SuttaLink>
-
 ## The receiving language doesn't need to change
 
 **MN 139 (Araṇavibhaṅga Sutta)** — a great many points in translations of
@@ -63,6 +49,20 @@ disputes over minor phrasing devalue an otherwise correct teaching. But a
 mismatch in meaning does matter — even at the cost of some friction between
 both sides, it is worth clarifying what was poorly grasped as poorly
 grasped, and what was well grasped as well grasped. <SuttaLink index={4}>Read →</SuttaLink>
+
+## Rational criteria — not authority, not hearsay
+
+**AN 3.65 (Kesamutti / Kālāma Sutta)** — the companion piece to Mahāpadesa:
+don't accept a teaching merely because of tradition, report, hearsay,
+scripture, logic, inference, superficial appearance, agreement with a view
+you already hold, the speaker's apparent competence, or "the ascetic is our
+teacher." Test it against what is skillful/unskillful and what leads to
+harm/benefit. <SuttaLink index={1}>Read →</SuttaLink>
+
+**MN 95 (Caṅkī Sutta)** — the companion to Kālāma: where Kālāma says what
+*not* to infer a teaching's truth from, MN 95 says what one may honestly say
+instead. Safeguarding the truth (*saccānurakkhana*) is to say "such is my
+faith," not "this alone is true, anything else is wrong." <SuttaLink index={2}>Read →</SuttaLink>
 
 ## Scrutinize before you praise or blame
 
