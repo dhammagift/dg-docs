@@ -8,7 +8,7 @@ title: MCP-сервер для ИИ-агентов
 ChatGPT, Cursor и другие) сам ищет по Палийскому канону, читает сутты и сравнивает переводы, а в ответе
 даёт цитаты и ссылки на ридер. Используется тот же поисковый движок и те же тексты, что на сайте.
 
-**Адрес:** `https://dhamma.gift/mcp` (Streamable HTTP, без входа, только чтение).
+**Адрес:** `https://api.dhamma.gift/mcp` (Streamable HTTP, без входа, только чтение).
 
 ## Инструменты
 
@@ -21,8 +21,8 @@ ChatGPT, Cursor и другие) сам ищет по Палийскому ка�
 
 ## Подключение
 
-- **Claude (claude.ai / Desktop):** Settings → Connectors → Add custom connector → URL `https://dhamma.gift/mcp`.
-- **Claude Code:** `claude mcp add --transport http dhamma-gift https://dhamma.gift/mcp`
+- **Claude (claude.ai / Desktop):** Settings → Connectors → Add custom connector → URL `https://api.dhamma.gift/mcp`.
+- **Claude Code:** `claude mcp add --transport http dhamma-gift https://api.dhamma.gift/mcp`
 - **Другие клиенты:** добавьте удалённый (HTTP) MCP-сервер с тем же адресом.
 
 Дальше спрашивайте обычными словами, например: *«Найди все сутты про черепаху, процитируй пали и русский перевод со ссылками».*

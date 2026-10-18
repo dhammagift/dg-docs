@@ -9,7 +9,7 @@ clients, Cursor and others) can search the Pali Canon here, read suttas and comp
 own, and answer with quotes and links to the reader. It uses the same search engine and the same texts
 as the site.
 
-**Address:** `https://dhamma.gift/mcp` (Streamable HTTP, no login, read-only).
+**Address:** `https://api.dhamma.gift/mcp` (Streamable HTTP, no login, read-only).
 
 ## Tools
 
@@ -22,8 +22,8 @@ as the site.
 
 ## Connecting
 
-- **Claude (claude.ai / Desktop):** Settings → Connectors → Add custom connector → URL `https://dhamma.gift/mcp`.
-- **Claude Code:** `claude mcp add --transport http dhamma-gift https://dhamma.gift/mcp`
+- **Claude (claude.ai / Desktop):** Settings → Connectors → Add custom connector → URL `https://api.dhamma.gift/mcp`.
+- **Claude Code:** `claude mcp add --transport http dhamma-gift https://api.dhamma.gift/mcp`
 - **Other clients:** add a remote (HTTP) MCP server with the same URL.
 
 Then ask in plain words, for example: *"Find all suttas about the turtle, quote the Pali and the Russian translation with links."*

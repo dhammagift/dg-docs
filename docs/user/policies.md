@@ -142,8 +142,7 @@ Two cases, and the difference matters.
 ### Public domain — SuttaCentral
 
 All materials from [SuttaCentral](https://suttacentral.net/) (Bilara data) —
-the Pali root texts, the traditional commentarial material and the
-translations — are dedicated to the public domain under
+the Pali root texts and the translations — are dedicated to the public domain under
 [CC0](https://creativecommons.org/public-domain/cc0/). You may use, copy and
 adapt them freely, including commercially, with no permission needed. See
 [SuttaCentral licensing](https://suttacentral.net/licensing).

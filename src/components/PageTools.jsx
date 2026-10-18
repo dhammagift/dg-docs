@@ -117,8 +117,21 @@ export default function PageTools({ articleSelector = '.theme-doc-markdown', inl
       if (!inline) tagPlainPali(article);
     }
 
+    // Code blocks (```…```, the Pali quotes on Rationale) are re-rendered by Docusaurus after this effect, so a lang="pi"
+    // set on them above is lost and their words were not clickable. Tag the block at the moment of the touch instead:
+    // pointerdown (capture) comes before both paliLookup.js's click handler and the selection it reads.
+    const tagCodeBlock = (e) => {
+      const pre = !inline && e.target.closest && e.target.closest(articleSelector + ' pre');
+      if (pre && !pre.hasAttribute('lang') && !/[Ѐ-ӿ]/.test(pre.textContent)) {
+        pre.setAttribute('lang', 'pi');
+        pre.classList.add('pli-lang');
+      }
+    };
+    document.addEventListener('pointerdown', tagCodeBlock, true);
+
     // Docs navigate without reloading: the player must not go on reading the page that was left.
     return () => {
+      document.removeEventListener('pointerdown', tagCodeBlock, true);
       if (document.querySelector('#voice-player-container.active')) document.querySelector('.close-tts-btn')?.click();
     };
   }, [articleSelector, termSelector, inline]);
