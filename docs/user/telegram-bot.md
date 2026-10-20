@@ -7,6 +7,7 @@ import InlineSutta from '@site/static/img/telegram/inline-sutta.png';
 import MessageSutta from '@site/static/img/telegram/message-sutta.png';
 import InlineUposatha from '@site/static/img/telegram/inline-uposatha.png';
 import MessageUposatha from '@site/static/img/telegram/message-uposatha.png';
+import InlineMeaning from '@site/static/img/telegram/inline-meaning.webp';
 
 # Telegram bot
 
@@ -36,6 +37,22 @@ Type `@dgift_bot` in the message box of any chat and then a Pali word
 
 <p style={{fontSize: '0.85em', opacity: 0.75, marginTop: '0.3em'}}>In the frame: what is typed in the message box of <b>any chat or group</b>, not in the bot's own chat.</p>
 
+If the word is in the built-in mini dictionary (the Pāli–English one, with a
+Russian translation for the Russian interface), its short meaning is shown in
+the list under the word, and in the sent message — between the word and the
+links:
+
+> **kacchapa** — *masc.* tortoise; turtle; lit. drinking marsh
+
+
+<img src={InlineMeaning} alt="@dgift_bot adhiccasamuppann in the message box: the list shows adhiccasamuppannā with its meaning, and above it the sent message with the meaning between the word and the links" style={{maxWidth: '100%', borderRadius: 10}} />
+
+A form is traced back to its dictionary word (`kacchapā` → **kacchapa**),
+up to four words are shown with `…` if there are more (the list is not
+exhaustive), the part of speech is in italics, and when there is no Russian
+translation of a word the English one is shown. Machine-translated Russian
+entries are marked `[пер. ИИ]`.
+
 Above the list there is a button — `🔎 Open Dhamma.gift En: sn56.11` — it opens
 Dhamma.gift as a Mini App with the query already searched.
 
@@ -47,15 +64,17 @@ and, under the message, the buttons.
 <img src={MessageSutta} alt="The sent message: sn56.11 with the links Dhamma.gift and Dictionary, and the buttons Lang En/Ru, Dictionary, Read at Dhamma.gift En" style={{maxWidth: '100%', borderRadius: 10}} />
 
 - `🔎 Dhamma.gift` — the word or the text in the site's search;
-- `📘 Dictionary` — the word in the dictionaries (`dict.dhamma.gift`);
+- `📘 Dictionary` — the word in the dictionaries (`dict.dhamma.gift`); its short
+  meaning from the mini dictionary is already in the message, above the links;
 - `Read at 🔎 Dhamma.gift En` — the text itself, in the reader.
 
 An extra word does not break the link: `mn10 metta` still opens `mn10`.
 
 The same search and reader are the Mini Apps behind `/extra`:
 [search](http://t.me/dhammagift_bot/find),
-[reading](http://t.me/dhammagift_bot/read) and
-[dictionary](http://t.me/dhammagift_bot/dict).
+[reading](http://t.me/dhammagift_bot/read),
+[dictionary](http://t.me/dhammagift_bot/dict) and
+[Memo](http://t.me/dhammagift_bot/memo).
 
 ## Uposatha days
 
@@ -94,13 +113,14 @@ with the same links and buttons. On top of that, the bot has commands and settin
 | Command | What it does |
 | --- | --- |
 | `/start` | the welcome message and the interface language |
-| `/extra` | links to the Mini Apps: search, reading, dictionary |
+| `/language` | choose the interface language (English / Русский) |
+| `/extra` | links to the Mini Apps: search, reading, dictionary, and the 🛞 Memo button (in the bot's own chat) |
+| `/docs` | the link to this documentation |
 | `/uposatha` | Uposatha days for the next 30 days |
-| `/help` | help (in progress) |
 
 ### Settings
 
-- **Language** — `/start` switches it, and so does the button under any message
+- **Language** — `/language` (two buttons, the current one is checked) sets it; `/start` toggles it, and so does the button under any message
   (`Lang En/Ru` / `Язык Ru/En`). The choice is remembered and affects the links:
   the Russian interface leads to `dhamma.gift/ru` and `dict.dhamma.gift/ru`.
 - **The city for the Uposatha list** — `/uposatha <city>` remembers it,

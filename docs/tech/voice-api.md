@@ -43,10 +43,10 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 |---|---|---|
 | `pratham` | Pāḷi | Piper neural voice + our Pāḷi pronunciation rules (IAST → sounds, stress, long vowels). Beta |
 | `dg` | Pāḷi | "o Dhamma.Gift": a voice trained on real Pāḷi readings. Beta |
-| `alan`, `norman`, `kathleen` | English | Piper voices; Pāḷi words and abbreviations (Ven., SN 56.11) are read properly |
-| `ruslan`, `irina` | Russian | Piper voices; Pāḷi in Latin script is read the Pāḷi way |
+| `alan`, `miles`, `kathleen` | English | Piper voices (`miles`: trained on the readings of Miles, a reader for DG); Pāḷi words and abbreviations (Ven., SN 56.11) are read properly |
+| `puriso`, `irina` | Russian | Piper voices (`puriso`: Supertonic's male voice M1 taught to Piper); Pāḷi in Latin script is read the Pāḷi way |
 
-`GET /api/tts/dg-voices` gives the list as `{voice: language}`; `GET /api/tts/health` shows that the
+`GET /api/tts/dg-voices` gives the list as `{"voices": [{"id", "lang", "label"}]}` in menu order (a language's first voice is its default); `GET /api/tts/health` shows that the
 service is up and which version of the pronunciation rules it uses.
 
 How Pāḷi is read: every letter is sounded, punctuation becomes pauses, `…pe…` is read as "peyyāla".
@@ -73,7 +73,7 @@ against the per-minute limit.
 - `pratham`: weights MIT ([rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)),
   recordings AI4Bharat IndicVoices (CC BY 4.0).
 - `dg`: CC BY-NC-SA 4.0 — non-commercial use only.
-- The English and Russian voices: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),
+- `alan`, `kathleen` and the Russian voices: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),
   each under its own licence.
 
 ## Also at this address

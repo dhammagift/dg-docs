@@ -205,6 +205,12 @@ telegram/bin/python main.py config.dgift_bot.json
 For a production setup (systemd services, autostart for both bots) —
 `install_sysctl_bots.sh` in the same repository.
 
+The short meanings in the bot's answers come from the dictionary files of
+`dg-node` (`public/overrides/js/standalone-dpd/`). `dpdmini.py` converts them once into
+`dpd_mini.sqlite` next to the bot (about 30 MB, not in git, built at the first
+query) and checks once a month whether the files are newer, rebuilding in the
+background. The path to `dg-node` is set at the top of `dpdmini.py`.
+
 Word autocomplete and `watcher.py`'s notifications expect a `dg-node`
 running alongside (they read `assets/texts/...`) — the bot doesn't crash
 without it, those features just silently stay off.
