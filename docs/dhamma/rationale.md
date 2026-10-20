@@ -194,7 +194,9 @@ Translating *taṇhā* as "thirst" and *upādāna* as "clinging" builds a mistak
 
 **In sum:** rendering *taṇhā* as "clinging" and *upādāna* as "holding, sustaining, feeding a process" fits the ordinary meaning of these words better and does not break the logic of the Pali: the causal chain stays intact, and the similes of the suttas (fire and fuel, moisture, drying up) keep their sense.
 
-## Where the Standard Renderings Don't Fit the Suttas {#passages}
+<a id="passages"></a>
+
+## Where the Standard Renderings Don't Fit the Suttas
 
 **Examples from Pali texts:**
 
