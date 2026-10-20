@@ -7,6 +7,7 @@ import Spotify from '@site/static/img/buttons/podcast-spotify.png';
 import YouTubeMusic from '@site/static/img/buttons/podcast-youtube-music.png';
 import ApplePodcastsSoon from '@site/static/img/buttons/podcast-apple-podcasts-soon.png';
 import YandexMusicSoon from '@site/static/img/buttons/podcast-yandex-music-soon.png';
+import AmazonMusicSoon from '@site/static/img/buttons/podcast-amazon-music-soon.png';
 import Rss from '@site/static/img/buttons/podcast-rss.png';
 
 export const Show = ({cover, title, lang, badges}) => (
@@ -40,6 +41,7 @@ export const Show = ({cover, title, lang, badges}) => (
   badges={[
     [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLR9ba080Y--4'],
     [YandexMusicSoon, 'Coming soon to Yandex Music'],
+    [AmazonMusicSoon, 'Coming soon to Amazon Music'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/pli.xml'],
   ]}
 />
@@ -51,6 +53,7 @@ export const Show = ({cover, title, lang, badges}) => (
   badges={[
     [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLY1n40Yg4a1o'],
     [YandexMusicSoon, 'Coming soon to Yandex Music'],
+    [AmazonMusicSoon, 'Coming soon to Amazon Music'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/ru.xml'],
   ]}
 />
@@ -63,6 +66,7 @@ export const Show = ({cover, title, lang, badges}) => (
     [Spotify, 'Listen on Spotify', 'https://open.spotify.com/show/03BVbxuiraGTgNW29OPDk7'],
     [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLJK1dkppMGjg'],
     [ApplePodcastsSoon, 'Coming soon to Apple Podcasts'],
+    [AmazonMusicSoon, 'Coming soon to Amazon Music'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/en.xml'],
   ]}
 />
