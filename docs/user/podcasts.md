@@ -7,7 +7,7 @@ import Spotify from '@site/static/img/buttons/podcast-spotify.png';
 import YouTubeMusic from '@site/static/img/buttons/podcast-youtube-music.png';
 import ApplePodcastsSoon from '@site/static/img/buttons/podcast-apple-podcasts-soon.png';
 import YandexMusicSoon from '@site/static/img/buttons/podcast-yandex-music-soon.png';
-import AmazonMusicSoon from '@site/static/img/buttons/podcast-amazon-music-soon.png';
+import AmazonMusic from '@site/static/img/buttons/podcast-amazon-music.png';
 import Rss from '@site/static/img/buttons/podcast-rss.png';
 
 export const Show = ({cover, title, lang, badges}) => (
@@ -41,7 +41,7 @@ translations side by side.
   badges={[
     [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLR9ba080Y--4'],
     [YandexMusicSoon, 'Coming soon to Yandex Music'],
-    [AmazonMusicSoon, 'Coming soon to Amazon Music'],
+    [AmazonMusic, 'Listen on Amazon Music', 'https://music.amazon.com/podcasts/2d52d312-7433-4337-be88-0296b4f137fb'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/pli.xml'],
   ]}
 />
@@ -54,7 +54,7 @@ translations side by side.
     [Spotify, 'Listen on Spotify', 'https://open.spotify.com/show/03BVbxuiraGTgNW29OPDk7'],
     [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLJK1dkppMGjg'],
     [ApplePodcastsSoon, 'Coming soon to Apple Podcasts'],
-    [AmazonMusicSoon, 'Coming soon to Amazon Music'],
+    [AmazonMusic, 'Listen on Amazon Music', 'https://music.amazon.com/podcasts/8e33cb05-3488-4f4b-ba0e-30323067a8c4'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/en.xml'],
   ]}
 />
@@ -66,7 +66,7 @@ translations side by side.
   badges={[
     [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLY1n40Yg4a1o'],
     [YandexMusicSoon, 'Coming soon to Yandex Music'],
-    [AmazonMusicSoon, 'Coming soon to Amazon Music'],
+    [AmazonMusic, 'Listen on Amazon Music', 'https://music.amazon.com/podcasts/e7de6ae9-f8ab-4cce-a33f-887680355adb'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/ru.xml'],
   ]}
 />
