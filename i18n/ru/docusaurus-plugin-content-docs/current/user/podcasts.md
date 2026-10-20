@@ -34,14 +34,13 @@ export const Show = ({cover, title, lang, badges}) => (
 переводами рядом.
 
 <Show
-  cover="https://files.dhamma.gift/podcast/en.v2.jpg"
-  title="Suttas and Vinaya of the Pali Canon"
-  lang="Английский"
+  cover="https://files.dhamma.gift/podcast/pli.v2.jpg"
+  title="Suttas and Vinaya in Pāli"
+  lang="Пали"
   badges={[
-    [Spotify, 'Listen on Spotify', 'https://open.spotify.com/show/03BVbxuiraGTgNW29OPDk7'],
-    [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLJK1dkppMGjg'],
-    [ApplePodcastsSoon, 'Coming soon to Apple Podcasts'],
-    [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/en.xml'],
+    [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLR9ba080Y--4'],
+    [YandexMusicSoon, 'Coming soon to Yandex Music'],
+    [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/pli.xml'],
   ]}
 />
 
@@ -57,13 +56,14 @@ export const Show = ({cover, title, lang, badges}) => (
 />
 
 <Show
-  cover="https://files.dhamma.gift/podcast/pli.v2.jpg"
-  title="Suttas and Vinaya in Pāli"
-  lang="Пали"
+  cover="https://files.dhamma.gift/podcast/en.v2.jpg"
+  title="Suttas and Vinaya of the Pali Canon"
+  lang="Английский"
   badges={[
-    [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLR9ba080Y--4'],
-    [YandexMusicSoon, 'Coming soon to Yandex Music'],
-    [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/pli.xml'],
+    [Spotify, 'Listen on Spotify', 'https://open.spotify.com/show/03BVbxuiraGTgNW29OPDk7'],
+    [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLJK1dkppMGjg'],
+    [ApplePodcastsSoon, 'Coming soon to Apple Podcasts'],
+    [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/en.xml'],
   ]}
 />
 
@@ -72,6 +72,6 @@ export const Show = ({cover, title, lang, badges}) => (
 Любое приложение для подкастов принимает ленту по адресу: скопируйте ссылку
 с плашки RSS и добавьте в приложении подкаст по URL.
 
-- Английский: `https://files.dhamma.gift/podcast/en.xml`
-- Русский: `https://files.dhamma.gift/podcast/ru.xml`
 - Пали: `https://files.dhamma.gift/podcast/pli.xml`
+- Русский: `https://files.dhamma.gift/podcast/ru.xml`
+- Английский: `https://files.dhamma.gift/podcast/en.xml`
