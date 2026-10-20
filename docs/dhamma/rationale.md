@@ -251,7 +251,7 @@ The apparent absence of false cognates and "false friends of the translator" bet
 
 It is also enough to compare the 31 "body parts," as in <SiteLink to="/dn22:5.2?lang=en&hide=id">dn22</SiteLink> — `kesā lomā... vasā kheḷo siṅghāṇikā lasikā muttanti` — to see how distant and incommensurable the meanings of seemingly similar Pali and Sanskrit words can be.
 
-With this in mind, in cases where Pali texts genuinely lack context or examples, Sanskrit can still be used — provided this does not lead to contradictions like those listed below. If a definition of a concept exists in Pali but the Sanskrit meaning contradicts it, the latter is not applied.
+With this in mind, in cases where Pali texts genuinely lack context or examples, Sanskrit can still be used — provided this does not lead to contradictions like those listed above. If a definition of a concept exists in Pali but the Sanskrit meaning contradicts it, the latter is not applied.
 
 **Examples of terminological divergence:** `duḥkha`, `tṛṣṇā`, `kāma` and `karma` may, in some cases, correspond to "suffering," "thirst," "sensual desire," and "action" within some teaching recorded in Sanskrit — but in Pali, had the Pali texts themselves been the primary basis for establishing these terms (rather than a mechanical transfer of meanings and parallels between the two languages), this would be unlikely.
 
