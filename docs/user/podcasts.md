@@ -34,6 +34,17 @@ text, and its description links to that text on Dhamma.Gift, in Pali with the
 translations side by side.
 
 <Show
+  cover="https://files.dhamma.gift/podcast/pli.v2.jpg"
+  title="Suttas and Vinaya in Pāli"
+  lang="Pāli"
+  badges={[
+    [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLR9ba080Y--4'],
+    [YandexMusicSoon, 'Coming soon to Yandex Music'],
+    [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/pli.xml'],
+  ]}
+/>
+
+<Show
   cover="https://files.dhamma.gift/podcast/en.v2.jpg"
   title="Suttas and Vinaya of the Pali Canon"
   lang="English"
@@ -56,22 +67,11 @@ translations side by side.
   ]}
 />
 
-<Show
-  cover="https://files.dhamma.gift/podcast/pli.v2.jpg"
-  title="Suttas and Vinaya in Pāli"
-  lang="Pāli"
-  badges={[
-    [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLR9ba080Y--4'],
-    [YandexMusicSoon, 'Coming soon to Yandex Music'],
-    [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/pli.xml'],
-  ]}
-/>
-
 ## RSS
 
 Any podcast app takes a feed by its address: copy the RSS badge's link and add it
 in the app as a podcast by URL.
 
+- Pāli: `https://files.dhamma.gift/podcast/pli.xml`
 - English: `https://files.dhamma.gift/podcast/en.xml`
 - Russian: `https://files.dhamma.gift/podcast/ru.xml`
-- Pāli: `https://files.dhamma.gift/podcast/pli.xml`
