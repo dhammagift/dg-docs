@@ -20,7 +20,7 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 <PageTools />
 
 The Uposatha is a special day for intensified practice — the 14th, 15th and 8th lunar day of each half-month. A list of the
-key suttas, from which you can work out for yourself when and how to keep the Uposatha, is [here](pathname:///uposatha-calendar#keys).
+key suttas, from which you can work out for yourself when and how to keep the Uposatha, is <SiteLink to="/uposatha-calendar#keys">here</SiteLink>.
 
 The calendar shows the Uposatha days as the suttas describe them. Below is the real page, a live demo.
 
@@ -40,7 +40,7 @@ The calendar shows the Uposatha days as the suttas describe them. Below is the r
   time for food now; *Day & night* — the part of the day or night that is going on; *Month* — the month with the Uposatha days marked.
 - **Telegram** — `/uposatha` in the chat of [@dgift_bot](https://t.me/dgift_bot), or `@dgift_bot uposatha Chiang Mai` typed in
   any chat: the next 30 days with the sun times of your city. More on the [Telegram bot](/telegram-bot) page.
-- **Any browser** — the [calendar page](pathname:///uposatha-calendar); the browser's menu installs it as an app.
+- **Any browser** — the <SiteLink to="/uposatha-calendar">calendar page</SiteLink>; the browser's menu installs it as an app.
 
 ## Reading the calendar
 
