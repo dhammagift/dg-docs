@@ -11,6 +11,7 @@ import UpoParts from '@site/static/img/help/uposatha-parts.png';
 import UpoSettings from '@site/static/img/help/uposatha-settings.png';
 import AlbumartUposatha from '@site/static/img/thumb/albumart-uposatha-nobg.webp';
 import SiteLink from '@site/src/components/SiteLink';
+import CalendarLink from '@site/src/components/CalendarLink';
 import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 # Дни упосатхи
@@ -20,7 +21,7 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 <PageTools />
 
 Упосатха — это особый день для усиленной практики. Это 14-й, 15-й и 8-й лунный день каждой половины месяца. Список ключевых
-сутт, по которым вы самостоятельно можете разобраться, когда и как проводить упосатхи, — <SiteLink to="/uposatha-calendar#keys">здесь</SiteLink>.
+сутт, по которым вы самостоятельно можете разобраться, когда и как проводить упосатхи, — <CalendarLink hash="keys" href="/uposatha-calendar?lang=ru#keys">здесь</CalendarLink>.
 
 Календарь показывает дни упосатхи так, как это описано в суттах. Ниже настоящая страница, живая демонстрация.
 

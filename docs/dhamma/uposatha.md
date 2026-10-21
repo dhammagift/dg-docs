@@ -11,6 +11,7 @@ import UpoParts from '@site/static/img/help/uposatha-parts-en.png';
 import UpoSettings from '@site/static/img/help/uposatha-settings-en.png';
 import AlbumartUposatha from '@site/static/img/thumb/albumart-uposatha-nobg.webp';
 import SiteLink from '@site/src/components/SiteLink';
+import CalendarLink from '@site/src/components/CalendarLink';
 import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 # Uposatha days
@@ -20,7 +21,7 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 <PageTools />
 
 The Uposatha is a special day for intensified practice — the 14th, 15th and 8th lunar day of each half-month. A list of the
-key suttas, from which you can work out for yourself when and how to keep the Uposatha, is <SiteLink to="/uposatha-calendar#keys">here</SiteLink>.
+key suttas, from which you can work out for yourself when and how to keep the Uposatha, is <CalendarLink hash="keys" href="/uposatha-calendar?lang=en#keys">here</CalendarLink>.
 
 The calendar shows the Uposatha days as the suttas describe them. Below is the real page, a live demo.
 
