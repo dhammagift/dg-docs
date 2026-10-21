@@ -19,6 +19,12 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 <PageTools />
 
+In the suttas the Uposatha is the Buddha's observance day. On the eighth, fourteenth and fifteenth of each half-month a lay
+follower keeps the eight precepts for a night and a day and lives, for that time, as the arahants live — the eight-factored
+uposatha the Buddha sets out in AN 3.70 (<SiteLink to="/an3.70">read →</SiteLink>); the Saṅgha gathers on the same days to
+recite the Pātimokkha (Vinaya, Mahāvagga 2). The calendar below marks these days, and the passages behind each are gathered
+in its "From the suttas" list.
+
 The calendar shows the Uposatha days as the suttas count them — the 14th, 15th and 8th lunar days of each half-month, six a
 month — with the exact moments in your time zone and place. It is a [page of its own](pathname:///uposatha-calendar), part of
 the app; below is the real page, a live demo (scroll inside it, or open it in a new window). This page explains how to read it and what its settings do. The suttas themselves are on
@@ -34,6 +40,7 @@ the calendar page (the slideshow "From the suttas" and its "Show all" list).
   <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Open the calendar as a web app" style={{maxWidth: '200px'}} /></SiteLink>
 </div>
 
+- **Android** — *Uposatha by the Suttas* on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.uposatha): the calendar as an app.
 - **Windows 11** — *Uposatha by the Suttas* in the [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN): the calendar in its own window and three
   widgets for the Widgets Board (Win + W, then "+"). *Uposatha + kala* — how long to the next Uposatha day and whether it is the
   time for food now; *Day & night* — the part of the day or night that is going on; *Month* — the month with the Uposatha days marked.
