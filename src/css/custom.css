@@ -257,6 +257,22 @@
   white-space: nowrap;
   border: 0;
 }
+.dg-glossary__updated {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 0.7rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.85rem;
+}
+.dg-glossary__updated::before {
+  content: '';
+  flex: 0 0 auto;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+}
 .dg-glossary__toolbar {
   display: flex;
   flex-wrap: wrap;

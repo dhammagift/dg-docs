@@ -415,6 +415,11 @@ export default function GlossaryTable({locale = 'en'}) {
 
   return (
     <div className="dg-glossary">
+      {updated && (
+        <p className="dg-glossary__updated">
+          {t.updated}: {updated}
+        </p>
+      )}
       <div className="dg-glossary__toolbar">
         <div className="dg-glossary__search">
           <input
@@ -545,14 +550,6 @@ export default function GlossaryTable({locale = 'en'}) {
       )}
 
       <p className="dg-glossary__source">
-        {updated && (
-          <>
-            <span>
-              {t.updated}: {updated}
-            </span>
-            {' · '}
-          </>
-        )}
         <a href={data.source.url} target="_blank" rel="noopener noreferrer">
           {t.source}
         </a>
