@@ -2,13 +2,13 @@
 slug: /glossary
 sidebar_position: 5
 sidebar_label: Glossary
-description: Pali terms, their English rendering, and the canon definition where the suttas or the Vinaya give one.
+description: Pali terms, their English rendering, and the definition from the Suttas and the Vinaya where one exists.
 ---
 
 import GlossaryTable from '@site/src/components/GlossaryTable';
 
 # Glossary
 
-Terms rendered according to the [Principles of Translation](/principles), with the definition from the canon shown where the suttas or the Vinaya give one. The Pali definition is quoted verbatim, and its link opens the exact passage in the reader.
+Terms rendered according to the [Principles by Suttas](/sutta), with definitions from the Suttas and the Vinaya where they exist. The Pali definition is quoted verbatim, with links to the reader.
 
 <GlossaryTable locale="en" />
