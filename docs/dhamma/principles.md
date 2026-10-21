@@ -15,7 +15,7 @@ import MemoBigwheel from '@site/static/img/thumb/albumart-memo-bigwheel-nobg.web
 
 <PageTools />
 
-*See also the [translation glossary](/glossary) — a searchable table of terms, with the canon definition where one exists — and [Rationale](/rationale) for the detailed reasoning and examples behind these principles. This page is translated from the Russian original; some linguistic examples are best understood with reference to the source language — see the <SiteLink to="/ru/docs/principles">Russian version</SiteLink>.*
+*See also the [glossary](/glossary) — a searchable table of terms, with the canon definition where one exists — and [Rationale](/rationale) for the detailed reasoning and examples behind these principles. This page is translated from the Russian original; some linguistic examples are best understood with reference to the source language — see the <SiteLink to="/ru/docs/principles">Russian version</SiteLink>.*
 
 Principles and approaches applied wherever a translation or edit on Dhamma.gift is marked **"o"** — "translation o" (text fully translated from Pali) or "ed. o" (a text fragment amended against the Pali original) according to these Principles.
 
