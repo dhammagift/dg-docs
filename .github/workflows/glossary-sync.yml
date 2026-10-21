@@ -1,0 +1,93 @@
+name: Glossary sync
+
+# Pulls the public translation glossary sheet once a day and regenerates
+# src/data/glossary.json. The commit happens only when the data actually changed, so an
+# unchanged sheet produces neither a commit nor a docs build.
+#
+# Pushes made with GITHUB_TOKEN do not trigger other workflows, so the build is dispatched
+# explicitly with `gh workflow run` (workflow_dispatch is the documented exception).
+#
+# The 00:17 UTC slot leaves the build ready before the production server's 05:00 UTC pull
+# (it pulls dist at 00, 05, 10, 15 and 20 UTC); the test server follows dist-preview every
+# minute, so the preview build shows up there almost immediately.
+
+on:
+  schedule:
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: glossary-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      # The sync script has no npm dependencies (built-in fetch/fs), but the parser tests
+      # must pass before anything is committed.
+      - name: Test the sheet parser
+        run: node --test scripts/*.test.mjs
+
+      - name: Fetch the sheet and regenerate src/data/glossary.json
+        run: node scripts/sync-glossary.mjs
+
+      - name: Commit only when the data changed
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/glossary.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "preview=false" >> "$GITHUB_OUTPUT"
+            echo "glossary: unchanged, no commit and no build"
+            exit 0
+          fi
+          git commit -m "Glossary: sync from Google Sheet"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          # A docs push may have landed while the sheet was being fetched.
+          git fetch origin main
+          git rebase origin/main
+
+          # Keep preview in step when it is a fast-forward. Generated data is the one thing
+          # that does not wait for a manual preview→main promotion: the build checks the
+          # page, and a broken sheet fails before this point.
+          preview=false
+          if git fetch origin preview && git merge-base --is-ancestor origin/preview HEAD; then
+            preview=true
+          fi
+
+          git push origin HEAD:main
+          if [ "$preview" = true ]; then
+            git push origin HEAD:preview
+          fi
+          echo "preview=$preview" >> "$GITHUB_OUTPUT"
+
+      - name: Build and publish main (dist)
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run build.yml --ref main
+
+      - name: Build and publish preview (dist-preview)
+        if: steps.commit.outputs.preview == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run build.yml --ref preview

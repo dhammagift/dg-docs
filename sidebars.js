@@ -15,7 +15,7 @@ const sidebars = {
           label: 'Дхамма',
           collapsed: false,
           className: 'dg-cat-dhamma',
-          items: ['dhamma/sutta', 'dhamma/principles', 'dhamma/rationale', 'dhamma/uposatha'],
+          items: ['dhamma/sutta', 'dhamma/principles', 'dhamma/rationale', 'dhamma/glossary', 'dhamma/uposatha'],
         },
         {
           type: 'category',
@@ -87,7 +87,7 @@ const sidebars = {
           label: 'Dhamma',
           collapsed: false,
           className: 'dg-cat-dhamma',
-          items: ['dhamma/sutta', 'dhamma/principles', 'dhamma/rationale', 'dhamma/uposatha'],
+          items: ['dhamma/sutta', 'dhamma/principles', 'dhamma/rationale', 'dhamma/glossary', 'dhamma/uposatha'],
         },
         {
           type: 'category',

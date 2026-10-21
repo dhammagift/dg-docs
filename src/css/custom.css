@@ -237,3 +237,413 @@
 .dg-embed .main-wrapper { padding-top: 0; }
 .dg-embed [class*="docMainContainer"] { max-width: none; }
 .dg-embed article, .dg-embed .container { max-width: 100%; }
+
+/* Translation glossary (/glossary, src/components/GlossaryTable.jsx): a generated table of
+   Pali terms with the Russian/English rendering and the canon definition where the sheet has
+   one. Rows are server-rendered; only the filters/sorting/exports need JS. */
+.dg-glossary {
+  --dg-glossary-border: var(--ifm-color-emphasis-300);
+  --dg-glossary-soft: var(--ifm-color-emphasis-100);
+  margin: 1.25rem 0 0;
+}
+.dg-glossary__sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.dg-glossary__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 0.9rem;
+  margin-bottom: 0.6rem;
+}
+.dg-glossary__search {
+  position: relative;
+  flex: 1 1 260px;
+  min-width: 0;
+}
+.dg-glossary__search input {
+  width: 100%;
+  padding: 0.55rem 2.1rem 0.55rem 0.75rem;
+  border: 1px solid var(--dg-glossary-border);
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+  color: inherit;
+  font: inherit;
+  font-size: 0.95rem;
+}
+.dg-glossary__search input:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+.dg-glossary__search input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.dg-glossary__clear {
+  position: absolute;
+  right: 0.35rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.15rem 0.35rem;
+  border: 0;
+  background: none;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.dg-glossary__check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--ifm-color-emphasis-800);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.dg-glossary__check input {
+  margin: 0;
+}
+.dg-glossary__export {
+  display: flex;
+  gap: 0.35rem;
+  margin-left: auto;
+}
+.dg-glossary__export button,
+.dg-glossary__status button,
+.dg-glossary__empty button {
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--dg-glossary-border);
+  border-radius: 7px;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-color-emphasis-800);
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+.dg-glossary__export button:hover,
+.dg-glossary__status button:hover,
+.dg-glossary__empty button:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+.dg-glossary__letters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin: 0 0 0.5rem;
+}
+.dg-glossary__letters button {
+  min-width: 1.7rem;
+  padding: 0.15rem 0.3rem;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ifm-color-emphasis-700);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+.dg-glossary__letters button:hover {
+  background: var(--dg-glossary-soft);
+}
+.dg-glossary__letters button.is-active {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary);
+  color: #fff;
+}
+.dg-glossary__status {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 0.5rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.82rem;
+}
+.dg-glossary__table {
+  display: table;
+  width: 100%;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.95rem;
+}
+.dg-glossary__table thead th {
+  position: sticky;
+  top: var(--ifm-navbar-height);
+  z-index: 1;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 2px solid var(--dg-glossary-border);
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.dg-glossary__table thead th button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+.dg-glossary__table thead th button:hover {
+  color: var(--ifm-color-primary);
+}
+.dg-glossary__col-pali {
+  width: 34%;
+}
+.dg-glossary__table tbody tr:not(.dg-glossary__details) {
+  border-bottom: 1px solid var(--dg-glossary-border);
+}
+.dg-glossary__table tbody tr:not(.dg-glossary__details):hover {
+  background: var(--dg-glossary-soft);
+}
+.dg-glossary__table td {
+  padding: 0.5rem 0.6rem;
+  border: 0;
+  vertical-align: top;
+}
+.dg-glossary__pali {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.dg-glossary__translation {
+  overflow-wrap: anywhere;
+}
+.dg-glossary__translation-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.dg-glossary__translation-inner > span {
+  min-width: 0;
+}
+.dg-glossary__toggle {
+  flex: 0 0 auto;
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0;
+  border: 1px solid var(--dg-glossary-border);
+  border-radius: 50%;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.dg-glossary__toggle:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+.dg-glossary__table tbody tr.is-target {
+  animation: dg-glossary-flash 1.6s ease-out 1;
+}
+@keyframes dg-glossary-flash {
+  0%,
+  35% {
+    background: color-mix(in srgb, var(--ifm-color-primary) 18%, transparent);
+  }
+  100% {
+    background: transparent;
+  }
+}
+.dg-glossary__details > td {
+  padding: 0 0.6rem 0.75rem;
+}
+.dg-glossary__details-inner {
+  padding: 0.75rem 0.9rem;
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: 0 8px 8px 0;
+  background: var(--dg-glossary-soft);
+  font-size: 0.92rem;
+}
+.dg-glossary__section + .dg-glossary__section {
+  margin-top: 0.75rem;
+}
+.dg-glossary__section h4 {
+  margin: 0 0 0.3rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.dg-glossary__definition {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+.dg-glossary__reader-link {
+  margin: 0.5rem 0 0;
+  font-size: 0.88rem;
+}
+.dg-glossary__refgroup {
+  display: grid;
+  grid-template-columns: minmax(9rem, 14rem) 1fr;
+  gap: 0.35rem 0.6rem;
+  align-items: start;
+  padding: 0.2rem 0;
+}
+.dg-glossary__reflabel {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.78rem;
+}
+.dg-glossary__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.dg-glossary__chip {
+  display: inline-block;
+  padding: 0.05rem 0.4rem;
+  border: 1px solid var(--dg-glossary-border);
+  border-radius: 5px;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-color-emphasis-800);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  text-decoration: none;
+}
+a.dg-glossary__chip:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+.dg-glossary__chip--text {
+  opacity: 0.75;
+}
+.dg-glossary__more {
+  align-self: center;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.78rem;
+}
+.dg-glossary__note {
+  margin: 0;
+  line-height: 1.55;
+}
+.dg-glossary__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.7rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.8rem;
+}
+.dg-glossary__copy {
+  margin-left: auto;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--dg-glossary-border);
+  border-radius: 6px;
+  background: var(--ifm-background-surface-color);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+.dg-glossary__num {
+  font-variant-numeric: tabular-nums;
+}
+.dg-glossary__source {
+  margin: 0.9rem 0 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.8rem;
+}
+.dg-glossary__source a {
+  color: inherit;
+  text-decoration: underline;
+}
+.dg-glossary__empty {
+  padding: 2rem 1rem;
+  border: 1px dashed var(--dg-glossary-border);
+  border-radius: 9px;
+  color: var(--ifm-color-emphasis-700);
+  text-align: center;
+}
+.dg-glossary__empty p {
+  margin: 0 0 0.4rem;
+}
+@media (max-width: 640px) {
+  .dg-glossary__export {
+    margin-left: 0;
+  }
+  .dg-glossary__table,
+  .dg-glossary__table tbody,
+  .dg-glossary__table tr,
+  .dg-glossary__table td {
+    display: block;
+  }
+  .dg-glossary__table thead {
+    display: block;
+  }
+  .dg-glossary__table thead tr {
+    display: flex;
+    gap: 1rem;
+    padding: 0 0 0.35rem;
+  }
+  .dg-glossary__table thead th {
+    position: static;
+    display: block;
+    width: auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font-size: 0.78rem;
+  }
+  .dg-glossary__table tbody tr:not(.dg-glossary__details) {
+    position: relative;
+    margin: 0 0 0.45rem;
+    padding: 0.5rem 2.4rem 0.5rem 0.7rem;
+    border: 1px solid var(--dg-glossary-border);
+    border-radius: 9px;
+  }
+  .dg-glossary__table td {
+    padding: 0;
+  }
+  .dg-glossary__toggle {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+  }
+  .dg-glossary__pali {
+    font-size: 1rem;
+  }
+  .dg-glossary__translation {
+    margin-top: 0.15rem;
+    color: var(--ifm-color-emphasis-800);
+    font-size: 0.92rem;
+  }
+  .dg-glossary__details {
+    margin: -0.3rem 0 0.6rem;
+  }
+  .dg-glossary__details > td {
+    padding: 0;
+  }
+  .dg-glossary__details-inner {
+    border-radius: 0 0 9px 9px;
+  }
+  .dg-glossary__refgroup {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dg-glossary__table tbody tr.is-target {
+    animation: none;
+    background: var(--dg-glossary-soft);
+  }
+}

@@ -1,0 +1,5092 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "source": {
+    "sheetId": "1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg",
+    "gid": "0",
+    "url": "https://docs.google.com/spreadsheets/d/1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg/edit?gid=0#gid=0"
+  },
+  "terms": [
+    {
+      "id": "abhijjha",
+      "num": 1,
+      "pali": "abhijjhā",
+      "ru": "алчность",
+      "en": ""
+    },
+    {
+      "id": "abhinna",
+      "num": 2,
+      "pali": "abhiññā",
+      "ru": "прямое знание, опознание (способность определить)",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "dn16",
+          "dn29",
+          "dn34",
+          "sn44.9"
+        ],
+        "broader": [
+          "dn3",
+          "dn34",
+          "sn35.25",
+          "snp5.3"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-pc8",
+          "pli-tv-bu-vb-pj4"
+        ]
+      }
+    },
+    {
+      "id": "abhinnaya",
+      "num": 3,
+      "pali": "abhiññāya",
+      "ru": "для опознания (прямого знания)",
+      "en": "",
+      "canon": {
+        "broader": [
+          "snp5.3"
+        ]
+      }
+    },
+    {
+      "id": "abyapada",
+      "num": 4,
+      "pali": "abyāpāda",
+      "ru": "без-враждебности",
+      "en": ""
+    },
+    {
+      "id": "adhamma",
+      "num": 5,
+      "pali": "adhamma",
+      "ru": "не-Дхамма",
+      "en": "",
+      "canon": {
+        "where": [
+          "an10.114",
+          "an10.115",
+          "an10.116",
+          "an10.138",
+          "an10.182"
+        ],
+        "link": "/an10.114:2.1",
+        "definition": "Katamo ca, bhikkhave, adhammo, katamo ca dhammo, katamo ca anattho, katamo ca attho? Micchādiṭṭhi, bhikkhave, adhammo; sammādiṭṭhi dhammo;",
+        "patterns": [
+          "sn23.12",
+          "sn23.14",
+          "sn23.16",
+          "sn23.18",
+          "sn23.19",
+          "sn23.20",
+          "sn23.21",
+          "sn23.22",
+          "sn35.84",
+          "an4.257",
+          "an9.51",
+          "an10.55",
+          "an10.114",
+          "an10.115",
+          "an10.116",
+          "an10.138",
+          "an10.173",
+          "an10.182"
+        ],
+        "broader": [
+          "dn1",
+          "dn3",
+          "mn2",
+          "mn3",
+          "mn8",
+          "mn26",
+          "sn20.6",
+          "sn23.34",
+          "sn23.46",
+          "sn25.1",
+          "sn41.10",
+          "an1.296",
+          "an1.297-305",
+          "an1.576-582",
+          "an1.591-592",
+          "(+15)"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-pc8",
+          "pli-tv-bu-vb-pc53",
+          "pli-tv-bu-vb-pc71",
+          "pli-tv-bu-vb-pj1",
+          "pli-tv-bu-vb-pj4",
+          "pli-tv-bu-vb-sk69",
+          "pli-tv-bu-vb-ss3",
+          "pli-tv-bu-vb-ss4",
+          "pli-tv-bu-vb-ss12"
+        ]
+      }
+    },
+    {
+      "id": "adinava",
+      "num": 6,
+      "pali": "ādīnava",
+      "ru": "недостаток-опасность",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "an10.60"
+        ],
+        "broader": [
+          "dn16",
+          "dn33",
+          "mn13",
+          "mn14",
+          "mn109",
+          "sn14.31",
+          "sn22.26",
+          "sn22.57",
+          "sn22.82",
+          "sn35.13",
+          "sn35.14",
+          "sn36.15",
+          "sn36.16",
+          "sn36.17",
+          "sn36.18",
+          "(+8)"
+        ]
+      }
+    },
+    {
+      "id": "adinnadana",
+      "num": 7,
+      "pali": "adinnādāna",
+      "ru": "неданного-взятие",
+      "en": "",
+      "canon": {
+        "broader": [
+          "an5.178"
+        ]
+      }
+    },
+    {
+      "id": "adinnadana-veramani",
+      "num": 8,
+      "pali": "adinnādānā veramaṇī",
+      "ru": "неданного-взятия неприемлющий",
+      "en": "",
+      "canon": {
+        "broader": [
+          "an5.178"
+        ]
+      }
+    },
+    {
+      "id": "ahuneyyo",
+      "num": 9,
+      "pali": "āhuneyyo",
+      "ru": "достойная-подношений",
+      "en": "",
+      "canon": {
+        "compounds": [
+          "āhuneyyaggi"
+        ],
+        "patterns": [
+          "an7.47"
+        ],
+        "broader": [
+          "an7.19",
+          "an7.47",
+          "an7.95"
+        ]
+      }
+    },
+    {
+      "id": "akaliko",
+      "num": 10,
+      "pali": "akāliko",
+      "ru": "вневременное",
+      "en": "",
+      "canon": {
+        "broader": [
+          "sn1.20",
+          "sn4.21"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-pc35",
+          "pli-tv-bu-vb-pc36",
+          "pli-tv-bu-vb-pc37",
+          "pli-tv-bu-vb-pc38",
+          "pli-tv-bu-vb-pd1",
+          "pli-tv-bu-vb-pd3",
+          "pli-tv-bu-vb-pd4",
+          "pli-tv-bu-vb-pj2"
+        ]
+      }
+    },
+    {
+      "id": "akasadhatu",
+      "num": 11,
+      "pali": "ākāsadhātu",
+      "ru": "пространства-дхату",
+      "en": "",
+      "canon": {
+        "where": [
+          "mn62",
+          "mn140"
+        ],
+        "link": "/mn62:12.1",
+        "definition": "Katamā ca, rāhula, ākāsadhātu? Ākāsadhātu siyā ajjhattikā, siyā bāhirā.",
+        "patterns": [
+          "mn62",
+          "mn140"
+        ],
+        "broader": [
+          "mn62",
+          "mn140"
+        ]
+      }
+    },
+    {
+      "id": "akasanancayatana",
+      "num": 12,
+      "pali": "ākāsānañcāyatana",
+      "ru": "пространства-бескрайнего-область",
+      "en": "",
+      "canon": {
+        "where": [
+          "sn40.5"
+        ],
+        "link": "/sn40.5:1.1",
+        "definition": "“‘Ākāsānañcāyatanaṁ, ākāsānañcāyatanan’ti vuccati. Katamaṁ nu kho ākāsānañcāyatananti? Tassa mayhaṁ, āvuso, etadahosi: ‘idha bhikkhu sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ananto ākāsoti ākāsānañcāyatanaṁ upasampajja viharati. Idaṁ vuccati ākāsānañcāyatanan’ti.",
+        "patterns": [
+          "sn40.5"
+        ],
+        "broader": [
+          "sn14.11",
+          "an9.41"
+        ]
+      }
+    },
+    {
+      "id": "akincannayatana",
+      "num": 13,
+      "pali": "ākiñcaññāyatana",
+      "ru": "без-чего-либо-область",
+      "en": "",
+      "canon": {
+        "where": [
+          "sn40.7"
+        ],
+        "link": "/sn40.7:1.1",
+        "definition": "“‘Ākiñcaññāyatanaṁ, ākiñcaññāyatanan’ti vuccati. Katamaṁ nu kho ākiñcaññāyatananti? Tassa mayhaṁ, āvuso, etadahosi: ‘idha bhikkhu sabbaso viññāṇañcāyatanaṁ samatikkamma natthi kiñcīti ākiñcaññāyatanaṁ upasampajja viharati. Idaṁ vuccati ākiñcaññāyatanan’ti.",
+        "patterns": [
+          "sn40.7"
+        ],
+        "broader": [
+          "sn14.11",
+          "an9.41"
+        ]
+      }
+    },
+    {
+      "id": "akusala",
+      "num": 14,
+      "pali": "akusala",
+      "ru": "неблаготворное, неумелое, неэффективное",
+      "en": "",
+      "canon": {
+        "where": [
+          "mn9",
+          "an10.136",
+          "an10.180"
+        ],
+        "link": "/mn9:4.1",
+        "definition": "Katamaṁ panāvuso, akusalaṁ, katamaṁ akusalamūlaṁ, katamaṁ kusalaṁ, katamaṁ kusalamūlaṁ? Pāṇātipāto kho, āvuso, akusalaṁ, adinnādānaṁ akusalaṁ, kāmesumicchācāro akusalaṁ, musāvādo akusalaṁ, pisuṇā vācā akusalaṁ, pharusā vācā akusalaṁ, samphappalāpo akusalaṁ, abhijjhā akusalaṁ, byāpādo akusalaṁ, micchādiṭṭhi akusalaṁ— idaṁ vuccatāvuso akusalaṁ.",
+        "compounds": [
+          "akusalamūlaṁ"
+        ],
+        "patterns": [
+          "mn9",
+          "mn78",
+          "mn88",
+          "sn45.22",
+          "an10.136",
+          "an10.180"
+        ],
+        "broader": [
+          "dn1",
+          "an2.15"
+        ]
+      }
+    },
+    {
+      "id": "akusala-kammapatha",
+      "num": 15,
+      "pali": "Akusala kammapatha",
+      "ru": "Десять путей, направлений неблаготворной активности",
+      "en": ""
+    },
+    {
+      "id": "akusalamula",
+      "num": null,
+      "pali": "akusalamūla",
+      "ru": "неблаготворного-корень",
+      "en": "unbeneficial-root"
+    },
+    {
+      "id": "anabhijjha",
+      "num": 16,
+      "pali": "anabhijjhā",
+      "ru": "без-алчности",
+      "en": ""
+    },
+    {
+      "id": "anagami",
+      "num": 17,
+      "pali": "anāgāmī",
+      "ru": "невозвращающийся",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "iti96"
+        ],
+        "broader": [
+          "mn142",
+          "sn47.40",
+          "sn51.19",
+          "sn51.27",
+          "sn51.28",
+          "sn51.29",
+          "sn51.30",
+          "an2.36"
+        ]
+      }
+    },
+    {
+      "id": "anapana",
+      "num": 362,
+      "pali": "ānāpāna",
+      "ru": "дыхание",
+      "en": "breath"
+    },
+    {
+      "id": "anapanassati",
+      "num": null,
+      "pali": "ānāpānassati",
+      "ru": "дыхания-памятование",
+      "en": "breath-remembrance"
+    },
+    {
+      "id": "anatta",
+      "num": 18,
+      "pali": "anatta",
+      "ru": "без-личность, не-самость, не-“я”",
+      "en": "non-personality",
+      "canon": {
+        "where": [
+          "sn23.17"
+        ],
+        "link": "/sn23.17:1.3",
+        "definition": "“‘anattā, anattā’ti, bhante, vuccati. Katamo nu kho, bhante, anattā”ti? “Rūpaṁ kho, rādha, anattā, vedanā anattā, saññā anattā, saṅkhārā anattā, viññāṇaṁ anattā.",
+        "compounds": [
+          "anattadhammo",
+          "anattho"
+        ],
+        "patterns": [
+          "sn23.17",
+          "sn23.18",
+          "an10.60",
+          "an10.113",
+          "an10.114",
+          "an10.115",
+          "an10.116",
+          "an10.137",
+          "an10.171",
+          "an10.172",
+          "an10.173",
+          "an10.181"
+        ],
+        "broader": [
+          "sn22.143",
+          "sn22.144",
+          "sn22.145",
+          "sn35.78",
+          "sn35.164",
+          "sn35.174-176",
+          "sn35.183-185",
+          "an10.60",
+          "an10.113",
+          "an10.114",
+          "an10.115",
+          "an10.116",
+          "an10.137",
+          "an10.171",
+          "an10.172",
+          "(+2)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-np2",
+          "pli-tv-bi-vb-pj5",
+          "pli-tv-bi-vb-pj8",
+          "pli-tv-bu-vb-pj1"
+        ]
+      }
+    },
+    {
+      "id": "anattha",
+      "num": 19,
+      "pali": "anattha",
+      "ru": "бесцельное (не-благо)",
+      "en": "",
+      "canon": {
+        "where": [
+          "an10.137",
+          "an10.172",
+          "an10.173",
+          "an10.181"
+        ],
+        "link": "/an10.137:1.3",
+        "definition": "katamo ca, bhikkhave, anattho? Micchādiṭṭhi …pe… micchāvimutti— ayaṁ vuccati, bhikkhave, anattho.",
+        "patterns": [
+          "an10.113",
+          "an10.114",
+          "an10.115",
+          "an10.116",
+          "an10.137",
+          "an10.171",
+          "an10.172",
+          "an10.173",
+          "an10.181"
+        ],
+        "broader": [
+          "an10.113",
+          "an10.114",
+          "an10.115",
+          "an10.116",
+          "an10.137",
+          "an10.171",
+          "an10.172",
+          "an10.173",
+          "an10.181"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-np2",
+          "pli-tv-bi-vb-pj8"
+        ]
+      }
+    },
+    {
+      "id": "anga",
+      "num": 20,
+      "pali": "aṅga",
+      "ru": "Аспект",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "mn5",
+          "sn22.43",
+          "sn43.10",
+          "sn46.5",
+          "sn46.21",
+          "sn55.5",
+          "an6.54",
+          "an9.50",
+          "an10.37",
+          "an10.38",
+          "an10.39",
+          "an10.40"
+        ],
+        "broader": [
+          "dn1",
+          "mn5",
+          "mn23",
+          "mn56",
+          "mn77",
+          "mn78",
+          "mn85",
+          "mn142",
+          "sn12.43",
+          "sn12.44",
+          "sn22.5",
+          "sn22.95",
+          "sn35.106",
+          "sn35.107",
+          "sn44.9",
+          "(+32)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc36",
+          "pli-tv-bi-vb-pc53",
+          "pli-tv-bi-vb-pc60",
+          "pli-tv-bi-vb-pc86",
+          "pli-tv-bi-vb-pj7",
+          "pli-tv-bi-vb-ss2",
+          "pli-tv-bi-vb-ss4",
+          "pli-tv-bi-vb-ss10",
+          "pli-tv-bi-vb-ss11",
+          "pli-tv-bi-vb-ss12",
+          "pli-tv-bi-vb-ss13",
+          "pli-tv-bu-vb-np1",
+          "pli-tv-bu-vb-np2",
+          "pli-tv-bu-vb-np14",
+          "pli-tv-bu-vb-np18",
+          "(+31)"
+        ]
+      }
+    },
+    {
+      "id": "anicca",
+      "num": 21,
+      "pali": "anicca",
+      "ru": "ненадёжность, нестабильность, недоверительность",
+      "en": "unreliability",
+      "canon": {
+        "where": [
+          "sn23.13"
+        ],
+        "link": "/sn23.13:1.3",
+        "definition": "“‘aniccaṁ, aniccan’ti, bhante, vuccati. Katamaṁ nu kho, bhante, aniccan”ti? “Rūpaṁ kho, rādha, aniccaṁ, vedanā aniccā, saññā aniccā, saṅkhārā aniccā, viññāṇaṁ aniccaṁ.",
+        "compounds": [
+          "aniccadhammo"
+        ],
+        "patterns": [
+          "sn23.13",
+          "sn23.14",
+          "an10.60"
+        ],
+        "broader": [
+          "dn1",
+          "sn36.7",
+          "sn36.8",
+          "an10.60"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-pc4"
+        ]
+      }
+    },
+    {
+      "id": "animitta",
+      "num": 22,
+      "pali": "animitta",
+      "ru": "без-знаковость",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "sn40.9"
+        ],
+        "broader": [
+          "mn43",
+          "sn40.9",
+          "sn41.7",
+          "an7.56"
+        ]
+      }
+    },
+    {
+      "id": "anjalikaraniyo",
+      "num": 23,
+      "pali": "añjalikaraṇīyo",
+      "ru": "достойная-приветствия-сложенными-руками",
+      "en": ""
+    },
+    {
+      "id": "anta",
+      "num": 24,
+      "pali": "anta",
+      "ru": "край (граница, порог), конец",
+      "en": "",
+      "canon": {
+        "compounds": [
+          "antevāsūpaddavo",
+          "antopūtibhāvo"
+        ],
+        "patterns": [
+          "dn13",
+          "mn5",
+          "mn43",
+          "mn138",
+          "mn140",
+          "sn7.2",
+          "sn12.15",
+          "sn12.16",
+          "sn12.24",
+          "sn21.3",
+          "sn22.4",
+          "sn22.21",
+          "sn22.48",
+          "sn22.51",
+          "sn22.52",
+          "sn22.82",
+          "sn22.113",
+          "sn22.114",
+          "sn22.115",
+          "sn22.116",
+          "sn22.126",
+          "sn23.1",
+          "sn23.2",
+          "sn23.3",
+          "sn23.11",
+          "sn23.12",
+          "sn23.13",
+          "sn23.14",
+          "sn23.15",
+          "sn23.16",
+          "sn23.17",
+          "sn23.18",
+          "sn23.19",
+          "sn23.20",
+          "sn23.21",
+          "sn23.22",
+          "sn24.44",
+          "sn25.1",
+          "sn25.2",
+          "sn25.10",
+          "(+64)"
+        ],
+        "broader": [
+          "dn1",
+          "dn6",
+          "dn8",
+          "dn9",
+          "dn14",
+          "dn16",
+          "dn18",
+          "dn22",
+          "dn23",
+          "dn24",
+          "dn25",
+          "dn28",
+          "dn29",
+          "dn31",
+          "dn33",
+          "(+174)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-np1",
+          "pli-tv-bi-vb-np2",
+          "pli-tv-bi-vb-np3",
+          "pli-tv-bi-vb-np4",
+          "pli-tv-bi-vb-np5",
+          "pli-tv-bi-vb-np6",
+          "pli-tv-bi-vb-np7",
+          "pli-tv-bi-vb-np8",
+          "pli-tv-bi-vb-np9",
+          "pli-tv-bi-vb-np10",
+          "pli-tv-bi-vb-np11",
+          "pli-tv-bi-vb-np12",
+          "pli-tv-bi-vb-pc1",
+          "pli-tv-bi-vb-pc2",
+          "pli-tv-bi-vb-pc3",
+          "(+231)"
+        ]
+      },
+      "rationale": {
+        "en": "/rationale#anta",
+        "ru": "/rationale#anta"
+      }
+    },
+    {
+      "id": "anuloma",
+      "num": 25,
+      "pali": "anuloma",
+      "ru": "прямой порядок",
+      "en": ""
+    },
+    {
+      "id": "anunaya",
+      "num": 26,
+      "pali": "anunaya",
+      "ru": "привлечение (одобрение)",
+      "en": ""
+    },
+    {
+      "id": "anusaya",
+      "num": 27,
+      "pali": "anusaya",
+      "ru": "предрасположенность (залегание, закладывание), глагол залегать.",
+      "en": "predisposition",
+      "canon": {
+        "broader": [
+          "sn36.3",
+          "an5.200"
+        ]
+      }
+    },
+    {
+      "id": "anuttaram-punnakkhettam-lokassa",
+      "num": 28,
+      "pali": "anuttaraṁ puññakkhettaṁ lokassa",
+      "ru": "непревзойденное поле блага для мира",
+      "en": ""
+    },
+    {
+      "id": "anuttaro-purisadammasarathi",
+      "num": 29,
+      "pali": "anuttaro purisadammasārathi",
+      "ru": "непревзойдённый людей-дрессировщик-погонщик",
+      "en": ""
+    },
+    {
+      "id": "api",
+      "num": 30,
+      "pali": "api",
+      "ru": "в том числе",
+      "en": ""
+    },
+    {
+      "id": "apodhatu",
+      "num": 31,
+      "pali": "āpodhātu",
+      "ru": "жидкости-дхату",
+      "en": "",
+      "canon": {
+        "where": [
+          "mn28",
+          "mn62",
+          "mn140"
+        ],
+        "link": "/mn28:11.1",
+        "definition": "Katamā cāvuso, āpodhātu? Āpodhātu siyā ajjhattikā, siyā bāhirā.",
+        "patterns": [
+          "mn28",
+          "mn62",
+          "mn140"
+        ],
+        "broader": [
+          "mn28",
+          "mn62",
+          "mn140",
+          "sn14.31"
+        ]
+      }
+    },
+    {
+      "id": "appamada",
+      "num": 32,
+      "pali": "appamāda",
+      "ru": "не-беспечность",
+      "en": "",
+      "canon": {
+        "where": [
+          "sn48.56"
+        ],
+        "link": "/sn48.56:1.4",
+        "definition": "Katamo ca bhikkhave, appamādo? Idha, bhikkhave, bhikkhu cittaṁ rakkhati āsavesu ca sāsavesu ca dhammesu. Tassa cittaṁ rakkhato āsavesu ca sāsavesu ca dhammesu saddhindriyampi bhāvanāpāripūriṁ gacchati.",
+        "compounds": [
+          "appamādavihārī"
+        ],
+        "patterns": [
+          "sn35.134",
+          "sn48.56"
+        ]
+      }
+    },
+    {
+      "id": "appanihita",
+      "num": 33,
+      "pali": "appaṇihita",
+      "ru": "без-направленность (без-устремленность)",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "sn43.4",
+          "sn43.12"
+        ]
+      }
+    },
+    {
+      "id": "appiyehi-sampayogo",
+      "num": 34,
+      "pali": "appiyehi sampayogo",
+      "ru": "с-нелюбимыми-соединение",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "dn22"
+        ],
+        "broader": [
+          "dn22"
+        ]
+      }
+    },
+    {
+      "id": "apunna",
+      "num": 35,
+      "pali": "apuñña",
+      "ru": "не-благо",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "an6.63"
+        ],
+        "broader": [
+          "an6.54",
+          "an7.73"
+        ]
+      }
+    },
+    {
+      "id": "araham",
+      "num": 36,
+      "pali": "arahaṁ",
+      "ru": "арахант",
+      "en": "arahant",
+      "canon": {
+        "where": [
+          "mn39"
+        ],
+        "link": "/mn39:29.1",
+        "definition": "Kathañca, bhikkhave, bhikkhu arahaṁ hoti? Ārakāssa honti pāpakā akusalā dhammā, saṅkilesikā, ponobbhavikā, sadarā, dukkhavipākā, āyatiṁ, jātijarāmaraṇiyā. Evaṁ kho, bhikkhave, bhikkhu arahaṁ hotī”ti.",
+        "compounds": [
+          "arahattan"
+        ],
+        "patterns": [
+          "mn39",
+          "mn94",
+          "mn137",
+          "sn38.2",
+          "sn51.8",
+          "sn56.23"
+        ],
+        "broader": [
+          "dn2",
+          "dn10",
+          "dn16",
+          "dn18",
+          "dn25",
+          "mn39",
+          "mn65",
+          "mn77",
+          "mn81",
+          "mn142",
+          "sn1.20",
+          "sn16.13",
+          "sn22.90",
+          "sn22.110",
+          "sn23.8",
+          "(+18)"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-pc6",
+          "pli-tv-bu-vb-pc32",
+          "pli-tv-bu-vb-pj4",
+          "pli-tv-bu-vb-ss3"
+        ]
+      }
+    },
+    {
+      "id": "arati",
+      "num": 37,
+      "pali": "arati",
+      "ru": "не-радование, неприязнь",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "dn15",
+          "sn43.12",
+          "snp3.2"
+        ],
+        "broader": [
+          "dn1",
+          "dn16",
+          "dn20",
+          "mn37",
+          "mn83",
+          "sn1.37",
+          "sn7.2",
+          "sn8.10",
+          "sn8.11",
+          "sn16.6",
+          "sn22.90",
+          "sn46.55",
+          "an5.50",
+          "an5.193",
+          "an8.2",
+          "(+4)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-ss1",
+          "pli-tv-bu-vb-np5",
+          "pli-tv-bu-vb-pc3",
+          "pli-tv-bu-vb-pc12",
+          "pli-tv-bu-vb-pc68",
+          "pli-tv-bu-vb-pc70",
+          "pli-tv-bu-vb-pd4",
+          "pli-tv-bu-vb-pj1",
+          "pli-tv-bu-vb-pj2",
+          "pli-tv-bu-vb-pj3",
+          "pli-tv-bu-vb-pj4",
+          "pli-tv-bu-vb-ss2",
+          "pli-tv-bu-vb-ss6",
+          "pli-tv-bu-vb-ss10",
+          "pli-tv-bu-vb-ss11",
+          "(+1)"
+        ]
+      }
+    },
+    {
+      "id": "ariya",
+      "num": 38,
+      "pali": "ariya",
+      "ru": "благородный",
+      "en": "",
+      "canon": {
+        "where": [
+          "mn22",
+          "mn39",
+          "mn117",
+          "sn45.28",
+          "an5.71",
+          "an5.72"
+        ],
+        "link": "/mn22:35.1",
+        "definition": "Kathañca, bhikkhave, bhikkhu ariyo pannaddhajo pannabhāro visaṁyutto hoti? Idha, bhikkhave, bhikkhuno asmimāno pahīno hoti, ucchinnamūlo tālāvatthukato anabhāvaṅkato, āyatiṁ anuppādadhammo. Evaṁ kho, bhikkhave, bhikkhu ariyo pannaddhajo pannabhāro visaṁyutto hoti.",
+        "compounds": [
+          "ariyappatto",
+          "ariyuposatho"
+        ],
+        "patterns": [
+          "dn13",
+          "dn22",
+          "dn28",
+          "mn8",
+          "mn28",
+          "mn39",
+          "mn141",
+          "sn21.1",
+          "sn35.151",
+          "sn45.6",
+          "sn45.18",
+          "sn45.19",
+          "sn45.20",
+          "sn56.13",
+          "sn56.14",
+          "sn56.27",
+          "sn56.28",
+          "an2.45",
+          "an3.31",
+          "an3.61",
+          "an4.63",
+          "an5.192",
+          "an6.54",
+          "an6.63",
+          "an7.63",
+          "an9.38",
+          "an10.135",
+          "an10.145",
+          "an10.179",
+          "an10.189",
+          "iti104",
+          "iti106"
+        ],
+        "broader": [
+          "dn1",
+          "dn3",
+          "dn10",
+          "dn16",
+          "dn18",
+          "dn29",
+          "dn33",
+          "dn34",
+          "mn12",
+          "mn18",
+          "mn43",
+          "mn53",
+          "mn54",
+          "mn81",
+          "mn117",
+          "(+111)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc21",
+          "pli-tv-bi-vb-pc61",
+          "pli-tv-bi-vb-pc62",
+          "pli-tv-bi-vb-pc63",
+          "pli-tv-bi-vb-pc64",
+          "pli-tv-bi-vb-pc65",
+          "pli-tv-bi-vb-pc66",
+          "pli-tv-bi-vb-pc67",
+          "pli-tv-bi-vb-pc71",
+          "pli-tv-bi-vb-pc72",
+          "pli-tv-bi-vb-pc73",
+          "pli-tv-bi-vb-pc74",
+          "pli-tv-bi-vb-pc75",
+          "pli-tv-bi-vb-pc79",
+          "pli-tv-bi-vb-pc80",
+          "(+19)"
+        ]
+      }
+    },
+    {
+      "id": "ariyasacca",
+      "num": 39,
+      "pali": "ariyasacca",
+      "ru": "благородно-истина",
+      "en": "noble-truth",
+      "canon": {
+        "patterns": [
+          "dn22",
+          "mn28",
+          "mn141",
+          "sn56.13",
+          "sn56.14",
+          "sn56.27",
+          "sn56.28",
+          "an3.61"
+        ]
+      }
+    },
+    {
+      "id": "ariyo-atthangiko-maggo",
+      "num": 40,
+      "pali": "ariyo aṭṭhaṅgiko maggo",
+      "ru": "Благородный Восьмеричный Путь",
+      "en": "Noble Eightfold Path",
+      "canon": {
+        "where": [
+          "sn45.8",
+          "sn45.29",
+          "sn45.30",
+          "sn45.33",
+          "sn45.161",
+          "sn45.162",
+          "sn45.170",
+          "sn45.180"
+        ],
+        "link": "/sn45.8:2.1",
+        "definition": "“Katamo ca, bhikkhave, ariyo aṭṭhaṅgiko maggo? Seyyathidaṁ—sammādiṭṭhi …pe… sammāsamādhi.",
+        "patterns": [
+          "sn45.8",
+          "sn45.29",
+          "sn45.30",
+          "sn45.33",
+          "sn45.161",
+          "sn45.162",
+          "sn45.170",
+          "sn45.180"
+        ],
+        "broader": [
+          "sn45.30",
+          "sn45.33",
+          "sn45.161",
+          "sn45.162",
+          "sn45.163",
+          "sn45.164",
+          "sn45.165",
+          "sn45.166",
+          "sn45.167",
+          "sn45.168",
+          "sn45.169",
+          "sn45.170",
+          "sn45.171",
+          "sn45.172",
+          "sn45.173",
+          "(+7)"
+        ]
+      }
+    },
+    {
+      "id": "aruparaga",
+      "num": 41,
+      "pali": "arūparāga",
+      "ru": "безобразо-очарованность",
+      "en": ""
+    },
+    {
+      "id": "asankhata",
+      "num": 42,
+      "pali": "asaṅkhata",
+      "ru": "не-составное, не-составленное",
+      "en": "",
+      "canon": {
+        "where": [
+          "sn43.1",
+          "sn43.2",
+          "sn43.12"
+        ],
+        "link": "/sn43.1:1.4",
+        "definition": "Katamañca, bhikkhave, asaṅkhataṁ? Yo, bhikkhave, rāgakkhayo dosakkhayo mohakkhayo— idaṁ vuccati, bhikkhave, asaṅkhataṁ.",
+        "compounds": [
+          "asaṅkhatagāmimaggo"
+        ],
+        "patterns": [
+          "sn43.1",
+          "sn43.2",
+          "sn43.12"
+        ],
+        "broader": [
+          "sn43.1",
+          "sn43.2",
+          "sn43.3",
+          "sn43.4",
+          "sn43.5",
+          "sn43.6",
+          "sn43.7",
+          "sn43.8",
+          "sn43.9",
+          "sn43.10",
+          "sn43.11",
+          "sn43.12"
+        ]
+      }
+    },
+    {
+      "id": "asappurisa",
+      "num": 43,
+      "pali": "asappurisa",
+      "ru": "нечистый человек",
+      "en": "",
+      "canon": {
+        "where": [
+          "sn45.25",
+          "sn45.26",
+          "an4.201",
+          "an4.202",
+          "an4.203",
+          "an4.204",
+          "an4.205",
+          "an4.206"
+        ],
+        "link": "/sn45.25:1.4",
+        "definition": "Katamo ca, bhikkhave, asappuriso? Idha, bhikkhave, ekacco micchādiṭṭhiko hoti, micchāsaṅkappo, micchāvāco, micchākammanto, micchāājīvo, micchāvāyāmo, micchāsati, micchāsamādhi— ayaṁ vuccati, bhikkhave, asappuriso.",
+        "compounds": [
+          "asappurisabhūmi",
+          "asappurisadhammo"
+        ],
+        "patterns": [
+          "mn113",
+          "sn45.25",
+          "sn45.26",
+          "an2.32",
+          "an4.201",
+          "an4.202",
+          "an4.203",
+          "an4.204",
+          "an4.205",
+          "an4.206",
+          "an10.148",
+          "an10.192"
+        ],
+        "broader": [
+          "mn129",
+          "sn45.25",
+          "sn45.26",
+          "an3.3",
+          "an4.201",
+          "an4.202",
+          "an4.203",
+          "an4.204",
+          "an4.205",
+          "an4.206",
+          "an10.148",
+          "an10.192"
+        ]
+      }
+    },
+    {
+      "id": "asata",
+      "num": 44,
+      "pali": "asāta",
+      "ru": "дискомфорт",
+      "en": "",
+      "canon": {
+        "broader": [
+          "dn3"
+        ]
+      }
+    },
+    {
+      "id": "asava",
+      "num": 45,
+      "pali": "āsava",
+      "ru": "истечение (выделение)",
+      "en": "outflow",
+      "canon": {
+        "where": [
+          "mn9",
+          "sn38.8",
+          "an6.58"
+        ],
+        "link": "/mn9:70.1",
+        "definition": "Katamo panāvuso, āsavo, katamo āsavasamudayo, katamo āsavanirodho, katamā āsavanirodhagāminī paṭipadāti? Tayome, āvuso, āsavā— kāmāsavo, bhavāsavo, avijjāsavo.",
+        "compounds": [
+          "āsavanirodho"
+        ],
+        "patterns": [
+          "dn28",
+          "mn9",
+          "sn11.12",
+          "sn11.13",
+          "sn22.48",
+          "sn38.8",
+          "sn41.5",
+          "sn45.7",
+          "an6.63"
+        ],
+        "broader": [
+          "dn2",
+          "dn10",
+          "dn28",
+          "mn2",
+          "mn4",
+          "mn19",
+          "mn27",
+          "mn36",
+          "mn39",
+          "mn51",
+          "mn60",
+          "mn65",
+          "mn76",
+          "mn79",
+          "mn85",
+          "(+23)"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-pj1"
+        ]
+      }
+    },
+    {
+      "id": "asekha",
+      "num": 46,
+      "pali": "asekha",
+      "ru": "не-ученик",
+      "en": "",
+      "canon": {
+        "where": [
+          "an10.111"
+        ],
+        "link": "/an10.111:2.1",
+        "definition": "“‘Asekho asekho’ti, bhante, vuccati. Kittāvatā bhante, bhikkhu asekho hotī”ti? “Idha, bhikkhu, bhikkhu asekhāya sammādiṭṭhiyā samannāgato hoti, asekhena sammāsaṅkappena samannāgato hoti, asekhāya sammāvācāya samannāgato hoti, asekhena sammākammantena samannāgato hoti, asekhena sammāājīvena samannāgato hoti, asekhena sammāvāyāmena samannāgato hoti, asekhāya sammāsatiyā samannāgato hoti, asekhena sammāsamādhinā samannāgato hoti, asekhena sammāñāṇena samannāgato hoti, asekhāya sammāvimuttiyā samannāgato hoti.",
+        "patterns": [
+          "sn47.27",
+          "an10.111"
+        ]
+      }
+    },
+    {
+      "id": "assada",
+      "num": 47,
+      "pali": "assāda",
+      "ru": "привлекательность, наслаждение",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "sn17.2"
+        ],
+        "broader": [
+          "mn13",
+          "mn14",
+          "mn109",
+          "sn14.31",
+          "sn22.26",
+          "sn22.57",
+          "sn22.82",
+          "sn35.13",
+          "sn35.14",
+          "sn36.15",
+          "sn36.16",
+          "sn36.17",
+          "sn36.18",
+          "sn36.23",
+          "sn36.24",
+          "(+3)"
+        ]
+      }
+    },
+    {
+      "id": "assasa",
+      "num": 48,
+      "pali": "assāsa",
+      "ru": "выдох",
+      "en": "",
+      "canon": {
+        "broader": [
+          "mn11",
+          "mn93",
+          "sn38.5",
+          "sn38.6"
+        ]
+      }
+    },
+    {
+      "id": "asubha",
+      "num": 49,
+      "pali": "asubha",
+      "ru": "не-ладность, дисгармония, без-прикрас",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "an10.60"
+        ],
+        "broader": [
+          "sn14.11",
+          "an10.60"
+        ]
+      }
+    },
+    {
+      "id": "atapi",
+      "num": 50,
+      "pali": "ātāpī",
+      "ru": "пылкий",
+      "en": "",
+      "canon": {
+        "where": [
+          "sn16.2"
+        ],
+        "link": "/sn16.2:4.1",
+        "definition": "Kathañcāvuso, ātāpī hoti? Idhāvuso, bhikkhu ‘anuppannā me pāpakā akusalā dhammā uppajjamānā anatthāya saṁvatteyyun’ti ātappaṁ karoti, ‘uppannā me pāpakā akusalā dhammā appahīyamānā anatthāya saṁvatteyyun’ti ātappaṁ karoti, anuppannā me kusalā dhammā …pe… ātappaṁ karoti. Evaṁ kho, āvuso, ātāpī hoti.",
+        "patterns": [
+          "sn16.2"
+        ],
+        "broader": [
+          "dn1",
+          "dn2",
+          "dn10",
+          "mn31",
+          "mn77",
+          "an3.49",
+          "an3.62"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc80",
+          "pli-tv-bu-vb-pj2",
+          "pli-tv-bu-vb-ss5"
+        ]
+      }
+    },
+    {
+      "id": "atta",
+      "num": 358,
+      "pali": "atta",
+      "ru": "личность, самость (из anatta)",
+      "en": "personality, self"
+    },
+    {
+      "id": "attavadupadana",
+      "num": null,
+      "pali": "attavādupādāna",
+      "ru": "личности-утверждения-поддерживание",
+      "en": "personality-assertion-sustaining"
+    },
+    {
+      "id": "attha",
+      "num": 51,
+      "pali": "attha",
+      "ru": "благо, смысл, цель, благо-смысл-цель",
+      "en": "",
+      "canon": {
+        "where": [
+          "an10.137",
+          "an10.181"
+        ],
+        "link": "/an10.137:1.6",
+        "definition": "Katamo ca, bhikkhave, attho? Sammādiṭṭhi …pe… sammāvimutti— ayaṁ vuccati, bhikkhave, attho”ti.",
+        "compounds": [
+          "atthisukhaṁ"
+        ],
+        "patterns": [
+          "dn29",
+          "dn30",
+          "sn9.14",
+          "sn12.24",
+          "sn12.43",
+          "sn12.44",
+          "sn35.106",
+          "sn35.107",
+          "sn35.136",
+          "an2.47",
+          "an3.20",
+          "an4.62",
+          "an4.195",
+          "an7.68",
+          "an8.2",
+          "an10.113",
+          "an10.114",
+          "an10.115",
+          "an10.116",
+          "an10.137",
+          "an10.171",
+          "an10.172",
+          "an10.173",
+          "an10.181",
+          "an11.17",
+          "iti1",
+          "iti2",
+          "iti3",
+          "iti4",
+          "iti5",
+          "iti6",
+          "iti7",
+          "iti8",
+          "iti9",
+          "iti10",
+          "iti11",
+          "iti12",
+          "iti13",
+          "iti14",
+          "iti15",
+          "(+98)"
+        ],
+        "broader": [
+          "dn2",
+          "dn5",
+          "dn8",
+          "dn12",
+          "dn16",
+          "dn20",
+          "dn23",
+          "dn29",
+          "dn33",
+          "dn34",
+          "mn18",
+          "mn19",
+          "mn23",
+          "mn25",
+          "mn26",
+          "(+58)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-np2",
+          "pli-tv-bi-vb-np4",
+          "pli-tv-bi-vb-np5",
+          "pli-tv-bi-vb-np11",
+          "pli-tv-bi-vb-np12",
+          "pli-tv-bi-vb-pc1",
+          "pli-tv-bi-vb-pc35",
+          "pli-tv-bi-vb-pc37",
+          "pli-tv-bi-vb-pc38",
+          "pli-tv-bi-vb-pj5",
+          "pli-tv-bi-vb-pj8",
+          "pli-tv-bu-vb-np4",
+          "pli-tv-bu-vb-np5",
+          "pli-tv-bu-vb-np6",
+          "pli-tv-bu-vb-np8",
+          "(+30)"
+        ]
+      }
+    },
+    {
+      "id": "avijja",
+      "num": 52,
+      "pali": "avijjā",
+      "ru": "неразличение, невидение, неведение",
+      "en": "non-discernment",
+      "canon": {
+        "where": [
+          "mn9",
+          "sn12.2",
+          "sn22.113",
+          "sn22.126",
+          "sn38.9",
+          "sn56.17"
+        ],
+        "link": "/mn9:65.3",
+        "definition": "Katamā panāvuso, avijjā, katamo avijjāsamudayo, katamo avijjānirodho, katamā avijjānirodhagāminī paṭipadā? Yaṁ kho, āvuso, dukkhe aññāṇaṁ, dukkhasamudaye aññāṇaṁ, dukkhanirodhe aññāṇaṁ, dukkhanirodhagāminiyā paṭipadāya aññāṇaṁ— ayaṁ vuccatāvuso, avijjā.",
+        "patterns": [
+          "mn9",
+          "sn12.2",
+          "sn22.113",
+          "sn22.126",
+          "sn22.127",
+          "sn22.129",
+          "sn22.131",
+          "sn22.133",
+          "sn22.134",
+          "sn22.135",
+          "sn36.3",
+          "sn38.9",
+          "sn56.17"
+        ],
+        "broader": [
+          "mn9",
+          "sn12.2",
+          "sn12.19",
+          "sn22.113",
+          "sn22.126",
+          "sn22.127",
+          "sn22.129",
+          "sn22.131",
+          "sn22.133",
+          "sn22.134",
+          "sn22.135",
+          "sn38.9",
+          "sn56.17",
+          "an4.10",
+          "an6.24",
+          "(+2)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc49",
+          "pli-tv-bi-vb-pc50"
+        ]
+      }
+    },
+    {
+      "id": "avijjanusaya",
+      "num": 53,
+      "pali": "avijjānusaya",
+      "ru": "к-неразличению-предрасположенность",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "sn36.3"
+        ]
+      }
+    },
+    {
+      "id": "avijjapaccaya",
+      "num": null,
+      "pali": "avijjāpaccayā",
+      "ru": "неразличения-условием",
+      "en": "non-discernment as condition"
+    },
+    {
+      "id": "avijjasava",
+      "num": null,
+      "pali": "avijjāsava",
+      "ru": "неразличения-истечение",
+      "en": "non-discernment-outflow"
+    },
+    {
+      "id": "avuso",
+      "num": 54,
+      "pali": "āvuso",
+      "ru": "товарищ",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "dn9",
+          "dn29",
+          "mn3",
+          "mn5",
+          "mn9",
+          "mn24",
+          "mn32",
+          "mn43",
+          "mn132",
+          "mn133",
+          "mn134",
+          "mn138",
+          "sn22.37",
+          "sn22.38",
+          "sn22.127",
+          "sn22.128",
+          "sn22.129",
+          "sn22.130",
+          "sn22.131",
+          "sn22.132",
+          "sn22.133",
+          "sn22.134",
+          "sn22.135",
+          "sn35.81",
+          "sn35.243",
+          "sn38.1",
+          "sn38.2",
+          "sn38.5",
+          "sn38.6",
+          "sn38.7",
+          "sn38.8",
+          "sn38.9",
+          "sn38.10",
+          "sn38.11",
+          "sn38.12",
+          "sn38.13",
+          "sn38.14",
+          "sn38.15",
+          "sn39.1-15",
+          "sn45.18",
+          "(+29)"
+        ],
+        "broader": [
+          "dn9",
+          "dn24",
+          "dn29",
+          "dn33",
+          "mn3",
+          "mn5",
+          "mn9",
+          "mn13",
+          "mn26",
+          "mn28",
+          "mn43",
+          "mn44",
+          "mn65",
+          "mn85",
+          "mn127",
+          "(+49)"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-np3",
+          "pli-tv-bu-vb-np7",
+          "pli-tv-bu-vb-np10",
+          "pli-tv-bu-vb-np16",
+          "pli-tv-bu-vb-np20",
+          "pli-tv-bu-vb-pc1",
+          "pli-tv-bu-vb-pc6",
+          "pli-tv-bu-vb-pc33",
+          "pli-tv-bu-vb-pc36",
+          "pli-tv-bu-vb-pc37",
+          "pli-tv-bu-vb-pc38",
+          "pli-tv-bu-vb-pc47",
+          "pli-tv-bu-vb-pc51",
+          "pli-tv-bu-vb-pc64",
+          "pli-tv-bu-vb-pc66",
+          "(+8)"
+        ]
+      }
+    },
+    {
+      "id": "ayatana",
+      "num": 55,
+      "pali": "āyatana",
+      "ru": "область",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "sn40.5",
+          "sn40.6",
+          "sn40.7",
+          "sn40.8"
+        ],
+        "broader": [
+          "mn38",
+          "sn4.17",
+          "sn14.11",
+          "an9.41"
+        ]
+      }
+    },
+    {
+      "id": "ayya",
+      "num": 56,
+      "pali": "ayya",
+      "ru": "господин, госпожа",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "mn44",
+          "mn86"
+        ],
+        "broader": [
+          "sn44.1",
+          "an3.70"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc4",
+          "pli-tv-bi-vb-pc17",
+          "pli-tv-bi-vb-pc21",
+          "pli-tv-bi-vb-pc61",
+          "pli-tv-bi-vb-pc62",
+          "pli-tv-bi-vb-pj5",
+          "pli-tv-bi-vb-pj6",
+          "pli-tv-bi-vb-ss3",
+          "pli-tv-bi-vb-ss6",
+          "pli-tv-bu-vb-pc21",
+          "pli-tv-bu-vb-pc22",
+          "pli-tv-bu-vb-pc23",
+          "pli-tv-bu-vb-pc29",
+          "pli-tv-bu-vb-pc41",
+          "pli-tv-bu-vb-pj1",
+          "(+3)"
+        ]
+      }
+    },
+    {
+      "id": "bala",
+      "num": 57,
+      "pali": "bala",
+      "ru": "сила",
+      "en": "power",
+      "canon": {
+        "compounds": [
+          "balasampanno"
+        ],
+        "patterns": [
+          "sn37.28",
+          "sn43.9"
+        ],
+        "broader": [
+          "mn11",
+          "an10.60",
+          "pdhp209"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc29",
+          "pli-tv-bi-vb-ss13",
+          "pli-tv-bu-vb-pc50",
+          "pli-tv-bu-vb-pd1",
+          "pli-tv-bu-vb-ss3",
+          "pli-tv-bu-vb-ss13"
+        ]
+      }
+    },
+    {
+      "id": "bala-2",
+      "num": 58,
+      "pali": "bāla",
+      "ru": "незрелый",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "pdhp184"
+        ],
+        "broader": [
+          "sn12.19"
+        ]
+      }
+    },
+    {
+      "id": "bhadante",
+      "num": 59,
+      "pali": "bhadante",
+      "ru": "достопочтенный",
+      "en": ""
+    },
+    {
+      "id": "bhagava",
+      "num": 60,
+      "pali": "bhagavā (bhagavata)",
+      "ru": "Благословенный (обладающий-Долей)",
+      "en": ""
+    },
+    {
+      "id": "bhante",
+      "num": 61,
+      "pali": "bhante",
+      "ru": "почтенный",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "dn6",
+          "dn9",
+          "dn16",
+          "dn25",
+          "dn28",
+          "dn31",
+          "mn18",
+          "mn52",
+          "mn54",
+          "mn56",
+          "mn58",
+          "mn62",
+          "mn71",
+          "mn79",
+          "mn88",
+          "mn90",
+          "mn106",
+          "mn109",
+          "mn114",
+          "sn3.17",
+          "sn12.15",
+          "sn12.16",
+          "sn12.24",
+          "sn12.31",
+          "sn12.35",
+          "sn18.21",
+          "sn18.22",
+          "sn21.3",
+          "sn22.21",
+          "sn22.55",
+          "sn22.60",
+          "sn22.71",
+          "sn22.72",
+          "sn22.82",
+          "sn22.91",
+          "sn22.92",
+          "sn22.113",
+          "sn22.114",
+          "sn22.115",
+          "sn22.116",
+          "(+104)"
+        ],
+        "broader": [
+          "dn1",
+          "dn6",
+          "dn8",
+          "dn14",
+          "dn16",
+          "dn18",
+          "dn23",
+          "dn25",
+          "dn28",
+          "dn29",
+          "dn31",
+          "mn18",
+          "mn23",
+          "mn31",
+          "mn54",
+          "(+87)"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-np5",
+          "pli-tv-bu-vb-np15",
+          "pli-tv-bu-vb-pc6",
+          "pli-tv-bu-vb-pc31",
+          "pli-tv-bu-vb-pc41",
+          "pli-tv-bu-vb-pc51",
+          "pli-tv-bu-vb-pc83",
+          "pli-tv-bu-vb-pc85",
+          "pli-tv-bu-vb-pd3",
+          "pli-tv-bu-vb-pd4",
+          "pli-tv-bu-vb-pj1",
+          "pli-tv-bu-vb-pj2",
+          "pli-tv-bu-vb-pj3",
+          "pli-tv-bu-vb-pj4",
+          "pli-tv-bu-vb-ss3",
+          "(+4)"
+        ]
+      }
+    },
+    {
+      "id": "bhava",
+      "num": 62,
+      "pali": "bhava",
+      "ru": "бхава, [индивидуальное] существование, вовлечённость, бытие. глагол быть, случаться, становиться",
+      "en": "bhava, [individual] existence",
+      "canon": {
+        "where": [
+          "mn9",
+          "sn12.2",
+          "sn12.35",
+          "sn38.13"
+        ],
+        "link": "/mn9:30.1",
+        "definition": "Katamo panāvuso, bhavo, katamo bhavasamudayo, katamo bhavanirodho, katamā bhavanirodhagāminī paṭipadā? Tayome, āvuso, bhavā— kāmabhavo, rūpabhavo, arūpabhavo.",
+        "compounds": [
+          "bhavanettinirodho"
+        ],
+        "patterns": [
+          "mn9",
+          "sn12.2",
+          "sn12.35",
+          "sn23.3",
+          "sn38.13",
+          "an3.76",
+          "an3.77"
+        ],
+        "broader": [
+          "dn1",
+          "dn3",
+          "dn4",
+          "dn19",
+          "dn24",
+          "dn26",
+          "dn30",
+          "dn32",
+          "mn2",
+          "mn12",
+          "mn38",
+          "mn39",
+          "mn40",
+          "mn76",
+          "mn77",
+          "(+30)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-ss13",
+          "pli-tv-bu-vb-pc22",
+          "pli-tv-bu-vb-pj1"
+        ]
+      }
+    },
+    {
+      "id": "bhavapaccaya",
+      "num": null,
+      "pali": "bhavapaccayā",
+      "ru": "бхавы-условием",
+      "en": "bhava as condition"
+    },
+    {
+      "id": "bhavaraganusaya",
+      "num": 63,
+      "pali": "bhavarāgānusaya",
+      "ru": "к-бытия-очарованности-предрасположенность",
+      "en": ""
+    },
+    {
+      "id": "bhavasava",
+      "num": null,
+      "pali": "bhavāsava",
+      "ru": "бытия-истечение",
+      "en": "being-outflow"
+    },
+    {
+      "id": "bhavatanha",
+      "num": 64,
+      "pali": "bhavataṇhā",
+      "ru": "бытия-цепляние (индивидуального)",
+      "en": "",
+      "canon": {
+        "broader": [
+          "an10.62"
+        ]
+      }
+    },
+    {
+      "id": "bhavetabba",
+      "num": 65,
+      "pali": "bhāvetabba",
+      "ru": "должно-быть-развито",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "dn34",
+          "mn149",
+          "sn45.159",
+          "an4.254",
+          "an10.151",
+          "an10.195"
+        ],
+        "broader": [
+          "dn34",
+          "sn45.30",
+          "sn45.161",
+          "sn45.162",
+          "sn45.163",
+          "sn45.164",
+          "sn45.165",
+          "sn45.166",
+          "sn45.167",
+          "sn45.168",
+          "sn45.169",
+          "sn45.170",
+          "sn45.171",
+          "sn45.172",
+          "sn45.173",
+          "(+9)"
+        ]
+      }
+    },
+    {
+      "id": "bhaya",
+      "num": 66,
+      "pali": "bhaya",
+      "ru": "тревога, страх, угроза",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "an9.56",
+          "an9.57"
+        ],
+        "broader": [
+          "dn28",
+          "mn67",
+          "sn5.1",
+          "sn5.2",
+          "sn5.3",
+          "sn5.4",
+          "sn5.5",
+          "sn5.9",
+          "sn5.10",
+          "an4.122"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc37",
+          "pli-tv-bi-vb-pc38",
+          "pli-tv-bu-vb-np18",
+          "pli-tv-bu-vb-np19",
+          "pli-tv-bu-vb-np22",
+          "pli-tv-bu-vb-np29",
+          "pli-tv-bu-vb-pc27",
+          "pli-tv-bu-vb-pd4"
+        ]
+      }
+    },
+    {
+      "id": "bhojaniya",
+      "num": 67,
+      "pali": "bhojanīya",
+      "ru": "основное блюдо",
+      "en": "",
+      "canon": {
+        "vinaya": [
+          "pli-tv-bi-vb-pc46",
+          "pli-tv-bi-vb-pc54",
+          "pli-tv-bi-vb-ss5",
+          "pli-tv-bu-vb-pc35",
+          "pli-tv-bu-vb-pc36",
+          "pli-tv-bu-vb-pc37",
+          "pli-tv-bu-vb-pc38",
+          "pli-tv-bu-vb-pc41",
+          "pli-tv-bu-vb-pd1",
+          "pli-tv-bu-vb-pd3",
+          "pli-tv-bu-vb-pd4"
+        ]
+      }
+    },
+    {
+      "id": "bodhi",
+      "num": 361,
+      "pali": "bodhi",
+      "ru": "пробуждение (из sambodhāya)",
+      "en": "awakening"
+    },
+    {
+      "id": "bodhipakkhiya-dhamma",
+      "num": null,
+      "pali": "bodhipakkhiyā dhammā",
+      "ru": "к-пробуждению-относящиеся явления",
+      "en": "awakening-related phenomena"
+    },
+    {
+      "id": "bojjhanga",
+      "num": 68,
+      "pali": "bojjhaṅga",
+      "ru": "Аспект пробуждения, пробуждения-аспект",
+      "en": "aspect of awakening",
+      "canon": {
+        "patterns": [
+          "sn43.10",
+          "sn46.5",
+          "sn46.21",
+          "sn46.22",
+          "sn46.26",
+          "sn46.31",
+          "sn46.41"
+        ],
+        "broader": [
+          "sn46.56",
+          "an10.61",
+          "an10.62"
+        ]
+      }
+    },
+    {
+      "id": "brahmacariya",
+      "num": 69,
+      "pali": "brahmacariya",
+      "ru": "святая жизнь (Брахмо-поведение)",
+      "en": "",
+      "canon": {
+        "where": [
+          "sn45.6",
+          "sn45.19",
+          "sn45.20",
+          "sn45.39",
+          "sn45.40"
+        ],
+        "link": "/sn45.6:1.3",
+        "definition": "“‘brahmacariyaṁ, brahmacariyan’ti, bhante, vuccati. Katamaṁ nu kho, bhante, brahmacariyaṁ, katamaṁ brahmacariyapariyosānan”ti? “Ayameva kho, bhikkhu, ariyo aṭṭhaṅgiko maggo brahmacariyaṁ, seyyathidaṁ—",
+        "compounds": [
+          "brahmacariyaphalāni",
+          "brahmacariyattho"
+        ],
+        "patterns": [
+          "sn45.6",
+          "sn45.18",
+          "sn45.19",
+          "sn45.20",
+          "sn45.39",
+          "sn45.40"
+        ],
+        "broader": [
+          "dn33",
+          "dn34",
+          "sn45.40",
+          "an3.60",
+          "an4.191",
+          "an7.50"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc21"
+        ]
+      }
+    },
+    {
+      "id": "brahmana",
+      "num": 70,
+      "pali": "brāhmaṇa",
+      "ru": "брахман",
+      "en": "",
+      "canon": {
+        "where": [
+          "mn39"
+        ],
+        "link": "/mn39:24.1",
+        "definition": "Kathañca, bhikkhave, bhikkhu brāhmaṇo hoti? Bāhitāssa honti pāpakā akusalā dhammā, saṅkilesikā, ponobbhavikā, sadarā, dukkhavipākā, āyatiṁ, jātijarāmaraṇiyā. Evaṁ kho, bhikkhave, bhikkhu brāhmaṇo hoti.",
+        "patterns": [
+          "dn4",
+          "dn13",
+          "mn30",
+          "mn39",
+          "mn91",
+          "mn94",
+          "mn98",
+          "mn108",
+          "an2.17",
+          "an3.58",
+          "an3.59",
+          "an3.60",
+          "an4.184",
+          "an4.234",
+          "an5.192",
+          "an7.47",
+          "an8.55",
+          "an10.119",
+          "an10.167",
+          "an10.220",
+          "snp3.9"
+        ],
+        "broader": [
+          "dn3",
+          "dn4",
+          "dn5",
+          "dn8",
+          "mn4",
+          "mn23",
+          "mn77",
+          "mn90",
+          "mn91",
+          "mn92",
+          "mn93",
+          "mn94",
+          "mn100",
+          "mn102",
+          "mn107",
+          "(+23)"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-np10",
+          "pli-tv-bu-vb-pc2",
+          "pli-tv-bu-vb-pc3",
+          "pli-tv-bu-vb-pc84",
+          "pli-tv-bu-vb-pj1",
+          "pli-tv-bu-vb-sk69"
+        ]
+      }
+    },
+    {
+      "id": "brahmavihara",
+      "num": 71,
+      "pali": "brahmavihara",
+      "ru": "Пребывания Брахмы, расположение Брахмы",
+      "en": "Abidings of Brahma"
+    },
+    {
+      "id": "buddho",
+      "num": 72,
+      "pali": "buddho",
+      "ru": "пробуждённый",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "sn22.58",
+          "sn51.8",
+          "sn56.23"
+        ],
+        "broader": [
+          "dn16",
+          "dn25",
+          "mn81",
+          "mn142",
+          "sn1.20",
+          "an6.16",
+          "ud5.3"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-pc2",
+          "pli-tv-bu-vb-pc6"
+        ]
+      }
+    },
+    {
+      "id": "byapada",
+      "num": 73,
+      "pali": "byāpāda",
+      "ru": "враждебность",
+      "en": "hostility",
+      "canon": {
+        "broader": [
+          "sn46.2",
+          "sn46.51"
+        ]
+      }
+    },
+    {
+      "id": "cakkhu",
+      "num": 74,
+      "pali": "cakkhu",
+      "ru": "глаз",
+      "en": "",
+      "canon": {
+        "compounds": [
+          "cakkhumā"
+        ],
+        "patterns": [
+          "an3.20",
+          "iti104"
+        ],
+        "broader": [
+          "mn3",
+          "mn152",
+          "sn35.13",
+          "sn35.93",
+          "sn35.115",
+          "sn35.228",
+          "sn35.243",
+          "an3.20",
+          "an3.29"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-ay1",
+          "pli-tv-bu-vb-ay2",
+          "pli-tv-bu-vb-pc30",
+          "pli-tv-bu-vb-pc44",
+          "pli-tv-bu-vb-pc45"
+        ]
+      }
+    },
+    {
+      "id": "cattari-ariyasaccani",
+      "num": 75,
+      "pali": "cattāri ariyasaccāni",
+      "ru": "Четыре Благородно-Истины, Четыре Благородные Истины",
+      "en": "Four Noble-Truths",
+      "canon": {
+        "patterns": [
+          "sn56.27",
+          "sn56.28"
+        ]
+      }
+    },
+    {
+      "id": "catuttha-jhana",
+      "num": 76,
+      "pali": "catuttha jhāna",
+      "ru": "четвёртая джхана",
+      "en": "",
+      "canon": {
+        "where": [
+          "sn40.4"
+        ],
+        "link": "/sn40.4:1.1",
+        "definition": "“‘Catutthaṁ jhānaṁ, catutthaṁ jhānan’ti vuccati. Katamaṁ nu kho catutthaṁ jhānanti? Tassa mayhaṁ, āvuso, etadahosi: ‘idha bhikkhu sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharati. Idaṁ vuccati catutthaṁ jhānan’ti.",
+        "patterns": [
+          "sn40.4",
+          "an4.241"
+        ],
+        "broader": [
+          "dn15",
+          "dn16",
+          "dn28",
+          "dn29",
+          "dn33",
+          "dn34",
+          "mn77",
+          "mn137",
+          "mn142",
+          "sn55.31",
+          "sn55.32",
+          "sn55.33",
+          "sn55.41",
+          "sn55.42",
+          "sn55.43",
+          "(+16)"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-pc79"
+        ]
+      }
+    },
+    {
+      "id": "cetana",
+      "num": 77,
+      "pali": "cetanā",
+      "ru": "осмысливание, замысел",
+      "en": "",
+      "canon": {
+        "broader": [
+          "an3.77"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-ss1"
+        ]
+      }
+    },
+    {
+      "id": "ceto",
+      "num": 78,
+      "pali": "ceto",
+      "ru": "разум, ум-мышление",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "mn43",
+          "mn127",
+          "sn40.9",
+          "sn41.7",
+          "an10.61",
+          "an10.62"
+        ],
+        "broader": [
+          "dn23",
+          "dn28",
+          "dn33",
+          "dn34",
+          "mn43",
+          "mn127",
+          "sn40.9",
+          "sn41.7",
+          "sn41.10",
+          "sn46.54",
+          "an5.205",
+          "an5.206",
+          "an9.71",
+          "an9.72",
+          "an10.219"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-np4",
+          "pli-tv-bi-vb-np5",
+          "pli-tv-bi-vb-np6",
+          "pli-tv-bi-vb-np7",
+          "pli-tv-bi-vb-np8",
+          "pli-tv-bi-vb-np9",
+          "pli-tv-bi-vb-np10",
+          "pli-tv-bi-vb-np11",
+          "pli-tv-bi-vb-np12",
+          "pli-tv-bi-vb-pc1",
+          "pli-tv-bi-vb-pc8",
+          "pli-tv-bi-vb-pc9",
+          "pli-tv-bi-vb-pc19",
+          "pli-tv-bi-vb-pc25",
+          "pli-tv-bi-vb-pc30",
+          "(+34)"
+        ]
+      }
+    },
+    {
+      "id": "cetokhila",
+      "num": null,
+      "pali": "cetokhila",
+      "ru": "ума-тщета",
+      "en": "mind-futility"
+    },
+    {
+      "id": "chanda",
+      "num": 79,
+      "pali": "chanda",
+      "ru": "импульс (намерение-выбор-согласие)",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "sn51.20"
+        ],
+        "broader": [
+          "sn51.9",
+          "sn51.13",
+          "sn51.15",
+          "sn51.20"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-ss4",
+          "pli-tv-bu-vb-np18",
+          "pli-tv-bu-vb-np19",
+          "pli-tv-bu-vb-np22",
+          "pli-tv-bu-vb-ss5"
+        ]
+      }
+    },
+    {
+      "id": "chandasamadhi",
+      "num": null,
+      "pali": "chandasamādhi",
+      "ru": "импульсо-самадхи",
+      "en": "impulse-samadhi"
+    },
+    {
+      "id": "chandasamadhippadhanasankharasamannagata-iddhipada",
+      "num": 80,
+      "pali": "chandasamādhippadhānasaṅkhārasamannāgata iddhipāda",
+      "ru": "импульсо-самадхи-старания-составляющими наделенная сверхспособностей основа",
+      "en": "",
+      "canon": {
+        "broader": [
+          "sn51.9",
+          "sn51.13"
+        ]
+      }
+    },
+    {
+      "id": "citta",
+      "num": 81,
+      "pali": "citta",
+      "ru": "ум-состояние",
+      "en": "",
+      "canon": {
+        "where": [
+          "mn78"
+        ],
+        "link": "/mn78:10.7",
+        "definition": "Katamaṁ cittaṁ? Cittampi hi bahuṁ anekavidhaṁ nānappakārakaṁ. Yaṁ cittaṁ sarāgaṁ sadosaṁ samohaṁ, itosamuṭṭhānā akusalā sīlā.",
+        "compounds": [
+          "cittasampadā",
+          "cittavipatti"
+        ],
+        "patterns": [
+          "dn8",
+          "mn78",
+          "mn138",
+          "sn22.4",
+          "sn22.51",
+          "sn22.52",
+          "sn35.156",
+          "sn35.157",
+          "sn35.158",
+          "sn35.159",
+          "sn51.20",
+          "an3.117",
+          "an3.118"
+        ],
+        "broader": [
+          "dn4",
+          "dn8",
+          "mn51",
+          "mn94",
+          "mn127",
+          "sn41.10",
+          "sn45.27",
+          "sn47.31",
+          "sn51.9",
+          "sn51.13",
+          "an3.25",
+          "an3.89",
+          "an3.90",
+          "an3.117",
+          "an3.118",
+          "(+2)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc41",
+          "pli-tv-bu-vb-pc2",
+          "pli-tv-bu-vb-pj3"
+        ]
+      }
+    },
+    {
+      "id": "cittanupassana",
+      "num": 82,
+      "pali": "cittānupassanā",
+      "ru": "умо-наблюдение",
+      "en": "mind-observation",
+      "canon": {
+        "broader": [
+          "sn47.31"
+        ]
+      }
+    },
+    {
+      "id": "cittasamadhi",
+      "num": null,
+      "pali": "cittasamādhi",
+      "ru": "умо-состояние-самадхи",
+      "en": "mind-state-samadhi"
+    },
+    {
+      "id": "cittasamadhippadhanasankharasamannagata-iddhipada",
+      "num": 83,
+      "pali": "cittasamādhippadhānasaṅkhārasamannāgata iddhipāda",
+      "ru": "умо-состояние-самадхи-старания-составляющими наделенная сверхспособностей основа",
+      "en": "",
+      "canon": {
+        "broader": [
+          "sn51.9",
+          "sn51.13"
+        ]
+      }
+    },
+    {
+      "id": "dakkhineyyo",
+      "num": 84,
+      "pali": "dakkhiṇeyyo",
+      "ru": "достойная-даров",
+      "en": "",
+      "canon": {
+        "compounds": [
+          "dakkhiṇeyyaggi"
+        ],
+        "patterns": [
+          "an7.47"
+        ],
+        "broader": [
+          "an7.47"
+        ]
+      }
+    },
+    {
+      "id": "dana",
+      "num": 85,
+      "pali": "dāna",
+      "ru": "даяние",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "sn11.12",
+          "sn11.13",
+          "sn22.48",
+          "sn38.12",
+          "an5.7",
+          "an6.45"
+        ],
+        "broader": [
+          "dn5",
+          "mn38",
+          "mn72",
+          "mn140",
+          "sn4.16",
+          "sn35.14",
+          "sn35.60",
+          "sn35.61",
+          "sn35.62",
+          "sn38.12",
+          "an5.178",
+          "an7.52",
+          "an8.24",
+          "an10.177",
+          "an11.14"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc81",
+          "pli-tv-bu-vb-pc32",
+          "pli-tv-bu-vb-pc33",
+          "pli-tv-bu-vb-pc46",
+          "pli-tv-bu-vb-pc73",
+          "pli-tv-bu-vb-pj2",
+          "pli-tv-bu-vb-ss3",
+          "pli-tv-bu-vb-ss4"
+        ]
+      }
+    },
+    {
+      "id": "dassana",
+      "num": 86,
+      "pali": "dassana",
+      "ru": "вИдение (смотрение)",
+      "en": "",
+      "canon": {
+        "compounds": [
+          "dassanānuttariyaṁ"
+        ],
+        "patterns": [
+          "sn46.56"
+        ],
+        "broader": [
+          "dn16",
+          "dn28",
+          "mn47",
+          "mn128",
+          "sn46.56",
+          "an5.100"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc30",
+          "pli-tv-bu-vb-pc8",
+          "pli-tv-bu-vb-pc25",
+          "pli-tv-bu-vb-pc74",
+          "pli-tv-bu-vb-pj1",
+          "pli-tv-bu-vb-pj4",
+          "pli-tv-bu-vb-ss13"
+        ]
+      }
+    },
+    {
+      "id": "deva",
+      "num": 87,
+      "pali": "deva, devatā",
+      "ru": "дэва, божество",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "mn130",
+          "an3.36"
+        ],
+        "broader": [
+          "mn127",
+          "an3.70"
+        ]
+      }
+    },
+    {
+      "id": "dhamma",
+      "num": 88,
+      "pali": "dhamma",
+      "ru": "явление (Дхамма), закон, фактичность, Учение, действительность",
+      "en": "",
+      "canon": {
+        "where": [
+          "mn2",
+          "mn30",
+          "an10.23",
+          "an10.138",
+          "an10.182"
+        ],
+        "link": "/mn2:6.1",
+        "definition": "Katame ca, bhikkhave, dhammā na manasikaraṇīyā ye dhamme manasi karoti? Yassa, bhikkhave, dhamme manasikaroto anuppanno vā kāmāsavo uppajjati, uppanno vā kāmāsavo pavaḍḍhati; anuppanno vā bhavāsavo uppajjati, uppanno vā bhavāsavo pavaḍḍhati;",
+        "compounds": [
+          "dhammakathiko",
+          "dhammasamādhi",
+          "dhammavihārī",
+          "dhammaññū",
+          "dhammādhipateyyaṁ"
+        ],
+        "patterns": [
+          "dn16",
+          "dn33",
+          "mn15",
+          "mn60",
+          "mn70",
+          "sn3.17",
+          "sn12.16",
+          "sn12.20",
+          "sn22.21",
+          "sn22.23",
+          "sn22.106",
+          "sn22.115",
+          "sn22.116",
+          "sn22.120",
+          "sn22.121",
+          "sn23.4",
+          "sn23.12",
+          "sn23.14",
+          "sn23.16",
+          "sn23.18",
+          "sn23.19",
+          "sn23.20",
+          "sn23.21",
+          "sn23.22",
+          "sn35.24",
+          "sn35.60",
+          "sn35.70",
+          "sn35.84",
+          "sn35.104",
+          "sn35.109",
+          "sn35.110",
+          "sn35.122",
+          "sn35.123",
+          "sn35.151",
+          "sn35.155",
+          "sn35.228",
+          "sn35.235",
+          "sn36.22",
+          "sn42.13",
+          "sn45.22",
+          "(+75)"
+        ],
+        "broader": [
+          "dn1",
+          "dn2",
+          "dn3",
+          "dn6",
+          "dn8",
+          "dn14",
+          "dn16",
+          "dn25",
+          "dn29",
+          "dn31",
+          "dn33",
+          "dn34",
+          "mn2",
+          "mn3",
+          "mn8",
+          "(+154)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc27",
+          "pli-tv-bi-vb-pc30",
+          "pli-tv-bi-vb-pj8",
+          "pli-tv-bi-vb-ss13",
+          "pli-tv-bu-vb-pc2",
+          "pli-tv-bu-vb-pc3",
+          "pli-tv-bu-vb-pc4",
+          "pli-tv-bu-vb-pc7",
+          "pli-tv-bu-vb-pc8",
+          "pli-tv-bu-vb-pc21",
+          "pli-tv-bu-vb-pc22",
+          "pli-tv-bu-vb-pc29",
+          "pli-tv-bu-vb-pc53",
+          "pli-tv-bu-vb-pc54",
+          "pli-tv-bu-vb-pc63",
+          "(+15)"
+        ]
+      }
+    },
+    {
+      "id": "dhammanudhamma",
+      "num": 89,
+      "pali": "dhammānudhamma",
+      "ru": "Дхамму-по-Дхамме",
+      "en": ""
+    },
+    {
+      "id": "dhammanupassana",
+      "num": 90,
+      "pali": "dhammānupassanā",
+      "ru": "явление-наблюдение",
+      "en": "phenomenon-observation",
+      "canon": {
+        "broader": [
+          "sn47.31"
+        ]
+      }
+    },
+    {
+      "id": "dhammavicaya",
+      "num": 91,
+      "pali": "dhammavicaya",
+      "ru": "явлений-различение, дхаммо-различение,",
+      "en": "",
+      "canon": {
+        "broader": [
+          "sn46.2",
+          "sn46.51"
+        ]
+      }
+    },
+    {
+      "id": "dhammavicayasambojjhanga",
+      "num": null,
+      "pali": "dhammavicayasambojjhaṅga",
+      "ru": "явлений-различения-пробуждения-аспект",
+      "en": "phenomena-discernment-awakening-aspect"
+    },
+    {
+      "id": "dhatu",
+      "num": 92,
+      "pali": "dhātu",
+      "ru": "дхату (феномен)",
+      "en": "",
+      "canon": {
+        "compounds": [
+          "dhātunānattaṁ"
+        ],
+        "patterns": [
+          "sn14.1",
+          "sn14.2",
+          "sn14.3",
+          "sn14.4",
+          "sn14.5",
+          "sn14.6",
+          "sn14.7",
+          "sn14.8",
+          "sn14.9",
+          "sn14.10",
+          "sn41.2"
+        ],
+        "broader": [
+          "mn28",
+          "mn62",
+          "mn140",
+          "sn14.11",
+          "sn14.31",
+          "an3.76",
+          "an3.77",
+          "an3.80",
+          "iti44"
+        ]
+      }
+    },
+    {
+      "id": "ditthanusaya",
+      "num": 93,
+      "pali": "diṭṭhānusaya",
+      "ru": "ко-взгляду-предрасположенность",
+      "en": ""
+    },
+    {
+      "id": "ditthi",
+      "num": 357,
+      "pali": "diṭṭhi",
+      "ru": "взгляд",
+      "en": "view"
+    },
+    {
+      "id": "ditthupadana",
+      "num": null,
+      "pali": "diṭṭhupādāna",
+      "ru": "взгляда-поддерживание",
+      "en": "view-sustaining"
+    },
+    {
+      "id": "domanassa",
+      "num": 94,
+      "pali": "domanassa",
+      "ru": "недовольство (ментальный дискомфорт)",
+      "en": "",
+      "canon": {
+        "where": [
+          "dn22",
+          "mn141"
+        ],
+        "link": "/dn22:18.21",
+        "definition": "Katamañca, bhikkhave, domanassaṁ? Yaṁ kho, bhikkhave, cetasikaṁ dukkhaṁ cetasikaṁ asātaṁ manosamphassajaṁ dukkhaṁ asātaṁ vedayitaṁ, idaṁ vuccati, bhikkhave, domanassaṁ.",
+        "compounds": [
+          "domanassindriyaṁ"
+        ],
+        "patterns": [
+          "dn22",
+          "mn137",
+          "mn141",
+          "sn48.36",
+          "sn48.37",
+          "sn48.38"
+        ],
+        "broader": [
+          "sn48.40"
+        ]
+      }
+    },
+    {
+      "id": "dosa",
+      "num": 95,
+      "pali": "dosa",
+      "ru": "вредность-злоба",
+      "en": "",
+      "canon": {
+        "patterns": [
+          "an4.200"
+        ],
+        "broader": [
+          "sn38.3",
+          "an3.68",
+          "an3.71"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-np18",
+          "pli-tv-bu-vb-np19",
+          "pli-tv-bu-vb-np22",
+          "pli-tv-bu-vb-ss8",
+          "pli-tv-bu-vb-ss9"
+        ]
+      }
+    },
+    {
+      "id": "dukkha",
+      "num": 96,
+      "pali": "dukkha",
+      "ru": "боль, боль-дискомфорт, телесный дискомфорт",
+      "en": "pain",
+      "canon": {
+        "where": [
+          "dn22",
+          "mn9",
+          "mn141",
+          "sn22.104",
+          "sn23.15",
+          "sn35.67",
+          "sn35.81",
+          "sn35.152",
+          "sn38.14"
+        ],
+        "link": "/dn22:18.18",
+        "definition": "Katamañca, bhikkhave, dukkhaṁ? Yaṁ kho, bhikkhave, kāyikaṁ dukkhaṁ kāyikaṁ asātaṁ kāyasamphassajaṁ dukkhaṁ asātaṁ vedayitaṁ, idaṁ vuccati, bhikkhave, dukkhaṁ.",
+        "compounds": [
+          "dukkhadhammo",
+          "dukkhanirodho",
+          "dukkhasamudayo",
+          "dukkhindriyaṁ"
+        ],
+        "patterns": [
+          "dn22",
+          "mn9",
+          "mn44",
+          "mn88",
+          "mn141",
+          "sn10.12",
+          "sn22.104",
+          "sn23.15",
+          "sn23.16",
+          "sn35.67",
+          "sn35.81",
+          "sn35.152",
+          "sn38.14",
+          "sn48.36",
+          "sn48.37",
+          "sn48.38",
+          "an6.63",
+          "snp1.10"
+        ],
+        "broader": [
+          "dn1",
+          "dn2",
+          "dn9",
+          "dn10",
+          "dn22",
+          "dn28",
+          "dn29",
+          "mn2",
+          "mn4",
+          "mn9",
+          "mn10",
+          "mn19",
+          "mn27",
+          "mn28",
+          "mn36",
+          "(+118)"
+        ],
+        "vinaya": [
+          "pli-tv-bi-vb-pc34",
+          "pli-tv-bu-vb-pj1"
+        ]
+      },
+      "rationale": {
+        "en": "/rationale#dukkha",
+        "ru": "/rationale#dukkha"
+      }
+    },
+    {
+      "id": "dukkham-ariyasaccam",
+      "num": null,
+      "pali": "dukkhaṁ ariyasaccaṁ",
+      "ru": "боль — благородно-истина",
+      "en": "pain — noble-truth"
+    },
+    {
+      "id": "dukkhanirodha",
+      "num": 97,
+      "pali": "dukkhanirodha",
+      "ru": "боле-устранение",
+      "en": "pain-elimination",
+      "canon": {
+        "where": [
+          "mn9",
+          "sn22.104",
+          "an6.63"
+        ],
+        "link": "/mn9:17.1",
+        "definition": "Katamo cāvuso, dukkhanirodho? Yo tassāyeva taṇhāya asesavirāganirodho cāgo paṭinissaggo mutti anālayo— ayaṁ vuccatāvuso, dukkhanirodho.",
+        "patterns": [
+          "mn9",
+          "sn22.104",
+          "an6.63"
+        ],
+        "broader": [
+          "dn2",
+          "dn9",
+          "dn10",
+          "dn22",
+          "dn29",
+          "mn2",
+          "mn4",
+          "mn9",
+          "mn10",
+          "mn19",
+          "mn27",
+          "mn36",
+          "mn39",
+          "mn43",
+          "mn51",
+          "(+98)"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-pj1"
+        ]
+      }
+    },
+    {
+      "id": "dukkhanirodhagamini-patipada",
+      "num": 98,
+      "pali": "dukkhanirodhagāminī paṭipadā",
+      "ru": "к боле-устранению-ведущая практика",
+      "en": "practice leading to pain-elimination",
+      "canon": {
+        "where": [
+          "mn9",
+          "sn22.104"
+        ],
+        "link": "/mn9:18.1",
+        "definition": "Katamā cāvuso, dukkhanirodhagāminī paṭipadā? Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ— sammādiṭṭhi …pe… sammāsamādhi— ayaṁ vuccatāvuso, dukkhanirodhagāminī paṭipadā.",
+        "broader": [
+          "dn2",
+          "dn9",
+          "dn10",
+          "dn22",
+          "dn29",
+          "mn2",
+          "mn4",
+          "mn9",
+          "mn10",
+          "mn19",
+          "mn27",
+          "mn36",
+          "mn39",
+          "mn43",
+          "mn51",
+          "(+98)"
+        ]
+      }
+    },
+    {
+      "id": "dukkhanirodhagamini-patipada-ariyasaccam",
+      "num": null,
+      "pali": "dukkhanirodhagāminī paṭipadā ariyasaccaṁ",
+      "ru": "к боле-устранению-ведущая практика — благородно-истина",
+      "en": "practice leading to pain-elimination — noble-truth"
+    },
+    {
+      "id": "dukkhanirodham-ariyasaccam",
+      "num": null,
+      "pali": "dukkhanirodhaṁ ariyasaccaṁ",
+      "ru": "боле-устранение — благородно-истина",
+      "en": "pain-elimination — noble-truth"
+    },
+    {
+      "id": "dukkhasamudaya",
+      "num": 99,
+      "pali": "dukkhasamudaya",
+      "ru": "боле-скапливание",
+      "en": "pain-accumulation",
+      "canon": {
+        "where": [
+          "mn9",
+          "sn22.104"
+        ],
+        "link": "/mn9:16.1",
+        "definition": "Katamo cāvuso, dukkhasamudayo? Yāyaṁ taṇhā ponobbhavikā nandīrāgasahagatā tatratatrābhinandinī, seyyathidaṁ— kāmataṇhā bhavataṇhā vibhavataṇhā— ayaṁ vuccatāvuso, dukkhasamudayo.",
+        "patterns": [
+          "mn9",
+          "sn22.104"
+        ],
+        "broader": [
+          "dn2",
+          "dn9",
+          "dn10",
+          "dn22",
+          "dn29",
+          "mn2",
+          "mn4",
+          "mn9",
+          "mn10",
+          "mn19",
+          "mn27",
+          "mn36",
+          "mn39",
+          "mn43",
+          "mn51",
+          "(+46)"
+        ],
+        "vinaya": [
+          "pli-tv-bu-vb-pj1"
+        ]
+      }
+    },
+    {
+      "id": "dukkhasamudayam-ariyasaccam",
+      "num": null,
+      "pali": "dukkhasamudayaṁ ariyasaccaṁ",
+      "ru": "боле-скапливание — благородно-истина",
+      "en": "pain-accumulation — noble-truth"
+    },
+    {
+      "id": "dukkhata",
+      "num": 100,
+      "pali": "dukkhata",
+      "ru": "болезненность",
+      "en": "painfulness",
+      "canon": {
+        "broader": [
+          "dn28",
+          "sn38.14"
+        ]
+      }
+    },
+    {
+      "id": "dutiya-jhana",
+      "num": 101,
+      "pali": "dutiya jhāna",
+      "ru": "вторая джхана",
+      "en": ""
+    },
+    {
+      "id": "ehi-tvam",
+      "num": 102,
+      "pali": "ehi tvaṁ",
+      "ru": "ты иди",
+      "en": ""
+    },
+    {
+      "id": "ehipassiko",
+      "num": 103,
+      "pali": "ehipassiko",
+      "ru": "\"приди-и-посмотри\"",
+      "en": ""
+    },
+    {
+      "id": "esana",
+      "num": 104,
+      "pali": "esanā",
+      "ru": "поиск (искание)",
+      "en": "search"
+    },
+    {
+      "id": "evamevam",
+      "num": 105,
+      "pali": "evamevaṁ",
+      "ru": "точно так",
+      "en": ""
+    },
+    {
+      "id": "gandha",
+      "num": 106,
+      "pali": "gandha",
+      "ru": "запах",
+      "en": ""
+    },
+    {
+      "id": "gantha",
+      "num": 107,
+      "pali": "gantha",
+      "ru": "узел",
+      "en": "knot"
+    },
+    {
+      "id": "ghana",
+      "num": 108,
+      "pali": "ghāna",
+      "ru": "нос",
+      "en": ""
+    },
+    {
+      "id": "iddhipada",
+      "num": 109,
+      "pali": "iddhipāda",
+      "ru": "[сверх]-способности-основа",
+      "en": "[super]-abilities-basis"
+    },
+    {
+      "id": "indriya",
+      "num": 110,
+      "pali": "indriya",
+      "ru": "способность",
+      "en": "ability"
+    },
+    {
+      "id": "ittha-kanta-manapa-piyarupa-kamupasamhita-rajaniya",
+      "num": 111,
+      "pali": "iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā",
+      "ru": "желанные, обожаемые, приятные, миловидные, связанные с желанием, очаровывающие-вызывающие страсть",
+      "en": ""
+    },
+    {
+      "id": "jara",
+      "num": 112,
+      "pali": "jarā",
+      "ru": "старение",
+      "en": ""
+    },
+    {
+      "id": "jaramarana",
+      "num": null,
+      "pali": "jarāmaraṇa",
+      "ru": "старение-умирание",
+      "en": "aging-dying"
+    },
+    {
+      "id": "jati",
+      "num": 113,
+      "pali": "jāti",
+      "ru": "рождение",
+      "en": "birth"
+    },
+    {
+      "id": "jatipaccaya",
+      "num": null,
+      "pali": "jātipaccayā",
+      "ru": "рождения-условием",
+      "en": "birth as condition"
+    },
+    {
+      "id": "jhana",
+      "num": 114,
+      "pali": "jhāna",
+      "ru": "джхана",
+      "en": "jhana"
+    },
+    {
+      "id": "jhayatha",
+      "num": 115,
+      "pali": "jhāyatha",
+      "ru": "зажгитесь (пылко старайтесь)",
+      "en": ""
+    },
+    {
+      "id": "jivha",
+      "num": 116,
+      "pali": "jivhā",
+      "ru": "язык",
+      "en": ""
+    },
+    {
+      "id": "kalyana",
+      "num": 117,
+      "pali": "kalyāṇa",
+      "ru": "благое (полезное)",
+      "en": ""
+    },
+    {
+      "id": "kama",
+      "num": 118,
+      "pali": "kāma",
+      "ru": "желание",
+      "en": "",
+      "rationale": {
+        "en": "/rationale#passages",
+        "ru": "/rationale#passages"
+      }
+    },
+    {
+      "id": "kamacchanda",
+      "num": 119,
+      "pali": "kāmacchanda",
+      "ru": "желания-импульс",
+      "en": "desire-impulse"
+    },
+    {
+      "id": "kamaguna",
+      "num": 120,
+      "pali": "kāmaguṇā",
+      "ru": "желания-множитель",
+      "en": "desire-multiplier"
+    },
+    {
+      "id": "kamaraganusaya",
+      "num": 121,
+      "pali": "kāmarāgānusaya",
+      "ru": "к-желанием-очарованности-предрасположенность",
+      "en": ""
+    },
+    {
+      "id": "kamasava",
+      "num": null,
+      "pali": "kāmāsava",
+      "ru": "желания-истечение",
+      "en": "desire-outflow"
+    },
+    {
+      "id": "kamatanha",
+      "num": 122,
+      "pali": "kāmataṇhā",
+      "ru": "желания-цепляние",
+      "en": ""
+    },
+    {
+      "id": "kamesumicchacara",
+      "num": 123,
+      "pali": "kāmesumicchācāra",
+      "ru": "в-желаниях-ошибочное-поведение",
+      "en": ""
+    },
+    {
+      "id": "kamesumicchacara-veramani",
+      "num": 124,
+      "pali": "kāmesumicchācārā veramaṇī",
+      "ru": "в-желаниях-ошибочное-поведение неприемлющий",
+      "en": ""
+    },
+    {
+      "id": "kamma",
+      "num": 125,
+      "pali": "kamma",
+      "ru": "активность, деятельность",
+      "en": "activity",
+      "rationale": {
+        "en": "/rationale#passages",
+        "ru": "/rationale#passages"
+      }
+    },
+    {
+      "id": "kamupadana",
+      "num": null,
+      "pali": "kāmupādāna",
+      "ru": "желания-поддерживание",
+      "en": "desire-sustaining"
+    },
+    {
+      "id": "kappa",
+      "num": 126,
+      "pali": "kappa",
+      "ru": "каппа, мировой цикл",
+      "en": ""
+    },
+    {
+      "id": "karuna",
+      "num": 127,
+      "pali": "karuṇā",
+      "ru": "доброта, милосердие",
+      "en": ""
+    },
+    {
+      "id": "kaya",
+      "num": 128,
+      "pali": "kāya",
+      "ru": "тело",
+      "en": ""
+    },
+    {
+      "id": "kayagatasati",
+      "num": 129,
+      "pali": "kāyagatāsati",
+      "ru": "о-теле-памятование",
+      "en": ""
+    },
+    {
+      "id": "kayanupassana",
+      "num": 130,
+      "pali": "kāyānupassanā",
+      "ru": "тело-наблюдение",
+      "en": "body-observation"
+    },
+    {
+      "id": "khadaniya",
+      "num": 131,
+      "pali": "khādanīya",
+      "ru": "закуска",
+      "en": ""
+    },
+    {
+      "id": "khandha",
+      "num": 132,
+      "pali": "khandha",
+      "ru": "блок (группа)",
+      "en": "block"
+    },
+    {
+      "id": "khaya",
+      "num": 133,
+      "pali": "khaya",
+      "ru": "исчерпание",
+      "en": ""
+    },
+    {
+      "id": "khila",
+      "num": 134,
+      "pali": "khila",
+      "ru": "суета, тщета",
+      "en": ""
+    },
+    {
+      "id": "kilesa",
+      "num": 135,
+      "pali": "kilesa",
+      "ru": "загрязнение",
+      "en": "contamination"
+    },
+    {
+      "id": "kusala",
+      "num": 136,
+      "pali": "kusala",
+      "ru": "благотворное, умелое, эффективное",
+      "en": ""
+    },
+    {
+      "id": "kusala-kammapatha",
+      "num": 137,
+      "pali": "Kusala kammapatha",
+      "ru": "Десять направлений благотворной активности",
+      "en": ""
+    },
+    {
+      "id": "lobha",
+      "num": 138,
+      "pali": "lobha",
+      "ru": "корыстолюбие",
+      "en": ""
+    },
+    {
+      "id": "lokavidu",
+      "num": 139,
+      "pali": "lokavidū",
+      "ru": "мира-знаток",
+      "en": ""
+    },
+    {
+      "id": "loko",
+      "num": 140,
+      "pali": "loko",
+      "ru": "свет - на свете. мир - в мире",
+      "en": ""
+    },
+    {
+      "id": "macchariya",
+      "num": 141,
+      "pali": "macchariyā",
+      "ru": "скупость",
+      "en": ""
+    },
+    {
+      "id": "magga",
+      "num": 142,
+      "pali": "magga",
+      "ru": "путь",
+      "en": ""
+    },
+    {
+      "id": "mahabhuta",
+      "num": 143,
+      "pali": "mahābhūta",
+      "ru": "великая стихия",
+      "en": ""
+    },
+    {
+      "id": "majjhima-patipada",
+      "num": 144,
+      "pali": "majjhimā paṭipadā",
+      "ru": "серединная практика",
+      "en": ""
+    },
+    {
+      "id": "mala",
+      "num": 145,
+      "pali": "mala",
+      "ru": "пятно, грязь",
+      "en": ""
+    },
+    {
+      "id": "mana",
+      "num": 146,
+      "pali": "māna",
+      "ru": "самомнение",
+      "en": ""
+    },
+    {
+      "id": "mananusaya",
+      "num": 147,
+      "pali": "mānānusaya",
+      "ru": "к-самомнению-предрасположенность",
+      "en": ""
+    },
+    {
+      "id": "manasikara",
+      "num": 148,
+      "pali": "manasikāra",
+      "ru": "мыследеятельность (создание ментального-представления)",
+      "en": ""
+    },
+    {
+      "id": "mano",
+      "num": 149,
+      "pali": "mano",
+      "ru": "ум-представление",
+      "en": ""
+    },
+    {
+      "id": "marana",
+      "num": 150,
+      "pali": "maraṇa",
+      "ru": "умирание",
+      "en": ""
+    },
+    {
+      "id": "maro-papima",
+      "num": 151,
+      "pali": "māro pāpimā",
+      "ru": "Мара Злой",
+      "en": ""
+    },
+    {
+      "id": "metta",
+      "num": 152,
+      "pali": "mettā",
+      "ru": "мирность (дружность)",
+      "en": "peacefulness"
+    },
+    {
+      "id": "micchaditthi",
+      "num": 153,
+      "pali": "micchādiṭṭhi",
+      "ru": "ошибочный взгляд",
+      "en": ""
+    },
+    {
+      "id": "micchatta",
+      "num": 154,
+      "pali": "micchattā",
+      "ru": "ошибочность",
+      "en": ""
+    },
+    {
+      "id": "mitta",
+      "num": 155,
+      "pali": "mitta",
+      "ru": "друг",
+      "en": ""
+    },
+    {
+      "id": "moghapurisa",
+      "num": 156,
+      "pali": "moghapurisa",
+      "ru": "запутавшийся человек",
+      "en": ""
+    },
+    {
+      "id": "moha",
+      "num": 157,
+      "pali": "moha",
+      "ru": "замутненность-заблуждение",
+      "en": ""
+    },
+    {
+      "id": "mudita",
+      "num": 158,
+      "pali": "muditā",
+      "ru": "мягкость, смягченность",
+      "en": ""
+    },
+    {
+      "id": "mula",
+      "num": 159,
+      "pali": "mūla",
+      "ru": "корень",
+      "en": ""
+    },
+    {
+      "id": "musavada",
+      "num": 160,
+      "pali": "musāvāda",
+      "ru": "ложное-утверждение",
+      "en": ""
+    },
+    {
+      "id": "musavada-veramani",
+      "num": 161,
+      "pali": "musāvādā veramaṇī",
+      "ru": "ложные-утверждения неприемлющий",
+      "en": ""
+    },
+    {
+      "id": "nama",
+      "num": 162,
+      "pali": "nāma",
+      "ru": "имя",
+      "en": ""
+    },
+    {
+      "id": "namarupa",
+      "num": 163,
+      "pali": "nāmarūpa",
+      "ru": "имя-образ, имя-материя",
+      "en": "name-image"
+    },
+    {
+      "id": "namarupapaccaya",
+      "num": null,
+      "pali": "nāmarūpapaccayā",
+      "ru": "имени-образа-условием",
+      "en": "name-image as condition"
+    },
+    {
+      "id": "nana",
+      "num": 164,
+      "pali": "ñāṇa",
+      "ru": "знание",
+      "en": ""
+    },
+    {
+      "id": "nanadassana",
+      "num": 165,
+      "pali": "ñāṇadassana",
+      "ru": "знание-видение",
+      "en": ""
+    },
+    {
+      "id": "nandi",
+      "num": 166,
+      "pali": "nandī",
+      "ru": "радость, восторг",
+      "en": ""
+    },
+    {
+      "id": "nandiraga",
+      "num": 167,
+      "pali": "nandīrāga",
+      "ru": "радость-страсть",
+      "en": ""
+    },
+    {
+      "id": "nandiragasahagata",
+      "num": 168,
+      "pali": "nandīrāgasahagatā",
+      "ru": "с-радостью-страстью-совместно-идущая",
+      "en": ""
+    },
+    {
+      "id": "nayappatipanno",
+      "num": 169,
+      "pali": "ñāyappaṭipanno",
+      "ru": "метод-практикующая",
+      "en": ""
+    },
+    {
+      "id": "nevasannanasannayatana",
+      "num": 170,
+      "pali": "nevasaññānāsaññāyatana",
+      "ru": "и-не-сознания-не-бессознательности-область",
+      "en": ""
+    },
+    {
+      "id": "nibbana",
+      "num": 171,
+      "pali": "nibbāna",
+      "ru": "ниббана",
+      "en": "nibbana"
+    },
+    {
+      "id": "nibbida",
+      "num": 172,
+      "pali": "nibbidā",
+      "ru": "незаинтересованность, не нахождение В",
+      "en": ""
+    },
+    {
+      "id": "nidana",
+      "num": 173,
+      "pali": "nidāna",
+      "ru": "основание",
+      "en": ""
+    },
+    {
+      "id": "nigha",
+      "num": 174,
+      "pali": "nīgha",
+      "ru": "тягость, тягота.",
+      "en": ""
+    },
+    {
+      "id": "niramisa",
+      "num": 175,
+      "pali": "nirāmisa",
+      "ru": "не-плотское",
+      "en": ""
+    },
+    {
+      "id": "nirodha",
+      "num": 176,
+      "pali": "nirodha",
+      "ru": "устранение",
+      "en": ""
+    },
+    {
+      "id": "nissarana",
+      "num": 177,
+      "pali": "nissaraṇa",
+      "ru": "спасение",
+      "en": ""
+    },
+    {
+      "id": "nissita",
+      "num": 178,
+      "pali": "nissita",
+      "ru": "опирающийся (зависящий)",
+      "en": ""
+    },
+    {
+      "id": "nivarana",
+      "num": 179,
+      "pali": "nīvaraṇa",
+      "ru": "преграда, покров",
+      "en": "barrier"
+    },
+    {
+      "id": "ogha",
+      "num": 180,
+      "pali": "ogha",
+      "ru": "затопление",
+      "en": "flooding"
+    },
+    {
+      "id": "opaneyyiko",
+      "num": 181,
+      "pali": "opaneyyiko",
+      "ru": "ведущее, направляющее (ведущее-к-цели)",
+      "en": ""
+    },
+    {
+      "id": "orambhagiya",
+      "num": 182,
+      "pali": "orambhāgiya",
+      "ru": "ближние, ближней-стороны",
+      "en": "near-side"
+    },
+    {
+      "id": "paccattam-veditabbo-vinnuhi",
+      "num": 183,
+      "pali": "paccattaṁ veditabbo viññūhi",
+      "ru": "лично-познаваемое различающими, внимательными, знающими",
+      "en": ""
+    },
+    {
+      "id": "paccaya",
+      "num": 184,
+      "pali": "paccaya",
+      "ru": "условие (обстоятельство проявления)",
+      "en": ""
+    },
+    {
+      "id": "padhana",
+      "num": 185,
+      "pali": "padhāna",
+      "ru": "прилежание",
+      "en": ""
+    },
+    {
+      "id": "pahana",
+      "num": 186,
+      "pali": "pahāna",
+      "ru": "покидание",
+      "en": ""
+    },
+    {
+      "id": "pahanaya",
+      "num": 187,
+      "pali": "pahānāya",
+      "ru": "для покидания",
+      "en": ""
+    },
+    {
+      "id": "pahatabba",
+      "num": 188,
+      "pali": "pahātabba",
+      "ru": "должно-быть-покинуто",
+      "en": ""
+    },
+    {
+      "id": "pahuneyyo",
+      "num": 189,
+      "pali": "pāhuneyyo",
+      "ru": "достойная-гостеприимства",
+      "en": ""
+    },
+    {
+      "id": "pajanati",
+      "num": 190,
+      "pali": "pajānāti",
+      "ru": "понимает",
+      "en": ""
+    },
+    {
+      "id": "pakkhiya",
+      "num": 363,
+      "pali": "pakkhiya",
+      "ru": "сторона, относящийся",
+      "en": "side"
+    },
+    {
+      "id": "pamada",
+      "num": 191,
+      "pali": "pamāda",
+      "ru": "беспечность",
+      "en": ""
+    },
+    {
+      "id": "pamojja",
+      "num": 192,
+      "pali": "pāmojja",
+      "ru": "смягченная-радость",
+      "en": ""
+    },
+    {
+      "id": "pananca",
+      "num": 193,
+      "pali": "pananca",
+      "ru": "разрастание (\"пятерение\")",
+      "en": "proliferation"
+    },
+    {
+      "id": "panatipata",
+      "num": 194,
+      "pali": "pāṇātipāta",
+      "ru": "жизни-уменьшение (живого-уничтожение)",
+      "en": ""
+    },
+    {
+      "id": "panatipata-veramani",
+      "num": 195,
+      "pali": "pāṇātipātā veramaṇī",
+      "ru": "уменьшения жизни неприемлющий",
+      "en": ""
+    },
+    {
+      "id": "pancupadanakkhandha",
+      "num": 196,
+      "pali": "pañcupādānakkhandha",
+      "ru": "пять блоков поддерживания, пять-поддерживания-блоков",
+      "en": "five blocks of sustaining"
+    },
+    {
+      "id": "pandita",
+      "num": 197,
+      "pali": "paṇḍita",
+      "ru": "мудрец",
+      "en": ""
+    },
+    {
+      "id": "panna",
+      "num": 198,
+      "pali": "paññā",
+      "ru": "понимание",
+      "en": ""
+    },
+    {
+      "id": "pannabala",
+      "num": 199,
+      "pali": "paññābala",
+      "ru": "понимания-сила",
+      "en": "understanding-power"
+    },
+    {
+      "id": "pannindriya",
+      "num": 200,
+      "pali": "paññindriya",
+      "ru": "понимания-способность",
+      "en": "understanding-ability"
+    },
+    {
+      "id": "papaka",
+      "num": 201,
+      "pali": "pāpaka",
+      "ru": "зловредный, вредный",
+      "en": ""
+    },
+    {
+      "id": "parideva",
+      "num": 202,
+      "pali": "parideva",
+      "ru": "плач (стон, стенание)",
+      "en": ""
+    },
+    {
+      "id": "parinibbana",
+      "num": 203,
+      "pali": "parinibbāna",
+      "ru": "окончательная ниббана",
+      "en": ""
+    },
+    {
+      "id": "parinna",
+      "num": 204,
+      "pali": "pariññā",
+      "ru": "всестороннее понимание",
+      "en": ""
+    },
+    {
+      "id": "parinnaya",
+      "num": 205,
+      "pali": "pariññāya",
+      "ru": "для понимания (признания, полного понимания)",
+      "en": ""
+    },
+    {
+      "id": "parinneyya",
+      "num": 206,
+      "pali": "pariññeyya",
+      "ru": "должно-быть-понято",
+      "en": ""
+    },
+    {
+      "id": "passaddhi",
+      "num": 207,
+      "pali": "passaddhi",
+      "ru": "умиротворение",
+      "en": ""
+    },
+    {
+      "id": "passaddhisambojjhanga",
+      "num": null,
+      "pali": "passaddhisambojjhaṅga",
+      "ru": "умиротворения-пробуждения-аспект",
+      "en": "pacification-awakening-aspect"
+    },
+    {
+      "id": "passasa",
+      "num": 208,
+      "pali": "passāsa",
+      "ru": "вдох",
+      "en": ""
+    },
+    {
+      "id": "pathama-jhana",
+      "num": 209,
+      "pali": "paṭhama jhāna",
+      "ru": "первая джхана",
+      "en": ""
+    },
+    {
+      "id": "pathavidhatu",
+      "num": 210,
+      "pali": "paṭhavīdhātu",
+      "ru": "тверди-дхату, твердого-дхату",
+      "en": ""
+    },
+    {
+      "id": "paticca",
+      "num": 211,
+      "pali": "paṭicca",
+      "ru": "исходя из, в зависимости от",
+      "en": ""
+    },
+    {
+      "id": "paticcasamuppada",
+      "num": 212,
+      "pali": "paṭiccasamuppāda",
+      "ru": "зависимое возникновение",
+      "en": "dependent arising"
+    },
+    {
+      "id": "patigha",
+      "num": 213,
+      "pali": "paṭigha",
+      "ru": "отторжение",
+      "en": ""
+    },
+    {
+      "id": "patighanusaya",
+      "num": 214,
+      "pali": "paṭighānusaya",
+      "ru": "к-отторжению-предрасположенность",
+      "en": ""
+    },
+    {
+      "id": "patiloma",
+      "num": 215,
+      "pali": "paṭiloma",
+      "ru": "обратный порядок",
+      "en": ""
+    },
+    {
+      "id": "patinissagga",
+      "num": 216,
+      "pali": "paṭinissagga",
+      "ru": "отдаление, отказ (оставление)",
+      "en": ""
+    },
+    {
+      "id": "pativirato",
+      "num": 217,
+      "pali": "paṭivirato",
+      "ru": "отказавшийся (отвержение, отвратившийся)",
+      "en": "",
+      "dgNote": "Тот же корень, что veramaṇī (vi-ram). paṭivirata — об арахантах (AN 3.70: pāṇātipātā paṭiviratā, «подражаю арахантам»), veramaṇī — в определении пути (SN 45.8). В переводах оба — «воздерживаться»; но арахант не воздерживается, а отказался. См. строку veramaṇī."
+    },
+    {
+      "id": "patubhavo",
+      "num": 218,
+      "pali": "pātubhāvo",
+      "ru": "проявление (появление)",
+      "en": ""
+    },
+    {
+      "id": "pharusa-vaca",
+      "num": 219,
+      "pali": "pharusā vācā",
+      "ru": "жёсткая речь",
+      "en": ""
+    },
+    {
+      "id": "pharusaya-vacaya-veramani",
+      "num": 220,
+      "pali": "pharusāya vācāya veramaṇī",
+      "ru": "жёсткую речь неприемлющий",
+      "en": ""
+    },
+    {
+      "id": "phassapaccaya",
+      "num": null,
+      "pali": "phassapaccayā",
+      "ru": "касания-условием",
+      "en": "touch as condition"
+    },
+    {
+      "id": "phasso",
+      "num": 221,
+      "pali": "phasso",
+      "ru": "касание, соприкосновение",
+      "en": "touch"
+    },
+    {
+      "id": "photthabba",
+      "num": 222,
+      "pali": "phoṭṭhabba",
+      "ru": "касание",
+      "en": ""
+    },
+    {
+      "id": "pisuna-vaca",
+      "num": 223,
+      "pali": "pisuṇā vācā",
+      "ru": "рознящая речь",
+      "en": ""
+    },
+    {
+      "id": "pisunaya-vacaya-veramani",
+      "num": 224,
+      "pali": "pisuṇāya vācāya veramaṇī",
+      "ru": "рознящую речь неприемлющий",
+      "en": ""
+    },
+    {
+      "id": "piti",
+      "num": 225,
+      "pali": "pīti",
+      "ru": "озарённость-упоение",
+      "en": ""
+    },
+    {
+      "id": "pitisambojjhanga",
+      "num": null,
+      "pali": "pītisambojjhaṅga",
+      "ru": "озарённости-упоения-пробуждения-аспект",
+      "en": "illumination-rapture-awakening-aspect"
+    },
+    {
+      "id": "piyehi-vippayogo",
+      "num": 226,
+      "pali": "piyehi vippayogo",
+      "ru": "с-любимыми-разъединение",
+      "en": ""
+    },
+    {
+      "id": "ponobhavika",
+      "num": 227,
+      "pali": "ponobhavikā",
+      "ru": "вовлекающая, вновь возникающая",
+      "en": ""
+    },
+    {
+      "id": "puggala",
+      "num": 228,
+      "pali": "puggala",
+      "ru": "индивид, личность",
+      "en": ""
+    },
+    {
+      "id": "punna",
+      "num": 229,
+      "pali": "puñña",
+      "ru": "благо (заслуга)",
+      "en": ""
+    },
+    {
+      "id": "puthujjana",
+      "num": 230,
+      "pali": "puthujjana",
+      "ru": "обыватель",
+      "en": ""
+    },
+    {
+      "id": "raga",
+      "num": 231,
+      "pali": "rāga",
+      "ru": "очарованность-страсть",
+      "en": ""
+    },
+    {
+      "id": "rajaniya",
+      "num": 232,
+      "pali": "rajanīyā",
+      "ru": "очаровывающие-вызывающие страсть",
+      "en": ""
+    },
+    {
+      "id": "rasa",
+      "num": 233,
+      "pali": "rasa",
+      "ru": "вкус",
+      "en": ""
+    },
+    {
+      "id": "rupa",
+      "num": 234,
+      "pali": "rūpa",
+      "ru": "образ, материя, вид, объект",
+      "en": ""
+    },
+    {
+      "id": "ruparaga",
+      "num": 235,
+      "pali": "rūparāga",
+      "ru": "образо-очарованность",
+      "en": ""
+    },
+    {
+      "id": "sacchikatabba",
+      "num": 236,
+      "pali": "sacchikātabba",
+      "ru": "должно-быть-засвидетельствовано",
+      "en": ""
+    },
+    {
+      "id": "sacchikiriya",
+      "num": 237,
+      "pali": "sacchikiriyā",
+      "ru": "засвидетельствование (своими глазами)",
+      "en": ""
+    },
+    {
+      "id": "sacchikiriyaya",
+      "num": 238,
+      "pali": "sacchikiriyāya",
+      "ru": "для засвидетельствования",
+      "en": ""
+    },
+    {
+      "id": "sadda",
+      "num": 239,
+      "pali": "sadda",
+      "ru": "звук",
+      "en": ""
+    },
+    {
+      "id": "saddha",
+      "num": 240,
+      "pali": "saddhā",
+      "ru": "вера",
+      "en": ""
+    },
+    {
+      "id": "saddhabala",
+      "num": 241,
+      "pali": "saddhābala",
+      "ru": "веры-сила",
+      "en": "faith-power"
+    },
+    {
+      "id": "saddhindriya",
+      "num": 242,
+      "pali": "saddhindriya",
+      "ru": "веры-способность",
+      "en": "faith-ability"
+    },
+    {
+      "id": "sahagata",
+      "num": 243,
+      "pali": "sahagata",
+      "ru": "совместно-идущее",
+      "en": ""
+    },
+    {
+      "id": "sakadagami",
+      "num": 244,
+      "pali": "sakadāgāmī",
+      "ru": "единожды-возвращающийся",
+      "en": ""
+    },
+    {
+      "id": "sakkayaditthi",
+      "num": 245,
+      "pali": "sakkāyadiṭṭhi",
+      "ru": "с-телом-(отождествление)-взгляд",
+      "en": ""
+    },
+    {
+      "id": "salayatana",
+      "num": 246,
+      "pali": "saḷāyatana",
+      "ru": "шесть внутренне-внешних областей",
+      "en": "six inner-outer domains"
+    },
+    {
+      "id": "salayatanapaccaya",
+      "num": null,
+      "pali": "saḷāyatanapaccayā",
+      "ru": "шести-областей-условием",
+      "en": "six domains as condition"
+    },
+    {
+      "id": "samadhi",
+      "num": 247,
+      "pali": "samādhi",
+      "ru": "самадхи, объединение опыта, глагол объединяться",
+      "en": ""
+    },
+    {
+      "id": "samadhibala",
+      "num": 248,
+      "pali": "samādhibala",
+      "ru": "самадхи-сила",
+      "en": "samadhi-power"
+    },
+    {
+      "id": "samadhindriya",
+      "num": 249,
+      "pali": "samādhindriya",
+      "ru": "самадхи-способность",
+      "en": "samadhi-ability"
+    },
+    {
+      "id": "samadhisambojjhanga",
+      "num": null,
+      "pali": "samādhisambojjhaṅga",
+      "ru": "самадхи-пробуждения-аспект",
+      "en": "samadhi-awakening-aspect"
+    },
+    {
+      "id": "samana",
+      "num": 250,
+      "pali": "samaṇa",
+      "ru": "шраман",
+      "en": ""
+    },
+    {
+      "id": "samanupassati",
+      "num": 251,
+      "pali": "samanupassati",
+      "ru": "рассматривает (наблюдает)",
+      "en": ""
+    },
+    {
+      "id": "samatha",
+      "num": 252,
+      "pali": "samatha",
+      "ru": "равновесие, равностность",
+      "en": ""
+    },
+    {
+      "id": "sambodhaya",
+      "num": 253,
+      "pali": "sambodhāya",
+      "ru": "для пробуждения",
+      "en": ""
+    },
+    {
+      "id": "samicippatipanno",
+      "num": 254,
+      "pali": "sāmīcippaṭipanno",
+      "ru": "подобающе-практикующая",
+      "en": ""
+    },
+    {
+      "id": "samisa",
+      "num": 255,
+      "pali": "sāmisa",
+      "ru": "плотское",
+      "en": ""
+    },
+    {
+      "id": "samma",
+      "num": 355,
+      "pali": "sammā",
+      "ru": "правильно-, правильный (как в sammāsati, sammāvāyāma)",
+      "en": "right-"
+    },
+    {
+      "id": "sammaajiva",
+      "num": 256,
+      "pali": "sammāājīva",
+      "ru": "правильный быт",
+      "en": "right way of living"
+    },
+    {
+      "id": "sammaditthi",
+      "num": 257,
+      "pali": "sammādiṭṭhi",
+      "ru": "правильный взгляд",
+      "en": "right view"
+    },
+    {
+      "id": "sammakammanta",
+      "num": 258,
+      "pali": "sammākammanta",
+      "ru": "правильный поступок",
+      "en": "right deed"
+    },
+    {
+      "id": "sammappadhana",
+      "num": null,
+      "pali": "sammappadhāna",
+      "ru": "правильное прилежание",
+      "en": "right diligence"
+    },
+    {
+      "id": "sammasamadhi",
+      "num": 259,
+      "pali": "sammāsamādhi",
+      "ru": "правильное самадхи",
+      "en": "right samadhi"
+    },
+    {
+      "id": "sammasambuddho",
+      "num": 260,
+      "pali": "sammāsambuddho",
+      "ru": "правильно-пробуждённый",
+      "en": ""
+    },
+    {
+      "id": "sammasankappa",
+      "num": 261,
+      "pali": "sammāsaṅkappa",
+      "ru": "правильное намерение-заготовка (намерение-привычка)",
+      "en": "right intention-preparation"
+    },
+    {
+      "id": "sammasati",
+      "num": 262,
+      "pali": "sammāsati",
+      "ru": "правильное памятование",
+      "en": "right remembrance"
+    },
+    {
+      "id": "sammatta",
+      "num": 263,
+      "pali": "sammattā",
+      "ru": "правильность",
+      "en": ""
+    },
+    {
+      "id": "sammavaca",
+      "num": 264,
+      "pali": "sammāvācā",
+      "ru": "правильное высказывание-речь",
+      "en": "right statement-speech"
+    },
+    {
+      "id": "sammavayama",
+      "num": 265,
+      "pali": "sammāvāyāma",
+      "ru": "правильное старание",
+      "en": "right endeavor"
+    },
+    {
+      "id": "sampajana",
+      "num": 266,
+      "pali": "sampajāna",
+      "ru": "сознательный",
+      "en": ""
+    },
+    {
+      "id": "samphappalapa",
+      "num": 267,
+      "pali": "samphappalāpa",
+      "ru": "пустословие",
+      "en": ""
+    },
+    {
+      "id": "samphappalapa-veramani",
+      "num": 268,
+      "pali": "samphappalāpā veramaṇī",
+      "ru": "пустословие неприемлющий",
+      "en": ""
+    },
+    {
+      "id": "samudaya",
+      "num": 269,
+      "pali": "samudaya",
+      "ru": "скапливание",
+      "en": ""
+    },
+    {
+      "id": "samyojana",
+      "num": 270,
+      "pali": "saṁyojana",
+      "ru": "связанность, связывание",
+      "en": "boundness"
+    },
+    {
+      "id": "sanditthiko",
+      "num": 271,
+      "pali": "sandiṭṭhiko",
+      "ru": "в-видимой-действительности-постижимое",
+      "en": ""
+    },
+    {
+      "id": "sangha",
+      "num": 272,
+      "pali": "Saṅgha",
+      "ru": "Сангха, собрание",
+      "en": ""
+    },
+    {
+      "id": "sankhara",
+      "num": 273,
+      "pali": "saṅkhāra",
+      "ru": "составляющие, отождествления",
+      "en": "constituents"
+    },
+    {
+      "id": "sankharapaccaya",
+      "num": null,
+      "pali": "saṅkhārapaccayā",
+      "ru": "составляющих-условием",
+      "en": "constituents as condition"
+    },
+    {
+      "id": "sankhata",
+      "num": 274,
+      "pali": "saṅkhata",
+      "ru": "составное, составленное",
+      "en": ""
+    },
+    {
+      "id": "sankhittena",
+      "num": 275,
+      "pali": "saṅkhittena",
+      "ru": "сжато",
+      "en": ""
+    },
+    {
+      "id": "sanna",
+      "num": 276,
+      "pali": "saññā",
+      "ru": "сознавание, снимание, перцепция",
+      "en": ""
+    },
+    {
+      "id": "sannavedayitanirodha",
+      "num": 277,
+      "pali": "saññāvedayitanirodha",
+      "ru": "сознания-почувствованного-устранение",
+      "en": ""
+    },
+    {
+      "id": "sappurisa",
+      "num": 278,
+      "pali": "sappurisa",
+      "ru": "чистый человек",
+      "en": ""
+    },
+    {
+      "id": "sati",
+      "num": 356,
+      "pali": "sati",
+      "ru": "памятование",
+      "en": "remembrance"
+    },
+    {
+      "id": "satibala",
+      "num": 279,
+      "pali": "satibala",
+      "ru": "памятования-сила",
+      "en": "remembrance-power"
+    },
+    {
+      "id": "satindriya",
+      "num": 280,
+      "pali": "satindriya",
+      "ru": "памятования-способность",
+      "en": "remembrance-ability"
+    },
+    {
+      "id": "satipatthana",
+      "num": 281,
+      "pali": "satipaṭṭhāna",
+      "ru": "установление памятования, постановление, постановка",
+      "en": "establishment of remembrance"
+    },
+    {
+      "id": "satisambojjhanga",
+      "num": null,
+      "pali": "satisambojjhaṅga",
+      "ru": "памятования-пробуждения-аспект",
+      "en": "remembrance-awakening-aspect"
+    },
+    {
+      "id": "sattha",
+      "num": 282,
+      "pali": "satthā",
+      "ru": "Учитель",
+      "en": ""
+    },
+    {
+      "id": "sattha-devamanussanam",
+      "num": 283,
+      "pali": "satthā devamanussānaṁ",
+      "ru": "учитель богов и людей",
+      "en": ""
+    },
+    {
+      "id": "savaka",
+      "num": 284,
+      "pali": "sāvaka",
+      "ru": "слушатель, последователь",
+      "en": ""
+    },
+    {
+      "id": "sekha",
+      "num": 285,
+      "pali": "sekha",
+      "ru": "ученик",
+      "en": ""
+    },
+    {
+      "id": "seyyathapi",
+      "num": 286,
+      "pali": "Seyyathāpi",
+      "ru": "это как...",
+      "en": ""
+    },
+    {
+      "id": "sila",
+      "num": 287,
+      "pali": "sīla",
+      "ru": "нравственность, принципы",
+      "en": "morality"
+    },
+    {
+      "id": "silabbata",
+      "num": 360,
+      "pali": "sīlabbata",
+      "ru": "правила-обеты (из sīlabbataparāmāsa)",
+      "en": "rules-vows"
+    },
+    {
+      "id": "silabbataparamasa",
+      "num": 288,
+      "pali": "sīlabbataparāmāsa",
+      "ru": "правилами-обетами-одержимость",
+      "en": ""
+    },
+    {
+      "id": "silabbatupadana",
+      "num": null,
+      "pali": "sīlabbatupādāna",
+      "ru": "правил-обетов-поддерживание",
+      "en": "rules-vows-sustaining"
+    },
+    {
+      "id": "soka",
+      "num": 289,
+      "pali": "soka",
+      "ru": "страдание (экстремальная боль)",
+      "en": ""
+    },
+    {
+      "id": "somanassa",
+      "num": 290,
+      "pali": "somanassa",
+      "ru": "удовлетворённость, умственный комфорт",
+      "en": ""
+    },
+    {
+      "id": "sota",
+      "num": 291,
+      "pali": "sota",
+      "ru": "ухо",
+      "en": ""
+    },
+    {
+      "id": "sotapanna",
+      "num": 292,
+      "pali": "sotāpanna",
+      "ru": "вступивший в поток, получивший слух, услышавший",
+      "en": "stream-enterer"
+    },
+    {
+      "id": "soto",
+      "num": 293,
+      "pali": "soto",
+      "ru": "поток",
+      "en": ""
+    },
+    {
+      "id": "sugato",
+      "num": 294,
+      "pali": "sugato",
+      "ru": "благой",
+      "en": ""
+    },
+    {
+      "id": "sukha",
+      "num": 295,
+      "pali": "sukha",
+      "ru": "приятное, приятное-комфорт (телесный комфорт)",
+      "en": "",
+      "rationale": {
+        "en": "/rationale#passages",
+        "ru": "/rationale#passages"
+      }
+    },
+    {
+      "id": "sunnata",
+      "num": 296,
+      "pali": "suññatā",
+      "ru": "пустотность",
+      "en": ""
+    },
+    {
+      "id": "suppatipanno",
+      "num": 297,
+      "pali": "suppaṭipanno",
+      "ru": "хорошо-практикующая",
+      "en": ""
+    },
+    {
+      "id": "svakkhato",
+      "num": 298,
+      "pali": "svākkhāto",
+      "ru": "хорошо-сформулированное",
+      "en": ""
+    },
+    {
+      "id": "tanha",
+      "num": 299,
+      "pali": "taṇhā",
+      "ru": "цепляние, слипание, липкость",
+      "en": "clinging",
+      "rationale": {
+        "en": "/rationale#passages",
+        "ru": "/rationale#passages"
+      }
+    },
+    {
+      "id": "tanhapaccaya",
+      "num": null,
+      "pali": "taṇhāpaccayā",
+      "ru": "цепляния-условием",
+      "en": "clinging as condition"
+    },
+    {
+      "id": "tasina",
+      "num": 300,
+      "pali": "tasinā",
+      "ru": "залипание",
+      "en": "",
+      "rationale": {
+        "en": "/rationale#passages",
+        "ru": "/rationale#passages"
+      }
+    },
+    {
+      "id": "tathagata",
+      "num": 301,
+      "pali": "tathāgata",
+      "ru": "Татхагата",
+      "en": ""
+    },
+    {
+      "id": "tatiya-jhana",
+      "num": 302,
+      "pali": "tatiya jhāna",
+      "ru": "третья джхана",
+      "en": ""
+    },
+    {
+      "id": "tatratatrabhinandini",
+      "num": 303,
+      "pali": "tatratatrābhinandinī",
+      "ru": "тут-тут-обрадывающаяся (здесь-здесь-обрадывающаяся)",
+      "en": ""
+    },
+    {
+      "id": "tejodhatu",
+      "num": 304,
+      "pali": "tejodhātu",
+      "ru": "тепла-дхату, огонь",
+      "en": ""
+    },
+    {
+      "id": "thinamiddha",
+      "num": 305,
+      "pali": "thinamiddha",
+      "ru": "апатия-сонливость",
+      "en": "apathy-drowsiness"
+    },
+    {
+      "id": "uddhacca",
+      "num": 306,
+      "pali": "uddhacca",
+      "ru": "возбужденность",
+      "en": ""
+    },
+    {
+      "id": "uddhaccakukkucca",
+      "num": 307,
+      "pali": "uddhaccakukkucca",
+      "ru": "возбужденность-беспокойство",
+      "en": "agitation-worry"
+    },
+    {
+      "id": "uddhambhagiya",
+      "num": 308,
+      "pali": "uddhambhāgiya",
+      "ru": "восходящие",
+      "en": "ascending"
+    },
+    {
+      "id": "ujuppatipanno",
+      "num": 309,
+      "pali": "ujuppaṭipanno",
+      "ru": "прямо-практикующая",
+      "en": ""
+    },
+    {
+      "id": "upadana",
+      "num": 310,
+      "pali": "upādāna",
+      "ru": "поддерживание, подпитка (поддавание)",
+      "en": "sustaining"
+    },
+    {
+      "id": "upadanapaccaya",
+      "num": null,
+      "pali": "upādānapaccayā",
+      "ru": "поддерживания-условием",
+      "en": "sustaining as condition"
+    },
+    {
+      "id": "upadhi",
+      "num": 311,
+      "pali": "upadhi",
+      "ru": "удержание",
+      "en": ""
+    },
+    {
+      "id": "upakkilesa",
+      "num": 312,
+      "pali": "upakkilesa",
+      "ru": "загрязнение",
+      "en": ""
+    },
+    {
+      "id": "upasamaya",
+      "num": 313,
+      "pali": "upasamāya",
+      "ru": "для выравнивания (для успокоения)",
+      "en": ""
+    },
+    {
+      "id": "upayasa",
+      "num": 314,
+      "pali": "upāyāsa",
+      "ru": "тоска, томление",
+      "en": ""
+    },
+    {
+      "id": "upekkha",
+      "num": 315,
+      "pali": "upekkhā",
+      "ru": "равностное-видение, прямое-смотрение",
+      "en": ""
+    },
+    {
+      "id": "upekkhasambojjhanga",
+      "num": null,
+      "pali": "upekkhāsambojjhaṅga",
+      "ru": "равностного-видения-пробуждения-аспект",
+      "en": "equanimous-seeing-awakening-aspect"
+    },
+    {
+      "id": "uposatho",
+      "num": 316,
+      "pali": "uposatho",
+      "ru": "упосатха (жен. род)",
+      "en": ""
+    },
+    {
+      "id": "vada",
+      "num": 359,
+      "pali": "vāda",
+      "ru": "утверждение (из musāvāda)",
+      "en": "statement"
+    },
+    {
+      "id": "vagga",
+      "num": 317,
+      "pali": "vagga",
+      "ru": "раздел. [если это относится к главе текста как к примеру magavagga]",
+      "en": ""
+    },
+    {
+      "id": "vaya",
+      "num": 318,
+      "pali": "vaya",
+      "ru": "исчезновение (распад)",
+      "en": ""
+    },
+    {
+      "id": "vayodhatu",
+      "num": 319,
+      "pali": "vāyodhātu",
+      "ru": "ветра-дхату",
+      "en": ""
+    },
+    {
+      "id": "vedana",
+      "num": 320,
+      "pali": "vedanā",
+      "ru": "чувствование, ведание",
+      "en": "feeling",
+      "rationale": {
+        "en": "/rationale#passages",
+        "ru": "/rationale#passages"
+      }
+    },
+    {
+      "id": "vedananupassana",
+      "num": 321,
+      "pali": "vedanānupassanā",
+      "ru": "чувство-наблюдение",
+      "en": "feeling-observation"
+    },
+    {
+      "id": "vedanapaccaya",
+      "num": null,
+      "pali": "vedanāpaccayā",
+      "ru": "чувствования-условием",
+      "en": "feeling as condition"
+    },
+    {
+      "id": "veramani",
+      "num": 365,
+      "pali": "veramaṇī",
+      "ru": "неприемлющий, отвергание (отвержение). Не «воздерживающийся»",
+      "en": "",
+      "dgNote": "Корень vi-ram: «не-радующийся», отсюда «неприемлющий» — слово об эмоциональном отношении. «Воздерживаться» не исключает, что ещё тянет: «я воздерживаюсь от страстей» не значит, что я от них свободен, в отличие от «я отверг страсть», «я отвратился», «я остановился». «Неприемлющий» и «отказавшийся» двусмысленности не оставляют. veramaṇī — в определении пути (SN 45.8, DN 22), paṭivirata — об арахантах, тот же корень; в переводах оба — «воздерживаться». AN 3.70: араханты пожизненно pāṇātipātā paṭiviratā (19.2), в благородной упосатхе последователь «этим аспектом подражает арахантам» (19.4): не изображает чистоту, как в упосатхе пастуха (2.4) или нигантхи (3.1), а примеряет на себя отказ араханта; начинается с очищения ума усилием (4.2). Ни один фактор пути не допускает «немного».",
+      "rationale": {
+        "en": "/rationale#passages",
+        "ru": "/rationale#passages"
+      }
+    },
+    {
+      "id": "vibhava",
+      "num": 322,
+      "pali": "vibhava",
+      "ru": "разлучение (не-бытие)",
+      "en": ""
+    },
+    {
+      "id": "vibhavatanha",
+      "num": 323,
+      "pali": "vibhavataṇhā",
+      "ru": "разлучения-цепляние",
+      "en": ""
+    },
+    {
+      "id": "vicara",
+      "num": 324,
+      "pali": "vicāra",
+      "ru": "выслеживание",
+      "en": ""
+    },
+    {
+      "id": "vicikiccha",
+      "num": 325,
+      "pali": "vicikicchā",
+      "ru": "неясность, разбредание",
+      "en": "unclarity"
+    },
+    {
+      "id": "vicikicchanusaya",
+      "num": 326,
+      "pali": "vicikicchānusaya",
+      "ru": "к-непрояснению-предрасположенность",
+      "en": ""
+    },
+    {
+      "id": "vidha",
+      "num": 327,
+      "pali": "vidhā",
+      "ru": "вид, разделение",
+      "en": "kind"
+    },
+    {
+      "id": "vihara",
+      "num": 328,
+      "pali": "vihāra",
+      "ru": "пребывание, расположение",
+      "en": ""
+    },
+    {
+      "id": "vihesa",
+      "num": 329,
+      "pali": "vihesā",
+      "ru": "раздражение, досаждение",
+      "en": ""
+    },
+    {
+      "id": "vijja",
+      "num": 330,
+      "pali": "vijja",
+      "ru": "знание-различение, видение-ведение",
+      "en": ""
+    },
+    {
+      "id": "vijjacaranasampanno",
+      "num": 331,
+      "pali": "vijjācaraṇasampanno",
+      "ru": "знанием-поведением-наделённый",
+      "en": ""
+    },
+    {
+      "id": "vimamsasamadhi",
+      "num": null,
+      "pali": "vīmaṁsāsamādhi",
+      "ru": "исследования-самадхи",
+      "en": "investigation-samadhi"
+    },
+    {
+      "id": "vimamsasamadhippadhanasankharasamannagata-iddhipada",
+      "num": 332,
+      "pali": "vīmaṁsāsamādhippadhānasaṅkhārasamannāgata iddhipāda",
+      "ru": "исследования-самадхи-старания-составляющими наделенная сверхспособностей основа",
+      "en": ""
+    },
+    {
+      "id": "vimutti",
+      "num": 333,
+      "pali": "vimutti",
+      "ru": "высвобождение, освобождение",
+      "en": ""
+    },
+    {
+      "id": "vinaya",
+      "num": 334,
+      "pali": "vinaya",
+      "ru": "выведение, вычищение",
+      "en": ""
+    },
+    {
+      "id": "vinnana",
+      "num": 335,
+      "pali": "viññāṇa",
+      "ru": "распознавание, внимание",
+      "en": "recognition"
+    },
+    {
+      "id": "vinnanadhatu",
+      "num": 336,
+      "pali": "viññāṇadhātu",
+      "ru": "внимания-распознавания-дхату",
+      "en": ""
+    },
+    {
+      "id": "vinnanancayatana",
+      "num": 337,
+      "pali": "viññāṇañcāyatana",
+      "ru": "внимания-бескрайнего-область",
+      "en": ""
+    },
+    {
+      "id": "vinnanapaccaya",
+      "num": null,
+      "pali": "viññāṇapaccayā",
+      "ru": "распознавания-условием",
+      "en": "recognition as condition"
+    },
+    {
+      "id": "vipaka",
+      "num": 338,
+      "pali": "vipāka",
+      "ru": "созревание-результат",
+      "en": ""
+    },
+    {
+      "id": "vipallasa",
+      "num": 364,
+      "pali": "vipallāsa",
+      "ru": "искажение",
+      "en": "distortion"
+    },
+    {
+      "id": "vipassana",
+      "num": 339,
+      "pali": "vipassanā",
+      "ru": "рассматривание, высматривание",
+      "en": ""
+    },
+    {
+      "id": "viraga",
+      "num": 340,
+      "pali": "virāga",
+      "ru": "бесстрастие-неочарованность, выцветание",
+      "en": ""
+    },
+    {
+      "id": "viriya",
+      "num": 341,
+      "pali": "vīriya",
+      "ru": "решимость, усилие",
+      "en": ""
+    },
+    {
+      "id": "viriyabala",
+      "num": 342,
+      "pali": "vīriyabala",
+      "ru": "решимости-сила",
+      "en": "determination-power"
+    },
+    {
+      "id": "viriyasamadhi",
+      "num": null,
+      "pali": "vīriyasamādhi",
+      "ru": "решимости-самадхи",
+      "en": "determination-samadhi"
+    },
+    {
+      "id": "viriyasamadhippadhanasankharasamannagata-iddhipada",
+      "num": 343,
+      "pali": "vīriyasamādhippadhānasaṅkhārasamannāgata iddhipāda",
+      "ru": "решимости-самадхи-старания-составляющими наделенная сверхспособностей основа",
+      "en": ""
+    },
+    {
+      "id": "viriyasambojjhanga",
+      "num": null,
+      "pali": "vīriyasambojjhaṅga",
+      "ru": "решимости-пробуждения-аспект",
+      "en": "determination-awakening-aspect"
+    },
+    {
+      "id": "viriyindriya",
+      "num": 344,
+      "pali": "vīriyindriya",
+      "ru": "решимости-способность",
+      "en": "determination-ability"
+    },
+    {
+      "id": "vitakka",
+      "num": 345,
+      "pali": "vitakka",
+      "ru": "рассуждение",
+      "en": ""
+    },
+    {
+      "id": "viveka",
+      "num": 346,
+      "pali": "viveka",
+      "ru": "уединение, разъединение",
+      "en": ""
+    },
+    {
+      "id": "vupasama",
+      "num": 347,
+      "pali": "vūpasama",
+      "ru": "выравнивание (успокоение)",
+      "en": ""
+    },
+    {
+      "id": "yampiccham-na-labhati",
+      "num": 348,
+      "pali": "yampicchaṁ na labhati",
+      "ru": "то-что-желанное-не-получать",
+      "en": ""
+    },
+    {
+      "id": "yathabhutam",
+      "num": 349,
+      "pali": "yathābhūtaṁ",
+      "ru": "как-есть",
+      "en": ""
+    },
+    {
+      "id": "yoga",
+      "num": 350,
+      "pali": "yoga",
+      "ru": "связь",
+      "en": "bond"
+    },
+    {
+      "id": "yogakkhema",
+      "num": 351,
+      "pali": "yogakkhema",
+      "ru": "от-связи-защита",
+      "en": ""
+    },
+    {
+      "id": "yoniso-manasikara",
+      "num": 352,
+      "pali": "yoniso manasikāra",
+      "ru": "продуктивное отражение в уме, основательное представление",
+      "en": ""
+    }
+  ]
+}

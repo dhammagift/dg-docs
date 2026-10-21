@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
+    "glossary": "node scripts/sync-glossary.mjs",
+    "test": "node --test scripts/*.test.mjs",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "build:ru": "DOCS_BUILD_LOCALE=ru docusaurus build --out-dir build-ru",

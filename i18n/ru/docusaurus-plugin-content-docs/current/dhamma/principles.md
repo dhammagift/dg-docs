@@ -15,7 +15,7 @@ import MemoBigwheel from '@site/static/img/thumb/albumart-memo-bigwheel-nobg.web
 
 <PageTools />
 
-*См. также [глоссарий перевода](https://docs.google.com/spreadsheets/d/1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg/edit?gid=0#gid=0) (Google Sheet) и [Обоснование](/rationale) — подробный разбор проблематики и примеров, стоящих за этими принципами.*
+*См. также [глоссарий перевода](/glossary) — таблица с поиском, переводами и определениями из канона — и [Обоснование](/rationale) — подробный разбор проблематики и примеров, стоящих за этими принципами. Рабочая таблица — [Google Sheet](https://docs.google.com/spreadsheets/d/1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg/edit?gid=0#gid=0).*
 
 Принципы и положения, применённые в случаях "перевод o" — текст полностью переведён с пали, или "ред. o" — фрагмент текста изменён согласно пали оригиналу, согласно этим Принципам.
 
