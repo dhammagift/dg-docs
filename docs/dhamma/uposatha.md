@@ -19,16 +19,10 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 <PageTools />
 
-In the suttas the Uposatha is the Buddha's observance day. On the eighth, fourteenth and fifteenth of each half-month a lay
-follower keeps the eight precepts for a night and a day and lives, for that time, as the arahants live — the eight-factored
-uposatha the Buddha sets out in AN 3.70 (<SiteLink to="/an3.70">read →</SiteLink>); the Saṅgha gathers on the same days to
-recite the Pātimokkha (Vinaya, Mahāvagga 2). The calendar below marks these days, and the passages behind each are gathered
-in its "From the suttas" list.
+The Uposatha is a special day for intensified practice — the 14th, 15th and 8th lunar day of each half-month. A list of the
+key suttas, from which you can work out for yourself when and how to keep the Uposatha, is [here](pathname:///uposatha-calendar#keys).
 
-The calendar shows the Uposatha days as the suttas count them — the 14th, 15th and 8th lunar days of each half-month, six a
-month — with the exact moments in your time zone and place. It is a [page of its own](pathname:///uposatha-calendar), part of
-the app; below is the real page, a live demo (scroll inside it, or open it in a new window). This page explains how to read it and what its settings do. The suttas themselves are on
-the calendar page (the slideshow "From the suttas" and its "Show all" list).
+The calendar shows the Uposatha days as the suttas describe them. Below is the real page, a live demo.
 
 <UposathaCalendar />
 
