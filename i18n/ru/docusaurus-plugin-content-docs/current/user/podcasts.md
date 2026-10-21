@@ -43,10 +43,10 @@ export const Show = ({cover, title, lang, badges}) => (
   badges={[
     [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLR9ba080Y--4'],
     [ApplePodcasts, 'Listen on Apple Podcasts', 'https://podcasts.apple.com/us/podcast/suttas-and-vinaya-in-pāli/id6825338351'],
-    [YandexMusicSoon, 'Coming soon to Yandex Music'],
     [AmazonMusic, 'Listen on Amazon Music', 'https://music.amazon.com/podcasts/2d52d312-7433-4337-be88-0296b4f137fb'],
     [PodcastIndex, 'Listen on Podcast Index', 'https://podcastindex.org/podcast/8079440'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/pli.xml'],
+    [YandexMusicSoon, 'Coming soon to Yandex Music'],
   ]}
 />
 
@@ -57,10 +57,10 @@ export const Show = ({cover, title, lang, badges}) => (
   badges={[
     [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLY1n40Yg4a1o'],
     [ApplePodcasts, 'Listen on Apple Podcasts', 'https://podcasts.apple.com/us/podcast/сутты-и-виная-палийского-канона/id6825337615'],
-    [YandexMusicSoon, 'Coming soon to Yandex Music'],
     [AmazonMusic, 'Listen on Amazon Music', 'https://music.amazon.com/podcasts/e7de6ae9-f8ab-4cce-a33f-887680355adb'],
     [PodcastIndex, 'Listen on Podcast Index', 'https://podcastindex.org/podcast/8079443'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/ru.xml'],
+    [YandexMusicSoon, 'Coming soon to Yandex Music'],
   ]}
 />
 
@@ -69,12 +69,12 @@ export const Show = ({cover, title, lang, badges}) => (
   title="Suttas and Vinaya of the Pali Canon"
   lang="Английский"
   badges={[
-    [Spotify, 'Listen on Spotify', 'https://open.spotify.com/show/03BVbxuiraGTgNW29OPDk7'],
     [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLJK1dkppMGjg'],
     [ApplePodcasts, 'Listen on Apple Podcasts', 'https://podcasts.apple.com/us/podcast/suttas-and-vinaya-of-the-pali-canon/id6825338912'],
     [AmazonMusic, 'Listen on Amazon Music', 'https://music.amazon.com/podcasts/8e33cb05-3488-4f4b-ba0e-30323067a8c4'],
     [PodcastIndex, 'Listen on Podcast Index', 'https://podcastindex.org/podcast/8079442'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/en.xml'],
+    [Spotify, 'Listen on Spotify', 'https://open.spotify.com/show/03BVbxuiraGTgNW29OPDk7'],
   ]}
 />
 
