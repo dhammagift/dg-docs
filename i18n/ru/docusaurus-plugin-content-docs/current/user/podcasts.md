@@ -73,6 +73,7 @@ export const Show = ({cover, title, lang, badges}) => (
     [YouTubeMusic, 'Listen on YouTube Music', 'https://www.youtube.com/playlist?list=PLJK1dkppMGjg'],
     [ApplePodcasts, 'Listen on Apple Podcasts', 'https://podcasts.apple.com/us/podcast/suttas-and-vinaya-of-the-pali-canon/id6825338912'],
     [AmazonMusic, 'Listen on Amazon Music', 'https://music.amazon.com/podcasts/8e33cb05-3488-4f4b-ba0e-30323067a8c4'],
+    [PodcastIndex, 'Listen on Podcast Index', 'https://podcastindex.org/podcast/8079442'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/en.xml'],
   ]}
 />
