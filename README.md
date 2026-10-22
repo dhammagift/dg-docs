@@ -1,104 +1,116 @@
-# dg-docs — справочный портал Dhamma.Gift
+# dg-docs — Dhamma.Gift reference portal
 
-Docusaurus. Отсюда собирается то, что читатель видит на **dhamma.gift/docs/** (английский)
-и **dhamma.gift/ru/docs/** (русский). Контент — в `docs/` (EN) и
-`i18n/ru/docusaurus-plugin-content-docs/current/` (RU); у каждой страницы свой `slug`,
-он и есть кусок URL после `/docs/`.
+Docusaurus. This is where the content the reader sees on **dhamma.gift/docs/** (English)
+and **dhamma.gift/ru/docs/** (Russian) is assembled. The content lives in `docs/` (EN) and
+`i18n/ru/docusaurus-plugin-content-docs/current/` (RU); each page has its own `slug`,
+which is the part of the URL after `/docs/`.
 
-Сюда же ведут Support URL и Privacy Policy URL приложения в App Store и Google Play,
-и легаси-редиректы старого сайта (`privacy.html` → `/docs/policies` и т.п., список —
-в `dg-node/dg-fastify.js`).
+This is also where the Support URL and Privacy Policy URL for the app in the App Store and Google Play point,
+and where legacy redirects from the old site live (`privacy.html` → `/docs/policies` and similar; the list is
+in `dg-node/dg-fastify.js`).
 
-## Локально
+## Local development
 
 ```bash
-npm install          # package-lock.json тут нет, поэтому npm ci не сработает
-npm run start        # EN, localhost:3000, с живой перезагрузкой
-npm run build        # то, что уедет в прод (EN) → build/
-npm run build:ru     # то же для RU → build-ru/
+npm install          # there is no package-lock.json here, so npm ci will not work
+npm run start        # EN, localhost:3000, live reload
+npm run build        # what gets deployed to production (EN) → build/
+npm run build:ru     # same for RU → build-ru/
 ```
 
-## Как правка попадает на прод
+## How changes reach production
 
-Ветки `dist` и `dist-preview` — **артефакты сборки, а не история**. Их никто не редактирует
-руками: CI каждый раз перезаписывает их одним коммитом через force-push.
+Branches `dist` and `dist-preview` are **build artifacts, not history**. Nobody edits them
+by hand: CI rewrites them with a single force-push commit every time.
 
 ```
-  правка в docs/ или i18n/
-            │
-            ├── push в preview ──► CI собирает ──► ветка dist-preview ──► test.dhamma.gift
-            │                     (build.yml)
-            │
-            └── push в main ─────► CI собирает ──► ветка dist ─────────► dhamma.gift
-                                  (build.yml)
+   change in docs/ or i18n/
+             │
+             ├── push to preview ──► CI builds ──► dist-preview branch ──► test.dhamma.gift
+             │                     (build.yml)
+             │
+             └── push to main ─────► CI builds ──► dist branch ─────────► dhamma.gift
+                                   (build.yml)
 ```
 
-Последний шаг — на сервере: в чекауте dg-node лежит папка `dg-docs/`, это клон ветки `dist`,
-который обновляется периодическим `git fetch && git reset --hard origin/dist`. Дальше
-dg-fastify раздаёт готовый HTML:
+The last step is on the server: in the checkout for `dg-node`, there is a folder `dg-docs/`, which is a clone of the `dist` branch,
+and it is refreshed periodically via `git fetch && git reset --hard origin/dist`. Then
+`dg-fastify` serves the generated HTML:
 
-- `siteroot/docs` — симлинк на `../dg-docs/build`, подхватывается автосканом `siteroot/` → `/docs/`
-- `/ru/docs` — явный статик-маунт на `dg-docs/build-ru` (`dg-fastify.js`, искать `build-ru`)
+- `siteroot/docs` — symlink to `../dg-docs/build`, picked up by the root-site scanner → `/docs/`
+- `/ru/docs` — explicit static mount to `dg-docs/build-ru` (`dg-fastify.js`, search for `build-ru`)
 
-**Сервер ничего не собирает.** Две сборки Docusaurus просят около гигабайта памяти, а машина
-уже падала от её нехватки — поэтому сборка живёт в CI, а на сервер приезжает готовый HTML.
-Node на проде для доков не нужен вовсе.
+**The server does not build anything.** Two Docusaurus builds need roughly a gigabyte of memory, and the machine
+has already crashed from running out of it, so the build lives in CI, and the server receives ready-made HTML.
+Node is not needed on production for docs at all.
 
-Перезапускать ничего не надо: статика читается с диска на лету. Задержка между пушем в `main`
-и обновлением сайта = сборка в CI (пара минут) + период `git pull` на сервере.
+Nothing needs to be restarted: the static files are read from disk on the fly. The delay between a push to `main`
+and the site update = CI build time (a few minutes) + the periodic `git pull` on the server.
 
-## Глоссарий (`/glossary`)
+## Glossary (`/glossary`)
 
-Страницы `/glossary` (EN) и `/ru/glossary` (RU) — не обычный markdown: таблица собирается из
-публичной Google Sheet, ссылка на которую есть на `/principles`.
+Pages `/glossary` (EN) and `/ru/glossary` (RU) are not ordinary markdown: the table is generated from
+a public Google Sheet, whose link is available on `/principles`.
 
 ```
 Google Sheet (gid=0)
   → node scripts/sync-glossary.mjs
-  → src/data/glossary.json (коммитится)
+  → src/data/glossary.json (committed)
   → src/components/GlossaryTable.jsx
   → /docs/glossary, /ru/docs/glossary
 ```
 
-- `npm run glossary` — пересобрать `src/data/glossary.json` вручную (Node 20+, нужна сеть).
-- `npm test` — тесты парсера на фикстуре `scripts/fixtures/sheet-sample.csv`.
-- `.github/workflows/glossary-sync.yml` — раз в сутки в 00:17 UTC тянет таблицу, коммитит
-  `src/data/glossary.json` **только если данные изменились** и запускает `build.yml` для `main`
-  (и для `preview`, если тот обновился фаст-форвардом). Пуш от `GITHUB_TOKEN` не триггерит
-  workflow, поэтому сборка запускается через `gh workflow run`.
-- EN-страница берёт только колонку «Англ» (D). Пустая ячейка перевода = в таблице нет
-  английского для этого термина; F/G, вкладка 4nt и машинная колонка H не используются.
-- Сгенерированные данные — исключение из правила «сначала preview»: когда `preview` не ушёл
-  вперёд, один и тот же коммит получают и `main`, и `preview`, потому что страницу проверяет
-  сама сборка. Если в `preview` уже есть невыкатанные правки, обновляется только `main` —
-  данные приедут на тест вместе со следующим обычным пушем в `preview`.
+- `npm run glossary` — regenerate `src/data/glossary.json` manually (Node 20+, internet needed).
+- `npm test` — parser tests using fixture `scripts/fixtures/sheet-sample.csv`.
+- `.github/workflows/glossary-sync.yml` — once a day at 00:17 UTC pulls the table, commits
+  `src/data/glossary.json` **only if data changed** and triggers `build.yml` for `main`
+  (and for `preview` if that branch was fast-forwarded). A push from `GITHUB_TOKEN` does not
+  trigger the workflow, so the build is launched through `gh workflow run`.
+- EN page uses only the “English” column (D). A blank translation cell means there is no
+  English for that term; F/G, tab 4nt, and machine column H are not used.
+- Generated data is an exception to the “preview first” rule: when `preview` has not been moved
+  forward, the same commit gets sent to both `main` and `preview`, because the page validates itself.
+  If `preview` already contains unpushed changes, only `main` is updated — the data will arrive with the next normal push to `preview`.
+- **If columns are renamed or rearranged in the sheet** — the job fails with a message describing which
+  headers it found, and the page stays on the previous version. Fix `COLUMN_SPECS` in
+  `scripts/lib/glossary.mjs`, then run `npm run glossary && npm test`.
 
-**Если в таблице переименовали или переставили колонки** — job упадёт с сообщением, какие
-заголовки он нашёл, и страница останется на прошлой версии. Поправить `COLUMN_SPECS` в
-`scripts/lib/glossary.mjs`, затем `npm run glossary && npm test`.
+Manual run: Actions → “Glossary sync” → Run workflow. It always syncs `main`.
 
-Ручной запуск: Actions → «Glossary sync» → Run workflow. Он всегда синхронизирует `main`.
+## Rules
 
-## Правила
-
-1. **Сначала `preview`, потом `main`.** Правка едет на test.dhamma.gift, там её смотрят,
-   и только потом она попадает к читателям.
-2. **`preview` не должен отставать от `main`.** Модель рассчитана на то, что `main`
-   фаст-форвардится из `preview`. Пуш напрямую в `main` разводит ветки, и фаст-форвард
-   перестаёт работать. Если так уже случилось — догнать preview:
+1. **Preview first, then main.** Changes go to test.dhamma.gift first, where they are reviewed,
+   and only then do they reach readers.
+2. **`preview` must not lag behind `main`.** The model assumes `main` is fast-forwarded from `preview`.
+   Pushing directly to `main` splits the branches, and fast-forward no longer works. If it already happened —
    `git checkout preview && git merge --ff-only main && git push origin preview`.
-3. **`dist` и `dist-preview` руками не трогать.** Любая правка там умрёт при следующей сборке.
-4. **Шаллоу-клон врёт про ветки.** `git clone --depth 1` не видит общего предка: `git log
-   main..preview` покажет выдуманное расхождение, а `git merge` ответит «refusing to merge
-   unrelated histories». Перед разбором веток — `git fetch --depth=200 origin main preview`.
+3. **Do not touch `dist` or `dist-preview` by hand.** Any change there will die with the next build.
+4. **Shallow clones lie about branches.** `git clone --depth 1` does not show a common ancestor:
+   `git log main..preview` may show a fake divergence, and `git merge` may say
+   “refusing to merge unrelated histories”. Before untangling branches, run:
+   `git fetch --depth=200 origin main preview`.
 
-## Проверить, что доехало
+## Check that it reached production
 
 ```bash
-git log --oneline -1 origin/main                 # что должно быть на проде
-git log --oneline -1 origin/dist                 # что собрал CI (в сообщении — исходный commit)
-git log --oneline origin/preview..origin/main    # пусто = ветки в порядке
+git log --oneline -1 origin/main                 # what should be on production
+git log --oneline -1 origin/dist                 # what CI built (the source commit is in the message)
+git log --oneline origin/preview..origin/main    # empty = branches are in order
 ```
 
-Страница не обновилась — смотреть в этом порядке: прошла ли сборка (вкладка Actions),
-появился ли новый коммит в `dist`, успел ли сервер сделать `git pull`.
+If the page did not update, check in this order: whether the build passed (Actions tab),
+whether a new commit appeared in `dist`, and whether the server finished `git pull`.
+```
+
+Что ещё на русском я нашёл в других README:
+
+- `dhammagift/dg-node/README.md` — mostly in Russian
+- `dhammagift/dg-apps/docs/ios-review/README.md` — fully in Russian
+- `dhammagift/dg-docs/README.md` — was also Russian (the original one you showed)
+
+I also checked a bunch of other repos: most top-level README files are in English, but there are some Russian docs in nested folders and project notes (for example the iOS review docs under `dg-apps`).
+
+If you want, I can also:
+- make a clean English version of `dg-node/README.md`
+- help you find all Russian README files across the whole `dhammagift` org
+- prepare a “Russian → English” pass for the most important documentation files in one batch
