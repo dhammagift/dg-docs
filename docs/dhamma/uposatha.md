@@ -11,6 +11,7 @@ import UpoParts from '@site/static/img/help/uposatha-parts-en.png';
 import UpoSettings from '@site/static/img/help/uposatha-settings-en.png';
 import AlbumartUposatha from '@site/static/img/thumb/albumart-uposatha-nobg.webp';
 import SiteLink from '@site/src/components/SiteLink';
+import CalendarLink from '@site/src/components/CalendarLink';
 import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 # Uposatha days
@@ -19,10 +20,10 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 <PageTools />
 
-The calendar shows the Uposatha days as the suttas count them — the 14th, 15th and 8th lunar days of each half-month, six a
-month — with the exact moments in your time zone and place. It is a [page of its own](pathname:///uposatha-calendar), part of
-the app; below is the real page, a live demo (scroll inside it, or open it in a new window). This page explains how to read it and what its settings do. The suttas themselves are on
-the calendar page (the slideshow "From the suttas" and its "Show all" list).
+The Uposatha is a special day for intensified practice — the 14th, 15th and 8th lunar day of each half-month. A list of the
+key suttas, from which you can work out for yourself when and how to keep the Uposatha, is <CalendarLink hash="keys" href="/uposatha-calendar?lang=en#keys">here</CalendarLink>.
+
+The calendar shows the Uposatha days as the suttas describe them. Below is the real page, a live demo.
 
 <UposathaCalendar />
 
@@ -34,12 +35,13 @@ the calendar page (the slideshow "From the suttas" and its "Show all" list).
   <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Open the calendar as a web app" style={{maxWidth: '200px'}} /></SiteLink>
 </div>
 
+- **Android** — *Uposatha by the Suttas* on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.uposatha): the calendar as an app.
 - **Windows 11** — *Uposatha by the Suttas* in the [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN): the calendar in its own window and three
   widgets for the Widgets Board (Win + W, then "+"). *Uposatha + kala* — how long to the next Uposatha day and whether it is the
   time for food now; *Day & night* — the part of the day or night that is going on; *Month* — the month with the Uposatha days marked.
 - **Telegram** — `/uposatha` in the chat of [@dgift_bot](https://t.me/dgift_bot), or `@dgift_bot uposatha Chiang Mai` typed in
   any chat: the next 30 days with the sun times of your city. More on the [Telegram bot](/telegram-bot) page.
-- **Any browser** — the [calendar page](pathname:///uposatha-calendar); the browser's menu installs it as an app.
+- **Any browser** — the <SiteLink to="/uposatha-calendar">calendar page</SiteLink>; the browser's menu installs it as an app.
 
 ## Reading the calendar
 

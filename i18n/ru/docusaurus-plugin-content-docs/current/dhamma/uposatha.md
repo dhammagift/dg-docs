@@ -11,6 +11,7 @@ import UpoParts from '@site/static/img/help/uposatha-parts.png';
 import UpoSettings from '@site/static/img/help/uposatha-settings.png';
 import AlbumartUposatha from '@site/static/img/thumb/albumart-uposatha-nobg.webp';
 import SiteLink from '@site/src/components/SiteLink';
+import CalendarLink from '@site/src/components/CalendarLink';
 import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 # Дни упосатхи
@@ -19,10 +20,10 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 <PageTools />
 
-Календарь показывает дни упосатхи так, как их считают сутты, — 14-й, 15-й и 8-й лунные дни каждой половины месяца, шесть в
-месяц, — с точными моментами в вашем часовом поясе и месте. Это [отдельная страница](pathname:///uposatha-calendar), часть
-приложения; ниже настоящая страница, живая демонстрация (листайте внутри или откройте в новом окне). Здесь описано, как его читать и что делают настройки. Сами сутты — на странице календаря
-(слайдшоу «Из сутт» и список «Показать все»).
+Упосатха — это особый день для усиленной практики. Это 14-й, 15-й и 8-й лунный день каждой половины месяца. Список ключевых
+сутт, по которым вы самостоятельно можете разобраться, когда и как проводить упосатхи, — <CalendarLink hash="keys" href="/uposatha-calendar?lang=ru#keys">здесь</CalendarLink>.
+
+Календарь показывает дни упосатхи так, как это описано в суттах. Ниже настоящая страница, живая демонстрация.
 
 <UposathaCalendar />
 
@@ -34,12 +35,13 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
   <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Открыть календарь как веб-приложение" style={{maxWidth: '200px'}} /></SiteLink>
 </div>
 
+- **Android** — *Uposatha by the Suttas* в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.uposatha): календарь как приложение.
 - **Windows 11** — *Uposatha by the Suttas* в [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN): календарь в своём окне и три виджета для доски
   виджетов (Win + W, затем «+»). *Uposatha + kala* — сколько до ближайшей упосатхи и время ли сейчас для еды; *Day & night* —
   какая часть дня или ночи идёт; *Month* — месяц с отмеченными днями упосатхи.
 - **Telegram** — `/uposatha` в чате с [@dgift_bot](https://t.me/dgift_bot) или `@dgift_bot упосатха Алматы`, набранное в любом
   чате: ближайшие 30 дней с временами Солнца для вашего города. Подробнее — на странице [Телеграм-бот](/telegram-bot).
-- **Любой браузер** — [страница календаря](pathname:///uposatha-calendar); через меню браузера она ставится как приложение.
+- **Любой браузер** — <SiteLink to="/uposatha-calendar">страница календаря</SiteLink>; через меню браузера она ставится как приложение.
 
 ## Как читать календарь
 
