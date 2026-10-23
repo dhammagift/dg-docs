@@ -111,7 +111,12 @@ function withLang(link, locale) {
 }
 
 function linkLabel(link) {
-  return String(link).replace(/^https?:\/\/[^/]+/i, '').replace(/^\//, '');
+  return suttaLabel(String(link).replace(/^https?:\/\/[^/]+/i, '').replace(/^\//, ''));
+}
+
+// A reference links to its line (dn22:18.18) but reads as the sutta (dn22): readers see the text, the link opens the line
+function suttaLabel(ref) {
+  return String(ref).replace(/[?#].*$/, '').replace(/:[\d.]+$/, '');
 }
 
 function absoluteLink(link, locale) {
@@ -159,8 +164,8 @@ function RefChip({value, locale, t}) {
   if (more) return <span className="dg-glossary__more">{t.more(Number(more[1]))}</span>;
   if (!REF_ID.test(value)) return <span className="dg-glossary__chip dg-glossary__chip--text">{value}</span>;
   return (
-    <SiteLink className="dg-glossary__chip" to={withLang(`/${value}`, locale)}>
-      {value}
+    <SiteLink className="dg-glossary__chip" to={withLang(`/${value}`, locale)} title={value}>
+      {suttaLabel(value)}
     </SiteLink>
   );
 }
