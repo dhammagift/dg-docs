@@ -19,7 +19,7 @@
       "num": 370,
       "pali": "abhinandati",
       "ru": "обрадоваться, радоваться",
-      "en": ""
+      "en": "to be delighted, to delight"
     },
     {
       "id": "abhinna",
@@ -2947,7 +2947,7 @@
       "num": null,
       "pali": "dukkhā vedanā",
       "ru": "болезненное чувствование",
-      "en": "",
+      "en": "painful feeling",
       "rationale": {
         "en": "/rationale#dukkha",
         "ru": "/rationale#dukkha"
@@ -3878,7 +3878,7 @@
       "num": 368,
       "pali": "parimaddana",
       "ru": "пере-минание",
-      "en": ""
+      "en": "kneading-through (crumpling)"
     },
     {
       "id": "parinibbana",
@@ -3899,7 +3899,7 @@
       "num": 366,
       "pali": "pariññāta",
       "ru": "всестороннее понимание",
-      "en": ""
+      "en": "comprehensive understanding"
     },
     {
       "id": "parinnaya",
@@ -4047,7 +4047,7 @@
       "num": 369,
       "pali": "pipāsā",
       "ru": "желание пить, жажда",
-      "en": ""
+      "en": "wish to drink, thirst"
     },
     {
       "id": "pisuna-vaca",
@@ -4424,8 +4424,8 @@
       "id": "sancetana",
       "num": 371,
       "pali": "sañcetanā",
-      "ru": "замышливание, замысел",
-      "en": ""
+      "ru": "осмысливание, замышливание, замысел",
+      "en": "comprehending, devising, design"
     },
     {
       "id": "sanditthiko",
@@ -4646,7 +4646,7 @@
       "num": null,
       "pali": "sukhā vedanā",
       "ru": "приятное чувствование",
-      "en": "",
+      "en": "pleasant feeling",
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
@@ -4742,7 +4742,7 @@
       "num": 367,
       "pali": "ucchādana",
       "ru": "покрывание",
-      "en": ""
+      "en": "covering"
     },
     {
       "id": "uddhacca",
