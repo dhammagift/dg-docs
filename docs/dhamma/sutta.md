@@ -132,7 +132,7 @@ voice breaks his samādhi, and the next generation follows the example.
 
 ## The four truths in depth — Hatthipada
 
-As in <SiteLink to="/mn28?lang=en">MN 28</SiteLink>: the footprints of all animals fit into the elephant's, and everything skilful fits into the four noble truths. <SiteLink to="/hatthipada/?lang=en">Hatthipada</SiteLink> shows how the suttas themselves define every word of the truths: click a word and its definitions open ("Katamā ca, bhikkhave, X?" … "idaṁ vuccati X"), their words click again, as deep as you go. Only the Pāḷi of the four nikāyas and the suttas' own formulas; the translation is a reference.
+As in <SiteLink to="/mn28:2.1?lang=en&hide=id">MN 28</SiteLink>: the footprints of all animals fit into the elephant's, and everything skilful fits into the four noble truths. <SiteLink to="/hatthipada/?lang=en">Hatthipada</SiteLink> shows how the suttas themselves define every word of the truths: click a word and its definitions open ("Katamā ca, bhikkhave, X?" … "idaṁ vuccati X"), their words click again, as deep as you go. Only the Pāḷi of the four nikāyas and the suttas' own formulas; the translation is a reference.
 
 <SiteLink to="/hatthipada/?lang=en">Open Hatthipada →</SiteLink>
 
