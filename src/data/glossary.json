@@ -1561,7 +1561,7 @@
       "num": 54,
       "pali": "āvuso",
       "ru": "товарищ",
-      "en": "fellow, friend (polite form of address between peers; weaker and more formal than mitta, a real friend)",
+      "en": "fellow, friend",
       "canon": {
         "patterns": [
           "dn9",
@@ -4628,7 +4628,7 @@
       "num": 294,
       "pali": "sugato",
       "ru": "благой",
-      "en": "Auspicious One, Good One"
+      "en": "Good One"
     },
     {
       "id": "sukha",
