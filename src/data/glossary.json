@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-23",
   "source": {
     "sheetId": "1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg",
     "gid": "0",
@@ -12,6 +12,13 @@
       "num": 1,
       "pali": "abhijjhā",
       "ru": "алчность",
+      "en": "covetousness"
+    },
+    {
+      "id": "abhinandati",
+      "num": 370,
+      "pali": "abhinandati",
+      "ru": "обрадоваться, радоваться",
       "en": ""
     },
     {
@@ -19,7 +26,7 @@
       "num": 2,
       "pali": "abhiññā",
       "ru": "прямое знание, опознание (способность определить)",
-      "en": "",
+      "en": "direct knowledge, recognition (ability to identify)",
       "canon": {
         "patterns": [
           "dn16",
@@ -44,7 +51,7 @@
       "num": 3,
       "pali": "abhiññāya",
       "ru": "для опознания (прямого знания)",
-      "en": "",
+      "en": "for recognition (direct knowledge)",
       "canon": {
         "broader": [
           "snp5.3"
@@ -55,15 +62,15 @@
       "id": "abyapada",
       "num": 4,
       "pali": "abyāpāda",
-      "ru": "без-враждебности",
-      "en": ""
+      "ru": "без-враждебность, не-враждебность",
+      "en": "non-hostility"
     },
     {
       "id": "adhamma",
       "num": 5,
       "pali": "adhamma",
       "ru": "не-Дхамма",
-      "en": "",
+      "en": "non-Dhamma",
       "canon": {
         "where": [
           "an10.114",
@@ -130,7 +137,7 @@
       "num": 6,
       "pali": "ādīnava",
       "ru": "недостаток-опасность",
-      "en": "",
+      "en": "drawback-danger",
       "canon": {
         "patterns": [
           "an10.60"
@@ -160,7 +167,7 @@
       "num": 7,
       "pali": "adinnādāna",
       "ru": "неданного-взятие",
-      "en": "",
+      "en": "not-given-taking",
       "canon": {
         "broader": [
           "an5.178"
@@ -172,7 +179,7 @@
       "num": 8,
       "pali": "adinnādānā veramaṇī",
       "ru": "неданного-взятия неприемлющий",
-      "en": "",
+      "en": "non-accepting of not-given-taking",
       "canon": {
         "broader": [
           "an5.178"
@@ -184,7 +191,7 @@
       "num": 9,
       "pali": "āhuneyyo",
       "ru": "достойная-подношений",
-      "en": "",
+      "en": "worthy-of-offerings",
       "canon": {
         "compounds": [
           "āhuneyyaggi"
@@ -204,7 +211,7 @@
       "num": 10,
       "pali": "akāliko",
       "ru": "вневременное",
-      "en": "",
+      "en": "timeless",
       "canon": {
         "broader": [
           "sn1.20",
@@ -227,7 +234,7 @@
       "num": 11,
       "pali": "ākāsadhātu",
       "ru": "пространства-дхату",
-      "en": "",
+      "en": "space-dhatu",
       "canon": {
         "where": [
           "mn62",
@@ -250,7 +257,7 @@
       "num": 12,
       "pali": "ākāsānañcāyatana",
       "ru": "пространства-бескрайнего-область",
-      "en": "",
+      "en": "boundless-space-domain",
       "canon": {
         "where": [
           "sn40.5"
@@ -271,7 +278,7 @@
       "num": 13,
       "pali": "ākiñcaññāyatana",
       "ru": "без-чего-либо-область",
-      "en": "",
+      "en": "nothing-whatsoever-domain",
       "canon": {
         "where": [
           "sn40.7"
@@ -292,7 +299,7 @@
       "num": 14,
       "pali": "akusala",
       "ru": "неблаготворное, неумелое, неэффективное",
-      "en": "",
+      "en": "unbeneficial, unskillful, ineffective",
       "canon": {
         "where": [
           "mn9",
@@ -323,7 +330,7 @@
       "num": 15,
       "pali": "Akusala kammapatha",
       "ru": "Десять путей, направлений неблаготворной активности",
-      "en": ""
+      "en": "Ten paths, directions of unbeneficial activity"
     },
     {
       "id": "akusalamula",
@@ -337,14 +344,14 @@
       "num": 16,
       "pali": "anabhijjhā",
       "ru": "без-алчности",
-      "en": ""
+      "en": "non-covetousness"
     },
     {
       "id": "anagami",
       "num": 17,
       "pali": "anāgāmī",
       "ru": "невозвращающийся",
-      "en": "",
+      "en": "non-returner",
       "canon": {
         "patterns": [
           "iti96"
@@ -436,7 +443,7 @@
       "num": 19,
       "pali": "anattha",
       "ru": "бесцельное (не-благо)",
-      "en": "",
+      "en": "purposeless (non-benefit)",
       "canon": {
         "where": [
           "an10.137",
@@ -479,7 +486,7 @@
       "num": 20,
       "pali": "aṅga",
       "ru": "Аспект",
-      "en": "",
+      "en": "Aspect",
       "canon": {
         "patterns": [
           "mn5",
@@ -569,7 +576,7 @@
       "num": 22,
       "pali": "animitta",
       "ru": "без-знаковость",
-      "en": "",
+      "en": "signlessness",
       "canon": {
         "patterns": [
           "sn40.9"
@@ -587,14 +594,14 @@
       "num": 23,
       "pali": "añjalikaraṇīyo",
       "ru": "достойная-приветствия-сложенными-руками",
-      "en": ""
+      "en": "worthy-of-greeting-with-joined-palms"
     },
     {
       "id": "anta",
       "num": 24,
       "pali": "anta",
       "ru": "край (граница, порог), конец",
-      "en": "",
+      "en": "edge (boundary, threshold), end",
       "canon": {
         "compounds": [
           "antevāsūpaddavo",
@@ -690,14 +697,14 @@
       "num": 25,
       "pali": "anuloma",
       "ru": "прямой порядок",
-      "en": ""
+      "en": "forward order"
     },
     {
       "id": "anunaya",
       "num": 26,
       "pali": "anunaya",
       "ru": "привлечение (одобрение)",
-      "en": ""
+      "en": "attraction (approval)"
     },
     {
       "id": "anusaya",
@@ -717,28 +724,28 @@
       "num": 28,
       "pali": "anuttaraṁ puññakkhettaṁ lokassa",
       "ru": "непревзойденное поле блага для мира",
-      "en": ""
+      "en": "unsurpassed field of good for the world"
     },
     {
       "id": "anuttaro-purisadammasarathi",
       "num": 29,
       "pali": "anuttaro purisadammasārathi",
       "ru": "непревзойдённый людей-дрессировщик-погонщик",
-      "en": ""
+      "en": "unsurpassed trainer-driver of people"
     },
     {
       "id": "api",
       "num": 30,
       "pali": "api",
       "ru": "в том числе",
-      "en": ""
+      "en": "including"
     },
     {
       "id": "apodhatu",
       "num": 31,
       "pali": "āpodhātu",
       "ru": "жидкости-дхату",
-      "en": "",
+      "en": "liquid-dhatu",
       "canon": {
         "where": [
           "mn28",
@@ -765,7 +772,7 @@
       "num": 32,
       "pali": "appamāda",
       "ru": "не-беспечность",
-      "en": "",
+      "en": "non-carelessness",
       "canon": {
         "where": [
           "sn48.56"
@@ -786,7 +793,7 @@
       "num": 33,
       "pali": "appaṇihita",
       "ru": "без-направленность (без-устремленность)",
-      "en": "",
+      "en": "directionlessness (non-aspiration)",
       "canon": {
         "patterns": [
           "sn43.4",
@@ -799,7 +806,7 @@
       "num": 34,
       "pali": "appiyehi sampayogo",
       "ru": "с-нелюбимыми-соединение",
-      "en": "",
+      "en": "union-with-the-unloved",
       "canon": {
         "patterns": [
           "dn22"
@@ -814,7 +821,7 @@
       "num": 35,
       "pali": "apuñña",
       "ru": "не-благо",
-      "en": "",
+      "en": "non-good",
       "canon": {
         "patterns": [
           "an6.63"
@@ -879,7 +886,7 @@
       "num": 37,
       "pali": "arati",
       "ru": "не-радование, неприязнь",
-      "en": "",
+      "en": "non-delight, aversion",
       "canon": {
         "patterns": [
           "dn15",
@@ -929,7 +936,7 @@
       "num": 38,
       "pali": "ariya",
       "ru": "благородный",
-      "en": "",
+      "en": "noble",
       "canon": {
         "where": [
           "mn22",
@@ -1090,14 +1097,14 @@
       "num": 41,
       "pali": "arūparāga",
       "ru": "безобразо-очарованность",
-      "en": ""
+      "en": "imageless-fascination"
     },
     {
       "id": "asankhata",
       "num": 42,
       "pali": "asaṅkhata",
       "ru": "не-составное, не-составленное",
-      "en": "",
+      "en": "non-composite, non-composed",
       "canon": {
         "where": [
           "sn43.1",
@@ -1135,7 +1142,7 @@
       "num": 43,
       "pali": "asappurisa",
       "ru": "нечистый человек",
-      "en": "",
+      "en": "impure person",
       "canon": {
         "where": [
           "sn45.25",
@@ -1188,7 +1195,7 @@
       "num": 44,
       "pali": "asāta",
       "ru": "дискомфорт",
-      "en": "",
+      "en": "discomfort",
       "canon": {
         "broader": [
           "dn3"
@@ -1251,7 +1258,7 @@
       "num": 46,
       "pali": "asekha",
       "ru": "не-ученик",
-      "en": "",
+      "en": "non-learner",
       "canon": {
         "where": [
           "an10.111"
@@ -1269,7 +1276,7 @@
       "num": 47,
       "pali": "assāda",
       "ru": "привлекательность, наслаждение",
-      "en": "",
+      "en": "attraction, enjoyment",
       "canon": {
         "patterns": [
           "sn17.2"
@@ -1299,7 +1306,7 @@
       "num": 48,
       "pali": "assāsa",
       "ru": "выдох",
-      "en": "",
+      "en": "exhalation",
       "canon": {
         "broader": [
           "mn11",
@@ -1314,7 +1321,7 @@
       "num": 49,
       "pali": "asubha",
       "ru": "не-ладность, дисгармония, без-прикрас",
-      "en": "",
+      "en": "non-pleasantness, disharmony, without-embellishment",
       "canon": {
         "patterns": [
           "an10.60"
@@ -1330,7 +1337,7 @@
       "num": 50,
       "pali": "ātāpī",
       "ru": "пылкий",
-      "en": "",
+      "en": "ardent",
       "canon": {
         "where": [
           "sn16.2"
@@ -1375,7 +1382,7 @@
       "num": 51,
       "pali": "attha",
       "ru": "благо, смысл, цель, благо-смысл-цель",
-      "en": "",
+      "en": "benefit, meaning, purpose, benefit-meaning-purpose",
       "canon": {
         "where": [
           "an10.137",
@@ -1528,7 +1535,7 @@
       "num": 53,
       "pali": "avijjānusaya",
       "ru": "к-неразличению-предрасположенность",
-      "en": "",
+      "en": "predisposition-to-non-discernment",
       "canon": {
         "patterns": [
           "sn36.3"
@@ -1554,7 +1561,7 @@
       "num": 54,
       "pali": "āvuso",
       "ru": "товарищ",
-      "en": "",
+      "en": "comrade",
       "canon": {
         "patterns": [
           "dn9",
@@ -1642,7 +1649,7 @@
       "num": 55,
       "pali": "āyatana",
       "ru": "область",
-      "en": "",
+      "en": "domain",
       "canon": {
         "patterns": [
           "sn40.5",
@@ -1663,7 +1670,7 @@
       "num": 56,
       "pali": "ayya",
       "ru": "господин, госпожа",
-      "en": "",
+      "en": "sir, madam",
       "canon": {
         "patterns": [
           "mn44",
@@ -1727,7 +1734,7 @@
       "num": 58,
       "pali": "bāla",
       "ru": "незрелый",
-      "en": "",
+      "en": "immature",
       "canon": {
         "patterns": [
           "pdhp184"
@@ -1742,21 +1749,21 @@
       "num": 59,
       "pali": "bhadante",
       "ru": "достопочтенный",
-      "en": ""
+      "en": "venerable"
     },
     {
       "id": "bhagava",
       "num": 60,
       "pali": "bhagavā (bhagavata)",
       "ru": "Благословенный (обладающий-Долей)",
-      "en": ""
+      "en": "Blessed One (possessor-of-the-Share)"
     },
     {
       "id": "bhante",
       "num": 61,
       "pali": "bhante",
       "ru": "почтенный",
-      "en": "",
+      "en": "venerable sir",
       "canon": {
         "patterns": [
           "dn6",
@@ -1903,7 +1910,7 @@
       "num": 63,
       "pali": "bhavarāgānusaya",
       "ru": "к-бытия-очарованности-предрасположенность",
-      "en": ""
+      "en": "predisposition-to-being-fascination"
     },
     {
       "id": "bhavasava",
@@ -1917,7 +1924,7 @@
       "num": 64,
       "pali": "bhavataṇhā",
       "ru": "бытия-цепляние (индивидуального)",
-      "en": "",
+      "en": "being-clinging (individual)",
       "canon": {
         "broader": [
           "an10.62"
@@ -1929,7 +1936,7 @@
       "num": 65,
       "pali": "bhāvetabba",
       "ru": "должно-быть-развито",
-      "en": "",
+      "en": "to-be-developed",
       "canon": {
         "patterns": [
           "dn34",
@@ -1964,7 +1971,7 @@
       "num": 66,
       "pali": "bhaya",
       "ru": "тревога, страх, угроза",
-      "en": "",
+      "en": "anxiety, fear, threat",
       "canon": {
         "patterns": [
           "an9.56",
@@ -1999,7 +2006,7 @@
       "num": 67,
       "pali": "bhojanīya",
       "ru": "основное блюдо",
-      "en": "",
+      "en": "main dish",
       "canon": {
         "vinaya": [
           "pli-tv-bi-vb-pc46",
@@ -2058,7 +2065,7 @@
       "num": 69,
       "pali": "brahmacariya",
       "ru": "святая жизнь (Брахмо-поведение)",
-      "en": "",
+      "en": "holy life (Brahma-conduct)",
       "canon": {
         "where": [
           "sn45.6",
@@ -2099,7 +2106,7 @@
       "num": 70,
       "pali": "brāhmaṇa",
       "ru": "брахман",
-      "en": "",
+      "en": "brahmin",
       "canon": {
         "where": [
           "mn39"
@@ -2169,7 +2176,7 @@
       "num": 72,
       "pali": "buddho",
       "ru": "пробуждённый",
-      "en": "",
+      "en": "awakened",
       "canon": {
         "patterns": [
           "sn22.58",
@@ -2209,7 +2216,7 @@
       "num": 74,
       "pali": "cakkhu",
       "ru": "глаз",
-      "en": "",
+      "en": "eye",
       "canon": {
         "compounds": [
           "cakkhumā"
@@ -2256,7 +2263,7 @@
       "num": 76,
       "pali": "catuttha jhāna",
       "ru": "четвёртая джхана",
-      "en": "",
+      "en": "fourth jhana",
       "canon": {
         "where": [
           "sn40.4"
@@ -2294,8 +2301,8 @@
       "id": "cetana",
       "num": 77,
       "pali": "cetanā",
-      "ru": "осмысливание, замысел",
-      "en": "",
+      "ru": "осмысливание",
+      "en": "comprehending",
       "canon": {
         "broader": [
           "an3.77"
@@ -2310,7 +2317,7 @@
       "num": 78,
       "pali": "ceto",
       "ru": "разум, ум-мышление",
-      "en": "",
+      "en": "mind, mind-thinking",
       "canon": {
         "patterns": [
           "mn43",
@@ -2369,7 +2376,7 @@
       "num": 79,
       "pali": "chanda",
       "ru": "импульс (намерение-выбор-согласие)",
-      "en": "",
+      "en": "impulse (intention-choice-consent)",
       "canon": {
         "patterns": [
           "sn51.20"
@@ -2401,7 +2408,7 @@
       "num": 80,
       "pali": "chandasamādhippadhānasaṅkhārasamannāgata iddhipāda",
       "ru": "импульсо-самадхи-старания-составляющими наделенная сверхспособностей основа",
-      "en": "",
+      "en": "impulse-samadhi-endeavor-constituents-endowed basis of super-abilities",
       "canon": {
         "broader": [
           "sn51.9",
@@ -2414,7 +2421,7 @@
       "num": 81,
       "pali": "citta",
       "ru": "ум-состояние",
-      "en": "",
+      "en": "mind-state",
       "canon": {
         "where": [
           "mn78"
@@ -2489,7 +2496,7 @@
       "num": 83,
       "pali": "cittasamādhippadhānasaṅkhārasamannāgata iddhipāda",
       "ru": "умо-состояние-самадхи-старания-составляющими наделенная сверхспособностей основа",
-      "en": "",
+      "en": "mind-state-samadhi-endeavor-constituents-endowed basis of super-abilities",
       "canon": {
         "broader": [
           "sn51.9",
@@ -2502,7 +2509,7 @@
       "num": 84,
       "pali": "dakkhiṇeyyo",
       "ru": "достойная-даров",
-      "en": "",
+      "en": "worthy-of-gifts",
       "canon": {
         "compounds": [
           "dakkhiṇeyyaggi"
@@ -2520,7 +2527,7 @@
       "num": 85,
       "pali": "dāna",
       "ru": "даяние",
-      "en": "",
+      "en": "giving",
       "canon": {
         "patterns": [
           "sn11.12",
@@ -2564,7 +2571,7 @@
       "num": 86,
       "pali": "dassana",
       "ru": "вИдение (смотрение)",
-      "en": "",
+      "en": "seeing (looking)",
       "canon": {
         "compounds": [
           "dassanānuttariyaṁ"
@@ -2596,7 +2603,7 @@
       "num": 87,
       "pali": "deva, devatā",
       "ru": "дэва, божество",
-      "en": "",
+      "en": "deva, deity",
       "canon": {
         "patterns": [
           "mn130",
@@ -2613,7 +2620,7 @@
       "num": 88,
       "pali": "dhamma",
       "ru": "явление (Дхамма), закон, фактичность, Учение, действительность",
-      "en": "",
+      "en": "phenomenon (Dhamma), law, factuality, Teaching, reality",
       "canon": {
         "where": [
           "mn2",
@@ -2717,7 +2724,7 @@
       "num": 89,
       "pali": "dhammānudhamma",
       "ru": "Дхамму-по-Дхамме",
-      "en": ""
+      "en": "Dhamma-in-accordance-with-Dhamma"
     },
     {
       "id": "dhammanupassana",
@@ -2736,7 +2743,7 @@
       "num": 91,
       "pali": "dhammavicaya",
       "ru": "явлений-различение, дхаммо-различение,",
-      "en": "",
+      "en": "phenomena-discernment, dhamma-discernment",
       "canon": {
         "broader": [
           "sn46.2",
@@ -2756,7 +2763,7 @@
       "num": 92,
       "pali": "dhātu",
       "ru": "дхату (феномен)",
-      "en": "",
+      "en": "dhatu (phenomenon)",
       "canon": {
         "compounds": [
           "dhātunānattaṁ"
@@ -2792,7 +2799,7 @@
       "num": 93,
       "pali": "diṭṭhānusaya",
       "ru": "ко-взгляду-предрасположенность",
-      "en": ""
+      "en": "predisposition-to-views"
     },
     {
       "id": "ditthi",
@@ -2812,8 +2819,8 @@
       "id": "domanassa",
       "num": 94,
       "pali": "domanassa",
-      "ru": "недовольство (ментальный дискомфорт)",
-      "en": "",
+      "ru": "недовольство (ментальный дискомфорт), \"страдание\" (страдание в кавычках)",
+      "en": "discontent (mental discomfort), \"suffering\" (in quotes)",
       "canon": {
         "where": [
           "dn22",
@@ -2842,7 +2849,7 @@
       "num": 95,
       "pali": "dosa",
       "ru": "вредность-злоба",
-      "en": "",
+      "en": "harmfulness-malice",
       "canon": {
         "patterns": [
           "an4.200"
@@ -2930,6 +2937,17 @@
           "pli-tv-bu-vb-pj1"
         ]
       },
+      "rationale": {
+        "en": "/rationale#dukkha",
+        "ru": "/rationale#dukkha"
+      }
+    },
+    {
+      "id": "dukkha-vedana",
+      "num": null,
+      "pali": "dukkhā vedanā",
+      "ru": "болезненное чувствование",
+      "en": "",
       "rationale": {
         "en": "/rationale#dukkha",
         "ru": "/rationale#dukkha"
@@ -3096,21 +3114,21 @@
       "num": 101,
       "pali": "dutiya jhāna",
       "ru": "вторая джхана",
-      "en": ""
+      "en": "second jhana"
     },
     {
       "id": "ehi-tvam",
       "num": 102,
       "pali": "ehi tvaṁ",
       "ru": "ты иди",
-      "en": ""
+      "en": "you go"
     },
     {
       "id": "ehipassiko",
       "num": 103,
       "pali": "ehipassiko",
       "ru": "\"приди-и-посмотри\"",
-      "en": ""
+      "en": "\"come-and-see\""
     },
     {
       "id": "esana",
@@ -3124,14 +3142,14 @@
       "num": 105,
       "pali": "evamevaṁ",
       "ru": "точно так",
-      "en": ""
+      "en": "just so"
     },
     {
       "id": "gandha",
       "num": 106,
       "pali": "gandha",
       "ru": "запах",
-      "en": ""
+      "en": "smell"
     },
     {
       "id": "gantha",
@@ -3145,7 +3163,7 @@
       "num": 108,
       "pali": "ghāna",
       "ru": "нос",
-      "en": ""
+      "en": "nose"
     },
     {
       "id": "iddhipada",
@@ -3166,14 +3184,14 @@
       "num": 111,
       "pali": "iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā",
       "ru": "желанные, обожаемые, приятные, миловидные, связанные с желанием, очаровывающие-вызывающие страсть",
-      "en": ""
+      "en": "desired, adored, pleasing, lovely, connected with desire, fascinating-arousing passion"
     },
     {
       "id": "jara",
       "num": 112,
       "pali": "jarā",
       "ru": "старение",
-      "en": ""
+      "en": "aging"
     },
     {
       "id": "jaramarana",
@@ -3208,28 +3226,28 @@
       "num": 115,
       "pali": "jhāyatha",
       "ru": "зажгитесь (пылко старайтесь)",
-      "en": ""
+      "en": "ignite (strive ardently)"
     },
     {
       "id": "jivha",
       "num": 116,
       "pali": "jivhā",
       "ru": "язык",
-      "en": ""
+      "en": "tongue"
     },
     {
       "id": "kalyana",
       "num": 117,
       "pali": "kalyāṇa",
       "ru": "благое (полезное)",
-      "en": ""
+      "en": "good (beneficial)"
     },
     {
       "id": "kama",
       "num": 118,
       "pali": "kāma",
       "ru": "желание",
-      "en": "",
+      "en": "desire",
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
@@ -3254,7 +3272,7 @@
       "num": 121,
       "pali": "kāmarāgānusaya",
       "ru": "к-желанием-очарованности-предрасположенность",
-      "en": ""
+      "en": "predisposition-to-desire-fascination"
     },
     {
       "id": "kamasava",
@@ -3268,21 +3286,21 @@
       "num": 122,
       "pali": "kāmataṇhā",
       "ru": "желания-цепляние",
-      "en": ""
+      "en": "desire-clinging"
     },
     {
       "id": "kamesumicchacara",
       "num": 123,
       "pali": "kāmesumicchācāra",
       "ru": "в-желаниях-ошибочное-поведение",
-      "en": ""
+      "en": "in-desires-wrong-conduct"
     },
     {
       "id": "kamesumicchacara-veramani",
       "num": 124,
       "pali": "kāmesumicchācārā veramaṇī",
       "ru": "в-желаниях-ошибочное-поведение неприемлющий",
-      "en": ""
+      "en": "non-accepting of in-desires-wrong-conduct"
     },
     {
       "id": "kamma",
@@ -3307,28 +3325,28 @@
       "num": 126,
       "pali": "kappa",
       "ru": "каппа, мировой цикл",
-      "en": ""
+      "en": "kappa, world cycle"
     },
     {
       "id": "karuna",
       "num": 127,
       "pali": "karuṇā",
       "ru": "доброта, милосердие",
-      "en": ""
+      "en": "kindness, mercy"
     },
     {
       "id": "kaya",
       "num": 128,
       "pali": "kāya",
       "ru": "тело",
-      "en": ""
+      "en": "body"
     },
     {
       "id": "kayagatasati",
       "num": 129,
       "pali": "kāyagatāsati",
       "ru": "о-теле-памятование",
-      "en": ""
+      "en": "remembrance-concerning-the-body"
     },
     {
       "id": "kayanupassana",
@@ -3342,7 +3360,7 @@
       "num": 131,
       "pali": "khādanīya",
       "ru": "закуска",
-      "en": ""
+      "en": "snack"
     },
     {
       "id": "khandha",
@@ -3356,14 +3374,14 @@
       "num": 133,
       "pali": "khaya",
       "ru": "исчерпание",
-      "en": ""
+      "en": "exhaustion"
     },
     {
       "id": "khila",
       "num": 134,
       "pali": "khila",
       "ru": "суета, тщета",
-      "en": ""
+      "en": "fuss, futility"
     },
     {
       "id": "kilesa",
@@ -3377,112 +3395,112 @@
       "num": 136,
       "pali": "kusala",
       "ru": "благотворное, умелое, эффективное",
-      "en": ""
+      "en": "beneficial, skillful, effective"
     },
     {
       "id": "kusala-kammapatha",
       "num": 137,
       "pali": "Kusala kammapatha",
       "ru": "Десять направлений благотворной активности",
-      "en": ""
+      "en": "Ten directions of beneficial activity"
     },
     {
       "id": "lobha",
       "num": 138,
       "pali": "lobha",
       "ru": "корыстолюбие",
-      "en": ""
+      "en": "cupidity"
     },
     {
       "id": "lokavidu",
       "num": 139,
       "pali": "lokavidū",
       "ru": "мира-знаток",
-      "en": ""
+      "en": "knower-of-the-world"
     },
     {
       "id": "loko",
       "num": 140,
       "pali": "loko",
       "ru": "свет - на свете. мир - в мире",
-      "en": ""
+      "en": "world - in the world"
     },
     {
       "id": "macchariya",
       "num": 141,
       "pali": "macchariyā",
       "ru": "скупость",
-      "en": ""
+      "en": "stinginess"
     },
     {
       "id": "magga",
       "num": 142,
       "pali": "magga",
       "ru": "путь",
-      "en": ""
+      "en": "path"
     },
     {
       "id": "mahabhuta",
       "num": 143,
       "pali": "mahābhūta",
       "ru": "великая стихия",
-      "en": ""
+      "en": "great element"
     },
     {
       "id": "majjhima-patipada",
       "num": 144,
       "pali": "majjhimā paṭipadā",
       "ru": "серединная практика",
-      "en": ""
+      "en": "middle practice"
     },
     {
       "id": "mala",
       "num": 145,
       "pali": "mala",
       "ru": "пятно, грязь",
-      "en": ""
+      "en": "stain, dirt"
     },
     {
       "id": "mana",
       "num": 146,
       "pali": "māna",
       "ru": "самомнение",
-      "en": ""
+      "en": "conceit"
     },
     {
       "id": "mananusaya",
       "num": 147,
       "pali": "mānānusaya",
       "ru": "к-самомнению-предрасположенность",
-      "en": ""
+      "en": "predisposition-to-conceit"
     },
     {
       "id": "manasikara",
       "num": 148,
       "pali": "manasikāra",
       "ru": "мыследеятельность (создание ментального-представления)",
-      "en": ""
+      "en": "mental-activity (creating a mental-representation)"
     },
     {
       "id": "mano",
       "num": 149,
       "pali": "mano",
       "ru": "ум-представление",
-      "en": ""
+      "en": "mind-representation"
     },
     {
       "id": "marana",
       "num": 150,
       "pali": "maraṇa",
       "ru": "умирание",
-      "en": ""
+      "en": "dying"
     },
     {
       "id": "maro-papima",
       "num": 151,
       "pali": "māro pāpimā",
       "ru": "Мара Злой",
-      "en": ""
+      "en": "Mara the Evil One"
     },
     {
       "id": "metta",
@@ -3496,70 +3514,70 @@
       "num": 153,
       "pali": "micchādiṭṭhi",
       "ru": "ошибочный взгляд",
-      "en": ""
+      "en": "wrong view"
     },
     {
       "id": "micchatta",
       "num": 154,
       "pali": "micchattā",
       "ru": "ошибочность",
-      "en": ""
+      "en": "wrongness"
     },
     {
       "id": "mitta",
       "num": 155,
       "pali": "mitta",
       "ru": "друг",
-      "en": ""
+      "en": "friend"
     },
     {
       "id": "moghapurisa",
       "num": 156,
       "pali": "moghapurisa",
       "ru": "запутавшийся человек",
-      "en": ""
+      "en": "confused person"
     },
     {
       "id": "moha",
       "num": 157,
       "pali": "moha",
       "ru": "замутненность-заблуждение",
-      "en": ""
+      "en": "murkiness-delusion"
     },
     {
       "id": "mudita",
       "num": 158,
       "pali": "muditā",
       "ru": "мягкость, смягченность",
-      "en": ""
+      "en": "gentleness, softening"
     },
     {
       "id": "mula",
       "num": 159,
       "pali": "mūla",
       "ru": "корень",
-      "en": ""
+      "en": "root"
     },
     {
       "id": "musavada",
       "num": 160,
       "pali": "musāvāda",
       "ru": "ложное-утверждение",
-      "en": ""
+      "en": "false-statement"
     },
     {
       "id": "musavada-veramani",
       "num": 161,
       "pali": "musāvādā veramaṇī",
       "ru": "ложные-утверждения неприемлющий",
-      "en": ""
+      "en": "non-accepting of false-statements"
     },
     {
       "id": "nama",
       "num": 162,
       "pali": "nāma",
       "ru": "имя",
-      "en": ""
+      "en": "name"
     },
     {
       "id": "namarupa",
@@ -3580,49 +3598,49 @@
       "num": 164,
       "pali": "ñāṇa",
       "ru": "знание",
-      "en": ""
+      "en": "knowledge"
     },
     {
       "id": "nanadassana",
       "num": 165,
       "pali": "ñāṇadassana",
       "ru": "знание-видение",
-      "en": ""
+      "en": "knowledge-vision"
     },
     {
       "id": "nandi",
       "num": 166,
       "pali": "nandī",
       "ru": "радость, восторг",
-      "en": ""
+      "en": "joy, delight"
     },
     {
       "id": "nandiraga",
       "num": 167,
       "pali": "nandīrāga",
       "ru": "радость-страсть",
-      "en": ""
+      "en": "joy-passion"
     },
     {
       "id": "nandiragasahagata",
       "num": 168,
       "pali": "nandīrāgasahagatā",
       "ru": "с-радостью-страстью-совместно-идущая",
-      "en": ""
+      "en": "accompanied-by-joy-passion"
     },
     {
       "id": "nayappatipanno",
       "num": 169,
       "pali": "ñāyappaṭipanno",
       "ru": "метод-практикующая",
-      "en": ""
+      "en": "method-practicing"
     },
     {
       "id": "nevasannanasannayatana",
       "num": 170,
       "pali": "nevasaññānāsaññāyatana",
       "ru": "и-не-сознания-не-бессознательности-область",
-      "en": ""
+      "en": "neither-consciousness-nor-unconsciousness-domain"
     },
     {
       "id": "nibbana",
@@ -3636,49 +3654,49 @@
       "num": 172,
       "pali": "nibbidā",
       "ru": "незаинтересованность, не нахождение В",
-      "en": ""
+      "en": "disinterest, not-finding-oneself-in"
     },
     {
       "id": "nidana",
       "num": 173,
       "pali": "nidāna",
       "ru": "основание",
-      "en": ""
+      "en": "foundation"
     },
     {
       "id": "nigha",
       "num": 174,
       "pali": "nīgha",
       "ru": "тягость, тягота.",
-      "en": ""
+      "en": "burden, hardship"
     },
     {
       "id": "niramisa",
       "num": 175,
       "pali": "nirāmisa",
       "ru": "не-плотское",
-      "en": ""
+      "en": "non-carnal"
     },
     {
       "id": "nirodha",
       "num": 176,
       "pali": "nirodha",
       "ru": "устранение",
-      "en": ""
+      "en": "elimination"
     },
     {
       "id": "nissarana",
       "num": 177,
       "pali": "nissaraṇa",
       "ru": "спасение",
-      "en": ""
+      "en": "rescue"
     },
     {
       "id": "nissita",
       "num": 178,
       "pali": "nissita",
       "ru": "опирающийся (зависящий)",
-      "en": ""
+      "en": "relying (dependent)"
     },
     {
       "id": "nivarana",
@@ -3699,7 +3717,7 @@
       "num": 181,
       "pali": "opaneyyiko",
       "ru": "ведущее, направляющее (ведущее-к-цели)",
-      "en": ""
+      "en": "leading, guiding (leading-to-the-goal)"
     },
     {
       "id": "orambhagiya",
@@ -3713,56 +3731,56 @@
       "num": 183,
       "pali": "paccattaṁ veditabbo viññūhi",
       "ru": "лично-познаваемое различающими, внимательными, знающими",
-      "en": ""
+      "en": "personally-knowable by the discerning, attentive, knowing"
     },
     {
       "id": "paccaya",
       "num": 184,
       "pali": "paccaya",
       "ru": "условие (обстоятельство проявления)",
-      "en": ""
+      "en": "condition (circumstance of manifestation)"
     },
     {
       "id": "padhana",
       "num": 185,
       "pali": "padhāna",
       "ru": "прилежание",
-      "en": ""
+      "en": "diligence"
     },
     {
       "id": "pahana",
       "num": 186,
       "pali": "pahāna",
       "ru": "покидание",
-      "en": ""
+      "en": "abandoning"
     },
     {
       "id": "pahanaya",
       "num": 187,
       "pali": "pahānāya",
       "ru": "для покидания",
-      "en": ""
+      "en": "for abandoning"
     },
     {
       "id": "pahatabba",
       "num": 188,
       "pali": "pahātabba",
       "ru": "должно-быть-покинуто",
-      "en": ""
+      "en": "to-be-abandoned"
     },
     {
       "id": "pahuneyyo",
       "num": 189,
       "pali": "pāhuneyyo",
       "ru": "достойная-гостеприимства",
-      "en": ""
+      "en": "worthy-of-hospitality"
     },
     {
       "id": "pajanati",
       "num": 190,
       "pali": "pajānāti",
       "ru": "понимает",
-      "en": ""
+      "en": "understands"
     },
     {
       "id": "pakkhiya",
@@ -3776,14 +3794,14 @@
       "num": 191,
       "pali": "pamāda",
       "ru": "беспечность",
-      "en": ""
+      "en": "carelessness"
     },
     {
       "id": "pamojja",
       "num": 192,
       "pali": "pāmojja",
       "ru": "смягченная-радость",
-      "en": ""
+      "en": "softened-joy"
     },
     {
       "id": "pananca",
@@ -3797,14 +3815,14 @@
       "num": 194,
       "pali": "pāṇātipāta",
       "ru": "жизни-уменьшение (живого-уничтожение)",
-      "en": ""
+      "en": "life-diminishing (living-destroying)"
     },
     {
       "id": "panatipata-veramani",
       "num": 195,
       "pali": "pāṇātipātā veramaṇī",
       "ru": "уменьшения жизни неприемлющий",
-      "en": ""
+      "en": "non-accepting of life-diminishing"
     },
     {
       "id": "pancupadanakkhandha",
@@ -3818,14 +3836,14 @@
       "num": 197,
       "pali": "paṇḍita",
       "ru": "мудрец",
-      "en": ""
+      "en": "sage"
     },
     {
       "id": "panna",
       "num": 198,
       "pali": "paññā",
       "ru": "понимание",
-      "en": ""
+      "en": "understanding"
     },
     {
       "id": "pannabala",
@@ -3846,13 +3864,20 @@
       "num": 201,
       "pali": "pāpaka",
       "ru": "зловредный, вредный",
-      "en": ""
+      "en": "malicious, harmful"
     },
     {
       "id": "parideva",
       "num": 202,
       "pali": "parideva",
       "ru": "плач (стон, стенание)",
+      "en": "lamentation (moaning, wailing)"
+    },
+    {
+      "id": "parimaddana",
+      "num": 368,
+      "pali": "parimaddana",
+      "ru": "пере-минание",
       "en": ""
     },
     {
@@ -3860,12 +3885,19 @@
       "num": 203,
       "pali": "parinibbāna",
       "ru": "окончательная ниббана",
-      "en": ""
+      "en": "final nibbana"
     },
     {
       "id": "parinna",
       "num": 204,
       "pali": "pariññā",
+      "ru": "всестороннее понимание",
+      "en": "comprehensive understanding"
+    },
+    {
+      "id": "parinnata",
+      "num": 366,
+      "pali": "pariññāta",
       "ru": "всестороннее понимание",
       "en": ""
     },
@@ -3874,21 +3906,21 @@
       "num": 205,
       "pali": "pariññāya",
       "ru": "для понимания (признания, полного понимания)",
-      "en": ""
+      "en": "for understanding (acknowledgement, full understanding)"
     },
     {
       "id": "parinneyya",
       "num": 206,
       "pali": "pariññeyya",
       "ru": "должно-быть-понято",
-      "en": ""
+      "en": "to-be-understood"
     },
     {
       "id": "passaddhi",
       "num": 207,
       "pali": "passaddhi",
       "ru": "умиротворение",
-      "en": ""
+      "en": "tranquillity"
     },
     {
       "id": "passaddhisambojjhanga",
@@ -3902,28 +3934,28 @@
       "num": 208,
       "pali": "passāsa",
       "ru": "вдох",
-      "en": ""
+      "en": "inhalation"
     },
     {
       "id": "pathama-jhana",
       "num": 209,
       "pali": "paṭhama jhāna",
       "ru": "первая джхана",
-      "en": ""
+      "en": "first jhana"
     },
     {
       "id": "pathavidhatu",
       "num": 210,
       "pali": "paṭhavīdhātu",
       "ru": "тверди-дхату, твердого-дхату",
-      "en": ""
+      "en": "solidity-dhatu, solid-dhatu"
     },
     {
       "id": "paticca",
       "num": 211,
       "pali": "paṭicca",
       "ru": "исходя из, в зависимости от",
-      "en": ""
+      "en": "based on, depending on"
     },
     {
       "id": "paticcasamuppada",
@@ -3937,35 +3969,35 @@
       "num": 213,
       "pali": "paṭigha",
       "ru": "отторжение",
-      "en": ""
+      "en": "rejection"
     },
     {
       "id": "patighanusaya",
       "num": 214,
       "pali": "paṭighānusaya",
       "ru": "к-отторжению-предрасположенность",
-      "en": ""
+      "en": "predisposition-to-rejection"
     },
     {
       "id": "patiloma",
       "num": 215,
       "pali": "paṭiloma",
       "ru": "обратный порядок",
-      "en": ""
+      "en": "reverse order"
     },
     {
       "id": "patinissagga",
       "num": 216,
       "pali": "paṭinissagga",
       "ru": "отдаление, отказ (оставление)",
-      "en": ""
+      "en": "distancing, renunciation (relinquishing)"
     },
     {
       "id": "pativirato",
       "num": 217,
       "pali": "paṭivirato",
       "ru": "отказавшийся (отвержение, отвратившийся)",
-      "en": "",
+      "en": "having renounced (rejection, having turned away)",
       "dgNote": "Тот же корень, что veramaṇī (vi-ram). paṭivirata — об арахантах (AN 3.70: pāṇātipātā paṭiviratā, «подражаю арахантам»), veramaṇī — в определении пути (SN 45.8). В переводах оба — «воздерживаться»; но арахант не воздерживается, а отказался. См. строку veramaṇī."
     },
     {
@@ -3973,21 +4005,21 @@
       "num": 218,
       "pali": "pātubhāvo",
       "ru": "проявление (появление)",
-      "en": ""
+      "en": "manifestation (appearance)"
     },
     {
       "id": "pharusa-vaca",
       "num": 219,
       "pali": "pharusā vācā",
       "ru": "жёсткая речь",
-      "en": ""
+      "en": "harsh speech"
     },
     {
       "id": "pharusaya-vacaya-veramani",
       "num": 220,
       "pali": "pharusāya vācāya veramaṇī",
       "ru": "жёсткую речь неприемлющий",
-      "en": ""
+      "en": "non-accepting of harsh speech"
     },
     {
       "id": "phassapaccaya",
@@ -4008,6 +4040,13 @@
       "num": 222,
       "pali": "phoṭṭhabba",
       "ru": "касание",
+      "en": "touch"
+    },
+    {
+      "id": "pipasa",
+      "num": 369,
+      "pali": "pipāsā",
+      "ru": "желание пить, жажда",
       "en": ""
     },
     {
@@ -4015,21 +4054,21 @@
       "num": 223,
       "pali": "pisuṇā vācā",
       "ru": "рознящая речь",
-      "en": ""
+      "en": "divisive speech"
     },
     {
       "id": "pisunaya-vacaya-veramani",
       "num": 224,
       "pali": "pisuṇāya vācāya veramaṇī",
       "ru": "рознящую речь неприемлющий",
-      "en": ""
+      "en": "non-accepting of divisive speech"
     },
     {
       "id": "piti",
       "num": 225,
       "pali": "pīti",
       "ru": "озарённость-упоение",
-      "en": ""
+      "en": "illumination-rapture"
     },
     {
       "id": "pitisambojjhanga",
@@ -4043,105 +4082,105 @@
       "num": 226,
       "pali": "piyehi vippayogo",
       "ru": "с-любимыми-разъединение",
-      "en": ""
+      "en": "separation-from-the-loved"
     },
     {
       "id": "ponobhavika",
       "num": 227,
       "pali": "ponobhavikā",
       "ru": "вовлекающая, вновь возникающая",
-      "en": ""
+      "en": "involving, arising anew"
     },
     {
       "id": "puggala",
       "num": 228,
       "pali": "puggala",
       "ru": "индивид, личность",
-      "en": ""
+      "en": "individual, person"
     },
     {
       "id": "punna",
       "num": 229,
       "pali": "puñña",
       "ru": "благо (заслуга)",
-      "en": ""
+      "en": "good (merit)"
     },
     {
       "id": "puthujjana",
       "num": 230,
       "pali": "puthujjana",
       "ru": "обыватель",
-      "en": ""
+      "en": "ordinary person"
     },
     {
       "id": "raga",
       "num": 231,
       "pali": "rāga",
       "ru": "очарованность-страсть",
-      "en": ""
+      "en": "fascination-passion"
     },
     {
       "id": "rajaniya",
       "num": 232,
       "pali": "rajanīyā",
       "ru": "очаровывающие-вызывающие страсть",
-      "en": ""
+      "en": "fascinating-arousing passion"
     },
     {
       "id": "rasa",
       "num": 233,
       "pali": "rasa",
       "ru": "вкус",
-      "en": ""
+      "en": "taste"
     },
     {
       "id": "rupa",
       "num": 234,
       "pali": "rūpa",
       "ru": "образ, материя, вид, объект",
-      "en": ""
+      "en": "image, matter, form, object"
     },
     {
       "id": "ruparaga",
       "num": 235,
       "pali": "rūparāga",
       "ru": "образо-очарованность",
-      "en": ""
+      "en": "image-fascination"
     },
     {
       "id": "sacchikatabba",
       "num": 236,
       "pali": "sacchikātabba",
       "ru": "должно-быть-засвидетельствовано",
-      "en": ""
+      "en": "to-be-witnessed"
     },
     {
       "id": "sacchikiriya",
       "num": 237,
       "pali": "sacchikiriyā",
       "ru": "засвидетельствование (своими глазами)",
-      "en": ""
+      "en": "witnessing (with one's own eyes)"
     },
     {
       "id": "sacchikiriyaya",
       "num": 238,
       "pali": "sacchikiriyāya",
       "ru": "для засвидетельствования",
-      "en": ""
+      "en": "for witnessing"
     },
     {
       "id": "sadda",
       "num": 239,
       "pali": "sadda",
       "ru": "звук",
-      "en": ""
+      "en": "sound"
     },
     {
       "id": "saddha",
       "num": 240,
       "pali": "saddhā",
       "ru": "вера",
-      "en": ""
+      "en": "faith"
     },
     {
       "id": "saddhabala",
@@ -4162,21 +4201,21 @@
       "num": 243,
       "pali": "sahagata",
       "ru": "совместно-идущее",
-      "en": ""
+      "en": "accompanying (going-together)"
     },
     {
       "id": "sakadagami",
       "num": 244,
       "pali": "sakadāgāmī",
       "ru": "единожды-возвращающийся",
-      "en": ""
+      "en": "once-returner"
     },
     {
       "id": "sakkayaditthi",
       "num": 245,
       "pali": "sakkāyadiṭṭhi",
       "ru": "с-телом-(отождествление)-взгляд",
-      "en": ""
+      "en": "with-body-(identification)-view"
     },
     {
       "id": "salayatana",
@@ -4197,7 +4236,7 @@
       "num": 247,
       "pali": "samādhi",
       "ru": "самадхи, объединение опыта, глагол объединяться",
-      "en": ""
+      "en": "samadhi, unification of experience; verb: to unify"
     },
     {
       "id": "samadhibala",
@@ -4225,42 +4264,42 @@
       "num": 250,
       "pali": "samaṇa",
       "ru": "шраман",
-      "en": ""
+      "en": "shramana"
     },
     {
       "id": "samanupassati",
       "num": 251,
       "pali": "samanupassati",
       "ru": "рассматривает (наблюдает)",
-      "en": ""
+      "en": "regards (observes)"
     },
     {
       "id": "samatha",
       "num": 252,
       "pali": "samatha",
       "ru": "равновесие, равностность",
-      "en": ""
+      "en": "balance, evenness"
     },
     {
       "id": "sambodhaya",
       "num": 253,
       "pali": "sambodhāya",
       "ru": "для пробуждения",
-      "en": ""
+      "en": "for awakening"
     },
     {
       "id": "samicippatipanno",
       "num": 254,
       "pali": "sāmīcippaṭipanno",
       "ru": "подобающе-практикующая",
-      "en": ""
+      "en": "properly-practicing"
     },
     {
       "id": "samisa",
       "num": 255,
       "pali": "sāmisa",
       "ru": "плотское",
-      "en": ""
+      "en": "carnal"
     },
     {
       "id": "samma",
@@ -4309,7 +4348,7 @@
       "num": 260,
       "pali": "sammāsambuddho",
       "ru": "правильно-пробуждённый",
-      "en": ""
+      "en": "rightly-awakened"
     },
     {
       "id": "sammasankappa",
@@ -4330,7 +4369,7 @@
       "num": 263,
       "pali": "sammattā",
       "ru": "правильность",
-      "en": ""
+      "en": "rightness"
     },
     {
       "id": "sammavaca",
@@ -4351,49 +4390,56 @@
       "num": 266,
       "pali": "sampajāna",
       "ru": "сознательный",
-      "en": ""
+      "en": "conscious"
     },
     {
       "id": "samphappalapa",
       "num": 267,
       "pali": "samphappalāpa",
       "ru": "пустословие",
-      "en": ""
+      "en": "idle chatter"
     },
     {
       "id": "samphappalapa-veramani",
       "num": 268,
       "pali": "samphappalāpā veramaṇī",
       "ru": "пустословие неприемлющий",
-      "en": ""
+      "en": "non-accepting of idle chatter"
     },
     {
       "id": "samudaya",
       "num": 269,
       "pali": "samudaya",
       "ru": "скапливание",
-      "en": ""
+      "en": "accumulation"
     },
     {
       "id": "samyojana",
       "num": 270,
       "pali": "saṁyojana",
       "ru": "связанность, связывание",
-      "en": "boundness"
+      "en": "binding, boundness"
+    },
+    {
+      "id": "sancetana",
+      "num": 371,
+      "pali": "sañcetanā",
+      "ru": "замышливание, замысел",
+      "en": ""
     },
     {
       "id": "sanditthiko",
       "num": 271,
       "pali": "sandiṭṭhiko",
       "ru": "в-видимой-действительности-постижимое",
-      "en": ""
+      "en": "comprehensible-in-visible-reality"
     },
     {
       "id": "sangha",
       "num": 272,
       "pali": "Saṅgha",
       "ru": "Сангха, собрание",
-      "en": ""
+      "en": "Sangha, assembly"
     },
     {
       "id": "sankhara",
@@ -4414,35 +4460,35 @@
       "num": 274,
       "pali": "saṅkhata",
       "ru": "составное, составленное",
-      "en": ""
+      "en": "composite, composed"
     },
     {
       "id": "sankhittena",
       "num": 275,
       "pali": "saṅkhittena",
       "ru": "сжато",
-      "en": ""
+      "en": "in brief"
     },
     {
       "id": "sanna",
       "num": 276,
       "pali": "saññā",
       "ru": "сознавание, снимание, перцепция",
-      "en": ""
+      "en": "cognition, consciousness, capturing, perception"
     },
     {
       "id": "sannavedayitanirodha",
       "num": 277,
       "pali": "saññāvedayitanirodha",
       "ru": "сознания-почувствованного-устранение",
-      "en": ""
+      "en": "cognition-felt-elimination"
     },
     {
       "id": "sappurisa",
       "num": 278,
       "pali": "sappurisa",
       "ru": "чистый человек",
-      "en": ""
+      "en": "pure person"
     },
     {
       "id": "sati",
@@ -4484,35 +4530,35 @@
       "num": 282,
       "pali": "satthā",
       "ru": "Учитель",
-      "en": ""
+      "en": "Teacher"
     },
     {
       "id": "sattha-devamanussanam",
       "num": 283,
       "pali": "satthā devamanussānaṁ",
       "ru": "учитель богов и людей",
-      "en": ""
+      "en": "teacher of gods and humans"
     },
     {
       "id": "savaka",
       "num": 284,
       "pali": "sāvaka",
       "ru": "слушатель, последователь",
-      "en": ""
+      "en": "listener, follower"
     },
     {
       "id": "sekha",
       "num": 285,
       "pali": "sekha",
       "ru": "ученик",
-      "en": ""
+      "en": "learner"
     },
     {
       "id": "seyyathapi",
       "num": 286,
       "pali": "Seyyathāpi",
       "ru": "это как...",
-      "en": ""
+      "en": "it is like..."
     },
     {
       "id": "sila",
@@ -4533,7 +4579,7 @@
       "num": 288,
       "pali": "sīlabbataparāmāsa",
       "ru": "правилами-обетами-одержимость",
-      "en": ""
+      "en": "rules-vows-obsession"
     },
     {
       "id": "silabbatupadana",
@@ -4546,22 +4592,22 @@
       "id": "soka",
       "num": 289,
       "pali": "soka",
-      "ru": "страдание (экстремальная боль)",
-      "en": ""
+      "ru": "страдание (экстремальная боль, без кавычек в приямом смысле)",
+      "en": "suffering (extreme pain)"
     },
     {
       "id": "somanassa",
       "num": 290,
       "pali": "somanassa",
-      "ru": "удовлетворённость, умственный комфорт",
-      "en": ""
+      "ru": "somanassa",
+      "en": "satisfaction, mental comfort"
     },
     {
       "id": "sota",
       "num": 291,
       "pali": "sota",
       "ru": "ухо",
-      "en": ""
+      "en": "ear"
     },
     {
       "id": "sotapanna",
@@ -4575,20 +4621,31 @@
       "num": 293,
       "pali": "soto",
       "ru": "поток",
-      "en": ""
+      "en": "stream"
     },
     {
       "id": "sugato",
       "num": 294,
       "pali": "sugato",
       "ru": "благой",
-      "en": ""
+      "en": "good one"
     },
     {
       "id": "sukha",
       "num": 295,
       "pali": "sukha",
       "ru": "приятное, приятное-комфорт (телесный комфорт)",
+      "en": "pleasant, pleasant-comfort (bodily comfort)",
+      "rationale": {
+        "en": "/rationale#passages",
+        "ru": "/rationale#passages"
+      }
+    },
+    {
+      "id": "sukha-vedana",
+      "num": null,
+      "pali": "sukhā vedanā",
+      "ru": "приятное чувствование",
       "en": "",
       "rationale": {
         "en": "/rationale#passages",
@@ -4600,21 +4657,21 @@
       "num": 296,
       "pali": "suññatā",
       "ru": "пустотность",
-      "en": ""
+      "en": "emptiness"
     },
     {
       "id": "suppatipanno",
       "num": 297,
       "pali": "suppaṭipanno",
       "ru": "хорошо-практикующая",
-      "en": ""
+      "en": "well-practicing"
     },
     {
       "id": "svakkhato",
       "num": 298,
       "pali": "svākkhāto",
       "ru": "хорошо-сформулированное",
-      "en": ""
+      "en": "well-formulated"
     },
     {
       "id": "tanha",
@@ -4639,7 +4696,7 @@
       "num": 300,
       "pali": "tasinā",
       "ru": "залипание",
-      "en": "",
+      "en": "sticking",
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
@@ -4650,28 +4707,28 @@
       "num": 301,
       "pali": "tathāgata",
       "ru": "Татхагата",
-      "en": ""
+      "en": "Tathagata"
     },
     {
       "id": "tatiya-jhana",
       "num": 302,
       "pali": "tatiya jhāna",
       "ru": "третья джхана",
-      "en": ""
+      "en": "third jhana"
     },
     {
       "id": "tatratatrabhinandini",
       "num": 303,
       "pali": "tatratatrābhinandinī",
       "ru": "тут-тут-обрадывающаяся (здесь-здесь-обрадывающаяся)",
-      "en": ""
+      "en": "here-here-delighting (this-and-that-delighting)"
     },
     {
       "id": "tejodhatu",
       "num": 304,
       "pali": "tejodhātu",
       "ru": "тепла-дхату, огонь",
-      "en": ""
+      "en": "heat-dhatu, fire"
     },
     {
       "id": "thinamiddha",
@@ -4681,11 +4738,18 @@
       "en": "apathy-drowsiness"
     },
     {
+      "id": "ucchadana",
+      "num": 367,
+      "pali": "ucchādana",
+      "ru": "покрывание",
+      "en": ""
+    },
+    {
       "id": "uddhacca",
       "num": 306,
       "pali": "uddhacca",
       "ru": "возбужденность",
-      "en": ""
+      "en": "agitation"
     },
     {
       "id": "uddhaccakukkucca",
@@ -4706,7 +4770,7 @@
       "num": 309,
       "pali": "ujuppaṭipanno",
       "ru": "прямо-практикующая",
-      "en": ""
+      "en": "straight-practicing"
     },
     {
       "id": "upadana",
@@ -4727,35 +4791,35 @@
       "num": 311,
       "pali": "upadhi",
       "ru": "удержание",
-      "en": ""
+      "en": "holding"
     },
     {
       "id": "upakkilesa",
       "num": 312,
       "pali": "upakkilesa",
       "ru": "загрязнение",
-      "en": ""
+      "en": "contamination"
     },
     {
       "id": "upasamaya",
       "num": 313,
       "pali": "upasamāya",
-      "ru": "для выравнивания (для успокоения)",
-      "en": ""
+      "ru": "к равности",
+      "en": "toward evenness"
     },
     {
       "id": "upayasa",
       "num": 314,
       "pali": "upāyāsa",
       "ru": "тоска, томление",
-      "en": ""
+      "en": "anguish, languishing"
     },
     {
       "id": "upekkha",
       "num": 315,
       "pali": "upekkhā",
       "ru": "равностное-видение, прямое-смотрение",
-      "en": ""
+      "en": "equanimous-seeing, direct-looking"
     },
     {
       "id": "upekkhasambojjhanga",
@@ -4769,7 +4833,7 @@
       "num": 316,
       "pali": "uposatho",
       "ru": "упосатха (жен. род)",
-      "en": ""
+      "en": "uposatha (feminine gender)"
     },
     {
       "id": "vada",
@@ -4783,21 +4847,21 @@
       "num": 317,
       "pali": "vagga",
       "ru": "раздел. [если это относится к главе текста как к примеру magavagga]",
-      "en": ""
+      "en": "section [if it refers to a chapter of a text, e.g. magavagga]"
     },
     {
       "id": "vaya",
       "num": 318,
       "pali": "vaya",
       "ru": "исчезновение (распад)",
-      "en": ""
+      "en": "disappearance (decay)"
     },
     {
       "id": "vayodhatu",
       "num": 319,
       "pali": "vāyodhātu",
       "ru": "ветра-дхату",
-      "en": ""
+      "en": "wind-dhatu"
     },
     {
       "id": "vedana",
@@ -4829,7 +4893,7 @@
       "num": 365,
       "pali": "veramaṇī",
       "ru": "неприемлющий, отвергание (отвержение). Не «воздерживающийся»",
-      "en": "",
+      "en": "non-accepting, rejecting (rejection). Not \"abstaining\"",
       "dgNote": "Корень vi-ram: «не-радующийся», отсюда «неприемлющий» — слово об эмоциональном отношении. «Воздерживаться» не исключает, что ещё тянет: «я воздерживаюсь от страстей» не значит, что я от них свободен, в отличие от «я отверг страсть», «я отвратился», «я остановился». «Неприемлющий» и «отказавшийся» двусмысленности не оставляют. veramaṇī — в определении пути (SN 45.8, DN 22), paṭivirata — об арахантах, тот же корень; в переводах оба — «воздерживаться». AN 3.70: араханты пожизненно pāṇātipātā paṭiviratā (19.2), в благородной упосатхе последователь «этим аспектом подражает арахантам» (19.4): не изображает чистоту, как в упосатхе пастуха (2.4) или нигантхи (3.1), а примеряет на себя отказ араханта; начинается с очищения ума усилием (4.2). Ни один фактор пути не допускает «немного».",
       "rationale": {
         "en": "/rationale#passages",
@@ -4841,21 +4905,21 @@
       "num": 322,
       "pali": "vibhava",
       "ru": "разлучение (не-бытие)",
-      "en": ""
+      "en": "separation (non-being)"
     },
     {
       "id": "vibhavatanha",
       "num": 323,
       "pali": "vibhavataṇhā",
       "ru": "разлучения-цепляние",
-      "en": ""
+      "en": "separation-clinging"
     },
     {
       "id": "vicara",
       "num": 324,
       "pali": "vicāra",
       "ru": "выслеживание",
-      "en": ""
+      "en": "tracking"
     },
     {
       "id": "vicikiccha",
@@ -4869,7 +4933,7 @@
       "num": 326,
       "pali": "vicikicchānusaya",
       "ru": "к-непрояснению-предрасположенность",
-      "en": ""
+      "en": "predisposition-to-unclarity"
     },
     {
       "id": "vidha",
@@ -4883,28 +4947,28 @@
       "num": 328,
       "pali": "vihāra",
       "ru": "пребывание, расположение",
-      "en": ""
+      "en": "abiding, disposition"
     },
     {
       "id": "vihesa",
       "num": 329,
       "pali": "vihesā",
       "ru": "раздражение, досаждение",
-      "en": ""
+      "en": "irritation, annoyance"
     },
     {
       "id": "vijja",
       "num": 330,
       "pali": "vijja",
       "ru": "знание-различение, видение-ведение",
-      "en": ""
+      "en": "knowledge-discernment, vision-knowing"
     },
     {
       "id": "vijjacaranasampanno",
       "num": 331,
       "pali": "vijjācaraṇasampanno",
       "ru": "знанием-поведением-наделённый",
-      "en": ""
+      "en": "endowed-with-knowledge-and-conduct"
     },
     {
       "id": "vimamsasamadhi",
@@ -4918,21 +4982,21 @@
       "num": 332,
       "pali": "vīmaṁsāsamādhippadhānasaṅkhārasamannāgata iddhipāda",
       "ru": "исследования-самадхи-старания-составляющими наделенная сверхспособностей основа",
-      "en": ""
+      "en": "investigation-samadhi-endeavor-constituents-endowed basis of super-abilities"
     },
     {
       "id": "vimutti",
       "num": 333,
       "pali": "vimutti",
       "ru": "высвобождение, освобождение",
-      "en": ""
+      "en": "release, liberation"
     },
     {
       "id": "vinaya",
       "num": 334,
       "pali": "vinaya",
       "ru": "выведение, вычищение",
-      "en": ""
+      "en": "leading-out, cleansing"
     },
     {
       "id": "vinnana",
@@ -4946,14 +5010,14 @@
       "num": 336,
       "pali": "viññāṇadhātu",
       "ru": "внимания-распознавания-дхату",
-      "en": ""
+      "en": "attention-recognition-dhatu"
     },
     {
       "id": "vinnanancayatana",
       "num": 337,
       "pali": "viññāṇañcāyatana",
       "ru": "внимания-бескрайнего-область",
-      "en": ""
+      "en": "boundless-attention-domain"
     },
     {
       "id": "vinnanapaccaya",
@@ -4967,7 +5031,7 @@
       "num": 338,
       "pali": "vipāka",
       "ru": "созревание-результат",
-      "en": ""
+      "en": "ripening-result"
     },
     {
       "id": "vipallasa",
@@ -4981,21 +5045,21 @@
       "num": 339,
       "pali": "vipassanā",
       "ru": "рассматривание, высматривание",
-      "en": ""
+      "en": "examining, looking-into"
     },
     {
       "id": "viraga",
       "num": 340,
       "pali": "virāga",
       "ru": "бесстрастие-неочарованность, выцветание",
-      "en": ""
+      "en": "dispassion-non-fascination, fading"
     },
     {
       "id": "viriya",
       "num": 341,
       "pali": "vīriya",
       "ru": "решимость, усилие",
-      "en": ""
+      "en": "determination, effort"
     },
     {
       "id": "viriyabala",
@@ -5016,7 +5080,7 @@
       "num": 343,
       "pali": "vīriyasamādhippadhānasaṅkhārasamannāgata iddhipāda",
       "ru": "решимости-самадхи-старания-составляющими наделенная сверхспособностей основа",
-      "en": ""
+      "en": "determination-samadhi-endeavor-constituents-endowed basis of super-abilities"
     },
     {
       "id": "viriyasambojjhanga",
@@ -5037,35 +5101,35 @@
       "num": 345,
       "pali": "vitakka",
       "ru": "рассуждение",
-      "en": ""
+      "en": "reasoning"
     },
     {
       "id": "viveka",
       "num": 346,
       "pali": "viveka",
       "ru": "уединение, разъединение",
-      "en": ""
+      "en": "seclusion, disconnection"
     },
     {
       "id": "vupasama",
       "num": 347,
       "pali": "vūpasama",
       "ru": "выравнивание (успокоение)",
-      "en": ""
+      "en": "leveling (calming)"
     },
     {
       "id": "yampiccham-na-labhati",
       "num": 348,
       "pali": "yampicchaṁ na labhati",
       "ru": "то-что-желанное-не-получать",
-      "en": ""
+      "en": "not-getting-what-is-desired"
     },
     {
       "id": "yathabhutam",
       "num": 349,
       "pali": "yathābhūtaṁ",
       "ru": "как-есть",
-      "en": ""
+      "en": "as-it-is"
     },
     {
       "id": "yoga",
@@ -5079,14 +5143,14 @@
       "num": 351,
       "pali": "yogakkhema",
       "ru": "от-связи-защита",
-      "en": ""
+      "en": "protection-from-bond"
     },
     {
       "id": "yoniso-manasikara",
       "num": 352,
       "pali": "yoniso manasikāra",
       "ru": "продуктивное отражение в уме, основательное представление",
-      "en": ""
+      "en": "productive reflection in the mind, thorough representation"
     }
   ]
 }
