@@ -29,20 +29,20 @@
       "en": "direct knowledge, recognition (ability to identify)",
       "canon": {
         "patterns": [
-          "dn16",
-          "dn29",
-          "dn34",
-          "sn44.9"
+          "dn16:3.50.4",
+          "dn29:17.2",
+          "dn34:1.2.26",
+          "sn44.9:4.9"
         ],
         "broader": [
-          "dn3",
-          "dn34",
-          "sn35.25",
-          "snp5.3"
+          "dn3:1.8.2",
+          "dn34:1.2.28",
+          "sn35.25:1.9",
+          "snp5.3:1.4"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-pc8",
-          "pli-tv-bu-vb-pj4"
+          "pli-tv-bu-vb-pc8:1.1.12",
+          "pli-tv-bu-vb-pj4:1.1.32"
         ]
       }
     },
@@ -54,7 +54,7 @@
       "en": "for recognition (direct knowledge)",
       "canon": {
         "broader": [
-          "snp5.3"
+          "snp5.3:1.4"
         ]
       }
     },
@@ -73,62 +73,62 @@
       "en": "non-Dhamma",
       "canon": {
         "where": [
-          "an10.114",
-          "an10.115",
-          "an10.116",
-          "an10.138",
-          "an10.182"
+          "an10.114:2.1",
+          "an10.115:12.1",
+          "an10.116:9.1",
+          "an10.138:1.3",
+          "an10.182:1.3"
         ],
         "link": "/an10.114:2.1",
         "definition": "Katamo ca, bhikkhave, adhammo, katamo ca dhammo, katamo ca anattho, katamo ca attho? Micchādiṭṭhi, bhikkhave, adhammo; sammādiṭṭhi dhammo;",
         "patterns": [
-          "sn23.12",
-          "sn23.14",
-          "sn23.16",
-          "sn23.18",
-          "sn23.19",
-          "sn23.20",
-          "sn23.21",
-          "sn23.22",
-          "sn35.84",
-          "an4.257",
-          "an9.51",
-          "an10.55",
-          "an10.114",
-          "an10.115",
-          "an10.116",
-          "an10.138",
-          "an10.173",
-          "an10.182"
+          "sn23.12:1.3",
+          "sn23.14:1.3",
+          "sn23.16:1.3",
+          "sn23.18:1.3",
+          "sn23.19:1.3",
+          "sn23.20:1.3",
+          "sn23.21:1.3",
+          "sn23.22:1.3",
+          "sn35.84:2.3",
+          "an4.257:3.8",
+          "an9.51:1.1",
+          "an10.55:2.1",
+          "an10.114:2.1",
+          "an10.115:12.1",
+          "an10.116:9.1",
+          "an10.138:1.3",
+          "an10.173:2.1",
+          "an10.182:1.3"
         ],
         "broader": [
-          "dn1",
-          "dn3",
-          "mn2",
-          "mn3",
-          "mn8",
-          "mn26",
-          "sn20.6",
-          "sn23.34",
-          "sn23.46",
-          "sn25.1",
-          "sn41.10",
-          "an1.296",
-          "an1.297-305",
-          "an1.576-582",
-          "an1.591-592",
+          "dn1:1.3.1",
+          "dn3:1.20.2",
+          "mn2:8.8",
+          "mn3:3.6",
+          "mn8:4.5",
+          "mn26:9.1",
+          "sn20.6:2.2",
+          "sn23.34:2.2",
+          "sn23.46:1.4",
+          "sn25.1:2.4",
+          "sn41.10:2.16",
+          "an1.296:1.4",
+          "an1.297-305:1.4",
+          "an1.576-582:1.4",
+          "an1.591-592:1.4",
           "(+15)"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-pc8",
-          "pli-tv-bu-vb-pc53",
-          "pli-tv-bu-vb-pc71",
-          "pli-tv-bu-vb-pj1",
-          "pli-tv-bu-vb-pj4",
-          "pli-tv-bu-vb-sk69",
-          "pli-tv-bu-vb-ss3",
-          "pli-tv-bu-vb-ss4",
-          "pli-tv-bu-vb-ss12"
+          "pli-tv-bu-vb-pc8:1.1.18",
+          "pli-tv-bu-vb-pc53:2.1.1",
+          "pli-tv-bu-vb-pc71:2.1.7",
+          "pli-tv-bu-vb-pj1:8.5.1",
+          "pli-tv-bu-vb-pj4:1.1.42",
+          "pli-tv-bu-vb-sk69:1.22",
+          "pli-tv-bu-vb-ss3:4.8.5",
+          "pli-tv-bu-vb-ss4:1.1.13",
+          "pli-tv-bu-vb-ss12:2.7"
         ]
       }
     },
@@ -140,24 +140,24 @@
       "en": "drawback-danger",
       "canon": {
         "patterns": [
-          "an10.60"
+          "an10.60:7.1"
         ],
         "broader": [
-          "dn16",
-          "dn33",
-          "mn13",
-          "mn14",
-          "mn109",
-          "sn14.31",
-          "sn22.26",
-          "sn22.57",
-          "sn22.82",
-          "sn35.13",
-          "sn35.14",
-          "sn36.15",
-          "sn36.16",
-          "sn36.17",
-          "sn36.18",
+          "dn16:1.23.5",
+          "dn33:2.1.38",
+          "mn13:6.2",
+          "mn14:7.1",
+          "mn109:12.1",
+          "sn14.31:1.3",
+          "sn22.26:1.3",
+          "sn22.57:3.4",
+          "sn22.82:10.1",
+          "sn35.13:1.3",
+          "sn35.14:1.2",
+          "sn36.15:1.3",
+          "sn36.16:1.3",
+          "sn36.17:1.3",
+          "sn36.18:1.4",
           "(+8)"
         ]
       }
@@ -170,7 +170,7 @@
       "en": "not-given-taking",
       "canon": {
         "broader": [
-          "an5.178"
+          "an5.178:2.3"
         ]
       }
     },
@@ -182,7 +182,7 @@
       "en": "non-accepting of not-given-taking",
       "canon": {
         "broader": [
-          "an5.178"
+          "an5.178:2.3"
         ]
       }
     },
@@ -197,12 +197,12 @@
           "āhuneyyaggi"
         ],
         "patterns": [
-          "an7.47"
+          "an7.47:13.1"
         ],
         "broader": [
-          "an7.19",
-          "an7.47",
-          "an7.95"
+          "an7.19:1.3",
+          "an7.47:13.2",
+          "an7.95:1.5"
         ]
       }
     },
@@ -214,18 +214,18 @@
       "en": "timeless",
       "canon": {
         "broader": [
-          "sn1.20",
-          "sn4.21"
+          "sn1.20:5.4",
+          "sn4.21:1.11"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-pc35",
-          "pli-tv-bu-vb-pc36",
-          "pli-tv-bu-vb-pc37",
-          "pli-tv-bu-vb-pc38",
-          "pli-tv-bu-vb-pd1",
-          "pli-tv-bu-vb-pd3",
-          "pli-tv-bu-vb-pd4",
-          "pli-tv-bu-vb-pj2"
+          "pli-tv-bu-vb-pc35:3.1.30",
+          "pli-tv-bu-vb-pc36:2.1.22",
+          "pli-tv-bu-vb-pc37:2.1.8",
+          "pli-tv-bu-vb-pc38:2.1.8",
+          "pli-tv-bu-vb-pd1:2.1.12",
+          "pli-tv-bu-vb-pd3:4.1.18",
+          "pli-tv-bu-vb-pd4:3.1.26",
+          "pli-tv-bu-vb-pj2:7.40.8"
         ]
       }
     },
@@ -237,18 +237,18 @@
       "en": "space-dhatu",
       "canon": {
         "where": [
-          "mn62",
-          "mn140"
+          "mn62:12.1",
+          "mn140:18.1"
         ],
         "link": "/mn62:12.1",
         "definition": "Katamā ca, rāhula, ākāsadhātu? Ākāsadhātu siyā ajjhattikā, siyā bāhirā.",
         "patterns": [
-          "mn62",
-          "mn140"
+          "mn62:12.1",
+          "mn140:18.1"
         ],
         "broader": [
-          "mn62",
-          "mn140"
+          "mn62:12.6",
+          "mn140:18.6"
         ]
       }
     },
@@ -260,16 +260,16 @@
       "en": "boundless-space-domain",
       "canon": {
         "where": [
-          "sn40.5"
+          "sn40.5:1.1"
         ],
         "link": "/sn40.5:1.1",
         "definition": "“‘Ākāsānañcāyatanaṁ, ākāsānañcāyatanan’ti vuccati. Katamaṁ nu kho ākāsānañcāyatananti? Tassa mayhaṁ, āvuso, etadahosi: ‘idha bhikkhu sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ananto ākāsoti ākāsānañcāyatanaṁ upasampajja viharati. Idaṁ vuccati ākāsānañcāyatanan’ti.",
         "patterns": [
-          "sn40.5"
+          "sn40.5:1.1"
         ],
         "broader": [
-          "sn14.11",
-          "an9.41"
+          "sn14.11:3.4",
+          "an9.41:11.5"
         ]
       }
     },
@@ -281,16 +281,16 @@
       "en": "nothing-whatsoever-domain",
       "canon": {
         "where": [
-          "sn40.7"
+          "sn40.7:1.1"
         ],
         "link": "/sn40.7:1.1",
         "definition": "“‘Ākiñcaññāyatanaṁ, ākiñcaññāyatanan’ti vuccati. Katamaṁ nu kho ākiñcaññāyatananti? Tassa mayhaṁ, āvuso, etadahosi: ‘idha bhikkhu sabbaso viññāṇañcāyatanaṁ samatikkamma natthi kiñcīti ākiñcaññāyatanaṁ upasampajja viharati. Idaṁ vuccati ākiñcaññāyatanan’ti.",
         "patterns": [
-          "sn40.7"
+          "sn40.7:1.1"
         ],
         "broader": [
-          "sn14.11",
-          "an9.41"
+          "sn14.11:3.6",
+          "an9.41:13.5"
         ]
       }
     },
@@ -302,9 +302,9 @@
       "en": "unbeneficial, unskillful, ineffective",
       "canon": {
         "where": [
-          "mn9",
-          "an10.136",
-          "an10.180"
+          "mn9:4.1",
+          "an10.136:1.3",
+          "an10.180:1.3"
         ],
         "link": "/mn9:4.1",
         "definition": "Katamaṁ panāvuso, akusalaṁ, katamaṁ akusalamūlaṁ, katamaṁ kusalaṁ, katamaṁ kusalamūlaṁ? Pāṇātipāto kho, āvuso, akusalaṁ, adinnādānaṁ akusalaṁ, kāmesumicchācāro akusalaṁ, musāvādo akusalaṁ, pisuṇā vācā akusalaṁ, pharusā vācā akusalaṁ, samphappalāpo akusalaṁ, abhijjhā akusalaṁ, byāpādo akusalaṁ, micchādiṭṭhi akusalaṁ— idaṁ vuccatāvuso akusalaṁ.",
@@ -312,16 +312,16 @@
           "akusalamūlaṁ"
         ],
         "patterns": [
-          "mn9",
-          "mn78",
-          "mn88",
-          "sn45.22",
-          "an10.136",
-          "an10.180"
+          "mn9:4.1",
+          "mn78:10.1",
+          "mn88:10.3",
+          "sn45.22:1.4",
+          "an10.136:1.3",
+          "an10.180:1.3"
         ],
         "broader": [
-          "dn1",
-          "an2.15"
+          "dn1:3.21.6",
+          "an2.15:3.3"
         ]
       }
     },
@@ -354,17 +354,17 @@
       "en": "non-returner",
       "canon": {
         "patterns": [
-          "iti96"
+          "iti96:4.4"
         ],
         "broader": [
-          "mn142",
-          "sn47.40",
-          "sn51.19",
-          "sn51.27",
-          "sn51.28",
-          "sn51.29",
-          "sn51.30",
-          "an2.36"
+          "mn142:6.1",
+          "sn47.40:3.4",
+          "sn51.19:5.4",
+          "sn51.27:5.4",
+          "sn51.28:5.4",
+          "sn51.29:5.4",
+          "sn51.30:5.4",
+          "an2.36:3.6"
         ]
       }
     },
@@ -390,7 +390,7 @@
       "en": "non-personality",
       "canon": {
         "where": [
-          "sn23.17"
+          "sn23.17:1.3"
         ],
         "link": "/sn23.17:1.3",
         "definition": "“‘anattā, anattā’ti, bhante, vuccati. Katamo nu kho, bhante, anattā”ti? “Rūpaṁ kho, rādha, anattā, vedanā anattā, saññā anattā, saṅkhārā anattā, viññāṇaṁ anattā.",
@@ -399,42 +399,42 @@
           "anattho"
         ],
         "patterns": [
-          "sn23.17",
-          "sn23.18",
-          "an10.60",
-          "an10.113",
-          "an10.114",
-          "an10.115",
-          "an10.116",
-          "an10.137",
-          "an10.171",
-          "an10.172",
-          "an10.173",
-          "an10.181"
+          "sn23.17:1.3",
+          "sn23.18:1.3",
+          "an10.60:5.1",
+          "an10.113:2.1",
+          "an10.114:2.1",
+          "an10.115:12.1",
+          "an10.116:9.1",
+          "an10.137:1.3",
+          "an10.171:2.1",
+          "an10.172:12.2",
+          "an10.173:2.2",
+          "an10.181:1.3"
         ],
         "broader": [
-          "sn22.143",
-          "sn22.144",
-          "sn22.145",
-          "sn35.78",
-          "sn35.164",
-          "sn35.174-176",
-          "sn35.183-185",
-          "an10.60",
-          "an10.113",
-          "an10.114",
-          "an10.115",
-          "an10.116",
-          "an10.137",
-          "an10.171",
-          "an10.172",
+          "sn22.143:1.3",
+          "sn22.144:1.3",
+          "sn22.145:1.3",
+          "sn35.78:1.2",
+          "sn35.164:1.4",
+          "sn35.174-176:1.2",
+          "sn35.183-185:1.2",
+          "an10.60:5.5",
+          "an10.113:2.3",
+          "an10.114:3.3",
+          "an10.115:13.3",
+          "an10.116:9.4",
+          "an10.137:1.5",
+          "an10.171:2.3",
+          "an10.172:12.5",
           "(+2)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-np2",
-          "pli-tv-bi-vb-pj5",
-          "pli-tv-bi-vb-pj8",
-          "pli-tv-bu-vb-pj1"
+          "pli-tv-bi-vb-np2:2.1.6",
+          "pli-tv-bi-vb-pj5:1.25",
+          "pli-tv-bi-vb-pj8:2.1.21",
+          "pli-tv-bu-vb-pj1:5.7.17"
         ]
       }
     },
@@ -446,38 +446,38 @@
       "en": "purposeless (non-benefit)",
       "canon": {
         "where": [
-          "an10.137",
-          "an10.172",
-          "an10.173",
-          "an10.181"
+          "an10.137:1.3",
+          "an10.172:12.2",
+          "an10.173:2.2",
+          "an10.181:1.3"
         ],
         "link": "/an10.137:1.3",
         "definition": "katamo ca, bhikkhave, anattho? Micchādiṭṭhi …pe… micchāvimutti— ayaṁ vuccati, bhikkhave, anattho.",
         "patterns": [
-          "an10.113",
-          "an10.114",
-          "an10.115",
-          "an10.116",
-          "an10.137",
-          "an10.171",
-          "an10.172",
-          "an10.173",
-          "an10.181"
+          "an10.113:2.1",
+          "an10.114:2.1",
+          "an10.115:12.1",
+          "an10.116:9.1",
+          "an10.137:1.3",
+          "an10.171:2.1",
+          "an10.172:12.2",
+          "an10.173:2.2",
+          "an10.181:1.3"
         ],
         "broader": [
-          "an10.113",
-          "an10.114",
-          "an10.115",
-          "an10.116",
-          "an10.137",
-          "an10.171",
-          "an10.172",
-          "an10.173",
-          "an10.181"
+          "an10.113:2.3",
+          "an10.114:3.3",
+          "an10.115:13.3",
+          "an10.116:9.4",
+          "an10.137:1.5",
+          "an10.171:2.3",
+          "an10.172:12.5",
+          "an10.173:2.5",
+          "an10.181:1.6"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-np2",
-          "pli-tv-bi-vb-pj8"
+          "pli-tv-bi-vb-np2:2.1.6",
+          "pli-tv-bi-vb-pj8:2.1.21"
         ]
       }
     },
@@ -489,53 +489,53 @@
       "en": "Aspect",
       "canon": {
         "patterns": [
-          "mn5",
-          "sn22.43",
-          "sn43.10",
-          "sn46.5",
-          "sn46.21",
-          "sn55.5",
-          "an6.54",
-          "an9.50",
-          "an10.37",
-          "an10.38",
-          "an10.39",
-          "an10.40"
+          "mn5:9.1",
+          "sn22.43:3.2",
+          "sn43.10:1.2",
+          "sn46.5:1.3",
+          "sn46.21:2.1",
+          "sn55.5:1.2",
+          "an6.54:26.4",
+          "an9.50:1.1",
+          "an10.37:1.1",
+          "an10.38:1.1",
+          "an10.39:1.2",
+          "an10.40:1.1"
         ],
         "broader": [
-          "dn1",
-          "mn5",
-          "mn23",
-          "mn56",
-          "mn77",
-          "mn78",
-          "mn85",
-          "mn142",
-          "sn12.43",
-          "sn12.44",
-          "sn22.5",
-          "sn22.95",
-          "sn35.106",
-          "sn35.107",
-          "sn44.9",
+          "dn1:3.20.2",
+          "mn5:2.9",
+          "mn23:3.10",
+          "mn56:27.19",
+          "mn77:6.18",
+          "mn78:3.7",
+          "mn85:56.17",
+          "mn142:7.4",
+          "sn12.43:4.10",
+          "sn12.44:4.8",
+          "sn22.5:6.1",
+          "sn22.95:2.1",
+          "sn35.106:2.10",
+          "sn35.107:2.10",
+          "sn44.9:2.2",
           "(+32)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc36",
-          "pli-tv-bi-vb-pc53",
-          "pli-tv-bi-vb-pc60",
-          "pli-tv-bi-vb-pc86",
-          "pli-tv-bi-vb-pj7",
-          "pli-tv-bi-vb-ss2",
-          "pli-tv-bi-vb-ss4",
-          "pli-tv-bi-vb-ss10",
-          "pli-tv-bi-vb-ss11",
-          "pli-tv-bi-vb-ss12",
-          "pli-tv-bi-vb-ss13",
-          "pli-tv-bu-vb-np1",
-          "pli-tv-bu-vb-np2",
-          "pli-tv-bu-vb-np14",
-          "pli-tv-bu-vb-np18",
+          "pli-tv-bi-vb-pc36:2.1.37",
+          "pli-tv-bi-vb-pc53:1.5",
+          "pli-tv-bi-vb-pc60:2.1.15",
+          "pli-tv-bi-vb-pc86:1.4",
+          "pli-tv-bi-vb-pj7:2.1.45",
+          "pli-tv-bi-vb-ss2:2.1.17",
+          "pli-tv-bi-vb-ss4:1.5",
+          "pli-tv-bi-vb-ss10:2.1.44",
+          "pli-tv-bi-vb-ss11:2.1.39",
+          "pli-tv-bi-vb-ss12:2.1.39",
+          "pli-tv-bi-vb-ss13:2.57",
+          "pli-tv-bu-vb-np1:3.2.13",
+          "pli-tv-bu-vb-np2:2.26",
+          "pli-tv-bu-vb-np14:2.26",
+          "pli-tv-bu-vb-np18:2.42",
           "(+31)"
         ]
       }
@@ -548,7 +548,7 @@
       "en": "unreliability",
       "canon": {
         "where": [
-          "sn23.13"
+          "sn23.13:1.3"
         ],
         "link": "/sn23.13:1.3",
         "definition": "“‘aniccaṁ, aniccan’ti, bhante, vuccati. Katamaṁ nu kho, bhante, aniccan”ti? “Rūpaṁ kho, rādha, aniccaṁ, vedanā aniccā, saññā aniccā, saṅkhārā aniccā, viññāṇaṁ aniccaṁ.",
@@ -556,18 +556,18 @@
           "aniccadhammo"
         ],
         "patterns": [
-          "sn23.13",
-          "sn23.14",
-          "an10.60"
+          "sn23.13:1.3",
+          "sn23.14:1.3",
+          "an10.60:4.1"
         ],
         "broader": [
-          "dn1",
-          "sn36.7",
-          "sn36.8",
-          "an10.60"
+          "dn1:2.13.3",
+          "sn36.7:5.6",
+          "sn36.8:5.7",
+          "an10.60:4.5"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-pc4"
+          "pli-tv-bu-vb-pc4:2.1.14"
         ]
       }
     },
@@ -579,13 +579,13 @@
       "en": "signlessness",
       "canon": {
         "patterns": [
-          "sn40.9"
+          "sn40.9:1.1"
         ],
         "broader": [
-          "mn43",
-          "sn40.9",
-          "sn41.7",
-          "an7.56"
+          "mn43:34.3",
+          "sn40.9:1.5",
+          "sn41.7:5.3",
+          "an7.56:13.3"
         ]
       }
     },
@@ -608,82 +608,82 @@
           "antopūtibhāvo"
         ],
         "patterns": [
-          "dn13",
-          "mn5",
-          "mn43",
-          "mn138",
-          "mn140",
-          "sn7.2",
-          "sn12.15",
-          "sn12.16",
-          "sn12.24",
-          "sn21.3",
-          "sn22.4",
-          "sn22.21",
-          "sn22.48",
-          "sn22.51",
-          "sn22.52",
-          "sn22.82",
-          "sn22.113",
-          "sn22.114",
-          "sn22.115",
-          "sn22.116",
-          "sn22.126",
-          "sn23.1",
-          "sn23.2",
-          "sn23.3",
-          "sn23.11",
-          "sn23.12",
-          "sn23.13",
-          "sn23.14",
-          "sn23.15",
-          "sn23.16",
-          "sn23.17",
-          "sn23.18",
-          "sn23.19",
-          "sn23.20",
-          "sn23.21",
-          "sn23.22",
-          "sn24.44",
-          "sn25.1",
-          "sn25.2",
-          "sn25.10",
+          "dn13:27.1",
+          "mn5:9.1",
+          "mn43:4.2",
+          "mn138:10.1",
+          "mn140:7.2",
+          "sn7.2:3.1",
+          "sn12.15:1.3",
+          "sn12.16:1.3",
+          "sn12.24:17.3",
+          "sn21.3:3.2",
+          "sn22.4:3.1",
+          "sn22.21:1.3",
+          "sn22.48:1.5",
+          "sn22.51:1.5",
+          "sn22.52:1.5",
+          "sn22.82:6.2",
+          "sn22.113:1.4",
+          "sn22.114:1.3",
+          "sn22.115:1.3",
+          "sn22.116:1.3",
+          "sn22.126:1.3",
+          "sn23.1:2.1",
+          "sn23.2:1.3",
+          "sn23.3:1.3",
+          "sn23.11:1.3",
+          "sn23.12:1.3",
+          "sn23.13:1.3",
+          "sn23.14:1.3",
+          "sn23.15:1.3",
+          "sn23.16:1.3",
+          "sn23.17:1.3",
+          "sn23.18:1.3",
+          "sn23.19:1.3",
+          "sn23.20:1.3",
+          "sn23.21:1.3",
+          "sn23.22:1.3",
+          "sn24.44:5.2",
+          "sn25.1:2.1",
+          "sn25.2:2.1",
+          "sn25.10:2.1",
           "(+64)"
         ],
         "broader": [
-          "dn1",
-          "dn6",
-          "dn8",
-          "dn9",
-          "dn14",
-          "dn16",
-          "dn18",
-          "dn22",
-          "dn23",
-          "dn24",
-          "dn25",
-          "dn28",
-          "dn29",
-          "dn31",
-          "dn33",
+          "dn1:1.4.9",
+          "dn6:6.1",
+          "dn8:23.5",
+          "dn9:34.15",
+          "dn14:1.2.7",
+          "dn16:3.12.7",
+          "dn18:5.13",
+          "dn22:21.15",
+          "dn23:7.4",
+          "dn24:1.3.15",
+          "dn25:6.9",
+          "dn28:5.3",
+          "dn29:41.5",
+          "dn31:2.13",
+          "dn33:1.11.176",
           "(+174)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-np1",
-          "pli-tv-bi-vb-np2",
-          "pli-tv-bi-vb-np3",
-          "pli-tv-bi-vb-np4",
-          "pli-tv-bi-vb-np5",
-          "pli-tv-bi-vb-np6",
-          "pli-tv-bi-vb-np7",
-          "pli-tv-bi-vb-np8",
-          "pli-tv-bi-vb-np9",
-          "pli-tv-bi-vb-np10",
-          "pli-tv-bi-vb-np11",
-          "pli-tv-bi-vb-np12",
-          "pli-tv-bi-vb-pc1",
-          "pli-tv-bi-vb-pc2",
-          "pli-tv-bi-vb-pc3",
+          "pli-tv-bi-vb-np1:1.4",
+          "pli-tv-bi-vb-np2:1.4",
+          "pli-tv-bi-vb-np3:1.19",
+          "pli-tv-bi-vb-np4:1.26",
+          "pli-tv-bi-vb-np5:1.27",
+          "pli-tv-bi-vb-np6:1.6",
+          "pli-tv-bi-vb-np7:1.6",
+          "pli-tv-bi-vb-np8:1.7",
+          "pli-tv-bi-vb-np9:1.8",
+          "pli-tv-bi-vb-np10:1.17",
+          "pli-tv-bi-vb-np11:1.11",
+          "pli-tv-bi-vb-np12:1.11",
+          "pli-tv-bi-vb-pc1:1.15",
+          "pli-tv-bi-vb-pc2:1.7",
+          "pli-tv-bi-vb-pc3:1.7",
           "(+231)"
         ]
       },
@@ -714,8 +714,8 @@
       "en": "predisposition",
       "canon": {
         "broader": [
-          "sn36.3",
-          "an5.200"
+          "sn36.3:1.5",
+          "an5.200:6.2"
         ]
       }
     },
@@ -748,22 +748,22 @@
       "en": "liquid-dhatu",
       "canon": {
         "where": [
-          "mn28",
-          "mn62",
-          "mn140"
+          "mn28:11.1",
+          "mn62:9.1",
+          "mn140:15.1"
         ],
         "link": "/mn28:11.1",
         "definition": "Katamā cāvuso, āpodhātu? Āpodhātu siyā ajjhattikā, siyā bāhirā.",
         "patterns": [
-          "mn28",
-          "mn62",
-          "mn140"
+          "mn28:11.1",
+          "mn62:9.1",
+          "mn140:15.1"
         ],
         "broader": [
-          "mn28",
-          "mn62",
-          "mn140",
-          "sn14.31"
+          "mn28:11.6",
+          "mn62:9.6",
+          "mn140:15.6",
+          "sn14.31:1.4"
         ]
       }
     },
@@ -775,7 +775,7 @@
       "en": "non-carelessness",
       "canon": {
         "where": [
-          "sn48.56"
+          "sn48.56:1.4"
         ],
         "link": "/sn48.56:1.4",
         "definition": "Katamo ca bhikkhave, appamādo? Idha, bhikkhave, bhikkhu cittaṁ rakkhati āsavesu ca sāsavesu ca dhammesu. Tassa cittaṁ rakkhato āsavesu ca sāsavesu ca dhammesu saddhindriyampi bhāvanāpāripūriṁ gacchati.",
@@ -783,8 +783,8 @@
           "appamādavihārī"
         ],
         "patterns": [
-          "sn35.134",
-          "sn48.56"
+          "sn35.134:1.6",
+          "sn48.56:1.4"
         ]
       }
     },
@@ -796,8 +796,8 @@
       "en": "directionlessness (non-aspiration)",
       "canon": {
         "patterns": [
-          "sn43.4",
-          "sn43.12"
+          "sn43.4:1.2",
+          "sn43.12:4.8"
         ]
       }
     },
@@ -809,10 +809,10 @@
       "en": "union-with-the-unloved",
       "canon": {
         "patterns": [
-          "dn22"
+          "dn22:18.27"
         ],
         "broader": [
-          "dn22"
+          "dn22:18.29"
         ]
       }
     },
@@ -824,11 +824,11 @@
       "en": "non-good",
       "canon": {
         "patterns": [
-          "an6.63"
+          "an6.63:12.2"
         ],
         "broader": [
-          "an6.54",
-          "an7.73"
+          "an6.54:19.5",
+          "an7.73:3.5"
         ]
       }
     },
@@ -840,7 +840,7 @@
       "en": "arahant",
       "canon": {
         "where": [
-          "mn39"
+          "mn39:29.1"
         ],
         "link": "/mn39:29.1",
         "definition": "Kathañca, bhikkhave, bhikkhu arahaṁ hoti? Ārakāssa honti pāpakā akusalā dhammā, saṅkilesikā, ponobbhavikā, sadarā, dukkhavipākā, āyatiṁ, jātijarāmaraṇiyā. Evaṁ kho, bhikkhave, bhikkhu arahaṁ hotī”ti.",
@@ -848,36 +848,36 @@
           "arahattan"
         ],
         "patterns": [
-          "mn39",
-          "mn94",
-          "mn137",
-          "sn38.2",
-          "sn51.8",
-          "sn56.23"
+          "mn39:29.1",
+          "mn94:33.10",
+          "mn137:3.1",
+          "sn38.2:1.2",
+          "sn51.8:1.8",
+          "sn56.23:1.6"
         ],
         "broader": [
-          "dn2",
-          "dn10",
-          "dn16",
-          "dn18",
-          "dn25",
-          "mn39",
-          "mn65",
-          "mn77",
-          "mn81",
-          "mn142",
-          "sn1.20",
-          "sn16.13",
-          "sn22.90",
-          "sn22.110",
-          "sn23.8",
+          "dn2:98.1",
+          "dn10:2.36.1",
+          "dn16:3.22.9",
+          "dn18:23.12",
+          "dn25:20.10",
+          "mn39:21.10",
+          "mn65:29.2",
+          "mn77:36.2",
+          "mn81:4.3",
+          "mn142:6.1",
+          "sn1.20:7.3",
+          "sn16.13:1.5",
+          "sn22.90:3.15",
+          "sn22.110:1.6",
+          "sn23.8:1.7",
           "(+18)"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-pc6",
-          "pli-tv-bu-vb-pc32",
-          "pli-tv-bu-vb-pj4",
-          "pli-tv-bu-vb-ss3"
+          "pli-tv-bu-vb-pc6:1.48",
+          "pli-tv-bu-vb-pc32:8.8",
+          "pli-tv-bu-vb-pj4:8.7.2",
+          "pli-tv-bu-vb-ss3:3.1.5"
         ]
       }
     },
@@ -889,44 +889,44 @@
       "en": "non-delight, aversion",
       "canon": {
         "patterns": [
-          "dn15",
-          "sn43.12",
-          "snp3.2"
+          "dn15:36.2",
+          "sn43.12:5.11",
+          "snp3.2:12.2"
         ],
         "broader": [
-          "dn1",
-          "dn16",
-          "dn20",
-          "mn37",
-          "mn83",
-          "sn1.37",
-          "sn7.2",
-          "sn8.10",
-          "sn8.11",
-          "sn16.6",
-          "sn22.90",
-          "sn46.55",
-          "an5.50",
-          "an5.193",
-          "an8.2",
+          "dn1:3.23.6",
+          "dn16:5.4.5",
+          "dn20:2.2",
+          "mn37:11.2",
+          "mn83:14.3",
+          "sn1.37:1.5",
+          "sn7.2:3.1",
+          "sn8.10:1.4",
+          "sn8.11:1.4",
+          "sn16.6:2.3",
+          "sn22.90:4.2",
+          "sn46.55:2.1",
+          "an5.50:3.2",
+          "an5.193:1.3",
+          "an8.2:9.2",
           "(+4)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-ss1",
-          "pli-tv-bu-vb-np5",
-          "pli-tv-bu-vb-pc3",
-          "pli-tv-bu-vb-pc12",
-          "pli-tv-bu-vb-pc68",
-          "pli-tv-bu-vb-pc70",
-          "pli-tv-bu-vb-pd4",
-          "pli-tv-bu-vb-pj1",
-          "pli-tv-bu-vb-pj2",
-          "pli-tv-bu-vb-pj3",
-          "pli-tv-bu-vb-pj4",
-          "pli-tv-bu-vb-ss2",
-          "pli-tv-bu-vb-ss6",
-          "pli-tv-bu-vb-ss10",
-          "pli-tv-bu-vb-ss11",
+          "pli-tv-bi-vb-ss1:1.50",
+          "pli-tv-bu-vb-np5:1.1.12",
+          "pli-tv-bu-vb-pc3:2.1.3",
+          "pli-tv-bu-vb-pc12:1.2",
+          "pli-tv-bu-vb-pc68:1.25",
+          "pli-tv-bu-vb-pc70:1.13",
+          "pli-tv-bu-vb-pd4:3.1.22",
+          "pli-tv-bu-vb-pj1:3.2.14",
+          "pli-tv-bu-vb-pj2:5.2.2",
+          "pli-tv-bu-vb-pj3:4.9.5",
+          "pli-tv-bu-vb-pj4:8.2.1",
+          "pli-tv-bu-vb-ss2:1.1.18",
+          "pli-tv-bu-vb-ss6:1.2.9",
+          "pli-tv-bu-vb-ss10:1.3.18",
+          "pli-tv-bu-vb-ss11:1.27",
           "(+1)"
         ]
       }
@@ -939,12 +939,12 @@
       "en": "noble",
       "canon": {
         "where": [
-          "mn22",
-          "mn39",
-          "mn117",
-          "sn45.28",
-          "an5.71",
-          "an5.72"
+          "mn22:35.1",
+          "mn39:28.1",
+          "mn117:3.4",
+          "sn45.28:1.7",
+          "an5.71:7.1",
+          "an5.72:6.1"
         ],
         "link": "/mn22:35.1",
         "definition": "Kathañca, bhikkhave, bhikkhu ariyo pannaddhajo pannabhāro visaṁyutto hoti? Idha, bhikkhave, bhikkhuno asmimāno pahīno hoti, ucchinnamūlo tālāvatthukato anabhāvaṅkato, āyatiṁ anuppādadhammo. Evaṁ kho, bhikkhave, bhikkhu ariyo pannaddhajo pannabhāro visaṁyutto hoti.",
@@ -953,73 +953,73 @@
           "ariyuposatho"
         ],
         "patterns": [
-          "dn13",
-          "dn22",
-          "dn28",
-          "mn8",
-          "mn28",
-          "mn39",
-          "mn141",
-          "sn21.1",
-          "sn35.151",
-          "sn45.6",
-          "sn45.18",
-          "sn45.19",
-          "sn45.20",
-          "sn56.13",
-          "sn56.14",
-          "sn56.27",
-          "sn56.28",
-          "an2.45",
-          "an3.31",
-          "an3.61",
-          "an4.63",
-          "an5.192",
-          "an6.54",
-          "an6.63",
-          "an7.63",
-          "an9.38",
-          "an10.135",
-          "an10.145",
-          "an10.179",
-          "an10.189",
-          "iti104",
-          "iti106"
+          "dn13:27.1",
+          "dn22:18.1",
+          "dn28:18.3",
+          "mn8:4.4",
+          "mn28:3.1",
+          "mn39:28.1",
+          "mn141:10.1",
+          "sn21.1:2.3",
+          "sn35.151:1.9",
+          "sn45.6:1.3",
+          "sn45.18:2.1",
+          "sn45.19:1.2",
+          "sn45.20:1.2",
+          "sn56.13:2.1",
+          "sn56.14:2.1",
+          "sn56.27:1.5",
+          "sn56.28:1.5",
+          "an2.45:2.1",
+          "an3.31:2.2",
+          "an3.61:14.1",
+          "an4.63:3.2",
+          "an5.192:10.13",
+          "an6.54:26.4",
+          "an6.63:8.9",
+          "an7.63:12.1",
+          "an9.38:5.1",
+          "an10.135:1.6",
+          "an10.145:1.6",
+          "an10.179:2.1",
+          "an10.189:2.1",
+          "iti104:2.9",
+          "iti106:4.2"
         ],
         "broader": [
-          "dn1",
-          "dn3",
-          "dn10",
-          "dn16",
-          "dn18",
-          "dn29",
-          "dn33",
-          "dn34",
-          "mn12",
-          "mn18",
-          "mn43",
-          "mn53",
-          "mn54",
-          "mn81",
-          "mn117",
+          "dn1:2.18.4",
+          "dn3:1.9.5",
+          "dn10:1.30.1",
+          "dn16:2.9.10",
+          "dn18:27.7",
+          "dn29:41.5",
+          "dn33:1.11.65",
+          "dn34:1.6.71",
+          "mn12:50.6",
+          "mn18:22.4",
+          "mn43:34.4",
+          "mn53:19.1",
+          "mn54:25.4",
+          "mn81:19.7",
+          "mn117:3.4",
           "(+111)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc21",
-          "pli-tv-bi-vb-pc61",
-          "pli-tv-bi-vb-pc62",
-          "pli-tv-bi-vb-pc63",
-          "pli-tv-bi-vb-pc64",
-          "pli-tv-bi-vb-pc65",
-          "pli-tv-bi-vb-pc66",
-          "pli-tv-bi-vb-pc67",
-          "pli-tv-bi-vb-pc71",
-          "pli-tv-bi-vb-pc72",
-          "pli-tv-bi-vb-pc73",
-          "pli-tv-bi-vb-pc74",
-          "pli-tv-bi-vb-pc75",
-          "pli-tv-bi-vb-pc79",
-          "pli-tv-bi-vb-pc80",
+          "pli-tv-bi-vb-pc21:1.4",
+          "pli-tv-bi-vb-pc61:2.1.9",
+          "pli-tv-bi-vb-pc62:2.9",
+          "pli-tv-bi-vb-pc63:2.1.11",
+          "pli-tv-bi-vb-pc64:2.13",
+          "pli-tv-bi-vb-pc65:2.1.11",
+          "pli-tv-bi-vb-pc66:2.15",
+          "pli-tv-bi-vb-pc67:2.17",
+          "pli-tv-bi-vb-pc71:2.11",
+          "pli-tv-bi-vb-pc72:2.15",
+          "pli-tv-bi-vb-pc73:2.17",
+          "pli-tv-bi-vb-pc74:2.1.9",
+          "pli-tv-bi-vb-pc75:2.11",
+          "pli-tv-bi-vb-pc79:2.1.19",
+          "pli-tv-bi-vb-pc80:2.1.15",
           "(+19)"
         ]
       }
@@ -1032,14 +1032,14 @@
       "en": "noble-truth",
       "canon": {
         "patterns": [
-          "dn22",
-          "mn28",
-          "mn141",
-          "sn56.13",
-          "sn56.14",
-          "sn56.27",
-          "sn56.28",
-          "an3.61"
+          "dn22:18.1",
+          "mn28:3.1",
+          "mn141:10.1",
+          "sn56.13:2.1",
+          "sn56.14:2.1",
+          "sn56.27:1.5",
+          "sn56.28:1.5",
+          "an3.61:14.1"
         ]
       }
     },
@@ -1051,43 +1051,43 @@
       "en": "Noble Eightfold Path",
       "canon": {
         "where": [
-          "sn45.8",
-          "sn45.29",
-          "sn45.30",
-          "sn45.33",
-          "sn45.161",
-          "sn45.162",
-          "sn45.170",
-          "sn45.180"
+          "sn45.8:2.1",
+          "sn45.29:1.7",
+          "sn45.30:1.16",
+          "sn45.33:1.4",
+          "sn45.161:1.7",
+          "sn45.162:1.6",
+          "sn45.170:1.6",
+          "sn45.180:1.6"
         ],
         "link": "/sn45.8:2.1",
         "definition": "“Katamo ca, bhikkhave, ariyo aṭṭhaṅgiko maggo? Seyyathidaṁ—sammādiṭṭhi …pe… sammāsamādhi.",
         "patterns": [
-          "sn45.8",
-          "sn45.29",
-          "sn45.30",
-          "sn45.33",
-          "sn45.161",
-          "sn45.162",
-          "sn45.170",
-          "sn45.180"
+          "sn45.8:2.1",
+          "sn45.29:1.7",
+          "sn45.30:1.16",
+          "sn45.33:1.4",
+          "sn45.161:1.7",
+          "sn45.162:1.6",
+          "sn45.170:1.6",
+          "sn45.180:1.6"
         ],
         "broader": [
-          "sn45.30",
-          "sn45.33",
-          "sn45.161",
-          "sn45.162",
-          "sn45.163",
-          "sn45.164",
-          "sn45.165",
-          "sn45.166",
-          "sn45.167",
-          "sn45.168",
-          "sn45.169",
-          "sn45.170",
-          "sn45.171",
-          "sn45.172",
-          "sn45.173",
+          "sn45.30:1.18",
+          "sn45.33:1.6",
+          "sn45.161:1.9",
+          "sn45.162:1.8",
+          "sn45.163:1.5",
+          "sn45.164:1.5",
+          "sn45.165:1.5",
+          "sn45.166:1.5",
+          "sn45.167:1.5",
+          "sn45.168:1.5",
+          "sn45.169:1.5",
+          "sn45.170:1.5",
+          "sn45.171:1.6",
+          "sn45.172:1.5",
+          "sn45.173:1.5",
           "(+7)"
         ]
       }
@@ -1107,9 +1107,9 @@
       "en": "non-composite, non-composed",
       "canon": {
         "where": [
-          "sn43.1",
-          "sn43.2",
-          "sn43.12"
+          "sn43.1:1.4",
+          "sn43.2:1.3",
+          "sn43.12:1.3"
         ],
         "link": "/sn43.1:1.4",
         "definition": "Katamañca, bhikkhave, asaṅkhataṁ? Yo, bhikkhave, rāgakkhayo dosakkhayo mohakkhayo— idaṁ vuccati, bhikkhave, asaṅkhataṁ.",
@@ -1117,23 +1117,23 @@
           "asaṅkhatagāmimaggo"
         ],
         "patterns": [
-          "sn43.1",
-          "sn43.2",
-          "sn43.12"
+          "sn43.1:1.4",
+          "sn43.2:1.3",
+          "sn43.12:1.3"
         ],
         "broader": [
-          "sn43.1",
-          "sn43.2",
-          "sn43.3",
-          "sn43.4",
-          "sn43.5",
-          "sn43.6",
-          "sn43.7",
-          "sn43.8",
-          "sn43.9",
-          "sn43.10",
-          "sn43.11",
-          "sn43.12"
+          "sn43.1:1.9",
+          "sn43.2:1.8",
+          "sn43.3:1.2",
+          "sn43.4:1.2",
+          "sn43.5:1.2",
+          "sn43.6:1.2",
+          "sn43.7:1.2",
+          "sn43.8:1.2",
+          "sn43.9:1.2",
+          "sn43.10:1.2",
+          "sn43.11:1.3",
+          "sn43.12:1.8"
         ]
       }
     },
@@ -1145,14 +1145,14 @@
       "en": "impure person",
       "canon": {
         "where": [
-          "sn45.25",
-          "sn45.26",
-          "an4.201",
-          "an4.202",
-          "an4.203",
-          "an4.204",
-          "an4.205",
-          "an4.206"
+          "sn45.25:1.4",
+          "sn45.26:1.5",
+          "an4.201:2.1",
+          "an4.202:2.1",
+          "an4.203:2.1",
+          "an4.204:2.1",
+          "an4.205:2.1",
+          "an4.206:2.1"
         ],
         "link": "/sn45.25:1.4",
         "definition": "Katamo ca, bhikkhave, asappuriso? Idha, bhikkhave, ekacco micchādiṭṭhiko hoti, micchāsaṅkappo, micchāvāco, micchākammanto, micchāājīvo, micchāvāyāmo, micchāsati, micchāsamādhi— ayaṁ vuccati, bhikkhave, asappuriso.",
@@ -1161,32 +1161,32 @@
           "asappurisadhammo"
         ],
         "patterns": [
-          "mn113",
-          "sn45.25",
-          "sn45.26",
-          "an2.32",
-          "an4.201",
-          "an4.202",
-          "an4.203",
-          "an4.204",
-          "an4.205",
-          "an4.206",
-          "an10.148",
-          "an10.192"
+          "mn113:3.1",
+          "sn45.25:1.4",
+          "sn45.26:1.5",
+          "an2.32:2.1",
+          "an4.201:2.1",
+          "an4.202:2.1",
+          "an4.203:2.1",
+          "an4.204:2.1",
+          "an4.205:2.1",
+          "an4.206:2.1",
+          "an10.148:1.3",
+          "an10.192:1.3"
         ],
         "broader": [
-          "mn129",
-          "sn45.25",
-          "sn45.26",
-          "an3.3",
-          "an4.201",
-          "an4.202",
-          "an4.203",
-          "an4.204",
-          "an4.205",
-          "an4.206",
-          "an10.148",
-          "an10.192"
+          "mn129:2.5",
+          "sn45.25:1.6",
+          "sn45.26:1.7",
+          "an3.3:1.5",
+          "an4.201:2.3",
+          "an4.202:2.3",
+          "an4.203:2.3",
+          "an4.204:2.3",
+          "an4.205:2.3",
+          "an4.206:2.3",
+          "an10.148:1.5",
+          "an10.192:1.6"
         ]
       }
     },
@@ -1198,7 +1198,7 @@
       "en": "discomfort",
       "canon": {
         "broader": [
-          "dn3"
+          "dn3:2.18.6"
         ]
       }
     },
@@ -1210,9 +1210,9 @@
       "en": "outflow",
       "canon": {
         "where": [
-          "mn9",
-          "sn38.8",
-          "an6.58"
+          "mn9:70.1",
+          "sn38.8:1.1",
+          "an6.58:3.1"
         ],
         "link": "/mn9:70.1",
         "definition": "Katamo panāvuso, āsavo, katamo āsavasamudayo, katamo āsavanirodho, katamā āsavanirodhagāminī paṭipadāti? Tayome, āvuso, āsavā— kāmāsavo, bhavāsavo, avijjāsavo.",
@@ -1220,36 +1220,36 @@
           "āsavanirodho"
         ],
         "patterns": [
-          "dn28",
-          "mn9",
-          "sn11.12",
-          "sn11.13",
-          "sn22.48",
-          "sn38.8",
-          "sn41.5",
-          "sn45.7",
-          "an6.63"
+          "dn28:18.4",
+          "mn9:70.1",
+          "sn11.12:4.1",
+          "sn11.13:9.1",
+          "sn22.48:2.2",
+          "sn38.8:1.1",
+          "sn41.5:5.8",
+          "sn45.7:2.6",
+          "an6.63:31.1"
         ],
         "broader": [
-          "dn2",
-          "dn10",
-          "dn28",
-          "mn2",
-          "mn4",
-          "mn19",
-          "mn27",
-          "mn36",
-          "mn39",
-          "mn51",
-          "mn60",
-          "mn65",
-          "mn76",
-          "mn79",
-          "mn85",
+          "dn2:97.3",
+          "dn10:2.34.3",
+          "dn28:14.9",
+          "mn2:22.2",
+          "mn4:31.3",
+          "mn19:23.1",
+          "mn27:25.3",
+          "mn36:42.3",
+          "mn39:21.3",
+          "mn51:27.1",
+          "mn60:55.7",
+          "mn65:20.3",
+          "mn76:49.3",
+          "mn79:43.3",
+          "mn85:40.3",
           "(+23)"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-pj1"
+          "pli-tv-bu-vb-pj1:1.8.3"
         ]
       }
     },
@@ -1261,13 +1261,13 @@
       "en": "non-learner",
       "canon": {
         "where": [
-          "an10.111"
+          "an10.111:2.1"
         ],
         "link": "/an10.111:2.1",
         "definition": "“‘Asekho asekho’ti, bhante, vuccati. Kittāvatā bhante, bhikkhu asekho hotī”ti? “Idha, bhikkhu, bhikkhu asekhāya sammādiṭṭhiyā samannāgato hoti, asekhena sammāsaṅkappena samannāgato hoti, asekhāya sammāvācāya samannāgato hoti, asekhena sammākammantena samannāgato hoti, asekhena sammāājīvena samannāgato hoti, asekhena sammāvāyāmena samannāgato hoti, asekhāya sammāsatiyā samannāgato hoti, asekhena sammāsamādhinā samannāgato hoti, asekhena sammāñāṇena samannāgato hoti, asekhāya sammāvimuttiyā samannāgato hoti.",
         "patterns": [
-          "sn47.27",
-          "an10.111"
+          "sn47.27:1.3",
+          "an10.111:2.1"
         ]
       }
     },
@@ -1279,24 +1279,24 @@
       "en": "attraction, enjoyment",
       "canon": {
         "patterns": [
-          "sn17.2"
+          "sn17.2:2.3"
         ],
         "broader": [
-          "mn13",
-          "mn14",
-          "mn109",
-          "sn14.31",
-          "sn22.26",
-          "sn22.57",
-          "sn22.82",
-          "sn35.13",
-          "sn35.14",
-          "sn36.15",
-          "sn36.16",
-          "sn36.17",
-          "sn36.18",
-          "sn36.23",
-          "sn36.24",
+          "mn13:6.2",
+          "mn14:6.1",
+          "mn109:12.1",
+          "sn14.31:1.3",
+          "sn22.26:1.3",
+          "sn22.57:3.2",
+          "sn22.82:10.1",
+          "sn35.13:1.3",
+          "sn35.14:1.2",
+          "sn36.15:1.3",
+          "sn36.16:1.3",
+          "sn36.17:1.3",
+          "sn36.18:1.4",
+          "sn36.23:1.4",
+          "sn36.24:1.3",
           "(+3)"
         ]
       }
@@ -1309,10 +1309,10 @@
       "en": "exhalation",
       "canon": {
         "broader": [
-          "mn11",
-          "mn93",
-          "sn38.5",
-          "sn38.6"
+          "mn11:3.2",
+          "mn93:6.7",
+          "sn38.5:1.9",
+          "sn38.6:1.9"
         ]
       }
     },
@@ -1324,11 +1324,11 @@
       "en": "disharmony, unseemliness, without-embellishment",
       "canon": {
         "patterns": [
-          "an10.60"
+          "an10.60:6.1"
         ],
         "broader": [
-          "sn14.11",
-          "an10.60"
+          "sn14.11:3.2",
+          "an10.60:6.5"
         ]
       }
     },
@@ -1340,26 +1340,26 @@
       "en": "ardent",
       "canon": {
         "where": [
-          "sn16.2"
+          "sn16.2:4.1"
         ],
         "link": "/sn16.2:4.1",
         "definition": "Kathañcāvuso, ātāpī hoti? Idhāvuso, bhikkhu ‘anuppannā me pāpakā akusalā dhammā uppajjamānā anatthāya saṁvatteyyun’ti ātappaṁ karoti, ‘uppannā me pāpakā akusalā dhammā appahīyamānā anatthāya saṁvatteyyun’ti ātappaṁ karoti, anuppannā me kusalā dhammā …pe… ātappaṁ karoti. Evaṁ kho, āvuso, ātāpī hoti.",
         "patterns": [
-          "sn16.2"
+          "sn16.2:4.1"
         ],
         "broader": [
-          "dn1",
-          "dn2",
-          "dn10",
-          "mn31",
-          "mn77",
-          "an3.49",
-          "an3.62"
+          "dn1:3.10.2",
+          "dn2:83.3",
+          "dn10:2.21.3",
+          "mn31:10.5",
+          "mn77:29.2",
+          "an3.49:2.2",
+          "an3.62:10.5"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc80",
-          "pli-tv-bu-vb-pj2",
-          "pli-tv-bu-vb-ss5"
+          "pli-tv-bi-vb-pc80:2.1.5",
+          "pli-tv-bu-vb-pj2:4.19.8",
+          "pli-tv-bu-vb-ss5:4.2.5"
         ]
       }
     },
@@ -1385,8 +1385,8 @@
       "en": "benefit, meaning, purpose, benefit-meaning-purpose",
       "canon": {
         "where": [
-          "an10.137",
-          "an10.181"
+          "an10.137:1.6",
+          "an10.181:2.1"
         ],
         "link": "/an10.137:1.6",
         "definition": "Katamo ca, bhikkhave, attho? Sammādiṭṭhi …pe… sammāvimutti— ayaṁ vuccati, bhikkhave, attho”ti.",
@@ -1394,82 +1394,82 @@
           "atthisukhaṁ"
         ],
         "patterns": [
-          "dn29",
-          "dn30",
-          "sn9.14",
-          "sn12.24",
-          "sn12.43",
-          "sn12.44",
-          "sn35.106",
-          "sn35.107",
-          "sn35.136",
-          "an2.47",
-          "an3.20",
-          "an4.62",
-          "an4.195",
-          "an7.68",
-          "an8.2",
-          "an10.113",
-          "an10.114",
-          "an10.115",
-          "an10.116",
-          "an10.137",
-          "an10.171",
-          "an10.172",
-          "an10.173",
-          "an10.181",
-          "an11.17",
-          "iti1",
-          "iti2",
-          "iti3",
-          "iti4",
-          "iti5",
-          "iti6",
-          "iti7",
-          "iti8",
-          "iti9",
-          "iti10",
-          "iti11",
-          "iti12",
-          "iti13",
-          "iti14",
-          "iti15",
+          "dn29:35.4",
+          "dn30:1.6.1",
+          "sn9.14:3.4",
+          "sn12.24:17.3",
+          "sn12.43:4.1",
+          "sn12.44:4.1",
+          "sn35.106:2.1",
+          "sn35.107:2.1",
+          "sn35.136:2.4",
+          "an2.47:1.7",
+          "an3.20:6.3",
+          "an4.62:3.1",
+          "an4.195:5.3",
+          "an7.68:3.7",
+          "an8.2:2.2",
+          "an10.113:3.1",
+          "an10.114:2.1",
+          "an10.115:12.1",
+          "an10.116:9.1",
+          "an10.137:1.6",
+          "an10.171:3.1",
+          "an10.172:12.2",
+          "an10.173:2.2",
+          "an10.181:2.1",
+          "an11.17:8.3",
+          "iti1:2.7",
+          "iti2:2.7",
+          "iti3:2.7",
+          "iti4:2.7",
+          "iti5:2.7",
+          "iti6:2.7",
+          "iti7:2.4",
+          "iti8:2.4",
+          "iti9:2.4",
+          "iti10:2.4",
+          "iti11:2.4",
+          "iti12:2.4",
+          "iti13:2.4",
+          "iti14:2.4",
+          "iti15:2.4",
           "(+98)"
         ],
         "broader": [
-          "dn2",
-          "dn5",
-          "dn8",
-          "dn12",
-          "dn16",
-          "dn20",
-          "dn23",
-          "dn29",
-          "dn33",
-          "dn34",
-          "mn18",
-          "mn19",
-          "mn23",
-          "mn25",
-          "mn26",
+          "dn2:23.2",
+          "dn5:13.8",
+          "dn8:17.8",
+          "dn12:16.15",
+          "dn16:4.8.3",
+          "dn20:2.2",
+          "dn23:23.7",
+          "dn29:18.3",
+          "dn33:3.2.64",
+          "dn34:2.1.9",
+          "mn18:10.9",
+          "mn19:26.2",
+          "mn23:3.10",
+          "mn25:7.2",
+          "mn26:15.5",
           "(+58)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-np2",
-          "pli-tv-bi-vb-np4",
-          "pli-tv-bi-vb-np5",
-          "pli-tv-bi-vb-np11",
-          "pli-tv-bi-vb-np12",
-          "pli-tv-bi-vb-pc1",
-          "pli-tv-bi-vb-pc35",
-          "pli-tv-bi-vb-pc37",
-          "pli-tv-bi-vb-pc38",
-          "pli-tv-bi-vb-pj5",
-          "pli-tv-bi-vb-pj8",
-          "pli-tv-bu-vb-np4",
-          "pli-tv-bu-vb-np5",
-          "pli-tv-bu-vb-np6",
-          "pli-tv-bu-vb-np8",
+          "pli-tv-bi-vb-np2:2.1.6",
+          "pli-tv-bi-vb-np4:1.5",
+          "pli-tv-bi-vb-np5:1.11",
+          "pli-tv-bi-vb-np11:1.6",
+          "pli-tv-bi-vb-np12:1.6",
+          "pli-tv-bi-vb-pc1:1.9",
+          "pli-tv-bi-vb-pc35:1.4",
+          "pli-tv-bi-vb-pc37:2.1.11",
+          "pli-tv-bi-vb-pc38:2.11",
+          "pli-tv-bi-vb-pj5:1.40",
+          "pli-tv-bi-vb-pj8:2.1.12",
+          "pli-tv-bu-vb-np4:1.28",
+          "pli-tv-bu-vb-np5:1.2.28",
+          "pli-tv-bu-vb-np6:1.2.16",
+          "pli-tv-bu-vb-np8:1.1.29",
           "(+30)"
         ]
       }
@@ -1482,51 +1482,51 @@
       "en": "non-discernment",
       "canon": {
         "where": [
-          "mn9",
-          "sn12.2",
-          "sn22.113",
-          "sn22.126",
-          "sn38.9",
-          "sn56.17"
+          "mn9:65.3",
+          "sn12.2:14.1",
+          "sn22.113:1.4",
+          "sn22.126:1.3",
+          "sn38.9:1.1",
+          "sn56.17:1.2"
         ],
         "link": "/mn9:65.3",
         "definition": "Katamā panāvuso, avijjā, katamo avijjāsamudayo, katamo avijjānirodho, katamā avijjānirodhagāminī paṭipadā? Yaṁ kho, āvuso, dukkhe aññāṇaṁ, dukkhasamudaye aññāṇaṁ, dukkhanirodhe aññāṇaṁ, dukkhanirodhagāminiyā paṭipadāya aññāṇaṁ— ayaṁ vuccatāvuso, avijjā.",
         "patterns": [
-          "mn9",
-          "sn12.2",
-          "sn22.113",
-          "sn22.126",
-          "sn22.127",
-          "sn22.129",
-          "sn22.131",
-          "sn22.133",
-          "sn22.134",
-          "sn22.135",
-          "sn36.3",
-          "sn38.9",
-          "sn56.17"
+          "mn9:65.3",
+          "sn12.2:14.1",
+          "sn22.113:1.4",
+          "sn22.126:1.3",
+          "sn22.127:1.3",
+          "sn22.129:1.3",
+          "sn22.131:1.2",
+          "sn22.133:1.4",
+          "sn22.134:1.2",
+          "sn22.135:1.3",
+          "sn36.3:1.5",
+          "sn38.9:1.1",
+          "sn56.17:1.2"
         ],
         "broader": [
-          "mn9",
-          "sn12.2",
-          "sn12.19",
-          "sn22.113",
-          "sn22.126",
-          "sn22.127",
-          "sn22.129",
-          "sn22.131",
-          "sn22.133",
-          "sn22.134",
-          "sn22.135",
-          "sn38.9",
-          "sn56.17",
-          "an4.10",
-          "an6.24",
+          "mn9:65.5",
+          "sn12.2:14.3",
+          "sn12.19:5.1",
+          "sn22.113:1.12",
+          "sn22.126:2.14",
+          "sn22.127:2.6",
+          "sn22.129:2.6",
+          "sn22.131:2.6",
+          "sn22.133:2.6",
+          "sn22.134:2.6",
+          "sn22.135:2.6",
+          "sn38.9:1.4",
+          "sn56.17:1.6",
+          "an4.10:4.1",
+          "an6.24:1.1",
           "(+2)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc49",
-          "pli-tv-bi-vb-pc50"
+          "pli-tv-bi-vb-pc49:2.1.5",
+          "pli-tv-bi-vb-pc50:2.5"
         ]
       }
     },
@@ -1538,7 +1538,7 @@
       "en": "predisposition-to-non-discernment",
       "canon": {
         "patterns": [
-          "sn36.3"
+          "sn36.3:1.5"
         ]
       }
     },
@@ -1564,82 +1564,82 @@
       "en": "fellow, friend",
       "canon": {
         "patterns": [
-          "dn9",
-          "dn29",
-          "mn3",
-          "mn5",
-          "mn9",
-          "mn24",
-          "mn32",
-          "mn43",
-          "mn132",
-          "mn133",
-          "mn134",
-          "mn138",
-          "sn22.37",
-          "sn22.38",
-          "sn22.127",
-          "sn22.128",
-          "sn22.129",
-          "sn22.130",
-          "sn22.131",
-          "sn22.132",
-          "sn22.133",
-          "sn22.134",
-          "sn22.135",
-          "sn35.81",
-          "sn35.243",
-          "sn38.1",
-          "sn38.2",
-          "sn38.5",
-          "sn38.6",
-          "sn38.7",
-          "sn38.8",
-          "sn38.9",
-          "sn38.10",
-          "sn38.11",
-          "sn38.12",
-          "sn38.13",
-          "sn38.14",
-          "sn38.15",
-          "sn39.1-15",
-          "sn45.18",
+          "dn9:43.2",
+          "dn29:23.4",
+          "mn3:8.3",
+          "mn5:9.1",
+          "mn9:2.1",
+          "mn24:14.14",
+          "mn32:4.6",
+          "mn43:2.1",
+          "mn132:4.1",
+          "mn133:13.1",
+          "mn134:2.10",
+          "mn138:12.1",
+          "sn22.37:2.2",
+          "sn22.38:2.2",
+          "sn22.127:1.3",
+          "sn22.128:1.3",
+          "sn22.129:1.3",
+          "sn22.130:1.2",
+          "sn22.131:1.2",
+          "sn22.132:1.3",
+          "sn22.133:1.4",
+          "sn22.134:1.2",
+          "sn22.135:1.3",
+          "sn35.81:2.4",
+          "sn35.243:4.1",
+          "sn38.1:2.1",
+          "sn38.2:1.1",
+          "sn38.5:1.1",
+          "sn38.6:1.1",
+          "sn38.7:1.1",
+          "sn38.8:1.1",
+          "sn38.9:1.1",
+          "sn38.10:1.1",
+          "sn38.11:1.1",
+          "sn38.12:1.1",
+          "sn38.13:1.1",
+          "sn38.14:1.1",
+          "sn38.15:1.1",
+          "sn39.1-15:2.1",
+          "sn45.18:2.1",
           "(+29)"
         ],
         "broader": [
-          "dn9",
-          "dn24",
-          "dn29",
-          "dn33",
-          "mn3",
-          "mn5",
-          "mn9",
-          "mn13",
-          "mn26",
-          "mn28",
-          "mn43",
-          "mn44",
-          "mn65",
-          "mn85",
-          "mn127",
+          "dn9:43.3",
+          "dn24:2.3.2",
+          "dn29:32.4",
+          "dn33:1.7.5",
+          "mn3:8.6",
+          "mn5:3.2",
+          "mn9:16.4",
+          "mn13:6.2",
+          "mn26:26.4",
+          "mn28:6.6",
+          "mn43:31.6",
+          "mn44:3.5",
+          "mn65:23.4",
+          "mn85:50.4",
+          "mn127:14.29",
           "(+49)"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-np3",
-          "pli-tv-bu-vb-np7",
-          "pli-tv-bu-vb-np10",
-          "pli-tv-bu-vb-np16",
-          "pli-tv-bu-vb-np20",
-          "pli-tv-bu-vb-pc1",
-          "pli-tv-bu-vb-pc6",
-          "pli-tv-bu-vb-pc33",
-          "pli-tv-bu-vb-pc36",
-          "pli-tv-bu-vb-pc37",
-          "pli-tv-bu-vb-pc38",
-          "pli-tv-bu-vb-pc47",
-          "pli-tv-bu-vb-pc51",
-          "pli-tv-bu-vb-pc64",
-          "pli-tv-bu-vb-pc66",
+          "pli-tv-bu-vb-np3:1.3.3",
+          "pli-tv-bu-vb-np7:1.8",
+          "pli-tv-bu-vb-np10:2.1.39",
+          "pli-tv-bu-vb-np16:1.13",
+          "pli-tv-bu-vb-np20:1.7",
+          "pli-tv-bu-vb-pc1:1.8",
+          "pli-tv-bu-vb-pc6:1.9",
+          "pli-tv-bu-vb-pc33:2.2",
+          "pli-tv-bu-vb-pc36:1.11",
+          "pli-tv-bu-vb-pc37:1.10",
+          "pli-tv-bu-vb-pc38:1.9",
+          "pli-tv-bu-vb-pc47:1.4.6",
+          "pli-tv-bu-vb-pc51:1.25",
+          "pli-tv-bu-vb-pc64:1.10",
+          "pli-tv-bu-vb-pc66:1.6",
           "(+8)"
         ]
       }
@@ -1652,16 +1652,16 @@
       "en": "domain",
       "canon": {
         "patterns": [
-          "sn40.5",
-          "sn40.6",
-          "sn40.7",
-          "sn40.8"
+          "sn40.5:1.1",
+          "sn40.6:1.1",
+          "sn40.7:1.1",
+          "sn40.8:1.1"
         ],
         "broader": [
-          "mn38",
-          "sn4.17",
-          "sn14.11",
-          "an9.41"
+          "mn38:18.36",
+          "sn4.17:2.2",
+          "sn14.11:3.4",
+          "an9.41:11.5"
         ]
       }
     },
@@ -1673,29 +1673,29 @@
       "en": "sir, madam",
       "canon": {
         "patterns": [
-          "mn44",
-          "mn86"
+          "mn44:2.1",
+          "mn86:12.11"
         ],
         "broader": [
-          "sn44.1",
-          "an3.70"
+          "sn44.1:5.13",
+          "an3.70:3.21"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc4",
-          "pli-tv-bi-vb-pc17",
-          "pli-tv-bi-vb-pc21",
-          "pli-tv-bi-vb-pc61",
-          "pli-tv-bi-vb-pc62",
-          "pli-tv-bi-vb-pj5",
-          "pli-tv-bi-vb-pj6",
-          "pli-tv-bi-vb-ss3",
-          "pli-tv-bi-vb-ss6",
-          "pli-tv-bu-vb-pc21",
-          "pli-tv-bu-vb-pc22",
-          "pli-tv-bu-vb-pc23",
-          "pli-tv-bu-vb-pc29",
-          "pli-tv-bu-vb-pc41",
-          "pli-tv-bu-vb-pj1",
+          "pli-tv-bi-vb-pc4:1.6",
+          "pli-tv-bi-vb-pc17:1.9",
+          "pli-tv-bi-vb-pc21:1.4",
+          "pli-tv-bi-vb-pc61:1.5",
+          "pli-tv-bi-vb-pc62:1.5",
+          "pli-tv-bi-vb-pj5:1.21",
+          "pli-tv-bi-vb-pj6:1.8",
+          "pli-tv-bi-vb-ss3:1.7",
+          "pli-tv-bi-vb-ss6:1.7",
+          "pli-tv-bu-vb-pc21:3.3.4",
+          "pli-tv-bu-vb-pc22:2.3.4",
+          "pli-tv-bu-vb-pc23:3.3.5",
+          "pli-tv-bu-vb-pc29:3.1.10",
+          "pli-tv-bu-vb-pc41:1.2.9",
+          "pli-tv-bu-vb-pj1:5.6.26",
           "(+3)"
         ]
       }
@@ -1711,21 +1711,21 @@
           "balasampanno"
         ],
         "patterns": [
-          "sn37.28",
-          "sn43.9"
+          "sn37.28:1.2",
+          "sn43.9:1.2"
         ],
         "broader": [
-          "mn11",
-          "an10.60",
-          "pdhp209"
+          "mn11:3.2",
+          "an10.60:11.3",
+          "pdhp209:1"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc29",
-          "pli-tv-bi-vb-ss13",
-          "pli-tv-bu-vb-pc50",
-          "pli-tv-bu-vb-pd1",
-          "pli-tv-bu-vb-ss3",
-          "pli-tv-bu-vb-ss13"
+          "pli-tv-bi-vb-pc29:2.1.5",
+          "pli-tv-bi-vb-ss13:2.16",
+          "pli-tv-bu-vb-pc50:2.1.5",
+          "pli-tv-bu-vb-pd1:1.18",
+          "pli-tv-bu-vb-ss3:4.1.5",
+          "pli-tv-bu-vb-ss13:1.3.4"
         ]
       }
     },
@@ -1737,10 +1737,10 @@
       "en": "immature",
       "canon": {
         "patterns": [
-          "pdhp184"
+          "pdhp184:2"
         ],
         "broader": [
-          "sn12.19"
+          "sn12.19:3.1"
         ]
       }
     },
@@ -1766,82 +1766,82 @@
       "en": "venerable sir",
       "canon": {
         "patterns": [
-          "dn6",
-          "dn9",
-          "dn16",
-          "dn25",
-          "dn28",
-          "dn31",
-          "mn18",
-          "mn52",
-          "mn54",
-          "mn56",
-          "mn58",
-          "mn62",
-          "mn71",
-          "mn79",
-          "mn88",
-          "mn90",
-          "mn106",
-          "mn109",
-          "mn114",
-          "sn3.17",
-          "sn12.15",
-          "sn12.16",
-          "sn12.24",
-          "sn12.31",
-          "sn12.35",
-          "sn18.21",
-          "sn18.22",
-          "sn21.3",
-          "sn22.21",
-          "sn22.55",
-          "sn22.60",
-          "sn22.71",
-          "sn22.72",
-          "sn22.82",
-          "sn22.91",
-          "sn22.92",
-          "sn22.113",
-          "sn22.114",
-          "sn22.115",
-          "sn22.116",
+          "dn6:13.1",
+          "dn9:6.35",
+          "dn16:5.6.1",
+          "dn25:7.17",
+          "dn28:18.5",
+          "dn31:2.13",
+          "mn18:7.2",
+          "mn52:3.4",
+          "mn54:3.16",
+          "mn56:9.14",
+          "mn58:3.4",
+          "mn62:7.1",
+          "mn71:6.1",
+          "mn79:24.2",
+          "mn88:10.1",
+          "mn90:8.3",
+          "mn106:13.3",
+          "mn109:10.1",
+          "mn114:5.8",
+          "sn3.17:3.1",
+          "sn12.15:1.3",
+          "sn12.16:1.3",
+          "sn12.24:17.3",
+          "sn12.31:8.1",
+          "sn12.35:1.6",
+          "sn18.21:1.3",
+          "sn18.22:1.3",
+          "sn21.3:3.2",
+          "sn22.21:1.3",
+          "sn22.55:1.6",
+          "sn22.60:4.1",
+          "sn22.71:1.3",
+          "sn22.72:1.3",
+          "sn22.82:8.1",
+          "sn22.91:1.3",
+          "sn22.92:1.3",
+          "sn22.113:1.4",
+          "sn22.114:1.3",
+          "sn22.115:1.3",
+          "sn22.116:1.3",
           "(+104)"
         ],
         "broader": [
-          "dn1",
-          "dn6",
-          "dn8",
-          "dn14",
-          "dn16",
-          "dn18",
-          "dn23",
-          "dn25",
-          "dn28",
-          "dn29",
-          "dn31",
-          "mn18",
-          "mn23",
-          "mn31",
-          "mn54",
+          "dn1:1.4.9",
+          "dn6:6.1",
+          "dn8:23.5",
+          "dn14:1.2.7",
+          "dn16:3.12.7",
+          "dn18:5.13",
+          "dn23:7.4",
+          "dn25:6.9",
+          "dn28:10.7",
+          "dn29:41.5",
+          "dn31:2.14",
+          "mn18:22.4",
+          "mn23:3.10",
+          "mn31:10.5",
+          "mn54:3.17",
           "(+87)"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-np5",
-          "pli-tv-bu-vb-np15",
-          "pli-tv-bu-vb-pc6",
-          "pli-tv-bu-vb-pc31",
-          "pli-tv-bu-vb-pc41",
-          "pli-tv-bu-vb-pc51",
-          "pli-tv-bu-vb-pc83",
-          "pli-tv-bu-vb-pc85",
-          "pli-tv-bu-vb-pd3",
-          "pli-tv-bu-vb-pd4",
-          "pli-tv-bu-vb-pj1",
-          "pli-tv-bu-vb-pj2",
-          "pli-tv-bu-vb-pj3",
-          "pli-tv-bu-vb-pj4",
-          "pli-tv-bu-vb-ss3",
+          "pli-tv-bu-vb-np5:1.2.9",
+          "pli-tv-bu-vb-np15:1.1.4",
+          "pli-tv-bu-vb-pc6:1.5",
+          "pli-tv-bu-vb-pc31:2.5",
+          "pli-tv-bu-vb-pc41:1.1.4",
+          "pli-tv-bu-vb-pc51:1.30",
+          "pli-tv-bu-vb-pc83:1.2.5",
+          "pli-tv-bu-vb-pc85:2.3",
+          "pli-tv-bu-vb-pd3:3.5",
+          "pli-tv-bu-vb-pd4:2.4",
+          "pli-tv-bu-vb-pj1:4.3",
+          "pli-tv-bu-vb-pj2:1.2.13",
+          "pli-tv-bu-vb-pj3:1.1.6",
+          "pli-tv-bu-vb-pj4:8.13.12",
+          "pli-tv-bu-vb-ss3:4.8.4",
           "(+4)"
         ]
       }
@@ -1854,10 +1854,10 @@
       "en": "bhava, [individual] existence",
       "canon": {
         "where": [
-          "mn9",
-          "sn12.2",
-          "sn12.35",
-          "sn38.13"
+          "mn9:30.1",
+          "sn12.2:5.1",
+          "sn12.35:3.1",
+          "sn38.13:1.1"
         ],
         "link": "/mn9:30.1",
         "definition": "Katamo panāvuso, bhavo, katamo bhavasamudayo, katamo bhavanirodho, katamā bhavanirodhagāminī paṭipadā? Tayome, āvuso, bhavā— kāmabhavo, rūpabhavo, arūpabhavo.",
@@ -1865,36 +1865,36 @@
           "bhavanettinirodho"
         ],
         "patterns": [
-          "mn9",
-          "sn12.2",
-          "sn12.35",
-          "sn23.3",
-          "sn38.13",
-          "an3.76",
-          "an3.77"
+          "mn9:30.1",
+          "sn12.2:5.1",
+          "sn12.35:3.1",
+          "sn23.3:1.3",
+          "sn38.13:1.1",
+          "an3.76:1.2",
+          "an3.77:1.2"
         ],
         "broader": [
-          "dn1",
-          "dn3",
-          "dn4",
-          "dn19",
-          "dn24",
-          "dn26",
-          "dn30",
-          "dn32",
-          "mn2",
-          "mn12",
-          "mn38",
-          "mn39",
-          "mn40",
-          "mn76",
-          "mn77",
+          "dn1:2.5.9",
+          "dn3:1.15.2",
+          "dn4:8.4",
+          "dn19:33.7",
+          "dn24:2.17.8",
+          "dn26:23.6",
+          "dn30:2.9.11",
+          "dn32:8.2",
+          "mn2:7.6",
+          "mn12:62.3",
+          "mn38:18.12",
+          "mn39:2.3",
+          "mn40:2.5",
+          "mn76:8.2",
+          "mn77:6.16",
           "(+30)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-ss13",
-          "pli-tv-bu-vb-pc22",
-          "pli-tv-bu-vb-pj1"
+          "pli-tv-bi-vb-ss13:2.10",
+          "pli-tv-bu-vb-pc22:1.12",
+          "pli-tv-bu-vb-pj1:3.4.6"
         ]
       }
     },
@@ -1927,7 +1927,7 @@
       "en": "being-clinging (individual)",
       "canon": {
         "broader": [
-          "an10.62"
+          "an10.62:2.2"
         ]
       }
     },
@@ -1939,29 +1939,29 @@
       "en": "to-be-developed",
       "canon": {
         "patterns": [
-          "dn34",
-          "mn149",
-          "sn45.159",
-          "an4.254",
-          "an10.151",
-          "an10.195"
+          "dn34:1.2.5",
+          "mn149:11.8",
+          "sn45.159:2.12",
+          "an4.254:4.1",
+          "an10.151:1.3",
+          "an10.195:1.3"
         ],
         "broader": [
-          "dn34",
-          "sn45.30",
-          "sn45.161",
-          "sn45.162",
-          "sn45.163",
-          "sn45.164",
-          "sn45.165",
-          "sn45.166",
-          "sn45.167",
-          "sn45.168",
-          "sn45.169",
-          "sn45.170",
-          "sn45.171",
-          "sn45.172",
-          "sn45.173",
+          "dn34:1.2.7",
+          "sn45.30:1.18",
+          "sn45.161:1.9",
+          "sn45.162:1.8",
+          "sn45.163:1.5",
+          "sn45.164:1.5",
+          "sn45.165:1.5",
+          "sn45.166:1.5",
+          "sn45.167:1.5",
+          "sn45.168:1.5",
+          "sn45.169:1.5",
+          "sn45.170:1.5",
+          "sn45.171:1.6",
+          "sn45.172:1.5",
+          "sn45.173:1.5",
           "(+9)"
         ]
       }
@@ -1974,30 +1974,30 @@
       "en": "anxiety, fear, threat",
       "canon": {
         "patterns": [
-          "an9.56",
-          "an9.57"
+          "an9.56:1.1",
+          "an9.57:1.1"
         ],
         "broader": [
-          "dn28",
-          "mn67",
-          "sn5.1",
-          "sn5.2",
-          "sn5.3",
-          "sn5.4",
-          "sn5.5",
-          "sn5.9",
-          "sn5.10",
-          "an4.122"
+          "dn28:10.9",
+          "mn67:16.11",
+          "sn5.1:3.4",
+          "sn5.2:3.4",
+          "sn5.3:3.4",
+          "sn5.4:3.4",
+          "sn5.5:3.4",
+          "sn5.9:3.4",
+          "sn5.10:3.4",
+          "an4.122:2.11"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc37",
-          "pli-tv-bi-vb-pc38",
-          "pli-tv-bu-vb-np18",
-          "pli-tv-bu-vb-np19",
-          "pli-tv-bu-vb-np22",
-          "pli-tv-bu-vb-np29",
-          "pli-tv-bu-vb-pc27",
-          "pli-tv-bu-vb-pd4"
+          "pli-tv-bi-vb-pc37:2.1.9",
+          "pli-tv-bi-vb-pc38:2.9",
+          "pli-tv-bu-vb-np18:2.37",
+          "pli-tv-bu-vb-np19:2.47",
+          "pli-tv-bu-vb-np22:2.1.28",
+          "pli-tv-bu-vb-np29:2.10",
+          "pli-tv-bu-vb-pc27:2.16",
+          "pli-tv-bu-vb-pd4:3.1.5"
         ]
       }
     },
@@ -2009,17 +2009,17 @@
       "en": "main dish",
       "canon": {
         "vinaya": [
-          "pli-tv-bi-vb-pc46",
-          "pli-tv-bi-vb-pc54",
-          "pli-tv-bi-vb-ss5",
-          "pli-tv-bu-vb-pc35",
-          "pli-tv-bu-vb-pc36",
-          "pli-tv-bu-vb-pc37",
-          "pli-tv-bu-vb-pc38",
-          "pli-tv-bu-vb-pc41",
-          "pli-tv-bu-vb-pd1",
-          "pli-tv-bu-vb-pd3",
-          "pli-tv-bu-vb-pd4"
+          "pli-tv-bi-vb-pc46:2.1.14",
+          "pli-tv-bi-vb-pc54:2.1.12",
+          "pli-tv-bi-vb-ss5:2.1.13",
+          "pli-tv-bu-vb-pc35:3.1.31",
+          "pli-tv-bu-vb-pc36:2.1.23",
+          "pli-tv-bu-vb-pc37:2.1.9",
+          "pli-tv-bu-vb-pc38:2.1.9",
+          "pli-tv-bu-vb-pc41:2.1.13",
+          "pli-tv-bu-vb-pd1:2.1.13",
+          "pli-tv-bu-vb-pd3:4.1.19",
+          "pli-tv-bu-vb-pd4:3.1.22"
         ]
       }
     },
@@ -2045,18 +2045,18 @@
       "en": "aspect of awakening",
       "canon": {
         "patterns": [
-          "sn43.10",
-          "sn46.5",
-          "sn46.21",
-          "sn46.22",
-          "sn46.26",
-          "sn46.31",
-          "sn46.41"
+          "sn43.10:1.2",
+          "sn46.5:1.3",
+          "sn46.21:2.1",
+          "sn46.22:1.3",
+          "sn46.26:1.8",
+          "sn46.31:2.1",
+          "sn46.41:1.5"
         ],
         "broader": [
-          "sn46.56",
-          "an10.61",
-          "an10.62"
+          "sn46.56:7.5",
+          "an10.61:6.5",
+          "an10.62:6.5"
         ]
       }
     },
@@ -2068,11 +2068,11 @@
       "en": "holy life (Brahma-conduct)",
       "canon": {
         "where": [
-          "sn45.6",
-          "sn45.19",
-          "sn45.20",
-          "sn45.39",
-          "sn45.40"
+          "sn45.6:1.3",
+          "sn45.19:1.2",
+          "sn45.20:1.2",
+          "sn45.39:1.4",
+          "sn45.40:1.4"
         ],
         "link": "/sn45.6:1.3",
         "definition": "“‘brahmacariyaṁ, brahmacariyan’ti, bhante, vuccati. Katamaṁ nu kho, bhante, brahmacariyaṁ, katamaṁ brahmacariyapariyosānan”ti? “Ayameva kho, bhikkhu, ariyo aṭṭhaṅgiko maggo brahmacariyaṁ, seyyathidaṁ—",
@@ -2081,23 +2081,23 @@
           "brahmacariyattho"
         ],
         "patterns": [
-          "sn45.6",
-          "sn45.18",
-          "sn45.19",
-          "sn45.20",
-          "sn45.39",
-          "sn45.40"
+          "sn45.6:1.3",
+          "sn45.18:2.1",
+          "sn45.19:1.2",
+          "sn45.20:1.2",
+          "sn45.39:1.4",
+          "sn45.40:1.4"
         ],
         "broader": [
-          "dn33",
-          "dn34",
-          "sn45.40",
-          "an3.60",
-          "an4.191",
-          "an7.50"
+          "dn33:3.2.46",
+          "dn34:2.1.6",
+          "sn45.40:1.10",
+          "an3.60:2.5",
+          "an4.191:2.8",
+          "an7.50:2.5"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc21"
+          "pli-tv-bi-vb-pc21:1.4"
         ]
       }
     },
@@ -2109,58 +2109,58 @@
       "en": "brahmin",
       "canon": {
         "where": [
-          "mn39"
+          "mn39:24.1"
         ],
         "link": "/mn39:24.1",
         "definition": "Kathañca, bhikkhave, bhikkhu brāhmaṇo hoti? Bāhitāssa honti pāpakā akusalā dhammā, saṅkilesikā, ponobbhavikā, sadarā, dukkhavipākā, āyatiṁ, jātijarāmaraṇiyā. Evaṁ kho, bhikkhave, bhikkhu brāhmaṇo hoti.",
         "patterns": [
-          "dn4",
-          "dn13",
-          "mn30",
-          "mn39",
-          "mn91",
-          "mn94",
-          "mn98",
-          "mn108",
-          "an2.17",
-          "an3.58",
-          "an3.59",
-          "an3.60",
-          "an4.184",
-          "an4.234",
-          "an5.192",
-          "an7.47",
-          "an8.55",
-          "an10.119",
-          "an10.167",
-          "an10.220",
-          "snp3.9"
+          "dn4:22.10",
+          "dn13:36.3",
+          "mn30:12.20",
+          "mn39:24.1",
+          "mn91:32.10",
+          "mn94:7.7",
+          "mn98:3.2",
+          "mn108:26.2",
+          "an2.17:1.4",
+          "an3.58:2.1",
+          "an3.59:1.3",
+          "an3.60:8.4",
+          "an4.184:3.1",
+          "an4.234:4.1",
+          "an5.192:10.13",
+          "an7.47:13.1",
+          "an8.55:3.1",
+          "an10.119:3.1",
+          "an10.167:3.1",
+          "an10.220:5.1",
+          "snp3.9:1.6"
         ],
         "broader": [
-          "dn3",
-          "dn4",
-          "dn5",
-          "dn8",
-          "mn4",
-          "mn23",
-          "mn77",
-          "mn90",
-          "mn91",
-          "mn92",
-          "mn93",
-          "mn94",
-          "mn100",
-          "mn102",
-          "mn107",
+          "dn3:2.18.6",
+          "dn4:11.2",
+          "dn5:20.12",
+          "dn8:15.4",
+          "mn4:28.1",
+          "mn23:3.10",
+          "mn77:6.16",
+          "mn90:16.4",
+          "mn91:30.2",
+          "mn92:13.8",
+          "mn93:6.7",
+          "mn94:10.15",
+          "mn100:3.4",
+          "mn102:18.4",
+          "mn107:14.25",
           "(+23)"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-np10",
-          "pli-tv-bu-vb-pc2",
-          "pli-tv-bu-vb-pc3",
-          "pli-tv-bu-vb-pc84",
-          "pli-tv-bu-vb-pj1",
-          "pli-tv-bu-vb-sk69"
+          "pli-tv-bu-vb-np10:2.1.7",
+          "pli-tv-bu-vb-pc2:1.2.1",
+          "pli-tv-bu-vb-pc3:2.1.9",
+          "pli-tv-bu-vb-pc84:1.5",
+          "pli-tv-bu-vb-pj1:1.1.2",
+          "pli-tv-bu-vb-sk69:1.23"
         ]
       }
     },
@@ -2179,22 +2179,22 @@
       "en": "awakened",
       "canon": {
         "patterns": [
-          "sn22.58",
-          "sn51.8",
-          "sn56.23"
+          "sn22.58:1.2",
+          "sn51.8:1.8",
+          "sn56.23:1.6"
         ],
         "broader": [
-          "dn16",
-          "dn25",
-          "mn81",
-          "mn142",
-          "sn1.20",
-          "an6.16",
-          "ud5.3"
+          "dn16:5.12.5",
+          "dn25:20.10",
+          "mn81:4.3",
+          "mn142:6.1",
+          "sn1.20:7.3",
+          "an6.16:5.5",
+          "ud5.3:10.2"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-pc2",
-          "pli-tv-bu-vb-pc6"
+          "pli-tv-bu-vb-pc2:2.1.14",
+          "pli-tv-bu-vb-pc6:1.48"
         ]
       }
     },
@@ -2206,8 +2206,8 @@
       "en": "hostility",
       "canon": {
         "broader": [
-          "sn46.2",
-          "sn46.51"
+          "sn46.2:3.1",
+          "sn46.51:2.1"
         ]
       }
     },
@@ -2222,26 +2222,26 @@
           "cakkhumā"
         ],
         "patterns": [
-          "an3.20",
-          "iti104"
+          "an3.20:1.4",
+          "iti104:2.9"
         ],
         "broader": [
-          "mn3",
-          "mn152",
-          "sn35.13",
-          "sn35.93",
-          "sn35.115",
-          "sn35.228",
-          "sn35.243",
-          "an3.20",
-          "an3.29"
+          "mn3:8.6",
+          "mn152:4.12",
+          "sn35.13:1.3",
+          "sn35.93:1.10",
+          "sn35.115:1.3",
+          "sn35.228:2.1",
+          "sn35.243:4.7",
+          "an3.20:3.3",
+          "an3.29:2.4"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-ay1",
-          "pli-tv-bu-vb-ay2",
-          "pli-tv-bu-vb-pc30",
-          "pli-tv-bu-vb-pc44",
-          "pli-tv-bu-vb-pc45"
+          "pli-tv-bu-vb-ay1:2.1.13",
+          "pli-tv-bu-vb-ay2:2.1.21",
+          "pli-tv-bu-vb-pc30:2.1.13",
+          "pli-tv-bu-vb-pc44:2.1.11",
+          "pli-tv-bu-vb-pc45:2.1.13"
         ]
       }
     },
@@ -2253,8 +2253,8 @@
       "en": "Four Noble-Truths",
       "canon": {
         "patterns": [
-          "sn56.27",
-          "sn56.28"
+          "sn56.27:1.5",
+          "sn56.28:1.5"
         ]
       }
     },
@@ -2266,34 +2266,34 @@
       "en": "fourth jhana",
       "canon": {
         "where": [
-          "sn40.4"
+          "sn40.4:1.1"
         ],
         "link": "/sn40.4:1.1",
         "definition": "“‘Catutthaṁ jhānaṁ, catutthaṁ jhānan’ti vuccati. Katamaṁ nu kho catutthaṁ jhānanti? Tassa mayhaṁ, āvuso, etadahosi: ‘idha bhikkhu sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharati. Idaṁ vuccati catutthaṁ jhānan’ti.",
         "patterns": [
-          "sn40.4",
-          "an4.241"
+          "sn40.4:1.1",
+          "an4.241:5.1"
         ],
         "broader": [
-          "dn15",
-          "dn16",
-          "dn28",
-          "dn29",
-          "dn33",
-          "dn34",
-          "mn77",
-          "mn137",
-          "mn142",
-          "sn55.31",
-          "sn55.32",
-          "sn55.33",
-          "sn55.41",
-          "sn55.42",
-          "sn55.43",
+          "dn15:33.10",
+          "dn16:1.23.11",
+          "dn28:5.6",
+          "dn29:23.15",
+          "dn33:1.11.179",
+          "dn34:1.8.19",
+          "mn77:14.11",
+          "mn137:27.8",
+          "mn142:5.10",
+          "sn55.31:4.2",
+          "sn55.32:3.2",
+          "sn55.33:3.2",
+          "sn55.41:3.2",
+          "sn55.42:3.2",
+          "sn55.43:3.2",
           "(+16)"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-pc79"
+          "pli-tv-bu-vb-pc79:2.1.6"
         ]
       }
     },
@@ -2305,10 +2305,10 @@
       "en": "comprehending",
       "canon": {
         "broader": [
-          "an3.77"
+          "an3.77:2.4"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-ss1"
+          "pli-tv-bu-vb-ss1:2.2.1"
         ]
       }
     },
@@ -2320,46 +2320,46 @@
       "en": "mind, mind-thinking",
       "canon": {
         "patterns": [
-          "mn43",
-          "mn127",
-          "sn40.9",
-          "sn41.7",
-          "an10.61",
-          "an10.62"
+          "mn43:32.1",
+          "mn127:7.1",
+          "sn40.9:1.1",
+          "sn41.7:3.1",
+          "an10.61:1.2",
+          "an10.62:1.2"
         ],
         "broader": [
-          "dn23",
-          "dn28",
-          "dn33",
-          "dn34",
-          "mn43",
-          "mn127",
-          "sn40.9",
-          "sn41.7",
-          "sn41.10",
-          "sn46.54",
-          "an5.205",
-          "an5.206",
-          "an9.71",
-          "an9.72",
-          "an10.219"
+          "dn23:11.11",
+          "dn28:14.9",
+          "dn33:2.1.78",
+          "dn34:1.6.28",
+          "mn43:31.6",
+          "mn127:7.6",
+          "sn40.9:1.5",
+          "sn41.7:2.6",
+          "sn41.10:2.18",
+          "sn46.54:15.10",
+          "an5.205:1.5",
+          "an5.206:1.5",
+          "an9.71:1.5",
+          "an9.72:1.5",
+          "an10.219:4.2"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-np4",
-          "pli-tv-bi-vb-np5",
-          "pli-tv-bi-vb-np6",
-          "pli-tv-bi-vb-np7",
-          "pli-tv-bi-vb-np8",
-          "pli-tv-bi-vb-np9",
-          "pli-tv-bi-vb-np10",
-          "pli-tv-bi-vb-np11",
-          "pli-tv-bi-vb-np12",
-          "pli-tv-bi-vb-pc1",
-          "pli-tv-bi-vb-pc8",
-          "pli-tv-bi-vb-pc9",
-          "pli-tv-bi-vb-pc19",
-          "pli-tv-bi-vb-pc25",
-          "pli-tv-bi-vb-pc30",
+          "pli-tv-bi-vb-np4:1.15",
+          "pli-tv-bi-vb-np5:2.8",
+          "pli-tv-bi-vb-np6:2.1.10",
+          "pli-tv-bi-vb-np7:2.12",
+          "pli-tv-bi-vb-np8:1.6",
+          "pli-tv-bi-vb-np9:1.7",
+          "pli-tv-bi-vb-np10:2.12",
+          "pli-tv-bi-vb-np11:2.2.1",
+          "pli-tv-bi-vb-np12:2.1.17.1",
+          "pli-tv-bi-vb-pc1:1.14",
+          "pli-tv-bi-vb-pc8:1.4",
+          "pli-tv-bi-vb-pc9:1.4",
+          "pli-tv-bi-vb-pc19:1.4",
+          "pli-tv-bi-vb-pc25:1.7",
+          "pli-tv-bi-vb-pc30:1.2.4",
           "(+34)"
         ]
       }
@@ -2379,20 +2379,20 @@
       "en": "impulse (intention-choice-consent)",
       "canon": {
         "patterns": [
-          "sn51.20"
+          "sn51.20:3.1"
         ],
         "broader": [
-          "sn51.9",
-          "sn51.13",
-          "sn51.15",
-          "sn51.20"
+          "sn51.9:1.1",
+          "sn51.13:1.2",
+          "sn51.15:3.6",
+          "sn51.20:3.3"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-ss4",
-          "pli-tv-bu-vb-np18",
-          "pli-tv-bu-vb-np19",
-          "pli-tv-bu-vb-np22",
-          "pli-tv-bu-vb-ss5"
+          "pli-tv-bi-vb-ss4:2.1.15",
+          "pli-tv-bu-vb-np18:2.37",
+          "pli-tv-bu-vb-np19:2.47",
+          "pli-tv-bu-vb-np22:2.1.28",
+          "pli-tv-bu-vb-ss5:4.3.3"
         ]
       }
     },
@@ -2411,8 +2411,8 @@
       "en": "impulse-samadhi-endeavor-constituents-endowed basis of super-abilities",
       "canon": {
         "broader": [
-          "sn51.9",
-          "sn51.13"
+          "sn51.9:1.1",
+          "sn51.13:1.9"
         ]
       }
     },
@@ -2424,7 +2424,7 @@
       "en": "mind-state",
       "canon": {
         "where": [
-          "mn78"
+          "mn78:10.7"
         ],
         "link": "/mn78:10.7",
         "definition": "Katamaṁ cittaṁ? Cittampi hi bahuṁ anekavidhaṁ nānappakārakaṁ. Yaṁ cittaṁ sarāgaṁ sadosaṁ samohaṁ, itosamuṭṭhānā akusalā sīlā.",
@@ -2433,42 +2433,42 @@
           "cittavipatti"
         ],
         "patterns": [
-          "dn8",
-          "mn78",
-          "mn138",
-          "sn22.4",
-          "sn22.51",
-          "sn22.52",
-          "sn35.156",
-          "sn35.157",
-          "sn35.158",
-          "sn35.159",
-          "sn51.20",
-          "an3.117",
-          "an3.118"
+          "dn8:18.2",
+          "mn78:10.7",
+          "mn138:12.3",
+          "sn22.4:3.1",
+          "sn22.51:1.5",
+          "sn22.52:1.5",
+          "sn35.156:1.5",
+          "sn35.157:1.5",
+          "sn35.158:1.5",
+          "sn35.159:1.5",
+          "sn51.20:16.1",
+          "an3.117:2.1",
+          "an3.118:3.1"
         ],
         "broader": [
-          "dn4",
-          "dn8",
-          "mn51",
-          "mn94",
-          "mn127",
-          "sn41.10",
-          "sn45.27",
-          "sn47.31",
-          "sn51.9",
-          "sn51.13",
-          "an3.25",
-          "an3.89",
-          "an3.90",
-          "an3.117",
-          "an3.118",
+          "dn4:11.2",
+          "dn8:19.17",
+          "mn51:5.12",
+          "mn94:5.9",
+          "mn127:14.7",
+          "sn41.10:2.16",
+          "sn45.27:1.4",
+          "sn47.31:3.1",
+          "sn51.9:3.1",
+          "sn51.13:3.2",
+          "an3.25:1.10",
+          "an3.89:3.3",
+          "an3.90:3.3",
+          "an3.117:2.3",
+          "an3.118:3.3",
           "(+2)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc41",
-          "pli-tv-bu-vb-pc2",
-          "pli-tv-bu-vb-pj3"
+          "pli-tv-bi-vb-pc41:2.1.7",
+          "pli-tv-bu-vb-pc2:2.1.12",
+          "pli-tv-bu-vb-pj3:3.8"
         ]
       }
     },
@@ -2480,7 +2480,7 @@
       "en": "mind-observation",
       "canon": {
         "broader": [
-          "sn47.31"
+          "sn47.31:3.1"
         ]
       }
     },
@@ -2499,8 +2499,8 @@
       "en": "mind-state-samadhi-endeavor-constituents-endowed basis of super-abilities",
       "canon": {
         "broader": [
-          "sn51.9",
-          "sn51.13"
+          "sn51.9:3.1",
+          "sn51.13:3.7"
         ]
       }
     },
@@ -2515,10 +2515,10 @@
           "dakkhiṇeyyaggi"
         ],
         "patterns": [
-          "an7.47"
+          "an7.47:15.1"
         ],
         "broader": [
-          "an7.47"
+          "an7.47:15.2"
         ]
       }
     },
@@ -2530,39 +2530,39 @@
       "en": "giving",
       "canon": {
         "patterns": [
-          "sn11.12",
-          "sn11.13",
-          "sn22.48",
-          "sn38.12",
-          "an5.7",
-          "an6.45"
+          "sn11.12:3.1",
+          "sn11.13:7.1",
+          "sn22.48:2.2",
+          "sn38.12:1.1",
+          "an5.7:2.2",
+          "an6.45:13.2"
         ],
         "broader": [
-          "dn5",
-          "mn38",
-          "mn72",
-          "mn140",
-          "sn4.16",
-          "sn35.14",
-          "sn35.60",
-          "sn35.61",
-          "sn35.62",
-          "sn38.12",
-          "an5.178",
-          "an7.52",
-          "an8.24",
-          "an10.177",
-          "an11.14"
+          "dn5:23.1",
+          "mn38:18.16",
+          "mn72:19.10",
+          "mn140:21.3",
+          "sn4.16:2.2",
+          "sn35.14:1.3",
+          "sn35.60:1.16",
+          "sn35.61:1.13",
+          "sn35.62:20.8",
+          "sn38.12:1.11",
+          "an5.178:2.3",
+          "an7.52:3.5",
+          "an8.24:1.7",
+          "an10.177:8.1",
+          "an11.14:2.4"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc81",
-          "pli-tv-bu-vb-pc32",
-          "pli-tv-bu-vb-pc33",
-          "pli-tv-bu-vb-pc46",
-          "pli-tv-bu-vb-pc73",
-          "pli-tv-bu-vb-pj2",
-          "pli-tv-bu-vb-ss3",
-          "pli-tv-bu-vb-ss4"
+          "pli-tv-bi-vb-pc81:2.1.5",
+          "pli-tv-bu-vb-pc32:9.1.7",
+          "pli-tv-bu-vb-pc33:5.1.7",
+          "pli-tv-bu-vb-pc46:6.1.25",
+          "pli-tv-bu-vb-pc73:1.3",
+          "pli-tv-bu-vb-pj2:7.39.5",
+          "pli-tv-bu-vb-ss3:4.9.4",
+          "pli-tv-bu-vb-ss4:4.1.4"
         ]
       }
     },
@@ -2577,24 +2577,24 @@
           "dassanānuttariyaṁ"
         ],
         "patterns": [
-          "sn46.56"
+          "sn46.56:5.1"
         ],
         "broader": [
-          "dn16",
-          "dn28",
-          "mn47",
-          "mn128",
-          "sn46.56",
-          "an5.100"
+          "dn16:5.15.6",
+          "dn28:7.5",
+          "mn47:16.1",
+          "mn128:16.5",
+          "sn46.56:2.4",
+          "an5.100:10.3"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc30",
-          "pli-tv-bu-vb-pc8",
-          "pli-tv-bu-vb-pc25",
-          "pli-tv-bu-vb-pc74",
-          "pli-tv-bu-vb-pj1",
-          "pli-tv-bu-vb-pj4",
-          "pli-tv-bu-vb-ss13"
+          "pli-tv-bi-vb-pc30:1.2.5",
+          "pli-tv-bu-vb-pc8:2.1.17",
+          "pli-tv-bu-vb-pc25:2.3",
+          "pli-tv-bu-vb-pc74:1.8",
+          "pli-tv-bu-vb-pj1:5.5.5",
+          "pli-tv-bu-vb-pj4:3.13",
+          "pli-tv-bu-vb-ss13:1.6.22"
         ]
       }
     },
@@ -2606,12 +2606,12 @@
       "en": "deva, deity",
       "canon": {
         "patterns": [
-          "mn130",
-          "an3.36"
+          "mn130:4.13",
+          "an3.36:5.4"
         ],
         "broader": [
-          "mn127",
-          "an3.70"
+          "mn127:14.1",
+          "an3.70:18.10"
         ]
       }
     },
@@ -2623,11 +2623,11 @@
       "en": "phenomenon (Dhamma), law, factuality, Teaching, reality",
       "canon": {
         "where": [
-          "mn2",
-          "mn30",
-          "an10.23",
-          "an10.138",
-          "an10.182"
+          "mn2:8.8",
+          "mn30:12.20",
+          "an10.23:4.1",
+          "an10.138:1.6",
+          "an10.182:2.1"
         ],
         "link": "/mn2:6.1",
         "definition": "Katame ca, bhikkhave, dhammā na manasikaraṇīyā ye dhamme manasi karoti? Yassa, bhikkhave, dhamme manasikaroto anuppanno vā kāmāsavo uppajjati, uppanno vā kāmāsavo pavaḍḍhati; anuppanno vā bhavāsavo uppajjati, uppanno vā bhavāsavo pavaḍḍhati;",
@@ -2639,82 +2639,82 @@
           "dhammādhipateyyaṁ"
         ],
         "patterns": [
-          "dn16",
-          "dn33",
-          "mn15",
-          "mn60",
-          "mn70",
-          "sn3.17",
-          "sn12.16",
-          "sn12.20",
-          "sn22.21",
-          "sn22.23",
-          "sn22.106",
-          "sn22.115",
-          "sn22.116",
-          "sn22.120",
-          "sn22.121",
-          "sn23.4",
-          "sn23.12",
-          "sn23.14",
-          "sn23.16",
-          "sn23.18",
-          "sn23.19",
-          "sn23.20",
-          "sn23.21",
-          "sn23.22",
-          "sn35.24",
-          "sn35.60",
-          "sn35.70",
-          "sn35.84",
-          "sn35.104",
-          "sn35.109",
-          "sn35.110",
-          "sn35.122",
-          "sn35.123",
-          "sn35.151",
-          "sn35.155",
-          "sn35.228",
-          "sn35.235",
-          "sn36.22",
-          "sn42.13",
-          "sn45.22",
+          "dn16:2.9.1",
+          "dn33:1.8.1",
+          "mn15:3.1",
+          "mn60:4.5",
+          "mn70:20.1",
+          "sn3.17:3.1",
+          "sn12.16:1.3",
+          "sn12.20:4.1",
+          "sn22.21:1.4",
+          "sn22.23:1.4",
+          "sn22.106:1.4",
+          "sn22.115:1.3",
+          "sn22.116:1.3",
+          "sn22.120:1.4",
+          "sn22.121:1.4",
+          "sn23.4:2.5",
+          "sn23.12:1.3",
+          "sn23.14:1.3",
+          "sn23.16:1.3",
+          "sn23.18:1.3",
+          "sn23.19:1.3",
+          "sn23.20:1.3",
+          "sn23.21:1.3",
+          "sn23.22:1.3",
+          "sn35.24:1.3",
+          "sn35.60:1.3",
+          "sn35.70:1.3",
+          "sn35.84:2.3",
+          "sn35.104:1.4",
+          "sn35.109:1.3",
+          "sn35.110:1.3",
+          "sn35.122:1.3",
+          "sn35.123:1.3",
+          "sn35.151:2.4",
+          "sn35.155:1.2",
+          "sn35.228:2.9",
+          "sn35.235:1.3",
+          "sn36.22:1.3",
+          "sn42.13:22.3",
+          "sn45.22:1.4",
           "(+75)"
         ],
         "broader": [
-          "dn1",
-          "dn2",
-          "dn3",
-          "dn6",
-          "dn8",
-          "dn14",
-          "dn16",
-          "dn25",
-          "dn29",
-          "dn31",
-          "dn33",
-          "dn34",
-          "mn2",
-          "mn3",
-          "mn8",
+          "dn1:1.3.1",
+          "dn2:100.3",
+          "dn3:1.20.2",
+          "dn6:14.6",
+          "dn8:5.5",
+          "dn14:3.8.3",
+          "dn16:1.5.7",
+          "dn25:6.9",
+          "dn29:41.5",
+          "dn31:2.14",
+          "dn33:1.7.5",
+          "dn34:1.2.4",
+          "mn2:8.8",
+          "mn3:3.6",
+          "mn8:4.5",
           "(+154)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc27",
-          "pli-tv-bi-vb-pc30",
-          "pli-tv-bi-vb-pj8",
-          "pli-tv-bi-vb-ss13",
-          "pli-tv-bu-vb-pc2",
-          "pli-tv-bu-vb-pc3",
-          "pli-tv-bu-vb-pc4",
-          "pli-tv-bu-vb-pc7",
-          "pli-tv-bu-vb-pc8",
-          "pli-tv-bu-vb-pc21",
-          "pli-tv-bu-vb-pc22",
-          "pli-tv-bu-vb-pc29",
-          "pli-tv-bu-vb-pc53",
-          "pli-tv-bu-vb-pc54",
-          "pli-tv-bu-vb-pc63",
+          "pli-tv-bi-vb-pc27:2.1.5",
+          "pli-tv-bi-vb-pc30:2.1.5",
+          "pli-tv-bi-vb-pj8:2.1.21",
+          "pli-tv-bi-vb-ss13:3.14",
+          "pli-tv-bu-vb-pc2:2.1.14",
+          "pli-tv-bu-vb-pc3:2.1.16",
+          "pli-tv-bu-vb-pc4:2.1.19",
+          "pli-tv-bu-vb-pc7:4.1.9",
+          "pli-tv-bu-vb-pc8:1.1.18",
+          "pli-tv-bu-vb-pc21:3.1.17",
+          "pli-tv-bu-vb-pc22:1.7",
+          "pli-tv-bu-vb-pc29:3.1.10",
+          "pli-tv-bu-vb-pc53:2.1.1",
+          "pli-tv-bu-vb-pc54:2.1.5",
+          "pli-tv-bu-vb-pc63:2.1.7",
           "(+15)"
         ]
       }
@@ -2734,7 +2734,7 @@
       "en": "phenomenon-observation",
       "canon": {
         "broader": [
-          "sn47.31"
+          "sn47.31:4.1"
         ]
       }
     },
@@ -2746,8 +2746,8 @@
       "en": "phenomena-discernment, dhamma-discernment",
       "canon": {
         "broader": [
-          "sn46.2",
-          "sn46.51"
+          "sn46.2:10.1",
+          "sn46.51:7.1"
         ]
       }
     },
@@ -2769,28 +2769,28 @@
           "dhātunānattaṁ"
         ],
         "patterns": [
-          "sn14.1",
-          "sn14.2",
-          "sn14.3",
-          "sn14.4",
-          "sn14.5",
-          "sn14.6",
-          "sn14.7",
-          "sn14.8",
-          "sn14.9",
-          "sn14.10",
-          "sn41.2"
+          "sn14.1:2.1",
+          "sn14.2:1.3",
+          "sn14.3:1.3",
+          "sn14.4:1.3",
+          "sn14.5:1.3",
+          "sn14.6:1.4",
+          "sn14.7:1.3",
+          "sn14.8:1.4",
+          "sn14.9:1.3",
+          "sn14.10:1.16",
+          "sn41.2:3.6"
         ],
         "broader": [
-          "mn28",
-          "mn62",
-          "mn140",
-          "sn14.11",
-          "sn14.31",
-          "an3.76",
-          "an3.77",
-          "an3.80",
-          "iti44"
+          "mn28:6.6",
+          "mn62:8.3",
+          "mn140:14.6",
+          "sn14.11:3.1",
+          "sn14.31:1.3",
+          "an3.76:2.1",
+          "an3.77:2.1",
+          "an3.80:4.3",
+          "iti44:3.5"
         ]
       }
     },
@@ -2823,8 +2823,8 @@
       "en": "discontent (mental discomfort), \"suffering\" (in quotes)",
       "canon": {
         "where": [
-          "dn22",
-          "mn141"
+          "dn22:18.21",
+          "mn141:17.1"
         ],
         "link": "/dn22:18.21",
         "definition": "Katamañca, bhikkhave, domanassaṁ? Yaṁ kho, bhikkhave, cetasikaṁ dukkhaṁ cetasikaṁ asātaṁ manosamphassajaṁ dukkhaṁ asātaṁ vedayitaṁ, idaṁ vuccati, bhikkhave, domanassaṁ.",
@@ -2832,15 +2832,15 @@
           "domanassindriyaṁ"
         ],
         "patterns": [
-          "dn22",
-          "mn137",
-          "mn141",
-          "sn48.36",
-          "sn48.37",
-          "sn48.38"
+          "dn22:18.21",
+          "mn137:12.1",
+          "mn141:17.1",
+          "sn48.36:5.1",
+          "sn48.37:5.1",
+          "sn48.38:5.1"
         ],
         "broader": [
-          "sn48.40"
+          "sn48.40:2.9"
         ]
       }
     },
@@ -2852,19 +2852,19 @@
       "en": "harmfulness-malice",
       "canon": {
         "patterns": [
-          "an4.200"
+          "an4.200:3.1"
         ],
         "broader": [
-          "sn38.3",
-          "an3.68",
-          "an3.71"
+          "sn38.3:2.6",
+          "an3.68:4.1",
+          "an3.71:5.6"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-np18",
-          "pli-tv-bu-vb-np19",
-          "pli-tv-bu-vb-np22",
-          "pli-tv-bu-vb-ss8",
-          "pli-tv-bu-vb-ss9"
+          "pli-tv-bu-vb-np18:2.37",
+          "pli-tv-bu-vb-np19:2.47",
+          "pli-tv-bu-vb-np22:2.1.28",
+          "pli-tv-bu-vb-ss8:1.9.32.1",
+          "pli-tv-bu-vb-ss9:1.2.14.1"
         ]
       }
     },
@@ -2876,15 +2876,15 @@
       "en": "pain",
       "canon": {
         "where": [
-          "dn22",
-          "mn9",
-          "mn141",
-          "sn22.104",
-          "sn23.15",
-          "sn35.67",
-          "sn35.81",
-          "sn35.152",
-          "sn38.14"
+          "dn22:18.18",
+          "mn9:15.1",
+          "mn141:16.1",
+          "sn22.104:1.4",
+          "sn23.15:1.3",
+          "sn35.67:1.1",
+          "sn35.81:2.4",
+          "sn35.152:1.6",
+          "sn38.14:1.1"
         ],
         "link": "/dn22:18.18",
         "definition": "Katamañca, bhikkhave, dukkhaṁ? Yaṁ kho, bhikkhave, kāyikaṁ dukkhaṁ kāyikaṁ asātaṁ kāyasamphassajaṁ dukkhaṁ asātaṁ vedayitaṁ, idaṁ vuccati, bhikkhave, dukkhaṁ.",
@@ -2895,46 +2895,46 @@
           "dukkhindriyaṁ"
         ],
         "patterns": [
-          "dn22",
-          "mn9",
-          "mn44",
-          "mn88",
-          "mn141",
-          "sn10.12",
-          "sn22.104",
-          "sn23.15",
-          "sn23.16",
-          "sn35.67",
-          "sn35.81",
-          "sn35.152",
-          "sn38.14",
-          "sn48.36",
-          "sn48.37",
-          "sn48.38",
-          "an6.63",
-          "snp1.10"
+          "dn22:18.18",
+          "mn9:15.1",
+          "mn44:23.1",
+          "mn88:10.9",
+          "mn141:16.1",
+          "sn10.12:4.3",
+          "sn22.104:1.4",
+          "sn23.15:1.3",
+          "sn23.16:1.3",
+          "sn35.67:1.1",
+          "sn35.81:2.4",
+          "sn35.152:1.6",
+          "sn38.14:1.1",
+          "sn48.36:3.1",
+          "sn48.37:3.1",
+          "sn48.38:3.1",
+          "an6.63:43.1",
+          "snp1.10:8.3"
         ],
         "broader": [
-          "dn1",
-          "dn2",
-          "dn9",
-          "dn10",
-          "dn22",
-          "dn28",
-          "dn29",
-          "mn2",
-          "mn4",
-          "mn9",
-          "mn10",
-          "mn19",
-          "mn27",
-          "mn28",
-          "mn36",
+          "dn1:3.24.6",
+          "dn2:97.2",
+          "dn9:29.2",
+          "dn10:2.34.2",
+          "dn22:17.3",
+          "dn28:10.7",
+          "dn29:32.4",
+          "mn2:11.1",
+          "mn4:31.2",
+          "mn9:16.4",
+          "mn10:44.3",
+          "mn19:22.2",
+          "mn27:25.2",
+          "mn28:8.2",
+          "mn36:42.2",
           "(+118)"
         ],
         "vinaya": [
-          "pli-tv-bi-vb-pc34",
-          "pli-tv-bu-vb-pj1"
+          "pli-tv-bi-vb-pc34:2.1.5",
+          "pli-tv-bu-vb-pj1:1.8.2"
         ]
       },
       "rationale": {
@@ -2968,37 +2968,37 @@
       "en": "pain-elimination",
       "canon": {
         "where": [
-          "mn9",
-          "sn22.104",
-          "an6.63"
+          "mn9:15.1",
+          "sn22.104:1.12",
+          "an6.63:43.1"
         ],
         "link": "/mn9:17.1",
         "definition": "Katamo cāvuso, dukkhanirodho? Yo tassāyeva taṇhāya asesavirāganirodho cāgo paṭinissaggo mutti anālayo— ayaṁ vuccatāvuso, dukkhanirodho.",
         "patterns": [
-          "mn9",
-          "sn22.104",
-          "an6.63"
+          "mn9:15.1",
+          "sn22.104:1.12",
+          "an6.63:43.1"
         ],
         "broader": [
-          "dn2",
-          "dn9",
-          "dn10",
-          "dn22",
-          "dn29",
-          "mn2",
-          "mn4",
-          "mn9",
-          "mn10",
-          "mn19",
-          "mn27",
-          "mn36",
-          "mn39",
-          "mn43",
-          "mn51",
+          "dn2:97.2",
+          "dn9:29.2",
+          "dn10:2.34.2",
+          "dn22:17.3",
+          "dn29:32.4",
+          "mn2:11.1",
+          "mn4:31.2",
+          "mn9:17.3",
+          "mn10:44.3",
+          "mn19:22.2",
+          "mn27:25.2",
+          "mn36:42.2",
+          "mn39:21.2",
+          "mn43:2.5",
+          "mn51:26.2",
           "(+98)"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-pj1"
+          "pli-tv-bu-vb-pj1:1.8.2"
         ]
       }
     },
@@ -3010,27 +3010,27 @@
       "en": "practice leading to pain-elimination",
       "canon": {
         "where": [
-          "mn9",
-          "sn22.104"
+          "mn9:18.4",
+          "sn22.104:1.18"
         ],
         "link": "/mn9:18.1",
         "definition": "Katamā cāvuso, dukkhanirodhagāminī paṭipadā? Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ— sammādiṭṭhi …pe… sammāsamādhi— ayaṁ vuccatāvuso, dukkhanirodhagāminī paṭipadā.",
         "broader": [
-          "dn2",
-          "dn9",
-          "dn10",
-          "dn22",
-          "dn29",
-          "mn2",
-          "mn4",
-          "mn9",
-          "mn10",
-          "mn19",
-          "mn27",
-          "mn36",
-          "mn39",
-          "mn43",
-          "mn51",
+          "dn2:97.2",
+          "dn9:29.2",
+          "dn10:2.34.2",
+          "dn22:17.3",
+          "dn29:32.4",
+          "mn2:11.1",
+          "mn4:31.2",
+          "mn9:18.4",
+          "mn10:44.3",
+          "mn19:22.2",
+          "mn27:25.2",
+          "mn36:42.2",
+          "mn39:21.2",
+          "mn43:2.5",
+          "mn51:26.2",
           "(+98)"
         ]
       }
@@ -3057,35 +3057,35 @@
       "en": "pain-accumulation",
       "canon": {
         "where": [
-          "mn9",
-          "sn22.104"
+          "mn9:15.1",
+          "sn22.104:1.9"
         ],
         "link": "/mn9:16.1",
         "definition": "Katamo cāvuso, dukkhasamudayo? Yāyaṁ taṇhā ponobbhavikā nandīrāgasahagatā tatratatrābhinandinī, seyyathidaṁ— kāmataṇhā bhavataṇhā vibhavataṇhā— ayaṁ vuccatāvuso, dukkhasamudayo.",
         "patterns": [
-          "mn9",
-          "sn22.104"
+          "mn9:15.1",
+          "sn22.104:1.9"
         ],
         "broader": [
-          "dn2",
-          "dn9",
-          "dn10",
-          "dn22",
-          "dn29",
-          "mn2",
-          "mn4",
-          "mn9",
-          "mn10",
-          "mn19",
-          "mn27",
-          "mn36",
-          "mn39",
-          "mn43",
-          "mn51",
+          "dn2:97.2",
+          "dn9:29.2",
+          "dn10:2.34.2",
+          "dn22:17.3",
+          "dn29:32.4",
+          "mn2:11.1",
+          "mn4:31.2",
+          "mn9:16.4",
+          "mn10:44.3",
+          "mn19:22.2",
+          "mn27:25.2",
+          "mn36:42.2",
+          "mn39:21.2",
+          "mn43:2.5",
+          "mn51:26.2",
           "(+46)"
         ],
         "vinaya": [
-          "pli-tv-bu-vb-pj1"
+          "pli-tv-bu-vb-pj1:1.8.2"
         ]
       }
     },
@@ -3104,8 +3104,8 @@
       "en": "painfulness",
       "canon": {
         "broader": [
-          "dn28",
-          "sn38.14"
+          "dn28:10.7",
+          "sn38.14:1.11"
         ]
       }
     },
