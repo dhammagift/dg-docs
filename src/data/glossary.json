@@ -1321,7 +1321,7 @@
       "num": 49,
       "pali": "asubha",
       "ru": "не-ладность, дисгармония, без-прикрас",
-      "en": "non-pleasantness, disharmony, without-embellishment",
+      "en": "disharmony, unseemliness, without-embellishment",
       "canon": {
         "patterns": [
           "an10.60"
@@ -1561,7 +1561,7 @@
       "num": 54,
       "pali": "āvuso",
       "ru": "товарищ",
-      "en": "comrade",
+      "en": "friend, fellow (polite form of address between peers; weaker and more formal than mitta, a real friend)",
       "canon": {
         "patterns": [
           "dn9",
@@ -3120,8 +3120,8 @@
       "id": "ehi-tvam",
       "num": 102,
       "pali": "ehi tvaṁ",
-      "ru": "ты иди",
-      "en": "you go"
+      "ru": "ты иди, ты ступай",
+      "en": "come on, you; go ahead (not \"go away\")"
     },
     {
       "id": "ehipassiko",
@@ -4628,7 +4628,7 @@
       "num": 294,
       "pali": "sugato",
       "ru": "благой",
-      "en": "good one"
+      "en": "Auspicious One, Good One"
     },
     {
       "id": "sukha",
