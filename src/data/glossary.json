@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-24",
   "source": {
     "sheetId": "1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg",
     "gid": "0",
@@ -765,7 +765,7 @@
       "id": "anuttaram-punnakkhettam-lokassa",
       "num": 28,
       "pali": "anuttaraṁ puññakkhettaṁ lokassa",
-      "ru": "непревзойденное поле блага для мира",
+      "ru": "непревзойдённое поле блага для мира",
       "en": "unsurpassed field of good for the world"
     },
     {
@@ -834,7 +834,7 @@
       "id": "appanihita",
       "num": 33,
       "pali": "appaṇihita",
-      "ru": "без-направленность (без-устремленность)",
+      "ru": "без-направленность (без-устремлённость)",
       "en": "directionlessness (non-aspiration)",
       "canon": {
         "patterns": [
@@ -2570,7 +2570,7 @@
       "id": "chandasamadhippadhanasankharasamannagata-iddhipada",
       "num": 80,
       "pali": "chandasamādhippadhānasaṅkhārasamannāgata iddhipāda",
-      "ru": "импульсо-самадхи-старания-составляющими наделенная сверхспособностей основа",
+      "ru": "импульсо-самадхи-старания-составляющими наделённая сверхспособностей основа",
       "en": "impulse-samadhi-endeavor-constituents-endowed basis of super-abilities",
       "canon": {
         "broader": [
@@ -2664,7 +2664,7 @@
       "id": "cittasamadhippadhanasankharasamannagata-iddhipada",
       "num": 83,
       "pali": "cittasamādhippadhānasaṅkhārasamannāgata iddhipāda",
-      "ru": "умо-состояние-самадхи-старания-составляющими наделенная сверхспособностей основа",
+      "ru": "умо-состояние-самадхи-старания-составляющими наделённая сверхспособностей основа",
       "en": "mind-state-samadhi-endeavor-constituents-endowed basis of super-abilities",
       "canon": {
         "broader": [
@@ -4968,7 +4968,7 @@
       "id": "moha",
       "num": 157,
       "pali": "moha",
-      "ru": "замутненность-заблуждение",
+      "ru": "замутнённость-заблуждение",
       "en": "murkiness-delusion",
       "canon": {
         "patterns": [
@@ -4994,7 +4994,7 @@
       "id": "mudita",
       "num": 158,
       "pali": "muditā",
-      "ru": "мягкость, смягченность",
+      "ru": "мягкость, смягчённость",
       "en": "gentleness, softening"
     },
     {
@@ -5765,7 +5765,7 @@
       "id": "pamojja",
       "num": 192,
       "pali": "pāmojja",
-      "ru": "смягченная-радость",
+      "ru": "смягчённая-радость",
       "en": "softened-joy"
     },
     {
@@ -6228,7 +6228,7 @@
       "id": "pathavidhatu",
       "num": 210,
       "pali": "paṭhavīdhātu",
-      "ru": "тверди-дхату, твердого-дхату",
+      "ru": "тверди-дхату, твёрдого-дхату",
       "en": "solidity-dhatu, solid-dhatu"
     },
     {
@@ -8988,7 +8988,7 @@
       "id": "uddhacca",
       "num": 306,
       "pali": "uddhacca",
-      "ru": "возбужденность",
+      "ru": "возбуждённость",
       "en": "agitation",
       "canon": {
         "broader": [
@@ -9001,7 +9001,7 @@
       "id": "uddhaccakukkucca",
       "num": 307,
       "pali": "uddhaccakukkucca",
-      "ru": "возбужденность-беспокойство",
+      "ru": "возбуждённость-беспокойство",
       "en": "agitation-worry",
       "canon": {
         "broader": [
@@ -9609,7 +9609,7 @@
       "id": "vimamsasamadhippadhanasankharasamannagata-iddhipada",
       "num": 332,
       "pali": "vīmaṁsāsamādhippadhānasaṅkhārasamannāgata iddhipāda",
-      "ru": "исследования-самадхи-старания-составляющими наделенная сверхспособностей основа",
+      "ru": "исследования-самадхи-старания-составляющими наделённая сверхспособностей основа",
       "en": "investigation-samadhi-endeavor-constituents-endowed basis of super-abilities",
       "canon": {
         "broader": [
@@ -9920,7 +9920,7 @@
       "id": "viriyasamadhippadhanasankharasamannagata-iddhipada",
       "num": 343,
       "pali": "vīriyasamādhippadhānasaṅkhārasamannāgata iddhipāda",
-      "ru": "решимости-самадхи-старания-составляющими наделенная сверхспособностей основа",
+      "ru": "решимости-самадхи-старания-составляющими наделённая сверхспособностей основа",
       "en": "determination-samadhi-endeavor-constituents-endowed basis of super-abilities",
       "canon": {
         "broader": [
