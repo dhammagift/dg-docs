@@ -1,4 +1,5 @@
 import React, {Fragment, useEffect, useMemo, useState} from 'react';
+import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';
 
 import SiteLink from '@site/src/components/SiteLink';
@@ -26,6 +27,30 @@ const COLLATORS = {
   en: new Intl.Collator('en', {sensitivity: 'base', numeric: true}),
   ru: new Intl.Collator('ru', {sensitivity: 'base', numeric: true}),
 };
+
+// The glossary as schema.org data (DefinedTermSet), in the page's static HTML: search engines and AI readers get each
+// term with the project's renderings and, where the canon defines it, the definition and its line. dg-fastify.js reads
+// it back from the built page for the key terms' search pages (DefinedTerm there).
+function glossaryLd(locale) {
+  const page = `${SITE}${locale === 'ru' ? '/ru' : ''}/docs/glossary/`;
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTermSet',
+    '@id': page,
+    name: locale === 'ru' ? 'Глоссарий Dhamma.Gift' : 'Dhamma.Gift Glossary',
+    url: page,
+    inLanguage: locale === 'ru' ? 'ru' : 'en',
+    hasDefinedTerm: TERMS.map((term) => ({
+      '@type': 'DefinedTerm',
+      '@id': `${page}#${encodeURIComponent(term.id)}`,
+      name: term.pali,
+      termCode: term.id,
+      alternateName: [term.ru, term.en].filter(Boolean),
+      ...(term.canon?.definition && {description: term.canon.definition}),
+      ...(term.canon?.link && {subjectOf: {'@type': 'CreativeWork', url: SITE + term.canon.link}}),
+    })),
+  }).replace(/</g, '\\u003c');
+}
 
 const STRINGS = {
   ru: {
@@ -240,6 +265,7 @@ export default function GlossaryTable({locale = 'en'}) {
   const t = STRINGS[locale] || STRINGS.en;
   const collator = COLLATORS[locale] || COLLATORS.en;
 
+  const ld = useMemo(() => glossaryLd(locale), [locale]); // not on every keystroke of the filter
   const [query, setQuery] = useState('');
   const [letter, setLetter] = useState('');
   const [canonOnly, setCanonOnly] = useState(false);
@@ -420,6 +446,9 @@ export default function GlossaryTable({locale = 'en'}) {
 
   return (
     <div className="dg-glossary">
+      <Head>
+        <script type="application/ld+json">{ld}</script>
+      </Head>
       {updated && (
         <p className="dg-glossary__updated">
           {t.updated}: {updated}

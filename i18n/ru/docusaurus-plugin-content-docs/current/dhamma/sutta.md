@@ -10,6 +10,10 @@ import SiteLink from '@site/src/components/SiteLink';
 import PageTools from '@site/src/components/PageTools';
 import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
+<head>
+  <script type="application/ld+json">{"{\"@context\": \"https://schema.org\", \"@type\": \"Dataset\", \"name\": \"Dhamma.Gift: the Suttas read by the Suttas' own definitions\", \"description\": \"The Suttas define their own key terms: the question \\\"Katamañca, bhikkhave, X?\\\" (\\\"And what, monks, is X?\\\") is answered, and the answer closes with \\\"idaṁ vuccati, bhikkhave, X\\\". This dataset gives that reading as open data: the Pali root text with the Dhamma.Gift Russian translation segment by segment, the glossary of terms with the project's Russian and English renderings and, where the canon defines a term, the definition and the lines where it stands, and the Principles by the Suttas and the Rationale in English and Russian.\", \"url\": \"https://huggingface.co/datasets/dhammagift/dg-dataset\", \"sameAs\": [\"https://github.com/dhammagift/dg-dataset\", \"https://doi.org/10.5281/zenodo.23491473\"], \"identifier\": \"https://doi.org/10.5281/zenodo.23491473\", \"license\": \"https://creativecommons.org/licenses/by/4.0/\", \"isAccessibleForFree\": true, \"creator\": {\"@type\": \"Organization\", \"name\": \"Dhamma.Gift\", \"url\": \"https://dhamma.gift/\"}, \"inLanguage\": [\"pi\", \"ru\", \"en\"], \"keywords\": [\"Pali Canon\", \"Sutta\", \"Vinaya\", \"Pali\", \"parallel corpus\", \"glossary\", \"Buddhism\", \"translation\"], \"distribution\": [{\"@type\": \"DataDownload\", \"encodingFormat\": \"application/jsonl\", \"contentUrl\": \"https://huggingface.co/datasets/dhammagift/dg-dataset/resolve/main/data/parallel_pli_ru.jsonl\"}, {\"@type\": \"DataDownload\", \"encodingFormat\": \"application/jsonl\", \"contentUrl\": \"https://huggingface.co/datasets/dhammagift/dg-dataset/resolve/main/data/glossary.jsonl\"}]}"}</script>
+</head>
+
 # Принципы Дхаммы
 
 <img src={VijjaHatthipada} alt="Принципы Дхаммы" className="dg-hero-image" />
