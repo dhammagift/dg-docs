@@ -7,6 +7,7 @@ sidebar_label: Подкасты
 import Spotify from '@site/static/img/buttons/podcast-spotify.png';
 import YouTubeMusic from '@site/static/img/buttons/podcast-youtube-music.png';
 import ApplePodcasts from '@site/static/img/buttons/podcast-apple-podcasts.png';
+import YandexMusic from '@site/static/img/buttons/podcast-yandex-music.png';
 import YandexMusicSoon from '@site/static/img/buttons/podcast-yandex-music-soon.png';
 import AmazonMusic from '@site/static/img/buttons/podcast-amazon-music.png';
 import PodcastIndex from '@site/static/img/buttons/podcast-podcast-index.png';
@@ -46,7 +47,7 @@ export const Show = ({cover, title, lang, badges}) => (
     [AmazonMusic, 'Listen on Amazon Music', 'https://music.amazon.com/podcasts/2d52d312-7433-4337-be88-0296b4f137fb'],
     [PodcastIndex, 'Listen on Podcast Index', 'https://podcastindex.org/podcast/8079440'],
     [Rss, 'Subscribe via RSS feed', 'https://files.dhamma.gift/podcast/pli.xml'],
-    [YandexMusicSoon, 'Coming soon to Yandex Music'],
+    [YandexMusic, 'Listen on Yandex Music', 'https://music.yandex.ru/album/44624722'],
   ]}
 />
 
