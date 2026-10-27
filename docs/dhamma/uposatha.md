@@ -35,7 +35,7 @@ The calendar shows the Uposatha days as the suttas describe them. Below is the r
   <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Open the calendar as a web app" style={{maxWidth: '200px'}} /></SiteLink>
 </div>
 
-- **Android** — *Uposatha by the Suttas* on [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.uposatha): the calendar as an app.
+- **Android** — *Uposatha by the Suttas* on <SiteLink to="/apps?app=uposatha">Google Play</SiteLink>: the calendar as an app.
 - **Windows 11** — *Uposatha by the Suttas* in the [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN): the calendar in its own window and three
   widgets for the Widgets Board (Win + W, then "+"). *Uposatha + kala* — how long to the next Uposatha day and whether it is the
   time for food now; *Day & night* — the part of the day or night that is going on; *Month* — the month with the Uposatha days marked.

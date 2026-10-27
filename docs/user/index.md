@@ -15,7 +15,7 @@ are all one continuous workflow rather than separate apps.
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{width: '100%', display: 'block'}} /></a></span>
-  <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://play.google.com/store/apps/details?id=gift.dhamma.twa"><img src="/assets/img/buttons/google-play-cta.png" alt="Get it on Google Play" style={{width: '100%', display: 'block'}} /></a></span>
+  <span style={{flex: '1 1 150px', maxWidth: '200px'}}><SiteLink to="/apps?app=dg"><img src="/assets/img/buttons/google-play-cta.png" alt="Get it on Google Play" style={{width: '100%', display: 'block'}} /></SiteLink></span>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src="/assets/img/buttons/msstore-cta.png" alt="Get it from Microsoft Store" style={{width: '100%', display: 'block'}} /></a></span>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Install as a PWA" style={{width: '100%', display: 'block'}} /></SiteLink></span>
 </div>

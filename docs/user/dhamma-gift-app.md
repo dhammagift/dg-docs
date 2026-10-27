@@ -3,13 +3,15 @@ slug: /dhamma-gift-app
 sidebar_position: 14
 ---
 
+import SiteLink from '@site/src/components/SiteLink';
+
 import MsStore from '@site/static/img/buttons/msstore-cta.png';
 
 # Dhamma.Gift (the application)
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.5rem', margin: '1rem 0'}}>
   <a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{height: '56px'}} /></a>
-  <a href="https://play.google.com/store/apps/details?id=gift.dhamma.twa"><img src="/assets/img/buttons/google-play-cta.png" alt="Get it on Google Play" style={{height: '56px'}} /></a>
+  <SiteLink to="/apps?app=dg"><img src="/assets/img/buttons/google-play-cta.png" alt="Get it on Google Play" style={{height: '56px'}} /></SiteLink>
   <a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src={MsStore} alt="Get Dhamma.Gift from the Microsoft Store" style={{height: '56px'}} /></a>
 </div>
 

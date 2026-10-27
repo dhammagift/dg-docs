@@ -35,7 +35,7 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
   <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Открыть календарь как веб-приложение" style={{maxWidth: '200px'}} /></SiteLink>
 </div>
 
-- **Android** — *Uposatha by the Suttas* в [Google Play](https://play.google.com/store/apps/details?id=gift.dhamma.uposatha): календарь как приложение.
+- **Android** — *Uposatha by the Suttas* в <SiteLink to="/apps?app=uposatha">Google Play</SiteLink>: календарь как приложение.
 - **Windows 11** — *Uposatha by the Suttas* в [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN): календарь в своём окне и три виджета для доски
   виджетов (Win + W, затем «+»). *Uposatha + kala* — сколько до ближайшей упосатхи и время ли сейчас для еды; *Day & night* —
   какая часть дня или ночи идёт; *Month* — месяц с отмеченными днями упосатхи.
