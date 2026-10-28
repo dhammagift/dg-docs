@@ -27,7 +27,7 @@ A precise translation works as a necessary "bridge." It lets readers perceive th
 
 ## Principles
 
-Under each principle you can expand its grounding — the sutta passage it rests on (where no direct sutta statement exists, the reason it is adopted is stated instead) — and an example. The order reflects priority: definitions (3–4) come before systematic choice (5–6), and both come before tradition (7) and form (8–15).
+Under each principle you can expand its grounding — the sutta passage it rests on (where no direct sutta statement exists, the reason it is adopted is stated instead) — and an example.
 
 <a id="p1"></a>
 
