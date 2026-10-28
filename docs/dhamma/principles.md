@@ -49,7 +49,7 @@ Under each principle you can expand its grounding — the sutta passage it rests
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** The Dhamma is "well formulated" (*svākkhāto*, <SiteLink to="/an3.70:7.4?lang=en&hide=id">an3.70:7.4</SiteLink>). The Tathāgata's speech does not "go two ways" (*dvayagāminī*, <SiteLink to="/dn24:1.18.1?s=dvayag%C4%81min%C4%AB&lang=en&hide=id">dn24:1.18.1</SiteLink>).
+**Grounding.** The Dhamma is "well formulated" (*svākkhāto*, <SiteLink to="/an3.70:7.4?lang=en&hide=id">an3.70</SiteLink>). The Tathāgata's speech does not "go two ways" (*dvayagāminī*, <SiteLink to="/dn24:1.18.1?s=dvayag%C4%81min%C4%AB&lang=en&hide=id">dn24</SiteLink>).
 
 **Example.** *Dukkha* is "pain" in the first truth, in the feeling triad and in the list of faculties alike ([Rationale: cross-verifiability](/rationale#cross-verifiability-of-consistent-terminology)).
 
@@ -62,9 +62,9 @@ Under each principle you can expand its grounding — the sutta passage it rests
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** AN 4.180: what is presented as the Teaching is checked against the suttas and the Vinaya (*sutte otāretabbāni, vinaye sandassetabbāni*, <SiteLink to="/an4.180:2.6?lang=en&hide=id">an4.180:2.6</SiteLink>). AN 2.24: presenting a discourse of explicit meaning (*nītattha*) as one needing interpretation (*neyyattha*) misrepresents the Tathāgata.
+**Grounding.** <SiteLink to="/an4.180:2.6?lang=en&hide=id">AN 4.180</SiteLink>: what is presented as the Teaching is checked against the suttas and the Vinaya (*sutte otāretabbāni, vinaye sandassetabbāni*). AN 2.24: presenting a discourse of explicit meaning (*nītattha*) as one needing interpretation (*neyyattha*) misrepresents the Tathāgata.
 
-**Example.** *Dukkha* has a definition in the suttas: "And what is pain (*dukkha*)? Bodily pain, bodily discomfort…" (*Analysis of the Truths*, <SiteLink to="/mn141:16.1?s=dukkha&lang=en&hide=id">mn141:16.1–16.3</SiteLink>; see [Rationale](/rationale#dukkha)). In practice, when the suttas use *dukkha* (bodily pain, bodily discomfort), they point the reader to phenomena at the level of *rūpa* and *vedanā*. In translations that lack consistent terminology and render *dukkha* as "suffering," the reader's attention shifts to the level of *saññā* and *saṅkhārā* instead.
+**Example.** *Dukkha* has a definition in the suttas: "And what is pain (*dukkha*)? Bodily pain, bodily discomfort…" (*Analysis of the Truths*, <SiteLink to="/mn141:16.1?s=dukkha&lang=en&hide=id">mn141</SiteLink>; see [Rationale](/rationale#dukkha)). In practice, when the suttas use *dukkha* (bodily pain, bodily discomfort), they point the reader to phenomena at the level of *rūpa* and *vedanā*. In translations that lack consistent terminology and render *dukkha* as "suffering," the reader's attention shifts to the level of *saññā* and *saṅkhārā* instead.
 
 </details>
 
@@ -114,7 +114,7 @@ Under each principle you can expand its grounding — the sutta passage it rests
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** AN 3.65: do not go by oral tradition, lineage, scripture or the authority of a teacher (<SiteLink to="/an3.65:4.1?lang=en&hide=id">an3.65:4.1</SiteLink>). AN 2.23: do not ascribe to the Tathāgata what he did not say.
+**Grounding.** <SiteLink to="/an3.65:4.1?lang=en&hide=id">AN 3.65</SiteLink>: do not go by oral tradition, lineage, scripture or the authority of a teacher. AN 2.23: do not ascribe to the Tathāgata what he did not say.
 
 **Example.** "Suffering" for *dukkha* and "intention" for *cetanā* are established renderings. Being established does not by itself make them applicable ([Rationale](/rationale#dukkha)).
 
@@ -127,7 +127,7 @@ Under each principle you can expand its grounding — the sutta passage it rests
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** MN 139: one should not override the normal designation (*samaññaṁ nātidhāveyya*, <SiteLink to="/mn139:3.9?lang=en&hide=id">mn139:3.9</SiteLink>). The English word keeps its ordinary meaning. Breadth is conveyed by adding words, not by stretching one word.
+**Grounding.** <SiteLink to="/mn139:3.9?lang=en&hide=id">MN 139</SiteLink>: one should not override the normal designation (*samaññaṁ nātidhāveyya*). The English word keeps its ordinary meaning. Breadth is conveyed by adding words, not by stretching one word.
 
 **Example.** *rāga*: fascination-passion. *anicca*: unreliability, instability, untrustworthiness. This is as if it had been written: fascination-passion (hereinafter *fascination*). Or *jhāyatha*: ignite (ardently strive, concentrate, "meditate," contemplate), hereinafter *ignite*.
 
@@ -153,9 +153,9 @@ Under each principle you can expand its grounding — the sutta passage it rests
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** AN 5.156 (parallel AN 4.160): misplaced words and phrases lead the meaning astray (*dunnikkhittehi padabyañjanehi*, <SiteLink to="/an5.156:1.3?lang=en&hide=id">an5.156:1.3</SiteLink>).
+**Grounding.** <SiteLink to="/an5.156:1.3?lang=en&hide=id">AN 5.156</SiteLink> (parallel AN 4.160): misplaced words and phrases lead the meaning astray (*dunnikkhittehi padabyañjanehi*).
 
-**Example.** *Ete kho, bhikkhave, ubho ante anupagamma majjhimā paṭipadā…* is rendered "Not approaching, monks, these two ends, the Middle Practice…" (sn56.11:2.4).
+**Example.** *Ete kho, bhikkhave, ubho ante anupagamma majjhimā paṭipadā…* is rendered "Not approaching, monks, these two ends, the Middle Practice…" (<SiteLink to="/sn56.11:2.4?lang=en&hide=id">sn56.11</SiteLink>).
 
 </details>
 
@@ -192,7 +192,7 @@ Under each principle you can expand its grounding — the sutta passage it rests
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** The suttas themselves build such pairs, e.g. *abyāpādasaṅkappa* in the definition of right intention (<SiteLink to="/sn45.8:4.2?lang=en&hide=id">sn45.8:4.2</SiteLink>).
+**Grounding.** The suttas themselves build such pairs, e.g. *abyāpādasaṅkappa* in the definition of right intention (<SiteLink to="/sn45.8:4.2?lang=en&hide=id">sn45.8</SiteLink>).
 
 **Example.** *byāpāda* and *abyāpāda* are rendered "hostility" and "non-hostility," not "hostility" and "friendliness."
 
@@ -205,11 +205,11 @@ Under each principle you can expand its grounding — the sutta passage it rests
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** Methodological. Pāli itself distinguishes a compound from the corresponding phrase, as in *Āhārasamudayā kāyassa samudayo* (<SiteLink to="/sn47.42:1.4?lang=en&hide=id">sn47.42:1.4</SiteLink>; more below).
+**Grounding.** Methodological. Pāli itself distinguishes a compound from the corresponding phrase, as in *Āhārasamudayā kāyassa samudayo* (<SiteLink to="/sn47.42:1.4?lang=en&hide=id">sn47.42</SiteLink>; more below).
 
 **Example.** *ariyasacca*, "Noble-Truth," leaves the case relation open: it can be read as a genitive, dative or ablative *tatpuruṣa*, or as a *karmadhāraya*. It is at once the truth of the Noble, a truth leading to nobility, a truth from the nobles, a truth for becoming noble and a truth for those already noble.
 
-**More on compounds.** In addition to the standard understanding of Pāli compounds (see e.g. [Pali Compounds](https://www.digitalpalireader.online/docs/pali/compound.htm)), the project proposes a broader view. A dash in a date range ("1–10") does not mean only "1 and 10." In the same way, a Pāli copulative compound (*dvandva*) such as *samaṇabrāhmaṇā*, "ascetics-brahmins," need not mean only "ascetics and brahmins," although both forms occur in the texts. It can mean the whole spectrum of the spiritual sphere from ascetics to brahmins, just as *nandīrāga* covers the whole spectrum from joy to passion, not only "joy and passion." On this view, splitting a Pāli compound for ease of translation can in some cases introduce distortions. Compare "water runs through a water-pipe," which loses something when forced apart into "water" and "pipe" taken separately. A case in point from Pāli: *Āhārasamudayā kāyassa samudayo*, "from nourishment-arising, the arising of the body" (<SiteLink to="/sn47.42:1.4?lang=en&hide=id">sn47.42:1.4</SiteLink>). The example is subtler than the water-pipe one, but it shows that the Pāli texts distinguish compounds from their "split" counterparts, although it is commonly assumed that there is no such difference. English has no case endings to drop inside a compound. Its equivalent device is to join the members with hyphens and leave out "of" and "and" wherever the result stays readable, e.g. "suffering-lamentation-pain-discontent-despair."
+**More on compounds.** In addition to the standard understanding of Pāli compounds (see e.g. [Pali Compounds](https://www.digitalpalireader.online/docs/pali/compound.htm)), the project proposes a broader view. A dash in a date range ("1–10") does not mean only "1 and 10." In the same way, a Pāli copulative compound (*dvandva*) such as *samaṇabrāhmaṇā*, "ascetics-brahmins," need not mean only "ascetics and brahmins," although both forms occur in the texts. It can mean the whole spectrum of the spiritual sphere from ascetics to brahmins, just as *nandīrāga* covers the whole spectrum from joy to passion, not only "joy and passion." On this view, splitting a Pāli compound for ease of translation can in some cases introduce distortions. Compare "water runs through a water-pipe," which loses something when forced apart into "water" and "pipe" taken separately. A case in point from Pāli: *Āhārasamudayā kāyassa samudayo*, "from nourishment-arising, the arising of the body" (<SiteLink to="/sn47.42:1.4?lang=en&hide=id">sn47.42</SiteLink>). The example is subtler than the water-pipe one, but it shows that the Pāli texts distinguish compounds from their "split" counterparts, although it is commonly assumed that there is no such difference. English has no case endings to drop inside a compound. Its equivalent device is to join the members with hyphens and leave out "of" and "and" wherever the result stays readable, e.g. "suffering-lamentation-pain-discontent-despair."
 
 </details>
 
@@ -220,7 +220,7 @@ Under each principle you can expand its grounding — the sutta passage it rests
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** MN 103: where the meaning (*attha*) does not agree, it is worth sorting out (<SiteLink to="/mn103:11.2?lang=en&hide=id">mn103:11.2</SiteLink>).
+**Grounding.** <SiteLink to="/mn103:11.2?lang=en&hide=id">MN 103</SiteLink>: where the meaning (*attha*) does not agree, it is worth sorting out.
 
 **Example.** *Taṇhā* and "thirst" have similar denotations but different connotations. "Thirst" is loud and result-focused, whereas *taṇhā* is "accompanied by joy-passion, delighting here and there" ([Rationale](/rationale#semantic-divergence)).
 

@@ -11,7 +11,7 @@ import PageTools from '@site/src/components/PageTools';
 import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 <head>
-  <script type="application/ld+json">{"{\"@context\": \"https://schema.org\", \"@type\": \"Dataset\", \"name\": \"Dhamma.Gift: the Suttas read by the Suttas' own definitions\", \"description\": \"The Suttas define their own key terms: the question \\\"Katamañca, bhikkhave, X?\\\" (\\\"And what, monks, is X?\\\") is answered, and the answer closes with \\\"idaṁ vuccati, bhikkhave, X\\\". This dataset gives that reading as open data: the Pali root text with the Dhamma.Gift Russian translation segment by segment, the glossary of terms with the project's Russian and English renderings and, where the canon defines a term, the definition and the lines where it stands, and the Principles by the Suttas and the Rationale in English and Russian.\", \"url\": \"https://huggingface.co/datasets/dhammagift/dg-dataset\", \"sameAs\": [\"https://github.com/dhammagift/dg-dataset\", \"https://doi.org/10.5281/zenodo.23491473\"], \"identifier\": \"https://doi.org/10.5281/zenodo.23491473\", \"license\": \"https://creativecommons.org/licenses/by/4.0/\", \"isAccessibleForFree\": true, \"creator\": {\"@type\": \"Organization\", \"name\": \"Dhamma.Gift\", \"url\": \"https://dhamma.gift/\"}, \"inLanguage\": [\"pi\", \"ru\", \"en\"], \"keywords\": [\"Pali Canon\", \"Sutta\", \"Vinaya\", \"Pali\", \"parallel corpus\", \"glossary\", \"Buddhism\", \"translation\"], \"distribution\": [{\"@type\": \"DataDownload\", \"encodingFormat\": \"application/jsonl\", \"contentUrl\": \"https://huggingface.co/datasets/dhammagift/dg-dataset/resolve/main/data/parallel_pli_ru.jsonl\"}, {\"@type\": \"DataDownload\", \"encodingFormat\": \"application/jsonl\", \"contentUrl\": \"https://huggingface.co/datasets/dhammagift/dg-dataset/resolve/main/data/glossary.jsonl\"}]}"}</script>
+  <script type="application/ld+json">{"{\"@context\": \"https://schema.org\", \"@type\": \"Dataset\", \"name\": \"Dhamma.Gift: the Suttas read by the Suttas' own definitions\", \"description\": \"The Suttas define their own key terms: the question \\\"Katamañca, bhikkhave, X?\\\" (\\\"And what, monks, is X?\\\") is answered, and the answer closes with \\\"idaṁ vuccati, bhikkhave, X\\\". This dataset gives that reading as open data: the Pali root text with the Dhamma.Gift Russian translation side by side, the glossary of terms with the project's Russian and English renderings and, where the canon defines a term, the definition and the lines where it stands, and the Principles by the Suttas and the Rationale in English and Russian.\", \"url\": \"https://huggingface.co/datasets/dhammagift/dg-dataset\", \"sameAs\": [\"https://github.com/dhammagift/dg-dataset\", \"https://doi.org/10.5281/zenodo.23491473\"], \"identifier\": \"https://doi.org/10.5281/zenodo.23491473\", \"license\": \"https://creativecommons.org/licenses/by/4.0/\", \"isAccessibleForFree\": true, \"creator\": {\"@type\": \"Organization\", \"name\": \"Dhamma.Gift\", \"url\": \"https://dhamma.gift/\"}, \"inLanguage\": [\"pi\", \"ru\", \"en\"], \"keywords\": [\"Pali Canon\", \"Sutta\", \"Vinaya\", \"Pali\", \"parallel corpus\", \"glossary\", \"Buddhism\", \"translation\"], \"distribution\": [{\"@type\": \"DataDownload\", \"encodingFormat\": \"application/jsonl\", \"contentUrl\": \"https://huggingface.co/datasets/dhammagift/dg-dataset/resolve/main/data/parallel_pli_ru.jsonl\"}, {\"@type\": \"DataDownload\", \"encodingFormat\": \"application/jsonl\", \"contentUrl\": \"https://huggingface.co/datasets/dhammagift/dg-dataset/resolve/main/data/glossary.jsonl\"}]}"}</script>
 </head>
 
 # Принципы Дхаммы
@@ -22,7 +22,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 Переводы o и в целом подход, предлагаемый Dhamma.gift, опираются на положения Учения Будды из Сутт ниже. Это критерии, рекомендованные Буддой для проверки учений, и одновременно практический чек-лист для распознавания ошибок и искажений, содержащихся в подавляющем большинстве существующих традиций и переводов.
 
-Каждый принцип дан в одной форме: **Принцип** (формулировка), **Сутта** (место, ключевая фраза на пали и сегмент) и **Применение** (как это сказывается на переводе, с примером). Ссылка «Читать →» открывает место в окне [ниже](#читать). Как эти критерии определяют выбор отдельных слов, изложено в [Принципах перевода](/principles).
+Каждый принцип дан в одной форме: **Принцип** (формулировка), **Сутта** (место и ключевая фраза на пали) и **Применение** (как это сказывается на переводе, с примером). Ссылка «Читать →» открывает место в окне [ниже](#читать). Как эти критерии определяют выбор отдельных слов, изложено в [Принципах перевода](/principles).
 
 ## Подлинность текста — Четыре Великих Ориентира
 
@@ -30,9 +30,9 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Утверждение «это Дхамма, это Виная, это слово Учителя» сверяется с суттами и Винаей, а не принимается и не отвергается на основании авторитета того, кто его сообщил.
 
-**Сутта.** АН 4.180 (Mahāpadesa Sutta): *sutte otāretabbāni, vinaye sandassetabbāni* (an4.180:2.6). Сутта ясно даёт понять, что отдельные монахи и целые общины могут передавать то, что Учением Учителя не является, и для верификации требуются сверка и проверка по Суттам и Винае. <SuttaLink index={0} />
+**Сутта.** <SiteLink to="/an4.180:2.6?lang=ru&hide=id">АН 4.180</SiteLink> (Mahāpadesa Sutta): *sutte otāretabbāni, vinaye sandassetabbāni*. Сутта ясно даёт понять, что отдельные монахи и целые общины могут передавать то, что Учением Учителя не является, и для верификации требуются сверка и проверка по Суттам и Винае. <SuttaLink index={0} />
 
-**Применение.** Перевод термина прежде всего сверяется с определениями из сутт ([Принципы перевода](/principles), принципы 3–4). Пример: dukkha сверяется с mn141:16.1–16.3.
+**Применение.** Перевод термина прежде всего сверяется с определениями из сутт ([Принципы перевода](/principles), принципы 3–4). Пример: dukkha сверяется с <SiteLink to="/mn141:16.1?lang=ru&hide=id">mn141</SiteLink>.
 
 ## Национальный Язык — не нужно менять
 
@@ -40,7 +40,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Язык перевода не нужно переделывать. Явления нужно называть так, как они назывались бы в этом языке, в нашем случае в русском.
 
-**Сутта.** МН 139 (Araṇavibhaṅga Sutta): *janapadaniruttiṁ nābhiniveseyya, samaññaṁ nātidhāveyya* — «не следует настаивать на местном выражении и отменять обычное наименование» (mn139:3.9, разъяснение — mn139:12.1 и далее). <SuttaLink index={3} />
+**Сутта.** МН 139 (Araṇavibhaṅga Sutta): *janapadaniruttiṁ nābhiniveseyya, samaññaṁ nātidhāveyya* — «не следует настаивать на местном выражении и отменять обычное наименование» (<SiteLink to="/mn139:3.9?lang=ru&hide=id">mn139</SiteLink>; Будда <SiteLink to="/mn139:12.1?lang=ru&hide=id">разъясняет это дальше</SiteLink>). <SuttaLink index={3} />
 
 **Применение.** Очень многие положения переводов Дхаммы нарушают этот принцип. Так, русские слова «страдание», «жажда», «возникновение», «прекращение», «форма», «намерение» в «переводном буддизме» имеют модифицированные — расширенные или, наоборот, суженные — значения. Об этом подробнее в [Обосновании](/ru/docs/rationale).
 
@@ -48,7 +48,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Если смысл (*attha*) совпадает, а формулировка (*byañjana*) отличается, это не повод для спора: споры из-за незначительной формулировки обесценивают в остальном верное учение. Несовпадение же смысла важно, и даже ценой беспокойства для обеих сторон стоит прояснить плохо ухваченное как плохо ухваченное, а хорошо ухваченное — как хорошо ухваченное.
 
-**Сутта.** МН 103 (Kinti Sutta), mn103:11.2. <SuttaLink index={4} />
+**Сутта.** <SiteLink to="/mn103:11.2?lang=ru&hide=id">МН 103</SiteLink> (Kinti Sutta). <SuttaLink index={4} />
 
 **Применение.** «Боль» или «боль-дискомфорт» для dukkha — разница формулировки. «Боль» или «страдание» — разница смысла.
 
@@ -58,7 +58,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Не принимать учение только потому, что так гласит устная передача, преемственность, слух, писание, логика, умозаключение, рассуждение, согласие с уже имеющимся взглядом, кажущаяся компетентность говорящего или «этот отшельник — наш учитель». Проверять нужно по тому, ведёт ли это к благому или неблагому, к вреду или пользе.
 
-**Сутта.** АН 3.65 (Kesamutti / Kālāma Sutta), спутник Mahāpadesa: *mā anussavena, mā paramparāya… mā samaṇo no garūti* (an3.65:4.1). <SuttaLink index={1} />
+**Сутта.** <SiteLink to="/an3.65:4.1?lang=ru&hide=id">АН 3.65</SiteLink> (Kesamutti / Kālāma Sutta), спутник Mahāpadesa: *mā anussavena, mā paramparāya… mā samaṇo no garūti*. <SuttaLink index={1} />
 
 **Применение.** Устоявшийся перевод, в том числе из комментария, не применяется, если противоречит каноническому определению ([Принципы перевода](/principles), принцип 7).
 
@@ -66,7 +66,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Если Kālāma говорит, из чего *нельзя* заключать об истинности учения, то МН 95 говорит, что честно сказать вместо этого. Оберегание истины (*saccānurakkhaṇa*) — это сказать «такова моя вера», а не «только это истинно, остальное ложно».
 
-**Сутта.** МН 95 (Caṅkī Sutta): *evaṁ me saddhā* (mn95:15.4). <SuttaLink index={2} />
+**Сутта.** <SiteLink to="/mn95:15.4?lang=ru&hide=id">МН 95</SiteLink> (Caṅkī Sutta): *evaṁ me saddhā*. <SuttaLink index={2} />
 
 **Применение.** Любой перевод помечен как «Работа в Процессе» ([Принципы перевода](/principles), принцип 1).
 
@@ -76,7 +76,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Хвалить или осуждать что-либо без предварительного разбора и исследования — недостаток. Разбор прежде суждения — признак мудрого.
 
-**Сутта.** АН 4.3: *ananuvicca apariyogāhetvā* (an4.3:1.3). <SuttaLink index={5} />
+**Сутта.** <SiteLink to="/an4.3:1.3?lang=ru&hide=id">АН 4.3</SiteLink>: *ananuvicca apariyogāhetvā*. <SuttaLink index={5} />
 
 **Применение.** Перевод, в том числе собственный перевод проекта, оценивается только после разбора его употреблений и определений в суттах.
 
@@ -86,15 +86,15 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Представить беседу с уже явным смыслом (*nītattha*) как требующую толкования (*neyyattha*) или требующую толкования — как явную значит исказить Татхагату. Именно так на практике возникают неверный перевод и неверное прочтение. Те, кто представляет явное как явное, а требующее толкования — как требующее толкования, Татхагату не искажают.
 
-**Сутта.** АН 2.24 (оба вида искажения, an2.24:1.3) и АН 2.25 (противоположный случай: двое, которые не искажают, an2.25:1.3). <SuttaLink index={6}>Читать АН 2.24 →</SuttaLink>{' '} <SuttaLink index={7}>Читать АН 2.25 →</SuttaLink>
+**Сутта.** <SiteLink to="/an2.24:1.3?lang=ru&hide=id">АН 2.24</SiteLink> (оба вида искажения) и <SiteLink to="/an2.25:1.3?lang=ru&hide=id">АН 2.25</SiteLink> (противоположный случай: двое, которые не искажают). <SuttaLink index={6}>Читать АН 2.24 →</SuttaLink>{' '} <SuttaLink index={7}>Читать АН 2.25 →</SuttaLink>
 
-**Применение.** У dukkha есть явное определение (mn141:16.1–16.3). Подавать её как «непереводимое» понятие, требующее толкования, значит представлять явное как требующее толкования ([Обоснование](/rationale#dukkha)).
+**Применение.** У dukkha есть явное определение (<SiteLink to="/mn141:16.1?lang=ru&hide=id">mn141</SiteLink>). Подавать её как «непереводимое» понятие, требующее толкования, значит представлять явное как требующее толкования ([Обоснование](/rationale#dukkha)).
 
 ### 8. Не приписывать и не отрицать сказанного Татхагатой
 
 **Принцип.** Два способа исказить Татхагату: приписать ему то, чего он не говорил, либо отрицать то, что он говорил.
 
-**Сутта.** АН 2.23 (an2.23:1.3). <SuttaLink index={8} />
+**Сутта.** <SiteLink to="/an2.23:1.3?lang=ru&hide=id">АН 2.23</SiteLink>. <SuttaLink index={8} />
 
 **Применение.** Перевод, добавляющий смысл, которого нет в пали, — разновидность первой ошибки: «крайность» для *anta* добавляет допустимость умеренного диапазона, которой в тексте нет. Перевод, теряющий смысл, который в пали есть, — разновидность второй ([Обоснование](/rationale#anta)).
 
@@ -104,9 +104,9 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** На одни вопросы следует отвечать однозначно, другие требуют разбора и уточнения (*vibhajjabyākaraṇa*), третьи — встречного вопроса, а некоторые следует оставить без ответа. Тот, кто отвечает на вопрос неподходящим способом, «не годится для беседы» (АН 3.67). Это важный аспект Дхаммы и один из критериев, по которым, к примеру, можно разобраться, что anicca некорректно переводить как «непостоянство».[^1]
 
-**Сутта.** АН 4.42 (an4.42:1.3); АН 3.67 (an3.67:2.2). <SuttaLink index={9} />
+**Сутта.** <SiteLink to="/an4.42:1.3?lang=ru&hide=id">АН 4.42</SiteLink>; <SiteLink to="/an3.67:2.2?lang=ru&hide=id">АН 3.67</SiteLink>. <SuttaLink index={9} />
 
-**Применение.** Однозначный ответ, принятый в sn22.59:6.4–6.5, решает выбор между «непостоянным» и «ненадёжным» (примечание 1).
+**Применение.** Однозначный ответ, принятый в <SiteLink to="/sn22.59:6.4?lang=ru&hide=id">sn22.59</SiteLink>, решает выбор между «непостоянным» и «ненадёжным» (примечание 1).
 
 ## Как со временем исчезает Дхамма
 
@@ -114,7 +114,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Как с барабаном, который чинили колышек за колышком, пока от исходного дерева ничего не осталось, беседы, «сказанные Татхагатой, глубокие, глубокие по смыслу, сверхмирские, связанные с пустотностью», перестанут заучивать. Слушать же будут беседы, «созданные поэтами, поэтические, с изукрашенными слогами и фразами, сочинённые посторонними или сказанные учениками». Уже и в современности такие сочинения часто авторитетнее самих сутт.
 
-**Сутта.** СН 20.7 (Āṇi Sutta): sn20.7:1.6 и 2.1. <SuttaLink index={10} />
+**Сутта.** <SiteLink to="/sn20.7:1.6?lang=ru&hide=id">СН 20.7</SiteLink> (Āṇi Sutta). <SuttaLink index={10} />
 
 **Применение.** Dhamma.Gift располагает свои переводы между художественной адаптацией и грамматическим разбором ([Принципы перевода](/principles#середина-между-адаптацией-и-грамматическим-разбором)) и не предлагает литературного сочинения.
 
@@ -122,7 +122,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Если СН 20.7 показывает, *как* исчезает истинная Дхамма, то эта сутта показывает *почему*: она не исчезает, пока в мире не появится её подделка (*saddhammappatirūpaka*), — как с появлением поддельного золота исчезает настоящее.
 
-**Сутта.** СН 16.13 (Saddhammappatirūpaka Sutta), sn16.13:1.7. <SuttaLink index={11} />
+**Сутта.** <SiteLink to="/sn16.13:1.7?lang=ru&hide=id">СН 16.13</SiteLink> (Saddhammappatirūpaka Sutta). <SuttaLink index={11} />
 
 **Применение.** Критерий перевода — не то, звучит ли он привычно и «по-буддийски», а то, согласуется ли он с суттами (принцип 1).
 
@@ -130,7 +130,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Беседы, заученные с неверно поставленными словами и фразами, уводят смысл.
 
-**Сутта.** АН 5.156 (параллель: АН 4.160): *duggahitaṁ suttantaṁ pariyāpuṇanti dunnikkhittehi padabyañjanehi* (an5.156:1.3). <SuttaLink index={12} />
+**Сутта.** <SiteLink to="/an5.156:1.3?lang=ru&hide=id">АН 5.156</SiteLink> (параллель: АН 4.160): *duggahitaṁ suttantaṁ pariyāpuṇanti dunnikkhittehi padabyañjanehi*. <SuttaLink index={12} />
 
 **Применение.** Порядок слов и грамматическая структура пали по возможности сохраняются ([Принципы перевода](/principles), принципы 10–11).
 
@@ -140,7 +140,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** *Yaṁ kiñci subhāsitaṁ sabbaṁ taṁ tassa bhagavato vacanaṁ* — «всё, что хорошо сказано, — это слово Благословенного». В сутте это слова достопочтенного Уттары, обращённые к Сакке и поясняемые сравнением с кучей зерна. Это полезная проверка против слишком узкого, «территориального» понимания того, что считается законной Дхаммой. При этом её нужно читать вместе с Mahāpadesa и Kālāma выше, а не как разрешение называть словом Будды что угодно.
 
-**Сутта.** АН 8.8 (an8.8:6.7). <SuttaLink index={13} />
+**Сутта.** <SiteLink to="/an8.8:6.7?lang=ru&hide=id">АН 8.8</SiteLink>. <SuttaLink index={13} />
 
 **Применение.** Принятие перевода решается его согласием с суттами, а не тем, кто его предложил или из какой он традиции.
 
@@ -150,7 +150,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Как в сравнении с водяной змеёй, изучать Дхамму ради спора и обличения других, а не ради понимания, значит изучать её неверно, и это оборачивается против самого изучающего.
 
-**Сутта.** МН 22 (Alagaddūpama Sutta), mn22:10.10. <SuttaLink index={14} />
+**Сутта.** <SiteLink to="/mn22:10.10?lang=ru&hide=id">МН 22</SiteLink> (Alagaddūpama Sutta). <SuttaLink index={14} />
 
 **Применение.** Разборы в [Обосновании](/rationale) предлагаются для понимания текстов, а не как полемика против переводчиков; возражения приведены так, чтобы их можно было проверить.
 
@@ -160,7 +160,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **Принцип.** Пять опасностей для того, кто произносит Дхамму протяжным песенным голосом (*āyatakena gītassarena*): он сам очаровывается своим голосом; другие очаровываются его голосом; домохозяева возмущаются — «шраманы поют так же, как мы»; у стремящегося к красоте голоса разрушается самадхи; следующее поколение перенимает увиденное.
 
-**Сутта.** АН 5.209 (Gītassara Sutta), an5.209:1.1. <SuttaLink index={15} />
+**Сутта.** <SiteLink to="/an5.209:1.1?lang=ru&hide=id">АН 5.209</SiteLink> (Gītassara Sutta). <SuttaLink index={15} />
 
 **Применение.** Относится к устному изложению Дхаммы, в том числе к чтению переводов вслух.
 
@@ -200,4 +200,4 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 - <SiteLink to="/hatthipada/?lang=ru">Hatthipada</SiteLink> — четыре истины и каждое их слово по определениям самих сутт.
 - [Набор данных](https://huggingface.co/datasets/dhammagift/dg-dataset) — это прочтение как открытые данные (CC BY 4.0): русский перевод проекта с пали и места, где сутты определяют каждый термин; также на [GitHub](https://github.com/dhammagift/dg-dataset) и в [Zenodo](https://doi.org/10.5281/zenodo.23491473) (DOI 10.5281/zenodo.23491473).
 
-[^1]: Пример: в <SiteLink to="/sn22.59:6.4?lang=ru&hide=id">sn22.59:6.4</SiteLink> Будда спрашивает: *Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā?* — «А то, что anicca, болезненно или приятно?». Монахи отвечают однозначно: *Dukkhaṁ, bhante* — «Болезненно, почтенный» (sn22.59:6.5), и Будда принимает этот ответ. Значит, это вопрос, на который отвечают однозначно (*ekaṁsabyākaraṇīya*). Если бы anicca означало «непостоянное», однозначного ответа быть не могло бы: непостоянное не всегда болезненно. Непостоянная боль неприятна, пока длится, и приятно, когда она уходит. Приятное, наоборот, болезненно, когда уходит (ср. mn44:24.2). На такой вопрос пришлось бы отвечать с разбором (*vibhajjabyākaraṇa*): «смотря что именно непостоянно». Однозначный ответ, который Будда принимает, показывает, что anicca — то, что болезненно всегда: ненадёжное, нестабильное, то, на что нельзя положиться. Это серьёзный довод: в <SiteLink to="/an3.67:2.2?lang=ru&hide=id">an3.67:2.2</SiteLink> Будда прямо говорит, что тот, кто отвечает однозначно на вопрос, требующий разбора (или наоборот), не подходит для разговора. Приняв однозначный ответ на вопрос, требующий разбора, Будда противоречил бы собственным словам.
+[^1]: Пример: в <SiteLink to="/sn22.59:6.4?lang=ru&hide=id">sn22.59</SiteLink> Будда спрашивает: *Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā?* — «А то, что anicca, болезненно или приятно?». Монахи отвечают однозначно: *Dukkhaṁ, bhante* — «Болезненно, почтенный» (<SiteLink to="/sn22.59:6.5?lang=ru&hide=id">sn22.59</SiteLink>), и Будда принимает этот ответ. Значит, это вопрос, на который отвечают однозначно (*ekaṁsabyākaraṇīya*). Если бы anicca означало «непостоянное», однозначного ответа быть не могло бы: непостоянное не всегда болезненно. Непостоянная боль неприятна, пока длится, и приятно, когда она уходит. Приятное, наоборот, болезненно, когда уходит (ср. <SiteLink to="/mn44:24.2?lang=ru&hide=id">mn44</SiteLink>). На такой вопрос пришлось бы отвечать с разбором (*vibhajjabyākaraṇa*): «смотря что именно непостоянно». Однозначный ответ, который Будда принимает, показывает, что anicca — то, что болезненно всегда: ненадёжное, нестабильное, то, на что нельзя положиться. Это серьёзный довод: в <SiteLink to="/an3.67:2.2?lang=ru&hide=id">an3.67</SiteLink> Будда прямо говорит, что тот, кто отвечает однозначно на вопрос, требующий разбора (или наоборот), не подходит для разговора. Приняв однозначный ответ на вопрос, требующий разбора, Будда противоречил бы собственным словам.

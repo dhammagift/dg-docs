@@ -21,11 +21,11 @@ import AlbumartSamadhi from '@site/static/img/thumb/albumart-samadhi-nobg.webp';
 Part I describes the method: what "systematic" and "narrowly contextual" translation mean, how terminology can be cross-checked across the Teaching, and where the method draws on linguistics (connotation, false friends, the use of Sanskrit). Part II goes through the terms one by one. Every term section follows the same four steps:
 
 1. **Thesis**: what is replaced by what (Pāli; common rendering → Dhamma.Gift rendering).
-2. **Definition or usage in the suttas**: the canonical definition (the *Katamañca… idaṁ vuccati* formula) where one exists, or the decisive passages, with a reference to the exact segment (dhamma.gift/&lt;sutta&gt;:&lt;segment&gt;).
+2. **Definition or usage in the suttas**: the canonical definition (the *Katamañca… idaṁ vuccati* formula) where one exists, or the decisive passages, with a link to the relevant place in the sutta.
 3. **Arguments**: why the thesis follows from the texts.
 4. **Objections and replies**: the main counter-arguments and how the project answers them.
 
-"Common rendering" means the rendering most often met in English translations; as a verifiable example, B. Sujato's translation on SuttaCentral is quoted (other translators are discussed in the literature review of the Dhamma.Gift paper draft). Segment numbers follow the SuttaCentral (Mahāsaṅgīti) segmentation used on dhamma.gift.
+"Common rendering" means the rendering most often met in English translations; as a verifiable example, B. Sujato's translation on SuttaCentral is quoted (other translators are discussed in the literature review of the Dhamma.Gift paper draft).
 
 <a id="issues-with-narrowly-contextual-translation"></a>
 
@@ -51,7 +51,7 @@ Narrowly contextual translation was a perfectly appropriate path of least resist
 
 ### Example: *pariññāta*, "fully" understood but not quite fully
 
-**Example:** *pariññāta* is usually rendered "fully understood" or "completely understood." This looks like a fixed rendering chosen without taking into account the form *pariññātantaṁ*. MN 1 uses both: *Pariññātaṁ tassā* (<SiteLink to="/mn1:51.4?lang=en&hide=id">mn1:51.4</SiteLink>, said of a trainee or arahant) and *Pariññātantaṁ tathāgatassā* (<SiteLink to="/mn1:147.4?lang=en&hide=id">mn1:147.4</SiteLink>, said of the Tathāgata). Sujato renders the second form "completely understood it to the end." This creates a logical snag: if *pariññāta* already means "fully understood," then *pariññātantaṁ* has to mean "understood even more fully" or "fully understood, to the end," and the first "fully" turns out not to be full. The initial rendering needs to be revisited in light of the word's full range of use across the corpus. (Dhamma.Gift glossary: *pariññāta* = "all-round understanding.")
+**Example:** *pariññāta* is usually rendered "fully understood" or "completely understood." This looks like a fixed rendering chosen without taking into account the form *pariññātantaṁ*. <SiteLink to="/mn1:51.4?lang=en&hide=id">MN 1</SiteLink> uses both: *Pariññātaṁ tassā* (said of a trainee or arahant) and *Pariññātantaṁ tathāgatassā* (<SiteLink to="/mn1:147.4?lang=en&hide=id">mn1</SiteLink>, said of the Tathāgata). Sujato renders the second form "completely understood it to the end." This creates a logical snag: if *pariññāta* already means "fully understood," then *pariññātantaṁ* has to mean "understood even more fully" or "fully understood, to the end," and the first "fully" turns out not to be full. The initial rendering needs to be revisited in light of the word's full range of use across the corpus. (Dhamma.Gift glossary: *pariññāta* = "all-round understanding.")
 
 <a id="the-effect-of-narrowly-contextual-translation"></a>
 
@@ -76,16 +76,16 @@ Polysemy in itself is not a problem. But overusing such substitutions can do far
 
 ### Cross-verifiability of consistent terminology
 
-Beyond consistent terminology, cross-verifiability and unidirectionality are easy to trace throughout the Buddha's Teaching. They preserve several principles: the Tathāgata's speech is not ambiguous ("would the Tathāgata make a statement that goes two ways?", *vācā dvayagāminī*, <SiteLink to="/dn24:1.18.1?s=dvayag%C4%81min%C4%AB&lang=en&hide=id">dn24:1.18.1</SiteLink>); the Dhamma is well formulated (<SiteLink to="/an3.70:7.4?lang=en&hide=id">*svākkhāto*, an3.70:7.4</SiteLink>); and the Community (Saṅgha) practises well, straightly, methodically and properly (*suppaṭipanno ujuppaṭipanno ñāyappaṭipanno sāmīcippaṭipanno*).
+Beyond consistent terminology, cross-verifiability and unidirectionality are easy to trace throughout the Buddha's Teaching. They preserve several principles: the Tathāgata's speech is not ambiguous ("would the Tathāgata make a statement that goes two ways?", *vācā dvayagāminī*, <SiteLink to="/dn24:1.18.1?s=dvayag%C4%81min%C4%AB&lang=en&hide=id">dn24</SiteLink>); the Dhamma is well formulated (<SiteLink to="/an3.70:7.4?lang=en&hide=id">*svākkhāto*, an3.70</SiteLink>); and the Community (Saṅgha) practises well, straightly, methodically and properly (*suppaṭipanno ujuppaṭipanno ñāyappaṭipanno sāmīcippaṭipanno*).
 
 Example: *dukkha* is defined in mn141, dn22 and sn48.36 as bodily pain, bodily discomfort (see [*dukkha*](#dukkha) below). There is no definition of *dukkha* as "suffering" in the Suttas or the Vinaya; that rendering is the result of narrowly contextual translation. The same "body before mind" order recurs across the core lists:
 
 - In the Four Noble Truths: `soka-parideva-dukkha-domanass-upāyāsa`. *Dukkha* and *domanassa* have two direct definitions, bodily and mental pain-discomfort respectively, and the bodily one is placed before the mental.
 - In the satipaṭṭhānas: `kāyo vedanā` are the first two parts; `citta` (mind-state) is the third.
-- In the elements: the four great elements are all "bodily" (<SiteLink to="/mn28:6.3?lang=en&hide=id">mn28:6.3</SiteLink>). In the six-element list (the four plus space and consciousness), *viññāṇadhātu* is the ~mental one, or more precisely the phenomenon that produces mentality.
+- In the elements: the four great elements are all "bodily" (<SiteLink to="/mn28:6.3?lang=en&hide=id">mn28</SiteLink>). In the six-element list (the four plus space and consciousness), *viññāṇadhātu* is the ~mental one, or more precisely the phenomenon that produces mentality.
 - In the five aggregates of sustaining (*upādāna*): `rūpa vedanā saññā saṅkhārā viññāṇa`. ~Matter and the feeling of the pleasant, the painful and the neither-painful-nor-pleasant come first, and only then the ~mental phenomena.
 - In the six internal sense bases: `cakkhu sota ghāna jivhā kāyo mano`. The body is placed before the mind-representation.
-- In dependent origination (<SiteLink to="/sn12.2:14.2?lang=en&hide=id">sn12.2</SiteLink>): *avijjā* has a precise definition, not knowing about pain (*dukkhe aññāṇaṁ*) and so on (sn12.2:14.1–14.3). In the definition of the *saṅkhāras*: body, speech, mind (*kāya-, vacī-, citta-saṅkhāra*), body first. *Viññāṇa* comes in six classes, `kāyo mano`, body before mind. `nāma-rūpa`: name-~matter, where "name" is `vedanā, saññā, cetanā, phasso, manasikāro` (sn12.2:11.2; feeling, perception, cognitive processing, contact, attention). *Vedanā* comes first, before the more ~mental phenomena such as *cetanā* and *manasikāra*. In the other sequences of conditions where body and mind can be distinguished, the same principle holds: body or contact comes before mind or phenomenon (*dhamma*).
+- In dependent origination (<SiteLink to="/sn12.2:14.2?lang=en&hide=id">sn12.2</SiteLink>): *avijjā* has a precise definition, not knowing about pain (*dukkhe aññāṇaṁ*) and so on (<SiteLink to="/sn12.2:14.1?lang=en&hide=id">sn12.2</SiteLink>). In the definition of the *saṅkhāras*: body, speech, mind (*kāya-, vacī-, citta-saṅkhāra*), body first. *Viññāṇa* comes in six classes, `kāyo mano`, body before mind. `nāma-rūpa`: name-~matter, where "name" is `vedanā, saññā, cetanā, phasso, manasikāro` (<SiteLink to="/sn12.2:11.2?lang=en&hide=id">sn12.2</SiteLink>; feeling, perception, cognitive processing, contact, attention). *Vedanā* comes first, before the more ~mental phenomena such as *cetanā* and *manasikāra*. In the other sequences of conditions where body and mind can be distinguished, the same principle holds: body or contact comes before mind or phenomenon (*dhamma*).
 - In the kinds of activity (*kamma*): body, speech, mind, body first.
 
 On this basis, bodily pain-discomfort can be seen to have held first priority throughout, even indirectly, quite apart from the direct definitions. "Suffering, dissatisfaction," as a reaction to or opinion about what is happening, was by contrast never the priority.
@@ -108,7 +108,7 @@ If one looks at Sanskrit religious literature as a whole, beyond the Buddhist pa
 
 The pro-Sanskrit approach tacitly assumes that cognate Pāli and Sanskrit words cannot be "false friends." As an argument this amounts to an illogical equation: "if two languages have similar grammar and many related words, then the key concepts of their teachings must also be identical."
 
-*Attā* and *ātman* are a vivid example of divergence and non-interchangeability. Pāli *attā* is essence, selfhood, ~autonomy, the everyday "I" (it is also the ordinary reflexive pronoun "oneself"). The Upaniṣadic *ātman* is the metaphysical higher "Self." Sanskrit *ātman*, too, is an everyday reflexive pronoun, so the divergence lies between the Pāli usage and the doctrinal Upaniṣadic sense, not between the two dictionaries as such. It is also enough to compare the 31 "body parts" of <SiteLink to="/dn22:5.2?lang=en&hide=id">dn22:5.2</SiteLink> (`kesā lomā... vasā kheḷo siṅghāṇikā lasikā muttanti`) with their Sanskrit counterparts to see how far apart the meanings of seemingly similar Pāli and Sanskrit words can be.
+*Attā* and *ātman* are a vivid example of divergence and non-interchangeability. Pāli *attā* is essence, selfhood, ~autonomy, the everyday "I" (it is also the ordinary reflexive pronoun "oneself"). The Upaniṣadic *ātman* is the metaphysical higher "Self." Sanskrit *ātman*, too, is an everyday reflexive pronoun, so the divergence lies between the Pāli usage and the doctrinal Upaniṣadic sense, not between the two dictionaries as such. It is also enough to compare the 31 "body parts" of <SiteLink to="/dn22:5.2?lang=en&hide=id">dn22</SiteLink> (`kesā lomā... vasā kheḷo siṅghāṇikā lasikā muttanti`) with their Sanskrit counterparts to see how far apart the meanings of seemingly similar Pāli and Sanskrit words can be.
 
 With this in mind, where the Pāli texts genuinely lack context or examples, Sanskrit can still be used, provided this does not lead to contradictions like those listed in Part II. If a definition of a concept exists in Pāli and the Sanskrit meaning contradicts it, the Sanskrit meaning is not applied.
 
@@ -121,15 +121,15 @@ With this in mind, where the Pāli texts genuinely lack context or examples, San
 
 | Pāli | Common rendering | Dhamma.Gift | Canonical definition / key passage |
 |---|---|---|---|
-| *dukkha* | suffering, stress | pain (pain-discomfort) | <SiteLink to="/mn141:16.1?s=dukkha&lang=en&hide=id">mn141:16.1–16.3</SiteLink>, <SiteLink to="/dn22:18.18?s=dukkha&lang=en&hide=id">dn22:18.18–18.20</SiteLink> |
-| *sukha* / *somanassa* | happiness, pleasure / happiness | pleasant, pleasure (bodily comfort) / satisfaction | <SiteLink to="/sn48.36:2.1?lang=en&hide=id">sn48.36:2.1–2.3</SiteLink>, <SiteLink to="/sn48.36:4.1?lang=en&hide=id">4.1–4.3</SiteLink> |
-| *anta* | extreme | end (edge, boundary, threshold) | <SiteLink to="/sn56.11:2.1?lang=en&hide=id">sn56.11:2.1–2.4</SiteLink> |
-| *taṇhā* | craving, thirst | clinging (sticking, adhesion) | <SiteLink to="/sn56.11:4.4?s=ta%E1%B9%87h%C4%81&lang=en&hide=id">sn56.11:4.4</SiteLink>, <SiteLink to="/an4.199:2.1?lang=en&hide=id">an4.199:2.1</SiteLink> |
-| *upādāna* | grasping, clinging | sustaining (support, fuel) | <SiteLink to="/sn44.9:5.4?lang=en&hide=id">sn44.9:5.4</SiteLink>, <SiteLink to="/sn12.2:6.1?lang=en&hide=id">sn12.2:6.1–6.4</SiteLink> |
-| *kāma* | sensual pleasures | desire | <SiteLink to="/an6.63:8.9?lang=en&hide=id">an6.63:8.9–8.10</SiteLink> |
-| *kamma* / *cetanā* / *sañcetanā* | deeds / intention | activity / cognitive processing / devising | <SiteLink to="/an6.63:33.3?lang=en&hide=id">an6.63:33.3–33.4</SiteLink> |
-| *veramaṇī* / *paṭivirata* | refraining, abstaining | non-acceptance / having given up | <SiteLink to="/sn45.8:6.2?lang=en&hide=id">sn45.8:6.2</SiteLink>, <SiteLink to="/an3.70:19.2?lang=en&hide=id">an3.70:19.2</SiteLink> |
-| *anicca* | impermanent | unreliable, unstable | <SiteLink to="/sn22.59:6.4?lang=en&hide=id">sn22.59:6.4–6.5</SiteLink> |
+| *dukkha* | suffering, stress | pain (pain-discomfort) | <SiteLink to="/mn141:16.1?s=dukkha&lang=en&hide=id">mn141</SiteLink>, <SiteLink to="/dn22:18.18?s=dukkha&lang=en&hide=id">dn22</SiteLink> |
+| *sukha* / *somanassa* | happiness, pleasure / happiness | pleasant, pleasure (bodily comfort) / satisfaction | <SiteLink to="/sn48.36:2.1?lang=en&hide=id">sn48.36</SiteLink> |
+| *anta* | extreme | end (edge, boundary, threshold) | <SiteLink to="/sn56.11:2.1?lang=en&hide=id">sn56.11</SiteLink> |
+| *taṇhā* | craving, thirst | clinging (sticking, adhesion) | <SiteLink to="/sn56.11:4.4?s=ta%E1%B9%87h%C4%81&lang=en&hide=id">sn56.11</SiteLink>, <SiteLink to="/an4.199:2.1?lang=en&hide=id">an4.199</SiteLink> |
+| *upādāna* | grasping, clinging | sustaining (support, fuel) | <SiteLink to="/sn44.9:5.4?lang=en&hide=id">sn44.9</SiteLink>, <SiteLink to="/sn12.2:6.1?lang=en&hide=id">sn12.2</SiteLink> |
+| *kāma* | sensual pleasures | desire | <SiteLink to="/an6.63:8.9?lang=en&hide=id">an6.63</SiteLink> |
+| *kamma* / *cetanā* / *sañcetanā* | deeds / intention | activity / cognitive processing / devising | <SiteLink to="/an6.63:33.3?lang=en&hide=id">an6.63</SiteLink> |
+| *veramaṇī* / *paṭivirata* | refraining, abstaining | non-acceptance / having given up | <SiteLink to="/sn45.8:6.2?lang=en&hide=id">sn45.8</SiteLink>, <SiteLink to="/an3.70:19.2?lang=en&hide=id">an3.70</SiteLink> |
+| *anicca* | impermanent | unreliable, unstable | <SiteLink to="/sn22.59:6.4?lang=en&hide=id">sn22.59</SiteLink> |
 
 <a id="dukkha"></a>
 
@@ -137,7 +137,7 @@ With this in mind, where the Pāli texts genuinely lack context or examples, San
 
 **Thesis.** *dukkha*: "suffering" (also "stress," "unsatisfactoriness"; Sujato: "suffering") → **pain**, pain-discomfort. In the same list, *domanassa* ("sadness," "grief") → **discontent**, mental pain ('"suffering"' in quotation marks, i.e. suffering in the figurative sense), and *soka* ("sorrow") → **suffering** in the direct sense.[^1]
 
-**Definition in the suttas.** The canon defines *dukkha* directly, within the analysis of the Four Noble Truths: <SiteLink to="/mn141:16.1?s=dukkha&lang=en&hide=id">mn141:16.1–16.3</SiteLink>, and identically in the practical realization of the truths in <SiteLink to="/dn22:18.18?s=dukkha&lang=en&hide=id">dn22:18.18–18.20</SiteLink>:
+**Definition in the suttas.** The canon defines *dukkha* directly, within the analysis of the Four Noble Truths: <SiteLink to="/mn141:16.1?s=dukkha&lang=en&hide=id">mn141</SiteLink>, and identically in the practical realization of the truths in <SiteLink to="/dn22:18.18?s=dukkha&lang=en&hide=id">dn22</SiteLink>:
 
 ```
 Katamañcāvuso, dukkhaṁ?
@@ -151,13 +151,13 @@ Katamañcāvuso, domanassaṁ?
 Yaṁ kho, āvuso, cetasikaṁ dukkhaṁ cetasikaṁ asātaṁ manosamphassajaṁ dukkhaṁ asātaṁ vedayitaṁ,
 idaṁ vuccatāvuso: 'domanassaṁ'.
 ```
-And what, friends, is "suffering" (discontent, dissatisfaction)? That which, friends, is mental pain, mental discomfort, pain and discomfort felt, born of mental contact: this is called, friends, "suffering." (<SiteLink to="/mn141:17.1?lang=en&hide=id">mn141:17.1–17.3</SiteLink>; dn22:18.21–18.23)
+And what, friends, is "suffering" (discontent, dissatisfaction)? That which, friends, is mental pain, mental discomfort, pain and discomfort felt, born of mental contact: this is called, friends, "suffering." (<SiteLink to="/mn141:17.1?lang=en&hide=id">mn141</SiteLink>; <SiteLink to="/dn22:18.21?lang=en&hide=id">dn22</SiteLink>)
 
-The same pair recurs in the analysis of the faculties: *dukkhindriya* is bodily pain (<SiteLink to="/sn48.36:3.1?lang=en&hide=id">sn48.36:3.1–3.3</SiteLink>), *domanassindriya* mental pain (sn48.36:5.1–5.2).
+The same pair recurs in the analysis of the faculties: *dukkhindriya* is bodily pain (<SiteLink to="/sn48.36:3.1?lang=en&hide=id">sn48.36</SiteLink>), *domanassindriya* mental pain (<SiteLink to="/sn48.36:5.1?lang=en&hide=id">sn48.36</SiteLink>).
 
-Two further passages answer the question "what is *dukkha*?" at the level of the whole truth. <SiteLink to="/mn9:15.1?lang=en&hide=id">mn9:15.1–15.3</SiteLink> answers with the full list (*jātipi dukkhā… sokaparidevadukkhadomanassupāyāsāpi dukkhā… saṅkhittena pañcupādānakkhandhā dukkhā — idaṁ vuccatāvuso, dukkhaṁ*). <SiteLink to="/sn22.104:1.4?lang=en&hide=id">sn22.104:1.4–1.5</SiteLink> answers "the five aggregates of sustaining." They are discussed under Objections below.
+Two further passages answer the question "what is *dukkha*?" at the level of the whole truth. <SiteLink to="/mn9:15.1?lang=en&hide=id">mn9</SiteLink> answers with the full list (*jātipi dukkhā… sokaparidevadukkhadomanassupāyāsāpi dukkhā… saṅkhittena pañcupādānakkhandhā dukkhā — idaṁ vuccatāvuso, dukkhaṁ*). <SiteLink to="/sn22.104:1.4?lang=en&hide=id">sn22.104</SiteLink> answers "the five aggregates of sustaining." They are discussed under Objections below.
 
-*Soka*, suffering in the direct sense, is defined at <SiteLink to="/mn141:14.1?lang=en&hide=id">mn141:14.1–14.3</SiteLink>. It is very strong pain, bodily and mental, in which the one experiencing it
+*Soka*, suffering in the direct sense, is defined at <SiteLink to="/mn141:14.1?lang=en&hide=id">mn141</SiteLink>. It is very strong pain, bodily and mental, in which the one experiencing it
 
 ```
 Khaṇātītā hi socanti
@@ -180,9 +180,9 @@ socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati
 
 **Objections and replies.**
 
-- *"The first truth is wider than bodily pain: birth, ageing, separation and the five aggregates are dukkha (mn9:15.2, sn22.104:1.5)."* In these lists *dukkha* is predicated as an **adjective** that agrees in gender with each item: *jāti pi dukkhā* (f.), *byādhi pi dukkho* (m.), *maraṇam pi dukkhaṁ* (n.) (<SiteLink to="/sn56.11:4.2?lang=en&hide=id">sn56.11:4.2</SiteLink>). The items are *painful*. They are not "a pain" and certainly not "a suffering." The noun inside the same list (*soka-parideva-dukkha-domanass-upāyāsā*) is the one defined at mn141:16.1–16.3. The Dhamma.Gift rendering "pain / painful" therefore covers both the narrow noun and the wide predicate. On the adjectival reading see also Harvey (2009).
+- *"The first truth is wider than bodily pain: birth, ageing, separation and the five aggregates are dukkha (<SiteLink to="/mn9:15.2?lang=en&hide=id">mn9</SiteLink>, <SiteLink to="/sn22.104:1.5?lang=en&hide=id">sn22.104</SiteLink>)."* In these lists *dukkha* is predicated as an **adjective** that agrees in gender with each item: *jāti pi dukkhā* (f.), *byādhi pi dukkho* (m.), *maraṇam pi dukkhaṁ* (n.) (<SiteLink to="/sn56.11:4.2?lang=en&hide=id">sn56.11</SiteLink>). The items are *painful*. They are not "a pain" and certainly not "a suffering." The noun inside the same list (*soka-parideva-dukkha-domanass-upāyāsā*) is the one defined at <SiteLink to="/mn141:16.1?lang=en&hide=id">mn141</SiteLink>. The Dhamma.Gift rendering "pain / painful" therefore covers both the narrow noun and the wide predicate. On the adjectival reading see also Harvey (2009).
 - *"'Pain' is too physical; the Pali Text Society's Pali–English Dictionary itself says so."* That is exactly the sense the canon gives: the unqualified *dukkha* is *kāyikaṁ*, bodily. Where mental pain is meant, the canon says so (*cetasikaṁ dukkhaṁ*, *domanassa*). In ordinary English, too, "pain" is used figuratively for mental pain and problems.
-- *"Dukkhā vedanā is bodily pain, while dukkha is a broad, untranslatable concept ('suffering,' 'stress,' etc.)."* According to the suttas, both claims are the reverse of the truth. *Dukkha* is bodily pain and discomfort (dn22, mn141). *Dukkhā vedanā*, painful feeling, is "whatever is felt, bodily or mental (*kāyikaṁ vā cetasikaṁ vā*), as painful, uncomfortable" (<SiteLink to="/mn44:23.4?lang=en&hide=id">mn44:23.4–23.5</SiteLink>). No one would claim that a painful memory is "bodily pain," yet it is undoubtedly a painful feeling. The same applies to *sukhā vedanā* (mn44:23.2–23.3).
+- *"Dukkhā vedanā is bodily pain, while dukkha is a broad, untranslatable concept ('suffering,' 'stress,' etc.)."* According to the suttas, both claims are the reverse of the truth. *Dukkha* is bodily pain and discomfort (dn22, mn141). *Dukkhā vedanā*, painful feeling, is "whatever is felt, bodily or mental (*kāyikaṁ vā cetasikaṁ vā*), as painful, uncomfortable" (<SiteLink to="/mn44:23.4?lang=en&hide=id">mn44</SiteLink>). No one would claim that a painful memory is "bodily pain," yet it is undoubtedly a painful feeling. The same applies to *sukhā vedanā* (<SiteLink to="/mn44:23.2?lang=en&hide=id">mn44</SiteLink>).
 - *"Better leave dukkha untranslated."* Leaving a term untranslated withholds from the reader exactly the definition the suttas give. It treats an explicit term as one still needing interpretation (cf. AN 2.24 on *nītattha* / *neyyattha*, [Principles by the Suttas](/sutta)).
 
 <a id="bodily-pleasant-feeling-or-happiness"></a>
@@ -192,7 +192,7 @@ socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati
 
 **Thesis.** *sukha*: "happiness," "pleasure" → **pleasant, pleasure** (bodily comfort). *somanassa*: "happiness," "joy" → **satisfaction**, mental comfort.
 
-**Definition in the suttas.** <SiteLink to="/sn48.36:2.1?s=k%C4%81yika%E1%B9%81%20sukha%E1%B9%81&lang=en&hide=id">sn48.36:2.1–2.3</SiteLink> and <SiteLink to="/sn48.36:4.1?lang=en&hide=id">4.1–4.3</SiteLink>:
+**Definition in the suttas.** <SiteLink to="/sn48.36:2.1?s=k%C4%81yika%E1%B9%81%20sukha%E1%B9%81&lang=en&hide=id">sn48.36</SiteLink>:
 
 ```
 Katamañca, bhikkhave, sukhindriyaṁ?
@@ -216,8 +216,8 @@ And what, monks, is the faculty of satisfaction? That which, monks, is mental pl
 
 **Objections and replies.**
 
-- *"In meditation sukha is obviously not bodily."* The jhāna formula itself says *sukhañca kāyena paṭisaṁvedeti*, "and feels pleasure with the body" (third jhāna, <SiteLink to="/sn45.8:10.4?lang=en&hide=id">sn45.8:10.4</SiteLink>).
-- *"Sukhā vedanā can be mental."* Yes: *sukhā vedanā* is "bodily or mental" (<SiteLink to="/mn44:23.2?lang=en&hide=id">mn44:23.2–23.3</SiteLink>), exactly as with *dukkhā vedanā*. The noun *sukha*, as faculty and as the opposite of *dukkha*, is bodily.
+- *"In meditation sukha is obviously not bodily."* The jhāna formula itself says *sukhañca kāyena paṭisaṁvedeti*, "and feels pleasure with the body" (third jhāna, <SiteLink to="/sn45.8:10.4?lang=en&hide=id">sn45.8</SiteLink>).
+- *"Sukhā vedanā can be mental."* Yes: *sukhā vedanā* is "bodily or mental" (<SiteLink to="/mn44:23.2?lang=en&hide=id">mn44</SiteLink>), exactly as with *dukkhā vedanā*. The noun *sukha*, as faculty and as the opposite of *dukkha*, is bodily.
 
 <a id="anta"></a>
 
@@ -225,7 +225,7 @@ And what, monks, is the faculty of satisfaction? That which, monks, is mental pl
 
 **Thesis.** *anta*: "extreme" (Sujato: "these two extremes") → **end**, edge, boundary, threshold, limit.
 
-**Usage in the suttas.** <SiteLink to="/sn56.11:2.1?lang=en&hide=id">sn56.11:2.1–2.4</SiteLink>:
+**Usage in the suttas.** <SiteLink to="/sn56.11:2.1?lang=en&hide=id">sn56.11</SiteLink>:
 
 ```
 Tatra kho bhagavā pañcavaggiye bhikkhū āmantesi:
@@ -242,7 +242,7 @@ Ete kho, bhikkhave, ubho ante anupagamma majjhimā paṭipadā tathāgatena abhi
 ```
 Not approaching, monks, these two ends, the Middle Practice realized by the Tathāgata gives vision, gives knowledge, leads to peace, to direct knowledge, to awakening, to nibbāna.
 
-Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61:3.1</SiteLink> and <SiteLink to="/an6.61:12.4?lang=en&hide=id">12.4</SiteLink>: *phasso kho eko anto, phassasamudayo dutiyo anto, phassanirodho majjhe*, "contact is one end, the arising of contact the second end, the cessation of contact the middle." Here *anta* is "end" in every translation, and the "middle" is not a moderate amount of contact.
+Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61</SiteLink>: *phasso kho eko anto, phassasamudayo dutiyo anto, phassanirodho majjhe*, "contact is one end, the arising of contact the second end, the cessation of contact the middle." Here *anta* is "end" in every translation, and the "middle" is not a moderate amount of contact.
 
 **Arguments.**
 
@@ -252,7 +252,7 @@ Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61:3.1</SiteLink> and <Si
 
 **Objections and replies.**
 
-- *"'Extreme' and 'end' say the same thing here; the two ends are defined as devotion (anuyoga) to pleasure and to self-torment (sn56.11:2.3)."* *Anuyoga* is "being devoted to, pursuing." Not approaching the *end* of such a pursuit excludes even its beginning. Not going to the *extreme* still admits a moderate pursuit. The two words differ precisely in what they permit.
+- *"'Extreme' and 'end' say the same thing here; the two ends are defined as devotion (anuyoga) to pleasure and to self-torment (<SiteLink to="/sn56.11:2.3?lang=en&hide=id">sn56.11</SiteLink>)."* *Anuyoga* is "being devoted to, pursuing." Not approaching the *end* of such a pursuit excludes even its beginning. Not going to the *extreme* still admits a moderate pursuit. The two words differ precisely in what they permit.
 - *"Majjhimā means 'moderate.'"* In AN 6.61 the "middle" between the two ends is the cessation of contact, not a moderate amount of it.
 
 <a id="if-taṇhā-is-thirst-a-lot-doesnt-add-up"></a>
@@ -266,26 +266,26 @@ Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61:3.1</SiteLink> and <Si
 
 **Definition and usage in the suttas.**
 
-- The definition of the second truth, <SiteLink to="/sn56.11:4.4?s=ta%E1%B9%87h%C4%81&lang=en&hide=id">sn56.11:4.4–4.5</SiteLink>: *yāyaṁ taṇhā ponobbhavikā nandirāgasahagatā tatratatrābhinandinī*. *Taṇhā* is **accompanied** (*sahagata*, literally "gone together with") by joy-pleasure and passion-fascination, and delights here and there.
-- The analysis of dependent origination, <SiteLink to="/sn12.2:7.1?lang=en&hide=id">sn12.2:7.1–7.4</SiteLink>: six classes, *rūpataṇhā… dhammataṇhā*.
-- The definition by its "currents," <SiteLink to="/an4.199:2.1?s=ta%E1%B9%87ha&lang=en&hide=id">an4.199:2.1–5.4</SiteLink>: *Katamā ca sā, bhikkhave, taṇhā jālinī saritā visaṭā visattikā…?* The answer is 108 (*aṭṭhasataṁ*, an4.199:5.4) variations of "I am," "I am such," "may I be," "I will be."
+- The definition of the second truth, <SiteLink to="/sn56.11:4.4?s=ta%E1%B9%87h%C4%81&lang=en&hide=id">sn56.11</SiteLink>: *yāyaṁ taṇhā ponobbhavikā nandirāgasahagatā tatratatrābhinandinī*. *Taṇhā* is **accompanied** (*sahagata*, literally "gone together with") by joy-pleasure and passion-fascination, and delights here and there.
+- The analysis of dependent origination, <SiteLink to="/sn12.2:7.1?lang=en&hide=id">sn12.2</SiteLink>: six classes, *rūpataṇhā… dhammataṇhā*.
+- The definition by its "currents," <SiteLink to="/an4.199:2.1?s=ta%E1%B9%87ha&lang=en&hide=id">an4.199</SiteLink>: *Katamā ca sā, bhikkhave, taṇhā jālinī saritā visaṭā visattikā…?* The answer is 108 (*aṭṭhasataṁ*, <SiteLink to="/an4.199:5.4?lang=en&hide=id">an4.199</SiteLink>) variations of "I am," "I am such," "may I be," "I will be."
 
 **Arguments.**
 
 1. **Emotional divergence.** In the project's reading, *taṇhā* denotes clinging, sticking, stickiness, grasping: phenomena that can be pleasant, light, agreeable and desirable, including in a figurative sense (standard lexica give "thirst, craving"; see the objections below). "Thirst" in English, by contrast, is a "loud" and mostly negative concept, even when used positively, as in "thirst for knowledge" or "thirst for travel." The word itself is at issue here, not whether wanting knowledge is good. If *taṇhā* were a full equivalent of "thirst," it would be either an unpleasant experience of dryness and dehydration, or a strong, often passionate striving or need sharply focused on a result ("thirst for life": preserving life at any cost; "thirst for knowledge": obtaining information regardless of other goods). But the second truth says *taṇhā* is **accompanied** (*sahagata*) by joy and passion. It does not say "pursues joy and passion," as if lacking them, nor "is connected with them," as a potential outcome once they are obtained. It speaks as if they were already present in the current experience. *Tatratatrābhinandinī*, delighting now in this, now in that, is not an attribute of the strong, one-directional, result-focused English "thirst." "Wanting" would convey this moderate, even pleasant sense better. But then *kāma-taṇhā* yields a pleonasm, "desire-thirst" or "wanting-wanting," since *kāma* already means "desire" (see [*kāma*](#kama)). Any rendering of *taṇhā* as some kind of desire or striving creates further contradictions at a deeper level (point 2).
 2. **"Thirst" makes the Second Noble Truth untrue.** Whichever approach is used, precise or narrowly contextual, *dukkha* either means bodily pain or includes it. This follows from dn22, mn141 and other texts: `soka-parideva-dukkha-domanass-upāyāsā-pi dukkhā`, "suffering-lamentation-pain-discontent-despair are painful too." "Thirst" (a strong desire or urge) clearly cannot be the source of all bodily pain. Pain from a long walk or from sitting still arises on its own, whether or not any desire is present.
-3. **Contrast with the words for real thirst.** Where the circumstances fit real, strong thirst, the suttas use *tasito* and *pipāsito*, not *taṇhā*: a man "overcome by heat, exhausted, *tasito pipāsito*" (<SiteLink to="/sn12.68:13.4?s=tasito&lang=en&hide=id">sn12.68:13.4</SiteLink>). That context does not fit "accompanied by joy-passion, delighting here and there." In the list of Māra's armies (<SiteLink to="/snp3.2:12.3?lang=en&hide=id">snp3.2:12.3–12.4</SiteLink>), "hunger-and-thirst" (*khuppipāsā*) is the third army and *taṇhā* the fourth. If *taṇhā* were thirst, the fourth army would repeat the third.
-4. **Redundancy in lists.** <SiteLink to="/an4.10:1.6?s=ta%E1%B9%87h&lang=en&hide=id">an4.10:1.6</SiteLink> lists *kāmapipāsā* and *kāmataṇhā* side by side. <SiteLink to="/an4.184:3.2?s=ta%E1%B9%87h&lang=en&hide=id">an4.184:3.2</SiteLink> lists *avigatapipāso* and *avigatataṇho* (*pipāsā* here clearly figurative; used literally, it means "desire to drink"). If *taṇhā* were thirst, each list would contain the same word twice.
+3. **Contrast with the words for real thirst.** Where the circumstances fit real, strong thirst, the suttas use *tasito* and *pipāsito*, not *taṇhā*: a man "overcome by heat, exhausted, *tasito pipāsito*" (<SiteLink to="/sn12.68:13.4?s=tasito&lang=en&hide=id">sn12.68</SiteLink>). That context does not fit "accompanied by joy-passion, delighting here and there." In the list of Māra's armies (<SiteLink to="/snp3.2:12.3?lang=en&hide=id">snp3.2</SiteLink>), "hunger-and-thirst" (*khuppipāsā*) is the third army and *taṇhā* the fourth. If *taṇhā* were thirst, the fourth army would repeat the third.
+4. **Redundancy in lists.** <SiteLink to="/an4.10:1.6?s=ta%E1%B9%87h&lang=en&hide=id">an4.10</SiteLink> lists *kāmapipāsā* and *kāmataṇhā* side by side. <SiteLink to="/an4.184:3.2?s=ta%E1%B9%87h&lang=en&hide=id">an4.184</SiteLink> lists *avigatapipāso* and *avigatataṇho* (*pipāsā* here clearly figurative; used literally, it means "desire to drink"). If *taṇhā* were thirst, each list would contain the same word twice.
 5. **Incongruous images.** With "thirst," the suttas' similes become self-contradictory collocations:
-   - <SiteLink to="/an3.76:2.3?s=ta%E1%B9%87h&lang=en&hide=id">an3.76:2.3</SiteLink>, <SiteLink to="/an3.77:2.3?s=ta%E1%B9%87h&lang=en&hide=id">an3.77:2.3</SiteLink>: *taṇhā sneho*, "taṇhā is the moisture." Thirst as moisture?
-   - <SiteLink to="/sn44.9:6.6?s=ta%E1%B9%87h&lang=en&hide=id">sn44.9:6.6</SiteLink>: *taṇhā* is the *upādāna*, fuel and nourishment. Thirst, a lack of liquid, as nourishment?
-   - <SiteLink to="/an10.62:2.2?s=ta%E1%B9%87h&lang=en&hide=id">an10.62:2.2</SiteLink>: what would be the nourishment of thirst? Thirst is an absence, not a form of nourishment.
-   - <SiteLink to="/iti109:3.3?s=ta%E1%B9%87h&lang=en&hide=id">iti109:3.3</SiteLink>, <SiteLink to="/sn41.5:5.10?s=ta%E1%B9%87h&lang=en&hide=id">sn41.5:5.10</SiteLink>: the river's current is *taṇhā*. An absence of water as a flow of water?
-   - <SiteLink to="/mn9:11.5?s=ta%E1%B9%87h%C4%81&lang=en&hide=id">mn9:11.5</SiteLink>: "from the arising of *taṇhā*, the arising of nourishment." Logically it would be the reverse: from the disappearance of nourishment comes thirst, or at least from the disappearance of thirst comes nourishment.
-   - <SiteLink to="/an6.61:12.4?s=ta%E1%B9%87ha&lang=en&hide=id">an6.61:12.4</SiteLink>: *taṇhā sibbinī*, "*taṇhā* is the seamstress." The phenomena listed, including *phasso*, can be so subtle that there can be no talk of thirst in either sense, especially at moments of "quenched thirst," yet they remain stitched together and held, whether or not there is "strong wanting."
-   - <SiteLink to="/thag8.3:8.3?lang=en&hide=id">thag8.3:8.3</SiteLink>: *sabbaṁ taṇhaṁ visosetvā*, "having dried up all *taṇhā*." "Drying up thirst," on top of "thirst is moisture" above, where logically thirst would already be dryness.
+   - <SiteLink to="/an3.76:2.3?s=ta%E1%B9%87h&lang=en&hide=id">an3.76</SiteLink>, <SiteLink to="/an3.77:2.3?s=ta%E1%B9%87h&lang=en&hide=id">an3.77</SiteLink>: *taṇhā sneho*, "taṇhā is the moisture." Thirst as moisture?
+   - <SiteLink to="/sn44.9:6.6?s=ta%E1%B9%87h&lang=en&hide=id">sn44.9</SiteLink>: *taṇhā* is the *upādāna*, fuel and nourishment. Thirst, a lack of liquid, as nourishment?
+   - <SiteLink to="/an10.62:2.2?s=ta%E1%B9%87h&lang=en&hide=id">an10.62</SiteLink>: what would be the nourishment of thirst? Thirst is an absence, not a form of nourishment.
+   - <SiteLink to="/iti109:3.3?s=ta%E1%B9%87h&lang=en&hide=id">iti109</SiteLink>, <SiteLink to="/sn41.5:5.10?s=ta%E1%B9%87h&lang=en&hide=id">sn41.5</SiteLink>: the river's current is *taṇhā*. An absence of water as a flow of water?
+   - <SiteLink to="/mn9:11.5?s=ta%E1%B9%87h%C4%81&lang=en&hide=id">mn9</SiteLink>: "from the arising of *taṇhā*, the arising of nourishment." Logically it would be the reverse: from the disappearance of nourishment comes thirst, or at least from the disappearance of thirst comes nourishment.
+   - <SiteLink to="/an6.61:12.4?s=ta%E1%B9%87ha&lang=en&hide=id">an6.61</SiteLink>: *taṇhā sibbinī*, "*taṇhā* is the seamstress." The phenomena listed, including *phasso*, can be so subtle that there can be no talk of thirst in either sense, especially at moments of "quenched thirst," yet they remain stitched together and held, whether or not there is "strong wanting."
+   - <SiteLink to="/thag8.3:8.3?lang=en&hide=id">thag8.3</SiteLink>: *sabbaṁ taṇhaṁ visosetvā*, "having dried up all *taṇhā*." "Drying up thirst," on top of "thirst is moisture" above, where logically thirst would already be dryness.
 6. **The definition in AN 4.199 contains no word of wanting.** The phenomena listed (*asmi*, "I am," and its extensions) are so subtle that thirst could, if anything, be their result. Calling "I am" and its extensions "thirst," in the sense of an "acute need for something," is very difficult; the passage concerns subtle, fundamental states present even in beings without "thirst" in the ordinary sense. The sutta does not mention *taṇhā* in passing; it answers outright what *taṇhā* is. The answer contains no word used to describe thirst, desire or urge, though Pāli has plenty of them: *icchā*, *chanda*, *patthanā*, *pipāsā*, *ākaṅkhā*. Had thirst been meant, the Buddha would hardly have defined it in 108 ways without once calling it wanting, urge or longing, which is what it is usually translated as: "craving," "thirst," "desire," "longing."
-7. **Cause and result (AN 4.9).** In <SiteLink to="/an4.9:2.1?s=ta%E1%B9%87ha&lang=en&hide=id">an4.9:2.1</SiteLink> *taṇhā* would, as "thirst," be either one kind of pain or a striving to stop something unpleasant, not the source of pain. Otherwise thirst for water would be the *cause* of the unpleasant sensation of dryness. In fact, thirst as the striving to drink is the *result* of that sensation.
+7. **Cause and result (AN 4.9).** In <SiteLink to="/an4.9:2.1?s=ta%E1%B9%87ha&lang=en&hide=id">an4.9</SiteLink> *taṇhā* would, as "thirst," be either one kind of pain or a striving to stop something unpleasant, not the source of pain. Otherwise thirst for water would be the *cause* of the unpleasant sensation of dryness. In fact, thirst as the striving to drink is the *result* of that sensation.
 8. **The Chinese parallel.** An interpretive, not exact, but perhaps more successful rendering than "thirst" is 愛 (attachment, "clinging," love) in the Taishō canon, as in "I love you," 我爱你 (simplified script):
 
 > 何謂苦習？謂從愛故而令復有樂性，不離在在貪憙，欲愛、色愛、不色之愛，是習為苦。何謂苦盡？謂覺從愛復有所樂，婬念不受，不念無餘無婬，捨之無復禪，如是為習盡。
@@ -309,14 +309,14 @@ Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61:3.1</SiteLink> and <Si
 
 **Thesis.** *upādāna*: "grasping," "clinging" (Sujato: "grasping"; also "fuel" in sn44.9) → **sustaining** (support, fuel, feeding a process). Together with the previous section: *taṇhā* is clinging and *upādāna* is sustaining, not the other way round.
 
-**Definition and usage in the suttas.** <SiteLink to="/sn12.2:6.1?lang=en&hide=id">sn12.2:6.1–6.4</SiteLink>: four kinds, *kāmupādānaṁ, diṭṭhupādānaṁ, sīlabbatupādānaṁ, attavādupādānaṁ*. <SiteLink to="/sn44.9:5.4?lang=en&hide=id">sn44.9:5.4</SiteLink>: *aggi saupādāno jalati, no anupādāno*, "a fire burns with support (fuel), not without." <SiteLink to="/sn44.9:6.5?lang=en&hide=id">sn44.9:6.5–6.6</SiteLink>: for a being that has laid down this body, "I call it *taṇhūpādāna*: *taṇhā* is its *upādāna* at that time."
+**Definition and usage in the suttas.** <SiteLink to="/sn12.2:6.1?lang=en&hide=id">sn12.2</SiteLink>: four kinds, *kāmupādānaṁ, diṭṭhupādānaṁ, sīlabbatupādānaṁ, attavādupādānaṁ*. <SiteLink to="/sn44.9:5.4?lang=en&hide=id">sn44.9</SiteLink>: *aggi saupādāno jalati, no anupādāno*, "a fire burns with support (fuel), not without." <SiteLink to="/sn44.9:6.5?lang=en&hide=id">sn44.9</SiteLink>: for a being that has laid down this body, "I call it *taṇhūpādāna*: *taṇhā* is its *upādāna* at that time."
 
 **Arguments.** Rendering *taṇhā* as "thirst" and *upādāna* as "clinging" builds a mistaken sequence, as if desire arises first and clinging follows. Why this is not so:
 
 1. **Thirst is impossible without clinging.** You cannot want something without first stopping on it, holding onto it. Clinging is subtler than desire and comes before it, let alone before thirst.
 2. **Clinging without thirst is ordinary.** A memory or a song stuck in one's head, an unfinished task, a responsible attitude to one's duties: there may be no thirst or even desire at all, yet there is clinging.
 3. **The source of pain cannot be wanting.** *Taṇhā* is the *dukkhasamudaya*, the accumulation of pain. If *taṇhā* were thirst, pain would arise only from wanting. Yet bodily pain from a long walk or from sitting arises without any desire (see [*taṇhā*](#translating-taṇhā-as-thirst-undermines-the-second-noble-truth), argument 2).
-4. **The links of the chain depend one way.** The links of dependent arising are connected by direct, unbreakable dependence, as in *jātipaccayā jarāmaraṇaṁ* (<SiteLink to="/sn12.2:2.12?lang=en&hide=id">sn12.2:2.12</SiteLink>): ageing-and-death depends on birth, not the reverse. Rendering the links as "thirst → clinging" makes the dependence mutual: clinging is derived from thirst, while thirst itself is impossible without clinging. The chain breaks.
+4. **The links of the chain depend one way.** The links of dependent arising are connected by direct, unbreakable dependence, as in *jātipaccayā jarāmaraṇaṁ* (<SiteLink to="/sn12.2:2.12?lang=en&hide=id">sn12.2</SiteLink>): ageing-and-death depends on birth, not the reverse. Rendering the links as "thirst → clinging" makes the dependence mutual: clinging is derived from thirst, while thirst itself is impossible without clinging. The chain breaks.
 5. ***Upādāna* does not mean "clinging."** In sn44.9 a fire burns *saupādāno*, with support (fuel), and does not burn without it. A flame carried off by the wind is sustained by the wind: "the wind is its *upādāna*." For a being that has laid down the body, the *upādāna* is *taṇhā* (*taṇhūpādānaṁ*). The wind does not cling to the flame; it sustains and feeds it.
 
 **Objections and replies.**
@@ -331,19 +331,19 @@ Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61:3.1</SiteLink> and <Si
 
 **Thesis.** *kāma*: "sensual pleasures," "sensual desire" (Sujato: "sensual pleasures") → **desire**.
 
-**Usage in the suttas.** <SiteLink to="/an6.63:8.9?s=k%C4%81m&lang=en&hide=id">an6.63:8.9–8.11</SiteLink>: *nete kāmā, kāmaguṇā nāmete ariyassa vinaye vuccanti… Saṅkapparāgo purisassa kāmo*. The objects of the senses are "not *kāmā*; in the noble discipline they are called *kāmaguṇā*"; a person's *kāma* is "intention-passion."
+**Usage in the suttas.** <SiteLink to="/an6.63:8.9?s=k%C4%81m&lang=en&hide=id">an6.63</SiteLink>: *nete kāmā, kāmaguṇā nāmete ariyassa vinaye vuccanti… Saṅkapparāgo purisassa kāmo*. The objects of the senses are "not *kāmā*; in the noble discipline they are called *kāmaguṇā*"; a person's *kāma* is "intention-passion."
 
 **Arguments.**
 
-1. In an6.63:8.10 desire is intention-plan-passion. It is not the multipliers of desire (*kāmaguṇā*) themselves.
-2. <SiteLink to="/an6.63:12.1?s=k%C4%81mayam%C4%81no&lang=en&hide=id">an6.63:12.1</SiteLink> ff.: a desiring person obtains either the good or the not-good. "Sensual" desires would lead only to the not-good, since they would contain an *akusalamūla* (*lobha*, *dosa* and/or *moha*).
-3. <SiteLink to="/mn13:13.1?lang=en&hide=id">mn13:13.1</SiteLink>: men go to war "with desire as the cause" (*kāmahetu*). They do so not only for sensual pleasures but out of necessity, patriotic duty or lofty ideals:
+1. In <SiteLink to="/an6.63:8.10?lang=en&hide=id">an6.63</SiteLink> desire is intention-plan-passion. It is not the multipliers of desire (*kāmaguṇā*) themselves.
+2. <SiteLink to="/an6.63:12.1?s=k%C4%81mayam%C4%81no&lang=en&hide=id">an6.63</SiteLink>, further on: a desiring person obtains either the good or the not-good. "Sensual" desires would lead only to the not-good, since they would contain an *akusalamūla* (*lobha*, *dosa* and/or *moha*).
+3. <SiteLink to="/mn13:13.1?lang=en&hide=id">mn13</SiteLink>: men go to war "with desire as the cause" (*kāmahetu*). They do so not only for sensual pleasures but out of necessity, patriotic duty or lofty ideals:
 
    ```
    Puna caparaṁ, bhikkhave, kāmahetu kāmanidānaṁ kāmādhikaraṇaṁ kāmānameva hetu asicammaṁ gahetvā, dhanukalāpaṁ sannayhitvā, addāvalepanā upakāriyo pakkhandanti usūsupi khippamānesu, sattīsupi khippamānāsu, asīsupi vijjotalantesu.
    ```
    "Further, with desire as the cause... men take up swords and shields, strap on quivers and bows, and charge at slippery bastions while arrows and spears are flying and swords are flashing."
-4. Not to mention the "desire to help": `Puriso attha-kāmo hita-kāmo yogakkhema-kāmoti kho, bhikkhave, tathāgatassetaṁ adhivacanaṁ arahato sammāsambuddhassa.` "'A person desiring good, desiring benefit, desiring protection from the yoke,' monks, is a designation of the Tathāgata, the Arahant, the Rightly Awakened One" (<SiteLink to="/mn19:26.10?s=hitak%C4%81m&lang=en&hide=id">mn19:26.10</SiteLink>). It would be inappropriate to assume the Tathāgata compared himself to a person *sensually* desiring good for others, or for himself.
+4. Not to mention the "desire to help": `Puriso attha-kāmo hita-kāmo yogakkhema-kāmoti kho, bhikkhave, tathāgatassetaṁ adhivacanaṁ arahato sammāsambuddhassa.` "'A person desiring good, desiring benefit, desiring protection from the yoke,' monks, is a designation of the Tathāgata, the Arahant, the Rightly Awakened One" (<SiteLink to="/mn19:26.10?s=hitak%C4%81m&lang=en&hide=id">mn19</SiteLink>). It would be inappropriate to assume the Tathāgata compared himself to a person *sensually* desiring good for others, or for himself.
 
 **Objections and replies.**
 
@@ -355,14 +355,14 @@ Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61:3.1</SiteLink> and <Si
 
 **Thesis.** *kamma*: "deeds," "action" → **activity**. *cetanā*: "intention," "choice" → **cognitive processing** (thinking-through). *sañcetanā* → **devising**, design.
 
-**Usage in the suttas.** <SiteLink to="/an6.63:33.3?lang=en&hide=id">an6.63:33.3–33.4</SiteLink>: *Cetanāhaṁ, bhikkhave, kammaṁ vadāmi. Cetayitvā kammaṁ karoti — kāyena vācāya manasā*. "Cognitive processing, monks, I call *kamma*; having processed, one does *kamma* by body, speech and mind."
+**Usage in the suttas.** <SiteLink to="/an6.63:33.3?lang=en&hide=id">an6.63</SiteLink>: *Cetanāhaṁ, bhikkhave, kammaṁ vadāmi. Cetayitvā kammaṁ karoti — kāyena vācāya manasā*. "Cognitive processing, monks, I call *kamma*; having processed, one does *kamma* by body, speech and mind."
 
 **Arguments.**
 
-1. <SiteLink to="/an4.237:5.1?s=kamma&lang=en&hide=id">an4.237:5.1</SiteLink>: the *kamma* that is "neither dark nor bright" is the noble eightfold path. Right View, Right Mindfulness and Right Samādhi do not fit the concept of "action." "Activity" fits, perhaps with a stretch, but these are far subtler phenomena than a deed, work or action.
-2. <SiteLink to="/an4.238:4.1?s=kamma&lang=en&hide=id">an4.238:4.1</SiteLink>: the same holds for the awakening factors (mindfulness-, rapture-, tranquillity-, samādhi- and direct-seeing-awakening-factor).
+1. <SiteLink to="/an4.237:5.1?s=kamma&lang=en&hide=id">an4.237</SiteLink>: the *kamma* that is "neither dark nor bright" is the noble eightfold path. Right View, Right Mindfulness and Right Samādhi do not fit the concept of "action." "Activity" fits, perhaps with a stretch, but these are far subtler phenomena than a deed, work or action.
+2. <SiteLink to="/an4.238:4.1?s=kamma&lang=en&hide=id">an4.238</SiteLink>: the same holds for the awakening factors (mindfulness-, rapture-, tranquillity-, samādhi- and direct-seeing-awakening-factor).
 3. AN 6.63: *kamma* is *cetanā*, and having *cetayitvā* one does *kamma*. So "processing" and "activity" describe the right level of phenomena for *cetanā* and *kamma*; "intention" and "action" are only their coarser, downstream parts. Defining *cetanā* and *kamma* as intention and action cuts off the cognitive processes and activity from which intention and action originate.
-4. *Sañcetanā* is devising, design, close to intention and still more exact: it denotes an early stage of processing. <SiteLink to="/an4.171:1.1?lang=en&hide=id">an4.171:1.1</SiteLink>: *kāyasañcetanā*, *vacīsañcetanā*, *manosañcetanā*, devising by body, speech and mind, from which *sukhadukkha* arises within. <SiteLink to="/an10.217:1.1?lang=en&hide=id">an10.217:1.1</SiteLink>: *sañcetanikānaṁ kammānaṁ katānaṁ upacitānaṁ*, *kamma* devised, done and accumulated. If *cetanā* is rendered "intention," *sañcetanā* is left without a word of its own, and the two terms merge into one.
+4. *Sañcetanā* is devising, design, close to intention and still more exact: it denotes an early stage of processing. <SiteLink to="/an4.171:1.1?lang=en&hide=id">an4.171</SiteLink>: *kāyasañcetanā*, *vacīsañcetanā*, *manosañcetanā*, devising by body, speech and mind, from which *sukhadukkha* arises within. <SiteLink to="/an10.217:1.1?lang=en&hide=id">an10.217</SiteLink>: *sañcetanikānaṁ kammānaṁ katānaṁ upacitānaṁ*, *kamma* devised, done and accumulated. If *cetanā* is rendered "intention," *sañcetanā* is left without a word of its own, and the two terms merge into one.
 
 **Objections and replies.**
 
@@ -372,7 +372,7 @@ Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61:3.1</SiteLink> and <Si
 
 **Thesis.** *veramaṇī*: "refraining," "abstaining" → **non-acceptance**, rejection. *paṭivirata*: "refraining" → **having given up**, renounced.
 
-**Usage in the suttas.** *Veramaṇī* is used in the definition of the path (<SiteLink to="/sn45.8:6.2?lang=en&hide=id">sn45.8:6.2</SiteLink>: *pāṇātipātā veramaṇī…*). *Paṭivirata* describes the arahants (<SiteLink to="/an3.70:19.2?lang=en&hide=id">an3.70:19.2</SiteLink>: *arahanto pāṇātipātaṁ pahāya pāṇātipātā paṭiviratā*).
+**Usage in the suttas.** *Veramaṇī* is used in the definition of the path (<SiteLink to="/sn45.8:6.2?lang=en&hide=id">sn45.8</SiteLink>: *pāṇātipātā veramaṇī…*). *Paṭivirata* describes the arahants (<SiteLink to="/an3.70:19.2?lang=en&hide=id">an3.70</SiteLink>: *arahanto pāṇātipātaṁ pahāya pāṇātipātā paṭiviratā*).
 
 **Arguments.** The two words share one root: *vi* + √*ram* (√*ram* "to rest, to take delight"; *vi-ram* "to cease, to desist," literally "to stop taking delight"). In translation both often merge into the single word "abstaining." Unlike the originals, "abstaining" does not rule out still being drawn to the object. "Non-acceptance" and "having given up" leave no such ambiguity. An arahant does not just "abstain" from killing or stealing; he no longer accepts such conduct and has renounced it completely, starting from the purification of the mind. To "abstain" from desires is not the same as being free of them. Both *paṭivirata* and *veramaṇī* describe the latter state.
 
@@ -384,7 +384,7 @@ Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61:3.1</SiteLink> and <Si
 
 **Thesis.** *anicca*: "impermanent" (Sujato: "impermanent") → **unreliable**, unstable, untrustworthy.
 
-**Usage in the suttas.** <SiteLink to="/sn22.59:6.4?lang=en&hide=id">sn22.59:6.4–6.5</SiteLink>: *Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā? — Dukkhaṁ, bhante*.
+**Usage in the suttas.** <SiteLink to="/sn22.59:6.4?lang=en&hide=id">sn22.59</SiteLink>: *Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā? — Dukkhaṁ, bhante*.
 
 **Arguments and objections.** The full argument rests on the four ways of answering a question (AN 4.42, AN 3.67) and is given in [Principles by the Suttas](/sutta), principle 9. In brief: the categorical answer the Buddha accepts shows that what is *anicca* is *always* painful. That is true of the unreliable, but not of everything impermanent (an impermanent pain is pleasant when it ends).
 
@@ -395,4 +395,4 @@ The texts above show that the Pāli terms `dukkha`, `taṇhā`/`tasinā`, `kāma
 [^1]: In English, **pain**: [meaning 1] in the direct sense, a wide spectrum of unpleasant bodily sensations; [meaning 2] in the figurative sense, a problem, limitation or inconvenience, something requiring a solution or improvement, as in "the pain of loneliness" or "customer pain." **Suffering**: [meaning 1] in the direct sense, very strong bodily and mental pain, together or separately; [meaning 2] in the figurative sense, mental pain, mental discomfort.
 [^2]: **False friends of the translator** are words of two languages that are similar in form but differ in meaning. *Complete* false friends differ entirely: *fabric* "cloth" vs. Russian *фабрика* "factory"; *magazine* "periodical" vs. Russian *магазин* "shop." *Partial* false friends overlap only in part: English *aggressive* ("hostile," but also "energetic, assertive") vs. Russian *агрессивный* (only "hostile"); *sympathy* "compassion" vs. Russian *симпатия* "liking." In the strict linguistic sense, **false cognates** are words that look alike but are *not* related by origin (English *much* and Spanish *mucho*). The examples above are related words, so they are false friends, not false cognates. Earlier versions of this page used "false cognates" for the first group.
 [^3]: Some of the problems described here may stem less from Sanskrit than from narrowly contextual translation and from semantic shifts between Pāli/Sanskrit and English or other languages, since most of the relevant meanings can also be found in Sanskrit dictionaries. Still, a translator's choice in favour of something absent from the Suttas and the Vinaya should be justified by something beyond tradition (including translation tradition), and what is offered instead is often precisely a reference to Sanskrit.
-[^4]: The form *tasinā* itself is not found in all editions of the canon (PED records it as *tasiṇā*, "a diaeretic form of *taṇhā*"). Its participle *tasito* is found in the vast majority of editions, in similes of a man exhausted by heat and thirst (e.g. sn12.68:13.4).
+[^4]: The form *tasinā* itself is not found in all editions of the canon (PED records it as *tasiṇā*, "a diaeretic form of *taṇhā*"). Its participle *tasito* is found in the vast majority of editions, in similes of a man exhausted by heat and thirst (e.g. <SiteLink to="/sn12.68:13.4?lang=en&hide=id">sn12.68</SiteLink>).
