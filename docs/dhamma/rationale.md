@@ -35,7 +35,7 @@ Part I describes the method: what "systematic" and "narrowly contextual" transla
 
 <a id="systematic-translation"></a>
 
-**Systematic (consistent, concordant) translation** here means an approach strictly grounded in the direct definitions of terms found within the primary sources themselves (the Suttas and the Vinaya). It does not ignore the original's "internal glossary." The verified meaning is applied consistently across the entire corpus, which preserves the logic, the single direction and the original structure of the Teaching. The structure of the text itself is likewise neither ignored nor simplified. For any Pāli concept, the closest possible English equivalent is chosen: a single word or a word cluster (see [Principles](/principles), principle 8). Systematic translation is not always feasible, but wherever it is possible, it is preferred.
+**Systematic (consistent, concordant) translation** here means an approach strictly grounded in the direct definitions of terms found within the primary sources themselves (the Suttas and the Vinaya). It does not ignore the original's "internal glossary." The verified meaning is applied consistently across the entire corpus, which preserves the logic, the single direction and the original structure of the Teaching. The structure of the text itself is likewise neither ignored nor simplified. For any Pāli concept, the closest possible English equivalent is chosen: a single word or a word cluster (see [Principles](/principles), principle 9). Systematic translation is not always feasible, but wherever it is possible, it is preferred.
 
 In translation studies this corresponds to *concordant translation*, or *verbal consistency*: one source term, one target term. E. Nida and C. Taber (1969) explicitly gave *contextual* consistency priority over *verbal* consistency. For terms that the canon itself defines, Dhamma.Gift reverses that priority. It does so deliberately: the source text fixes the meaning of these terms, so the translator does not have to.
 
@@ -305,6 +305,8 @@ Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61</SiteLink>: *phasso kh
 
 <a id="taṇhā-is-clinging-upādāna-is-sustaining--not-the-other-way-around"></a>
 
+<a id="upadana"></a>
+
 ### *upādāna*: sustaining, not "clinging"
 
 **Thesis.** *upādāna*: "grasping," "clinging" (Sujato: "grasping"; also "fuel" in sn44.9) → **sustaining** (support, fuel, feeding a process). Together with the previous section: *taṇhā* is clinging and *upādāna* is sustaining, not the other way round.
@@ -366,7 +368,7 @@ Compare <SiteLink to="/an6.61:3.1?lang=en&hide=id">an6.61</SiteLink>: *phasso kh
 
 **Objections and replies.**
 
-- *"'Intention' for cetanā is the established rendering."* Being established is not, by itself, an argument ([Principles](/principles), principle 7). The decisive point is that the established rendering leaves no room for the distinct term *sañcetanā*.
+- *"'Intention' for cetanā is the established rendering."* Being established is not, by itself, an argument ([Principles](/principles), principle 8). The decisive point is that the established rendering leaves no room for the distinct term *sañcetanā*.
 
 ### *veramaṇī* and *paṭivirata*: having given up, not "abstaining"
 

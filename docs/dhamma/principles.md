@@ -36,7 +36,7 @@ Under each principle you can expand its grounding — the sutta passage it rests
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** <SiteLink to="/an4.172:0.3?s=pa%E1%B9%ADisambhid&lang=en&hide=id">AN 4.172</SiteLink>: the four analytical knowledges (*paṭisambhidā*) — of meaning, of the Dhamma, of language (*nirutti*) and of discernment; without them an established rendering remains provisional. <SiteLink to="/an4.180:2.6?lang=en&hide=id">AN 4.180</SiteLink>: any claim "this is the Dhamma, this is the Teacher's word" is checked against the suttas and the Vinaya. A translation is exactly such a claim, so it always stays open to being checked against the suttas and revised.
+**Grounding.** <SiteLink to="/an4.172:0.3?s=pa%E1%B9%ADisambhid&lang=en&hide=id">AN 4.172</SiteLink>: the four analytical knowledges (*catasso paṭisambhidā*) — of meaning (*attha*), of the Dhamma (*dhamma*), of language (*nirutti*) and of discernment in expression (*paṭibhāna*). A real translation needs all four: understanding the meaning and purpose of what is said, the Dhamma itself, and the language in which it is expressed. These are qualities of the translator, not a status. Neither education nor monastic ordination replaces them, and even arahantship by itself is not enough: what is needed is an arahant with the four analytical knowledges. Without them every translation is only an attempt. Until a real translation exists, each attempt is checked against the suttas (<SiteLink to="/an4.180:2.6?lang=en&hide=id">AN 4.180</SiteLink>) and stays open to revision.
 
 **Example.** What happens when a rendering is fixed once and never revisited:
 
@@ -57,7 +57,7 @@ If an established rendering is closed to revision, the error passes from one tra
 
 **Grounding.** The Dhamma is "well formulated" (*svākkhāto*, <SiteLink to="/an3.70:7.4?lang=en&hide=id">an3.70</SiteLink>). The Tathāgata's speech does not "go two ways" (*dvayagāminī*, <SiteLink to="/dn24:1.18.1?s=dvayag%C4%81min%C4%AB&lang=en&hide=id">dn24</SiteLink>).
 
-**Example.** *Dukkha* is "pain" in the first truth, in the feeling triad and in the list of faculties alike ([Rationale: cross-verifiability](/rationale#cross-verifiability-of-consistent-terminology)).
+**Example.** *Upādāna* is "sustaining" both in the "five aggregates of sustaining" (*pañc’ upādānakkhandhā*) and in the fire simile: *aggi saupādāno jalati, no anupādāno*, "a fire burns with support (fuel), not without" (<SiteLink to="/sn44.9:5.4?lang=en&hide=id">sn44.9</SiteLink>). The same word reads the same way in the teaching on the five aggregates and in an everyday image ([Rationale](/rationale#upadana)).
 
 </details>
 
@@ -89,7 +89,28 @@ If an established rendering is closed to revision, the error passes from one tra
 
 <a id="p5"></a>
 
-**5. Without a definition, a systematic rendering is preferred.** If a word's definition is found neither in the suttas nor in the Vinaya, a precise **systematic translation** is preferred over a narrowly contextual one. Ideally this is one word that covers as fully as possible all contexts of use in all or most occurrences in the suttas and the Vinaya. What systematic and narrowly contextual translation are is explained in the [Rationale](/rationale#systematic-translation).
+**5. The language of translation is ordinary language.** The translation is written in ordinary, living English. Words are taken in the meaning they already have in the language; the language is not reshaped for the translation or invented anew. Where a concept has a definition in the suttas, the test is simple: substitute the proposed rendering into that definition. It should read as an ordinary sentence.
+
+<details>
+<summary>Grounding and example</summary>
+
+**Grounding.** <SiteLink to="/mn139:3.9?lang=en&hide=id">MN 139</SiteLink>: *janapadaniruttiṁ nābhiniveseyya, samaññaṁ nātidhāveyya*, "one should not insist on a regional expression nor override the normal designation" ([Principles by the Suttas](/sutta), principle 2).
+
+**Example.** *Dukkha* is often rendered "unsatisfactoriness." Substitute it into the definition from principle 3 (<SiteLink to="/mn141:16.2?s=dukkha&lang=en&hide=id">mn141</SiteLink>):
+
+> That which, friends, is bodily **unsatisfactoriness**, bodily discomfort, **unsatisfactoriness** and discomfort felt, born of bodily contact: this is called, friends, "**unsatisfactoriness**."
+
+And the same with the ordinary word:
+
+> That which, friends, is bodily **pain**, bodily discomfort, **pain** and discomfort felt, born of bodily contact: this is called, friends, "**pain**."
+
+"Bodily unsatisfactoriness" is not an expression of the English language: to understand the sentence, the reader has to translate it back. For what the definition describes, the language already has an ordinary word: "pain."
+
+</details>
+
+<a id="p6"></a>
+
+**6. Without a definition, a systematic rendering is preferred.** If a word's definition is found neither in the suttas nor in the Vinaya, a precise **systematic translation** is preferred over a narrowly contextual one. Ideally this is one word that covers as fully as possible all contexts of use in all or most occurrences in the suttas and the Vinaya. What systematic and narrowly contextual translation are is explained in the [Rationale](/rationale#systematic-translation).
 
 <details>
 <summary>Grounding and example</summary>
@@ -100,9 +121,9 @@ If an established rendering is closed to revision, the error passes from one tra
 
 </details>
 
-<a id="p6"></a>
+<a id="p7"></a>
 
-**6. Rare words: the global contextual or dictionary meaning.** If a word occurs too rarely, or only in uniform contexts, and has no definition in the suttas or the Vinaya, so that a systematic rendering cannot be established, its global contextual or dictionary meaning is used.
+**7. Rare words: the global contextual or dictionary meaning.** If a word occurs too rarely, or only in uniform contexts, and has no definition in the suttas or the Vinaya, so that a systematic rendering cannot be established, its global contextual or dictionary meaning is used.
 
 <details>
 <summary>Grounding and example</summary>
@@ -113,48 +134,48 @@ If an established rendering is closed to revision, the error passes from one tra
 
 </details>
 
-<a id="p7"></a>
+<a id="p8"></a>
 
-**7. Tradition does not override the principles above.** If a generally accepted translation or interpretation, including one from a commentary or sub-commentary, contradicts the points above, it is not applied.
+**8. Tradition does not override the principles above.** If a generally accepted translation or interpretation, including one from a commentary or sub-commentary, contradicts the points above, it is not applied.
 
 <details>
 <summary>Grounding and example</summary>
 
 **Grounding.** <SiteLink to="/an3.65:4.1?lang=en&hide=id">AN 3.65</SiteLink>: do not go by oral tradition, lineage, scripture or the authority of a teacher. AN 2.23: do not ascribe to the Tathāgata what he did not say.
 
-**Example.** "Suffering" for *dukkha* and "intention" for *cetanā* are established renderings. Being established does not by itself make them applicable ([Rationale](/rationale#dukkha)).
-
-</details>
-
-<a id="p8"></a>
-
-**8. A broader Pāli concept: a word cluster.** If a Pāli concept is broader than any single English concept, a word cluster (a hyphenated group of near-synonyms) or one word from the cluster is used. The cluster may appear at the first occurrence in a text; afterwards only the key word is used.
-
-<details>
-<summary>Grounding and example</summary>
-
-**Grounding.** <SiteLink to="/mn139:3.9?lang=en&hide=id">MN 139</SiteLink>: one should not override the normal designation (*samaññaṁ nātidhāveyya*). The English word keeps its ordinary meaning. Breadth is conveyed by adding words, not by stretching one word.
-
-**Example.** *rāga*: fascination-passion. *anicca*: unreliability, instability, untrustworthiness. This is as if it had been written: fascination-passion (hereinafter *fascination*). Or *jhāyatha*: ignite (ardently strive, concentrate, "meditate," contemplate), hereinafter *ignite*.
+**Example.** "Intention" for *cetanā* and "clinging" for *upādāna* are established renderings. Being established does not by itself make them applicable ([Rationale](/rationale#kamma)).
 
 </details>
 
 <a id="p9"></a>
 
-**9. A narrower Pāli concept: a clarifying addition.** If a Pāli concept is more specific and the English concept broader, a clarifying addition is used.
+**9. A broader Pāli concept: a word cluster.** If a Pāli concept is broader than any single English concept, a word cluster (a hyphenated group of near-synonyms) or one word from the cluster is used. The cluster may appear at the first occurrence in a text; afterwards only the key word is used.
 
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** As for principle 8 (MN 139).
+**Grounding.** <SiteLink to="/mn139:3.9?lang=en&hide=id">MN 139</SiteLink>, as in principle 5: the English word keeps its ordinary meaning. Breadth is conveyed by adding words, not by stretching one word.
 
-**Example.** *ceto*: mind-thinking; *citta*: mind-state; *mano*: mind-representation. This is as if it had been written: mind-state (hereinafter *mind*).
+**Example.** *rāga*: fascination-passion. *anicca*: unreliability, instability, untrustworthiness. This is as if it had been written: fascination-passion (hereinafter *fascination*). Or *jhāyatha*: ignite (ardently strive, concentrate, "meditate," contemplate), hereinafter *ignite*.
 
 </details>
 
 <a id="p10"></a>
 
-**10. Pāli word order is preferably preserved.** Preserving the word order of the Pāli sentence is preferred.
+**10. A narrower Pāli concept: a clarifying addition.** If a Pāli concept is more specific and the English concept broader, a clarifying addition is used.
+
+<details>
+<summary>Grounding and example</summary>
+
+**Grounding.** As for principle 9 (MN 139).
+
+**Example.** *ceto*: mind-thinking; *citta*: mind-state; *mano*: mind-representation. This is as if it had been written: mind-state (hereinafter *mind*).
+
+</details>
+
+<a id="p11"></a>
+
+**11. Pāli word order is preferably preserved.** Preserving the word order of the Pāli sentence is preferred.
 
 <details>
 <summary>Grounding and example</summary>
@@ -165,35 +186,35 @@ If an established rendering is closed to revision, the error passes from one tra
 
 </details>
 
-<a id="p11"></a>
+<a id="p12"></a>
 
-**11. Pāli grammatical structure is preferably preserved.** Preserving the grammatical structure of the Pāli is preferred: case, number and voice, and the distinction between noun and adjective.
+**12. Pāli grammatical structure is preferably preserved.** Preserving the grammatical structure of the Pāli is preferred: case, number and voice, and the distinction between noun and adjective.
 
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** As for principle 10 (AN 5.156).
+**Grounding.** As for principle 11 (AN 5.156).
 
 **Example.** *jātipi dukkhā* is rendered "birth is painful," with an adjective agreeing with *jāti*, and not "birth is suffering," with a noun ([Rationale](/rationale#dukkha)).
 
 </details>
 
-<a id="p12"></a>
+<a id="p13"></a>
 
-**12. Prefixes and endings are translated consistently.** Consistent, systematic translation of prefixes and endings is preferred where possible.
+**13. Prefixes and endings are translated consistently.** Consistent, systematic translation of prefixes and endings is preferred where possible.
 
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** Methodological consequence of principles 2 and 11.
+**Grounding.** Methodological consequence of principles 2 and 12.
 
-**Example.** The prefix *saṁ-* in *sañcetanā* ("devising") is kept distinct from the simple *cetanā* ("cognitive processing"), so that the two terms do not merge ([Rationale](/rationale#kamma)). For the privative prefix see principle 13.
+**Example.** The prefix *saṁ-* in *sañcetanā* ("devising") is kept distinct from the simple *cetanā* ("cognitive processing"), so that the two terms do not merge ([Rationale](/rationale#kamma)). For the privative prefix see principle 14.
 
 </details>
 
-<a id="p13"></a>
+<a id="p14"></a>
 
-**13. Negative prefixes are kept, not replaced by antonyms.** Preserving the structure of Pāli words with the negative (privative) prefix *a-/an-* is preferred over replacing them with antonyms.
+**14. Negative prefixes are kept, not replaced by antonyms.** Preserving the structure of Pāli words with the negative (privative) prefix *a-/an-* is preferred over replacing them with antonyms.
 
 <details>
 <summary>Grounding and example</summary>
@@ -204,9 +225,9 @@ If an established rendering is closed to revision, the error passes from one tra
 
 </details>
 
-<a id="p14"></a>
+<a id="p15"></a>
 
-**14. The structure of compounds is preserved.** Preserving the structure of compounds (*samāsa*) as in Pāli is preferred. The members are joined by hyphens. Linking words ("of," "for," "and") are added only where the form without them would sound completely unnatural in English. Leaving the relation between the members unspecified keeps the compound open and polysemous.
+**15. The structure of compounds is preserved.** Preserving the structure of compounds (*samāsa*) as in Pāli is preferred. The members are joined by hyphens. Linking words ("of," "for," "and") are added only where the form without them would sound completely unnatural in English. Leaving the relation between the members unspecified keeps the compound open and polysemous.
 
 <details>
 <summary>Grounding and example</summary>
@@ -219,9 +240,9 @@ If an established rendering is closed to revision, the error passes from one tra
 
 </details>
 
-<a id="p15"></a>
+<a id="p16"></a>
 
-**15. Under semantic divergence, the Pāli meaning decides.** Where meanings diverge, the translation is based on the meaning of the Pāli term, not on its outward similarity to an English equivalent. The same rule applies to "false friends of the translator." For what "false friends of the translator" are, see the [Rationale](/rationale#semantic-divergence).
+**16. Under semantic divergence, the Pāli meaning decides.** Where meanings diverge, the translation is based on the meaning of the Pāli term, not on its outward similarity to an English equivalent. The same rule applies to "false friends of the translator." For what "false friends of the translator" are, see the [Rationale](/rationale#semantic-divergence).
 
 <details>
 <summary>Grounding and example</summary>

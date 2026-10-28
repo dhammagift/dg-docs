@@ -42,7 +42,7 @@ Each principle is given in the same form: **Principle** (the formulation), **Sut
 
 **Sutta.** MN 139 (Araṇavibhaṅga Sutta): *janapadaniruttiṁ nābhiniveseyya, samaññaṁ nātidhāveyya*, "one should not insist on a regional expression nor override the normal designation" (<SiteLink to="/mn139:3.9?lang=en&hide=id">mn139</SiteLink>; the Buddha <SiteLink to="/mn139:12.1?lang=en&hide=id">explains it further on</SiteLink>). <SuttaLink index={3}>Read →</SuttaLink>
 
-**Application.** A great many points in translations of the Dhamma violate this very principle. English words such as *suffering*, *craving*, *arising*, *cessation*, *form* and *intention* have been given modified, either broadened or narrowed, meanings within "translated Buddhism." More on this in the [Rationale](/rationale).
+**Application.** A great many points in translations of the Dhamma violate this very principle. English words such as *suffering*, *craving*, *arising*, *cessation*, *form* and *intention* have been given modified, either broadened or narrowed, meanings within "translated Buddhism." More on this in the [Rationale](/rationale); how to test it in practice is in the [Principles of Translation](/principles), principle 5.
 
 ### 3. Meaning matters, wording is secondary
 
@@ -60,7 +60,7 @@ Each principle is given in the same form: **Principle** (the formulation), **Sut
 
 **Sutta.** <SiteLink to="/an3.65:4.1?lang=en&hide=id">AN 3.65</SiteLink> (Kesamutti / Kālāma Sutta), the companion piece to Mahāpadesa: *mā anussavena, mā paramparāya… mā samaṇo no garūti*. <SuttaLink index={1}>Read →</SuttaLink>
 
-**Application.** An established rendering, including one found in a commentary, is not applied if it contradicts the canonical definition ([Principles of Translation](/principles), principle 7).
+**Application.** An established rendering, including one found in a commentary, is not applied if it contradicts the canonical definition ([Principles of Translation](/principles), principle 8).
 
 ### 5. Safeguarding the truth
 
@@ -132,7 +132,7 @@ Each principle is given in the same form: **Principle** (the formulation), **Sut
 
 **Sutta.** <SiteLink to="/an5.156:1.3?lang=en&hide=id">AN 5.156</SiteLink> (parallel: AN 4.160): *duggahitaṁ suttantaṁ pariyāpuṇanti dunnikkhittehi padabyañjanehi*. <SuttaLink index={12}>Read →</SuttaLink>
 
-**Application.** Pāli word order and grammatical structure are preserved where possible ([Principles of Translation](/principles), principles 10–11).
+**Application.** Pāli word order and grammatical structure are preserved where possible ([Principles of Translation](/principles), principles 11–12).
 
 ## What counts as "well spoken"
 
