@@ -34,17 +34,9 @@ Under each principle you can expand its grounding — the sutta passage it rests
 **1. Every translation is a work in progress.** Any translation from Pāli, or translation of another author's translation, as of today (<Today />) is not considered final but is regarded as **"Work in Progress."** This holds whether it is a complete text, a fragment, a dictionary entry, a topical article or a single term, and whether it is digital, printed or oral. A final translation requires meanings and terms to be correctly established. If such a translation is possible at all, it can only be made by an Arahant with the four "analytical knowledges" (<SiteLink to="/an4.172:0.3?s=pa%E1%B9%ADisambhid&lang=en&hide=id">catasso paṭisambhidā</SiteLink>).
 
 <details>
-<summary>Grounding and example</summary>
+<summary>Grounding</summary>
 
-**Grounding.** <SiteLink to="/an4.172:0.3?s=pa%E1%B9%ADisambhid&lang=en&hide=id">AN 4.172</SiteLink>: the four analytical knowledges (*catasso paṭisambhidā*) — of meaning (*attha*), of the Dhamma (*dhamma*), of language (*nirutti*) and of discernment in expression (*paṭibhāna*). A real translation needs all four: understanding the meaning and purpose of what is said, the Dhamma itself, and the language in which it is expressed. These are qualities of the translator, not a status. Neither education nor monastic ordination replaces them, and even arahantship by itself is not enough: what is needed is an arahant with the four analytical knowledges. Without them every translation is only an attempt. Until a real translation exists, each attempt is checked against the suttas (<SiteLink to="/an4.180:2.6?lang=en&hide=id">AN 4.180</SiteLink>) and stays open to revision.
-
-**Example.** What happens when a rendering is fixed once and never revisited:
-
-- *pariññāta* was fixed as "fully understood." But <SiteLink to="/mn1:147.4?lang=en&hide=id">MN 1</SiteLink> also has *pariññātantaṁ*, "understood to the end," and the earlier "fully" turns out not to be full ([Rationale](/rationale#fully-understood-not-quite-full)).
-- *dukkha* is rendered "suffering," although the suttas define it directly as bodily pain, bodily discomfort (<SiteLink to="/mn141:16.1?s=dukkha&lang=en&hide=id">mn141</SiteLink>; [Rationale](/rationale#dukkha)).
-- *taṇhā* is rendered "thirst," although in the definition of the second truth taṇhā is accompanied by delight-and-passion and delights here and there (<SiteLink to="/sn56.11:4.4?s=ta%E1%B9%87h%C4%81&lang=en&hide=id">sn56.11</SiteLink>; [Rationale](/rationale#tanha)).
-
-If an established rendering is closed to revision, the error passes from one translation to the next. That is why every translation counts as "Work in Progress," including those of Dhamma.Gift.
+**Grounding.** <SiteLink to="/an4.172:0.3?s=pa%E1%B9%ADisambhid&lang=en&hide=id">AN 4.172</SiteLink>: the four analytical knowledges (*catasso paṭisambhidā*) — of meaning (*attha*), of the Dhamma (*dhamma*), of language (*nirutti*) and *paṭibhāna*. These are the qualities needed by whoever makes a real translation; monastic ordination, or even arahantship by itself, does not replace them. Until there is an arahant with the four analytical knowledges, no translation is final: a better rendering may always exist.
 
 </details>
 
