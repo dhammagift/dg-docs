@@ -1,4 +1,6 @@
 ---
+title: "Settings"
+description: "The Dhamma.Gift settings: interface language, theme, reading languages, Pali script, text size, search scope and cloud sync."
 slug: /settings
 sidebar_position: 3
 ---

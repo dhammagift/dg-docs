@@ -1,4 +1,6 @@
 ---
+title: "Приложение Dhamma.Gift для Android и iOS"
+description: "Поиск и чтение Сутт и Винаи на пали с русскими и английскими переводами на iPhone, iPad и Android, с интернетом и без."
 slug: /dhamma-gift-app
 sidebar_position: 14
 ---

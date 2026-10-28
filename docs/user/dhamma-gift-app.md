@@ -1,4 +1,6 @@
 ---
+title: "Dhamma.Gift App for Android and iOS"
+description: "Search and read the Suttas and Vinaya in Pali with Russian and English translations on iPhone, iPad and Android, online or offline."
 slug: /dhamma-gift-app
 sidebar_position: 14
 ---

@@ -1,4 +1,6 @@
 ---
+title: "Contents of the Canon (TOC)"
+description: "Browse the whole Sutta Pitaka and Vinaya and jump straight into a chapter; open it from anywhere with Alt+2."
 slug: /toc
 sidebar_position: 4
 ---

@@ -1,4 +1,6 @@
 ---
+title: "Search the Pali Canon"
+description: "Search the Suttas, Vinaya and translations by a word, a phrase or a regular expression, with filters and a report on word forms."
 slug: /search-guide
 sidebar_position: 1
 ---

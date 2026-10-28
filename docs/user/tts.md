@@ -1,4 +1,6 @@
 ---
+title: "Voice: Listen to the Suttas (TTS)"
+description: "Listen to any sutta in Pali, Russian or English with the floating voice player: speed, voices and repeat."
 slug: /tts
 sidebar_position: 5
 ---

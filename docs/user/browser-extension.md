@@ -1,4 +1,6 @@
 ---
+title: "Browser Extension: Pali Dictionary on Any Site"
+description: "Select or click a word on any website to see its entry in DPD, PTS and other Pali and Sanskrit dictionaries, and search the Suttas."
 slug: /browser-extension
 sidebar_position: 15
 ---

@@ -1,4 +1,6 @@
 ---
+title: "Pali Dictionary"
+description: "The built-in Pali dictionary (DPD): click a word while reading, or open the full multi-dictionary at dict.dhamma.gift."
 slug: /dictionary
 sidebar_position: 4
 ---

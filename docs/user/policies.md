@@ -1,4 +1,6 @@
 ---
+title: "Privacy Policy & Terms"
+description: "Dhamma.Gift keeps users anonymous: searching and reading Pali texts never requires revealing who you are."
 slug: /policies
 sidebar_position: 3
 ---

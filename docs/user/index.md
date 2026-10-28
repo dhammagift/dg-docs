@@ -1,4 +1,6 @@
 ---
+title: "Key Features of Dhamma.Gift"
+description: "Search, a line-by-line reader, a Pali dictionary and a voice player for the Suttas and Vinaya, tied into one workflow."
 slug: /key-features
 sidebar_position: 1
 ---

@@ -1,4 +1,6 @@
 ---
+title: "Principles of Translation"
+description: "The principles applied wherever a Dhamma.Gift translation or edit is marked \"o\": translated from the Pali or amended against it."
 slug: /principles
 sidebar_position: 2
 sidebar_label: Principles of Translation

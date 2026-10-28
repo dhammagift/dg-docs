@@ -1,5 +1,7 @@
 ---
-title: MCP server for AI agents
+title: "MCP Server for AI Agents"
+description: "An MCP server that lets AI assistants search the Pali Canon, read suttas and compare translations, answering with quotes and links."
+
 ---
 
 # MCP server for AI agents

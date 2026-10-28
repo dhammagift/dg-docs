@@ -1,4 +1,6 @@
 ---
+title: "Uposatha Days by the Suttas"
+description: "The Uposatha: the 14th, 15th and 8th lunar day of each half-month, and the key suttas on when and how to keep it."
 slug: /uposatha
 sidebar_position: 4
 sidebar_label: Uposatha days

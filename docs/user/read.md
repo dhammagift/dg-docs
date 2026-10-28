@@ -1,4 +1,6 @@
 ---
+title: "Reader: Pali Text with Translations"
+description: "Open any sutta by its id (dn22, mn139, sn56.11) and read the Pali line by line with translations, modes and fonts."
 slug: /read
 sidebar_position: 2
 ---

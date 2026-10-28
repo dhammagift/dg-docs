@@ -1,4 +1,6 @@
 ---
+title: "Translation Editor"
+description: "A work-in-progress editor for line-by-line translation of Pali Canon texts: convenient input, templates, two working modes."
 slug: /translator
 sidebar_position: 9
 ---

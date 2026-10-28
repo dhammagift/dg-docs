@@ -1,4 +1,6 @@
 ---
+title: "Telegram-бот"
+description: "@Dhammagift_bot: поиск и чтение сутт в инлайне любого чата или в чате бота, и дни упосатхи для вашего города."
 slug: /telegram-bot
 sidebar_position: 16
 ---

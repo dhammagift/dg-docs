@@ -1,4 +1,6 @@
 ---
+title: "Telegram Bot"
+description: "@Dhammagift_bot: search and read the Suttas inline in any chat, or in its own chat, with the Uposatha days for your city."
 slug: /telegram-bot
 sidebar_position: 16
 ---

@@ -1,4 +1,6 @@
 ---
+title: "Подкасты сутт"
+description: "Сутты вслух, по одной в день, на английском, русском и пали; каждый выпуск ссылается на свой текст на Dhamma.Gift."
 slug: /podcasts
 sidebar_position: 16
 sidebar_label: Подкасты

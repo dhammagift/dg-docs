@@ -1,5 +1,7 @@
 ---
-title: Voice API (TTS)
+title: "Voice API (TTS)"
+description: "The open Dhamma.Gift text-to-speech service for Pali, Russian and English: call it from a browser or a server, no key needed."
+
 ---
 
 # Voice API (TTS)

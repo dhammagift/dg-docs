@@ -1,4 +1,6 @@
 ---
+title: "Keyboard Shortcuts"
+description: "Every keyboard shortcut of Dhamma.Gift in one place: home page, search results and the reader."
 slug: /hotkeys
 ---
 

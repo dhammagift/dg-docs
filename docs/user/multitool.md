@@ -1,4 +1,6 @@
 ---
+title: "MultiTool: Links on the Home Screen"
+description: "The home screen tiles: reading Pali, other editions, AI and dictionaries, study materials and tools."
 slug: /multitool
 sidebar_position: 6
 ---

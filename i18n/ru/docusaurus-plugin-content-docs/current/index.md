@@ -1,4 +1,6 @@
 ---
+title: "Справка Dhamma.Gift"
+description: "Справка Dhamma.Gift: поиск, чтение и прослушивание Сутт и Винаи на пали с переводами; принципы перевода; приложения."
 slug: /
 sidebar_position: 0
 sidebar_label: Главная

@@ -1,4 +1,6 @@
 ---
+title: "Quick Window (Compass)"
+description: "Favorites, history, key suttas and memorization from anywhere on the site, without leaving the page."
 slug: /quickmodal
 sidebar_position: 6
 ---

@@ -1,5 +1,7 @@
 ---
-title: The offline database
+title: "The Offline Database"
+description: "One SQLite file with the corpus and a trigram index: how it is built and how the PWA and the apps use it offline."
+
 ---
 
 # The offline database (offline library)

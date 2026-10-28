@@ -1,4 +1,6 @@
 ---
+title: "Принципы перевода"
+description: "Принципы, применённые там, где перевод или правка Dhamma.Gift отмечены «o»: перевод с пали или правка по пали оригиналу."
 slug: /principles
 sidebar_position: 2
 sidebar_label: Принципы перевода

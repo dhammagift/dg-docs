@@ -1,4 +1,6 @@
 ---
+title: "Login and Sync"
+description: "No account needed: login only syncs favorites, history, subscriptions, reading progress and settings across devices."
 slug: /login
 sidebar_position: 7
 ---

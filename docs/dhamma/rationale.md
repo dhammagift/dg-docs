@@ -1,4 +1,6 @@
 ---
+title: "Rationale for Consistent Translation"
+description: "Why a precise, systematic, consistent translation from Pali rests on the definitions of terms found in the Suttas and Vinaya themselves."
 slug: /rationale
 sidebar_position: 3
 sidebar_label: Rationale

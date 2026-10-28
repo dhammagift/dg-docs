@@ -1,4 +1,6 @@
 ---
+title: "PWA: Install Straight from the Browser"
+description: "Install Dhamma.Gift as an app with its own icon from the browser, on a phone or a computer, without an app store."
 slug: /pwa
 sidebar_position: 17
 ---
