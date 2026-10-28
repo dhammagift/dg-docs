@@ -36,9 +36,15 @@ Under each principle you can expand its grounding — the sutta passage it rests
 <details>
 <summary>Grounding and example</summary>
 
-**Grounding.** AN 4.172 (the four *paṭisambhidā*); MN 95 on safeguarding the truth: "such is my faith," not "this alone is true" ([Principles by the Suttas](/sutta), principle 5).
+**Grounding.** <SiteLink to="/an4.172:0.3?s=pa%E1%B9%ADisambhid&lang=en&hide=id">AN 4.172</SiteLink>: the four analytical knowledges (*paṭisambhidā*) — of meaning, of the Dhamma, of language (*nirutti*) and of discernment; without them an established rendering remains provisional. <SiteLink to="/an4.180:2.6?lang=en&hide=id">AN 4.180</SiteLink>: any claim "this is the Dhamma, this is the Teacher's word" is checked against the suttas and the Vinaya. A translation is exactly such a claim, so it always stays open to being checked against the suttas and revised.
 
-**Example.** Renderings are revised when new contexts turn up (see *pariññāta* in [Rationale](/rationale#fully-understood-not-quite-full)).
+**Example.** What happens when a rendering is fixed once and never revisited:
+
+- *pariññāta* was fixed as "fully understood." But <SiteLink to="/mn1:147.4?lang=en&hide=id">MN 1</SiteLink> also has *pariññātantaṁ*, "understood to the end," and the earlier "fully" turns out not to be full ([Rationale](/rationale#fully-understood-not-quite-full)).
+- *dukkha* is rendered "suffering," although the suttas define it directly as bodily pain, bodily discomfort (<SiteLink to="/mn141:16.1?s=dukkha&lang=en&hide=id">mn141</SiteLink>; [Rationale](/rationale#dukkha)).
+- *taṇhā* is rendered "thirst," although in the definition of the second truth taṇhā is accompanied by delight-and-passion and delights here and there (<SiteLink to="/sn56.11:4.4?s=ta%E1%B9%87h%C4%81&lang=en&hide=id">sn56.11</SiteLink>; [Rationale](/rationale#tanha)).
+
+If an established rendering is closed to revision, the error passes from one translation to the next. That is why every translation counts as "Work in Progress," including those of Dhamma.Gift.
 
 </details>
 
