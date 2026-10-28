@@ -9,7 +9,7 @@ sidebar_label: Home
 import Albumart from '@site/static/img/diamond-logo.png';
 import SiteLink from '@site/src/components/SiteLink';
 
-# Dhamma.gift Help
+# Dhamma.Gift Help
 
 <img src={Albumart} alt="Dhamma.gift" className="dg-hero-image" />
 

@@ -1,5 +1,5 @@
 ---
-title: "Ключевые возможности Dhamma.Gift"
+title: "Ключевые Возможности Dhamma.Gift"
 description: "Поиск, построчный ридер, словарь пали и озвучка Сутт и Винаи, объединённые в один рабочий процесс."
 slug: /key-features
 sidebar_position: 1

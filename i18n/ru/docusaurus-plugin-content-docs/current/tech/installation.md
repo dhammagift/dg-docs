@@ -1,5 +1,5 @@
 ---
-title: "Установка и запуск"
+title: "Установка и Запуск"
 description: "Репозитории Dhamma.Gift и как установить и запустить сайт, поисковый сервер и приложения."
 slug: /installation
 sidebar_position: 1

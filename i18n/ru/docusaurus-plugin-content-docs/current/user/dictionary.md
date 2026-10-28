@@ -1,5 +1,5 @@
 ---
-title: "Словарь пали"
+title: "Словарь Пали"
 description: "Встроенный словарь пали (DPD): клик по слову при чтении, а полный мультисловарь — на dict.dhamma.gift."
 slug: /dictionary
 sidebar_position: 4

@@ -1,6 +1,6 @@
 ---
-title: "Справка Dhamma.Gift"
-description: "Справка Dhamma.Gift: поиск, чтение и прослушивание Сутт и Винаи на пали с переводами; принципы перевода; приложения."
+title: "Помощь Dhamma.Gift"
+description: "Помощь Dhamma.Gift: поиск, чтение и прослушивание Сутт и Винаи на пали с переводами; принципы перевода; приложения."
 slug: /
 sidebar_position: 0
 sidebar_label: Главная
@@ -9,7 +9,7 @@ sidebar_label: Главная
 import Albumart from '@site/static/img/diamond-logo.png';
 import SiteLink from '@site/src/components/SiteLink';
 
-# Справка Dhamma.gift
+# Помощь Dhamma.Gift
 
 <img src={Albumart} alt="Dhamma.gift" className="dg-hero-image" />
 

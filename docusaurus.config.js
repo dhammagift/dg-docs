@@ -13,7 +13,7 @@ const RU_BUILD = process.env.DOCS_BUILD_LOCALE === 'ru';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: RU_BUILD ? 'Справка Dhamma.Gift' : 'Dhamma.Gift Help',
+  title: RU_BUILD ? 'Помощь Dhamma.Gift' : 'Dhamma.Gift Help',
   tagline: 'Search & Reader for the Pali Canon',
   favicon: 'img/favicon.ico',
 
@@ -104,7 +104,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: RU_BUILD ? 'Справка Dhamma.Gift' : 'Dhamma.Gift Help',
+        title: RU_BUILD ? 'Помощь Dhamma.Gift' : 'Dhamma.Gift Help',
         logo: {
           // Shell (shankha), not the diamond mark used elsewhere in the docs (breadcrumb
           // Home icon) — owner: this one specifically is the "go back to the live app" link
