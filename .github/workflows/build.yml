@@ -43,6 +43,8 @@ jobs:
 
       - name: Build RU
         run: npm run build:ru
+      - name: SEO pass (hreflang pairs, search page noindex)
+        run: node scripts/seo-postbuild.mjs
 
       - name: Publish (main → dist, preview → dist-preview)
         run: |

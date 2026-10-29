@@ -27,6 +27,10 @@ const config = {
   organizationName: 'dhammagift',
   projectName: 'dg-docs',
 
+  // Every page answers at its directory URL (/docs/x/): the server 301s /docs/x to it, so the canonical, the
+  // sitemap and the links must name that form, or Google sees a canonical that redirects (2026-10-30 audit).
+  trailingSlash: true,
+
   onBrokenLinks: 'throw',
 
   // Default `namespace: true` hashes url+baseUrl into every storage key (e.g. "theme-350"),
@@ -88,6 +92,8 @@ const config = {
           sidebarPath: './sidebars.js',
         },
         blog: false,
+        // The search page is a tool, not a document: noindex (scripts/seo-postbuild.mjs) and out of the sitemap.
+        sitemap: { ignorePatterns: ['**/search/'] },
         theme: {
           customCss: './src/css/custom.css',
         },

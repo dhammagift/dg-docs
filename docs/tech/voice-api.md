@@ -80,5 +80,5 @@ against the per-minute limit.
 
 ## Also at this address
 
-The same host serves the [MCP server](./mcp) (`/mcp`) and the site's [API](pathname:///api-docs/)
+The same host serves the [MCP server](./mcp.md) (`/mcp`) and the site's [API](pathname:///api-docs/)
 (`/api/…`), with the same texts and database as dhamma.gift.

@@ -80,5 +80,5 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 
 ## Что ещё по этому адресу
 
-Тот же адрес отдаёт [MCP-сервер](./mcp) (`/mcp`) и [API](pathname:///api-docs/) сайта (`/api/…`) —
+Тот же адрес отдаёт [MCP-сервер](./mcp.md) (`/mcp`) и [API](pathname:///api-docs/) сайта (`/api/…`) —
 те же тексты и та же база, что на dhamma.gift.
