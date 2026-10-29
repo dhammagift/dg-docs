@@ -1,6 +1,6 @@
 ---
 title: "Settings"
-description: "Set up Dhamma.Gift for how you read: languages, theme and text size, Pali script, where to search, which dictionary opens on a word, voices and sync."
+description: "Which dictionary opens on a word, voices for the Pali and the translation, Pali in 160 scripts or unpunctuated, your order of languages. Live settings in the help itself."
 slug: /settings
 sidebar_position: 3
 ---
