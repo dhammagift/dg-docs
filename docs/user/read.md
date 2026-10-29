@@ -1,6 +1,6 @@
 ---
 title: "Reader: Pali Text with Translations"
-description: "The Pali line by line beside the translation, several translators side by side, a first-letter mode for memorizing, Pali in 160 scripts, a dictionary on every word."
+description: "Read any sutta in Pali with the translation line by line, compare translators side by side, learn it by heart from first letters, or read the Pali in Devanagari or Thai."
 slug: /read
 sidebar_position: 2
 ---

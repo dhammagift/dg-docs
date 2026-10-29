@@ -1,6 +1,6 @@
 ---
 title: "Voice: Listen to the Suttas (TTS)"
-description: "Listen to any sutta with the first neural voices made for Pali, free and unlimited, plus English and Russian voices. Pali, translation or both, and A-B repeat."
+description: "Listen to any sutta in Pali, English or Russian with high-quality neural voices, free and without limits: the Pali, the translation or both, and repeat for memorizing."
 slug: /tts
 sidebar_position: 5
 ---

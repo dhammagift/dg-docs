@@ -1,6 +1,6 @@
 ---
-title: "MultiTool: The Best Dhamma Resources in One Place"
-description: "Every useful Dhamma and Pali resource on the web in one place: other editions of the Canon, AI and dictionaries, books, study materials and tools. Add your own."
+title: "MultiTool: Dhamma and Pali Resources in One Place"
+description: "Hand-picked links to the key Dhamma and Pali resources on the web: other editions of the Canon, dictionaries and AI tools, books and study materials. Add your own buttons."
 slug: /multitool
 sidebar_position: 6
 ---

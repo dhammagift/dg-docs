@@ -1,6 +1,6 @@
 ---
 title: "Sutta Podcasts"
-description: "The Suttas and Vinaya read aloud, one a day, in Pali, English and Russian. No filler and no talk: only the suttas, only the Dhamma."
+description: "The Suttas and Vinaya of the Pali Canon read aloud, one text a day in canonical order, in Pali, English and Russian: Apple Podcasts, YouTube Music, Amazon Music or RSS."
 slug: /podcasts
 sidebar_position: 16
 sidebar_label: Podcasts

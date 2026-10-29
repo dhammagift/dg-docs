@@ -1,6 +1,6 @@
 ---
 title: "Translation Editor"
-description: "The handiest CAT editor for translating the Pali Canon: Pali and translation line by line, as a table or running text, canonical formulas in one click."
+description: "A CAT editor for translating the Pali Canon line by line: the Pali beside your translation, a table or one text field, recurring formulas in a click, find and replace."
 slug: /translator
 sidebar_position: 9
 ---

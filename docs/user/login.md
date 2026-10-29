@@ -1,6 +1,6 @@
 ---
 title: "Login and Sync"
-description: "Your favorites, history, reading progress and settings on every device: sign in with Google, Apple, or anonymously with a secret phrase, no email."
+description: "Your favorites, notes, history, reading progress, custom buttons and settings on every device. Sign in with Google, Apple, or anonymously with a secret phrase."
 slug: /login
 sidebar_position: 7
 ---
