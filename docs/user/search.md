@@ -1,6 +1,6 @@
 ---
 title: "Search the Pali Canon"
-description: "Find every place in the Suttas and Vinaya where a word or phrase occurs, in Pali or in translation: quotes in context, a link straight to the line, all forms of the word."
+description: "Search the Suttas and Vinaya for a word or phrase and get a table: sutta, collection, match count, quote. Sort it, filter it, view it by texts or by words."
 slug: /search-guide
 sidebar_position: 1
 ---
