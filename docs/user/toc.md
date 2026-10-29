@@ -1,6 +1,6 @@
 ---
 title: "Contents of the Canon (TOC)"
-description: "The whole Sutta Pitaka and Vinaya as one tree: open a Nikaya, a book or a chapter in a couple of clicks and show only the translators you read."
+description: "The whole Sutta Pitaka and Vinaya as one tree: a Nikaya, a book or a chapter in a couple of clicks, with a filter by language and translator."
 slug: /toc
 sidebar_position: 4
 ---
