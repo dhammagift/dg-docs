@@ -144,7 +144,7 @@ the same passage:
 - **Voice** — the built-in TTS player (Alt+R).
 - **4nt** (s.4nt.org) — side-by-side comparison of Pali editions.
 - **DPR** — Digital Pali Reader, Burmese and Thai script.
-- **BJT** — Buddha Jayanthi Tipitaka.
+- **Tpt.lk** — the Buddha Jayanti Tipiṭaka at tipitaka.lk.
 - **SC** — SuttaCentral.net.
 - **TBW** — TheBuddhasWords.net.
 - **Th.ru / Th.su** — Theravada.ru / Theravada.su (Russian interface only).

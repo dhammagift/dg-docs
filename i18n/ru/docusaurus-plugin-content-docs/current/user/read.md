@@ -142,7 +142,7 @@ ISO-латиница → брахми → деванагари → тайско�
 - **Voice** — встроенный TTS-плеер (Alt+R).
 - **4nt** (s.4nt.org) — параллельное сравнение изданий пали.
 - **DPR** — Digital Pali Reader, мьянманское и тайское письмо.
-- **BJT** — Buddha Jayanthi Tipitaka.
+- **Tpt.lk** — Буддха Джаянти Типитака на tipitaka.lk.
 - **SC** — SuttaCentral.net.
 - **TBW** — TheBuddhasWords.net.
 - **Th.ru / Th.su** — Theravada.ru / Theravada.su (только в русском интерфейсе).
