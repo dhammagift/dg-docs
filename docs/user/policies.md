@@ -139,7 +139,7 @@ For inquiries regarding your privacy, please contact us at
 
 ## Terms
 
-Two cases, and the difference matters.
+Three cases, and the difference matters.
 
 ### Public domain — SuttaCentral
 
@@ -148,6 +148,37 @@ the Pali root texts and the translations — are dedicated to the public domain 
 [CC0](https://creativecommons.org/public-domain/cc0/). You may use, copy and
 adapt them freely, including commercially, with no permission needed. See
 [SuttaCentral licensing](https://suttacentral.net/licensing).
+
+### Other Pali editions: each under its own license
+
+Besides SuttaCentral's Pali text (the Mahāsaṅgīti as edited by SuttaCentral),
+Dhamma.gift gives other editions of the Pali Canon, cut into the same segments
+as SuttaCentral, and the variant readings of all of them. Each keeps the
+license of its source:
+
+- **Buddha Jayanti Tipiṭaka** (Sri Lanka), from
+  [tipitaka.lk](https://github.com/pathnirvana/tipitaka.lk):
+  [CC BY-ND 4.0](https://github.com/pathnirvana/tipitaka.lk/blob/master/LICENSE.md),
+  attribution tipitaka.lk. We do not correct this text: errors are reported to
+  tipitaka.lk.
+- **Chaṭṭha Saṅgāyana Tipiṭaka**, from the
+  [Vipassana Research Institute](https://github.com/VipassanaTech/tipitaka-xml)
+  (tipitaka.org): free for non-commercial use, attribution VRI.
+- **Syāmaraṭṭha Tipiṭaka** (Siam Rath, 1927), from
+  [E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc): no license stated by
+  the source; attribution E-Tipitaka (Sutee Sudprasert).
+- **Mahāsaṅgīti Tipiṭaka as printed** (World Tipiṭaka Edition, Dhamma Society,
+  2005), from [tipitaka2500.github.io](https://tipitaka2500.github.io):
+  [CC0](https://creativecommons.org/public-domain/cc0/) as published there;
+  attribution World Tipiṭaka Project, Dhamma Society.
+- **Pali Text Society editions**, as input by the Dhammakaya Foundation, from
+  [GRETIL](https://gretil.sub.uni-goettingen.de/):
+  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), © Pali Text
+  Society and Dhammakaya Foundation. What is made from them stays CC BY-SA 4.0.
+
+Each variant reading carries the license of the edition it comes from.
+Details, file by file:
+[LICENSE.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/LICENSE.md).
 
 ### Everything else — free, non-commercial use only
 

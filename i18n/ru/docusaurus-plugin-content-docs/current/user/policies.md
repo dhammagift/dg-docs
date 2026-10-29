@@ -140,7 +140,7 @@ Dhamma.gift **только по желанию пользователя** для
 
 ## Условия использования
 
-Два разных случая, и разница существенна.
+Три разных случая, и разница существенна.
 
 ### Общественное достояние — SuttaCentral
 
@@ -150,6 +150,38 @@ Bilara) — палийские тексты и переводы — переда
 [CC0](https://creativecommons.org/public-domain/cc0/). Их можно свободно
 использовать, копировать и перерабатывать, в том числе коммерчески, без
 чьего-либо разрешения.
+
+### Другие издания Палийского канона: у каждого своя лицензия
+
+Кроме палийского текста SuttaCentral (Махасангити в редакции SuttaCentral),
+Dhamma.gift даёт другие издания Палийского канона, разбитые на те же сегменты,
+что и у SuttaCentral, и разночтения всех этих изданий. Каждое сохраняет
+лицензию своего источника:
+
+- **Буддха Джаянти Типитака** (Шри-Ланка), из
+  [tipitaka.lk](https://github.com/pathnirvana/tipitaka.lk):
+  [CC BY-ND 4.0](https://github.com/pathnirvana/tipitaka.lk/blob/master/LICENSE.md),
+  с указанием tipitaka.lk. Этот текст мы не исправляем: об ошибках сообщаем
+  tipitaka.lk.
+- **Чаттха Сангаяна Типитака**, от
+  [Vipassana Research Institute](https://github.com/VipassanaTech/tipitaka-xml)
+  (tipitaka.org): бесплатно для некоммерческого использования, с указанием VRI.
+- **Сиамская Типитака** (Siam Rath, 1927), из
+  [E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc): источник лицензию не
+  указал; с указанием E-Tipitaka (Sutee Sudprasert).
+- **Махасангити Типитака в печатном виде** (World Tipiṭaka Edition, Dhamma
+  Society, 2005), с [tipitaka2500.github.io](https://tipitaka2500.github.io):
+  [CC0](https://creativecommons.org/public-domain/cc0/), как указано там; с
+  указанием World Tipiṭaka Project, Dhamma Society.
+- **Издания Pali Text Society** в наборе Dhammakaya Foundation, из
+  [GRETIL](https://gretil.sub.uni-goettingen.de/):
+  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ru),
+  © Pali Text Society и Dhammakaya Foundation. Всё, что сделано на их основе,
+  остаётся под CC BY-SA 4.0.
+
+Каждое разночтение идёт под лицензией издания, из которого оно взято.
+Подробно, по файлам:
+[LICENSE.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/LICENSE.md).
 
 ### Всё остальное — бесплатно и только для некоммерческого использования
 
