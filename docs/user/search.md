@@ -100,7 +100,7 @@ erases.
 **Tip #8.** If a query times out, try a longer or more specific pattern.
 
 :::tip[Jump straight to a sutta by id]
-Type a sutta id (SuttaCentral-style, e.g. `dn22`) instead of a search term
+Type a sutta id (e.g. `dn22`) instead of a search term
 and you'll land directly in the reader on that sutta, skipping search
 entirely. Works for DN, MN, SN, AN, the Khuddaka Nikāya books listed
 above, and the Vinaya.

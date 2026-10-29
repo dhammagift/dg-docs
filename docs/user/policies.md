@@ -151,9 +151,9 @@ adapt them freely, including commercially, with no permission needed. See
 
 ### Other Pali editions: each under its own license
 
-Besides SuttaCentral's Pali text (the Mahāsaṅgīti as edited by SuttaCentral),
-Dhamma.gift gives other editions of the Pali Canon, cut into the same segments
-as SuttaCentral, and the variant readings of all of them. Each keeps the
+Besides the Mahāsaṅgīti Pali text from SuttaCentral, Dhamma.gift gives other
+editions of the Pali Canon, cut into the same segments, and the variant readings
+of all of them. Each keeps the
 license of its source:
 
 - **Buddha Jayanti Tipiṭaka** (Sri Lanka), from
