@@ -1,6 +1,6 @@
 ---
 title: "Key Features of Dhamma.Gift"
-description: "Search, a line-by-line reader, a Pali dictionary and a voice player for the Suttas and Vinaya, tied into one workflow."
+description: "Find a passage, read the Pali beside the translation, tap a word for the dictionary, then listen and learn it by heart, all in one window."
 slug: /key-features
 sidebar_position: 1
 ---

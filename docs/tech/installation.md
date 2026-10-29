@@ -1,6 +1,6 @@
 ---
 title: "Installation and Running"
-description: "The Dhamma.Gift repositories and how to install and run the site, the search server and the apps."
+description: "Run your own Dhamma.Gift: the open repositories and how to install the site, the search server and the apps."
 slug: /installation
 sidebar_position: 1
 ---

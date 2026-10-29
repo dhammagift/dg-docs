@@ -1,6 +1,6 @@
 ---
 title: "Dhamma Principles by the Suttas"
-description: "The points of the Buddha's Teaching from the Suttas that the \"o\" translations rest on: criteria for verifying teachings and spotting distortions."
+description: "The Buddha's own criteria from the Suttas for checking any teaching and spotting distortions: the ground our translations stand on."
 slug: /sutta
 sidebar_position: 1
 sidebar_label: Principles by Suttas

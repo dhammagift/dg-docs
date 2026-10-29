@@ -1,6 +1,6 @@
 ---
 title: "Sutta Podcasts"
-description: "The suttas read aloud, one a day, in English, Russian and Pali; each episode links to its text on Dhamma.Gift."
+description: "The Suttas and Vinaya read aloud, one a day, in Pali, English and Russian. No filler and no talk: only the suttas, only the Dhamma."
 slug: /podcasts
 sidebar_position: 16
 sidebar_label: Podcasts

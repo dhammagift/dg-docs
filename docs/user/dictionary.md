@@ -1,6 +1,6 @@
 ---
 title: "Pali Dictionary"
-description: "The built-in Pali dictionary (DPD): click a word while reading, or open the full multi-dictionary at dict.dhamma.gift."
+description: "Tap a Pali word and DPD opens over the text, offline too. Dict.Dhamma.Gift adds PTS, Cone, Sanskrit dictionaries and the Suttas' own definitions on one page."
 slug: /dictionary
 sidebar_position: 4
 ---

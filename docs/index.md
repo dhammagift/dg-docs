@@ -1,6 +1,6 @@
 ---
 title: "Dhamma.Gift Help"
-description: "Help for Dhamma.Gift: search, read and listen to the Suttas and Vinaya in Pali with translations; the principles of translation; the apps."
+description: "How to use Dhamma.Gift: search the Suttas and Vinaya, read the Pali line by line with translations, listen, learn by heart; the principles of our translations."
 slug: /
 sidebar_position: 0
 sidebar_label: Home

@@ -1,6 +1,6 @@
 ---
 title: "MCP Server for AI Agents"
-description: "An MCP server that lets AI assistants search the Pali Canon, read suttas and compare translations, answering with quotes and links."
+description: "Connect Claude, Cursor or another AI to the Pali Canon: the assistant searches the suttas, compares translations and answers with quotes and links."
 
 ---
 

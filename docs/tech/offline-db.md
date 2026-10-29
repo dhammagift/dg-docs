@@ -1,6 +1,6 @@
 ---
-title: "The Offline Database"
-description: "One SQLite file with the corpus and a trigram index: how it is built and how the PWA and the apps use it offline."
+title: "Offline Library"
+description: "The whole Canon on your device: one file with every text and a search index, so the site and the apps search and read with no internet."
 
 ---
 

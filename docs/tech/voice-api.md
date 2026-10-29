@@ -1,6 +1,6 @@
 ---
-title: "Voice API (TTS)"
-description: "The open Dhamma.Gift text-to-speech service for Pali, Russian and English: call it from a browser or a server, no key needed."
+title: "Text to Speech API"
+description: "Our free TTS for Pali, English and Russian: the same neural voices as on the site, from a browser or a server, no key, no sign-up."
 
 ---
 

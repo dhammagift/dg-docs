@@ -1,6 +1,6 @@
 ---
-title: "MultiTool: Links on the Home Screen"
-description: "The home screen tiles: reading Pali, other editions, AI and dictionaries, study materials and tools."
+title: "MultiTool: The Best Dhamma Resources in One Place"
+description: "Every useful Dhamma and Pali resource on the web in one place: other editions of the Canon, AI and dictionaries, books, study materials and tools. Add your own."
 slug: /multitool
 sidebar_position: 6
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Settings"
-description: "The Dhamma.Gift settings: interface language, theme, reading languages, Pali script, text size, search scope and cloud sync."
+description: "Read in over a dozen languages, see the Pali in any of 160 scripts or without punctuation, as in the manuscripts; pick your dictionary and where to search."
 slug: /settings
 sidebar_position: 3
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Memo: Memorize Suttas by Ear"
-description: "Build an audio session from any text: slicing by sentence or line, repetitions, pauses, a gong, MP3 export and first-letter cues."
+title: "Memo: Memorize & Meditate"
+description: "Turn any passage into an audio session: phrase by phrase, with repeats, pauses and a gong. Take it along as an MP3 and learn suttas by heart with first-letter cues."
 slug: /memo
 sidebar_position: 8
 ---
