@@ -103,9 +103,9 @@ anywhere.
 
 ## Pali root text
 
-The Pali edition used for search and the reader. Search currently always
-runs against **Mahāsaṅgīti** (MS); the BJT, VRI and SIAM editions are
-shown in the UI but marked "coming soon" — not available yet.
+Results show the **Mahāsaṅgīti** (MS) text, with variant readings from
+all editions (BJT, VRI, Siam, PTS); search covers those readings too.
+Choosing BJT, VRI, SIAM or PTS as the text in the reader is coming soon.
 
 ## Voice
 

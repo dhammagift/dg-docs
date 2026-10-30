@@ -48,6 +48,9 @@ the real search page):
 Right under the search box, a **"variants"** link shows up when the word
 you searched for has alternate spellings elsewhere in the texts.
 
+Search also covers the variant readings of all Pali editions (BJT, VRI,
+Siam, PTS): a word spelled differently in another edition is found too.
+
 ## Basics
 
 :::info[Which languages search covers]
