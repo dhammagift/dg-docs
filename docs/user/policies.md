@@ -184,8 +184,9 @@ Three cases, and the difference matters.
 All materials from [SuttaCentral](https://suttacentral.net/) (Bilara data) —
 the Pali root texts and the translations — are dedicated to the public domain under
 [CC0](https://creativecommons.org/public-domain/cc0/). You may use, copy and
-adapt them freely, including commercially, with no permission needed. See
-[SuttaCentral licensing](https://suttacentral.net/licensing).
+adapt them freely, including commercially, with no permission needed. This
+includes the Thai translation of the Bhikkhunī Pātimokkha by **Jayasāro
+Bhikkhu**. See [SuttaCentral licensing](https://suttacentral.net/licensing).
 
 ### Other Pali editions: each under its own license
 
@@ -235,9 +236,10 @@ them:
 - edited versions of those Russian translations, prepared by the project;
 - materials from **[TheBuddhasWords.net](https://thebuddhaswords.net/)**.
 
-Thai translations by **Mahachula**, **Siam Rath**, **Ajahn Jayasaro** and
-**Phra Naratharo** are shown as credited on each text; the rights remain with
-their translators and publishers.
+Thai translations by **Mahachula** and **Siam Rath** (from
+[E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc), which states no
+licence) and by **Phra Naratharo** are shown as credited on each text, for free,
+non-commercial use; the rights remain with their translators and publishers.
 
 For any use beyond free, personal, non-commercial reading, please contact the
 copyright holders. The Dhamma.gift website and applications are offered free
