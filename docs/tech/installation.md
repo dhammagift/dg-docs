@@ -12,8 +12,10 @@ together make up one product:
 
 | Repository | What it is |
 |---|---|
-| [`dg-node`](https://github.com/dhammagift/dg-node) | The main site (Express + SPA) — search, reader, this docs portal (`dg-docs/`) |
-| [`dg-app-full`](https://github.com/dhammagift/dg-app-full) | The offline Android/iOS app (Capacitor). Builds its UI from a `dg-node` checkout — nothing is copied by hand |
+| [`dg-node`](https://github.com/dhammagift/dg-node) | The main site (Fastify): search, reader, the site's API and the MCP server |
+| [`dg-docs`](https://github.com/dhammagift/dg-docs) | This docs portal (Docusaurus, EN and RU) |
+| [`dg-apps`](https://github.com/dhammagift/dg-apps) | The apps: Dhamma.Gift, Uposatha and the Dictionary (Capacitor, Android and iOS). The DG app builds its UI from a `dg-node` checkout, nothing is copied by hand |
+| [`pali-tts`](https://github.com/dhammagift/pali-tts) | The voice service behind `api.dhamma.gift/api/tts`, and the Pāḷi pronunciation rules |
 | [`dg`](https://github.com/dhammagift/dg) | The legacy PHP site — the source of assets (`assets/`), 4nt, the TTS player (`read/`) and old pages (`config/`, `login/`, `memo/`) that `dg-node` links to via symlinks |
 | [`offline-data`](https://github.com/dhammagift/offline-data) | The project's own translations (best ru/en translation, second opinion, AI translation) |
 | [`suttacentral/sc-data`](https://github.com/suttacentral/sc-data) | The external SuttaCentral repository — Pali texts and translations in Bilara format (not ours, public) |
@@ -27,7 +29,7 @@ and symlinks"), not as npm dependencies.
 
 ## The site (`dg-node`) — from nothing to a running server
 
-Requires **Node.js 22.5 or newer** (production runs 24.20.0), **npm** and
+Requires **Node.js 22.5 or newer**, **npm** and
 **git**. The version floor is not a preference: the server reads its search
 database through `node:sqlite`, which only exists from 22.5 on. `setup.sh`
 checks this first and stops with a clear message rather than letting it fail
@@ -52,8 +54,7 @@ That is the whole thing. `setup.sh` does, in one pass:
    and `siteroot/data/{suttacentral.net,dhammagift}` so they point at the
    fresh clones (the same thing CI does, just without `sudo` or system
    paths — this version is meant for a regular dev machine).
-3. `npm install` — both in the `dg-node` root and in `dg-docs/` (this
-   docs portal).
+3. `npm install` in the `dg-node` root.
 4. `npm run build-db` — the search skeleton `dg_db_light.json`, used by the
    legacy Express server.
 5. `npm run build-search-db` — **`dg.db`, the SQLite/FTS5 corpus the
@@ -83,22 +84,25 @@ http://localhost:3000/dn22:1.1
 | | Engine | Start | Default port |
 |---|---|---|---|
 | `dg-fastify.js` | Fastify, SQLite FTS5 (`dg.db`) | `./scripts/start.sh`, `npm start`, or `npm run start:fastify` | 3000 |
-| `dg-light.js` | Express, searches by shelling out to `grep` — **legacy, unused in prod** | `npm run start:express` | 3001 |
+| `unused/dg-light.js` | Express, searches by shelling out to `grep` — **legacy, unused in prod** | `npm run start:express` | 3001 |
 
 `scripts/start.sh` launches the first one — it is what production serves.
 `dg-light.js` is kept only for reference; nothing requires() it and it isn't
 kept in sync with the client anymore.
 
-The docs portal (what you're reading now) builds separately, in two locales:
+The docs portal (what you're reading now) is its own repository,
+[`dg-docs`](https://github.com/dhammagift/dg-docs), built in two locales:
 
 ```bash
-cd dg-docs
+git clone https://github.com/dhammagift/dg-docs.git && cd dg-docs
+npm install
 npm run build      # English version → build/
 npm run build:ru   # Russian version → build-ru/
 ```
 
-The built output is git-ignored, so a fresh checkout has no `dg-docs/build/`
-until you run this — the `/docs` route stays empty until then.
+On the server, `dg-node/dg-docs/` is a git-ignored clone of that
+repository's `dist` branch (the built pages, which CI publishes), so a
+fresh `dg-node` checkout has an empty `/docs` route until you clone it.
 
 ## The search database (`dg.db`) and the Fastify server
 
@@ -119,8 +123,7 @@ The build reads the corpus directly — the same trees `scripts/setup.sh` wires
 up — and derives everything it needs itself, so it does **not** depend on
 `dg_db_light.json` or on `npm run build-db` having been run first. (The
 Express server still uses that skeleton; the two pipelines are deliberately
-independent.) `scripts/setup.sh` does not call it yet, so on a fresh checkout
-run it by hand before starting the Fastify server.
+independent.)
 
 `dg.db` is generated and git-ignored. Never hand-edit it: the next build
 replaces the file wholesale. Anything written by a person — translator
@@ -228,5 +231,4 @@ folder. The Safari build needs converting to an Xcode project first — see
 
 ## See also
 
-The reference for every site endpoint — Swagger/OpenAPI, lives right
-next to this page in the same section.
+The reference for every site endpoint: [Swagger/OpenAPI](https://dhamma.gift/api-docs/).

@@ -12,8 +12,10 @@ sidebar_position: 1
 
 | Репозиторий | Что это |
 |---|---|
-| [`dg-node`](https://github.com/dhammagift/dg-node) | Основной сайт (Express + SPA) — поиск, ридер, этот docs-портал (`dg-docs/`) |
-| [`dg-app-full`](https://github.com/dhammagift/dg-app-full) | Офлайн-приложение Android/iOS (Capacitor). Свой UI собирает из чекаута `dg-node` — руками ничего не копируется |
+| [`dg-node`](https://github.com/dhammagift/dg-node) | Основной сайт (Fastify): поиск, ридер, API сайта и MCP-сервер |
+| [`dg-docs`](https://github.com/dhammagift/dg-docs) | Этот портал документации (Docusaurus, EN и RU) |
+| [`dg-apps`](https://github.com/dhammagift/dg-apps) | Приложения: Dhamma.Gift, Упосатха и Словарь (Capacitor, Android и iOS). Приложение DG собирает свой UI из чекаута `dg-node`, руками ничего не копируется |
+| [`pali-tts`](https://github.com/dhammagift/pali-tts) | Сервис голоса за `api.dhamma.gift/api/tts` и правила произношения пали |
 | [`dg`](https://github.com/dhammagift/dg) | Легаси PHP-сайт — источник ассетов (`assets/`), 4nt, TTS-плеера (`read/`) и старых страниц (`config/`, `login/`, `memo/`), на которые `dg-node` ссылается симлинками |
 | [`offline-data`](https://github.com/dhammagift/offline-data) | Собственные переводы проекта (лучший ru/en перевод, второе мнение, AI-перевод) |
 | [`suttacentral/sc-data`](https://github.com/suttacentral/sc-data) | Внешний репозиторий SuttaCentral — пали-тексты и переводы в формате Bilara (не наш, публичный) |
@@ -27,7 +29,7 @@ symlinks"), а не как npm-зависимости.
 
 ## Сайт (`dg-node`) — с нуля до работающего сервера
 
-Требуется **Node.js 22.5 или новее** (в продакшене 24.20.0), **npm** и
+Требуется **Node.js 22.5 или новее**, **npm** и
 **git**. Ограничение по версии не пожелание: сервер читает поисковую базу
 через `node:sqlite`, а он появился только в 22.5. `setup.sh` проверяет это
 первым делом и останавливается с внятным сообщением, а не даёт упасть позже.
@@ -51,8 +53,7 @@ cd dg-node
    `siteroot/data/{suttacentral.net,dhammagift}` на свежие клоны (то же
    самое делает CI, только без `sudo` и системных путей — эта версия
    рассчитана на обычную машину разработчика).
-3. `npm install` — и в корне `dg-node`, и в `dg-docs/` (этот портал
-   документации).
+3. `npm install` в корне `dg-node`.
 4. `npm run build-db` — скелет поиска `dg_db_light.json`, его использует
    легаси-сервер на Express.
 5. `npm run build-search-db` — **`dg.db`, корпус SQLite/FTS5, который
@@ -82,23 +83,25 @@ http://localhost:3000/dn22:1.1
 | | Движок | Запуск | Порт по умолчанию |
 |---|---|---|---|
 | `dg-fastify.js` | Fastify, SQLite FTS5 (`dg.db`) | `./scripts/start.sh`, `npm start` или `npm run start:fastify` | 3000 |
-| `dg-light.js` | Express, ищет вызовом `grep` — **legacy, в проде не используется** | `npm run start:express` | 3001 |
+| `unused/dg-light.js` | Express, ищет вызовом `grep` — **legacy, в проде не используется** | `npm run start:express` | 3001 |
 
 `scripts/start.sh` поднимает первый — именно он работает в продакшене.
 `dg-light.js` оставлен только для истории — его никто не require()'ит и он
 больше не синхронизируется с клиентом.
 
-Портал документации (то, что вы сейчас читаете) собирается отдельно, в двух
-локалях:
+Портал документации (то, что вы сейчас читаете) — отдельный репозиторий,
+[`dg-docs`](https://github.com/dhammagift/dg-docs), он собирается в двух локалях:
 
 ```bash
-cd dg-docs
+git clone https://github.com/dhammagift/dg-docs.git && cd dg-docs
+npm install
 npm run build      # английская версия → build/
 npm run build:ru   # русская версия → build-ru/
 ```
 
-Результат сборки в `.gitignore`, поэтому на свежем клоне `dg-docs/build/`
-нет вовсе — маршрут `/docs` будет пустым, пока не соберёте.
+На сервере `dg-node/dg-docs/` — клон ветки `dist` этого репозитория
+(готовые страницы, их публикует CI), он в `.gitignore`, поэтому на свежем
+чекауте `dg-node` маршрут `/docs` пуст, пока его не склонировать.
 
 ## Поисковая база (`dg.db`) и сервер на Fastify
 
@@ -119,8 +122,6 @@ npm run build-search-db     # → dg.db, около 600 МБ, ~85 секунд
 `scripts/setup.sh`, — и всё нужное выводит сам, поэтому он **не** зависит ни
 от `dg_db_light.json`, ни от предварительного `npm run build-db`. (Скелет
 по-прежнему нужен Express-серверу; два конвейера сознательно независимы.)
-`scripts/setup.sh` его пока не вызывает, так что на свежем клоне запустите
-руками перед первым стартом Fastify-сервера.
 
 `dg.db` — генерируемый файл, он в `.gitignore`. Править его руками нельзя:
 следующая сборка перезапишет файл целиком. Всё, что пишет человек — подписи
@@ -230,5 +231,4 @@ telegram/bin/python main.py config.dgift_bot.json
 
 ## См. также
 
-Справочник по всем эндпоинтам сайта — Swagger/OpenAPI, живёт по соседству
-в этом же разделе.
+Справочник по всем эндпоинтам сайта: [Swagger/OpenAPI](https://dhamma.gift/api-docs/).
