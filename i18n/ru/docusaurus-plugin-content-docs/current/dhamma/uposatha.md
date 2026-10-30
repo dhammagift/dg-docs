@@ -32,12 +32,15 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 ## Где работает
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
+  <a href="https://apps.apple.com/app/id6816601259"><img src="/assets/img/buttons/appstore-cta.png" alt="Uposatha by the Suttas в App Store" style={{maxWidth: '200px'}} /></a>
+  <SiteLink to="/apps?app=uposatha"><img src="/assets/img/buttons/google-play-cta.png" alt="Uposatha by the Suttas в Google Play" style={{maxWidth: '200px'}} /></SiteLink>
   <a href="https://apps.microsoft.com/detail/9NMD1L6H52ZN"><img src={MsStore} alt="Uposatha by the Suttas в Microsoft Store" style={{maxWidth: '200px'}} /></a>
   <a href="https://t.me/dgift_bot"><img src="/assets/img/buttons/telegram-cta.png" alt="Открыть @dgift_bot в Telegram" style={{maxWidth: '200px'}} /></a>
   <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Открыть календарь как веб-приложение" style={{maxWidth: '200px'}} /></SiteLink>
 </div>
 
-- **Android** — *Uposatha by the Suttas* в <SiteLink to="/apps?app=uposatha">Google Play</SiteLink>: календарь как приложение.
+- **iPhone и iPad** — *Uposatha by the Suttas* в [App Store](https://apps.apple.com/app/id6816601259): календарь как приложение, с напоминаниями и виджетами на экране.
+- **Android** — *Uposatha by the Suttas* в <SiteLink to="/apps?app=uposatha">Google Play</SiteLink>: календарь как приложение, с напоминаниями и виджетами на экране.
 - **Windows 11** — *Uposatha by the Suttas* в [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN): календарь в своём окне и три виджета для доски
   виджетов (Win + W, затем «+»). *Uposatha + kala* — сколько до ближайшей упосатхи и время ли сейчас для еды; *Day & night* —
   какая часть дня или ночи идёт; *Month* — месяц с отмеченными днями упосатхи.
