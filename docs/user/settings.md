@@ -39,6 +39,8 @@ where you are — here are all of them, together:
   Pāḷi punctuation (anywhere there's Pali text).
 - **Devanagari script** — only shows up while the reader is in
   "Devanagari" mode (see [Reader](/read)).
+- **Several words** — how words typed together are found: In a row, In a
+  paragraph, or in the Whole text (see [Search](/search-guide)).
 - **Pāḷi diacritics** — buttons for Pali special characters (ā ī ū ṁ ñ ṅ
   ṭ ḍ ṇ ḷ); clicking one inserts it straight into the search box.
 
@@ -56,11 +58,13 @@ anywhere.
   in sync live, same-origin.)
 - **Cloud** — sync bookmarks, notes and settings across devices, see
   [Login](/login).
+- **Button descriptions** — a short line under each home-screen button's
+  name; turned off, the description stays as a hover tooltip only.
 
 ## Reading
 
-- **Reading languages** — far more than just English and Russian: a list
-  of about fifteen languages with a text count for each. The first one
+- **Reading languages** — far more than just English and Russian: 25
+  languages with a text count for each. The first one
   picked is your primary language, and how many you pick determines the
   reader's display mode (see [Reading modes](/read#reading-modes)); drag
   the chips to reorder them.
@@ -68,11 +72,11 @@ anywhere.
   <img src={SettingsLanguages} alt="Choosing reading languages — well beyond just English and Russian" style={{maxWidth: 'min(460px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Pali script** — Latin (ISO) and other scripts (see [Pali
-  script](/read#pali-script) on the Reader page). A separate toggle
-  decides whether the choice applies everywhere or only in "Devanagari"
-  mode.
-- **Text size** — plus/minus, the same **Alt+=** / **Alt+-** used
-  everywhere on the site.
+  script](/read#pali-script) on the Reader page). The toggle **Only in
+  "Devanagari" mode** decides whether the choice applies everywhere or only
+  in the reader's "Devanagari" mode.
+- **Text size** — plus/minus, from 70 % to 250 %, the same **Alt+=** /
+  **Alt+-** used everywhere on the site (**Alt+0** goes back to 100 %).
 - **Show Pali punctuation** — turn off to strip commas/quotes and
   replace periods/`?`/`!` with a vertical bar — closer to how manuscripts
   look. **Alt+G**
@@ -96,6 +100,7 @@ anywhere.
 - **Dict.DG** — the master on/off switch for the dictionary platform
   (see [Dictionary](/dictionary)).
 - **Mode** — exactly which window/tab opens when you click a word.
+- **En / Ru** — the language of the dictionary's meanings.
 - **Auto-search selected text** — the same thing as the multi-select
   button in the reader (**Alt+J**): select several words and the
   dictionary looks them up on its own, no button click needed. Comes
@@ -109,14 +114,18 @@ Choosing BJT, VRI, SIAM or PTS as the text in the reader is coming soon.
 
 ## Voice
 
-- **Google Cloud API key** — your own key for higher-quality voices
-  (stored only in this browser) — details on [Voice / TTS](/tts).
+- **Google Cloud API key** — optional: the Google voices work with a
+  built-in trial key, your own key is for regular use (stored only in this
+  browser) — details on [Voice / TTS](/tts).
 - **Voice and playback speed** — opens a separate panel (the same one the
   settings icon in the reader's own player opens, Alt+R) — see
   [Voice / TTS](/tts).
 
 ## Data
 
+- **Offline library** — download the whole library to this device, so
+  search and reading work without internet; "Delete" frees the space. It
+  doesn't work in a private (incognito) window.
 - **Search history and favorites** — "Clear" wipes them from this device
   (stored locally unless you're signed in to [the cloud](/login)).
 - **All settings** — "Reset" returns everything on this page to its

@@ -124,12 +124,22 @@ GitHub.
   hand) — jump into the reader right at that line.
 - **✦** — an invisible link at the start and end of each quoted fragment,
   to open the reader at exactly that spot.
-- The **Search** field inside the table does simple filtering of results
-  already shown; the **Custom Search Builder** at the bottom does more
-  elaborate multi-condition filtering.
-- **Export** — download the results in a format handy for AI or analysis.
+- **Tap a row** and a Play button appears to read that quote aloud;
+  **Alt+R** reads the results from the first quote.
+- The **Search** field inside the table filters the results already shown.
+  It spells loosely: no diacritics, case, aspiration or doubled letters
+  (`tanha` finds taṇhā, `dama` finds dhamma). The **Custom Search Builder**
+  at the bottom does multi-condition filtering.
+- **Export** — download the results as TXT, PDF or MD (Markdown), handy for
+  AI or analysis.
 - The **Words** button switches the table to results grouped by word
-  instead of by sutta.
+  instead of by sutta. With a pattern such as `kacch.*a` it lists the word
+  forms found.
+- **Several words.** In Quick Settings (Alt+S), "Several words" chooses how
+  words typed together are found: **In a row**, **In a paragraph** or in the
+  **Whole text** (all the words, at any distance from each other).
+- **Collections** on the home screen are ready-made searches on one theme;
+  "Show all" lists them.
 - Below the table, links to a few standalone helper tools: **Make List**
   (build a list from arbitrary text), **List Diff** (compare two lists of
   links) and **Sutta Diff** (compare editions of a sutta) — each opens as
@@ -144,8 +154,9 @@ GitHub.
 - **Type** — `4 Nikāyas` (Dīgha/Majjhima/Saṁyutta/Aṅguttara), `Khuddaka
   Nikāya` (any KN book), or `Vinaya` (anything from the Vinaya).
 - **Quote** — the quote containing the match.
-- **Links** — Pi (read on Dhamma.Gift Read), En (TheBuddhasWords.net), Ru
-  (Theravada.ru or Theravada.su, when available).
+- **Links** — Pi (read on Dhamma.Gift), Ru (Theravada.ru or
+  tipitaka.theravada.su, when available) and the Pali editions side by side
+  on s.dhamma.gift.
 
 For edition abbreviations (`ms`, `pts1ed`, `sya-all`, `mr`, etc.), see the
 <SiteLink to="/assets/texts/abbr.html">Edition Abbreviations</SiteLink> page or
@@ -162,6 +173,7 @@ For edition abbreviations (`ms`, `pts1ed`, `sya-all`, `mr`, etc.), see the
 | Alt+Space, Alt+Z | Show/hide Pali or other languages in results |
 | Ctrl+Shift+F (Cmd+Shift+F on Mac) | Find on page (site-wide, not just here) — also in the burger menu |
 | Shift+Space | Collapse/expand all search results |
+| Alt+R | Read the results aloud |
 | / | Put the cursor into the search field |
 
 ## Advanced
