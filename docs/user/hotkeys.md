@@ -28,7 +28,7 @@ way.
 | **Alt+S** | Quick settings |
 | **Alt+Shift+S** | Full settings |
 | **Alt+P** or **Alt+Y** | Quick window (compass): favorites, history, key suttas |
-| **Alt+H** | Help for the current page: search, reader, table of contents |
+| **Alt+H** | Help for the current page: search, reader, table of contents; on the home page, [Key features](/key-features) |
 | **Alt+T** | Light / dark / auto theme |
 | **Alt+−** / **Alt+=** / **Alt+0** | Smaller / larger / normal text size |
 | **Alt+1** | Switch the site language (English / Russian) |
@@ -61,6 +61,7 @@ way.
 | Shortcut | What it does |
 |---|---|
 | **Shift+Space** | Expand / collapse all results |
+| **Alt+R** | Read the results aloud |
 
 ## Dictionary
 
@@ -78,6 +79,8 @@ Work while the player is open, without Alt/Ctrl:
 | Key | What it does |
 |---|---|
 | **S** | Auto-scroll on / off |
+| **Space** | Play / pause (with auto-scroll on) |
+| **←** / **→** (or **↑** / **↓**) | Previous / next line (with auto-scroll on) |
 | **1** … **4** | What to read: Pali · Pali then translation · translation · translation then Pali |
 | **−** / **+** | Slower / faster (step 0.05) |
 | **R** | Normal speed |

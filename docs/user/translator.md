@@ -25,16 +25,18 @@ This is a demo — saving does not work.
 - **Sutta number** — type an id (e.g. `sn56.11`, `an3.70`), with
   auto-detection of whether a translation already exists.
 - **Source language** — pick the source file's language.
-- **DT.org / DG** — open the current text on DigitalPaliReader.online / on
-  Dhamma.Gift.
-- **Refresh** — reload the translation from source.
+- **DT.org** — open dhammatalks.org/suttas/.
+- **DG** — open the current text on Dhamma.Gift.
+- **Update** — reload the translation from source.
 - **Find/Replace** — a search-and-replace window (escape `(`, `)`, `[`,
   `]` as `\(`, `\)`, `\[`, `\]`).
-- **Format** — auto-format line breaks.
+- **Format** (checkbox) — auto-format line breaks.
 - **Clear** — clear the input field.
 - **Open file / Load from server** — open a previously saved draft.
 - **Save** — export the translation as JSON.
-- **Diff Checker** — an external tool for comparing text versions.
+
+In the top bar, the **Diff Checker** icon opens an external tool for
+comparing text versions.
 
 ## Two input modes
 
@@ -62,8 +64,9 @@ the table.
 
 ## Quick templates
 
-Buttons for phrases that come up over and over in the canon — insert text
-at the cursor with one click: **4nt** / **4nt short** (the Four Noble
+Inside the Find/Replace window there are buttons for phrases that come up
+over and over in the canon. One click inserts the text at the cursor (in
+this editor, the inserted text is in Russian): **4nt** / **4nt short** (the Four Noble
 Truths formula, full and short), **n8p** / **n8p short** (the Noble
 Eightfold Path), **Thus said…** (a sutta's closing formula), plus an
 em-dash, curly quotes, and an inverted question mark for punctuation.

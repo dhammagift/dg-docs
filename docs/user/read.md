@@ -45,6 +45,9 @@ A mode isn't tied to one fixed language — "Devanagari", for instance,
 shows Pali in whichever script you've selected (see below) alongside the
 Latin transliteration, not literally the Devanagari script only.
 
+Translations come in 25 languages. For Thai, Mahachula (DN 1–34,
+MN 1–76) comes first, then Siam Rath.
+
 ## Context menu
 
 The reader's real gem is the per-line context menu. Hover (or tap) the
@@ -64,8 +67,8 @@ appears; clicking it opens a menu with 7 actions:
   the [Quick Window](/quickmodal).
 - **Memorize** (sometimes labeled "Meditate" — both open the same thing,
   the label is picked at random) — opens
-  [Memo](/memo) pre-filled with the text from this line to the end of
-  the sutta.
+  [Memo](/memo) pre-filled with the text from this line onward (up to
+  about 1,200 characters).
 - **Compare** — opens this line in 4nt with every Pali edition side by
   side (MS, royal, Burmese, BJT).
 
@@ -85,6 +88,12 @@ Thai. The full list — around 160 scripts (Burmese, Khmer, Sinhala, and
 anything else [Aksharamukha](https://www.aksharamukha.com/) can convert
 to) — is in the dropdown on the [Settings](/settings) page.
 
+## Text size
+
+The burger menu (☰) has **−** and **+** buttons for the text size, from
+70 % to 250 %. **Alt+−** and **Alt+=** do the same, **Alt+0** goes back
+to 100 %.
+
 ## Dictionary
 
 Clicking any Pali word (with the dictionary turned on) looks it up
@@ -102,7 +111,7 @@ the search box — also works inside the reader):
 - **Dictionary** — the same list of modes described on the
   [Dictionary](/dictionary) page: built-in DPD, Dict.DG popup or new
   window (full or mini), DharmaMitra.org, sutta-search-only, or an
-  external app (DictTango, Mdict, GoldenDict-NG) — separately for
+  external app (DPD Android, DictTango, Mdict, GoldenDict-NG) — separately for
   English and Russian DPD.
 - **Show variants** (Alt+V) and **Column mode** (Alt+C) — the same
   buttons already in the toolbar above the text, duplicated here for
@@ -127,14 +136,15 @@ keyboard doesn't have them.
 | Alt+A | Toggle the [dictionary](/dictionary) on word click |
 | Alt+N | Open the [dictionary](/dictionary) in a separate window |
 | Alt+W | Table of contents of the text |
-| Alt+2 | Open the [TOC Navigator](/toc) |
+| Alt+2 | Open the [TOC Navigator](/toc) at this sutta's chapter |
+| Alt+Z | Show/hide the Pali or the translation (the Pāḷi / En pill at the bottom right) |
+| Alt+− / Alt+= / Alt+0 | Smaller / larger / default text size |
 | Ctrl+← / Ctrl+→ | Previous / next sutta |
 | Click a line | Select it for the voice player (see [Voice / TTS](/tts)) |
 | Click ✦ at the start/end of a line | Open the context menu (see above) |
 | Right-click / long-press ✦ | Copy just the link |
 
-More hotkeys (theme, font, interface language, dictionary mode, TTS) are
-on [Settings](/settings) and [Voice / TTS](/tts).
+All hotkeys are listed on [Keyboard shortcuts](/hotkeys).
 
 ## External editions and cross-references
 
@@ -142,7 +152,7 @@ The strip under the title links out to other editions and resources for
 the same passage:
 
 - **Voice** — the built-in TTS player (Alt+R).
-- **4nt** (s.4nt.org) — side-by-side comparison of Pali editions.
+- **4nt** (s.dhamma.gift) — side-by-side comparison of Pali editions.
 - **DPR** — Digital Pali Reader, Burmese and Thai script.
 - **Tpt.lk** — the Buddha Jayanti Tipiṭaka at tipitaka.lk.
 - **SC** — SuttaCentral.net.
@@ -153,4 +163,19 @@ the same passage:
 
 Further along the same row: icons to show/hide variants (Alt+V above),
 1/2 columns, the [dictionary](/dictionary), multi-select for the
-dictionary, the compass, and "Help" (links to this page).
+dictionary, the compass, and "Help" (links to this page). The contents
+icon (Alt+2) opens the [table of contents](/toc) at this sutta's own
+chapter. A bell appears in the toolbar when the text belongs to one of
+your Subscriptions (see the [Quick Window](/quickmodal)).
+
+## Under the text
+
+- **Listen in MP3** — under some texts, a line with MP3 files of the
+  whole text: the Pali and the translation, with the translator named.
+- Under every text: links to **Principles by the Suttas · Rationale ·
+  Glossary**.
+- A row of icons: copy link, export (saves the sutta as PDF or Markdown),
+  Edit Translation (the [Translation Editor](/translator)),
+  [Memo](/memo), Create Lists, Compare, DharmaMitra and 4nt.
+- The **Pāḷi / En** pill at the bottom right (Alt+Z) shows or hides
+  either language.

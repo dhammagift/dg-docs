@@ -37,6 +37,11 @@ also open it from anywhere on the site — **Alt+2**.
 
   <img src={TocPatimokkhaInline} alt="Inline Pātimokkha preview right inside the TOC navigator" style={{maxWidth: 'min(700px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
+  In the Pātimokkha list, a rule's title opens the rule; the **Story**
+  link next to it opens the rule's analysis in the Vibhaṅga. The **Show
+  the Pātimokkha** switch in the filter panel shows or hides both
+  Pātimokkhas.
+
 - **Short URLs** — `/toc/<id>` opens the TOC scrolled straight to a given
   section (e.g. `/toc/mn`, `/toc/sn25`).
 

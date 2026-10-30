@@ -15,16 +15,31 @@ import EditTile from '@site/static/img/help/multitool-edit-tile-en.png';
 
 :::tip[The buttons are yours to rearrange]
 MultiTool supports customization: reordering buttons, adding your own
-with your own icons, hiding the ones you don't need — and all of it syncs
-to the Cloud once you're signed in. Details in [Make it your
-own](#make-it-your-own) below.
+with your own icons, hiding the ones you don't need. Details in [Make it
+your own](#make-it-your-own) below.
 :::
 
 MultiTool is the set of links on the <SiteLink to="/">Dhamma.gift</SiteLink>
-home screen — a Dhamma multi-tool gathering links to the most important
-Pali and Dhamma resources, study materials, and utilities: **Read Pāḷi**,
-**External** (other Pali editions), **AI & Dicts**, **Materials**,
-**Tools**.
+home screen — a Dhamma multi-tool gathering links to key Pali and Dhamma
+resources, study materials, and utilities: **Read Pāḷi**, **External**
+(other Pali editions), **Subscriptions**, **AI & Dicts**, **Materials**,
+**Tools**, **Favorites, history, subscriptions** and **Help**.
+
+Some of what the tiles hold:
+
+- **External** — **S.4nt.org** (also at s.dhamma.gift) shows the BJT,
+  CST and Thai editions of the Pali text side by side.
+- **Subscriptions** — a text a day, with reminders. Opens the
+  Subscriptions tab of the [Quick Window](/quickmodal).
+- **AI & Dicts** — **Google Custom Search** (`/cse`) runs your query over
+  a set of Dhamma sites.
+- **Materials** — **Hatthipada** (how the suttas define every word of the
+  four noble truths), **Declensions** (a declension trainer) and
+  **Patimokkha** (a Patimokkha trainer).
+- **Tools** — **Old.Dhamma.Gift** (the previous version of the site),
+  **Sutta Difference** (compare two suttas), **List Difference**, **Line
+  to List**, **Blurbs** (build a JSON of sutta summaries), and the **Loop
+  Timer**, **Repeat timer #2** and **Pomodoro** timers.
 
 Know a site or app that belongs here? Tell us via
 <SiteLink to="/#contacts">Contacts</SiteLink>.
@@ -52,8 +67,8 @@ the bottom, under "Settings":
   tile in this list opens it for editing — you can change the label,
   address, description and icon even on a built-in tile (after that it
   stops auto-updating along with the rest of the site; "Restore
-  original" in the same menu undoes the edit and turns auto-updating
-  back on):
+  original" in the button's edit form undoes the edit and turns
+  auto-updating back on):
 
   <img src={EditList} alt="List of tiles with visibility checkboxes" style={{maxWidth: 'min(480px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 - **Tile order** — on the home screen itself, tiles can be dragged: with
@@ -61,17 +76,15 @@ the bottom, under "Settings":
   doesn't interfere with a plain click); on a phone, press and hold for
   roughly a quarter-second, then drag (so it doesn't interfere with
   scrolling). The new order saves the moment you let go.
-- **Restore tiles** — this option only shows up in the "Settings" menu
-  when there's something to restore (something hidden, or the order
-  changed). It brings back the original set and order of tiles; if you've
+- **Reset buttons** — this option only shows up in the "Settings" menu
+  when there's something to reset (something hidden, the order changed,
+  or buttons of your own added). It brings back the original set and order of tiles; if you've
   added tiles of your own, those get deleted for good in the process (the
   app warns you and asks for confirmation first — there's no way to bring
   them back afterward).
 
-All of your own buttons and edits sync to the Cloud once you're signed
-in — see [Login](/login) for how sign-in and cloud sync work. A tile's
-custom emoji icon and the tile order itself are NOT synced — those stay
-purely local to this particular browser.
+Your own buttons, edits, custom emoji icons and the tile order are NOT
+synced to the Cloud — they stay purely local to this particular browser.
 
 ## Your own picks inside a category
 
@@ -83,8 +96,8 @@ top of the editorial one — say, to remove a star from something you
 don't care for, or mark your own favorite resource. These personal marks
 are also stored only in this browser, not in the Cloud.
 
-## Favorites and History
+## Favorites, history, subscriptions
 
-The **History** button on the home screen opens the same window as the
-compass icon — the "Favorites" tab, where bookmarks and search history
-live. See the [Quick Window](/quickmodal) page for more.
+The **Favorites, history, subscriptions** tile ("The '4NT' window") on
+the home screen opens the same window as the compass icon — the "☆ &
+History" tab, where bookmarks and search history live. See the [Quick Window](/quickmodal) page for more.
