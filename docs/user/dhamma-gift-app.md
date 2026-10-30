@@ -26,7 +26,8 @@ account needed.
 
 Download the whole library once (about 216 MB) and everything works in
 airplane mode: search, the table of contents, every text with its
-translations, and the dictionary. The download keeps going in the
+translations, and the dictionary. Voices can be downloaded too, so reading
+aloud also works offline ([Voice](/tts)). The download keeps going in the
 background and with the screen locked. Until then the app works online,
 exactly like the site. The library can be deleted any time: Settings →
 Offline library.
@@ -47,18 +48,20 @@ aloud ([Voice](/tts)).
   site → Share → Dhamma.Gift, and the search results open right away. On
   iPhone they appear in the share sheet itself, without leaving the app you
   were in. A shared dhamma.gift link opens that text.
-- **Shortcuts on the icon.** A long press on the app icon: table of
-  contents, favorites & history, Memo, dictionary, and the texts you read
-  last. On iPhone the same actions are available to Siri and the Shortcuts
-  app.
+- **Shortcuts on the icon.** A long press on the app icon. On Android:
+  favorites & history, plus either your 3 most recent texts or Contents,
+  Memo and Dictionary (Settings → Recent texts in app shortcuts). On
+  iPhone: favorites & history, Contents, Memo and Dictionary; the same
+  actions are available to Siri and the Shortcuts app.
+- **In the text-selection menu.** Select text in any app, and
+  Dhamma.Gift in the selection menu opens the search. *Android.*
 - **The phone's own search.** In Android's system search Dhamma.Gift is
   offered as a place to search: the query opens as a search in the app. The
-  texts you read recently show up there too. *Android. Finding any sutta by
-  its number or name right in the system results — coming (Android and iOS
-  Spotlight).*
-- **Quick Settings / Control Center.** A Dhamma.Gift button in the
-  notification shade: one tap from anywhere, offline. *Android; iOS
-  (Control Center) — coming.*
+  texts you read recently show up there too. *Android.*
+- **Quick Settings.** A Dhamma.Gift button in the notification shade: one
+  tap from anywhere, offline. *Android.*
+- **Player on the lock screen.** While a text is read aloud, its player is
+  in the notification shade and on the lock screen. *Android.*
 - **Links open in the app.** A dhamma.gift link tapped in a messenger or in
   notes (`https://dhamma.gift/mn1`) opens the text in the app, not in the
   browser.
@@ -76,5 +79,5 @@ optional and only syncs them between your devices ([Login](/login)).
 - **Windows 10 and 11:** Dhamma.Gift in the
   [Microsoft Store](https://apps.microsoft.com/detail/9NK892G5P5GT) — the site in its own
   window, always the current version.
-- **[PWA](/pwa)** — the site installed from the browser: an icon and
-  shortcuts, but no offline library.
+- **[PWA](/pwa)**: the site installed from the browser, with an icon,
+  shortcuts and the same offline library (not in a private window).

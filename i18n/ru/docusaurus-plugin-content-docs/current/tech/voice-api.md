@@ -43,13 +43,15 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 
 | `voice` | Язык | Что это |
 |---|---|---|
-| `pratham` | пали | нейроголос Piper + наши правила произношения пали (IAST → звуки, ударение, долгие гласные). Бета |
+| `pratham` | пали | «Pratham»: нейроголос Piper + наши правила произношения пали (IAST → звуки, ударение, долгие гласные). По умолчанию |
 | `dg` | пали | «o Dhamma.Gift»: голос, обученный на настоящем чтении пали. Бета |
-| `alan`, `miles`, `kathleen` | английский | голоса Piper (`miles` обучен на чтении Майлса, чтеца DG); слова пали и сокращения (Ven., SN 56.11) читаются правильно |
-| `puriso`, `irina` | русский | голоса Piper (`puriso` — мужской голос M1 из Supertonic, перенесённый в Piper); пали латиницей читается по-палийски |
+| `priyamvada` | пали | «Priyamvada»: женский голос Piper с теми же правилами |
+| `miles`, `alan`, `kathleen` | английский | голоса Piper. `miles` в меню называется «Yojanāni» (по умолчанию): обучен на чтении Майлса, чтеца DG. Слова пали и сокращения (Ven., SN 56.11) читаются правильно |
+| `puriso`, `dgru`, `irina` | русский | голоса Piper. `puriso` (по умолчанию) — мужской голос M1 из Supertonic, перенесённый в Piper; `dgru` — «o Dhamma.Gift», бета. Пали латиницей читается по-палийски, русские слова с правильными ударениями |
 
 `GET /api/tts/dg-voices` отдаёт список `{"voices": [{"id", "lang", "label"}]}` в порядке меню (первый голос языка — по умолчанию); `GET /api/tts/health` показывает, что
-сервис работает и какая версия правил произношения в нём.
+сервис работает и какая версия правил произношения в нём. `GET /api/tts/offline/pali-ipa.json` отдаёт
+правила, движок и модели голосов, которые DG скачивает, чтобы читать на устройстве без интернета.
 
 Как читается пали: звучит каждая буква, знаки препинания дают паузы, `…pe…` читается как «peyyāla».
 
@@ -62,23 +64,23 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 |---|---|
 | `segments` | строки, до 200 и до 20 000 символов всего |
 | `voice`, `rate` | как выше |
-| `delay` | пауза между строками, секунд, до 300 |
-| `end_delay` | пауза в конце, секунд, до 600 |
+| `delay` | пауза между строками, секунд, до 3600 |
+| `end_delay` | пауза в конце, секунд, до 3600 |
 | `sound` | `gong.mp3` или `tick.mp3` в конце, или пусто |
 
-Ответ — сам MP3 (`audio/mpeg`), длиной не больше 45 минут. Такой запрос считается за десять в
-минутном лимите.
+Ответ — сам MP3 (`audio/mpeg`): сама речь не дольше 30 минут, весь файл вместе с паузами не дольше 180.
+Такой запрос считается за десять в минутном лимите.
 
 ## Лицензии
 
 - Код сервиса и правила пали: [github.com/dhammagift/pali-tts](https://github.com/dhammagift/pali-tts).
 - `pratham`: веса MIT ([rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)), записи
   AI4Bharat IndicVoices (CC BY 4.0).
-- `dg`: CC BY-NC-SA 4.0 — только некоммерческое использование.
-- `alan`, `kathleen` и русские голоса: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),
+- `dg`, `dgru`: CC BY-NC-SA 4.0, только некоммерческое использование.
+- `priyamvada`, `alan`, `kathleen`, `irina`: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),
   у каждого своя лицензия.
 
 ## Что ещё по этому адресу
 
-Тот же адрес отдаёт [MCP-сервер](./mcp.md) (`/mcp`) и [API](pathname:///api-docs/) сайта (`/api/…`) —
+Тот же адрес отдаёт [MCP-сервер](./mcp.md) (`/mcp`) и [API](https://dhamma.gift/api-docs/) сайта (`/api/…`) —
 те же тексты и та же база, что на dhamma.gift.

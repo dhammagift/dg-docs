@@ -19,14 +19,14 @@ without installing anything through an app store: one button right in
 your browser, and an icon appears on your phone or computer, just like a
 regular app.
 
-Two small conveniences are added on top of the site:
+A few conveniences are added on top of the site:
 
 ## Shortcuts
 
 A long-press on the app icon on your home screen (or a right-click on
 the icon in the taskbar on a computer) opens a menu of quick links —
-straight to where you need, skipping the home page: table of contents,
-dictionary, Patimokkha, and so on.
+straight to where you need, skipping the home page: favorites & history,
+table of contents, Memo, dictionary, the Patimokkhas, and so on.
 
 ## "Share to Search"
 
@@ -37,7 +37,12 @@ right away with search results for that phrase.
 
 <AppFrame src="/?q=kacchapa&source=pwa" title="Example: search results after 'Share'" height={420} />
 
-Both conveniences are available on Android and on a computer (Windows/
-Mac). On iPhone and iPad (Safari), "Share to Search" doesn't work yet —
-for a similar result there, the [browser extension](/browser-extension)
-or the [Telegram bot](/telegram-bot) work better.
+Shortcuts work on Android and on computers; "Share to Search" on Android
+and Windows. On iPhone and iPad (Safari) neither works: there the
+[Dhamma.Gift app](/dhamma-gift-app) gives both.
+
+## Offline library
+
+The installed site can hold the whole library on the device, so search and
+reading work without internet: Settings → Offline library. This doesn't
+work in a private (incognito) window, and the site says so.

@@ -43,13 +43,15 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 
 | `voice` | Language | What it is |
 |---|---|---|
-| `pratham` | Pāḷi | Piper neural voice + our Pāḷi pronunciation rules (IAST → sounds, stress, long vowels). Beta |
+| `pratham` | Pāḷi | "Pratham": Piper neural voice + our Pāḷi pronunciation rules (IAST → sounds, stress, long vowels). Default |
 | `dg` | Pāḷi | "o Dhamma.Gift": a voice trained on real Pāḷi readings. Beta |
-| `alan`, `miles`, `kathleen` | English | Piper voices (`miles`: trained on the readings of Miles, a reader for DG); Pāḷi words and abbreviations (Ven., SN 56.11) are read properly |
-| `puriso`, `irina` | Russian | Piper voices (`puriso`: Supertonic's male voice M1 taught to Piper); Pāḷi in Latin script is read the Pāḷi way |
+| `priyamvada` | Pāḷi | "Priyamvada": a female Piper voice with the same rules |
+| `miles`, `alan`, `kathleen` | English | Piper voices. `miles` is shown as "Yojanāni" (the default): trained on the readings of Miles, a reader for DG. Pāḷi words and abbreviations (Ven., SN 56.11) are read properly |
+| `puriso`, `dgru`, `irina` | Russian | Piper voices. `puriso` (the default) is Supertonic's male voice M1 taught to Piper; `dgru` is "o Dhamma.Gift", beta. Pāḷi in Latin script is read the Pāḷi way, Russian words with the right stress |
 
 `GET /api/tts/dg-voices` gives the list as `{"voices": [{"id", "lang", "label"}]}` in menu order (a language's first voice is its default); `GET /api/tts/health` shows that the
-service is up and which version of the pronunciation rules it uses.
+service is up and which version of the pronunciation rules it uses. `GET /api/tts/offline/pali-ipa.json`
+gives the rules, the engine and the voice models that DG downloads to read on the device, offline.
 
 How Pāḷi is read: every letter is sounded, punctuation becomes pauses, `…pe…` is read as "peyyāla".
 
@@ -62,23 +64,23 @@ stops at 10 seconds); this is what the Memo page saves.
 |---|---|
 | `segments` | the lines, up to 200 and 20 000 characters in all |
 | `voice`, `rate` | as above |
-| `delay` | the pause between lines, seconds, up to 300 |
-| `end_delay` | the pause at the end, seconds, up to 600 |
+| `delay` | the pause between lines, seconds, up to 3600 |
+| `end_delay` | the pause at the end, seconds, up to 3600 |
 | `sound` | `gong.mp3` or `tick.mp3` at the end, or empty |
 
-The answer is the MP3 itself (`audio/mpeg`), at most 45 minutes long. One such request counts as ten
-against the per-minute limit.
+The answer is the MP3 itself (`audio/mpeg`): the speech itself at most 30 minutes, the whole file with its
+pauses at most 180. One such request counts as ten against the per-minute limit.
 
 ## Licences
 
 - The service code and the Pāḷi rules: [github.com/dhammagift/pali-tts](https://github.com/dhammagift/pali-tts).
 - `pratham`: weights MIT ([rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)),
   recordings AI4Bharat IndicVoices (CC BY 4.0).
-- `dg`: CC BY-NC-SA 4.0 — non-commercial use only.
-- `alan`, `kathleen` and the Russian voices: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),
+- `dg`, `dgru`: CC BY-NC-SA 4.0, non-commercial use only.
+- `priyamvada`, `alan`, `kathleen`, `irina`: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),
   each under its own licence.
 
 ## Also at this address
 
-The same host serves the [MCP server](./mcp.md) (`/mcp`) and the site's [API](pathname:///api-docs/)
+The same host serves the [MCP server](./mcp.md) (`/mcp`) and the site's [API](https://dhamma.gift/api-docs/)
 (`/api/…`), with the same texts and database as dhamma.gift.
