@@ -88,8 +88,9 @@ released under CC BY-NC-SA 4.0.
 ### Google — cloud voices with a free quota
 
 High-quality cloud voices. Pāḷi is read by a Punjabi (pa-IN) voice through
-Devanagari with our own fixes. Needs **your own Google API key** (see
-below); the free monthly quota is generous for personal use.
+Devanagari with our own fixes. They work with a built-in trial key; for
+regular use enter **your own Google API key** (see below), whose free
+monthly quota is generous for personal use.
 
 ### Built-in — your device's voices, work offline
 
@@ -166,7 +167,7 @@ regardless of autoscroll.
 
 ## Google API key (optional)
 
-Needed only for the Google voices. Create a project in Google Cloud,
+Only for the Google voices, when the trial key isn't enough. Create a project in Google Cloud,
 enable the **Text-to-Speech API** and create an API key
 ([how to start](https://cloud.google.com/text-to-speech/docs/before-you-begin));
 paste it in **Voice settings → Google API Key**. Free monthly limits and

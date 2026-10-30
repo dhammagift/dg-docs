@@ -24,10 +24,10 @@ Pali texts does not require users to reveal their personal identity.
 - Telegram Mini Apps: [Search](http://t.me/dhammagift_bot/find),
   [Reader](http://t.me/dhammagift_bot/read), [Dictionary](http://t.me/dhammagift_bot/dict).
 
-**Apps** (each one: PWA, Android and iOS)
+**Apps** (each one: PWA, Android, iOS and Windows)
 - **Dhamma.Gift** — <SiteLink to="/">PWA</SiteLink> · <SiteLink to="/apps?app=dg">Android</SiteLink> · [iOS](https://apps.apple.com/app/dhamma-gift/id6813706217) · [Windows](https://apps.microsoft.com/detail/9NK892G5P5GT)
 - **Dict.Dhamma.Gift** — [PWA](https://dict.dhamma.gift) · <SiteLink to="/apps?app=dict">Android</SiteLink> · [iOS](https://apps.apple.com/app/dict-dhamma-gift/id6816639947) · [Windows](https://apps.microsoft.com/detail/9P3B7HLRXXGC)
-- **Ariyuposatha** (Uposatha calendar) — <SiteLink to="/uposatha-calendar">PWA</SiteLink> · <SiteLink to="/apps?app=uposatha">Android</SiteLink> · [iOS](https://apps.apple.com/app/uposatha-by-the-suttas/id6816601259) · [Windows](https://apps.microsoft.com/detail/9NMD1L6H52ZN)
+- **Uposatha** (Uposatha calendar; "Uposatha by the Suttas" on the App Store and Microsoft Store) — <SiteLink to="/uposatha-calendar">PWA</SiteLink> · <SiteLink to="/apps?app=uposatha">Android</SiteLink> · [iOS](https://apps.apple.com/app/uposatha-by-the-suttas/id6816601259) · [Windows](https://apps.microsoft.com/detail/9NMD1L6H52ZN)
 
 The apps work online and offline. Throughout this policy an iOS app behaves exactly as the Android one does.
 
@@ -71,10 +71,21 @@ functionality:
   dictionary terms are transmitted.
 - **Synchronization** — when enabled, we process session metadata (OS type
   and browser) to help you manage your active devices.
-- **Uposatha calendar (Ariyuposatha)** — the place you share (rounded to about a
-  kilometre) and your settings stay on your device and are not sent to us;
-  the sun and moon times are calculated on the device, and reminders are set
-  on the device itself.
+- **Uposatha calendar (Uposatha app)** — the place you share (rounded to
+  about a kilometre) and your settings stay on your device; the sun and moon
+  times are calculated on the device, and reminders are set on the device
+  itself. The downloaded .ics file is also made on your device. Two things
+  do reach dhamma.gift:
+  - the calendar page asks for its app manifest with your time zone and
+    interface language in the address;
+  - if you subscribe to the calendar (Apple Calendar, Google Calendar or a
+    copied link), the feed address contains your place rounded to about
+    1 km, your time zone and your reminder settings. Your calendar app
+    fetches this address from dhamma.gift; if you subscribe in Google
+    Calendar, Google's servers fetch it and Google sees the address too.
+  We do not store these: the feed is computed on request and kept in memory
+  for at most an hour, and the address appears only in the standard server
+  logs (see Logs below).
 - **Technical logs** — standard request metadata (IP address, User-Agent)
   is collected by web servers for security purposes and DDoS protection.
 
@@ -93,10 +104,15 @@ Our own services:
 
 - <SiteLink to="/">dhamma.gift</SiteLink> / [dict.dhamma.gift](https://dict.dhamma.gift/)
   — for search and reader functionality.
+- **api.dhamma.gift** (and its reserve api2.dhamma.gift) — the DG voices:
+  it receives the text being read aloud. It also serves the MCP server and
+  the API.
+- **files.dhamma.gift** — MP3 files of the texts.
+- **s.dhamma.gift** — other Pali editions side by side.
 - **Google Firebase** — solely to provide the optional cloud
   synchronization service, and only if you sign in.
 
-One external service:
+External services:
 
 - [dpdict.net](https://dpdict.net/) — the Digital Pāḷi Dictionary, for
   dictionary entries our own bundled dictionary does not cover. Only the
@@ -105,6 +121,26 @@ One external service:
   your behalf; others your browser or the app makes directly, in which case
   dpdict.net also sees your IP address as it would on any website you visit.
   This is their service, under their own privacy policy, not ours.
+- [sanskrit-lexicon.uni-koeln.de](https://www.sanskrit-lexicon.uni-koeln.de/)
+  — the Cologne Sanskrit dictionaries. Dict.Dhamma.Gift sends the word
+  being looked up to show Sanskrit entries. Your browser makes the request,
+  so they also see your IP address.
+- Other dictionaries in Dict.Dhamma.Gift — Sutta-Vinaya Definitions and
+  Similes (tripitaka-mcp.com), Gandhari Dictionaries (gandhari.org), PTS
+  Dictionary (dsal.uchicago.edu) and Wisdom Library (wisdomlib.org). Their
+  sections are collapsed by default. When you open one, your browser loads
+  that site's page with the word being looked up.
+- **Google Fonts** (fonts.googleapis.com, fonts.gstatic.com) — fonts on
+  some pages, such as Hatthipada. Your browser loads them, so Google sees
+  your IP address.
+- **cdnjs.cloudflare.com** — a charting script loaded on the Hatthipada
+  page.
+- **Google Cloud Text-to-Speech** — only when you choose a Google voice:
+  it receives the text being read. On the website your browser sends it
+  to Google directly (with the site's trial key or your own API key), so
+  Google also sees your IP address. In the apps, with the trial key the text
+  goes through our server, which forwards it without identifiers; with your
+  own key the app sends it to Google directly.
 
 We do not share, sell, or transmit user data to any third parties for
 marketing or advertising purposes.
@@ -118,8 +154,10 @@ marketing or advertising purposes.
 - **Offline library** — the full text database (about 200 MB to download,
   about 590 MB on the device) is downloaded from dhamma.gift and kept on
   your device only. On the website and in the PWA the download starts only
-  with your consent. In the Android and iOS apps it starts automatically on Wi-Fi
-  and can be cancelled; on mobile data the app asks first. It contains texts
+  with your consent. The Android and iOS apps always ask before the
+  download, on Wi-Fi too, and name its size; if you say no, the app
+  remembers and does not ask again, and you can still download it in
+  Settings → Offline library. It contains texts
   only and no data about you. In offline mode, searching and reading texts
   run on the device without requests to our server. Database updates are
   offered at most once every two weeks. You can remove the database with the
@@ -135,7 +173,7 @@ policy.
 For inquiries regarding your privacy, please contact us at
 [agiftofdhamma@gmail.com](mailto:agiftofdhamma@gmail.com).
 
-*Last updated: September 2026.*
+*Last updated: October 2026.*
 
 ## Terms
 
@@ -151,10 +189,11 @@ adapt them freely, including commercially, with no permission needed. See
 
 ### Other Pali editions: each under its own license
 
-Besides the Mahāsaṅgīti Pali text from SuttaCentral, Dhamma.gift gives other
-editions of the Pali Canon, cut into the same segments, and the variant readings
-of all of them. Each keeps the
-license of its source:
+Besides the Mahāsaṅgīti Pali text from SuttaCentral, Dhamma.gift uses other
+editions of the Pali Canon, cut into the same segments. Search covers the
+Mahāsaṅgīti text together with the variant readings collated from the other
+editions (BJT, VRI, Siam Rath, PTS); s.dhamma.gift shows the BJT, CST and
+Thai editions side by side. Each edition keeps the license of its source:
 
 - **Buddha Jayanti Tipiṭaka** (Sri Lanka), from
   [tipitaka.lk](https://github.com/pathnirvana/tipitaka.lk):
@@ -195,6 +234,10 @@ them:
   translators credited on each text;
 - edited versions of those Russian translations, prepared by the project;
 - materials from **[TheBuddhasWords.net](https://thebuddhaswords.net/)**.
+
+Thai translations by **Mahachula**, **Siam Rath**, **Ajahn Jayasaro** and
+**Phra Naratharo** are shown as credited on each text; the rights remain with
+their translators and publishers.
 
 For any use beyond free, personal, non-commercial reading, please contact the
 copyright holders. The Dhamma.gift website and applications are offered free

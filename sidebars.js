@@ -53,6 +53,13 @@ const sidebars = {
                 'user/telegram-bot',
                 'user/podcasts',
                 'user/pwa',
+                {
+                  // /apps is a page of the main app, not of this docs build: same escape as the API link below.
+                  type: 'link',
+                  label: 'Все приложения',
+                  href: 'pathname:///apps',
+                  autoAddBaseUrl: false,
+                },
               ],
             },
             'user/policies',
@@ -125,6 +132,13 @@ const sidebars = {
                 'user/telegram-bot',
                 'user/podcasts',
                 'user/pwa',
+                {
+                  // /apps is a page of the main app, not of this docs build: same escape as the API link below.
+                  type: 'link',
+                  label: 'All apps',
+                  href: 'pathname:///apps',
+                  autoAddBaseUrl: false,
+                },
               ],
             },
             'user/policies',
