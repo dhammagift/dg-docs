@@ -13,11 +13,15 @@ Work in progress. A CAT (Computer-Assisted Translation) editor for
 line-by-line translation of Pali Canon texts — convenient input, quick
 templates, and two ways to work with the text.
 
-<AppFrame src="/assets/lbl-en.html?q=mn1&demo=1" title="Translation Editor" height={650} />
+<AppFrame src="/assets/lbl-en.html?q=sn56.11&tr=sujato&demo=1" title="Translation Editor: SN 56.11 with a translation" height={650} />
 
 :::info[Demo]
-This is a demo — saving does not work.
+This is a demo with SN 56.11 and an existing translation loaded; saving does not work here.
 :::
+
+The editor opens for everyone: the Pali text and the published translations. Saving to the server, and
+loading the AI draft translations into the Russian editor, are for translators: sign in with Google
+(**🔒 Sign in**, or the Save button asks for it).
 
 ## Toolbar
 
@@ -33,7 +37,7 @@ This is a demo — saving does not work.
 - **Format** (checkbox) — auto-format line breaks.
 - **Clear** — clear the input field.
 - **Open file / Load from server** — open a previously saved draft.
-- **Save** — export the translation as JSON.
+- **Save** — download the translation as JSON and, for a signed-in translator, save it on the server.
 
 In the top bar, the **Diff Checker** icon opens an external tool for
 comparing text versions.
