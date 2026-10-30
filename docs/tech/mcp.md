@@ -17,9 +17,10 @@ as the site.
 
 | Tool | What it does |
 |---|---|
+| `compare_editions` | The canon's editions compared line by line: the Mahāsaṅgīti beside Buddha Jayanti (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), the printed Mahāsaṅgīti of 2005 and the PTS editions (DN, MN, SN, AN). A sutta, a line or a range: first a summary per edition, then the lines that differ, word by word. |
 | `search` | Keyword / substring search over the Pali root text and the chosen translation languages. Returns suttas and matching segments with links to the reader. |
-| `get_text` | A sutta by id (`mn1`, `dn22`, `sn56.11`) with the Pali and translations. |
-| `compare_translations` | One segment (e.g. `mn129:21.3`) in the Pali and in every available translation side by side. |
+| `get_text` | A sutta by id (`mn1`, `dn22`, `sn56.11`) with the Pali and translations; `editions` adds the whole text in the other editions, line by line. |
+| `compare_translations` | One segment (e.g. `mn129:21.3`) in the Pali, every edition and every available translation side by side. |
 | `list_structure` | What exists: collections, books with sutta counts, translation languages and translators; with a prefix (`mn`, `sn56`) the list of suttas under it. |
 
 ## Connecting
