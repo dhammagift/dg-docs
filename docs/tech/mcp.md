@@ -11,15 +11,17 @@ clients, Cursor and others) can search the Pali Canon here, read suttas and comp
 own, and answer with quotes and links to the reader. It uses the same search engine and the same texts
 as the site.
 
-**Address:** `https://api.dhamma.gift/mcp` (Streamable HTTP, no login, read-only).
+**Address:** `https://api.dhamma.gift/mcp` (Streamable HTTP, no login, read-only). It is listed in the
+[official MCP registry](https://registry.modelcontextprotocol.io/v0/servers?search=gift.dhamma) as
+`gift.dhamma/pali-canon`. The endpoint is also described in the [API docs](https://dhamma.gift/api-docs/).
 
 ## Tools
 
 | Tool | What it does |
 |---|---|
+| `search` | Keyword, substring or regular-expression search. Returns a list of the matching suttas (id, title, number of matches, reader link): suttas that define the term first, then those named after it, then by how often it occurs. `include_segments` adds the matched Pali lines, `include_translations` with `langs` adds translations. |
+| `get_text` | A sutta by id (`mn1`, `dn22`, `sn56.11`): the Pali, and translations when `langs` is given; `editions` adds the whole text in the other editions, line by line. |
 | `compare_editions` | The canon's editions compared line by line: the Mahāsaṅgīti beside Buddha Jayanti (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), the printed Mahāsaṅgīti of 2005 and the PTS editions (DN, MN, SN, AN). A sutta, a line or a range: first a summary per edition, then the lines that differ, word by word. |
-| `search` | Keyword / substring search over the Pali root text and the chosen translation languages. Returns suttas and matching segments with links to the reader. |
-| `get_text` | A sutta by id (`mn1`, `dn22`, `sn56.11`) with the Pali and translations; `editions` adds the whole text in the other editions, line by line. |
 | `compare_translations` | One segment (e.g. `mn129:21.3`) in the Pali, every edition and every available translation side by side. |
 | `list_structure` | What exists: collections, books with sutta counts, translation languages and translators; with a prefix (`mn`, `sn56`) the list of suttas under it. |
 
@@ -38,9 +40,13 @@ Then ask in plain words, for example: *"Find all suttas about the turtle, quote 
   3 letters per query; diacritics are ignored (`kacchap` finds `mahākacchapa`).
 - Every answer carries reader links: `https://dhamma.gift/mn129` for the sutta, `https://dhamma.gift/mn129:21.3`
   for the exact segment.
-- Machine translations (AI) are hidden, as in the search on the site.
-- One query returns up to 40 suttas by default (`limit`, at most 200); the answer says when it was cut.
-- Regular expressions are accepted only within the same limits as the site search; heavy ones are refused.
+- Answers are Pali only unless the assistant asks for translations (`include_translations`, `langs`).
+  Sujato's English is left out unless asked for by name; machine (AI) translations are hidden, as in the
+  search on the site.
+- One query lists up to 40 suttas by default; `limit` takes a number or `"all"`. The answer always gives the
+  true number of matching suttas and says when the list was cut.
+- Regular expressions work as in the site search. Patterns such as `kata.*dukkha` ("Katamañca … dukkhaṁ?")
+  and `vucc.*dukkha` ("idaṁ vuccati … dukkhaṁ") find where the canon defines a term.
 
 ## Under the hood
 
@@ -49,12 +55,6 @@ Then ask in plain words, for example: *"Find all suttas about the turtle, quote 
 `search` and `get_text` are thin wrappers over the functions behind `/search` and `/api/text`; `compare_translations`
 and `list_structure` read `dg.db` directly (read-only). The tool descriptions and a short instruction for the agent
 (search is literal, try Pali and translation words, quote with the translator and a link) are sent with the server.
-
-**Our use of someone else's server.** The "AI search" on the site (`/api/ai-search`) asks a language model for the
-Pali terms and an English phrase, then calls the hosted [Tripitaka MCP](https://tripitaka-mcp.com) tool `search_hybrid`
-(`core/tipitaka-mcp-client.js`) to find passages by meaning. It holds Pali and Sujato's English only and is used as a
-fallback: the plain exact search never depends on it. Candidates the corpus does not contain are dropped before they
-reach it.
 
 The plan and open questions (ranking, a stdio mode for the offline app, a separate `mcp.` subdomain) are in
 `docs/MCP_PLAN.md` of the repository.

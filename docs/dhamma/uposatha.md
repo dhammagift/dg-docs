@@ -32,27 +32,29 @@ The calendar shows the Uposatha days as the suttas describe them. Below is the r
 ## Where it works
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
-  <a href="https://apps.apple.com/app/id6816601259"><img src="/assets/img/buttons/appstore-cta.png" alt="Download Uposatha by the Suttas on the App Store" style={{maxWidth: '200px'}} /></a>
+  <a href="https://apps.apple.com/app/uposatha-by-the-suttas/id6816601259"><img src="/assets/img/buttons/appstore-cta.png" alt="Download Uposatha by the Suttas on the App Store" style={{maxWidth: '200px'}} /></a>
   <SiteLink to="/apps?app=uposatha"><img src="/assets/img/buttons/google-play-cta.png" alt="Get Uposatha by the Suttas on Google Play" style={{maxWidth: '200px'}} /></SiteLink>
   <a href="https://apps.microsoft.com/detail/9NMD1L6H52ZN"><img src={MsStore} alt="Get Uposatha by the Suttas from the Microsoft Store" style={{maxWidth: '200px'}} /></a>
   <a href="https://t.me/dgift_bot"><img src="/assets/img/buttons/telegram-cta.png" alt="Open @dgift_bot on Telegram" style={{maxWidth: '200px'}} /></a>
   <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Open the calendar as a web app" style={{maxWidth: '200px'}} /></SiteLink>
 </div>
 
-- **iPhone and iPad** — *Uposatha by the Suttas* on the [App Store](https://apps.apple.com/app/id6816601259): the calendar as an app, with reminders and home-screen widgets.
-- **Android** — *Uposatha by the Suttas* on <SiteLink to="/apps?app=uposatha">Google Play</SiteLink>: the calendar as an app, with reminders and home-screen widgets.
+- **iPhone and iPad** — *Uposatha by the Suttas* on the [App Store](https://apps.apple.com/app/uposatha-by-the-suttas/id6816601259): the calendar as an app, with reminders and widgets for the home screen and the lock screen.
+- **Android** — *Uposatha by the Suttas* on <SiteLink to="/apps?app=uposatha">Google Play</SiteLink>: the calendar as an app, with reminders and home-screen widgets; a long press on its icon shows the next Uposatha days.
 - **Windows 11** — *Uposatha by the Suttas* in the [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN): the calendar in its own window and three
   widgets for the Widgets Board (Win + W, then "+"). *Uposatha + kala* — how long to the next Uposatha day and whether it is the
   time for food now; *Day & night* — the part of the day or night that is going on; *Month* — the month with the Uposatha days marked.
 - **Telegram** — `/uposatha` in the chat of [@dgift_bot](https://t.me/dgift_bot), or `@dgift_bot uposatha Chiang Mai` typed in
   any chat: the next 30 days with the sun times of your city. More on the [Telegram bot](/telegram-bot) page.
-- **Any browser** — the <SiteLink to="/uposatha-calendar">calendar page</SiteLink>; the browser's menu installs it as an app.
+- **Any browser** — the <SiteLink to="/uposatha-calendar">calendar page</SiteLink>; the browser's menu installs it as a web app (the "Web App" badge at the bottom of the page does the same where the browser allows it).
 
 ## Reading the calendar
 
-**Three views.** "By dates" (the first one) is a table of dates with the beginning and the end of each Uposatha and the Moon; "Uposatha days" is a list by months and weeks; "Calendar" is an ordinary month with the days marked. The card
-"Today" above them gives the Moon now: its phase, the lit part, its age since the new moon, and the lunar day with the moments it
-began and ends.
+**Five tabs** (at the top on a wide screen, at the bottom on a phone). *Summary* gives the Moon now — its phase, the lit part and
+the lunar day — with a countdown to the next Uposatha, the *Meals* card and "From the suttas", passages on the Uposatha ("Show all"
+lists them). *Uposathas* has two views: "By dates", a table with the beginning and the end of each Uposatha and the Moon, and
+"Uposatha days", a list by months and weeks. *Calendar* is an ordinary month with the days marked; tap a date for its details.
+*Night–day* is the structure of the night and day (below), and *Suttas* the key suttas, each opening at the passage.
 
 <img src={UpoDates} alt="The table by dates" style={{maxWidth: 'min(380px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
@@ -62,8 +64,8 @@ day of that Uposatha, has a dashed ring. When the 14th and the 15th follow each 
 on the middle one the 14th is still going in the day and the 15th begins in the evening. The 15th is filled; the 8th and the
 14th are rings.
 
-**The lines of a date.** *Begins* — the evening; *Observed* — the night and the day it covers; *Lunar day* — the real lunar
-day of that Uposatha, for checking. Real lunar days are numbered 1 to 30 through the month (the Moon gains 12° on the Sun each
+**The lines of a date.** *Begins* — the evening; *Ends* — the next evening; *Lunar day* — the real lunar day of that Uposatha,
+for checking (with "Details" on, also its age and when it ends). Real lunar days are numbered 1 to 30 through the month (the Moon gains 12° on the Sun each
 day); the suttas name the days by their number within a half, so the 8th day of the waning half is the 23rd of the month and
 the 14th of the waning half the 29th. A lunar day changes at an exact moment, not at midnight, and lasts 19 to 26 hours, so
 against the calendar dates a number sometimes appears twice or is skipped; the calendar reads this from the real Moon and says
@@ -82,15 +84,15 @@ with a particular community, follow its calendar.
 <img src={UpoSettings} alt="The menu: the settings groups" style={{maxWidth: 'min(380px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 
-Open the menu ☰. The settings are in folding groups — "General settings" (language, theme, font size), "Uposatha settings", "Meals" and "Parts of the night and day"; what you leave open is remembered. The link "change" under the card "Today" and "Set a place" by the heading "Structure of
-the night and day" lead straight to the place.
+Open the settings (the gear ⚙ at the top). They are in folding groups — "General settings" (language, theme, font size), "Uposatha settings", "Meals" and "Parts of the night and day"; what you leave open is remembered. The link "change" on the *Summary* tab and "set a place" on the *Night–day* tab lead straight to the place.
 
-**Time zone and hemisphere.** The moments are shown in your time zone; the hemisphere decides which side of the Moon is lit in
+**Time zone and hemisphere** (under "Advanced"). The moments are shown in your time zone; the hemisphere decides which side of the Moon is lit in
 the pictures. When a place is set, both are taken from it and the manual fields are hidden.
 
 **Place.** With your location (or a city typed in the field) the evening is the real sunset and the sun's times are shown;
 without it the evening is taken at 18:00 and the day parts at 06:00 – 18:00, marked with an asterisk. The location is used only
-in your browser, rounded to about a kilometre, and is not sent anywhere.
+in your browser, rounded to about a kilometre, and is not sent anywhere. "Update my place automatically on opening" finds it again
+once a day, so the times follow you when you travel.
 
 **Week starts on.** Monday or Sunday; until you choose, Monday in Russian and Sunday in English.
 
@@ -100,17 +102,21 @@ that it is not mistaken).
 
 **Details.** Off — every date in one short line.
 
+**Moon of every day in the calendar.** On — the *Calendar* tab draws the Moon in every date, not only on the Uposatha days.
+
 **Twilight.** "Dawn and dusk" lets you count the day from sunrise and sunset, or from civil, nautical or astronomical twilight. It needs a place.
 
-**Reminders.** Switch on "Remind me", choose when — from "when it begins" up to two days before — and for which days: by default
-the 8th and the 14th; the 15th can be added. The reminder for the 14th says that there are two Uposatha days, the 14th and the
-15th. On the site a reminder comes only while the page is open or running in the background of your device (the sound you choose plays
-then too); Safari and iPhone can hold it back. In the Android app the reminders are set on the device itself and arrive with the
-app closed, each with its own sound; the iOS app is planned. Or add the days to your phone's calendar.
+**Reminders.** "Remind in advance" — choose when, from "when it begins" up to two days before; "Remind on the Uposatha day" — at
+the time you set (06:00 by default). Then the sound and the days: by default the 8th and the 14th; the 15th can be added. The
+reminder for the 14th says that there are two Uposatha days, the 14th and the 15th. On the site a reminder comes only while the
+page is open or running in the background of your device (the sound you choose plays then too); Safari and iPhone can hold it
+back. In the apps for Android and iPhone the reminders are set on the device itself and arrive with the app closed, each with its
+own sound. Or add the days to your phone's calendar.
 
-**Your own calendar.** The button "Add to calendar" (and the same row in the menu) opens the options:
+**Your own calendar** (on the site; in the apps the reminders are the device's own). The button "Add to calendar" (and the same row
+in the settings) opens the options:
 - *Apple* opens the subscription in Apple Calendar (also other apps that accept a `webcal` link); *Google* opens the "add by URL"
-  form in Google Calendar; *Copy link* gives the link for any other program. A subscription covers the coming year and renews
+  form in Google Calendar; *Copy link* gives the link for any other program. A subscription (the `/uposatha.ics` feed) covers the coming year and renews
   itself. Nothing is stored on our side — the link carries your choices (place, scheme, reminder time), so the same link gives
   the same calendar to whoever opens it. Apple Calendar keeps the alarms from the feed; Google Calendar ignores them for
   subscribed calendars and uses its own default notifications.
@@ -122,7 +128,8 @@ app closed, each with its own sound; the iOS app is planned. Or add the days to 
 
 The card "Meals" shows the time for food (dawn to midday) or *vikāla*, "the wrong time" (midday to the next dawn; Pc 37). Midday is
 counted by the sun, the middle of the day, or the clock. The bell in the corner of the card switches on reminders for the end
-(default sound: the Vinaya definition of *vikāla*, read aloud) and for the beginning of the time for food.
+(default sound: the Vinaya definition of *vikāla*, read aloud) and for the beginning of the time for food; in the settings they
+can come on Uposatha days or every day.
 
 ## Structure of the night and day
 
