@@ -47,29 +47,43 @@ In **⚙ → Voice settings** you choose the voice separately for Pāḷi and fo
 the translation, in three steps: kind → language → voice. The ▶ next to a
 voice plays a short sample (DG voices).
 
-:::tip[The first neural Pāḷi voices]
-As far as we know, these are the first neural text-to-speech voices made
-for Pāḷi. Both are in beta and still being tuned by ear, sound by sound —
-but this did not exist before.
+:::tip[Neural voices made for Pāḷi]
+No phone or computer has a Pāḷi voice, so we made our own. They are in
+beta and still being tuned by ear, sound by sound.
 :::
 
 ### DG Voice — our own free neural voices (default)
 
-They run on our server: no key, no limits, nothing to install.
+They run on our server: no key, no limits, nothing to install. Each one
+can also be downloaded to your device and then reads without internet.
 
 - **Pāḷi**
-  - **pratham ♂ · Piper** — a neural voice (Piper) that reads Pāḷi through
-    our own Pāḷi pronunciation rules (letters → sounds, stress, long
-    vowels), tuned in blind listening rounds. Beta.
-  - **o Dhamma.Gift ♂ · beta** — a voice trained on real Pāḷi readings.
-    Pronunciation is closer to living Pāḷi; the sound quality is still
-    rough, a new version is on the way. Beta.
-- **Translation** — English: alan, norman, kathleen; Russian: ruslan,
-  irina. Pāḷi words inside a translation (sutta, Dhamma, bhikkhu, names)
-  are read the Pāḷi way, and abbreviations are spelled out (Ven. →
-  Venerable, SN 56.11 → Saṁyutta Nikāya 56, 11).
+  - **Pratham ♂ · Piper** (default): a neural voice (Piper) that reads Pāḷi
+    through our own Pāḷi pronunciation rules (letters → sounds, stress,
+    long vowels), tuned in blind listening rounds. Beta.
+  - **o Dhamma.Gift ♂ · beta**: a voice trained on real Pāḷi readings.
+    Its pronunciation is closer to living Pāḷi, but the sound is still
+    rough. A new version is on the way.
+  - **Priyamvada ♀ · Piper**: a female voice with the same rules.
+- **English**: **Yojanāni ♂** (default), **Alan ♂** (UK), **Kathleen ♀**
+  (US).
+- **Russian**: **Puriso ♂** (default), **o Dhamma.Gift ♂ · beta**,
+  **Irina ♀**.
+- Pāḷi words inside a translation (sutta, Dhamma, bhikkhu, names) are read
+  the Pāḷi way. Abbreviations are spelled out (Ven. → Venerable, SN 56.11 →
+  Saṁyutta Nikāya 56, 11). Russian words get the right stress, and ё where
+  the text prints е.
 - The next sentences are prepared while one is playing, so there are no
   gaps between them.
+
+### Offline: download a DG voice
+
+In **Voice settings → DG Voice**, each voice in the list has a ⬇ icon
+with its download size. Once downloaded, the voice reads on your device
+with no network, on the reader and on the Memo page. The 🗑 icon deletes it.
+The English and Russian voices download a shared pronunciation module with
+the first of them. The o Dhamma.Gift voices are the owner's own and are
+released under CC BY-NC-SA 4.0.
 
 ### Google — cloud voices with a free quota
 
@@ -158,6 +172,13 @@ enable the **Text-to-Speech API** and create an API key
 paste it in **Voice settings → Google API Key**. Free monthly limits and
 prices: [Google Cloud pricing](https://cloud.google.com/text-to-speech/pricing).
 By default translations use the cheaper Standard voices, Pāḷi a premium one.
+
+## Whole texts in MP3
+
+For some texts, a **Listen in MP3** line under the text gives the whole
+sutta as one file, in Pāḷi and in the translation, read by the DG voices,
+with the translator named. The Vinaya's two Vibhaṅgas have audio as well:
+Pāḷi for 347 rules and Russian for 34.
 
 ## MP3 for the Memo page
 
