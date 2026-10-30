@@ -1,6 +1,6 @@
 ---
 title: "Sutta Podcasts"
-description: "The Suttas and Vinaya of the Pali Canon read aloud, one text a day in canonical order, in Pali, English and Russian: Apple Podcasts, YouTube Music, Amazon Music or RSS."
+description: "The Suttas and Vinaya of the Pali Canon read aloud, a new episode every day, starting with the Aṅguttara Nikāya, in Pali, English and Russian: Apple Podcasts, YouTube Music, Amazon Music or RSS."
 slug: /podcasts
 sidebar_position: 16
 sidebar_label: Podcasts
@@ -34,9 +34,10 @@ export const Show = ({cover, title, lang, badges}) => (
 
 # Podcasts
 
-The suttas of the Pali Canon read aloud, one a day, in order, then the Vinaya.
-There are three podcasts: in English, in Russian and in Pāli. Each episode is one
-text, and its description links to that text on Dhamma.Gift, in Pali with the
+The suttas of the Pali Canon read aloud, with a new episode every day. The
+podcasts start with the Aṅguttara Nikāya. There are three of them: in English,
+in Russian and in Pāli. An episode is one sutta or a group of short suttas (a
+vagga). Its description links to that text on Dhamma.Gift, in Pali with the
 translations side by side.
 
 <Show

@@ -66,10 +66,10 @@ separator, pauses and repeat count.
 
 ## Pātimokkha — self-check from memory
 
-The **Selfcheck** links (see [Links](#links) below) open the full
-bhikkhu and bhikkhunī Pātimokkha text (with no links to commentary — on
-purpose, so you can check whether you actually remember the rules), plus
-links to third-party sites hosting the same Pātimokkha text.
+The **Selfcheck** links (see [Links](#links) below) open a quiz on the
+bhikkhu or bhikkhunī Pātimokkha. It shows one random rule. You can hide the
+rule's class and name to test yourself. **Next** shows another rule, and
+**Rule Sets** lets you choose which classes of rules to include.
 
 ## Voice settings (TTS)
 
@@ -78,9 +78,11 @@ links to third-party sites hosting the same Pātimokkha text.
 - **Interval** — the pause between pieces.
 - **End pause** — a separate, usually longer pause at the end of the
   whole cycle.
-- **Sound** — a gong (or another sound) at the end of the cycle, or none.
+- **Sound** — the sound at the end of the cycle: Tick, Gong or None.
 - **Cycle** — how many times to repeat (infinite included).
 - **Translation** — read the translation instead of / alongside Pali.
+- **Auto-cursor** — when playback stops, puts the cursor at the end of the
+  current line.
 
 A finished session can be downloaded as an MP3 (the download icon) — say,
 to listen offline or outside the browser.
@@ -103,6 +105,6 @@ reader, without slicing or repeats.
 
 - Tips & Tricks for memorization: [English](https://docs.google.com/document/d/1JWHEFqcaNhYwYneWBnTp9rkgWecDB4IIHX1l3AxSiWM/edit?tab=t.0#heading=h.j8yrupzfcw9i) · [Russian](https://docs.google.com/document/d/12A4jNFrSQywZubM7bL2pgQK0fOtr6LEBJMjGb7nTNlw/edit?tab=t.0#heading=h.j8yrupzfcw9i)
 - [Open any sutta this way](https://dhamma.gift/memorize/)
-- Pātimokkha: [Bhikkhu](https://dhamma.gift/pm.php?expand=true) · [Bhikkhunī](https://dhamma.gift/bipm.php?expand=true)
-- Pātimokkha on other sites: [Dhamma.ru](https://dhamma.gift/ru/assets/materials/prat.html) · [TBW](https://dhamma.gift/bw/vi/vi.html#content) · [ATI](https://dhamma.gift/accesstoinsight.org/tipitaka/vin/sv/index.html)
+- Pātimokkha: [Bhikkhu](https://dhamma.gift/pli-tv-bu-pm) · [Bhikkhunī](https://dhamma.gift/pli-tv-bi-pm)
+- Pātimokkha on other sites: [Dhamma.ru](https://dhamma.gift/ru/assets/materials/prat.html)
 - Selfcheck: [Bhikkhu](https://dhamma.gift/assets/rr.html) · [Bhikkhunī](https://dhamma.gift/assets/rrbi.html)

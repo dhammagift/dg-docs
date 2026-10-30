@@ -65,19 +65,22 @@ import MemoBubble from '@site/static/img/help/memo-firstletter-bubble.png';
 
 ## Pātimokkha — самопроверка наизусть
 
-Ссылки **Самопроверка** (см. [Ссылки](#ссылки) ниже) открывают полный текст Патимоккхи
-бхиккху и бхиккхуни (без ссылок на пояснения — специально для проверки,
-помните ли вы правила по памяти), и ссылки на сторонние сайты с тем же
-текстом Патимоккхи.
+Ссылки **Самопроверка** (см. [Ссылки](#ссылки) ниже) открывают проверку по
+Патимоккхе бхиккху или бхиккхуни. На странице одно случайное правило. Чтобы
+проверить себя, можно скрыть его класс и название. **Next** показывает
+следующее правило, а в **Rule Sets** можно выбрать, из каких классов правил
+брать вопросы.
 
 ## Настройки голоса (TTS)
 
 - **Разделитель** — как резать текст на части (точка, запятая, строка и т.д.).
 - **Интервал** — пауза между частями.
 - **Пауза в конце** — отдельная, обычно более длинная пауза в конце всего цикла.
-- **Звук** — гонг (или другой звук) в конце цикла, либо ничего.
+- **Звук** — что звучит в конце цикла: Tick (щелчок), Gong (гонг) или «Ничего».
 - **Цикл** — сколько раз повторить (включая бесконечно).
 - **Перевод** — озвучивать перевод вместо/вместе с пали.
+- **Авто-курсор** — когда плеер останавливается, курсор встаёт в конец
+  текущей строки.
 
 Готовую сессию можно скачать как MP3 (значок загрузки) — например, чтобы
 слушать без интернета или не через браузер.
@@ -98,6 +101,6 @@ import MemoBubble from '@site/static/img/help/memo-firstletter-bubble.png';
 
 - Советы и хитрости заучивания: [English](https://docs.google.com/document/d/1JWHEFqcaNhYwYneWBnTp9rkgWecDB4IIHX1l3AxSiWM/edit?tab=t.0#heading=h.j8yrupzfcw9i) · [Русский](https://docs.google.com/document/d/12A4jNFrSQywZubM7bL2pgQK0fOtr6LEBJMjGb7nTNlw/edit?tab=t.0#heading=h.j8yrupzfcw9i)
 - [Открыть любую сутту в этом режиме](https://dhamma.gift/memorize/)
-- Pātimokkha: [бхиккху](https://dhamma.gift/pm.php?expand=true) · [бхиккхуни](https://dhamma.gift/bipm.php?expand=true)
-- Pātimokkha на других сайтах: [Dhamma.ru](https://dhamma.gift/ru/assets/materials/prat.html) · [TBW](https://dhamma.gift/bw/vi/vi.html#content) · [ATI](https://dhamma.gift/accesstoinsight.org/tipitaka/vin/sv/index.html)
+- Pātimokkha: [бхиккху](https://dhamma.gift/pli-tv-bu-pm) · [бхиккхуни](https://dhamma.gift/pli-tv-bi-pm)
+- Pātimokkha на других сайтах: [Dhamma.ru](https://dhamma.gift/ru/assets/materials/prat.html)
 - Самопроверка: [бхиккху](https://dhamma.gift/assets/rr.html) · [бхиккхуни](https://dhamma.gift/assets/rrbi.html)

@@ -38,7 +38,7 @@ favorites shows a choice:
 
 <img src={LoginSynced} alt="Post-login screen: phrase, last sync time, active devices, sign out/delete data" style={{maxWidth: 'min(380px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
-- **Sync now** — force a sync right away instead of waiting for the
+- **Sync** — force a sync right away instead of waiting for the
   automatic one.
 - **Active devices** — a list of every device currently signed in with
   this same phrase/account, with its device model and browser (detected
@@ -49,8 +49,8 @@ data:
 
 | Action | Where you click it | What it wipes |
 |---|---|---|
-| **Sign out** | On this device | Nothing — it just turns off sync on this device. Local and cloud data are both left alone. |
-| **Delete account & cloud data** | On this device | Everything in the cloud (history, favorites, subscriptions, progress, settings, the account itself). Doesn't touch local data on this device. |
+| **Logout** | On this device | Nothing — it just turns off sync on this device. Local and cloud data are both left alone. |
+| **Delete account & cloud data** | On this device | Everything in the cloud (history, favorites, subscriptions, progress, settings, the account itself). Doesn't touch local data on this device. All sessions are deleted too, so every other signed-in device wipes its local data. With Google or Apple you sign in again to confirm. |
 | **Terminate session** (the ⏻ icon next to another device in the list) | Remotely, from any device in the list | Disconnects THAT device from the cloud and **wipes all of its local data** (except language and theme) — the confirmation prompt warns you about this honestly. |
 
 :::danger["Terminate session" is not just a remote sign-out]
@@ -60,6 +60,14 @@ time it touches the network: history, favorites, reading progress,
 settings. Only use it on devices that are genuinely lost or shouldn't
 have access anymore.
 :::
+
+## Backup and Restore
+
+On the site, the login page also has **Backup** and **Restore**. Backup saves
+this device's favorites, settings and recent history (the newest 84 entries)
+to a JSON file. Restore loads such a file back; records from the file replace
+matching data on this device. It all happens in the browser, and no account
+is needed. The apps don't show these buttons.
 
 ## How the secret passphrase is stored
 

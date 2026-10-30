@@ -33,7 +33,7 @@ import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
 </div>
 
 The dictionary is built into the site: it pops up when you click a Pali word
-while reading, and it opens in the "Dictionary" tab of the [Quick
+while reading, and it opens in the "Dict" tab of the [Quick
 Window](/quickmodal). The built-in dictionary is **DPD** (Digital Pāḷi
 Dictionary). The full version with every dictionary is a separate site,
 [dict.dhamma.gift](https://dict.dhamma.gift) — more on it below.
@@ -53,15 +53,18 @@ the site Quick Settings open from the sliders icon in the search field or with
 
 <AppFrame src="/mn1?quick=1" title="MN 1 in the reader with Quick Settings" height={560} />
 
-Modes in the list: the built-in DPD, Dict.DG in a popup or a new window
-(compact or full), DharmaMitra.org, sutta search only, and external apps
-(DictTango, Mdict, GoldenDict-NG). **Alt+B** switches the mode.
+Modes in the list: the built-in DPD, Dict.DG in a popup, in a new window or
+mini, DharmaMitra.org, search only, and external apps (DPD Android, DictTango
+Android, Mdict iOS, GoldenDict-NG Desktop). **Alt+B** switches the mode.
 
 The **built-in DPD** mode works fully offline: the dictionary data loads
 once (as a script, in English or Russian) and every lookup after that runs
 locally in the browser — no request to dict.dhamma.gift or anywhere else.
 It's a smaller, single-dictionary alternative to the full Dict.Dhamma.Gift
 platform below, meant for reading with no or a poor connection.
+
+If a word isn't in the built-in DPD, the popup offers two links instead:
+**Search on Dhamma.gift** and **Search in the full Dict.Dhamma.Gift**.
 
 ### Multi-select: phrases and sentences
 
@@ -99,6 +102,10 @@ one place.
 
 <AppFrame src="/dict/" title="Dict.Dhamma.Gift" height={550} />
 
+The same dictionary is on the site at [dhamma.gift/dict](https://dhamma.gift/dict),
+and it works offline there. Add a word to the address to open its page:
+[dhamma.gift/dict/dukkha](https://dhamma.gift/dict/dukkha).
+
 ### The word page
 
 <img src={DictWordPage} alt="The page for dukkha: history on the left, the DPD entry, buttons next to the word" style={{maxWidth: '100%', display: 'block', margin: '0 auto 1.5rem'}} />
@@ -110,29 +117,36 @@ one place.
 - **"Open on Dhamma.Gift"** — searches the site's texts for the word (Alt+3
   does the same).
 - Double-clicking any word inside an entry also searches for it.
+- The dictionary blocks can be moved up and down (↑/↓). In the Sanskrit
+  block, +/− expands or collapses all its dictionaries.
 
 ### The ☰ menu
 
-<img src={DictMenu} alt="The dictionary menu: find on the page, compass, language, theme, font size, settings, help" style={{maxWidth: 'min(330px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={DictMenu} alt="The dictionary menu: find on the page, compass, language, theme, font size" style={{maxWidth: 'min(330px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
+
+The menu (Alt+M) is one panel:
 
 - **Find on the page** (Alt+F) — search the open entry, the same as on the site.
-- **Compass** (Alt+P) — the Dhamma.Gift quick window: the site's favorites and
-  history, key suttas, Memo.
 - **Appearance** — interface language, light or dark theme, font size
-  (Alt+− / Alt+= / Alt+0).
-- **Settings** (Alt+Shift+S) — everything else: serif font, niggahita
-  spelling (ṃ/ṁ), which entry sections open right away, the "one section at
-  a time" mode, the sandhi mark (’), the read-aloud voice, project links,
-  clearing history and resetting settings.
-- **Help** (Alt+H) — this page.
+  (Alt+− / Alt+= / Alt+0), sans or serif font, niggahita spelling (ṃ/ṁ).
+- **Expand right away** — which entry sections open at once (grammar,
+  examples, summary) and the "one section at a time" mode.
+- **Text and sound** — the sandhi mark (’), the read-aloud voice, project
+  links.
+- **Data** — the offline dictionary, clearing history and favorites,
+  resetting settings.
+
+Help (?, Alt+H) and Share are icons in the menu header. On
+dhamma.gift/dict the menu also has **Compass** (Alt+P) — the Dhamma.Gift quick
+window with the site's favorites and history, key suttas and Memo.
 
 ### Offline mini-dictionary
 
-Under **Settings → Data**, a **Download** button saves a small DPD dataset
+Under **Menu → Data**, a **download** button saves a small DPD dataset
 (~3.7 MB) right in the browser. Once downloaded, it works as an automatic
 fallback: if a live lookup can't reach the server, this page shows short
 entries from the downloaded data instead — no separate "offline mode" to
-turn on, it just kicks in when needed. The button turns into **Delete**
+turn on, it just kicks in when needed. The button turns into **delete**
 once the data is downloaded, to free the space back up.
 
 ### Other dictionaries — Alt+S
@@ -156,11 +170,10 @@ dictionaries and resources:
 | Key | Action |
 |---|---|
 | `/` | Focus the search box |
-| Alt+M | Menu |
-| Alt+P or Alt+Y | Compass — the Dhamma.Gift quick window |
+| Alt+M or Alt+Shift+S | Menu |
+| Alt+P or Alt+Y | Compass — the Dhamma.Gift quick window (only on dhamma.gift/dict) |
 | Alt+F | Find on the page |
 | Alt+S | Look the word up in another dictionary |
-| Alt+Shift+S | Settings |
 | Alt+H | Help |
 | Alt+Q | Add the word to favorites |
 | Alt+R | Read the word aloud |
@@ -170,12 +183,29 @@ dictionaries and resources:
 | Alt+2 | Dhamma.Gift table of contents |
 | Alt+3 | This word in Dhamma.Gift search |
 
+## The Dict.Dhamma.Gift app
+
+The app for phones has a few things of its own:
+
+- **Select a word in any app** (Android) — Dict.Dhamma.Gift appears in the
+  text-selection menu next to Copy (or under ⋮) and opens the word.
+- **Share** — share a word or a link to Dict.Dhamma.Gift. On iPhone and iPad
+  the entry opens right in the share sheet.
+- **Pāḷi letters above the keyboard** — ā ī ū ṁ ṅ ñ ṭ ḍ ṇ ḷ and a Paste
+  key; "…" adds a second row for Sanskrit. The row can be turned off in the
+  menu.
+- **Recent words on the icon** — long-press the app icon to open one of your
+  last words.
+- **Quick open** — a Quick Settings tile on Android, and a Control Center
+  control on iOS 18 and later.
+
 ## A separate site and browser extensions
 
 Dict.Dhamma.Gift is a separate site you can open directly:
-[dict.dhamma.gift](https://dict.dhamma.gift). The DPD popup dictionary also
-works outside Dhamma.Gift — as a [browser extension](/browser-extension)
-(Chrome, Firefox, Edge, Opera) and as a Tampermonkey script
+[dict.dhamma.gift](https://dict.dhamma.gift). It also works outside
+Dhamma.Gift as a [browser extension](/browser-extension) (Chrome, Firefox,
+Edge, Opera), in the side panel by default. The DPD popup dictionary is
+available as a Tampermonkey script
 ([installation](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md));
 the plugin can be embedded on any site
 ([details](https://github.com/dhammagift/dictPlugin?tab=readme-ov-file#dictplugin)).

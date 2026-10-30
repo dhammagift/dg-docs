@@ -84,15 +84,17 @@ The same search and reader are the Mini Apps behind `/extra`:
 
 `/uposatha` in the bot's chat, or `@dgift_bot uposatha` in any chat — the next 30
 days as the suttas count them: the 8th, 14th and 15th lunar day of each half-month,
-six days a month. Without a city the list is the one for Bodh Gaya, where the day
-runs from 18:00 to 18:00.
+six days a month. Without a city the list is the one for Bodh Gaya, with Bodh
+Gaya's real sunset, dawn and noon times.
 
 `@dgift_bot uposatha Chiang Mai` (or `/uposatha Chiang Mai`) — the same days with
 the real sun times of a city: when the day begins (sunset), dawn, noon and when it
-ends (the next sunset). The city is remembered, so the bare command keeps using it;
-`/uposatha reset` forgets it. The city is looked up in a local gazetteer of every
-city above ~15 000 people (34k of them, spelling mistakes tolerated), with the
-Open-Meteo geocoder for the rest.
+ends (the next sunset). `/uposatha <city>` in the bot's chat also remembers the
+city, so the bare command keeps using it; `/uposatha reset` forgets it. The inline
+query does not remember the city.
+
+An empty inline query — `@dgift_bot` and a space — shows the Uposatha list for
+your saved city, or for Bodh Gaya if there is none.
 
 <img src={InlineUposatha} alt="@dgift_bot uposatha bodh gaya in the message box: Uposatha days, next 30 days — Bodh Gaya, Bihar, India" style={{maxWidth: '100%', borderRadius: 10}} />
 
@@ -110,13 +112,14 @@ How to read these days is on the [Uposatha days](/uposatha) page. The same calen
 
 ## In the bot's chat
 
-Everything above works here too — just without `@dgift_bot`: send a word
-(`saariputta`), a text number (`mn10`) or `uposatha`, and you get the same message
-with the same links and buttons. On top of that, the bot has commands and settings.
+Search and reading work here too — just without `@dgift_bot`: send a word
+(`saariputta`) or a text number (`mn10`), and you get the same message with the
+same links and buttons. For the Uposatha days use `/uposatha`: a plain `uposatha`
+is searched as a word. On top of that, the bot has commands and settings.
 
 | Command | What it does |
 | --- | --- |
-| `/start` | the welcome message and the interface language |
+| `/start` | the welcome message, with a button that switches the interface language |
 | `/language` | choose the interface language (English / Русский) |
 | `/extra` | links to the Mini Apps: search, reading, dictionary, and the 🛞 Memo button (in the bot's own chat) |
 | `/docs` | the link to this documentation |
@@ -124,9 +127,9 @@ with the same links and buttons. On top of that, the bot has commands and settin
 
 ### Settings
 
-- **Language** — `/language` (two buttons, the current one is checked) sets it; `/start` toggles it, and so does the button under any message
-  (`Lang En/Ru` / `Язык Ru/En`). The choice is remembered and affects the links:
-  the Russian interface leads to `dhamma.gift/ru` and `dict.dhamma.gift/ru`.
+- **Language** — `/language` (two buttons, the current one is checked) sets it; the button under the `/start` welcome message and under any message
+  (`Lang En/Ru` / `Язык Ru/En`) switches it. The choice is remembered and affects the links:
+  the Russian interface leads to `dhamma.gift/<query>?lang=ru` and `dict.dhamma.gift/ru/<query>`.
 - **The city for the Uposatha list** — `/uposatha <city>` remembers it,
   `/uposatha reset` forgets it, and the empty `/uposatha` keeps showing it.
 - **The Menu button** next to the message box (`DG en` / `DG ru`) — opens
