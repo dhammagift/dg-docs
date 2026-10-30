@@ -55,8 +55,9 @@ That is the whole thing. `setup.sh` does, in one pass:
    fresh clones (the same thing CI does, just without `sudo` or system
    paths — this version is meant for a regular dev machine).
 3. `npm install` in the `dg-node` root.
-4. `npm run build-db` — the search skeleton `dg_db_light.json`, used by the
-   legacy Express server.
+4. Clones the built docs portal (the `dist` branch of
+   [`dg-docs`](https://github.com/dhammagift/dg-docs)) into `dg-docs/`,
+   so `/docs` works right away.
 5. `npm run build-search-db` — **`dg.db`, the SQLite/FTS5 corpus the
    production server reads.** Around 600 MB and a minute or two; this is the
    slow step.
@@ -100,9 +101,9 @@ npm run build      # English version → build/
 npm run build:ru   # Russian version → build-ru/
 ```
 
-On the server, `dg-node/dg-docs/` is a git-ignored clone of that
-repository's `dist` branch (the built pages, which CI publishes), so a
-fresh `dg-node` checkout has an empty `/docs` route until you clone it.
+`dg-node/dg-docs/` is a git-ignored clone of that repository's `dist`
+branch (the built pages, which CI publishes); `setup.sh` clones it, and the
+servers refresh it from `dist` (a test host may follow `dist-preview`).
 
 ## The search database (`dg.db`) and the Fastify server
 
@@ -120,10 +121,7 @@ npm run build-search-db     # → dg.db, about 600 MB, ~85 seconds
 ```
 
 The build reads the corpus directly — the same trees `scripts/setup.sh` wires
-up — and derives everything it needs itself, so it does **not** depend on
-`dg_db_light.json` or on `npm run build-db` having been run first. (The
-Express server still uses that skeleton; the two pipelines are deliberately
-independent.)
+up — and derives everything it needs itself.
 
 `dg.db` is generated and git-ignored. Never hand-edit it: the next build
 replaces the file wholesale. Anything written by a person — translator
