@@ -194,10 +194,9 @@ The app for phones has a few things of its own:
 - **Pāḷi letters above the keyboard** — ā ī ū ṁ ṅ ñ ṭ ḍ ṇ ḷ and a Paste
   key; "…" adds a second row for Sanskrit. The row can be turned off in the
   menu.
-- **Recent words on the icon** — long-press the app icon to open one of your
-  last words.
-- **Quick open** — a Quick Settings tile on Android, and a Control Center
-  control on iOS 18 and later.
+- **Recent words on the icon** (Android) — long-press the app icon to open
+  one of your last words.
+- **Quick open** (Android) — a Quick Settings tile.
 
 ## A separate site and browser extensions
 
