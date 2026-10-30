@@ -5,6 +5,8 @@ slug: /telegram-bot
 sidebar_position: 16
 ---
 
+import SiteLink from '@site/src/components/SiteLink';
+
 import InlineSutta from '@site/static/img/telegram/inline-sutta.png';
 import MessageSutta from '@site/static/img/telegram/message-sutta.png';
 import InlineUposatha from '@site/static/img/telegram/inline-uposatha.png';
@@ -103,8 +105,8 @@ sit under the message: the Ru/En switch and the link to the full calendar at
 
 <img src={MessageUposatha} alt="The sent Uposatha message: Uposatha by the suttas for the next 30 days (Bodh Gaya, Bihar, India) with six days and their times, the line Times: begin · dawn · noon · end, and the buttons Lang En/Ru and Uposatha calendar" style={{maxWidth: '100%', borderRadius: 10}} />
 
-How to read these days is on the [Uposatha days](/uposatha) page. On Windows 11 the same calendar is an app with widgets:
-*Uposatha by the Suttas* in the [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN).
+How to read these days is on the [Uposatha days](/uposatha) page. The same calendar is an app with widgets,
+*Uposatha by the Suttas*: [App Store](https://apps.apple.com/app/uposatha-by-the-suttas/id6816601259) · <SiteLink to="/apps?app=uposatha">Google Play</SiteLink> · [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN).
 
 ## In the bot's chat
 

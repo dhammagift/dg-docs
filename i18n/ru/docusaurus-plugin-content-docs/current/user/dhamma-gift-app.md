@@ -12,7 +12,7 @@ import MsStore from '@site/static/img/buttons/msstore-cta.png';
 # Dhamma.Gift (приложение)
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.5rem', margin: '1rem 0'}}>
-  <a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Загрузите в App Store" style={{height: '56px'}} /></a>
+  <a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Загрузите в App Store" style={{height: '56px'}} /></a>
   <SiteLink to="/apps?app=dg"><img src="/assets/img/buttons/google-play-cta.png" alt="Доступно в Google Play" style={{height: '56px'}} /></SiteLink>
   <a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src={MsStore} alt="Dhamma.Gift в Microsoft Store" style={{height: '56px'}} /></a>
 </div>

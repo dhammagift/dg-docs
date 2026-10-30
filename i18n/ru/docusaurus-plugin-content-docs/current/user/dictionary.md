@@ -7,6 +7,7 @@ sidebar_position: 4
 
 import AppFrame from '@site/src/components/AppFrame';
 import PageTools from '@site/src/components/PageTools';
+import SiteLink from '@site/src/components/SiteLink';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import DictPlatformDropdown from '@site/static/img/help/dict-platform-dropdown.png';
@@ -24,6 +25,12 @@ import PopupDark from '@site/static/img/help/dict-popup-dark.png';
     style={{width: 88, display: 'block'}}
   />
 </a>
+
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
+  <a href="https://apps.apple.com/app/dict-dhamma-gift/id6816639947"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать Dict.Dhamma.Gift в App Store" style={{maxWidth: '200px'}} /></a>
+  <SiteLink to="/apps?app=dict"><img src="/assets/img/buttons/google-play-cta.png" alt="Скачать Dict.Dhamma.Gift в Google Play" style={{maxWidth: '200px'}} /></SiteLink>
+  <a href="https://apps.microsoft.com/detail/9P3B7HLRXXGC"><img src="/assets/img/buttons/msstore-cta.png" alt="Скачать Dict.Dhamma.Gift из Microsoft Store" style={{maxWidth: '200px'}} /></a>
+</div>
 
 Словарь встроен в сайт: он всплывает по клику на палийское слово при чтении и
 открывается во вкладке «Словарь» в [Быстром окне](/quickmodal). Встроенный

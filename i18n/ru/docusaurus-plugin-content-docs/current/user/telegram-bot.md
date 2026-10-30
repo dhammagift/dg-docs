@@ -5,6 +5,8 @@ slug: /telegram-bot
 sidebar_position: 16
 ---
 
+import SiteLink from '@site/src/components/SiteLink';
+
 import InlineSutta from '@site/static/img/telegram/inline-sutta.png';
 import MessageSutta from '@site/static/img/telegram/message-sutta.png';
 import InlineUposatha from '@site/static/img/telegram/inline-uposatha.png';
@@ -101,8 +103,8 @@ Dhamma.gift мини-приложением с уже выполненным п�
 
 <img src={MessageUposatha} alt="Отправленное сообщение: Uposatha by the suttas for the next 30 days (Bodh Gaya, Bihar, India) с шестью днями и временами, строка Times: begin · dawn · noon · end и кнопки Lang En/Ru и Uposatha calendar" style={{maxWidth: '100%', borderRadius: 10}} />
 
-Как читать эти дни — на странице [Дни упосатхи](/uposatha). В Windows 11 тот же календарь есть приложением с виджетами:
-*Uposatha by the Suttas* в [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN).
+Как читать эти дни — на странице [Дни упосатхи](/uposatha). Тот же календарь есть приложением с виджетами,
+*Uposatha by the Suttas*: [App Store](https://apps.apple.com/app/uposatha-by-the-suttas/id6816601259) · <SiteLink to="/apps?app=uposatha">Google Play</SiteLink> · [Microsoft Store](https://apps.microsoft.com/detail/9NMD1L6H52ZN).
 
 ## В своём чате с ботом
 

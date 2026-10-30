@@ -16,7 +16,7 @@ passage, reading it with a translation, listening to it, and memorizing it
 are all one continuous workflow rather than separate apps.
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
-  <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{width: '100%', display: 'block'}} /></a></span>
+  <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{width: '100%', display: 'block'}} /></a></span>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><SiteLink to="/apps?app=dg"><img src="/assets/img/buttons/google-play-cta.png" alt="Get it on Google Play" style={{width: '100%', display: 'block'}} /></SiteLink></span>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src="/assets/img/buttons/msstore-cta.png" alt="Get it from Microsoft Store" style={{width: '100%', display: 'block'}} /></a></span>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Install as a PWA" style={{width: '100%', display: 'block'}} /></SiteLink></span>
@@ -121,6 +121,12 @@ the Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom
 Library, and a Sanskrit dictionary. More on the dictionary modes on the
 dedicated [Dictionary](/dictionary) page. Open the
 [dictionary site](https://dict.dhamma.gift).
+
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
+  <a href="https://apps.apple.com/app/dict-dhamma-gift/id6816639947"><img src="/assets/img/buttons/appstore-cta.png" alt="Download Dict.Dhamma.Gift on the App Store" style={{maxWidth: '200px'}} /></a>
+  <SiteLink to="/apps?app=dict"><img src="/assets/img/buttons/google-play-cta.png" alt="Get Dict.Dhamma.Gift on Google Play" style={{maxWidth: '200px'}} /></SiteLink>
+  <a href="https://apps.microsoft.com/detail/9P3B7HLRXXGC"><img src="/assets/img/buttons/msstore-cta.png" alt="Get Dict.Dhamma.Gift from the Microsoft Store" style={{maxWidth: '200px'}} /></a>
+</div>
 
 <div style={{clear: 'both'}} />
 

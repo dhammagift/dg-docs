@@ -25,9 +25,9 @@ import SiteLink from '@site/src/components/SiteLink';
   [чтение](http://t.me/dhammagift_bot/read), [словарь](http://t.me/dhammagift_bot/dict).
 
 **Приложения** (у каждого: PWA, Android и iOS)
-- **Dhamma.Gift** — <SiteLink to="/">PWA</SiteLink> · <SiteLink to="/apps?app=dg">Android</SiteLink> · [iOS](https://apps.apple.com/app/id6813706217) · [Windows](https://apps.microsoft.com/detail/9NK892G5P5GT)
-- **Dict.Dhamma.Gift** — [PWA](https://dict.dhamma.gift) · <SiteLink to="/apps?app=dict">Android</SiteLink> · iOS
-- **Ariyuposatha** (календарь упосатхи) — <SiteLink to="/uposatha-calendar">PWA</SiteLink> · <SiteLink to="/apps?app=uposatha">Android</SiteLink> · iOS
+- **Dhamma.Gift** — <SiteLink to="/">PWA</SiteLink> · <SiteLink to="/apps?app=dg">Android</SiteLink> · [iOS](https://apps.apple.com/app/dhamma-gift/id6813706217) · [Windows](https://apps.microsoft.com/detail/9NK892G5P5GT)
+- **Dict.Dhamma.Gift** — [PWA](https://dict.dhamma.gift) · <SiteLink to="/apps?app=dict">Android</SiteLink> · [iOS](https://apps.apple.com/app/dict-dhamma-gift/id6816639947) · [Windows](https://apps.microsoft.com/detail/9P3B7HLRXXGC)
+- **Ariyuposatha** (календарь упосатхи) — <SiteLink to="/uposatha-calendar">PWA</SiteLink> · <SiteLink to="/apps?app=uposatha">Android</SiteLink> · [iOS](https://apps.apple.com/app/uposatha-by-the-suttas/id6816601259) · [Windows](https://apps.microsoft.com/detail/9NMD1L6H52ZN)
 
 Приложения работают онлайн и офлайн. Во всём, что описано в этой политике, приложение для iOS ведёт себя так же, как Android-версия.
 

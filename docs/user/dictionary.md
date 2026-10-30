@@ -7,6 +7,7 @@ sidebar_position: 4
 
 import AppFrame from '@site/src/components/AppFrame';
 import PageTools from '@site/src/components/PageTools';
+import SiteLink from '@site/src/components/SiteLink';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import DictPlatformDropdown from '@site/static/img/help/dict-platform-dropdown-en.png';
@@ -24,6 +25,12 @@ import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
     style={{width: 88, display: 'block'}}
   />
 </a>
+
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
+  <a href="https://apps.apple.com/app/dict-dhamma-gift/id6816639947"><img src="/assets/img/buttons/appstore-cta.png" alt="Download Dict.Dhamma.Gift on the App Store" style={{maxWidth: '200px'}} /></a>
+  <SiteLink to="/apps?app=dict"><img src="/assets/img/buttons/google-play-cta.png" alt="Get Dict.Dhamma.Gift on Google Play" style={{maxWidth: '200px'}} /></SiteLink>
+  <a href="https://apps.microsoft.com/detail/9P3B7HLRXXGC"><img src="/assets/img/buttons/msstore-cta.png" alt="Get Dict.Dhamma.Gift from the Microsoft Store" style={{maxWidth: '200px'}} /></a>
+</div>
 
 The dictionary is built into the site: it pops up when you click a Pali word
 while reading, and it opens in the "Dictionary" tab of the [Quick

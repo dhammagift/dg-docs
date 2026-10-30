@@ -16,7 +16,7 @@ Dhamma.gift — это набор связанных инструментов в
 не в разных приложениях.
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
-  <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать в App Store" style={{width: '100%', display: 'block'}} /></a></span>
+  <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать в App Store" style={{width: '100%', display: 'block'}} /></a></span>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><SiteLink to="/apps?app=dg"><img src="/assets/img/buttons/google-play-cta.png" alt="Скачать в Google Play" style={{width: '100%', display: 'block'}} /></SiteLink></span>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.microsoft.com/detail/9NK892G5P5GT"><img src="/assets/img/buttons/msstore-cta.png" alt="Скачать из Microsoft Store" style={{width: '100%', display: 'block'}} /></a></span>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><SiteLink to="/"><img src="/assets/img/buttons/pwa-cta.png" alt="Установить как PWA" style={{width: '100%', display: 'block'}} /></SiteLink></span>
@@ -115,6 +115,12 @@ DigitalPaliReader.online, TheBuddhasWords.net, SuttaCentral.net. См.
 Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library,
 словарь санскрита. Подробнее о режимах словаря — на отдельной странице
 [Словарь](/dictionary). Открыть [сайт словаря](https://dict.dhamma.gift/ru).
+
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
+  <a href="https://apps.apple.com/app/dict-dhamma-gift/id6816639947"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать Dict.Dhamma.Gift в App Store" style={{maxWidth: '200px'}} /></a>
+  <SiteLink to="/apps?app=dict"><img src="/assets/img/buttons/google-play-cta.png" alt="Скачать Dict.Dhamma.Gift в Google Play" style={{maxWidth: '200px'}} /></SiteLink>
+  <a href="https://apps.microsoft.com/detail/9P3B7HLRXXGC"><img src="/assets/img/buttons/msstore-cta.png" alt="Скачать Dict.Dhamma.Gift из Microsoft Store" style={{maxWidth: '200px'}} /></a>
+</div>
 
 <div style={{clear: 'both'}} />
 
