@@ -4,6 +4,7 @@ import {readFileSync} from 'node:fs';
 
 import {
   buildGlossary,
+  findHeaderRow,
   normalizeText,
   parseCsv,
   parseRefs,
@@ -36,9 +37,20 @@ test('resolveColumns maps by header name, not position', () => {
 
 test('resolveColumns fails loudly when a required column is renamed', () => {
   assert.throws(
-    () => resolveColumns(['№', 'Пали', 'Русский', 'English']),
-    /required column\(s\) not found: Англ/,
+    () => resolveColumns(['№', 'Пали', 'Русский', 'Eng']),
+    /required column\(s\) not found: Англ \/ English/,
   );
+});
+
+test('resolveColumns and findHeaderRow take the English headers too', () => {
+  const header = ['№', 'Pali', 'Russian', 'English', '', 'Translation (EN, 4nt)', 'Explanation (EN, 4nt)', '',
+    'Where the canon defines it (Katamā…? … idaṁ vuccati; Hatthipada)', 'First definition (link)', 'Pali of the definition',
+    'Compounds with a definition', 'finddhamma patterns: Katam…? / … vuccati', 'Broader: Ko…, ayaṁ…, Kiñ…, ariyassa vinaye',
+    'Vinaya (Vibhaṅgas)', 'DG explanation', 'Standard Russian rendering (unedited translations, auto)'];
+  assert.equal(findHeaderRow([['title'], header]), 1);
+  const cols = resolveColumns(header);
+  assert.deepEqual([cols.pali, cols.ru, cols.en, cols.where, cols.link, cols.definition, cols.compounds, cols.patterns, cols.broader, cols.vinaya, cols.dgNote],
+    [1, 2, 3, 8, 9, 10, 11, 12, 13, 14, 15]);
 });
 
 test('parseRefs splits lists and keeps (+N) as a separate token', () => {

@@ -86,19 +86,21 @@ export function normalizeText(value) {
 // Only the columns this page actually shows. F (4nt), H (machine English, shifted one row
 // down) and the second tab are deliberately absent — see the plan/owner decision: EN is
 // the «Англ» column (D) only.
+// Each column by its Russian or English header (owner 2026-10-31: the sheet's headers go English for English
+// readers; Russian only where it is about the Russian translation) - either spelling is accepted.
 const COLUMN_SPECS = [
-  {key: 'num', label: '№', match: 'exact'},
-  {key: 'pali', label: 'Пали', match: 'exact', required: true},
-  {key: 'ru', label: 'Русский', match: 'exact', required: true},
-  {key: 'en', label: 'Англ', match: 'exact', required: true},
-  {key: 'where', label: 'Где канон определяет', match: 'prefix'},
-  {key: 'link', label: 'Первое определение', match: 'prefix'},
-  {key: 'definition', label: 'Пали определения', match: 'exact'},
-  {key: 'compounds', label: 'Составные, у которых есть определение', match: 'prefix'},
-  {key: 'patterns', label: 'По шаблонам finddhamma', match: 'prefix'},
-  {key: 'broader', label: 'Шире', match: 'prefix'},
-  {key: 'vinaya', label: 'Виная', match: 'prefix'},
-  {key: 'dgNote', label: 'Пояснение DG', match: 'exact'},
+  {key: 'num', labels: ['№'], match: 'exact'},
+  {key: 'pali', labels: ['Пали', 'Pali'], match: 'exact', required: true},
+  {key: 'ru', labels: ['Русский', 'Russian'], match: 'exact', required: true},
+  {key: 'en', labels: ['Англ', 'English'], match: 'exact', required: true},
+  {key: 'where', labels: ['Где канон определяет', 'Where the canon defines'], match: 'prefix'},
+  {key: 'link', labels: ['Первое определение', 'First definition'], match: 'prefix'},
+  {key: 'definition', labels: ['Пали определения', 'Pali of the definition'], match: 'exact'},
+  {key: 'compounds', labels: ['Составные, у которых есть определение', 'Compounds with a definition'], match: 'prefix'},
+  {key: 'patterns', labels: ['По шаблонам finddhamma', 'finddhamma patterns'], match: 'prefix'},
+  {key: 'broader', labels: ['Шире', 'Broader'], match: 'prefix'},
+  {key: 'vinaya', labels: ['Виная', 'Vinaya'], match: 'prefix'},
+  {key: 'dgNote', labels: ['Пояснение DG', 'DG explanation'], match: 'exact'},
 ];
 
 export function resolveColumns(headerRow) {
@@ -106,9 +108,10 @@ export function resolveColumns(headerRow) {
   const cols = {};
   const missing = [];
   for (const spec of COLUMN_SPECS) {
-    const index = headers.findIndex((h) => h && (spec.match === 'exact' ? h === spec.label.toLowerCase() : h.startsWith(spec.label.toLowerCase())));
+    const labels = spec.labels.map((l) => l.toLowerCase());
+    const index = headers.findIndex((h) => h && labels.some((l) => (spec.match === 'exact' ? h === l : h.startsWith(l))));
     if (index >= 0) cols[spec.key] = index;
-    else if (spec.required) missing.push(spec.label);
+    else if (spec.required) missing.push(spec.labels.join(' / '));
   }
   if (missing.length) {
     const found = headerRow
@@ -124,9 +127,9 @@ export function findHeaderRow(rows) {
   const limit = Math.min(rows.length, 10);
   for (let i = 0; i < limit; i++) {
     const headers = rows[i].map(normHeader);
-    if (headers.includes('пали') && headers.includes('русский')) return i;
+    if ((headers.includes('пали') || headers.includes('pali')) && (headers.includes('русский') || headers.includes('russian'))) return i;
   }
-  throw new Error('Glossary sheet: header row not found (no «Пали»/«Русский» in the first 10 rows).');
+  throw new Error('Glossary sheet: header row not found (no Pali/Пали and Russian/Русский in the first 10 rows).');
 }
 
 function cell(row, index) {
