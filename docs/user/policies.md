@@ -50,14 +50,14 @@ favorites, reading progress, subscriptions, and settings across multiple devices
     anonymous identifier is stored; your original passphrase never reaches
     the database.
   - *Google Account* — we use your email address solely for session
-    identification. The email is stored as a hashed entry to protect your
-    privacy.
+    identification. Firebase Authentication (Google) keeps the email as your
+    provider gives it, so you can see which account you are signed in with.
   - *Sign in with Apple* — as with Google: we receive your Apple user
     identifier and the email address Apple provides (if you choose "Hide My
     Email", this is a private relay address created by Apple) and use them
     solely for session identification.
 - **Data storage** — only your bookmarks (favorites, including quotes saved for memorization in Meditate & Memorize), search history,
-  reading progress in texts, Daily Reading subscriptions with their read marks, and interface preferences are saved. This data is accessible only to you
+  reading progress in texts, Daily Reading subscriptions with their read marks, and your settings (including the text on the Memo page) are saved. This data is accessible only to you
   upon successful authentication.
 - **Data deletion** — you may permanently delete all your cloud data at
   any time using the "Delete account & cloud data" button in the Sync menu.
@@ -68,9 +68,11 @@ Our products process only the minimal technical data required for core
 functionality:
 
 - **Search** — only search queries, text references, or selected
-  dictionary terms are transmitted.
-- **Synchronization** — when enabled, we process session metadata (OS type
-  and browser) to help you manage your active devices.
+  dictionary terms are transmitted. Like every request, they appear in the
+  web server's access logs with your IP address for 14 days.
+- **Synchronization** — when enabled, we keep a list of your signed-in
+  devices (device model, OS, browser and the full user agent) to help you
+  manage them.
 - **Uposatha calendar (Uposatha app)** — the place you share (rounded to
   about a kilometre) and your settings stay on your device; the sun and moon
   times are calculated on the device, and reminders are set on the device
@@ -131,10 +133,14 @@ External services:
   sections are collapsed by default. When you open one, your browser loads
   that site's page with the word being looked up.
 - **Google Fonts** (fonts.googleapis.com, fonts.gstatic.com) — fonts on
-  some pages, such as Hatthipada. Your browser loads them, so Google sees
+  some pages, such as Settings and Hatthipada. Your browser loads them, so Google sees
   your IP address.
 - **cdnjs.cloudflare.com** — a charting script loaded on the Hatthipada
   page.
+- **AI search** — only when an exact search finds nothing and AI search is
+  turned on: the query text is sent to a language model (Groq, Google Gemini
+  or DeepSeek) and to [tripitaka-mcp.com](https://tripitaka-mcp.com) to find
+  passages by meaning. Our server sends it; your IP address is not passed on.
 - **Google Cloud Text-to-Speech** — only when you choose a Google voice:
   it receives the text being read. On the website your browser sends it
   to Google directly (with the site's trial key or your own API key), so
@@ -147,8 +153,9 @@ marketing or advertising purposes.
 
 ### Data Retention
 
-- **Without synchronization** — search queries and history are not stored
-  on our servers; all data remains local to your browser's `localStorage`.
+- **Without synchronization** — your history, favorites and settings are not
+  stored on our servers; they remain local to your browser's `localStorage`.
+  Search queries appear only in the server logs (see below).
 - **With synchronization** — history, favorites, reading progress, subscriptions, and settings are stored
   in the Google Cloud database until deleted by the user.
 - **Offline library** — the full text database (about 200 MB to download,
@@ -162,7 +169,7 @@ marketing or advertising purposes.
   run on the device without requests to our server. Database updates are
   offered at most once every two weeks. You can remove the database with the
   "Delete" button in the offline library settings.
-- **Logs** — technical server logs are retained for a maximum of 30 days.
+- **Logs** — server logs (requests with IP addresses, search queries included) are kept for 14 days, then deleted.
 
 ### Updates to This Policy
 
