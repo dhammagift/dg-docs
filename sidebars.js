@@ -68,7 +68,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Технические детали',
-          collapsed: true,
+          collapsed: false,  // open like the rest (owner 2026-11-01: MCP and the voice API are down to earth, readers may not notice a folded section)
           className: 'dg-cat-tech',
           items: [
             'tech/installation', 'tech/offline-db', 'tech/mcp', 'tech/voice-api',
@@ -147,7 +147,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Tech',
-          collapsed: true,
+          collapsed: false,  // open like the rest (owner 2026-11-01: MCP and the voice API are down to earth, readers may not notice a folded section)
           className: 'dg-cat-tech',
           items: [
             'tech/installation',
