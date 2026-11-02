@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-11-02",
   "source": {
     "sheetId": "1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg",
     "gid": "0",
@@ -611,7 +611,8 @@
         "vinaya": [
           "pli-tv-bu-vb-pc4:2.1.14"
         ]
-      }
+      },
+      "dgNote": "Not \"impermanent\": in sn22.59:6.4, asked \"is what is anicca painful or pleasant?\", the monks answer categorically: \"painful\", and the Buddha accepts it. So it is a question to be answered categorically (an4.42), and answering categorically a question that needs analysis is wrong (an3.67). The impermanent is not always painful; anicca is what is always painful: unreliable, unstable."
     },
     {
       "id": "animitta",
