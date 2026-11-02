@@ -35,8 +35,8 @@ async function fetchCsv(url, attempts = 3) {
       if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
       const text = await res.text();
       // A private/deleted sheet answers 200 with a Google login page.
-      if (!text.includes('Пали')) {
-        throw new Error('response is not the glossary CSV (no «Пали» header) — is the sheet still public?');
+      if (!/"?(Пали|Pali)"?,/.test(text)) {
+        throw new Error('response is not the glossary CSV (no «Pali»/«Пали» header) — is the sheet still public?');
       }
       return text;
     } catch (error) {
