@@ -663,3 +663,6 @@ a.dg-glossary__chip:hover {
     background: var(--dg-glossary-soft);
   }
 }
+
+/* The reader's toolbar icons in its docs table (user/read: "The icons above the text"): toolbar size, not page size */
+.markdown table img[src^='data:image/svg'], .markdown table img[src$='.svg'] { width: 22px; height: 22px; max-width: none; vertical-align: middle; }

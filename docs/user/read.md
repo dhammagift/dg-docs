@@ -21,6 +21,23 @@ clone — click around, switch modes, change the font):
 
 <AppFrame src="/dn22?lang=en" title="Live reader — DN 22" height={700} />
 
+## The icons above the text
+
+| Icon | What it does | Keys |
+|:---:|---|---|
+| **External links ▾** | This text on other sites and in other editions | |
+| ![Eye](/img/help/icons/eye-slash.svg) | Variants from other editions: on / off | **Alt+V** |
+| ![Columns](/img/help/icons/align-right.svg) | One or two columns | **Alt+C** |
+| ![Speech bubble](/img/help/icons/comment.svg) | [Dictionary](/dictionary): on / off, then click a word | **Alt+A** |
+| ![Frame](/img/help/icons/select-slash.svg) | Multi-select: select a few words and they open in the dictionary | **Alt+J** |
+| ![Compass](/img/help/icons/compass.svg) | [Quick window](/quickmodal): favorites, history | **Alt+P** |
+| ![Question mark](/img/help/icons/question.svg) | This help | **Alt+H** |
+| ![Bell](/img/help/icons/bell.svg) | Shown when the text is in your subscription: mark it read | |
+| ![List](/img/help/icons/list-ul-solid-full.svg) **Title** | Contents of the text | **Alt+W** |
+| **‹ dn21 · dn23 ›** | Previous / next text | **Ctrl+←** / **Ctrl+→** |
+
+Every shortcut is on the [Hotkeys](/hotkeys) page.
+
 ## Reading modes
 
 Four reading modes, listed under "Reading modes" in the burger menu (☰),
@@ -161,12 +178,7 @@ the same passage:
 - **Final** (Vinaya texts only) — jumps to the final edition of a rule, if
   it changed over the course of the history/discussion.
 
-Further along the same row: icons to show/hide variants (Alt+V above),
-1/2 columns, the [dictionary](/dictionary), multi-select for the
-dictionary, the compass, and "Help" (links to this page). The contents
-icon (Alt+2) opens the [table of contents](/toc) at this sutta's own
-chapter. A bell appears in the toolbar when the text belongs to one of
-your Subscriptions (see the [Quick Window](/quickmodal)).
+The other icons of this row are described [above](#the-icons-above-the-text).
 
 ## Under the text
 
