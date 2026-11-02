@@ -61,13 +61,13 @@ can also be downloaded to your device and then reads without internet.
   - **Pratham ♂ · Piper** (default): a neural voice (Piper) that reads Pāḷi
     through our own Pāḷi pronunciation rules (letters → sounds, stress,
     long vowels), tuned in blind listening rounds. Beta.
-  - **o Dhamma.Gift ♂ · beta**: a voice trained on real Pāḷi readings.
+  - **Cūḷa DG ♂ · beta**: a voice trained on real Pāḷi readings.
     Its pronunciation is closer to living Pāḷi, but the sound is still
     rough. A new version is on the way.
   - **Priyamvada ♀ · Piper**: a female voice with the same rules.
-- **English**: **Yojanāni ♂** (default), **Alan ♂** (UK), **Kathleen ♀**
+- **English**: **Yojanāni DG ♂** (default), **Alan ♂** (UK), **Kathleen ♀**
   (US).
-- **Russian**: **Puriso ♂** (default), **o Dhamma.Gift ♂ · beta**,
+- **Russian**: **Puriso ♂** (default), **Cūḷa DG ♂ · beta**,
   **Irina ♀**.
 - Pāḷi words inside a translation (sutta, Dhamma, bhikkhu, names) are read
   the Pāḷi way. Abbreviations are spelled out (Ven. → Venerable, SN 56.11 →
@@ -84,7 +84,7 @@ with no network, on the reader and on the Memo page. The 🗑 icon deletes it.
 The English and Russian voices download a shared pronunciation module with
 the first of them. 
 :::warning[Real people's voices: all rights reserved]
-The **o Dhamma.Gift** and **Yojanāni** voices are real people's voices.
+The **Cūḷa DG** and **Yojanāni DG** voices are real people's voices.
 You may download them and listen in
 Dhamma.Gift. Anything else — using them outside Dhamma.Gift, copying the
 voice, training other models on its sound — needs written permission. The

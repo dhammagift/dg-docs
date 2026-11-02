@@ -44,10 +44,10 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 | `voice` | Language | What it is |
 |---|---|---|
 | `pratham` | Pāḷi | "Pratham": Piper neural voice + our Pāḷi pronunciation rules (IAST → sounds, stress, long vowels). Default |
-| `dg` | Pāḷi | "o Dhamma.Gift": a voice trained on real Pāḷi readings. Beta |
+| `dg` | Pāḷi | "Cūḷa DG": a voice trained on real Pāḷi readings. Beta |
 | `priyamvada` | Pāḷi | "Priyamvada": a female Piper voice with the same rules |
-| `miles`, `alan`, `kathleen` | English | Piper voices. `miles` is shown as "Yojanāni" (the default): trained on the readings of Miles, a reader for DG. Pāḷi words and abbreviations (Ven., SN 56.11) are read properly |
-| `puriso`, `dgru`, `irina` | Russian | Piper voices. `puriso` (the default) is Supertonic's male voice M1 taught to Piper; `dgru` is "o Dhamma.Gift", beta. Pāḷi in Latin script is read the Pāḷi way, Russian words with the right stress |
+| `miles`, `alan`, `kathleen` | English | Piper voices. `miles` is shown as "Yojanāni DG" (the default): trained on the readings of a real person. Pāḷi words and abbreviations (Ven., SN 56.11) are read properly |
+| `puriso`, `dgru`, `irina` | Russian | Piper voices. `puriso` (the default) is Supertonic's male voice M1 taught to Piper; `dgru` is "Cūḷa DG", beta. Pāḷi in Latin script is read the Pāḷi way, Russian words with the right stress |
 
 `GET /api/tts/dg-voices` gives the list as `{"voices": [{"id", "lang", "label"}]}` in menu order (a language's first voice is its default); `GET /api/tts/health` shows that the
 service is up and which version of the pronunciation rules it uses. `GET /api/tts/offline/pali-ipa.json`
