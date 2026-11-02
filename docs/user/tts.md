@@ -82,8 +82,14 @@ In **Voice settings → DG Voice**, each voice in the list has a ⬇ icon
 with its download size. Once downloaded, the voice reads on your device
 with no network, on the reader and on the Memo page. The 🗑 icon deletes it.
 The English and Russian voices download a shared pronunciation module with
-the first of them. The o Dhamma.Gift voices are the owner's own and are
-released under CC BY-NC-SA 4.0.
+the first of them. 
+:::warning[Real people's voices: all rights reserved]
+The **o Dhamma.Gift** and **Yojanāni** voices are real people's voices.
+You may download them and listen in
+Dhamma.Gift. Anything else — using them outside Dhamma.Gift, copying the
+voice, training other models on its sound — needs written permission. The
+same notice is written in each such model's file.
+:::
 
 ### Google — cloud voices with a free quota
 
