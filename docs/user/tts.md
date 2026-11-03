@@ -65,7 +65,7 @@ can also be downloaded to your device and then reads without internet.
     Its pronunciation is closer to living Pāḷi, but the sound is still
     rough. A new version is on the way.
   - **Priyamvada ♀ · Piper**: a female voice with the same rules.
-- **English**: **Yojanāni DG ♂** (default), **Alan ♂** (UK), **Kathleen ♀**
+- **English**: **Yojanāni DG ♂** (US, default), **Alan ♂** (UK), **Kathleen ♀**
   (US).
 - **Russian**: **Puriso ♂** (default), **Cūḷa DG ♂**,
   **Irina ♀**.
