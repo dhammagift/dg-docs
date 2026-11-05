@@ -66,7 +66,8 @@ change other people's texts. We report the mistakes to whoever publishes the tex
   [dhammagift/dg-node#71](https://github.com/dhammagift/dg-node/issues/71), sent to SuttaCentral as
   [sc-data#463](https://github.com/suttacentral/sc-data/issues/463).
 - **Typos in Buddha Jayanti.** Four places in tipitaka.lk where a quotation mark glues two words together:
-  reported to them as [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154). When they
+  reported to them as [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154)
+  (our copy: [dg-node#72](https://github.com/dhammagift/dg-node/issues/72)). When they
   correct it, our text follows at the next rebuild.
 - **A typo in the Mahāsaṅgīti 2005 reconstruction (MS05)** — corrected in our data. In AN 1.439–446 the
   digital text of tipitaka2500.github.io reads `‘ānāmi passāmī’ti` eight times, where every edition, MS too,
@@ -76,8 +77,9 @@ change other people's texts. We report the mistakes to whoever publishes the tex
   `thinamiddha` for `thīnamiddha`). They are listed for checking in
   [2-other-differences.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/sc-report/2-other-differences.md).
   We have not changed them: some may be deliberate choices of that edition. Both the typo and this list
-  go to the authors of the reconstruction:
-  [mso-report.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/mso-report.md).
+  were sent to the authors of the reconstruction as
+  [tipitaka2500.github.io#1](https://github.com/tipitaka2500/tipitaka2500.github.io/issues/1)
+  (our copy: [dg-node#73](https://github.com/dhammagift/dg-node/issues/73)).
 - **Lines in the wrong place.** Matching editions to MS lines is done by rules, not by hand, so a rule can miss.
   When we find such a place, we improve the rule and rebuild the whole Canon. For example, in November 2026 a
   whole paragraph of Buddha Jayanti stood in one line of sn35.229 with the next three lines empty. The fixed

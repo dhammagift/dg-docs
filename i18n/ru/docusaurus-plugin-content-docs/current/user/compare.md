@@ -64,7 +64,8 @@ sidebar_position: 3
   [dhammagift/dg-node#71](https://github.com/dhammagift/dg-node/issues/71), отправлен в SuttaCentral как
   [sc-data#463](https://github.com/suttacentral/sc-data/issues/463).
 - **Опечатки в Будда Джаянти.** Четыре места в tipitaka.lk, где кавычка склеивает два слова: отправлены им как
-  [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154). Когда они исправят, наш текст
+  [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154) (наша копия:
+  [dg-node#72](https://github.com/dhammagift/dg-node/issues/72)). Когда они исправят, наш текст
   обновится при следующей сборке.
 - **Опечатка в реконструкции Махасангити 2005 (MS05)** — исправлена в наших данных. В AN 1.439–446 цифровой
   текст tipitaka2500.github.io восемь раз читает `‘ānāmi passāmī’ti`, а во всех изданиях, и в MS тоже, —
@@ -74,8 +75,9 @@ sidebar_position: 3
   `thīnamiddha`). Они собраны для проверки в
   [2-other-differences.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/sc-report/2-other-differences.md).
   Мы их не меняли: некоторые могут быть сознательным выбором этого издания. И опечатка, и этот список
-  отправляются авторам реконструкции:
-  [mso-report.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/mso-report.md).
+  отправлены авторам реконструкции как
+  [tipitaka2500.github.io#1](https://github.com/tipitaka2500/tipitaka2500.github.io/issues/1)
+  (наша копия: [dg-node#73](https://github.com/dhammagift/dg-node/issues/73)).
 - **Строки не на своём месте.** Издания сопоставляются со строками MS по правилам, а не вручную, и правило
   может промахнуться. Когда мы находим такое место, мы улучшаем правило и пересобираем весь канон. Например,
   в ноябре 2026 года в sn35.229 целый абзац Будда Джаянти стоял в одной строке, а три следующие были пустыми.
