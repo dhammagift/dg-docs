@@ -14,8 +14,8 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | Метка | Издание | Страна | Источник |
 |---|---|---|---|
 | **BJT** | Будда Джаянти | Шри-Ланка | [tipitaka.lk](https://tipitaka.lk) |
-| **SR** | Сиам Рат 1927 | Таиланд | E-Tipitaka |
 | **VRI** | Чаттха Сангаяна | Мьянма | [tipitaka.org](https://tipitaka.org) |
+| **SR** | Сиам Рат 1927 | Таиланд | E-Tipitaka |
 | **MS** | Махасангити (SuttaCentral) | Таиланд | [SuttaCentral](https://suttacentral.net) |
 | **MS05** | Махасангити 2005, печатная | Таиланд | [tipitaka2500.github.io](https://tipitaka2500.github.io) |
 | **PTS** | Pali Text Society | Великобритания | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
