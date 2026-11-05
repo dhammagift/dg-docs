@@ -65,6 +65,37 @@ Latin transliteration, not literally the Devanagari script only.
 Translations come in 25 languages. For Thai, Mahachula (DN 1–34,
 MN 1–76) comes first, then Siam Rath.
 
+## Pali editions
+
+Besides the Mahāsaṅgīti (**MS**), the Pali can be read in five more editions: Buddha Jayanti (**BJT**, Sri
+Lanka), Chaṭṭha Saṅgāyana (**VRI**, Myanmar), Siam Rath (**SR**, Thailand), the printed Mahāsaṅgīti 2005
+(**MS05**) and the Pali Text Society (**PTS**). Choose them in [Settings](/settings), in the quick settings
+or in the Translations window:
+
+- **one other edition** — the text is read in it; a line it lacks comes from MS with an **MS** plate;
+- **several editions** — every line in each, with its plate; in the column view (**Alt+C**) one column each.
+
+In the column view the names of the columns stay pinned under the site header. **−** / **+** on a column
+remove it or add another text to its right; a column's name opens a menu where it can become any other
+edition or translation; drag a column by its name to move it. With several editions, the **Differences**
+switch between ‹ previous · next › highlights the letters most of the shown texts do not have.
+
+Everything about the editions, what we corrected in them and how to report a mistake: [Compare](/compare).
+
+## Translators, voices and sharing
+
+- **Plates.** In the Multi mode by lines each translation line starts with a quiet plate with the translator's
+  short name (**Suj**, **Tns**, **O** — the project's own translation), the editions' plates in capitals
+  (**MS**, **BJT**). The line above the text names what is shown: `Pāḷi MS Trn: o`.
+- **A speaker on every title line.** 🔈 next to the Pali title reads the Pali, next to a translation's title
+  that translation, next to an edition's title that edition, down the whole text. The **Voice** item of a
+  line's menu reads the text of that line's column too. See [Voice / TTS](/tts).
+- **Pāḷi / translation on and off** (the pill at the bottom right, **Alt+Z**) keeps the line you are reading
+  where it is on the screen.
+- **Share links carry your view.** A link copied from the reader opens for the recipient exactly what you
+  see: the translations in their order, the Pali editions, the script, columns or lines, variants and
+  differences — for that visit only; their own settings stay as they were.
+
 ## Context menu
 
 The reader's real gem is the per-line context menu. Hover (or tap) the
@@ -86,8 +117,9 @@ appears; clicking it opens a menu with 7 actions:
   the label is picked at random) — opens
   [Memo](/memo) pre-filled with the text from this line onward (up to
   about 1,200 characters).
-- **Compare** — opens this line in 4nt with every Pali edition side by
-  side (MS, royal, Burmese, BJT).
+- **Compare** — opens this text at this line in the Multi mode with every
+  Pali edition side by side and the differences highlighted — see
+  [Compare](/compare).
 
 :::info[Why clicking the text itself does something different]
 The menu only opens from the invisible **✦**. Clicking the line's text
@@ -110,6 +142,10 @@ to) — is in the dropdown on the [Settings](/settings) page.
 The burger menu (☰) has **−** and **+** buttons for the text size, from
 70 % to 250 %. **Alt+−** and **Alt+=** do the same, **Alt+0** goes back
 to 100 %.
+
+The starting size follows the device: 100 % on a computer, 110 % on a phone,
+120 % on a tablet. In the [Dhamma.Gift app](/dhamma-gift-app) a two-finger
+pinch changes the text size in the reader and in the search results.
 
 ## Dictionary
 
@@ -165,16 +201,17 @@ All hotkeys are listed on [Keyboard shortcuts](/hotkeys).
 
 ## External editions and cross-references
 
-The strip under the title links out to other editions and resources for
-the same passage:
+**External links ▾** above the text opens the same passage on other sites.
+Each site has small plates with the Pali editions it gives:
 
-- **Voice** — the built-in TTS player (Alt+R).
-- **4nt** (s.dhamma.gift) — side-by-side comparison of Pali editions.
-- **DPR** — Digital Pali Reader, Burmese and Thai script.
-- **Tpt.lk** — the Buddha Jayanti Tipiṭaka at tipitaka.lk.
-- **SC** — SuttaCentral.net.
-- **TBW** — TheBuddhasWords.net.
-- **Th.ru / Th.su** — Theravada.ru / Theravada.su (Russian interface only).
+- **4NT** (s.4nt.org) — **MS BJT VRI SIAM** side by side (in the reader
+  itself: [Compare](/compare)).
+- **Digital Pali Reader** — **VRI SIAM**, Burmese and Thai editions.
+- **Tipitaka.lk** — **BJT**, the Buddha Jayanti Tipiṭaka.
+- **SuttaCentral** — **MS**.
+- **The Buddha's Words** — **MS**.
+- **Th.ru / Th.su** — Theravada.ru / Theravada.su (Russian interface only;
+  Theravada.su for the Dīgha Nikāya, the one collection complete there).
 - **Final** (Vinaya texts only) — jumps to the final edition of a rule, if
   it changed over the course of the history/discussion.
 
@@ -186,8 +223,9 @@ The other icons of this row are described [above](#the-icons-above-the-text).
   whole text: the Pali and the translation, with the translator named.
 - Under every text: links to **Principles by the Suttas · Rationale ·
   Glossary**.
-- A row of icons: copy link, export (saves the sutta as PDF or Markdown),
-  Edit Translation (the [Translation Editor](/translator)),
-  [Memo](/memo), Create Lists, Compare, DharmaMitra and 4nt.
+- A row of icons: copy link, **Export** (**Copy**, **TXT**, **MD**, **PDF** —
+  the text as it is on screen), Edit Translation (the
+  [Translation Editor](/translator)), [Memo](/memo), Create Lists, Compare,
+  History, DharmaMitra and 4NT.
 - The **Pāḷi / En** pill at the bottom right (Alt+Z) shows or hides
   either language.
