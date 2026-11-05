@@ -15,10 +15,10 @@ Any text can be read in six Pali editions at once, line by line, with the differ
 |---|---|---|---|
 | **BJT** | Buddha Jayanti | Sri Lanka | [tipitaka.lk](https://tipitaka.lk) |
 | **VRI** | Chaṭṭha Saṅgāyana | Myanmar | [tipitaka.org](https://tipitaka.org) |
+| **SR** | Siam Rath 1927 | Thailand | E-Tipitaka |
 | **MS** | Mahāsaṅgīti (SuttaCentral) | Thailand | [SuttaCentral](https://suttacentral.net) |
 | **MS05** | Mahāsaṅgīti 2005, as printed | Thailand | [tipitaka2500.github.io](https://tipitaka2500.github.io) |
 | **PTS** | Pali Text Society | UK | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
-| **SR** | Siam Rath 1927 | Thailand | E-Tipitaka |
 
 ## How to compare
 

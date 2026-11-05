@@ -67,8 +67,8 @@ MN 1–76) comes first, then Siam Rath.
 
 ## Pali editions
 
-Besides **MS**, the Pali can be read in Buddha Jayanti (**BJT**), Chaṭṭha Saṅgāyana (**VRI**), Mahāsaṅgīti 2005
-(**MS05**), Pali Text Society (**PTS**) and Siam Rath (**SR**): one of them, or several side by side with the
+Besides **MS**, the Pali can be read in Buddha Jayanti (**BJT**), Chaṭṭha Saṅgāyana (**VRI**), Siam Rath (**SR**),
+Mahāsaṅgīti 2005 (**MS05**) and Pali Text Society (**PTS**): one of them, or several side by side with the
 **Differences** switch. See [Compare](/compare).
 
 ## Translators, voices and sharing
