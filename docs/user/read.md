@@ -67,20 +67,9 @@ MN 1–76) comes first, then Siam Rath.
 
 ## Pali editions
 
-Besides the Mahāsaṅgīti (**MS**), the Pali can be read in five more editions: Buddha Jayanti (**BJT**, Sri
-Lanka), Chaṭṭha Saṅgāyana (**VRI**, Myanmar), Siam Rath (**SR**, Thailand), the printed Mahāsaṅgīti 2005
-(**MS05**) and the Pali Text Society (**PTS**). Choose them in [Settings](/settings), in the quick settings
-or in the Translations window:
-
-- **one other edition** — the text is read in it; a line it lacks comes from MS with an **MS** plate;
-- **several editions** — every line in each, with its plate; in the column view (**Alt+C**) one column each.
-
-In the column view the names of the columns stay pinned under the site header. **−** / **+** on a column
-remove it or add another text to its right; a column's name opens a menu where it can become any other
-edition or translation; drag a column by its name to move it. With several editions, the **Differences**
-switch between ‹ previous · next › highlights the letters most of the shown texts do not have.
-
-Everything about the editions, what we corrected in them and how to report a mistake: [Compare](/compare).
+Besides **MS**, the Pali can be read in Buddha Jayanti (**BJT**), Chaṭṭha Saṅgāyana (**VRI**), Mahāsaṅgīti 2005
+(**MS05**), Pali Text Society (**PTS**) and Siam Rath (**SR**): one of them, or several side by side with the
+**Differences** switch. See [Compare](/compare).
 
 ## Translators, voices and sharing
 
