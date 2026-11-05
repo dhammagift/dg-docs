@@ -68,15 +68,21 @@ change other people's texts. We report the mistakes to whoever publishes the tex
 - **Typos in Buddha Jayanti.** Four places in tipitaka.lk where a quotation mark glues two words together:
   reported to them as [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154). When they
   correct it, our text follows at the next rebuild.
+- **A typo in the Mahāsaṅgīti 2005 reconstruction (MS05)** — corrected in our data. In AN 1.439–446 the
+  digital text of tipitaka2500.github.io reads `‘ānāmi passāmī’ti` eight times, where every edition, MS too,
+  has `jānāmi passāmi`; on Dhamma.Gift MS05 reads `jānāmi`.
 - **The Mahāsaṅgīti 2005 against all others.** 278 places where the printed Mahāsaṅgīti (and so MS) reads
   otherwise than every other edition, many of them looking like misprints (`dussilyaṁ` for `dussīlyaṁ`,
   `thinamiddha` for `thīnamiddha`). They are listed for checking in
   [2-other-differences.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/sc-report/2-other-differences.md).
-  We have not changed them: some may be deliberate choices of that edition.
+  We have not changed them: some may be deliberate choices of that edition. Both the typo and this list
+  go to the authors of the reconstruction:
+  [mso-report.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/mso-report.md).
 - **Lines in the wrong place.** Matching editions to MS lines is done by rules, not by hand, so a rule can miss.
   When we find such a place, we improve the rule and rebuild the whole Canon. For example, in November 2026 a
-  whole paragraph of Buddha Jayanti stood in one line of sn35.229 with the next three lines empty; the fix put
-  271 lines in 32 texts back in place.
+  whole paragraph of Buddha Jayanti stood in one line of sn35.229 with the next three lines empty. The fixed
+  rule put 577 lines in 73 texts back in place: Buddha Jayanti 267, Siam Rath 170, PTS 136, Chaṭṭha
+  Saṅgāyana 4 (sn24.5 had 34 empty lines, now 7).
 
 ## Found a mistake? Tell us
 
