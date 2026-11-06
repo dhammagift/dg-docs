@@ -95,8 +95,8 @@ flow instead of living in a separate playback app.
   aloud along with it;
 - **A-B loop** — repeat any passage for focused listening;
 - **DG voices** (the default) — Pali: Pratham, Cūḷa DG (beta),
-  Priyamvada; English: Yojanāni DG, Alan, Kathleen; Russian: Puriso,
-  Cūḷa DG, Irina. Each can be downloaded for offline use;
+  Priyamvada; English: Yojanāni DG, Alan, Kathleen; Russian: Cūḷa DG,
+  Puriso, Irina. Each can be downloaded for offline use;
 - Google cloud voices — with the built-in trial key or your own Google
   Cloud API key;
 - built-in device voices (e.g. Android's Sanskrit voice reads Pali

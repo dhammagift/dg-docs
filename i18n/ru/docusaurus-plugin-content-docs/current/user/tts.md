@@ -68,7 +68,7 @@ import TtsAbLoop from '@site/static/img/help/tts-ab-loop.png';
   - **Priyamvada ♀ · Piper**: женский голос с теми же правилами.
 - **Английский**: **Yojanāni DG ♂** (американский, по умолчанию), **Alan ♂** (британский),
   **Kathleen ♀** (американский).
-- **Русский**: **Puriso ♂** (по умолчанию), **Cūḷa DG ♂**,
+- **Русский**: **Cūḷa DG ♂** (по умолчанию), **Puriso ♂**,
   **Irina ♀**.
 - Слова пали внутри перевода (sutta, Dhamma, bhikkhu, имена) читаются
   по-палийски. Сокращения раскрываются (Ven. → Venerable, SN 56.11 →

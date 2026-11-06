@@ -67,7 +67,7 @@ can also be downloaded to your device and then reads without internet.
   - **Priyamvada ♀ · Piper**: a female voice with the same rules.
 - **English**: **Yojanāni DG ♂** (US, default), **Alan ♂** (UK), **Kathleen ♀**
   (US).
-- **Russian**: **Puriso ♂** (default), **Cūḷa DG ♂**,
+- **Russian**: **Cūḷa DG ♂** (default), **Puriso ♂**,
   **Irina ♀**.
 - Pāḷi words inside a translation (sutta, Dhamma, bhikkhu, names) are read
   the Pāḷi way. Abbreviations are spelled out (Ven. → Venerable, SN 56.11 →
