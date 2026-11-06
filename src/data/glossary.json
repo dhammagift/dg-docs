@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-06",
   "source": {
     "sheetId": "1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg",
     "gid": "0",
@@ -3095,7 +3095,7 @@
       "num": 96,
       "pali": "dukkha",
       "ru": "боль, боль-дискомфорт, телесный дискомфорт",
-      "en": "pain",
+      "en": "pain, pain-discomfort, bodily discomfort",
       "canon": {
         "where": [
           "dn22:18.18",
