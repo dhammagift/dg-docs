@@ -11,7 +11,7 @@ import CompareDiff from '@site/static/img/help/compare-diff-en.png';
 
 Any text can be read in six Pali editions at once, line by line, with the differences highlighted.
 
-| Tag | Edition | Whose text | Source |
+| Tag | Edition | Tradition | Source |
 |---|---|---|---|
 | **SR** | Siam Rath 1927 | **national**: Thailand, the royal edition | E-Tipitaka |
 | **BJT** | Buddha Jayanti (1957-1993) | **national**: Sri Lanka, Sinhalese manuscripts | [Tipitaka.lk](https://tipitaka.lk) |
