@@ -11,14 +11,16 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 
 Любой текст можно читать сразу в шести изданиях пали, строка за строкой, с подсветкой отличий.
 
-| Метка | Издание | Страна | Источник |
+| Метка | Издание | Чей текст | Источник |
 |---|---|---|---|
-| **BJT** | Будда Джаянти | Шри-Ланка | [tipitaka.lk](https://tipitaka.lk) |
-| **VRI** | Чаттха Сангаяна | Мьянма | [tipitaka.org](https://tipitaka.org) |
-| **SR** | Сиам Рат 1927 | Таиланд | E-Tipitaka |
-| **MS** | Махасангити (SuttaCentral) | Таиланд | [SuttaCentral](https://suttacentral.net) |
-| **MS05** | Махасангити 2005, печатная | Таиланд | [tipitaka2500.github.io](https://tipitaka2500.github.io) |
-| **PTS** | Pali Text Society | Великобритания | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
+| **BJT** | Будда Джаянти (1957-1993) | **национальный**: Шри-Ланка, сингальские рукописи | [tipitaka.lk](https://tipitaka.lk) |
+| **VRI** | Чаттха Сангаяна (Шестой собор, 1954-1956) | **национальный**: Мьянма, бирманская традиция | [tipitaka.org](https://tipitaka.org) |
+| **SR** | Сиам Рат 1927 | **национальный**: Таиланд, королевское издание | E-Tipitaka |
+| **MS05** | Махасангити 2005, печатная | бирманский текст (Шестой собор) латиницей; издана в Таиланде (Dhamma Society) | [tipitaka2500.github.io](https://tipitaka2500.github.io) |
+| **MS** | Махасангити (SuttaCentral) | MS05 с правками SuttaCentral | [SuttaCentral](https://suttacentral.net) |
+| **PTS** | Pali Text Society (1880-е и позже) | **не национальный**: европейское критическое издание по рукописям Шри-Ланки, Бирмы, Таиланда | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
+
+Национальных канонов три: BJT, VRI, SR. MS05 и MS не отдельная традиция, а бирманский текст в другой оцифровке, поэтому с VRI они почти совпадают.
 
 ## Как сравнивать
 
