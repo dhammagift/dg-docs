@@ -14,13 +14,13 @@ Any text can be read in six Pali editions at once, line by line, with the differ
 | Tag | Edition | Whose text | Source |
 |---|---|---|---|
 | **BJT** | Buddha Jayanti (1957-1993) | **national**: Sri Lanka, Sinhalese manuscripts | [Tipitaka.lk](https://tipitaka.lk) |
-| **VRI** | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | **national**: Myanmar, the Burmese tradition | [Tipitaka.org](https://tipitaka.org) |
+| **VRI** | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | **national**: Myanmar | [Tipitaka.org](https://tipitaka.org) |
 | **SR** | Siam Rath 1927 | **national**: Thailand, the royal edition | E-Tipitaka |
-| **MS05** | Mahāsaṅgīti 2005, as printed | the Burmese (Sixth Council) text in Roman script; published in Thailand (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
+| **MS05** | Mahāsaṅgīti 2005, as printed | the Myanmar (Sixth Council) text in Roman script; published in Thailand (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
 | **MS** | Mahāsaṅgīti, digital | MS05 in digital form: SuttaCentral digitised it, cut it into segments and edited the text | [SuttaCentral](https://suttacentral.net) |
-| **PTS** | Pali Text Society (from the 1880s) | **not national**: a European critical edition from manuscripts of Sri Lanka, Burma and Thailand | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
+| **PTS** | Pali Text Society (from the 1880s) | **not national**: a European critical edition from manuscripts of Sri Lanka, Myanmar and Thailand | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
 
-There are three national canons: BJT, VRI, SR. MS05 and MS are no separate tradition but the Burmese text in another digitisation, which is why they are almost the same as VRI.
+There are three national canons: BJT, VRI, SR. MS05 and MS are no separate tradition but the Myanmar text in another digitisation, which is why they are almost the same as VRI.
 
 ## How to compare
 

@@ -14,13 +14,13 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | Метка | Издание | Чей текст | Источник |
 |---|---|---|---|
 | **BJT** | Buddha Jayanti (1957-1993) | **национальный**: Шри-Ланка, сингальские рукописи | [Tipitaka.lk](https://tipitaka.lk) |
-| **VRI** | Chaṭṭha Saṅgāyana (Шестой собор, 1954-1956) | **национальный**: Мьянма, бирманская традиция | [Tipitaka.org](https://tipitaka.org) |
+| **VRI** | Chaṭṭha Saṅgāyana (Шестой собор, 1954-1956) | **национальный**: Мьянма | [Tipitaka.org](https://tipitaka.org) |
 | **SR** | Siam Rath 1927 | **национальный**: Таиланд, королевское издание | E-Tipitaka |
-| **MS05** | Mahāsaṅgīti 2005, печатная | бирманский текст (Шестой собор) латиницей; издана в Таиланде (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
+| **MS05** | Mahāsaṅgīti 2005, печатная | мьянманский текст (Шестой собор) латиницей; издана в Таиланде (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
 | **MS** | Mahāsaṅgīti, цифровая | MS05 в цифровом виде: SuttaCentral оцифровал, разбил на сегменты и правил текст | [SuttaCentral](https://suttacentral.net) |
-| **PTS** | Pali Text Society (1880-е и позже) | **не национальный**: европейское критическое издание по рукописям Шри-Ланки, Бирмы, Таиланда | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
+| **PTS** | Pali Text Society (1880-е и позже) | **не национальный**: европейское критическое издание по рукописям Шри-Ланки, Мьянмы, Таиланда | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
 
-Национальных канонов три: BJT, VRI, SR. MS05 и MS не отдельная традиция, а бирманский текст в другой оцифровке, поэтому с VRI они почти совпадают.
+Национальных канонов три: BJT, VRI, SR. MS05 и MS не отдельная традиция, а мьянманский текст в другой оцифровке, поэтому с VRI они почти совпадают.
 
 ## Как сравнивать
 
