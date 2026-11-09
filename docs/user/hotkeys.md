@@ -46,7 +46,7 @@ way.
 | Shortcut | What it does |
 |---|---|
 | **Ctrl+→** / **Ctrl+←** | Next / previous text |
-| **Alt+Shift+1** … **Alt+Shift+4** | Reader modes: Reading, Multi, For Memorization, Devanagari |
+| **Alt+Shift+1** … **Alt+Shift+4** | Reader modes: Reading, Compare, For Memorization, Devanagari |
 | **Alt+Z** | Show / hide the second language (Pali or translation) |
 | **Alt+C** | One or two columns |
 | **Alt+V** | Show / hide variant readings |

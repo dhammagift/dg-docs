@@ -23,7 +23,10 @@ Any text can be read in six Pali editions at once, line by line, with the differ
 
 ## How to compare
 
-- **✦ → Compare** on any line opens the text with every edition, differences on.
+- **✦ → Compare** on any line opens the text with every edition and every translation in your languages, differences on;
+  your own Compare settings stay as they were.
+- The **Compare** reader mode (**Alt+Shift+2**) shows by default every edition, a translation in your main language and
+  the differences. What you change there (editions, lines or columns, translators, differences) is kept.
 - Choose the editions in [Settings](/settings) or the reader's quick settings. In columns (**Alt+C**), **−** / **+**
   remove or add a column.
 - The **Differences** switch highlights what most of the editions shown do not have.

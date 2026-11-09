@@ -43,12 +43,12 @@ Every shortcut is on the [Hotkeys](/hotkeys) page.
 Four reading modes, listed under "Reading modes" in the burger menu (☰),
 each with its own Alt+Shift hotkey:
 
-<img src={ReaderModesDrawer} alt="The 'Reading modes' panel in the burger menu" style={{maxWidth: 'min(320px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={ReaderModesDrawer} alt="The 'Reading modes' panel in the burger menu: Reading, Compare, For Memorization, Devanagari" style={{maxWidth: 'min(320px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 | Hotkey | Mode | What it shows |
 |---|---|---|
 | Alt+Shift+1 | Reading | Pāḷi + one translation, always in your main language |
-| Alt+Shift+2 | Multi | Pāḷi + your saved set of languages and translators side by side |
+| Alt+Shift+2 | Compare | Editions of the Canon or translations side by side: by default every edition, a translation in your main language and the differences; what you change there is kept |
 | Alt+Shift+3 | For Memorization | First-letter mnemonic (the same trick as [Memo](/memo#transform--first-letter-hints), applied straight to the live sutta text) |
 | Alt+Shift+4 | Devanagari | Pāḷi in another script + Pāḷi in Latin |
 
@@ -73,7 +73,7 @@ Mahāsaṅgīti 2005 (**MS05**) and Pali Text Society (**PTS**): one of them, or
 
 ## Translators, voices and sharing
 
-- **Plates.** In the Multi mode by lines each translation line starts with a quiet plate with the translator's
+- **Plates.** In the Compare mode by lines each translation line starts with a quiet plate with the translator's
   short name (**Suj**, **Tns**, **O** — the project's own translation), the editions' plates in capitals
   (**MS**, **BJT**). The line above the text names what is shown: `Pāḷi MS Trn: o`.
 - **A speaker on every title line.** 🔈 next to the Pali title reads the Pali, next to a translation's title
@@ -106,8 +106,9 @@ appears; clicking it opens a menu with 7 actions:
   the label is picked at random) — opens
   [Memo](/memo) pre-filled with the text from this line onward (up to
   about 1,200 characters).
-- **Compare** — opens this text at this line in the Multi mode with every
-  Pali edition side by side and the differences highlighted — see
+- **Compare** — opens this line in the Compare mode with the most for this
+  visit: every Pali edition and every translation in your languages, the
+  differences highlighted. Your own Compare settings stay as they were — see
   [Compare](/compare).
 
 :::info[Why clicking the text itself does something different]
