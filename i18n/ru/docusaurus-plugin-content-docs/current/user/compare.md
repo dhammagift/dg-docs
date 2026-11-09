@@ -13,14 +13,16 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 
 | Метка | Издание | Чей текст | Источник |
 |---|---|---|---|
+| **SR** | Siam Rath 1927 | **национальный**: Таиланд, королевское издание | E-Tipitaka |
 | **BJT** | Buddha Jayanti (1957-1993) | **национальный**: Шри-Ланка, сингальские рукописи | [Tipitaka.lk](https://tipitaka.lk) |
 | **VRI** | Chaṭṭha Saṅgāyana (Шестой собор, 1954-1956) | **национальный**: Мьянма | [Tipitaka.org](https://tipitaka.org) |
-| **SR** | Siam Rath 1927 | **национальный**: Таиланд, королевское издание | E-Tipitaka |
-| **MS05** | Mahāsaṅgīti 2005, печатная | мьянманский текст (Шестой собор) латиницей; издана в Таиланде (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
 | **MS** | Mahāsaṅgīti, цифровая | MS05 в цифровом виде: SuttaCentral оцифровал, разбил на сегменты и правил текст | [SuttaCentral](https://suttacentral.net) |
+| **MS05** | Mahāsaṅgīti 2005, печатная | мьянманский текст (Шестой собор) латиницей; издана в Таиланде (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
 | **PTS** | Pali Text Society (1880-е и позже) | **не национальный**: европейское критическое издание по рукописям Шри-Ланки, Мьянмы, Таиланда | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
 
-Национальных канонов три: BJT, VRI, SR. MS05 и MS не отдельная традиция, а мьянманский текст в другой оцифровке, поэтому с VRI они почти совпадают.
+Порядок колонок: сначала национальные каноны, от меньшего числа поздних текстов в Khuddaka Nikāya к большему: Siam Rath не включает Milindapañha, Nettippakaraṇa и Peṭakopadesa, Buddha Jayanti включает два последних, Chaṭṭha Saṅgāyana все три. Затем Mahāsaṅgīti (мьянманский текст) и последним PTS, не связанный с национальной традицией.
+
+Национальных канонов три: SR, BJT, VRI. MS05 и MS не отдельная традиция, а мьянманский текст в другой оцифровке, поэтому с VRI они почти совпадают.
 
 ## Как сравнивать
 
@@ -36,6 +38,28 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 ## Проблемы изданий и что мы сделали
 
 ✅ исправлено у нас · 📨 сообщено изданию · ➖ оставлено как в издании, видно в отличиях · ❗ ещё не решено
+
+### Siam Rath 1927 (SR)
+
+| | что | где |
+|---|---|---|
+| ✅ | нет Патимоккхи: показана Патимоккха Махамакута, её вступление целиком в первой строке | [pli-tv-bu-pm:1.1](pathname:///ru/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+
+### Buddha Jayanti (BJT)
+
+Сообщено: [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154), [dg-node#72](https://github.com/dhammagift/dg-node/issues/72).
+
+| | что | где |
+|---|---|---|
+| 📨 | слова склеены кавычкой, 4 места |  |
+| ➖ | две сутты там, где в MS одна | [sn37.5:1.1](pathname:///ru/sn37.5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn37.15:1.1](pathname:///ru/sn37.15?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+
+### Chaṭṭha Saṅgāyana (VRI)
+
+| | что | где |
+|---|---|---|
+| ✅ | названия правил Патимоккхи и разделов склеивались с текстом | [pli-tv-bu-pm:1.1](pathname:///ru/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ❗ | почти вся книга в первой строке | [ya7.2.1:1.1](pathname:///ru/ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### Mahāsaṅgīti, цифровая (MS)
 
@@ -62,28 +86,6 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | ➖ | лишнее слово, которого нет в других изданиях, 15 мест | [dn9:33.26](pathname:///ru/dn9?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [dn29:30.4](pathname:///ru/dn29?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ➖ | долгота гласной и написание (`dussilyaṁ`, `thinamiddha` …), 150 чтений | [an10.75:9.4](pathname:///ru/an10.75?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [mn10:36.6](pathname:///ru/mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ❗ | на сайте реконструкции нет нескольких отрывков Паттханы | [patthana3.3:1.1](pathname:///ru/patthana3.3?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-
-### Buddha Jayanti (BJT)
-
-Сообщено: [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154), [dg-node#72](https://github.com/dhammagift/dg-node/issues/72).
-
-| | что | где |
-|---|---|---|
-| 📨 | слова склеены кавычкой, 4 места |  |
-| ➖ | две сутты там, где в MS одна | [sn37.5:1.1](pathname:///ru/sn37.5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn37.15:1.1](pathname:///ru/sn37.15?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-
-### Chaṭṭha Saṅgāyana (VRI)
-
-| | что | где |
-|---|---|---|
-| ✅ | названия правил Патимоккхи и разделов склеивались с текстом | [pli-tv-bu-pm:1.1](pathname:///ru/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ❗ | почти вся книга в первой строке | [ya7.2.1:1.1](pathname:///ru/ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-
-### Siam Rath 1927 (SR)
-
-| | что | где |
-|---|---|---|
-| ✅ | нет Патимоккхи: показана Патимоккха Махамакута, её вступление целиком в первой строке | [pli-tv-bu-pm:1.1](pathname:///ru/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### PTS
 

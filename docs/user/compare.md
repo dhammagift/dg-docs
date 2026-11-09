@@ -13,14 +13,16 @@ Any text can be read in six Pali editions at once, line by line, with the differ
 
 | Tag | Edition | Whose text | Source |
 |---|---|---|---|
+| **SR** | Siam Rath 1927 | **national**: Thailand, the royal edition | E-Tipitaka |
 | **BJT** | Buddha Jayanti (1957-1993) | **national**: Sri Lanka, Sinhalese manuscripts | [Tipitaka.lk](https://tipitaka.lk) |
 | **VRI** | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | **national**: Myanmar | [Tipitaka.org](https://tipitaka.org) |
-| **SR** | Siam Rath 1927 | **national**: Thailand, the royal edition | E-Tipitaka |
-| **MS05** | Mahāsaṅgīti 2005, as printed | the Myanmar (Sixth Council) text in Roman script; published in Thailand (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
 | **MS** | Mahāsaṅgīti, digital | MS05 in digital form: SuttaCentral digitised it, cut it into segments and edited the text | [SuttaCentral](https://suttacentral.net) |
+| **MS05** | Mahāsaṅgīti 2005, as printed | the Myanmar (Sixth Council) text in Roman script; published in Thailand (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
 | **PTS** | Pali Text Society (from the 1880s) | **not national**: a European critical edition from manuscripts of Sri Lanka, Myanmar and Thailand | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
 
-There are three national canons: BJT, VRI, SR. MS05 and MS are no separate tradition but the Myanmar text in another digitisation, which is why they are almost the same as VRI.
+Column order: the national canons first, from fewer late texts in the Khuddaka Nikāya to more: Siam Rath has none of the Milindapañha, Nettippakaraṇa and Peṭakopadesa, Buddha Jayanti has the last two, Chaṭṭha Saṅgāyana all three. Then the Mahāsaṅgīti (the Myanmar text), and PTS last, as it belongs to no national tradition.
+
+There are three national canons: SR, BJT, VRI. MS05 and MS are no separate tradition but the Myanmar text in another digitisation, which is why they are almost the same as VRI.
 
 ## How to compare
 
@@ -36,6 +38,28 @@ Try it: [sn56.11](pathname:///sn56.11?mode=multi&editions=ms,bjt,my,th,mso,pts&d
 ## Problems of each edition and what we did
 
 ✅ fixed here · 📨 reported to the edition · ➖ left as the edition has it, shown by Differences · ❗ not solved yet
+
+### Siam Rath 1927 (SR)
+
+| | what | where |
+|---|---|---|
+| ✅ | no Pātimokkha: the Mahāmakuṭa Pātimokkha is shown, its preliminaries whole in the first line | [pli-tv-bu-pm:1.1](pathname:///pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+
+### Buddha Jayanti (BJT)
+
+Reported: [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154), [dg-node#72](https://github.com/dhammagift/dg-node/issues/72).
+
+| | what | where |
+|---|---|---|
+| 📨 | words glued by a quotation mark, 4 places |  |
+| ➖ | two suttas where MS has one | [sn37.5:1.1](pathname:///sn37.5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn37.15:1.1](pathname:///sn37.15?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+
+### Chaṭṭha Saṅgāyana (VRI)
+
+| | what | where |
+|---|---|---|
+| ✅ | Pātimokkha rule names and section titles ran into the text | [pli-tv-bu-pm:1.1](pathname:///pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ❗ | almost a whole book in its first line | [ya7.2.1:1.1](pathname:///ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### Mahāsaṅgīti, digital (MS)
 
@@ -62,28 +86,6 @@ Only clear misprints are corrected: a letter lost or garbled, in one place. Vowe
 | ➖ | a word no other edition has, 15 places | [dn9:33.26](pathname:///dn9?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [dn29:30.4](pathname:///dn29?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ➖ | vowel length and spelling (`dussilyaṁ`, `thinamiddha` …), 150 readings | [an10.75:9.4](pathname:///an10.75?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [mn10:36.6](pathname:///mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ❗ | a few Paṭṭhāna passages missing from the reconstruction site | [patthana3.3:1.1](pathname:///patthana3.3?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-
-### Buddha Jayanti (BJT)
-
-Reported: [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154), [dg-node#72](https://github.com/dhammagift/dg-node/issues/72).
-
-| | what | where |
-|---|---|---|
-| 📨 | words glued by a quotation mark, 4 places |  |
-| ➖ | two suttas where MS has one | [sn37.5:1.1](pathname:///sn37.5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn37.15:1.1](pathname:///sn37.15?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-
-### Chaṭṭha Saṅgāyana (VRI)
-
-| | what | where |
-|---|---|---|
-| ✅ | Pātimokkha rule names and section titles ran into the text | [pli-tv-bu-pm:1.1](pathname:///pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ❗ | almost a whole book in its first line | [ya7.2.1:1.1](pathname:///ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-
-### Siam Rath 1927 (SR)
-
-| | what | where |
-|---|---|---|
-| ✅ | no Pātimokkha: the Mahāmakuṭa Pātimokkha is shown, its preliminaries whole in the first line | [pli-tv-bu-pm:1.1](pathname:///pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### PTS
 
