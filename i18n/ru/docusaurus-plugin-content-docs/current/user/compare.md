@@ -13,11 +13,11 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 
 | Метка | Издание | Чей текст | Источник |
 |---|---|---|---|
-| **BJT** | Будда Джаянти (1957-1993) | **национальный**: Шри-Ланка, сингальские рукописи | [tipitaka.lk](https://tipitaka.lk) |
-| **VRI** | Чаттха Сангаяна (Шестой собор, 1954-1956) | **национальный**: Мьянма, бирманская традиция | [tipitaka.org](https://tipitaka.org) |
-| **SR** | Сиам Рат 1927 | **национальный**: Таиланд, королевское издание | E-Tipitaka |
-| **MS05** | Махасангити 2005, печатная | бирманский текст (Шестой собор) латиницей; издана в Таиланде (Dhamma Society) | [tipitaka2500.github.io](https://tipitaka2500.github.io) |
-| **MS** | Махасангити (SuttaCentral) | MS05 с правками SuttaCentral | [SuttaCentral](https://suttacentral.net) |
+| **BJT** | Buddha Jayanti (1957-1993) | **национальный**: Шри-Ланка, сингальские рукописи | [Tipitaka.lk](https://tipitaka.lk) |
+| **VRI** | Chaṭṭha Saṅgāyana (Шестой собор, 1954-1956) | **национальный**: Мьянма, бирманская традиция | [Tipitaka.org](https://tipitaka.org) |
+| **SR** | Siam Rath 1927 | **национальный**: Таиланд, королевское издание | E-Tipitaka |
+| **MS05** | Mahāsaṅgīti 2005, печатная | бирманский текст (Шестой собор) латиницей; издана в Таиланде (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
+| **MS** | Mahāsaṅgīti, цифровая | MS05 в цифровом виде: SuttaCentral оцифровал, разбил на сегменты и правил текст | [SuttaCentral](https://suttacentral.net) |
 | **PTS** | Pali Text Society (1880-е и позже) | **не национальный**: европейское критическое издание по рукописям Шри-Ланки, Бирмы, Таиланда | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
 
 Национальных канонов три: BJT, VRI, SR. MS05 и MS не отдельная традиция, а бирманский текст в другой оцифровке, поэтому с VRI они почти совпадают.
@@ -29,7 +29,7 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
   убирают или добавляют колонку.
 - Переключатель **Отличия** подсвечивает то, чего нет у большинства показанных изданий.
 
-<img src={CompareDiff} alt="SN 56.11 в Махасангити, Будда Джаянти и Чаттха Сангаяне с включёнными отличиями" style={{maxWidth: 'min(720px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={CompareDiff} alt="SN 56.11 в Mahāsaṅgīti, Buddha Jayanti и Chaṭṭha Saṅgāyana с включёнными отличиями" style={{maxWidth: 'min(720px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 Попробуйте: [sn56.11](pathname:///ru/sn56.11?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1).
 
@@ -37,9 +37,9 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 
 ✅ исправлено у нас · 📨 сообщено изданию · ➖ оставлено как в издании, видно в отличиях · ❗ ещё не решено
 
-### Махасангити (SuttaCentral)
+### Mahāsaṅgīti, цифровая (MS)
 
-Ошибки внесены правками самого SuttaCentral, в печатном издании их нет. Сообщено: [sc-data#463](https://github.com/suttacentral/sc-data/issues/463), [dg-node#71](https://github.com/dhammagift/dg-node/issues/71).
+Ошибки цифровой версии: внесены правками SuttaCentral при оцифровке, в печатном издании их нет. Сообщено: [sc-data#463](https://github.com/suttacentral/sc-data/issues/463), [dg-node#71](https://github.com/dhammagift/dg-node/issues/71).
 
 | | что | где |
 |---|---|---|
@@ -50,7 +50,7 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | 📨 | английская пометка «On Display: Title of Section Only» вместо пали | [sn48.137-146:1.1](pathname:///ru/sn48.137-146?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn50.67-76:1.1](pathname:///ru/sn50.67-76?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | 📨 | нет изложения четырёх истин, которое есть в печати | [mn10:44.3](pathname:///ru/mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
-### Махасангити 2005, печатная
+### Mahāsaṅgīti 2005, печатная (MS05)
 
 Исправляем только явные опечатки: выпавшая или искажённая буква, одно место. Долготу гласных и привычное для издания написание оставляем. Сообщено: [tipitaka2500#1](https://github.com/tipitaka2500/tipitaka2500.github.io/issues/1), [dg-node#73](https://github.com/dhammagift/dg-node/issues/73); полный разбор: [mso-typos.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/mso-typos.md).
 
@@ -63,7 +63,7 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | ➖ | долгота гласной и написание (`dussilyaṁ`, `thinamiddha` …), 150 чтений | [an10.75:9.4](pathname:///ru/an10.75?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [mn10:36.6](pathname:///ru/mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ❗ | на сайте реконструкции нет нескольких отрывков Паттханы | [patthana3.3:1.1](pathname:///ru/patthana3.3?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
-### Будда Джаянти
+### Buddha Jayanti (BJT)
 
 Сообщено: [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154), [dg-node#72](https://github.com/dhammagift/dg-node/issues/72).
 
@@ -72,14 +72,14 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | 📨 | слова склеены кавычкой, 4 места |  |
 | ➖ | две сутты там, где в MS одна | [sn37.5:1.1](pathname:///ru/sn37.5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn37.15:1.1](pathname:///ru/sn37.15?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
-### Чаттха Сангаяна (VRI)
+### Chaṭṭha Saṅgāyana (VRI)
 
 | | что | где |
 |---|---|---|
 | ✅ | названия правил Патимоккхи и разделов склеивались с текстом | [pli-tv-bu-pm:1.1](pathname:///ru/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ❗ | почти вся книга в первой строке | [ya7.2.1:1.1](pathname:///ru/ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
-### Сиам Рат 1927
+### Siam Rath 1927 (SR)
 
 | | что | где |
 |---|---|---|

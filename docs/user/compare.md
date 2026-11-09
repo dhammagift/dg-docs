@@ -13,11 +13,11 @@ Any text can be read in six Pali editions at once, line by line, with the differ
 
 | Tag | Edition | Whose text | Source |
 |---|---|---|---|
-| **BJT** | Buddha Jayanti (1957-1993) | **national**: Sri Lanka, Sinhalese manuscripts | [tipitaka.lk](https://tipitaka.lk) |
-| **VRI** | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | **national**: Myanmar, the Burmese tradition | [tipitaka.org](https://tipitaka.org) |
+| **BJT** | Buddha Jayanti (1957-1993) | **national**: Sri Lanka, Sinhalese manuscripts | [Tipitaka.lk](https://tipitaka.lk) |
+| **VRI** | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | **national**: Myanmar, the Burmese tradition | [Tipitaka.org](https://tipitaka.org) |
 | **SR** | Siam Rath 1927 | **national**: Thailand, the royal edition | E-Tipitaka |
-| **MS05** | Mahāsaṅgīti 2005, as printed | the Burmese (Sixth Council) text in Roman script; published in Thailand (Dhamma Society) | [tipitaka2500.github.io](https://tipitaka2500.github.io) |
-| **MS** | Mahāsaṅgīti (SuttaCentral) | MS05 with SuttaCentral's edits | [SuttaCentral](https://suttacentral.net) |
+| **MS05** | Mahāsaṅgīti 2005, as printed | the Burmese (Sixth Council) text in Roman script; published in Thailand (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
+| **MS** | Mahāsaṅgīti, digital | MS05 in digital form: SuttaCentral digitised it, cut it into segments and edited the text | [SuttaCentral](https://suttacentral.net) |
 | **PTS** | Pali Text Society (from the 1880s) | **not national**: a European critical edition from manuscripts of Sri Lanka, Burma and Thailand | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
 
 There are three national canons: BJT, VRI, SR. MS05 and MS are no separate tradition but the Burmese text in another digitisation, which is why they are almost the same as VRI.
@@ -37,9 +37,9 @@ Try it: [sn56.11](pathname:///sn56.11?mode=multi&editions=ms,bjt,my,th,mso,pts&d
 
 ✅ fixed here · 📨 reported to the edition · ➖ left as the edition has it, shown by Differences · ❗ not solved yet
 
-### Mahāsaṅgīti (SuttaCentral)
+### Mahāsaṅgīti, digital (MS)
 
-Introduced by SuttaCentral's own edits; the printed edition does not have them. Reported: [sc-data#463](https://github.com/suttacentral/sc-data/issues/463), [dg-node#71](https://github.com/dhammagift/dg-node/issues/71).
+Errors of the digital text, introduced by SuttaCentral's edits; the printed edition does not have them. Reported: [sc-data#463](https://github.com/suttacentral/sc-data/issues/463), [dg-node#71](https://github.com/dhammagift/dg-node/issues/71).
 
 | | what | where |
 |---|---|---|
@@ -50,7 +50,7 @@ Introduced by SuttaCentral's own edits; the printed edition does not have them. 
 | 📨 | the English note "On Display: Title of Section Only" instead of Pali | [sn48.137-146:1.1](pathname:///sn48.137-146?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn50.67-76:1.1](pathname:///sn50.67-76?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | 📨 | the exposition of the four truths, which the print has, left out | [mn10:44.3](pathname:///mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
-### Mahāsaṅgīti 2005, printed
+### Mahāsaṅgīti 2005, printed (MS05)
 
 Only clear misprints are corrected: a letter lost or garbled, in one place. Vowel length and the edition's usual spelling are kept. Reported: [tipitaka2500#1](https://github.com/tipitaka2500/tipitaka2500.github.io/issues/1), [dg-node#73](https://github.com/dhammagift/dg-node/issues/73); the full list: [mso-typos.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/mso-typos.md).
 
@@ -63,7 +63,7 @@ Only clear misprints are corrected: a letter lost or garbled, in one place. Vowe
 | ➖ | vowel length and spelling (`dussilyaṁ`, `thinamiddha` …), 150 readings | [an10.75:9.4](pathname:///an10.75?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [mn10:36.6](pathname:///mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ❗ | a few Paṭṭhāna passages missing from the reconstruction site | [patthana3.3:1.1](pathname:///patthana3.3?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
-### Buddha Jayanti
+### Buddha Jayanti (BJT)
 
 Reported: [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/154), [dg-node#72](https://github.com/dhammagift/dg-node/issues/72).
 
@@ -79,7 +79,7 @@ Reported: [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/15
 | ✅ | Pātimokkha rule names and section titles ran into the text | [pli-tv-bu-pm:1.1](pathname:///pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ❗ | almost a whole book in its first line | [ya7.2.1:1.1](pathname:///ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
-### Siam Rath 1927
+### Siam Rath 1927 (SR)
 
 | | what | where |
 |---|---|---|
