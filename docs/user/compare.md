@@ -11,14 +11,16 @@ import CompareDiff from '@site/static/img/help/compare-diff-en.png';
 
 Any text can be read in six Pali editions at once, line by line, with the differences highlighted.
 
-| Tag | Edition | Country | Source |
+| Tag | Edition | Whose text | Source |
 |---|---|---|---|
-| **BJT** | Buddha Jayanti | Sri Lanka | [tipitaka.lk](https://tipitaka.lk) |
-| **VRI** | Chaṭṭha Saṅgāyana | Myanmar | [tipitaka.org](https://tipitaka.org) |
-| **SR** | Siam Rath 1927 | Thailand | E-Tipitaka |
-| **MS** | Mahāsaṅgīti (SuttaCentral) | Thailand | [SuttaCentral](https://suttacentral.net) |
-| **MS05** | Mahāsaṅgīti 2005, as printed | Thailand | [tipitaka2500.github.io](https://tipitaka2500.github.io) |
-| **PTS** | Pali Text Society | UK | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
+| **BJT** | Buddha Jayanti (1957-1993) | **national**: Sri Lanka, Sinhalese manuscripts | [tipitaka.lk](https://tipitaka.lk) |
+| **VRI** | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | **national**: Myanmar, the Burmese tradition | [tipitaka.org](https://tipitaka.org) |
+| **SR** | Siam Rath 1927 | **national**: Thailand, the royal edition | E-Tipitaka |
+| **MS05** | Mahāsaṅgīti 2005, as printed | the Burmese (Sixth Council) text in Roman script; published in Thailand (Dhamma Society) | [tipitaka2500.github.io](https://tipitaka2500.github.io) |
+| **MS** | Mahāsaṅgīti (SuttaCentral) | MS05 with SuttaCentral's edits | [SuttaCentral](https://suttacentral.net) |
+| **PTS** | Pali Text Society (from the 1880s) | **not national**: a European critical edition from manuscripts of Sri Lanka, Burma and Thailand | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
+
+There are three national canons: BJT, VRI, SR. MS05 and MS are no separate tradition but the Burmese text in another digitisation, which is why they are almost the same as VRI.
 
 ## How to compare
 
