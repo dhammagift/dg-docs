@@ -11,18 +11,18 @@ import CompareDiff from '@site/static/img/help/compare-diff-en.png';
 
 Any text can be read in six Pali editions at once, line by line, with the differences highlighted.
 
-| Tag | Edition | Tradition | Source |
+| Tag | Edition | Type of edition | Source |
 |---|---|---|---|
-| **SR** | Siam Rath 1927 | **national**: Thailand, the royal edition | E-Tipitaka |
-| **BJT** | Buddha Jayanti (1957-1993) | **national**: Sri Lanka, Sinhalese manuscripts | [Tipitaka.lk](https://tipitaka.lk) |
-| **VRI** | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | **national**: Myanmar | [Tipitaka.org](https://tipitaka.org) |
-| **MS** | Mahāsaṅgīti, digital | MS05 in digital form: SuttaCentral digitised it, cut it into segments and edited the text | [SuttaCentral](https://suttacentral.net) |
-| **MS05** | Mahāsaṅgīti 2005, as printed | the Myanmar (Sixth Council) text in Roman script; published in Thailand (Dhamma Society) | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
-| **PTS** | Pali Text Society (from the 1880s) | **not national**: a European critical edition from manuscripts of Sri Lanka, Myanmar and Thailand | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
+| **SR** | Siam Rath 1927 | national, Thailand | E-Tipitaka |
+| **BJT** | Buddha Jayanti (1957-1993) | national, Sri Lanka | [Tipitaka.lk](https://tipitaka.lk) |
+| **VRI** | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | national, Myanmar | [Tipitaka.org](https://tipitaka.org) |
+| **MS05** | Mahāsaṅgīti 2005, as printed | derived: the Sixth Council edition (Myanmar) in Roman script | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
+| **MS** | Mahāsaṅgīti | derived from MS05: SuttaCentral's segments and edits | [SuttaCentral](https://suttacentral.net) |
+| **PTS** | Pali Text Society (from the 1880s) | critical, European: from manuscripts of Sri Lanka, Myanmar and Thailand | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
 
-Column order: the national canons first, from fewer late texts in the Khuddaka Nikāya to more: Siam Rath has none of the Milindapañha, Nettippakaraṇa and Peṭakopadesa, Buddha Jayanti has the last two, Chaṭṭha Saṅgāyana all three. Then the Mahāsaṅgīti (the Myanmar text), and PTS last, as it belongs to no national tradition.
+Column order: the national editions first, from fewer late texts in the Khuddaka Nikāya to more: Siam Rath has none of the Milindapañha, Nettippakaraṇa and Peṭakopadesa, Buddha Jayanti has the last two, Chaṭṭha Saṅgāyana all three. Then the Mahāsaṅgīti, the printed one first, then SuttaCentral's version (the Myanmar text), and PTS last, a critical edition.
 
-There are three national canons: SR, BJT, VRI. MS05 and MS are no separate tradition but the Myanmar text in another digitisation, which is why they are almost the same as VRI.
+There are three national editions: SR, BJT, VRI. MS05 and MS are derived from the Myanmar one, which is why they are almost the same as VRI.
 
 ## How to compare
 
@@ -61,19 +61,6 @@ Reported: [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/15
 | ✅ | Pātimokkha rule names and section titles ran into the text | [pli-tv-bu-pm:1.1](pathname:///pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ❗ | almost a whole book in its first line | [ya7.2.1:1.1](pathname:///ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
-### Mahāsaṅgīti, digital (MS)
-
-Errors of the digital text, introduced by SuttaCentral's edits; the printed edition does not have them. Reported: [sc-data#463](https://github.com/suttacentral/sc-data/issues/463), [dg-node#71](https://github.com/dhammagift/dg-node/issues/71).
-
-| | what | where |
-|---|---|---|
-| 📨 | `aparimutto` for `parimutto`: the meaning reversed | [sn35.19:2.9](pathname:///sn35.19?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn35.20:2.2](pathname:///sn35.20?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| 📨 | `Idha, bhikkhave` for `Idhāvuso` | [dn33:1.11.85](pathname:///dn33?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| 📨 | two segments in the wrong order | [sn22.7:8.2](pathname:///sn22.7?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| 📨 | `vā` missing; `ammukhāvinayena` for `sammukhāvinayena` | [pli-tv-bu-vb-ss13:2.8](pathname:///pli-tv-bu-vb-ss13?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [pli-tv-pvr5:122.4](pathname:///pli-tv-pvr5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| 📨 | the English note "On Display: Title of Section Only" instead of Pali | [sn48.137-146:1.1](pathname:///sn48.137-146?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn50.67-76:1.1](pathname:///sn50.67-76?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| 📨 | the exposition of the four truths, which the print has, left out | [mn10:44.3](pathname:///mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-
 ### Mahāsaṅgīti 2005, printed (MS05)
 
 Only clear misprints are corrected: a letter lost or garbled, in one place. Vowel length and the edition's usual spelling are kept. Reported: [tipitaka2500#1](https://github.com/tipitaka2500/tipitaka2500.github.io/issues/1), [dg-node#73](https://github.com/dhammagift/dg-node/issues/73); the full list: [mso-typos.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/mso-typos.md).
@@ -86,6 +73,19 @@ Only clear misprints are corrected: a letter lost or garbled, in one place. Vowe
 | ➖ | a word no other edition has, 15 places | [dn9:33.26](pathname:///dn9?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [dn29:30.4](pathname:///dn29?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ➖ | vowel length and spelling (`dussilyaṁ`, `thinamiddha` …), 150 readings | [an10.75:9.4](pathname:///an10.75?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [mn10:36.6](pathname:///mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ❗ | a few Paṭṭhāna passages missing from the reconstruction site | [patthana3.3:1.1](pathname:///patthana3.3?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+
+### Mahāsaṅgīti (MS)
+
+Errors of SuttaCentral's version, introduced by their edits; the printed edition does not have them. Reported: [sc-data#463](https://github.com/suttacentral/sc-data/issues/463), [dg-node#71](https://github.com/dhammagift/dg-node/issues/71).
+
+| | what | where |
+|---|---|---|
+| 📨 | `aparimutto` for `parimutto`: the meaning reversed | [sn35.19:2.9](pathname:///sn35.19?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn35.20:2.2](pathname:///sn35.20?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | `Idha, bhikkhave` for `Idhāvuso` | [dn33:1.11.85](pathname:///dn33?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | two segments in the wrong order | [sn22.7:8.2](pathname:///sn22.7?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | `vā` missing; `ammukhāvinayena` for `sammukhāvinayena` | [pli-tv-bu-vb-ss13:2.8](pathname:///pli-tv-bu-vb-ss13?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [pli-tv-pvr5:122.4](pathname:///pli-tv-pvr5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | the English note "On Display: Title of Section Only" instead of Pali | [sn48.137-146:1.1](pathname:///sn48.137-146?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn50.67-76:1.1](pathname:///sn50.67-76?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | the exposition of the four truths, which the print has, left out | [mn10:44.3](pathname:///mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### PTS
 
