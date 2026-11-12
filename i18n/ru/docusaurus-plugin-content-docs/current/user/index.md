@@ -145,11 +145,14 @@ Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library,
   <a href="https://apps.apple.com/app/dict-dhamma-gift/id6816639947"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать Dict.Dhamma.Gift в App Store" style={{maxWidth: '200px'}} /></a>
   <SiteLink to="/apps?app=dict"><img src="/assets/img/buttons/google-play-cta.png" alt="Скачать Dict.Dhamma.Gift в Google Play" style={{maxWidth: '200px'}} /></SiteLink>
   <a href="https://apps.microsoft.com/detail/9P3B7HLRXXGC"><img src="/assets/img/buttons/msstore-cta.png" alt="Скачать Dict.Dhamma.Gift из Microsoft Store" style={{maxWidth: '200px'}} /></a>
+  <a href="https://dict.dhamma.gift/"><img src="/assets/img/buttons/pwa-cta.png" alt="Открыть словарь как веб-приложение" style={{maxWidth: '200px'}} /></a>
 </div>
 
 <div style={{clear: 'both'}} />
 
 ## Uposatha by the Suttas
+
+<img src="/assets/img/albumart-uposatha-512.webp" alt="Uposatha by the Suttas: зеркало, луна и чаша" style={{float: 'left', marginRight: '15px', maxWidth: '96px', borderRadius: '50%'}} />
 
 Дни упосатхи так, как их считают сутты, фазы луны, напоминания и виджеты
 на главном экране. Для Android, iOS и Windows, а также на
@@ -160,7 +163,10 @@ Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library,
   <a href="https://apps.apple.com/app/uposatha-by-the-suttas/id6816601259"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать Uposatha by the Suttas в App Store" style={{maxWidth: '200px'}} /></a>
   <SiteLink to="/apps?app=uposatha"><img src="/assets/img/buttons/google-play-cta.png" alt="Скачать Uposatha в Google Play" style={{maxWidth: '200px'}} /></SiteLink>
   <a href="https://apps.microsoft.com/detail/9NMD1L6H52ZN"><img src="/assets/img/buttons/msstore-cta.png" alt="Скачать Uposatha by the Suttas из Microsoft Store" style={{maxWidth: '200px'}} /></a>
+  <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Открыть Uposatha как веб-приложение" style={{maxWidth: '200px'}} /></SiteLink>
 </div>
+
+<div style={{clear: 'both'}} />
 
 ## @DGift_bot — Telegram-бот и мини-приложения
 

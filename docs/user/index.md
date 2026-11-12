@@ -153,11 +153,14 @@ dedicated [Dictionary](/dictionary) page. Open the
   <a href="https://apps.apple.com/app/dict-dhamma-gift/id6816639947"><img src="/assets/img/buttons/appstore-cta.png" alt="Download Dict.Dhamma.Gift on the App Store" style={{maxWidth: '200px'}} /></a>
   <SiteLink to="/apps?app=dict"><img src="/assets/img/buttons/google-play-cta.png" alt="Get Dict.Dhamma.Gift on Google Play" style={{maxWidth: '200px'}} /></SiteLink>
   <a href="https://apps.microsoft.com/detail/9P3B7HLRXXGC"><img src="/assets/img/buttons/msstore-cta.png" alt="Get Dict.Dhamma.Gift from the Microsoft Store" style={{maxWidth: '200px'}} /></a>
+  <a href="https://dict.dhamma.gift/"><img src="/assets/img/buttons/pwa-cta.png" alt="Launch Dict.Dhamma.Gift as a Web App" style={{maxWidth: '200px'}} /></a>
 </div>
 
 <div style={{clear: 'both'}} />
 
 ## Uposatha by the Suttas
+
+<img src="/assets/img/albumart-uposatha-512.webp" alt="Uposatha by the Suttas: the mirror, the moon and the bowl" style={{float: 'left', marginRight: '15px', maxWidth: '96px', borderRadius: '50%'}} />
 
 The Uposatha days as the suttas count them, moon phases, reminders and
 home-screen widgets. For Android, iOS and Windows, and on the
@@ -168,7 +171,10 @@ counted: [Uposatha Days by the Suttas](/uposatha).
   <a href="https://apps.apple.com/app/uposatha-by-the-suttas/id6816601259"><img src="/assets/img/buttons/appstore-cta.png" alt="Download Uposatha by the Suttas on the App Store" style={{maxWidth: '200px'}} /></a>
   <SiteLink to="/apps?app=uposatha"><img src="/assets/img/buttons/google-play-cta.png" alt="Get Uposatha on Google Play" style={{maxWidth: '200px'}} /></SiteLink>
   <a href="https://apps.microsoft.com/detail/9NMD1L6H52ZN"><img src="/assets/img/buttons/msstore-cta.png" alt="Get Uposatha by the Suttas from the Microsoft Store" style={{maxWidth: '200px'}} /></a>
+  <SiteLink to="/uposatha-calendar"><img src="/assets/img/buttons/pwa-cta.png" alt="Launch Uposatha as a Web App" style={{maxWidth: '200px'}} /></SiteLink>
 </div>
+
+<div style={{clear: 'both'}} />
 
 ## @DGift_bot — Telegram bot & Mini Apps
 
