@@ -92,6 +92,7 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | | что | где |
 |---|---|---|
 | ✅ | начало фразы было оторвано перед пропущенным отрывком, 38 мест | [dn22:18.27](pathname:///ru/dn22?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ❗ | три воззрения изложены почти одинаковыми формулами: блок второго стоит на месте первого | [mn60:7.1](pathname:///ru/mn60?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ➖ | нет строк-концовок и заголовков; Джатака только стихи; нет Нетти и Петакопадесы |  |
 
 ### Все издания
@@ -99,7 +100,7 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | | что | где |
 |---|---|---|
 | ✅ | строки не на месте возвращены на свои: 577 строк в 73 текстах, ещё 150 строк в 11 текстах, где повторённый абзац сдвигал выравнивание | [sn35.229:1.1](pathname:///ru/sn35.229?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [an4.102:3.2](pathname:///ru/an4.102?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ❗ | осталось 2772 места, где слово стоит не в своей строке; разбираем по плану, 2 прохода в неделю |  |
+| ❗ | осталось 1995 мест, где слово стоит не в своей строке (ещё 777 мест издание печатает отрывок дважды, это не ошибка); разбираем по плану, 2 прохода в неделю |  |
 
 Подробнее, со всеми местами: [editions-problems.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/editions-problems.md).
 ## Нашли ошибку?

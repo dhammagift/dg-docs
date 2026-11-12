@@ -92,6 +92,7 @@ Errors of SuttaCentral's version, introduced by their edits; the printed edition
 | | what | where |
 |---|---|---|
 | ✅ | the start of a sentence torn off before a passage PTS does not print, 38 places | [dn22:18.27](pathname:///dn22?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ❗ | three views told in almost the same formulas: the block of the second stands in place of the first | [mn60:7.1](pathname:///mn60?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ➖ | no end lines or headings; the Jātaka verses only; no Netti or Peṭakopadesa |  |
 
 ### All editions
@@ -99,7 +100,7 @@ Errors of SuttaCentral's version, introduced by their edits; the printed edition
 | | what | where |
 |---|---|---|
 | ✅ | lines out of place put back: 577 lines in 73 texts, and 150 lines in 11 texts where a repeated passage shifted the alignment | [sn35.229:1.1](pathname:///sn35.229?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [an4.102:3.2](pathname:///an4.102?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ❗ | 2772 places left where a word stands in another line; worked through by plan, twice a week |  |
+| ❗ | 1995 places left where a word stands in another line (in 777 more the edition prints a passage twice, which is no error); worked through by plan, twice a week |  |
 
 In detail, with every place: [editions-problems.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/editions-problems.md).
 ## Found a mistake?
