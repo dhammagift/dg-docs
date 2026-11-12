@@ -35,6 +35,8 @@ The apps work online and offline. Throughout this policy an iOS app behaves exac
 - [Chrome Extension](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
 - [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/dhamma-gift/)
 - [Microsoft Edge Add-on](https://microsoftedge.microsoft.com/addons/detail/dhammagift-search-and-wo/aokegkhdaijkikbdocanadeghllhfmhj)
+- Safari Extension for macOS (App Store: "Dict.Dhamma.Gift Extension"). The
+  app that installs it only opens Safari's settings; it collects nothing.
 
 ### Cloud Synchronization (Optional)
 
@@ -88,6 +90,18 @@ functionality:
   We do not store these: the feed is computed on request and kept in memory
   for at most an hour, and the address appears only in the standard server
   logs (see Logs below).
+- **Browser extensions** (Chrome, Firefox, Edge, Safari) — the extension runs
+  on the pages you visit so that it can look up a word you click or select;
+  it does not read, store or send anything else from those pages. A word is
+  sent only when you look it up: by default to dict.dhamma.gift (the "Search"
+  button sends it to dhamma.gift). If you choose another destination, the
+  word goes there instead: dharmamitra.org (the DharmaMitra mode and the
+  "Explain grammar (DharmaMitra)" menu item send the selected text), the
+  address you enter as a Custom URL, or a dictionary app on your computer
+  (GoldenDict, MDict). The extension's settings stay in your browser's
+  extension storage; the size and position of the dictionary window are kept
+  in the visited site's local storage. The extension has no analytics and no
+  account.
 - **Technical logs** — standard request metadata (IP address, User-Agent)
   is collected by web servers for security purposes and DDoS protection.
 
@@ -132,6 +146,12 @@ External services:
   Dictionary (dsal.uchicago.edu) and Wisdom Library (wisdomlib.org). Their
   sections are collapsed by default. When you open one, your browser loads
   that site's page with the word being looked up.
+- [dharmamitra.org](https://dharmamitra.org/) — machine translation and
+  grammar explanation. Dhamma.gift, Dict.Dhamma.Gift and the browser
+  extensions link to it (for example "Explain grammar (DharmaMitra)", or
+  DharmaMitra chosen as the dictionary). Only when you use such a link does
+  your browser open DharmaMitra with the selected word or text, so they also
+  see your IP address. Their service, under their own privacy policy.
 - **Google Fonts** (fonts.googleapis.com, fonts.gstatic.com) — fonts on
   some pages, such as Settings and Hatthipada. Your browser loads them, so Google sees
   your IP address.
@@ -180,7 +200,7 @@ policy.
 For inquiries regarding your privacy, please contact us at
 [agiftofdhamma@gmail.com](mailto:agiftofdhamma@gmail.com).
 
-*Last updated: October 2026.*
+*Last updated: November 2026.*
 
 ## Terms
 

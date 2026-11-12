@@ -1,6 +1,7 @@
 ---
-title: "Compare: Pali Editions Side by Side"
-description: "Any text of the Pali Canon in six editions at once, with the differences highlighted. What we corrected, and how to report a mistake."
+title: "Compare 6 Pali Editions Side by Side"
+description: "Any sutta line by line in 6 Pali editions: Mahāsaṅgīti, Buddha Jayanti (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), Mahāsaṅgīti 2005 and PTS, with the differences highlighted."
+keywords: [Pali Canon editions, Tipitaka comparison, BJT, VRI, Chattha Sangayana, Siam Rath, PTS, Mahasangiti]
 slug: /compare
 sidebar_position: 3
 ---
@@ -26,14 +27,17 @@ There are three national editions: SR, BJT, VRI. MS05 and MS are derived from th
 
 ## How to compare
 
-- **✦ → Compare** on any line opens the text with every edition, differences on.
+- **✦ → Compare** on any line opens the text with every edition and every translation in your languages, differences on;
+  your own Compare settings stay as they were.
+- The **Compare** reader mode (**Alt+Shift+2**) shows by default every edition, a translation in your main language and
+  the differences. What you change there (editions, lines or columns, translators, differences) is kept.
 - Choose the editions in [Settings](/settings) or the reader's quick settings. In columns (**Alt+C**), **−** / **+**
   remove or add a column.
 - The **Differences** switch highlights what most of the editions shown do not have.
 
 <img src={CompareDiff} alt="SN 56.11 in Mahāsaṅgīti, Buddha Jayanti and Chaṭṭha Saṅgāyana with Differences on" style={{maxWidth: 'min(720px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
-Try it: [sn56.11](pathname:///sn56.11?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1).
+Try it: [sn56.11](https://dhamma.gift/sn56.11?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1).
 
 ## Problems of each edition and what we did
 
@@ -43,7 +47,7 @@ Try it: [sn56.11](pathname:///sn56.11?mode=multi&editions=ms,bjt,my,th,mso,pts&d
 
 | | what | where |
 |---|---|---|
-| ✅ | no Pātimokkha: the Mahāmakuṭa Pātimokkha is shown, its preliminaries whole in the first line | [pli-tv-bu-pm:1.1](pathname:///pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ✅ | no Pātimokkha: the Mahāmakuṭa Pātimokkha is shown, its preliminaries whole in the first line | [pli-tv-bu-pm:1.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### Buddha Jayanti (BJT)
 
@@ -52,14 +56,14 @@ Reported: [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/15
 | | what | where |
 |---|---|---|
 | 📨 | words glued by a quotation mark, 4 places |  |
-| ➖ | two suttas where MS has one | [sn37.5:1.1](pathname:///sn37.5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn37.15:1.1](pathname:///sn37.15?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ➖ | two suttas where MS has one | [sn37.5:1.1](https://dhamma.gift/sn37.5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn37.15:1.1](https://dhamma.gift/sn37.15?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### Chaṭṭha Saṅgāyana (VRI)
 
 | | what | where |
 |---|---|---|
-| ✅ | Pātimokkha rule names and section titles ran into the text | [pli-tv-bu-pm:1.1](pathname:///pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ❗ | almost a whole book in its first line | [ya7.2.1:1.1](pathname:///ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ✅ | Pātimokkha rule names and section titles ran into the text | [pli-tv-bu-pm:1.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ❗ | almost a whole book in its first line | [ya7.2.1:1.1](https://dhamma.gift/ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### Mahāsaṅgīti 2005, printed (MS05)
 
@@ -67,12 +71,12 @@ Only clear misprints are corrected: a letter lost or garbled, in one place. Vowe
 
 | | what | where |
 |---|---|---|
-| ✅ | `ānāmi` → `jānāmi` (8 places), `yoveti` → `yo vedi`, `kharapattasannitaṁ` → `kharapattasannibhaṁ` | [an1.439:1.3](pathname:///an1.394-574?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [iti99:6.1](pathname:///iti99?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [ja526:41.2](pathname:///ja526?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ➖ | the negation `na` missing | [mn94:3.6](pathname:///mn94?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [pli-tv-kd2:21.1.1](pathname:///pli-tv-kd2?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ➖ | part of a phrase missing (`pāṇātipātaṁ pahāya`, `so rūpe` …), 9 places | [an10.217:20.2](pathname:///an10.217?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn22.149:1.7](pathname:///sn22.149?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ➖ | a word no other edition has, 15 places | [dn9:33.26](pathname:///dn9?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [dn29:30.4](pathname:///dn29?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ➖ | vowel length and spelling (`dussilyaṁ`, `thinamiddha` …), 150 readings | [an10.75:9.4](pathname:///an10.75?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [mn10:36.6](pathname:///mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ❗ | a few Paṭṭhāna passages missing from the reconstruction site | [patthana3.3:1.1](pathname:///patthana3.3?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ✅ | `ānāmi` → `jānāmi` (8 places), `yoveti` → `yo vedi`, `kharapattasannitaṁ` → `kharapattasannibhaṁ` | [an1.439:1.3](https://dhamma.gift/an1.394-574?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [iti99:6.1](https://dhamma.gift/iti99?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [ja526:41.2](https://dhamma.gift/ja526?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ➖ | the negation `na` missing | [mn94:3.6](https://dhamma.gift/mn94?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [pli-tv-kd2:21.1.1](https://dhamma.gift/pli-tv-kd2?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ➖ | part of a phrase missing (`pāṇātipātaṁ pahāya`, `so rūpe` …), 9 places | [an10.217:20.2](https://dhamma.gift/an10.217?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn22.149:1.7](https://dhamma.gift/sn22.149?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ➖ | a word no other edition has, 15 places | [dn9:33.26](https://dhamma.gift/dn9?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [dn29:30.4](https://dhamma.gift/dn29?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ➖ | vowel length and spelling (`dussilyaṁ`, `thinamiddha` …), 150 readings | [an10.75:9.4](https://dhamma.gift/an10.75?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [mn10:36.6](https://dhamma.gift/mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ❗ | a few Paṭṭhāna passages missing from the reconstruction site | [patthana3.3:1.1](https://dhamma.gift/patthana3.3?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### Mahāsaṅgīti (MS)
 
@@ -80,26 +84,26 @@ Errors of SuttaCentral's version, introduced by their edits; the printed edition
 
 | | what | where |
 |---|---|---|
-| 📨 | `aparimutto` for `parimutto`: the meaning reversed | [sn35.19:2.9](pathname:///sn35.19?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn35.20:2.2](pathname:///sn35.20?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| 📨 | `Idha, bhikkhave` for `Idhāvuso` | [dn33:1.11.85](pathname:///dn33?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| 📨 | two segments in the wrong order | [sn22.7:8.2](pathname:///sn22.7?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| 📨 | `vā` missing; `ammukhāvinayena` for `sammukhāvinayena` | [pli-tv-bu-vb-ss13:2.8](pathname:///pli-tv-bu-vb-ss13?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [pli-tv-pvr5:122.4](pathname:///pli-tv-pvr5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| 📨 | the English note "On Display: Title of Section Only" instead of Pali | [sn48.137-146:1.1](pathname:///sn48.137-146?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn50.67-76:1.1](pathname:///sn50.67-76?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| 📨 | the exposition of the four truths, which the print has, left out | [mn10:44.3](pathname:///mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | `aparimutto` for `parimutto`: the meaning reversed | [sn35.19:2.9](https://dhamma.gift/sn35.19?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn35.20:2.2](https://dhamma.gift/sn35.20?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | `Idha, bhikkhave` for `Idhāvuso` | [dn33:1.11.85](https://dhamma.gift/dn33?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | two segments in the wrong order | [sn22.7:8.2](https://dhamma.gift/sn22.7?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | `vā` missing; `ammukhāvinayena` for `sammukhāvinayena` | [pli-tv-bu-vb-ss13:2.8](https://dhamma.gift/pli-tv-bu-vb-ss13?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [pli-tv-pvr5:122.4](https://dhamma.gift/pli-tv-pvr5?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | the English note "On Display: Title of Section Only" instead of Pali | [sn48.137-146:1.1](https://dhamma.gift/sn48.137-146?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [sn50.67-76:1.1](https://dhamma.gift/sn50.67-76?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| 📨 | the exposition of the four truths, which the print has, left out | [mn10:44.3](https://dhamma.gift/mn10?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### PTS
 
 | | what | where |
 |---|---|---|
-| ✅ | the start of a sentence torn off before a passage PTS does not print, 38 places | [dn22:18.27](pathname:///dn22?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ❗ | three views told in almost the same formulas: the block of the second stands in place of the first | [mn60:7.1](pathname:///mn60?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ✅ | the start of a sentence torn off before a passage PTS does not print, 38 places | [dn22:18.27](https://dhamma.gift/dn22?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ❗ | three views told in almost the same formulas: the block of the second stands in place of the first | [mn60:7.1](https://dhamma.gift/mn60?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ➖ | no end lines or headings; the Jātaka verses only; no Netti or Peṭakopadesa |  |
 
 ### All editions
 
 | | what | where |
 |---|---|---|
-| ✅ | lines out of place put back: 577 lines in 73 texts, and 150 lines in 11 texts where a repeated passage shifted the alignment | [sn35.229:1.1](pathname:///sn35.229?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [an4.102:3.2](pathname:///an4.102?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ✅ | lines out of place put back: 577 lines in 73 texts, and 150 lines in 11 texts where a repeated passage shifted the alignment | [sn35.229:1.1](https://dhamma.gift/sn35.229?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [an4.102:3.2](https://dhamma.gift/an4.102?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ❗ | 1995 places left where a word stands in another line (in 777 more the edition prints a passage twice, which is no error); worked through by plan, twice a week |  |
 
 In detail, with every place: [editions-problems.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/editions-problems.md).
