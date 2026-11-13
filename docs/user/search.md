@@ -159,8 +159,7 @@ GitHub.
   on s.dhamma.gift.
 
 For edition abbreviations (`ms`, `pts1ed`, `sya-all`, `mr`, etc.), see the
-<SiteLink to="/assets/texts/abbr.html">Edition Abbreviations</SiteLink> page or
-[SuttaCentral's list](https://suttacentral.net/abbreviations).
+<SiteLink to="/assets/texts/abbr.html">Edition Abbreviations</SiteLink> page.
 
 ## Hotkeys
 
