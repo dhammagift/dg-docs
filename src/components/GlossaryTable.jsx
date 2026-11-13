@@ -60,6 +60,8 @@ const STRINGS = {
     all: 'Все',
     alphabetLabel: 'Указатель по пали',
     canonOnly: 'Только с определением из канона',
+    specialOnly: 'Только особые определения',
+    specialHint: 'Канон даёт слову свой смысл, не тот, что в обычной речи',
     found: (n, total) => `Найдено ${n} из ${total}`,
     reset: 'Сбросить',
     empty: 'Ничего не найдено',
@@ -95,6 +97,8 @@ const STRINGS = {
     all: 'All',
     alphabetLabel: 'Pali index',
     canonOnly: 'Only with a canon definition',
+    specialOnly: 'Only special definitions',
+    specialHint: 'The canon gives the word a sense of its own, not the everyday one',
     found: (n, total) => `Found ${n} of ${total}`,
     reset: 'Reset',
     empty: 'Nothing found',
@@ -195,6 +199,17 @@ function RefChip({value, locale, t}) {
   );
 }
 
+// «special: ariyassa vinaye» / «special: assutavā puthujjano bhāsati» (sheet column «Definition type»): the badge is
+// the Pali phrase alone (owner 2026-11-13: whoever is curious will find out what it means)
+function SpecialBadge({kind, t}) {
+  if (!kind) return null;
+  return (
+    <span className="dg-glossary__special" lang="pi" title={t.specialHint}>
+      {kind.replace(/^special:\s*/, '')}
+    </span>
+  );
+}
+
 function TermDetails({term, t, locale, copied, onCopy}) {
   const canon = term.canon || {};
   const groups = [
@@ -212,7 +227,9 @@ function TermDetails({term, t, locale, copied, onCopy}) {
         <div className="dg-glossary__details-inner">
           {canon.definition && (
             <section className="dg-glossary__section">
-              <h4>{t.canonDefinition}</h4>
+              <h4>
+                {t.canonDefinition} <SpecialBadge kind={term.kind} t={t} />
+              </h4>
               <p className="dg-glossary__definition" lang="pi">
                 {canon.definition}
               </p>
@@ -269,6 +286,7 @@ export default function GlossaryTable({locale = 'en'}) {
   const [query, setQuery] = useState('');
   const [letter, setLetter] = useState('');
   const [canonOnly, setCanonOnly] = useState(false);
+  const [specialOnly, setSpecialOnly] = useState(false);
   const [sortKey, setSortKey] = useState('pali');
   const [sortDir, setSortDir] = useState('asc');
   const [open, setOpen] = useState(() => new Set());
@@ -290,16 +308,18 @@ export default function GlossaryTable({locale = 'en'}) {
   );
 
   const canonCount = useMemo(() => TERMS.filter((term) => term.canon?.definition).length, []);
+  const specialCount = useMemo(() => TERMS.filter((term) => term.kind).length, []);
 
   const filtered = useMemo(() => {
     const needle = normalize(query);
     return TERMS.filter((term) => {
       if (letter && (normalize(term.pali)[0] || '').toUpperCase() !== letter) return false;
       if (canonOnly && !term.canon?.definition) return false;
+      if (specialOnly && !term.kind) return false;
       if (needle && !searchIndex.get(term.id)?.includes(needle)) return false;
       return true;
     });
-  }, [query, letter, canonOnly, searchIndex]);
+  }, [query, letter, canonOnly, specialOnly, searchIndex]);
 
   const sorted = useMemo(() => {
     const value = (term) => (sortKey === 'pali' ? term.pali : locale === 'ru' ? term.ru : term.en);
@@ -336,6 +356,7 @@ export default function GlossaryTable({locale = 'en'}) {
       setQuery('');
       setLetter('');
       setCanonOnly(false);
+      setSpecialOnly(false);
       setOpen((previous) => new Set(previous).add(id));
       setHighlight(id);
       window.setTimeout(() => setHighlight((current) => (current === id ? '' : current)), 2200);
@@ -363,6 +384,7 @@ export default function GlossaryTable({locale = 'en'}) {
     setQuery('');
     setLetter('');
     setCanonOnly(false);
+    setSpecialOnly(false);
   }
 
   function toggle(id) {
@@ -442,7 +464,7 @@ export default function GlossaryTable({locale = 'en'}) {
   const paliSort = sortKey === 'pali' ? (sortDir === 'asc' ? 'ascending' : 'descending') : 'none';
   const translationSort =
     sortKey === 'translation' ? (sortDir === 'asc' ? 'ascending' : 'descending') : 'none';
-  const hasFilter = Boolean(query || letter || canonOnly);
+  const hasFilter = Boolean(query || letter || canonOnly || specialOnly);
 
   return (
     <div className="dg-glossary">
@@ -482,6 +504,14 @@ export default function GlossaryTable({locale = 'en'}) {
             {t.canonOnly} ({canonCount})
           </span>
         </label>
+        {specialCount > 0 && (
+          <label className="dg-glossary__check">
+            <input type="checkbox" checked={specialOnly} onChange={(event) => setSpecialOnly(event.target.checked)} />
+            <span>
+              {t.specialOnly} ({specialCount})
+            </span>
+          </label>
+        )}
         <div className="dg-glossary__export">
           <button type="button" onClick={downloadCsv} title={t.exportHint}>
             {t.exportCsv}

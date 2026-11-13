@@ -5,6 +5,7 @@ import {readFileSync} from 'node:fs';
 import {
   buildGlossary,
   findHeaderRow,
+  foreignRefs,
   normalizeText,
   parseCsv,
   parseRefs,
@@ -132,4 +133,26 @@ test('validateGlossary rejects a collapsed sheet', () => {
   assert.throws(() => validateGlossary({terms: [], stats: {canon: 0}}), /no terms/);
   const small = new Array(10).fill({id: 'x', pali: 'x'});
   assert.throws(() => validateGlossary({terms: small, stats: {canon: 1}}), /only 10 terms/);
+});
+
+test('buildGlossary reads the definition type, empty for an ordinary definition', () => {
+  const [header] = FIXTURE.split('\n');
+  const cols = parseCsv(header)[0].length;
+  const row = (pali, kind) => [`1`, pali, 'перевод', 'rendering', ...new Array(cols - 4).fill(''), kind].join(',');
+  const csv = [`${header},Definition type`, row('samudda', 'special: ariyassa vinaye'), row('pātāla', 'special: assutavā puthujjano bhāsati'), row('adhamma', '')].join('\n');
+  const {terms, stats} = buildGlossary(csv);
+  assert.equal(terms.find((t) => t.pali === 'samudda').kind, 'special: ariyassa vinaye');
+  assert.equal(terms.find((t) => t.pali === 'pātāla').kind, 'special: assutavā puthujjano bhāsati');
+  assert.equal(terms.find((t) => t.pali === 'adhamma').kind, undefined);
+  assert.equal(stats.special, 2);
+});
+
+test('validateGlossary allows only DN, MN, SN, AN, Snp, Iti, Ud and the Vinaya', () => {
+  const ok = {id: 'a', pali: 'a', canon: {where: ['mn141', 'snp3.12', 'iti50', 'ud1.10', '(+3)', 'āhuneyyaggi'], vinaya: ['pli-tv-bu-vb-pc8'], link: '/an10.114:2.1'}};
+  assert.deepEqual(foreignRefs(ok), []);
+  const bad = {id: 'b', pali: 'b', canon: {where: ['pdhp12', 'mn1'], broader: ['kv8.4', 'ne37'], link: '/mnd14:1.2'}};
+  assert.deepEqual(foreignRefs(bad), ['pdhp12', 'kv8.4', 'ne37', '/mnd14:1.2']);
+  const terms = Array.from({length: 120}, (_, i) => ({id: `t${i}`, pali: `t${i}`}));
+  assert.throws(() => validateGlossary({terms: [...terms, bad], stats: {canon: 1}}), /outside DN, MN.*pdhp12/);
+  assert.doesNotThrow(() => validateGlossary({terms: [...terms, ok], stats: {canon: 1}}));
 });
