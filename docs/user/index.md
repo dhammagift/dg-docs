@@ -77,7 +77,7 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
 - **Keyboard shortcuts** for fast navigation. See
   [Keyboard shortcuts](/hotkeys).
 - **Links out** — the strip under the title links to the same passage on
-  s.dhamma.gift, DigitalPaliReader, tipitaka.lk, SuttaCentral and other
+  S.Dhamma.Gift, DigitalPaliReader, Tipitaka.lk, SuttaCentral and other
   sites.
 
 <div style={{clear: 'both'}} />

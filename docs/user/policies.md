@@ -206,7 +206,7 @@ For inquiries regarding your privacy, please contact us at
 
 Three cases, and the difference matters.
 
-### Public domain — SuttaCentral
+### Public domain
 
 All materials from [SuttaCentral](https://suttacentral.net/) (Bilara data) —
 the Pali root texts and the translations — are dedicated to the public domain under
@@ -217,7 +217,7 @@ Bhikkhu**. See [SuttaCentral licensing](https://suttacentral.net/licensing).
 
 ### Other Pali editions: each under its own license
 
-Besides the Mahāsaṅgīti Pali text from SuttaCentral, Dhamma.gift uses other
+Dhamma.gift uses several
 editions of the Pali Canon, cut into the same segments. Search covers the
 Mahāsaṅgīti text together with the variant readings collated from the other
 editions (BJT, VRI, Siam Rath, PTS); s.dhamma.gift shows the BJT, CST and

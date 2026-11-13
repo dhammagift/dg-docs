@@ -77,7 +77,7 @@ tipitaka.theravada.su и s.dhamma.gift (издания BJT, CST и тайско�
 - **Горячие клавиши** для быстрой навигации. См.
   [Горячие клавиши](/hotkeys).
 - **Внешние ссылки** — полоса под заголовком ведёт к тому же месту на
-  s.dhamma.gift, DigitalPaliReader, tipitaka.lk, SuttaCentral и других
+  S.Dhamma.Gift, DigitalPaliReader, Tipitaka.lk, SuttaCentral и других
   сайтах.
 
 <div style={{clear: 'both'}} />
