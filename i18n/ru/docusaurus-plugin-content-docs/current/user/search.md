@@ -156,8 +156,7 @@ RegEx](#памятка-по-regex--попробуйте-вживую) ниже.
   s.dhamma.gift.
 
 Аббревиатуры изданий (`ms`, `pts1ed`, `sya-all`, `mr` и т.п.) — смотрите
-<SiteLink to="/assets/texts/abbr.html">Edition Abbreviations</SiteLink> или
-[список SuttaCentral](https://suttacentral.net/abbreviations?lang=ru).
+<SiteLink to="/assets/texts/abbr.html">Edition Abbreviations</SiteLink>.
 
 ## Горячие клавиши
 

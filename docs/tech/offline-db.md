@@ -14,7 +14,7 @@ the Android and iOS apps.
 
 | What | Path | Served as |
 |---|---|---|
-| Corpus sources: the Pali text and the translations | `siteroot/data/suttacentral.net`, `siteroot/data/dhammagift` (symlinks) | — |
+| Corpus sources: the Pali texts of six editions (Mahāsaṅgīti, its printed MS05, BJT, Myanmar, Thai, PTS) and the translations | `siteroot/data/suttacentral.net`, `siteroot/data/dhammagift` (symlinks) | — |
 | Server database (built) | `dg.db` | used by `dg-fastify.js`: search, reader, API, MCP |
 | **Offline library** | `siteroot/mobile-data/dg.db.gz` | `/mobile-data/dg.db.gz` |
 | Its manifest | `siteroot/mobile-data/db-manifest.json` | `/mobile-data/db-manifest.json` |

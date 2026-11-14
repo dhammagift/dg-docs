@@ -101,6 +101,9 @@ const COLUMN_SPECS = [
   {key: 'broader', labels: ['Шире', 'Broader'], match: 'prefix'},
   {key: 'vinaya', labels: ['Виная', 'Vinaya'], match: 'prefix'},
   {key: 'dgNote', labels: ['Пояснение DG', 'DG explanation'], match: 'exact'},
+  // «special: ariyassa vinaye» / «special: assutavā puthujjano bhāsati»: the canon gives the word a sense of its own,
+  // other than the everyday one (owner 2026-11-13); empty for an ordinary definition
+  {key: 'kind', labels: ['Тип определения', 'Definition type'], match: 'exact'},
 ];
 
 export function resolveColumns(headerRow) {
@@ -231,6 +234,7 @@ export function buildGlossary(csvText) {
     canon: 0,
     expandable: 0,
     withoutNumber: 0,
+    special: 0,
   };
   const terms = [];
   const seen = new Set();
@@ -279,6 +283,7 @@ export function buildGlossary(csvText) {
     const numRaw = cell(row, cols.num);
     const num = /^\d+$/.test(numRaw) ? Number(numRaw) : null;
     const dgNote = cell(row, cols.dgNote);
+    const kind = cell(row, cols.kind);
     const rationale = rationaleFor(pali);
     const term = {
       id: '',
@@ -288,6 +293,7 @@ export function buildGlossary(csvText) {
       en,
       ...(Object.keys(canon).length ? {canon} : {}),
       ...(dgNote ? {dgNote} : {}),
+      ...(kind ? {kind} : {}),
       ...(rationale ? {rationale} : {}),
     };
     terms.push(term);
@@ -296,6 +302,7 @@ export function buildGlossary(csvText) {
     if (en) stats.en++;
     if (definition) stats.canon++;
     if (!num) stats.withoutNumber++;
+    if (kind) stats.special++;
     if (definition || link || where.length || compounds.length || patterns.length || broader.length || vinaya.length || dgNote || rationale) {
       stats.expandable++;
     }
@@ -319,6 +326,27 @@ export function buildGlossary(csvText) {
   return {terms, stats};
 }
 
+// Owner 2026-11-13: the glossary cites only DN, MN, SN, AN, Snp, Iti, Ud and the Vinaya (pli-tv-…).
+// A ref is a token that starts with a book id and a number (mn141:16, pli-tv-bu-vb-pc8); compounds and «(+15)» are not.
+const REF_BOOK = /^([a-z]+(?:-[a-z]+)*?)\d/;
+const ALLOWED_BOOKS = new Set(['dn', 'mn', 'sn', 'an', 'snp', 'iti', 'ud']);
+
+export function refBook(ref) {
+  const m = String(ref).replace(/^\//, '').match(REF_BOOK);
+  if (!m) return null;
+  return m[1].startsWith('pli-tv-') ? 'pli-tv' : m[1];
+}
+
+export function foreignRefs(term) {
+  const canon = term.canon || {};
+  const refs = [...(canon.where || []), ...(canon.compounds || []), ...(canon.patterns || []), ...(canon.broader || []), ...(canon.vinaya || [])];
+  if (canon.link) refs.push(canon.link);
+  return refs.filter((ref) => {
+    const book = refBook(ref);
+    return book && book !== 'pli-tv' && !ALLOWED_BOOKS.has(book);
+  });
+}
+
 export function validateGlossary({terms, stats}) {
   if (!terms.length) throw new Error('Glossary: no terms parsed from the sheet.');
   if (terms.length < 100) {
@@ -332,5 +360,9 @@ export function validateGlossary({terms, stats}) {
     if (!term.pali) throw new Error(`Glossary: a term has no Pali (id ${term.id}).`);
     if (ids.has(term.id)) throw new Error(`Glossary: duplicate anchor #${term.id}.`);
     ids.add(term.id);
+  }
+  const foreign = terms.flatMap((term) => foreignRefs(term).map((ref) => `${term.pali}: ${ref}`));
+  if (foreign.length) {
+    throw new Error(`Glossary: refs outside DN, MN, SN, AN, Snp, Iti, Ud and the Vinaya: ${foreign.slice(0, 10).join('; ')}`);
   }
 }

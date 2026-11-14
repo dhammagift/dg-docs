@@ -13,7 +13,8 @@ Dhamma.gift is a set of connected tools built around the Pali Canon (Sutta
 and Vinaya) and its translations: search, a line-by-line reader, a Pali
 dictionary, and a text-to-speech player, tied together so that finding a
 passage, reading it with a translation, listening to it, and memorizing it
-are all one continuous workflow rather than separate apps.
+are all one continuous workflow rather than separate apps. Any text can also be read in six Pali
+editions of the Canon at once, with the differences highlighted.
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{width: '100%', display: 'block'}} /></a></span>
@@ -52,12 +53,15 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
 
 <img src="/assets/img/dgsanhkalogo.png" alt="Dhamma.Gift Read logo" style={{float: 'left', marginRight: '15px', maxWidth: '96px'}} />
 
-- Line-by-line Pali↔Russian texts: AN, DN, MN, SN, KN (Snp, Ud, Iti, Dhp,
-  Thag, Thig), and parts of the Vinaya Vibhaṅga.
+- **Compare 6 Pali editions** — any text line by line in Buddha Jayanti (Sri Lanka),
+  Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), Mahāsaṅgīti, Mahāsaṅgīti 2005
+  and PTS, with the differences highlighted. See [Compare](/compare).
+- Line-by-line Pali with an English translation, and 24 more languages: AN, DN,
+  MN, SN, KN (Snp, Ud, Iti, Dhp, Thag, Thig) and the Vinaya Vibhaṅga.
 - A built-in online Russian version of the Digital Pāḷi Dictionary (DPD) —
   a click-to-look-up popup dictionary.
-- **Multilingual mode** — the Pali and any of the 25 translation languages
-  shown together at once.
+- **Compare mode** — the Pali with any of the 25 translation languages, or
+  several editions, side by side at once.
 - **Favorites & History** — a personal library of texts for quick access.
 - **Reading Progress** — resume exactly where you left off.
 - **Cloud Sync** — favorites, history, subscriptions, reading progress and
@@ -77,7 +81,7 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
 - **Keyboard shortcuts** for fast navigation. See
   [Keyboard shortcuts](/hotkeys).
 - **Links out** — the strip under the title links to the same passage on
-  s.dhamma.gift, DigitalPaliReader, tipitaka.lk, SuttaCentral and other
+  S.Dhamma.Gift, DigitalPaliReader, Tipitaka.lk, SuttaCentral and other
   sites.
 
 <div style={{clear: 'both'}} />

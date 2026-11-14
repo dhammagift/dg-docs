@@ -497,6 +497,24 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.dg-glossary__special {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.45rem;
+  border: 1px solid var(--ifm-color-warning-dark);
+  border-radius: 5px;
+  color: var(--ifm-color-warning-darkest);
+  background: var(--ifm-color-warning-contrast-background);
+  font-size: 0.72rem;
+  letter-spacing: 0;
+  text-transform: none;
+  vertical-align: middle;
+}
+[data-theme='dark'] .dg-glossary__special {
+  color: var(--ifm-color-warning-lighter);
+  border-color: var(--ifm-color-warning-dark);
+  background: rgba(255, 186, 0, 0.12);
+}
 .dg-glossary__definition {
   margin: 0;
   font-size: 0.92rem;
