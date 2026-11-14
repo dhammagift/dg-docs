@@ -256,7 +256,7 @@ A common and widespread misconception is:
 According to the suttas, both are incorrect. On the contrary:
 
 - *Dukkha* is bodily pain and discomfort (<SiteLink to="/dn22:18.18?s=dukkha&lang=en&hide=id">DN 22</SiteLink>, <SiteLink to="/mn141:16.1?s=dukkha&lang=en&hide=id">MN 141</SiteLink>).
-- *Dukkhā vedanā* is painful feeling—an experience that can be either bodily or mental (<SiteLink to="/mn44:24.1?lang=en&hide=id">MN 44</SiteLink>).
+- *Dukkhā vedanā* is painful feeling—an experience that can be either bodily or mental (<SiteLink to="/mn44:23.4?lang=en&hide=id">MN 44</SiteLink>).
 
 Clearly, no one would suggest that a painful experience—such as a painful memory—is only "bodily pain," yet it is undoubtedly a painful feeling and experience. The same logic applies to *sukhā vedanā*.
 
