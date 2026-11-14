@@ -49,6 +49,40 @@ async function fetchCsv(url, attempts = 3) {
   throw new Error(`could not fetch the glossary sheet: ${lastError?.message || lastError}`);
 }
 
+// Each term's dictionary forms (samudda: samuddo, samuddassa...): the inflected forms whose DPD headwords include the
+// term, from the DPD index the reader ships (dg-node standalone-dpd/dpd_i2h.js). The Dictionary's DG card finds a term
+// by any of them (owner 2026-11-14: «чтобы сразу в глоссарии были словарные формы»). If that file cannot be read, the
+// terms keep the forms of the previous glossary.json.
+const I2H_URL = 'https://raw.githubusercontent.com/dhammagift/dg-node/main/public/overrides/js/standalone-dpd/dpd_i2h.js';
+const norm = (s) => String(s || '').trim().toLowerCase().replace(/ṃ/g, 'ṁ');
+
+async function addForms(terms, previous) {
+  let i2h;
+  try {
+    const res = await fetch(I2H_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    i2h = JSON.parse((await res.text()).replace(/^\s*(?:var|let|const)?\s*dpd_\w+\s*=\s*/, '').trim().replace(/;$/, ''));
+  } catch (error) {
+    console.warn(`glossary: forms not updated (${I2H_URL}: ${error.message})`);
+    const old = new Map((previous?.terms || []).map((t) => [t.pali, t.forms]));
+    for (const t of terms) if (old.get(t.pali)) t.forms = old.get(t.pali);
+    return;
+  }
+  const byBase = new Map();
+  for (const [form, headwords] of Object.entries(i2h)) {
+    for (const hw of headwords) {
+      if (hw.endsWith(' (DG)')) continue; // the glossary's own entries the dictionary job added
+      const base = norm(hw.replace(/\s+\d+(\.\d+)?$/, ''));
+      if (!byBase.has(base)) byBase.set(base, new Set());
+      byBase.get(base).add(norm(form));
+    }
+  }
+  for (const t of terms) {
+    const forms = byBase.get(norm(t.pali));
+    if (forms) t.forms = [...forms].sort();
+  }
+}
+
 async function readPrevious() {
   try {
     return await readFile(OUT, 'utf8');
@@ -72,6 +106,7 @@ async function main() {
       // A corrupted file is regenerated, not treated as a fatal error.
     }
   }
+  await addForms(terms, previous);
 
   // Compare only the data: a same-content run must not touch the file (no daily diff, no
   // build). updatedAt then keeps the date of the last real content change.

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "source": {
     "sheetId": "1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg",
     "gid": "0",
@@ -12,14 +12,31 @@
       "num": 1,
       "pali": "abhijjhā",
       "ru": "алчность",
-      "en": "covetousness"
+      "en": "covetousness",
+      "forms": [
+        "abhijjha",
+        "abhijjhaṁ",
+        "abhijjhā",
+        "abhijjhāpi",
+        "abhijjhāti",
+        "abhijjhāya"
+      ]
     },
     {
       "id": "abhinandati",
       "num": 370,
       "pali": "abhinandati",
       "ru": "обрадоваться, радоваться",
-      "en": "to be delighted, to delight"
+      "en": "to be delighted, to delight",
+      "forms": [
+        "abhinandanti",
+        "abhinandati",
+        "abhinandatu",
+        "abhinande",
+        "abhinandeyya",
+        "abhinandeyyaṁ",
+        "abhinandāmi"
+      ]
     },
     {
       "id": "abhinna",
@@ -44,7 +61,15 @@
           "pli-tv-bu-vb-pc8:1.1.12",
           "pli-tv-bu-vb-pj4:1.1.32"
         ]
-      }
+      },
+      "forms": [
+        "abhiññā",
+        "abhiññānaṁ",
+        "abhiññāto",
+        "abhiññāya",
+        "abhiññāyaṁ",
+        "abhiññāyo"
+      ]
     },
     {
       "id": "abhinnaya",
@@ -56,14 +81,24 @@
         "broader": [
           "snp5.3:1.4"
         ]
-      }
+      },
+      "forms": [
+        "abhiññāya"
+      ]
     },
     {
       "id": "abyapada",
       "num": 4,
       "pali": "abyāpāda",
       "ru": "без-враждебность, не-враждебность",
-      "en": "non-hostility"
+      "en": "non-hostility",
+      "forms": [
+        "abyāpādassa",
+        "abyāpādaṁ",
+        "abyāpāde",
+        "abyāpādo",
+        "abyāpādoti"
+      ]
     },
     {
       "id": "acayagami-dhammo",
@@ -170,7 +205,20 @@
           "pli-tv-bu-vb-ss4:1.1.13",
           "pli-tv-bu-vb-ss12:2.7"
         ]
-      }
+      },
+      "forms": [
+        "adhamma",
+        "adhammanti",
+        "adhammañca",
+        "adhammaṁ",
+        "adhamme",
+        "adhammena",
+        "adhammenapi",
+        "adhammenāti",
+        "adhammo",
+        "adhammoti",
+        "adhammā"
+      ]
     },
     {
       "id": "adhammavadini-parisa",
@@ -227,7 +275,11 @@
           "an3.89:3.1",
           "an3.90:3.1"
         ]
-      }
+      },
+      "forms": [
+        "adhicittasikkhā",
+        "adhicittasikkhāya"
+      ]
     },
     {
       "id": "adhipannasikkha",
@@ -246,7 +298,12 @@
           "an3.89:4.1",
           "an3.90:4.1"
         ]
-      }
+      },
+      "forms": [
+        "adhipaññāsikkhā",
+        "adhipaññāsikkhāya",
+        "adhipaññāsikkhāyāti"
+      ]
     },
     {
       "id": "adhisilasikkha",
@@ -265,7 +322,11 @@
           "an3.89:2.1",
           "an3.90:2.1"
         ]
-      }
+      },
+      "forms": [
+        "adhisīlasikkhā",
+        "adhisīlasikkhāya"
+      ]
     },
     {
       "id": "adinava",
@@ -298,7 +359,17 @@
           "sn36.18:1.4",
           "(+8)"
         ]
-      }
+      },
+      "forms": [
+        "ādīnava",
+        "ādīnavato",
+        "ādīnavañca",
+        "ādīnavaṁ",
+        "ādīnavo",
+        "ādīnavoti",
+        "ādīnavā",
+        "ādīnavāti"
+      ]
     },
     {
       "id": "adinavasanna",
@@ -315,7 +386,12 @@
         "patterns": [
           "an10.60:7.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "ādīnavasaññaṁ",
+        "ādīnavasaññā"
+      ]
     },
     {
       "id": "adinnadana",
@@ -327,7 +403,18 @@
         "broader": [
           "an5.178:2.3"
         ]
-      }
+      },
+      "forms": [
+        "adinnādāna",
+        "adinnādānamhi",
+        "adinnādānanti",
+        "adinnādānasmiṁ",
+        "adinnādānassa",
+        "adinnādānaṁ",
+        "adinnādāne",
+        "adinnādāneti",
+        "adinnādānā"
+      ]
     },
     {
       "id": "adinnadana-veramani",
@@ -432,7 +519,10 @@
         "patterns": [
           "an7.47:13.1"
         ]
-      }
+      },
+      "forms": [
+        "āhuneyyaggi"
+      ]
     },
     {
       "id": "ahuneyyo",
@@ -469,7 +559,10 @@
         "patterns": [
           "an3.119:5.1"
         ]
-      }
+      },
+      "forms": [
+        "ājīvasampadā"
+      ]
     },
     {
       "id": "ajivavipatti",
@@ -486,7 +579,11 @@
         "patterns": [
           "an3.119:2.1"
         ]
-      }
+      },
+      "forms": [
+        "ājīvavipatti",
+        "ājīvavipattiyā"
+      ]
     },
     {
       "id": "ajjhattam-sankhitta-vimamsa",
@@ -744,7 +841,14 @@
           "mn62:12.6",
           "mn140:18.6"
         ]
-      }
+      },
+      "forms": [
+        "ākāsadhātu",
+        "ākāsadhātuyaṁ",
+        "ākāsadhātuyā",
+        "ākāsadhātuyāpi",
+        "ākāsadhātuṁ"
+      ]
     },
     {
       "id": "akasanancayatana",
@@ -765,7 +869,17 @@
           "sn14.11:3.4",
           "an9.41:11.5"
         ]
-      }
+      },
+      "forms": [
+        "ākāsānañcāyatana",
+        "ākāsānañcāyatanampi",
+        "ākāsānañcāyatananti",
+        "ākāsānañcāyatanasmiṁ",
+        "ākāsānañcāyatanato",
+        "ākāsānañcāyatanaṁ",
+        "ākāsānañcāyatane",
+        "ākāsānañcāyatanā"
+      ]
     },
     {
       "id": "akincanna-cetovimutti",
@@ -805,7 +919,17 @@
           "sn14.11:3.6",
           "an9.41:13.5"
         ]
-      }
+      },
+      "forms": [
+        "ākiñcaññāyatana",
+        "ākiñcaññāyatanampi",
+        "ākiñcaññāyatananti",
+        "ākiñcaññāyatanasmiṁ",
+        "ākiñcaññāyatanato",
+        "ākiñcaññāyatanaṁ",
+        "ākiñcaññāyatane",
+        "ākiñcaññāyatanā"
+      ]
     },
     {
       "id": "akkhama-patipada",
@@ -862,7 +986,23 @@
           "dn1:3.21.6",
           "an2.15:3.3"
         ]
-      }
+      },
+      "forms": [
+        "akusala",
+        "akusalanti",
+        "akusalassa",
+        "akusalañca",
+        "akusalaṁ",
+        "akusale",
+        "akusalehi",
+        "akusalena",
+        "akusalesu",
+        "akusalo",
+        "akusalā",
+        "akusalānaṁ",
+        "akusalāni",
+        "akusalāpi"
+      ]
     },
     {
       "id": "akusala-dhamma",
@@ -879,7 +1019,10 @@
         "patterns": [
           "sn45.22:1.4"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "akusala-kammapatha",
@@ -937,7 +1080,15 @@
         "patterns": [
           "mn9:4.1"
         ]
-      }
+      },
+      "forms": [
+        "akusalamūlañca",
+        "akusalamūlaṁ",
+        "akusalamūlāna",
+        "akusalamūlānaṁ",
+        "akusalamūlāni",
+        "akusalamūlānīti"
+      ]
     },
     {
       "id": "amanussaggaho",
@@ -996,7 +1147,14 @@
       "num": 16,
       "pali": "anabhijjhā",
       "ru": "без-алчности",
-      "en": "non-covetousness"
+      "en": "non-covetousness",
+      "forms": [
+        "anabhijjha",
+        "anabhijjhaṁ",
+        "anabhijjhā",
+        "anabhijjhāti",
+        "anabhijjhāya"
+      ]
     },
     {
       "id": "anagami",
@@ -1018,7 +1176,21 @@
           "sn51.30:5.4",
           "an2.36:3.6"
         ]
-      }
+      },
+      "forms": [
+        "anāgāmi",
+        "anāgāminaṁ",
+        "anāgāmini",
+        "anāgāminiyo",
+        "anāgāmino",
+        "anāgāminā",
+        "anāgāmināpi",
+        "anāgāmissa",
+        "anāgāmiṁ",
+        "anāgāmī",
+        "anāgāmīnaṁ",
+        "anāgāmīti"
+      ]
     },
     {
       "id": "anaggavati-parisa",
@@ -1081,7 +1253,13 @@
           "sn54.5:1.2",
           "an10.60:13.20"
         ]
-      }
+      },
+      "forms": [
+        "ānāpāna",
+        "ānāpāne",
+        "ānāpānena",
+        "ānāpāno"
+      ]
     },
     {
       "id": "anapanassati",
@@ -1105,7 +1283,13 @@
           "sn54.5:1.2",
           "an10.60:13.20"
         ]
-      }
+      },
+      "forms": [
+        "ānāpānassati",
+        "ānāpānassatinti",
+        "ānāpānassatiyā",
+        "ānāpānassatiṁ"
+      ]
     },
     {
       "id": "anariya-parisa",
@@ -1238,7 +1422,20 @@
           "pli-tv-bi-vb-pj8:2.1.21",
           "pli-tv-bu-vb-pj1:5.7.17"
         ]
-      }
+      },
+      "forms": [
+        "anatta",
+        "anattani",
+        "anattanā",
+        "anattanāva",
+        "anattato",
+        "anattaṁ",
+        "anatte",
+        "anattena",
+        "anattā",
+        "anattānaṁ",
+        "anattāti"
+      ]
     },
     {
       "id": "anattasanna",
@@ -1255,7 +1452,11 @@
         "patterns": [
           "an10.60:5.1"
         ]
-      }
+      },
+      "forms": [
+        "anattasaññaṁ",
+        "anattasaññā"
+      ]
     },
     {
       "id": "anattha",
@@ -1298,7 +1499,19 @@
           "pli-tv-bi-vb-np2:2.1.6",
           "pli-tv-bi-vb-pj8:2.1.21"
         ]
-      }
+      },
+      "forms": [
+        "anattha",
+        "anatthampi",
+        "anatthassa",
+        "anatthato",
+        "anatthañca",
+        "anatthaṁ",
+        "anatthe",
+        "anattho",
+        "anatthā",
+        "anatthāya"
+      ]
     },
     {
       "id": "anavajjabalam",
@@ -1443,7 +1656,23 @@
           "pli-tv-bu-vb-np18:2.42",
           "(+31)"
         ]
-      }
+      },
+      "forms": [
+        "aṅga",
+        "aṅganteva",
+        "aṅganti",
+        "aṅgassa",
+        "aṅgaṁ",
+        "aṅge",
+        "aṅgehi",
+        "aṅgena",
+        "aṅgesu",
+        "aṅgo",
+        "aṅgā",
+        "aṅgānaṁ",
+        "aṅgāni",
+        "aṅgānipi"
+      ]
     },
     {
       "id": "anicca",
@@ -1476,7 +1705,27 @@
           "pli-tv-bu-vb-pc4:2.1.14"
         ]
       },
-      "dgNote": "Not \"impermanent\": in sn22.59:6.4, asked \"is what is anicca painful or pleasant?\", the monks answer categorically: \"painful\", and the Buddha accepts it. So it is a question to be answered categorically (an4.42), and answering categorically a question that needs analysis is wrong (an3.67). The impermanent is not always painful; anicca is what is always painful: unreliable, unstable."
+      "dgNote": "Not \"impermanent\": in sn22.59:6.4, asked \"is what is anicca painful or pleasant?\", the monks answer categorically: \"painful\", and the Buddha accepts it. So it is a question to be answered categorically (an4.42), and answering categorically a question that needs analysis is wrong (an3.67). The impermanent is not always painful; anicca is what is always painful: unreliable, unstable.",
+      "forms": [
+        "anicca",
+        "aniccamhi",
+        "aniccanti",
+        "aniccato",
+        "aniccaññeva",
+        "aniccaṁ",
+        "aniccaṁyeva",
+        "anicce",
+        "aniccehi",
+        "aniccena",
+        "anicceyeva",
+        "anicco",
+        "aniccoti",
+        "aniccā",
+        "aniccāni",
+        "aniccāti",
+        "aniccāva",
+        "aniccāya"
+      ]
     },
     {
       "id": "aniccasanna",
@@ -1493,7 +1742,12 @@
         "patterns": [
           "an10.60:4.1"
         ]
-      }
+      },
+      "forms": [
+        "aniccasaññañhi",
+        "aniccasaññaṁ",
+        "aniccasaññā"
+      ]
     },
     {
       "id": "animitta",
@@ -1515,7 +1769,18 @@
           "sn41.7:5.3",
           "an7.56:13.3"
         ]
-      }
+      },
+      "forms": [
+        "animitta",
+        "animittassa",
+        "animittañca",
+        "animittaṁ",
+        "animitte",
+        "animitto",
+        "animittā",
+        "animittāpi",
+        "animittāya"
+      ]
     },
     {
       "id": "animitta-cetovimutti",
@@ -1654,7 +1919,24 @@
       "rationale": {
         "en": "/rationale#anta",
         "ru": "/rationale#anta"
-      }
+      },
+      "forms": [
+        "anta",
+        "antampi",
+        "antassa",
+        "antaṁ",
+        "ante",
+        "antehi",
+        "antena",
+        "antesu",
+        "anto",
+        "antopi",
+        "antā",
+        "antānaṁ",
+        "antāni",
+        "antāti",
+        "antāya"
+      ]
     },
     {
       "id": "antoputibhavo",
@@ -1678,14 +1960,23 @@
       "num": 25,
       "pali": "anuloma",
       "ru": "прямой порядок",
-      "en": "forward order"
+      "en": "forward order",
+      "forms": [
+        "anuloma",
+        "anulomampi",
+        "anulomaṁ",
+        "anulome"
+      ]
     },
     {
       "id": "anunaya",
       "num": 26,
       "pali": "anunaya",
       "ru": "привлечение (одобрение)",
-      "en": "attraction (approval)"
+      "en": "attraction (approval)",
+      "forms": [
+        "anunayo"
+      ]
     },
     {
       "id": "anupadaparinibbanam",
@@ -1772,7 +2063,17 @@
           "sn36.3:1.5",
           "an5.200:6.2"
         ]
-      }
+      },
+      "forms": [
+        "anusaya",
+        "anusayaṁ",
+        "anusaye",
+        "anusayena",
+        "anusayo",
+        "anusayā",
+        "anusayānaṁ",
+        "anusayāti"
+      ]
     },
     {
       "id": "anusotagami-puggalo",
@@ -1867,7 +2168,11 @@
       "num": 30,
       "pali": "api",
       "ru": "в том числе",
-      "en": "including"
+      "en": "including",
+      "forms": [
+        "api",
+        "appeva"
+      ]
     },
     {
       "id": "apodhatu",
@@ -1894,7 +2199,14 @@
           "mn140:15.6",
           "sn14.31:1.4"
         ]
-      }
+      },
+      "forms": [
+        "āpodhātu",
+        "āpodhātuyaṁ",
+        "āpodhātuyā",
+        "āpodhātuyāpi",
+        "āpodhātuṁ"
+      ]
     },
     {
       "id": "appamada",
@@ -1915,7 +2227,18 @@
           "sn35.134:1.6",
           "sn48.56:1.4"
         ]
-      }
+      },
+      "forms": [
+        "appamādamhi",
+        "appamādañca",
+        "appamādaṁ",
+        "appamāde",
+        "appamādena",
+        "appamādepi",
+        "appamādo",
+        "appamādāya",
+        "appamādāyāti"
+      ]
     },
     {
       "id": "appamana-cetovimutti",
@@ -1945,7 +2268,16 @@
           "sn43.4:1.2",
           "sn43.12:4.8"
         ]
-      }
+      },
+      "forms": [
+        "appaṇihitanti",
+        "appaṇihitassa",
+        "appaṇihitañca",
+        "appaṇihitaṁ",
+        "appaṇihito",
+        "appaṇihitā",
+        "appaṇihitāya"
+      ]
     },
     {
       "id": "appiyehi-sampayogo",
@@ -1981,7 +2313,12 @@
           "an6.54:19.5",
           "an7.73:3.5"
         ]
-      }
+      },
+      "forms": [
+        "apuñña",
+        "apuññaṁ",
+        "apuññāni"
+      ]
     },
     {
       "id": "araham",
@@ -2031,7 +2368,10 @@
           "pli-tv-bu-vb-pj4:8.7.2",
           "pli-tv-bu-vb-ss3:3.1.5"
         ]
-      }
+      },
+      "forms": [
+        "arahaṁ"
+      ]
     },
     {
       "id": "arahattam",
@@ -2069,7 +2409,11 @@
           "an8.55:4.1",
           "an8.76:2.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "ārakkhasampadā"
+      ]
     },
     {
       "id": "arati",
@@ -2119,7 +2463,15 @@
           "pli-tv-bu-vb-ss11:1.27",
           "(+1)"
         ]
-      }
+      },
+      "forms": [
+        "arati",
+        "aratiyā",
+        "aratiñca",
+        "aratiṁ",
+        "aratī",
+        "aratīpi"
+      ]
     },
     {
       "id": "ariya",
@@ -2218,7 +2570,26 @@
           "pli-tv-bi-vb-pc80:2.1.15",
           "(+19)"
         ]
-      }
+      },
+      "forms": [
+        "ariya",
+        "ariyasmiṁ",
+        "ariyassa",
+        "ariyañca",
+        "ariyaṁ",
+        "ariye",
+        "ariyebhi",
+        "ariyehi",
+        "ariyena",
+        "ariyesu",
+        "ariyo",
+        "ariyoti",
+        "ariyā",
+        "ariyāna",
+        "ariyānaṁ",
+        "ariyāti",
+        "ariyāya"
+      ]
     },
     {
       "id": "ariya-paccorohani",
@@ -2271,7 +2642,18 @@
           "sn56.28:1.5",
           "an3.61:14.1"
         ]
-      }
+      },
+      "forms": [
+        "ariyasaccanti",
+        "ariyasaccassa",
+        "ariyasaccaṁ",
+        "ariyasacce",
+        "ariyasaccesu",
+        "ariyasaccāna",
+        "ariyasaccānaṁ",
+        "ariyasaccāni",
+        "ariyasaccānīti"
+      ]
     },
     {
       "id": "ariyo-atthangiko-maggo",
@@ -2320,7 +2702,10 @@
           "sn45.173:1.5",
           "(+7)"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "ariyo-dhammo",
@@ -2420,7 +2805,11 @@
       "num": 41,
       "pali": "arūparāga",
       "ru": "безобразо-очарованность",
-      "en": "imageless-fascination"
+      "en": "imageless-fascination",
+      "forms": [
+        "arūparāgaṁ",
+        "arūparāgo"
+      ]
     },
     {
       "id": "asaddhammo",
@@ -2458,7 +2847,13 @@
           "an10.134:2.1",
           "an10.178:2.1"
         ]
-      }
+      },
+      "forms": [
+        "asādhu",
+        "asādhuñca",
+        "asādhuṁ",
+        "asādhūni"
+      ]
     },
     {
       "id": "asankhata",
@@ -2497,7 +2892,16 @@
           "sn43.11:1.3",
           "sn43.12:1.8"
         ]
-      }
+      },
+      "forms": [
+        "asaṅkhatanti",
+        "asaṅkhatassa",
+        "asaṅkhatañca",
+        "asaṅkhataṁ",
+        "asaṅkhato",
+        "asaṅkhatoti",
+        "asaṅkhatā"
+      ]
     },
     {
       "id": "asankhatagamimaggo",
@@ -2660,7 +3064,17 @@
           "an10.148:1.5",
           "an10.192:1.6"
         ]
-      }
+      },
+      "forms": [
+        "asappurisa",
+        "asappurisassa",
+        "asappurisañca",
+        "asappurisaṁ",
+        "asappurisena",
+        "asappuriso",
+        "asappurisoti",
+        "asappurisānaṁ"
+      ]
     },
     {
       "id": "asappurisadhammo",
@@ -2720,7 +3134,15 @@
         "broader": [
           "dn3:2.18.6"
         ]
-      }
+      },
+      "forms": [
+        "asātanti",
+        "asātañca",
+        "asātaṁ",
+        "asātā",
+        "asātāhi",
+        "asātānaṁ"
+      ]
     },
     {
       "id": "asava",
@@ -2779,7 +3201,24 @@
         "vinaya": [
           "pli-tv-bu-vb-pj1:1.8.3"
         ]
-      }
+      },
+      "forms": [
+        "āsava",
+        "āsavañca",
+        "āsavaṁ",
+        "āsave",
+        "āsavehi",
+        "āsavena",
+        "āsavesu",
+        "āsavo",
+        "āsavoti",
+        "āsavā",
+        "āsavānañca",
+        "āsavānañhi",
+        "āsavānaṁ",
+        "āsavāni",
+        "āsavāti"
+      ]
     },
     {
       "id": "asava-adhivasana-pahatabba",
@@ -2947,7 +3386,20 @@
           "sn47.27:1.3",
           "an10.111:2.1"
         ]
-      }
+      },
+      "forms": [
+        "asekha",
+        "asekhampi",
+        "asekhaṁ",
+        "asekhena",
+        "asekho",
+        "asekhopi",
+        "asekhoti",
+        "asekhā",
+        "asekhāpi",
+        "asekhāti",
+        "asekhāya"
+      ]
     },
     {
       "id": "asevitabbo-dhammo",
@@ -2996,7 +3448,17 @@
           "sn36.24:1.3",
           "(+3)"
         ]
-      }
+      },
+      "forms": [
+        "assāda",
+        "assādato",
+        "assādañca",
+        "assādaṁ",
+        "assādena",
+        "assādo",
+        "assādoti",
+        "assādā"
+      ]
     },
     {
       "id": "assasa",
@@ -3011,7 +3473,16 @@
           "sn38.5:1.9",
           "sn38.6:1.9"
         ]
-      }
+      },
+      "forms": [
+        "assāsassa",
+        "assāsato",
+        "assāsaṁ",
+        "assāsena",
+        "assāso",
+        "assāsā",
+        "assāsāya"
+      ]
     },
     {
       "id": "asubha",
@@ -3030,7 +3501,18 @@
           "sn14.11:3.2",
           "an10.60:6.5"
         ]
-      }
+      },
+      "forms": [
+        "asubha",
+        "asubhanti",
+        "asubhato",
+        "asubhañhi",
+        "asubhaṁ",
+        "asubhe",
+        "asubho",
+        "asubhā",
+        "asubhāya"
+      ]
     },
     {
       "id": "asubhasanna",
@@ -3047,7 +3529,12 @@
         "patterns": [
           "an10.60:6.1"
         ]
-      }
+      },
+      "forms": [
+        "asubhasaññañca",
+        "asubhasaññaṁ",
+        "asubhasaññā"
+      ]
     },
     {
       "id": "atapaniyo-dhammo",
@@ -3097,7 +3584,17 @@
           "pli-tv-bu-vb-pj2:4.19.8",
           "pli-tv-bu-vb-ss5:4.2.5"
         ]
-      }
+      },
+      "forms": [
+        "ātāpi",
+        "ātāpiniyo",
+        "ātāpino",
+        "ātāpinā",
+        "ātāpinī",
+        "ātāpiṁ",
+        "ātāpī",
+        "ātāpīnaṁ"
+      ]
     },
     {
       "id": "atilina-vimamsa",
@@ -3327,7 +3824,37 @@
           "pli-tv-bi-vb-pc3:2.3.1",
           "(+327)"
         ]
-      }
+      },
+      "forms": [
+        "atta",
+        "attanaṁ",
+        "attani",
+        "attano",
+        "attanopi",
+        "attanoti",
+        "attanova",
+        "attanā",
+        "attanāpi",
+        "attanāva",
+        "attato",
+        "attaṁ",
+        "attena",
+        "atto",
+        "attā",
+        "attāhi",
+        "attāhipi",
+        "attāna",
+        "attānameva",
+        "attānampi",
+        "attānanti",
+        "attānañca",
+        "attānaṁ",
+        "attānaṁyeva",
+        "attāni",
+        "attāno",
+        "attāpi",
+        "attāti"
+      ]
     },
     {
       "id": "attadhipateyyam",
@@ -3368,7 +3895,11 @@
       "num": null,
       "pali": "attavādupādāna",
       "ru": "личности-утверждения-поддерживание",
-      "en": "personality-assertion-sustaining"
+      "en": "personality-assertion-sustaining",
+      "forms": [
+        "attavādupādānassa",
+        "attavādupādānaṁ"
+      ]
     },
     {
       "id": "attha",
@@ -3465,7 +3996,32 @@
           "pli-tv-bu-vb-np8:1.1.29",
           "(+30)"
         ]
-      }
+      },
+      "forms": [
+        "attha",
+        "atthamhi",
+        "atthampi",
+        "atthassa",
+        "atthato",
+        "atthañca",
+        "atthañhi",
+        "atthaṁ",
+        "atthaṁyeva",
+        "atthe",
+        "atthena",
+        "attheneva",
+        "atthesu",
+        "attho",
+        "atthopi",
+        "atthoti",
+        "atthā",
+        "atthānaṁ",
+        "atthāni",
+        "atthāya",
+        "atthāyaṁ",
+        "atthāyāti",
+        "atthīti"
+      ]
     },
     {
       "id": "attharasa-vedana",
@@ -3615,7 +4171,17 @@
           "pli-tv-bi-vb-pc49:2.1.5",
           "pli-tv-bi-vb-pc50:2.5"
         ]
-      }
+      },
+      "forms": [
+        "avijja",
+        "avijjañca",
+        "avijjaṁ",
+        "avijjā",
+        "avijjāti",
+        "avijjāya",
+        "avijjāyeva",
+        "avijjāyāti"
+      ]
     },
     {
       "id": "avijjanusaya",
@@ -3627,21 +4193,42 @@
         "patterns": [
           "sn36.3:1.5"
         ]
-      }
+      },
+      "forms": [
+        "avijjānusayassa",
+        "avijjānusayaṁ",
+        "avijjānusayo",
+        "avijjānusayānaṁ"
+      ]
     },
     {
       "id": "avijjapaccaya",
       "num": null,
       "pali": "avijjāpaccayā",
       "ru": "неразличения-условием",
-      "en": "non-discernment as condition"
+      "en": "non-discernment as condition",
+      "forms": [
+        "avijjāpaccayā",
+        "avijjāpaccayāti",
+        "avijjāpaccayāva"
+      ]
     },
     {
       "id": "avijjasava",
       "num": null,
       "pali": "avijjāsava",
       "ru": "неразличения-истечение",
-      "en": "non-discernment-outflow"
+      "en": "non-discernment-outflow",
+      "forms": [
+        "avijjāsava",
+        "avijjāsavaṁ",
+        "avijjāsavena",
+        "avijjāsavenāti",
+        "avijjāsavo",
+        "avijjāsavā",
+        "avijjāsavāpi",
+        "avijjāsavāti"
+      ]
     },
     {
       "id": "avuso",
@@ -3729,7 +4316,11 @@
           "pli-tv-bu-vb-pc66:1.6",
           "(+8)"
         ]
-      }
+      },
+      "forms": [
+        "āvuso",
+        "āvusoti"
+      ]
     },
     {
       "id": "ayatana",
@@ -3750,7 +4341,21 @@
           "sn14.11:3.4",
           "an9.41:11.5"
         ]
-      }
+      },
+      "forms": [
+        "āyatana",
+        "āyatanassa",
+        "āyatanaṁ",
+        "āyatane",
+        "āyatanena",
+        "āyatanesu",
+        "āyataneti",
+        "āyataneva",
+        "āyatanā",
+        "āyatanāna",
+        "āyatanānaṁ",
+        "āyatanāni"
+      ]
     },
     {
       "id": "ayya",
@@ -3785,7 +4390,28 @@
           "pli-tv-bu-vb-pj1:5.6.26",
           "(+3)"
         ]
-      }
+      },
+      "forms": [
+        "ayya",
+        "ayyassa",
+        "ayyassāti",
+        "ayyaṁ",
+        "ayye",
+        "ayyehi",
+        "ayyena",
+        "ayyeti",
+        "ayyo",
+        "ayyoti",
+        "ayyā",
+        "ayyāhi",
+        "ayyānaṁ",
+        "ayyāpi",
+        "ayyāti",
+        "ayyāva",
+        "ayyāya",
+        "ayyāyo",
+        "ayyāyāti"
+      ]
     },
     {
       "id": "bahiddha-vikkhitta-vimamsa",
@@ -3917,7 +4543,25 @@
           "pli-tv-bu-vb-ss3:4.1.5",
           "pli-tv-bu-vb-ss13:1.3.4"
         ]
-      }
+      },
+      "forms": [
+        "bala",
+        "balasmiṁ",
+        "balassa",
+        "balañca",
+        "balaṁ",
+        "bale",
+        "balehi",
+        "balena",
+        "balenapi",
+        "balesu",
+        "balā",
+        "balāna",
+        "balānaṁ",
+        "balāni",
+        "balānīti",
+        "balāya"
+      ]
     },
     {
       "id": "bala-2",
@@ -3929,14 +4573,38 @@
         "broader": [
           "sn12.19:3.1"
         ]
-      }
+      },
+      "forms": [
+        "bāla",
+        "bālampi",
+        "bālassa",
+        "bālato",
+        "bālaṁ",
+        "bāle",
+        "bālehi",
+        "bālena",
+        "bālenāti",
+        "bālesu",
+        "bālo",
+        "bāloti",
+        "bālova",
+        "bālā",
+        "bālāna",
+        "bālānaṁ",
+        "bālāti",
+        "bālāya"
+      ]
     },
     {
       "id": "bhadante",
       "num": 59,
       "pali": "bhadante",
       "ru": "достопочтенный",
-      "en": "venerable"
+      "en": "venerable",
+      "forms": [
+        "bhadante",
+        "bhadanteti"
+      ]
     },
     {
       "id": "bhagava",
@@ -4031,7 +4699,11 @@
           "pli-tv-bu-vb-ss3:4.8.4",
           "(+4)"
         ]
-      }
+      },
+      "forms": [
+        "bhante",
+        "bhanteti"
+      ]
     },
     {
       "id": "bharadanam",
@@ -4151,7 +4823,35 @@
           "pli-tv-bu-vb-pc22:1.12",
           "pli-tv-bu-vb-pj1:3.4.6"
         ]
-      }
+      },
+      "forms": [
+        "bhava",
+        "bhavameva",
+        "bhavampi",
+        "bhavasmiṁ",
+        "bhavasmā",
+        "bhavasmāti",
+        "bhavassa",
+        "bhavato",
+        "bhavañca",
+        "bhavañhi",
+        "bhavaṁ",
+        "bhavaṁyeva",
+        "bhave",
+        "bhavena",
+        "bhaveneva",
+        "bhavesu",
+        "bhaveti",
+        "bhavo",
+        "bhavopi",
+        "bhavoti",
+        "bhavā",
+        "bhavānaṁ",
+        "bhavānaṁyeva",
+        "bhavāni",
+        "bhavāti",
+        "bhavāya"
+      ]
     },
     {
       "id": "bhavanabalam",
@@ -4198,21 +4898,38 @@
       "num": null,
       "pali": "bhavapaccayā",
       "ru": "бхавы-условием",
-      "en": "bhava as condition"
+      "en": "bhava as condition",
+      "forms": [
+        "bhavapaccayā"
+      ]
     },
     {
       "id": "bhavaraganusaya",
       "num": 63,
       "pali": "bhavarāgānusaya",
       "ru": "к-бытия-очарованности-предрасположенность",
-      "en": "predisposition-to-being-fascination"
+      "en": "predisposition-to-being-fascination",
+      "forms": [
+        "bhavarāgānusayassa",
+        "bhavarāgānusayo",
+        "bhavarāgānusayānaṁ"
+      ]
     },
     {
       "id": "bhavasava",
       "num": null,
       "pali": "bhavāsava",
       "ru": "бытия-истечение",
-      "en": "being-outflow"
+      "en": "being-outflow",
+      "forms": [
+        "bhavāsava",
+        "bhavāsavaṁ",
+        "bhavāsavena",
+        "bhavāsavenāti",
+        "bhavāsavo",
+        "bhavāsavā",
+        "bhavāsavāpi"
+      ]
     },
     {
       "id": "bhavatanha",
@@ -4224,7 +4941,14 @@
         "broader": [
           "an10.62:2.2"
         ]
-      }
+      },
+      "forms": [
+        "bhavataṇha",
+        "bhavataṇhaṁ",
+        "bhavataṇhā",
+        "bhavataṇhāti",
+        "bhavataṇhāya"
+      ]
     },
     {
       "id": "bhavetabba",
@@ -4262,7 +4986,21 @@
           "sn45.173:1.5",
           "(+9)"
         ]
-      }
+      },
+      "forms": [
+        "bhāvetabba",
+        "bhāvetabbanti",
+        "bhāvetabbañca",
+        "bhāvetabbaṁ",
+        "bhāvetabbo",
+        "bhāvetabboti",
+        "bhāvetabbā",
+        "bhāvetabbāna",
+        "bhāvetabbānaṁ",
+        "bhāvetabbāni",
+        "bhāvetabbānīti",
+        "bhāvetabbāti"
+      ]
     },
     {
       "id": "bhavetabbo-dhammo",
@@ -4316,7 +5054,27 @@
           "pli-tv-bu-vb-pc27:2.16",
           "pli-tv-bu-vb-pd4:3.1.5"
         ]
-      }
+      },
+      "forms": [
+        "bhaya",
+        "bhayameva",
+        "bhayanti",
+        "bhayassa",
+        "bhayato",
+        "bhayañca",
+        "bhayaṁ",
+        "bhaye",
+        "bhayena",
+        "bhayepi",
+        "bhayo",
+        "bhayā",
+        "bhayāna",
+        "bhayānaṁ",
+        "bhayāni",
+        "bhayānīti",
+        "bhayāpi",
+        "bhayāti"
+      ]
     },
     {
       "id": "bhogaparijunnam",
@@ -4372,14 +5130,33 @@
           "pli-tv-bu-vb-pd3:4.1.19",
           "pli-tv-bu-vb-pd4:3.1.22"
         ]
-      }
+      },
+      "forms": [
+        "bhojanīya",
+        "bhojanīyampi",
+        "bhojanīyassa",
+        "bhojanīyaṁ",
+        "bhojanīye",
+        "bhojanīyena",
+        "bhojanīyānaṁ"
+      ]
     },
     {
       "id": "bodhi",
       "num": 361,
       "pali": "bodhi",
       "ru": "пробуждение (из sambodhāya)",
-      "en": "awakening"
+      "en": "awakening",
+      "forms": [
+        "bodhi",
+        "bodhinti",
+        "bodhissa",
+        "bodhisu",
+        "bodhiñca",
+        "bodhiṁ",
+        "bodhī",
+        "bodhīti"
+      ]
     },
     {
       "id": "bodhipakkhiya-dhamma",
@@ -4429,7 +5206,20 @@
           "an10.61:6.5",
           "an10.62:6.5"
         ]
-      }
+      },
+      "forms": [
+        "bojjhaṅga",
+        "bojjhaṅgaṁ",
+        "bojjhaṅge",
+        "bojjhaṅgehi",
+        "bojjhaṅgena",
+        "bojjhaṅgesu",
+        "bojjhaṅgo",
+        "bojjhaṅgā",
+        "bojjhaṅgānaṁ",
+        "bojjhaṅgāni",
+        "bojjhaṅgāti"
+      ]
     },
     {
       "id": "brahmacariya",
@@ -4471,7 +5261,26 @@
         "vinaya": [
           "pli-tv-bi-vb-pc21:1.4"
         ]
-      }
+      },
+      "forms": [
+        "brahmacariyamhā",
+        "brahmacariyamhāti",
+        "brahmacariyanti",
+        "brahmacariyasmiṁ",
+        "brahmacariyassa",
+        "brahmacariyañca",
+        "brahmacariyaṁ",
+        "brahmacariye",
+        "brahmacariyena",
+        "brahmacariyenapi",
+        "brahmacariyeti",
+        "brahmacariyo",
+        "brahmacariyā",
+        "brahmacariyāna",
+        "brahmacariyānaṁ",
+        "brahmacariyāni",
+        "brahmacariyānīti"
+      ]
     },
     {
       "id": "brahmacariyaphalani",
@@ -4568,7 +5377,37 @@
           "pli-tv-bu-vb-pj1:1.1.2",
           "pli-tv-bu-vb-sk69:1.23"
         ]
-      }
+      },
+      "forms": [
+        "brāhmaṇa",
+        "brāhmaṇamhā",
+        "brāhmaṇamhāti",
+        "brāhmaṇampi",
+        "brāhmaṇanti",
+        "brāhmaṇassa",
+        "brāhmaṇasseva",
+        "brāhmaṇaṁ",
+        "brāhmaṇaṁyeva",
+        "brāhmaṇe",
+        "brāhmaṇebhi",
+        "brāhmaṇehi",
+        "brāhmaṇehīti",
+        "brāhmaṇena",
+        "brāhmaṇenāti",
+        "brāhmaṇesu",
+        "brāhmaṇesūti",
+        "brāhmaṇo",
+        "brāhmaṇopi",
+        "brāhmaṇoti",
+        "brāhmaṇova",
+        "brāhmaṇā",
+        "brāhmaṇāna",
+        "brāhmaṇānampi",
+        "brāhmaṇānaṁ",
+        "brāhmaṇāpi",
+        "brāhmaṇāti",
+        "brāhmaṇāva"
+      ]
     },
     {
       "id": "brahmannam",
@@ -4685,7 +5524,20 @@
           "sn46.2:3.1",
           "sn46.51:2.1"
         ]
-      }
+      },
+      "forms": [
+        "byāpāda",
+        "byāpādassa",
+        "byāpādaṁ",
+        "byāpādaṁyeva",
+        "byāpāde",
+        "byāpādena",
+        "byāpādo",
+        "byāpādopi",
+        "byāpādoti",
+        "byāpādā",
+        "byāpādāpi"
+      ]
     },
     {
       "id": "cagadhanam",
@@ -4727,7 +5579,13 @@
           "an8.55:12.1",
           "an8.76:7.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "cāgasampadaṁ",
+        "cāgasampadā",
+        "cāgasampadāya"
+      ]
     },
     {
       "id": "cakkhu",
@@ -4761,7 +5619,28 @@
           "pli-tv-bu-vb-pc44:2.1.11",
           "pli-tv-bu-vb-pc45:2.1.13"
         ]
-      }
+      },
+      "forms": [
+        "cakkhu",
+        "cakkhuno",
+        "cakkhunā",
+        "cakkhunāpi",
+        "cakkhunāva",
+        "cakkhusmimpi",
+        "cakkhusmiṁ",
+        "cakkhusmā",
+        "cakkhussa",
+        "cakkhuto",
+        "cakkhuñca",
+        "cakkhuñhi",
+        "cakkhuṁ",
+        "cakkhū",
+        "cakkhūhi",
+        "cakkhūnaṁ",
+        "cakkhūni",
+        "cakkhūnīti",
+        "cakkhūti"
+      ]
     },
     {
       "id": "cattari-ariyasaccani",
@@ -4774,7 +5653,10 @@
           "sn56.27:1.5",
           "sn56.28:1.5"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "catucattarisam-nanavatthuni",
@@ -4845,7 +5727,12 @@
         "vinaya": [
           "pli-tv-bu-vb-ss1:2.2.1"
         ]
-      }
+      },
+      "forms": [
+        "cetanaṁ",
+        "cetanā",
+        "cetanāya"
+      ]
     },
     {
       "id": "ceto",
@@ -4912,7 +5799,14 @@
           "an5.205:1.5",
           "an9.71:1.5"
         ]
-      }
+      },
+      "forms": [
+        "cetokhila",
+        "cetokhilo",
+        "cetokhilā",
+        "cetokhilānaṁ",
+        "cetokhilāti"
+      ]
     },
     {
       "id": "cha-disa-namassitabba",
@@ -4953,7 +5847,22 @@
           "pli-tv-bu-vb-np22:2.1.28",
           "pli-tv-bu-vb-ss5:4.3.3"
         ]
-      }
+      },
+      "forms": [
+        "chanda",
+        "chandampi",
+        "chandanti",
+        "chandassa",
+        "chandañca",
+        "chandaṁ",
+        "chande",
+        "chandena",
+        "chandeneva",
+        "chando",
+        "chandā",
+        "chandāpi",
+        "chandāya"
+      ]
     },
     {
       "id": "chandasamadhi",
@@ -4966,7 +5875,10 @@
           "sn51.9:1.1",
           "sn51.13:1.2"
         ]
-      }
+      },
+      "forms": [
+        "chandasamādhi"
+      ]
     },
     {
       "id": "chandasamadhippadhanasankharasamannagata-iddhipada",
@@ -5053,7 +5965,31 @@
           "pli-tv-bu-vb-pc2:2.1.12",
           "pli-tv-bu-vb-pj3:3.8"
         ]
-      }
+      },
+      "forms": [
+        "citta",
+        "cittameva",
+        "cittamhi",
+        "cittampi",
+        "cittanti",
+        "cittasmiṁ",
+        "cittassa",
+        "cittassāti",
+        "cittato",
+        "cittatopi",
+        "cittañca",
+        "cittañhi",
+        "cittaññeva",
+        "cittaṁ",
+        "citte",
+        "cittena",
+        "citteneva",
+        "citto",
+        "cittopi",
+        "cittā",
+        "cittāni",
+        "cittāti"
+      ]
     },
     {
       "id": "cittanupassana",
@@ -5065,7 +6001,12 @@
         "broader": [
           "sn47.31:3.1"
         ]
-      }
+      },
+      "forms": [
+        "cittānupassana",
+        "cittānupassanā",
+        "cittānupassanāti"
+      ]
     },
     {
       "id": "cittaparisuddhi",
@@ -5082,7 +6023,12 @@
         "patterns": [
           "an4.194:4.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "cittapārisuddhi",
+        "cittapārisuddhiṁ"
+      ]
     },
     {
       "id": "cittasamadhi",
@@ -5095,7 +6041,11 @@
           "sn51.9:3.1",
           "sn51.13:3.2"
         ]
-      }
+      },
+      "forms": [
+        "cittasamādhi",
+        "cittasamādhiṁ"
+      ]
     },
     {
       "id": "cittasamadhippadhanasankharasamannagata-iddhipada",
@@ -5127,7 +6077,12 @@
           "an3.117:6.1",
           "an3.118:7.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "cittasampadā",
+        "cittasampadāya"
+      ]
     },
     {
       "id": "cittavipatti",
@@ -5146,7 +6101,11 @@
           "an3.117:2.1",
           "an3.118:3.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "cittavipatti"
+      ]
     },
     {
       "id": "dakkhineyyaggi",
@@ -5163,7 +6122,11 @@
         "patterns": [
           "an7.47:15.1"
         ]
-      }
+      },
+      "forms": [
+        "dakkhiṇeyyaggi",
+        "dakkhiṇeyyaggiṁ"
+      ]
     },
     {
       "id": "dakkhineyyo",
@@ -5260,7 +6223,25 @@
           "pli-tv-bu-vb-ss3:4.9.4",
           "pli-tv-bu-vb-ss4:4.1.4"
         ]
-      }
+      },
+      "forms": [
+        "dāna",
+        "dānampi",
+        "dānanti",
+        "dānassa",
+        "dānasseva",
+        "dānañca",
+        "dānaṁ",
+        "dāne",
+        "dānena",
+        "dāneti",
+        "dānā",
+        "dānāna",
+        "dānānaṁ",
+        "dānāni",
+        "dānānīti",
+        "dānīti"
+      ]
     },
     {
       "id": "dandabhayam",
@@ -5309,7 +6290,27 @@
           "pli-tv-bu-vb-pj4:3.13",
           "pli-tv-bu-vb-ss13:1.6.22"
         ]
-      }
+      },
+      "forms": [
+        "dassana",
+        "dassanampi",
+        "dassananti",
+        "dassanassa",
+        "dassanañca",
+        "dassanaṁ",
+        "dassane",
+        "dassanena",
+        "dassanenapi",
+        "dassaneneva",
+        "dassano",
+        "dassanā",
+        "dassanānaṁ",
+        "dassanāya",
+        "dassanāyapi",
+        "dassanāyaṁ",
+        "dassanāyo",
+        "dassanāyāti"
+      ]
     },
     {
       "id": "dassananuttariyam",
@@ -5459,7 +6460,45 @@
           "pli-tv-bu-vb-pc63:2.1.7",
           "(+15)"
         ]
-      }
+      },
+      "forms": [
+        "dhamma",
+        "dhammameva",
+        "dhammampi",
+        "dhammanti",
+        "dhammasmiṁ",
+        "dhammassa",
+        "dhammassāti",
+        "dhammato",
+        "dhammañca",
+        "dhammañhi",
+        "dhammaññeva",
+        "dhammaṁ",
+        "dhammaṁyeva",
+        "dhamme",
+        "dhammehi",
+        "dhammehīti",
+        "dhammena",
+        "dhammenapi",
+        "dhammeneva",
+        "dhammenāti",
+        "dhammepi",
+        "dhammesu",
+        "dhammesupi",
+        "dhammesūti",
+        "dhammeti",
+        "dhammo",
+        "dhammopi",
+        "dhammoti",
+        "dhammova",
+        "dhammā",
+        "dhammāna",
+        "dhammānaṁ",
+        "dhammāni",
+        "dhammāpi",
+        "dhammāti",
+        "dhammāya"
+      ]
     },
     {
       "id": "dhamma-abhinna-bhavetabba",
@@ -5587,7 +6626,11 @@
       "num": 89,
       "pali": "dhammānudhamma",
       "ru": "Дхамму-по-Дхамме",
-      "en": "Dhamma-in-accordance-with-Dhamma"
+      "en": "Dhamma-in-accordance-with-Dhamma",
+      "forms": [
+        "dhammānudhamma",
+        "dhammānudhammaṁ"
+      ]
     },
     {
       "id": "dhammanupassana",
@@ -5599,7 +6642,12 @@
         "broader": [
           "sn47.31:4.1"
         ]
-      }
+      },
+      "forms": [
+        "dhammānupassana",
+        "dhammānupassanā",
+        "dhammānupassanāti"
+      ]
     },
     {
       "id": "dhammasamadanam-paccuppannadukkham-ayatim",
@@ -5716,7 +6764,13 @@
           "sn46.2:10.1",
           "sn46.51:7.1"
         ]
-      }
+      },
+      "forms": [
+        "dhammavicayasambojjhaṅgassa",
+        "dhammavicayasambojjhaṅgaṁ",
+        "dhammavicayasambojjhaṅgo",
+        "dhammavicayasambojjhaṅgoti"
+      ]
     },
     {
       "id": "dhammo-attho",
@@ -5771,7 +6825,19 @@
           "an3.80:4.3",
           "iti44:3.5"
         ]
-      }
+      },
+      "forms": [
+        "dhātu",
+        "dhātusu",
+        "dhātuyo",
+        "dhātuyoti",
+        "dhātuyā",
+        "dhātuṁ",
+        "dhātū",
+        "dhātūnaṁ",
+        "dhātūsu",
+        "dhātūti"
+      ]
     },
     {
       "id": "dhatunanattam",
@@ -5832,7 +6898,12 @@
       "num": 93,
       "pali": "diṭṭhānusaya",
       "ru": "ко-взгляду-предрасположенность",
-      "en": "predisposition-to-views"
+      "en": "predisposition-to-views",
+      "forms": [
+        "diṭṭhānusayassa",
+        "diṭṭhānusayo",
+        "diṭṭhānusayānaṁ"
+      ]
     },
     {
       "id": "ditthi",
@@ -5887,7 +6958,26 @@
           "pli-tv-bu-vb-pd2:2.1.8",
           "pli-tv-bu-vb-ss8:1.6.9"
         ]
-      }
+      },
+      "forms": [
+        "diṭṭheva",
+        "diṭṭhi",
+        "diṭṭhimpi",
+        "diṭṭhino",
+        "diṭṭhinti",
+        "diṭṭhissa",
+        "diṭṭhiyaṁ",
+        "diṭṭhiyo",
+        "diṭṭhiyā",
+        "diṭṭhiyāpi",
+        "diṭṭhiñca",
+        "diṭṭhiṁ",
+        "diṭṭhī",
+        "diṭṭhīhi",
+        "diṭṭhīnaṁ",
+        "diṭṭhīsu",
+        "diṭṭhīti"
+      ]
     },
     {
       "id": "ditthiparisuddhi",
@@ -5904,7 +6994,12 @@
         "patterns": [
           "an4.194:5.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "diṭṭhipārisuddhi",
+        "diṭṭhipārisuddhiṁ"
+      ]
     },
     {
       "id": "ditthisampada",
@@ -5925,7 +7020,11 @@
           "an3.118:8.1",
           "an3.119:6.1"
         ]
-      }
+      },
+      "forms": [
+        "diṭṭhisampadaṁ",
+        "diṭṭhisampadā"
+      ]
     },
     {
       "id": "ditthivipatti",
@@ -5946,14 +7045,26 @@
           "an3.118:4.1",
           "an3.119:3.1"
         ]
-      }
+      },
+      "forms": [
+        "diṭṭhivipatti",
+        "diṭṭhivipattinti",
+        "diṭṭhivipattiyā",
+        "diṭṭhivipattiṁ",
+        "diṭṭhivipattī",
+        "diṭṭhivipattīti"
+      ]
     },
     {
       "id": "ditthupadana",
       "num": null,
       "pali": "diṭṭhupādāna",
       "ru": "взгляда-поддерживание",
-      "en": "view-sustaining"
+      "en": "view-sustaining",
+      "forms": [
+        "diṭṭhupādānassa",
+        "diṭṭhupādānaṁ"
+      ]
     },
     {
       "id": "domanassa",
@@ -5982,7 +7093,18 @@
         "broader": [
           "sn48.40:2.9"
         ]
-      }
+      },
+      "forms": [
+        "domanassa",
+        "domanassassa",
+        "domanassañca",
+        "domanassaṁ",
+        "domanassehi",
+        "domanassena",
+        "domanassā",
+        "domanassāna",
+        "domanassāni"
+      ]
     },
     {
       "id": "domanassindriyam",
@@ -6027,7 +7149,24 @@
           "pli-tv-bu-vb-ss8:1.9.32.1",
           "pli-tv-bu-vb-ss9:1.2.14.1"
         ]
-      }
+      },
+      "forms": [
+        "dosa",
+        "dosassa",
+        "dosañca",
+        "dosaṁ",
+        "dose",
+        "dosena",
+        "doso",
+        "dosoti",
+        "dosova",
+        "dosā",
+        "dosāpi",
+        "dosāya",
+        "dosāyapi",
+        "dosāyaṁ",
+        "dosāyo"
+      ]
     },
     {
       "id": "duggatibhayam",
@@ -6122,7 +7261,43 @@
       "rationale": {
         "en": "/rationale#dukkha",
         "ru": "/rationale#dukkha"
-      }
+      },
+      "forms": [
+        "dukkha",
+        "dukkhameva",
+        "dukkhamhā",
+        "dukkhampi",
+        "dukkhanti",
+        "dukkhasminti",
+        "dukkhasmiṁ",
+        "dukkhasmā",
+        "dukkhasmāti",
+        "dukkhassa",
+        "dukkhassāti",
+        "dukkhato",
+        "dukkhañca",
+        "dukkhañhi",
+        "dukkhaññeva",
+        "dukkhaṁ",
+        "dukkhaṁyeva",
+        "dukkhe",
+        "dukkhehi",
+        "dukkhena",
+        "dukkhesu",
+        "dukkho",
+        "dukkhoti",
+        "dukkhā",
+        "dukkhāhi",
+        "dukkhānaṁ",
+        "dukkhāni",
+        "dukkhāpi",
+        "dukkhāti",
+        "dukkhāya",
+        "dukkhāyapi",
+        "dukkhāyaṁ",
+        "dukkhāyo",
+        "dukkhāyāti"
+      ]
     },
     {
       "id": "dukkha-vedana",
@@ -6163,7 +7338,10 @@
           "sn56.28:1.5",
           "an3.61:14.1"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "dukkhanirodha",
@@ -6206,7 +7384,17 @@
         "vinaya": [
           "pli-tv-bu-vb-pj1:1.8.2"
         ]
-      }
+      },
+      "forms": [
+        "dukkhanirodha",
+        "dukkhanirodhampi",
+        "dukkhanirodhassa",
+        "dukkhanirodhañca",
+        "dukkhanirodhaṁ",
+        "dukkhanirodhe",
+        "dukkhanirodho",
+        "dukkhanirodhoti"
+      ]
     },
     {
       "id": "dukkhanirodhagamini-patipada",
@@ -6239,7 +7427,10 @@
           "mn51:26.2",
           "(+98)"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "dukkhanirodhagamini-patipada-ariyasaccam",
@@ -6277,7 +7468,10 @@
           "mn51:26.2",
           "(+98)"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "dukkhanirodham-ariyasaccam",
@@ -6325,7 +7519,10 @@
         "vinaya": [
           "pli-tv-bu-vb-pj1:1.8.2"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "dukkhasamudaya",
@@ -6365,7 +7562,17 @@
         "vinaya": [
           "pli-tv-bu-vb-pj1:1.8.2"
         ]
-      }
+      },
+      "forms": [
+        "dukkhasamudaya",
+        "dukkhasamudayampi",
+        "dukkhasamudayassa",
+        "dukkhasamudayañca",
+        "dukkhasamudayaṁ",
+        "dukkhasamudaye",
+        "dukkhasamudayo",
+        "dukkhasamudayoti"
+      ]
     },
     {
       "id": "dukkhasamudayam-ariyasaccam",
@@ -6410,7 +7617,10 @@
         "vinaya": [
           "pli-tv-bu-vb-pj1:1.8.2"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "dukkhassa-vemattata",
@@ -6572,7 +7782,10 @@
       "num": 102,
       "pali": "ehi tvaṁ",
       "ru": "ты иди, ты ступай",
-      "en": "come on, you; go ahead (not \"go away\")"
+      "en": "come on, you; go ahead (not \"go away\")",
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "ehipassiko",
@@ -6619,7 +7832,16 @@
           "pli-tv-bu-vb-ss3:4.8.7",
           "(+3)"
         ]
-      }
+      },
+      "forms": [
+        "esana",
+        "esanaṁ",
+        "esanā",
+        "esanānañca",
+        "esanānaṁ",
+        "esanāti",
+        "esanīti"
+      ]
     },
     {
       "id": "evamevam",
@@ -6635,7 +7857,11 @@
           "dn13:27.1",
           "sn35.244:4.3"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "evamevaṁ"
+      ]
     },
     {
       "id": "gahapataggi",
@@ -6652,7 +7878,10 @@
         "patterns": [
           "an7.47:14.1"
         ]
-      }
+      },
+      "forms": [
+        "gahapataggi"
+      ]
     },
     {
       "id": "gambhira-parisa",
@@ -6695,7 +7924,28 @@
           "pli-tv-bi-vb-pc88:2.1.5",
           "pli-tv-bu-vb-pj3:4.9.15"
         ]
-      }
+      },
+      "forms": [
+        "gandha",
+        "gandhampi",
+        "gandhanti",
+        "gandhassa",
+        "gandhañca",
+        "gandhaṁ",
+        "gandhe",
+        "gandhehi",
+        "gandhena",
+        "gandhenapi",
+        "gandhesu",
+        "gandhesupi",
+        "gandho",
+        "gandhoti",
+        "gandhā",
+        "gandhāna",
+        "gandhānaṁ",
+        "gandhāni",
+        "gandhāti"
+      ]
     },
     {
       "id": "gandhabbakayika",
@@ -6724,7 +7974,14 @@
         "vinaya": [
           "pli-tv-bu-vb-ss13:1.1.4"
         ]
-      }
+      },
+      "forms": [
+        "ganthaṁ",
+        "ganthe",
+        "ganthā",
+        "ganthānaṁ",
+        "ganthāni"
+      ]
     },
     {
       "id": "gehasitam-domanassam",
@@ -6772,7 +8029,17 @@
           "sn35.13:1.5",
           "sn38.11:1.11"
         ]
-      }
+      },
+      "forms": [
+        "ghāna",
+        "ghānasmimpi",
+        "ghānasmiṁ",
+        "ghānassa",
+        "ghānañca",
+        "ghānaṁ",
+        "ghānena",
+        "ghānenapi"
+      ]
     },
     {
       "id": "hiribalam",
@@ -6827,7 +8094,18 @@
           "sn51.19:2.1",
           "sn51.30:2.1"
         ]
-      }
+      },
+      "forms": [
+        "iddhi",
+        "iddhiyo",
+        "iddhiyā",
+        "iddhiṁ",
+        "iddhī",
+        "iddhīhi",
+        "iddhīhīti",
+        "iddhīnaṁ",
+        "iddhīpi"
+      ]
     },
     {
       "id": "iddhipada",
@@ -6871,7 +8149,20 @@
           "sn51.29:3.3",
           "sn51.30:3.3"
         ]
-      }
+      },
+      "forms": [
+        "iddhipāda",
+        "iddhipādañca",
+        "iddhipādaṁ",
+        "iddhipāde",
+        "iddhipādesu",
+        "iddhipādo",
+        "iddhipādoti",
+        "iddhipādā",
+        "iddhipādānaṁ",
+        "iddhipādāni",
+        "iddhipādāti"
+      ]
     },
     {
       "id": "iddhipadabhavana",
@@ -6896,7 +8187,14 @@
           "sn51.29:4.1",
           "sn51.30:4.1"
         ]
-      }
+      },
+      "forms": [
+        "iddhipādabhāvanañca",
+        "iddhipādabhāvanaṁ",
+        "iddhipādabhāvanā",
+        "iddhipādabhāvanāya",
+        "iddhipādabhāvanāyāti"
+      ]
     },
     {
       "id": "iddhipadabhavanagamini-patipada",
@@ -6962,7 +8260,22 @@
           "an10.61:2.11",
           "an10.62:2.14"
         ]
-      }
+      },
+      "forms": [
+        "indriya",
+        "indriyassa",
+        "indriyaṁ",
+        "indriyehi",
+        "indriyena",
+        "indriyesu",
+        "indriyā",
+        "indriyāna",
+        "indriyānañca",
+        "indriyānaṁ",
+        "indriyāneva",
+        "indriyāni",
+        "indriyānīti"
+      ]
     },
     {
       "id": "ittha-kanta-manapa-piyarupa-kamupasamhita-rajaniya",
@@ -7026,7 +8339,17 @@
           "sn12.28:2.3",
           "sn12.33:3.3"
         ]
-      }
+      },
+      "forms": [
+        "jara",
+        "jarampi",
+        "jarañca",
+        "jaraṁ",
+        "jare",
+        "jarā",
+        "jarāpi",
+        "jarāya"
+      ]
     },
     {
       "id": "jaramarana",
@@ -7058,7 +8381,19 @@
         "broader": [
           "mn38:18.2"
         ]
-      }
+      },
+      "forms": [
+        "jarāmaraṇa",
+        "jarāmaraṇanti",
+        "jarāmaraṇassa",
+        "jarāmaraṇassāti",
+        "jarāmaraṇañca",
+        "jarāmaraṇaṁ",
+        "jarāmaraṇe",
+        "jarāmaraṇena",
+        "jarāmaraṇā",
+        "jarāmaraṇāti"
+      ]
     },
     {
       "id": "jaraparijunnam",
@@ -7134,14 +8469,34 @@
           "pli-tv-bu-vb-pj1:8.5.4",
           "pli-tv-bu-vb-ss9:2.3.2"
         ]
-      }
+      },
+      "forms": [
+        "jaccā",
+        "jāti",
+        "jātipi",
+        "jātisu",
+        "jātito",
+        "jātitopi",
+        "jātiyaṁ",
+        "jātiyo",
+        "jātiyā",
+        "jātiyāpi",
+        "jātiñca",
+        "jātiṁ",
+        "jātī",
+        "jātīsu",
+        "jātīti"
+      ]
     },
     {
       "id": "jatipaccaya",
       "num": null,
       "pali": "jātipaccayā",
       "ru": "рождения-условием",
-      "en": "birth as condition"
+      "en": "birth as condition",
+      "forms": [
+        "jātipaccayā"
+      ]
     },
     {
       "id": "jhana",
@@ -7168,7 +8523,23 @@
           "pli-tv-bu-vb-pc8:2.1.9.1",
           "pli-tv-bu-vb-pj4:4.1.3.1"
         ]
-      }
+      },
+      "forms": [
+        "jhāna",
+        "jhānanti",
+        "jhānassa",
+        "jhānassāti",
+        "jhānañca",
+        "jhānaṁ",
+        "jhāne",
+        "jhānena",
+        "jhānesu",
+        "jhānā",
+        "jhānāna",
+        "jhānānaṁ",
+        "jhānāni",
+        "jhānāti"
+      ]
     },
     {
       "id": "jhayatha",
@@ -7190,7 +8561,20 @@
           "sn35.93:2.8",
           "sn35.228:2.5"
         ]
-      }
+      },
+      "forms": [
+        "jivha",
+        "jivhampi",
+        "jivhañca",
+        "jivhaṁ",
+        "jivhā",
+        "jivhāti",
+        "jivhāto",
+        "jivhāya",
+        "jivhāyapi",
+        "jivhāyaṁ",
+        "jivhāyo"
+      ]
     },
     {
       "id": "kalyana",
@@ -7241,7 +8625,25 @@
         "vinaya": [
           "pli-tv-bu-vb-ss4:2.26"
         ]
-      }
+      },
+      "forms": [
+        "kalyāṇa",
+        "kalyāṇassa",
+        "kalyāṇañca",
+        "kalyāṇaṁ",
+        "kalyāṇe",
+        "kalyāṇena",
+        "kalyāṇi",
+        "kalyāṇiyaṁ",
+        "kalyāṇiyā",
+        "kalyāṇiyāpi",
+        "kalyāṇo",
+        "kalyāṇā",
+        "kalyāṇānañca",
+        "kalyāṇānaṁ",
+        "kalyāṇāni",
+        "kalyāṇī"
+      ]
     },
     {
       "id": "kalyanadhammena-kalyanadhammataro",
@@ -7300,7 +8702,11 @@
           "an8.55:5.1",
           "an8.76:3.1"
         ]
-      }
+      },
+      "forms": [
+        "kalyāṇamittatā",
+        "kalyāṇamittatāya"
+      ]
     },
     {
       "id": "kalyanena-kalyanataro",
@@ -7381,7 +8787,25 @@
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
-      }
+      },
+      "forms": [
+        "kāma",
+        "kāmato",
+        "kāmaṁ",
+        "kāmaṁyeva",
+        "kāme",
+        "kāmehi",
+        "kāmesu",
+        "kāmo",
+        "kāmā",
+        "kāmāhi",
+        "kāmāna",
+        "kāmānameva",
+        "kāmānaṁ",
+        "kāmānaṁyeva",
+        "kāmāni",
+        "kāmāti"
+      ]
     },
     {
       "id": "kama-2",
@@ -7418,7 +8842,11 @@
         "patterns": [
           "an4.246:2.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "kāmabhogiseyyā"
+      ]
     },
     {
       "id": "kamacchanda",
@@ -7431,7 +8859,15 @@
           "sn46.2:2.1",
           "sn46.51:1.4"
         ]
-      }
+      },
+      "forms": [
+        "kāmacchandassa",
+        "kāmacchandañca",
+        "kāmacchandaṁ",
+        "kāmacchando",
+        "kāmacchandoti",
+        "kāmacchandānaṁ"
+      ]
     },
     {
       "id": "kamaguna",
@@ -7491,21 +8927,39 @@
       "num": 121,
       "pali": "kāmarāgānusaya",
       "ru": "к-желанием-очарованности-предрасположенность",
-      "en": "predisposition-to-desire-fascination"
+      "en": "predisposition-to-desire-fascination",
+      "forms": [
+        "kāmarāgānusayassa",
+        "kāmarāgānusayo"
+      ]
     },
     {
       "id": "kamasava",
       "num": null,
       "pali": "kāmāsava",
       "ru": "желания-истечение",
-      "en": "desire-outflow"
+      "en": "desire-outflow",
+      "forms": [
+        "kāmāsava",
+        "kāmāsavaṁ",
+        "kāmāsavena",
+        "kāmāsavenāti",
+        "kāmāsavo",
+        "kāmāsavā",
+        "kāmāsavāpi"
+      ]
     },
     {
       "id": "kamatanha",
       "num": 122,
       "pali": "kāmataṇhā",
       "ru": "желания-цепляние",
-      "en": "desire-clinging"
+      "en": "desire-clinging",
+      "forms": [
+        "kāmataṇhaṁ",
+        "kāmataṇhā",
+        "kāmataṇhāhi"
+      ]
     },
     {
       "id": "kamayogavisamyogo",
@@ -7551,7 +9005,15 @@
         "broader": [
           "an5.178:3.3"
         ]
-      }
+      },
+      "forms": [
+        "kāmesumicchācāra",
+        "kāmesumicchācārassa",
+        "kāmesumicchācāraṁ",
+        "kāmesumicchācāre",
+        "kāmesumicchācāro",
+        "kāmesumicchācārā"
+      ]
     },
     {
       "id": "kamesumicchacara-veramani",
@@ -7632,7 +9094,33 @@
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
-      }
+      },
+      "forms": [
+        "kamma",
+        "kammampi",
+        "kammani",
+        "kammanti",
+        "kammanā",
+        "kammassa",
+        "kammato",
+        "kammatopi",
+        "kammañca",
+        "kammaṁ",
+        "kamme",
+        "kammehi",
+        "kammena",
+        "kammenapi",
+        "kammenāti",
+        "kammesu",
+        "kammuno",
+        "kammunā",
+        "kammunāti",
+        "kammā",
+        "kammānaṁ",
+        "kammāni",
+        "kammāpi",
+        "kammāya"
+      ]
     },
     {
       "id": "kammam-akanhaasukkam-akanhaasukkavipakam",
@@ -7814,7 +9302,10 @@
         "patterns": [
           "sn35.146:1.14"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "kammanirodho",
@@ -7848,7 +9339,11 @@
         "patterns": [
           "an3.119:4.4"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "kammantasampadā"
+      ]
     },
     {
       "id": "kammantavipatti",
@@ -7865,14 +9360,22 @@
         "patterns": [
           "an3.119:1.4"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "kammantavipatti"
+      ]
     },
     {
       "id": "kamupadana",
       "num": null,
       "pali": "kāmupādāna",
       "ru": "желания-поддерживание",
-      "en": "desire-sustaining"
+      "en": "desire-sustaining",
+      "forms": [
+        "kāmupādānassa",
+        "kāmupādānaṁ"
+      ]
     },
     {
       "id": "kanhamaggo",
@@ -7922,7 +9425,16 @@
         "definition": "Evameva kho, bhikkhave, yaṁ loke piyarūpaṁ sātarūpaṁ, ayaṁ vuccati ariyassa vinaye kaṇṭako."
       },
       "dgNote": "Особое определение: Обычно: Колючки в зарослях, которые колют со всех сторон. В выведении благородного (ariyassa vinaye): Что в мире миловидное, приятное (piyarūpaṁ sātarūpaṁ), то называется в выведении благородного «колючка».",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "kaṇṭaka",
+        "kaṇṭakampi",
+        "kaṇṭakassa",
+        "kaṇṭakaṁ",
+        "kaṇṭako",
+        "kaṇṭakoti",
+        "kaṇṭakā"
+      ]
     },
     {
       "id": "kappa",
@@ -7960,14 +9472,40 @@
           "pli-tv-bu-vb-pc5:1.4",
           "(+22)"
         ]
-      }
+      },
+      "forms": [
+        "kappa",
+        "kappanti",
+        "kappassa",
+        "kappateva",
+        "kappato",
+        "kappaṁ",
+        "kappe",
+        "kappehi",
+        "kappehīti",
+        "kappena",
+        "kappenāti",
+        "kappesu",
+        "kappo",
+        "kappoti",
+        "kappā",
+        "kappānaṁ",
+        "kappāni",
+        "kappāti"
+      ]
     },
     {
       "id": "karuna",
       "num": 127,
       "pali": "karuṇā",
       "ru": "доброта, милосердие",
-      "en": "kindness, mercy"
+      "en": "kindness, mercy",
+      "forms": [
+        "karuṇañhi",
+        "karuṇaṁ",
+        "karuṇā",
+        "karuṇāya"
+      ]
     },
     {
       "id": "kaya",
@@ -8029,7 +9567,32 @@
           "pli-tv-bi-vb-pc3:2.6",
           "(+121)"
         ]
-      }
+      },
+      "forms": [
+        "kāya",
+        "kāyamhi",
+        "kāyamhā",
+        "kāyampi",
+        "kāyasmimpi",
+        "kāyasmiṁ",
+        "kāyasmā",
+        "kāyassa",
+        "kāyassāti",
+        "kāyato",
+        "kāyañca",
+        "kāyaṁ",
+        "kāye",
+        "kāyena",
+        "kāyenapi",
+        "kāyenāti",
+        "kāyepi",
+        "kāyesu",
+        "kāyo",
+        "kāyopi",
+        "kāyoti",
+        "kāyā",
+        "kāyānaṁ"
+      ]
     },
     {
       "id": "kayabhavana",
@@ -8045,7 +9608,14 @@
         "definition": "yāpi kho te esā, aggivessana, purimā kāyabhāvanā bhāsitā sāpi ariyassa vinaye no dhammikā kāyabhāvanā."
       },
       "dgNote": "Особое определение: Обычно: Саччака: аскеты (Нанда Ваччха, Киса Санкичча, Маккхали Госала) живут на подаянии из одного дома и т. п. В выведении благородного (ariyassa vinaye): Это в выведении благородного не праведное тела-развитие. Развит телом и умом тот, у кого возникшее приятное чувствование не захватывает ум, ведь тело развито, и возникшее болезненное не захватывает ум, ведь ум развит.",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "kāyabhāvana",
+        "kāyabhāvanampi",
+        "kāyabhāvananti",
+        "kāyabhāvanaṁ",
+        "kāyabhāvanā"
+      ]
     },
     {
       "id": "kayagatasati",
@@ -8057,7 +9627,11 @@
         "broader": [
           "mn119:3.1"
         ]
-      }
+      },
+      "forms": [
+        "kāyagatāsati",
+        "kāyagatāsatiṁ"
+      ]
     },
     {
       "id": "kayamoneyyam",
@@ -8086,7 +9660,12 @@
         "broader": [
           "sn47.31:1.2"
         ]
-      }
+      },
+      "forms": [
+        "kāyānupassana",
+        "kāyānupassanā",
+        "kāyānupassanāti"
+      ]
     },
     {
       "id": "kayasoceyyam",
@@ -8127,7 +9706,18 @@
           "pli-tv-bu-vb-pd3:4.1.17",
           "pli-tv-bu-vb-pd4:3.1.21"
         ]
-      }
+      },
+      "forms": [
+        "khādanīya",
+        "khādanīyampi",
+        "khādanīyassa",
+        "khādanīyañca",
+        "khādanīyaṁ",
+        "khādanīye",
+        "khādanīyena",
+        "khādanīyānaṁ",
+        "khādanīyāni"
+      ]
     },
     {
       "id": "khama-patipada",
@@ -8181,7 +9771,21 @@
         "vinaya": [
           "pli-tv-bu-vb-pc11:2.1.5"
         ]
-      }
+      },
+      "forms": [
+        "khandha",
+        "khandhaṁ",
+        "khandhe",
+        "khandhehi",
+        "khandhena",
+        "khandhepi",
+        "khandhesu",
+        "khandho",
+        "khandhopi",
+        "khandhā",
+        "khandhānaṁ",
+        "khandhāni"
+      ]
     },
     {
       "id": "khaya",
@@ -8210,7 +9814,18 @@
           "an3.56:1.4",
           "an9.36:1.7"
         ]
-      }
+      },
+      "forms": [
+        "khaya",
+        "khayanti",
+        "khayasmiṁ",
+        "khayaṁ",
+        "khaye",
+        "khayo",
+        "khayā",
+        "khayāya",
+        "khayāyāti"
+      ]
     },
     {
       "id": "khila",
@@ -8228,7 +9843,17 @@
         "vinaya": [
           "pli-tv-bu-vb-ss13:1.3.4"
         ]
-      }
+      },
+      "forms": [
+        "khilañca",
+        "khilaṁ",
+        "khile",
+        "khilena",
+        "khilo",
+        "khilā",
+        "khilānaṁ",
+        "khilāni"
+      ]
     },
     {
       "id": "kilesa",
@@ -8241,7 +9866,21 @@
           "mn26:11.1",
           "sn22.60:5.4"
         ]
-      }
+      },
+      "forms": [
+        "kilesa",
+        "kilesato",
+        "kilesatopi",
+        "kilesaṁ",
+        "kilese",
+        "kilesehi",
+        "kilesena",
+        "kilesenapi",
+        "kilesā",
+        "kilesānañca",
+        "kilesānaṁ",
+        "kilesāni"
+      ]
     },
     {
       "id": "kusala",
@@ -8290,7 +9929,28 @@
           "an2.15:3.3",
           "an8.39:7.5"
         ]
-      }
+      },
+      "forms": [
+        "kusala",
+        "kusalanti",
+        "kusalassa",
+        "kusalañca",
+        "kusalañhi",
+        "kusalaṁ",
+        "kusale",
+        "kusalehi",
+        "kusalena",
+        "kusalesu",
+        "kusaleti",
+        "kusalo",
+        "kusaloti",
+        "kusalā",
+        "kusalānañca",
+        "kusalānaṁ",
+        "kusalāni",
+        "kusalāpi",
+        "kusalāti"
+      ]
     },
     {
       "id": "kusala-dhamma",
@@ -8307,7 +9967,10 @@
         "patterns": [
           "sn45.22:1.7"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "kusala-kammapatha",
@@ -8372,7 +10035,18 @@
       "num": 138,
       "pali": "lobha",
       "ru": "корыстолюбие",
-      "en": "cupidity"
+      "en": "cupidity",
+      "forms": [
+        "lobhassa",
+        "lobhañca",
+        "lobhaṁ",
+        "lobhe",
+        "lobhena",
+        "lobho",
+        "lobhoti",
+        "lobhova",
+        "lobhā"
+      ]
     },
     {
       "id": "lohita",
@@ -8388,7 +10062,17 @@
         "definition": "Lohitañhetaṁ, bhikkhave, ariyassa vinaye yadidaṁ mātuthaññaṁ."
       },
       "dgNote": "Особое определение: Обычно: Мать вскармливает дитя своей кровью. В выведении благородного (ariyassa vinaye): Материнское молоко — это в выведении благородного «кровь».",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "lohita",
+        "lohitampi",
+        "lohitassa",
+        "lohitañca",
+        "lohitaṁ",
+        "lohite",
+        "lohitena",
+        "lohitā"
+      ]
     },
     {
       "id": "loka",
@@ -8406,7 +10090,33 @@
         "definition": "Yaṁ kho, ānanda, palokadhammaṁ, ayaṁ vuccati ariyassa vinaye loko. … Yena kho, āvuso, lokasmiṁ lokasaññī hoti lokamānī— ayaṁ vuccati ariyassa vinaye loko. … Pañcime, brāhmaṇā, kāmaguṇā ariyassa vinaye lokoti vuccati."
       },
       "dgNote": "Особое определение: Обычно: «Мир, мир» — так говорят (вопрос Ананды: насколько это называется миром?). В выведении благородного (ariyassa vinaye): Что разрушающееся (palokadhamma), то называется в выведении благородного «мир»: глаз, образы, глаза-распознавание, глаза-касание, чувствование, возникшее из глаза-касания, … ум-представление и всё остальное. • Обычно: Край мира, до которого нельзя дойти, идя ногами. В выведении благородного (ariyassa vinaye): Чем в мире воспринимают мир и мнят мир, то называется в выведении благородного «мир»: глазом, ухом, носом, языком, телом, умом-представлением. • Обычно: Брахманы-локаятики спорят о бесконечности или конечности мира. В выведении благородного (ariyassa vinaye): Пять желания-множителей называются в выведении благородного «мир»: глазом распознаваемые образы … телом распознаваемые касания, желанные, обожаемые, приятные, миловидные, связанные с желанием, очаровывающие.",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "loka",
+        "lokamhi",
+        "lokamhā",
+        "lokamhāti",
+        "lokasminti",
+        "lokasmiṁ",
+        "lokasmā",
+        "lokassa",
+        "lokassapi",
+        "lokassāti",
+        "lokañca",
+        "lokaṁ",
+        "lokaṁyeva",
+        "loke",
+        "lokena",
+        "lokenāti",
+        "loketi",
+        "loko",
+        "lokoti",
+        "lokova",
+        "lokā",
+        "lokānaṁ",
+        "lokāti",
+        "lokāya"
+      ]
     },
     {
       "id": "lokadhipateyyam",
@@ -8430,7 +10140,11 @@
       "num": 139,
       "pali": "lokavidū",
       "ru": "мира-знаток",
-      "en": "knower-of-the-world"
+      "en": "knower-of-the-world",
+      "forms": [
+        "lokavidū",
+        "lokavidūna"
+      ]
     },
     {
       "id": "loko",
@@ -8564,7 +10278,23 @@
           "pli-tv-bu-vb-pc81:2.1.5",
           "pli-tv-bu-vb-ss10:2.5"
         ]
-      }
+      },
+      "forms": [
+        "magga",
+        "maggampi",
+        "maggassa",
+        "maggassāti",
+        "maggañca",
+        "maggaṁ",
+        "magge",
+        "maggehi",
+        "maggena",
+        "maggo",
+        "maggoti",
+        "maggā",
+        "maggānaṁ",
+        "maggāni"
+      ]
     },
     {
       "id": "mahabhuta",
@@ -8583,7 +10313,12 @@
           "mn74:9.1",
           "mn77:29.2"
         ]
-      }
+      },
+      "forms": [
+        "mahābhūtā",
+        "mahābhūtānaṁ",
+        "mahābhūtāni"
+      ]
     },
     {
       "id": "mahaggata-cetovimutti",
@@ -8634,7 +10369,10 @@
           "pli-tv-bi-vb-np1:2.1.10",
           "pli-tv-bu-vb-np21:3.9"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "mala",
@@ -8650,7 +10388,20 @@
         "vinaya": [
           "pli-tv-bu-vb-ss9:1.1.4"
         ]
-      }
+      },
+      "forms": [
+        "mala",
+        "malanti",
+        "malañca",
+        "malaṁ",
+        "male",
+        "malena",
+        "malā",
+        "malāna",
+        "malānaṁ",
+        "malāni",
+        "malānīti"
+      ]
     },
     {
       "id": "mana",
@@ -8709,14 +10460,30 @@
           "pli-tv-bu-vb-np16:2.5",
           "(+26)"
         ]
-      }
+      },
+      "forms": [
+        "māna",
+        "mānasmiṁ",
+        "mānassa",
+        "mānato",
+        "mānañca",
+        "mānaṁ",
+        "mānena",
+        "māno",
+        "mānā"
+      ]
     },
     {
       "id": "mananusaya",
       "num": 147,
       "pali": "mānānusaya",
       "ru": "к-самомнению-предрасположенность",
-      "en": "predisposition-to-conceit"
+      "en": "predisposition-to-conceit",
+      "forms": [
+        "mānānusayassa",
+        "mānānusayo",
+        "mānānusayānaṁ"
+      ]
     },
     {
       "id": "manasikara",
@@ -8730,7 +10497,12 @@
           "an10.61:2.17",
           "an10.62:2.20"
         ]
-      }
+      },
+      "forms": [
+        "manasikāraṁ",
+        "manasikāro",
+        "manasikārā"
+      ]
     },
     {
       "id": "mano",
@@ -8806,7 +10578,12 @@
           "pli-tv-bi-vb-pc66:2.15",
           "(+66)"
         ]
-      }
+      },
+      "forms": [
+        "mano",
+        "manoti",
+        "manova"
+      ]
     },
     {
       "id": "manomoneyyam",
@@ -8901,7 +10678,25 @@
           "pli-tv-bu-vb-np28:1.1.10",
           "pli-tv-bu-vb-pj3:3.8"
         ]
-      }
+      },
+      "forms": [
+        "maraṇa",
+        "maraṇameva",
+        "maraṇampi",
+        "maraṇanti",
+        "maraṇasmiṁ",
+        "maraṇassa",
+        "maraṇassāti",
+        "maraṇato",
+        "maraṇañca",
+        "maraṇaṁ",
+        "maraṇe",
+        "maraṇena",
+        "maraṇenapi",
+        "maraṇā",
+        "maraṇāti",
+        "maraṇāya"
+      ]
     },
     {
       "id": "marana-2",
@@ -8960,7 +10755,17 @@
         "vinaya": [
           "pli-tv-bu-vb-ss9:1.1.5"
         ]
-      }
+      },
+      "forms": [
+        "metta",
+        "mettañca",
+        "mettañhi",
+        "mettaṁ",
+        "mettā",
+        "mettāti",
+        "mettāya",
+        "mettāyeva"
+      ]
     },
     {
       "id": "micchaditthi",
@@ -8977,7 +10782,16 @@
         "patterns": [
           "mn117:5.1"
         ]
-      }
+      },
+      "forms": [
+        "micchādiṭṭhi",
+        "micchādiṭṭhino",
+        "micchādiṭṭhissa",
+        "micchādiṭṭhiyā",
+        "micchādiṭṭhiṁ",
+        "micchādiṭṭhī",
+        "micchādiṭṭhīti"
+      ]
     },
     {
       "id": "micchapatipada",
@@ -8998,7 +10812,14 @@
           "sn45.23:1.4",
           "sn45.24:2.1"
         ]
-      }
+      },
+      "forms": [
+        "micchāpaṭipada",
+        "micchāpaṭipadañca",
+        "micchāpaṭipadaṁ",
+        "micchāpaṭipadā",
+        "micchāpaṭipadāti"
+      ]
     },
     {
       "id": "micchapatipanno",
@@ -9032,7 +10853,12 @@
         "patterns": [
           "sn45.31:1.4"
         ]
-      }
+      },
+      "forms": [
+        "micchāpaṭipatti",
+        "micchāpaṭipattiñca",
+        "micchāpaṭipattiṁ"
+      ]
     },
     {
       "id": "micchatta",
@@ -9081,7 +10907,21 @@
           "pli-tv-bu-vb-pj3:4.10.13",
           "pli-tv-bu-vb-pj4:1.2.9"
         ]
-      }
+      },
+      "forms": [
+        "mitta",
+        "mittato",
+        "mittatopi",
+        "mittaṁ",
+        "mitte",
+        "mittehi",
+        "mittesu",
+        "mitto",
+        "mittā",
+        "mittānaṁ",
+        "mittāni",
+        "mittāpi"
+      ]
     },
     {
       "id": "moghapurisa",
@@ -9098,7 +10938,15 @@
           "pli-tv-bu-vb-pc1:1.17",
           "pli-tv-bu-vb-pj4:1.2.22"
         ]
-      }
+      },
+      "forms": [
+        "moghapurisa",
+        "moghapurisassa",
+        "moghapurisena",
+        "moghapuriso",
+        "moghapurisā",
+        "moghapurisānaṁ"
+      ]
     },
     {
       "id": "moha",
@@ -9124,14 +10972,37 @@
           "pli-tv-bu-vb-pc3:2.2.16",
           "pli-tv-bu-vb-pc73:2.1.27"
         ]
-      }
+      },
+      "forms": [
+        "moha",
+        "mohassa",
+        "mohañca",
+        "mohaṁ",
+        "mohe",
+        "mohena",
+        "mohenāti",
+        "moho",
+        "mohoti",
+        "mohova",
+        "mohā",
+        "mohāpi",
+        "mohāya",
+        "mohāyapi"
+      ]
     },
     {
       "id": "mudita",
       "num": 158,
       "pali": "muditā",
       "ru": "мягкость, смягчённость",
-      "en": "gentleness, softening"
+      "en": "gentleness, softening",
+      "forms": [
+        "muditañca",
+        "muditañhi",
+        "muditaṁ",
+        "muditā",
+        "muditāya"
+      ]
     },
     {
       "id": "mula",
@@ -9148,7 +11019,27 @@
           "pli-tv-bu-vb-pc76:2.1.7",
           "pli-tv-bu-vb-ss8:1.9.32.1"
         ]
-      }
+      },
+      "forms": [
+        "mūla",
+        "mūlameva",
+        "mūlampi",
+        "mūlanti",
+        "mūlato",
+        "mūlatova",
+        "mūlañca",
+        "mūlaṁ",
+        "mūle",
+        "mūlehi",
+        "mūlena",
+        "mūlesu",
+        "mūlā",
+        "mūlāna",
+        "mūlānaṁ",
+        "mūlāni",
+        "mūlānīti",
+        "mūlāya"
+      ]
     },
     {
       "id": "musavada",
@@ -9168,7 +11059,20 @@
         "vinaya": [
           "pli-tv-bu-vb-pc1:2.1.1"
         ]
-      }
+      },
+      "forms": [
+        "musāvāda",
+        "musāvādampi",
+        "musāvādasmiṁ",
+        "musāvādassa",
+        "musāvādañca",
+        "musāvādaṁ",
+        "musāvāde",
+        "musāvādena",
+        "musāvādo",
+        "musāvādā",
+        "musāvādāti"
+      ]
     },
     {
       "id": "musavada-veramani",
@@ -9354,7 +11258,24 @@
           "pli-tv-bu-vb-pc68:1.11",
           "(+10)"
         ]
-      }
+      },
+      "forms": [
+        "nāma",
+        "nāmampi",
+        "nāmassa",
+        "nāmato",
+        "nāmatopi",
+        "nāmañca",
+        "nāmaṁ",
+        "nāme",
+        "nāmena",
+        "nāmenapi",
+        "nāmo",
+        "nāmā",
+        "nāmāni",
+        "nāmāti",
+        "nāmāyaṁ"
+      ]
     },
     {
       "id": "namarupa",
@@ -9376,14 +11297,26 @@
         "broader": [
           "mn38:18.41"
         ]
-      }
+      },
+      "forms": [
+        "nāmarūpamhā",
+        "nāmarūpanti",
+        "nāmarūpasmiṁ",
+        "nāmarūpassa",
+        "nāmarūpañca",
+        "nāmarūpaṁ",
+        "nāmarūpe"
+      ]
     },
     {
       "id": "namarupapaccaya",
       "num": null,
       "pali": "nāmarūpapaccayā",
       "ru": "имени-образа-условием",
-      "en": "name-image as condition"
+      "en": "name-image as condition",
+      "forms": [
+        "nāmarūpapaccayā"
+      ]
     },
     {
       "id": "nana",
@@ -9423,7 +11356,26 @@
           "pli-tv-bu-vb-pj3:3.8",
           "pli-tv-bu-vb-pj4:3.11"
         ]
-      }
+      },
+      "forms": [
+        "ñāṇa",
+        "ñāṇameva",
+        "ñāṇamhi",
+        "ñāṇanti",
+        "ñāṇassa",
+        "ñāṇañca",
+        "ñāṇaṁ",
+        "ñāṇaṁyeva",
+        "ñāṇe",
+        "ñāṇena",
+        "ñāṇepi",
+        "ñāṇā",
+        "ñāṇānaṁ",
+        "ñāṇāni",
+        "ñāṇāya",
+        "ñāṇāyāti",
+        "ñāṇīti"
+      ]
     },
     {
       "id": "nanadassana",
@@ -9439,7 +11391,15 @@
           "pli-tv-bu-vb-pc8:2.1.17",
           "pli-tv-bu-vb-pj4:4.1.11"
         ]
-      }
+      },
+      "forms": [
+        "ñāṇadassananti",
+        "ñāṇadassanato",
+        "ñāṇadassanaṁ",
+        "ñāṇadassane",
+        "ñāṇadassanena",
+        "ñāṇadassanāya"
+      ]
     },
     {
       "id": "nandi",
@@ -9485,14 +11445,29 @@
           "pli-tv-bu-vb-pc46:2.5",
           "pli-tv-bu-vb-pj2:7.46.15"
         ]
-      }
+      },
+      "forms": [
+        "nandino",
+        "nandiyaṁ",
+        "nandiyo",
+        "nandiyopi",
+        "nandiyā",
+        "nandiyāti",
+        "nandiñca",
+        "nandiṁ",
+        "nandī"
+      ]
     },
     {
       "id": "nandiraga",
       "num": 167,
       "pali": "nandīrāga",
       "ru": "радость-страсть",
-      "en": "joy-passion"
+      "en": "joy-passion",
+      "forms": [
+        "nandīrāgassa",
+        "nandīrāgaṁ"
+      ]
     },
     {
       "id": "nandiragasahagata",
@@ -9611,7 +11586,20 @@
         "broader": [
           "an9.41:14.5"
         ]
-      }
+      },
+      "forms": [
+        "nevasaññānāsaññāyatana",
+        "nevasaññānāsaññāyatanameva",
+        "nevasaññānāsaññāyatanampi",
+        "nevasaññānāsaññāyatananti",
+        "nevasaññānāsaññāyatanasmiṁ",
+        "nevasaññānāsaññāyatanassa",
+        "nevasaññānāsaññāyatanassapi",
+        "nevasaññānāsaññāyatanato",
+        "nevasaññānāsaññāyatanaṁ",
+        "nevasaññānāsaññāyatane",
+        "nevasaññānāsaññāyatanā"
+      ]
     },
     {
       "id": "nibbana",
@@ -9655,7 +11643,20 @@
           "sn45.48:1.11",
           "iti44:3.5"
         ]
-      }
+      },
+      "forms": [
+        "nibbāna",
+        "nibbānanti",
+        "nibbānasmiṁ",
+        "nibbānassa",
+        "nibbānasseva",
+        "nibbānato",
+        "nibbānañca",
+        "nibbānaṁ",
+        "nibbāne",
+        "nibbānā",
+        "nibbānāya"
+      ]
     },
     {
       "id": "nibbida",
@@ -9667,7 +11668,14 @@
         "patterns": [
           "sn22.58:2.2"
         ]
-      }
+      },
+      "forms": [
+        "nibbida",
+        "nibbidaṁ",
+        "nibbidā",
+        "nibbidāpi",
+        "nibbidāya"
+      ]
     },
     {
       "id": "nidana",
@@ -9679,7 +11687,19 @@
         "patterns": [
           "an6.63:9.1"
         ]
-      }
+      },
+      "forms": [
+        "nidāna",
+        "nidānampi",
+        "nidānassa",
+        "nidānaṁ",
+        "nidāne",
+        "nidānena",
+        "nidāno",
+        "nidānā",
+        "nidānābhi",
+        "nidānāni"
+      ]
     },
     {
       "id": "nigha",
@@ -9691,7 +11711,12 @@
         "patterns": [
           "sn41.5:5.8"
         ]
-      }
+      },
+      "forms": [
+        "nīgho",
+        "nīghā",
+        "nīghānaṁ"
+      ]
     },
     {
       "id": "nijjhama-patipada",
@@ -9734,7 +11759,20 @@
           "sn36.31:2.4",
           "an5.27:1.5"
         ]
-      }
+      },
+      "forms": [
+        "nirāmisa",
+        "nirāmisanti",
+        "nirāmisassa",
+        "nirāmisañca",
+        "nirāmisaṁ",
+        "nirāmise",
+        "nirāmiseti",
+        "nirāmiso",
+        "nirāmisoti",
+        "nirāmisā",
+        "nirāmisāpi"
+      ]
     },
     {
       "id": "niramisa-niramisatara-piti",
@@ -9904,7 +11942,21 @@
         "vinaya": [
           "pli-tv-bu-vb-pj1:1.8.2"
         ]
-      }
+      },
+      "forms": [
+        "nirodha",
+        "nirodhanti",
+        "nirodhañca",
+        "nirodhaṁ",
+        "nirodhe",
+        "nirodhena",
+        "nirodho",
+        "nirodhopi",
+        "nirodhoti",
+        "nirodhā",
+        "nirodhāya",
+        "nirodhāyāti"
+      ]
     },
     {
       "id": "nirodhasanna",
@@ -9921,7 +11973,12 @@
         "patterns": [
           "an10.60:10.1"
         ]
-      }
+      },
+      "forms": [
+        "nirodhasaññaṁ",
+        "nirodhasaññā",
+        "nirodhasaññāya"
+      ]
     },
     {
       "id": "nissarana",
@@ -9947,7 +12004,15 @@
           "sn36.26:1.4",
           "an3.103:1.2"
         ]
-      }
+      },
+      "forms": [
+        "nissaraṇa",
+        "nissaraṇanti",
+        "nissaraṇato",
+        "nissaraṇañca",
+        "nissaraṇaṁ",
+        "nissaraṇānaṁ"
+      ]
     },
     {
       "id": "nissita",
@@ -9962,7 +12027,13 @@
         "vinaya": [
           "pli-tv-bu-vb-ss6:2.3.8"
         ]
-      }
+      },
+      "forms": [
+        "nissitassa",
+        "nissitaṁ",
+        "nissito",
+        "nissitā"
+      ]
     },
     {
       "id": "nivarana",
@@ -9983,7 +12054,21 @@
           "pli-tv-bu-vb-pc8:2.2.53",
           "pli-tv-bu-vb-pj4:4.5.68"
         ]
-      }
+      },
+      "forms": [
+        "nīvaraṇa",
+        "nīvaraṇañca",
+        "nīvaraṇaṁ",
+        "nīvaraṇe",
+        "nīvaraṇehi",
+        "nīvaraṇena",
+        "nīvaraṇesu",
+        "nīvaraṇo",
+        "nīvaraṇā",
+        "nīvaraṇānaṁ",
+        "nīvaraṇāni",
+        "nīvaraṇāti"
+      ]
     },
     {
       "id": "ogha",
@@ -10009,7 +12094,20 @@
           "sn38.11:1.11",
           "snp1.9:23.1"
         ]
-      }
+      },
+      "forms": [
+        "ogha",
+        "oghanti",
+        "oghassa",
+        "oghaṁ",
+        "oghe",
+        "oghesu",
+        "ogho",
+        "oghoti",
+        "oghā",
+        "oghānaṁ",
+        "oghāti"
+      ]
     },
     {
       "id": "okkacitavinita-parisa",
@@ -10071,7 +12169,14 @@
           "dn28:14.7",
           "mn64:9.9"
         ]
-      }
+      },
+      "forms": [
+        "orambhāgiyaṁ",
+        "orambhāgiyehi",
+        "orambhāgiyā",
+        "orambhāgiyānaṁ",
+        "orambhāgiyāni"
+      ]
     },
     {
       "id": "ottappabalam",
@@ -10154,7 +12259,23 @@
           "pli-tv-bu-vb-pc48:3.1.13",
           "pli-tv-bu-vb-pc56:3.1.18"
         ]
-      }
+      },
+      "forms": [
+        "paccaya",
+        "paccayameva",
+        "paccayassa",
+        "paccayaṁ",
+        "paccaye",
+        "paccayehi",
+        "paccayena",
+        "paccayenāti",
+        "paccayesu",
+        "paccayo",
+        "paccayā",
+        "paccayānaṁ",
+        "paccayāni",
+        "paccayāse"
+      ]
     },
     {
       "id": "paccorohani",
@@ -10171,7 +12292,14 @@
         "definition": "Aññathā kho, brāhmaṇa, brāhmaṇānaṁ paccorohaṇī hoti, aññathā ca pana ariyassa vinaye paccorohaṇī hoti. … Evaṁ kho, brāhmaṇa, ariyassa vinaye paccorohaṇī hoti."
       },
       "dgNote": "Особое определение: Обычно: Брахманы в день упосатхи ложатся на землю, поклоняются огню, кормят брахманов. В выведении благородного (ariyassa vinaye): Ученик благородного, рассмотрев: «у ошибочного взгляда плохой плод и здесь, и в будущем», отказывается от ошибочного взгляда и нисходит с него; так от каждой из десяти ошибочностей до ошибочного освобождения. Это нисхождение в выведении благородного.",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "paccorohaṇi",
+        "paccorohaṇiyā",
+        "paccorohaṇiṁ",
+        "paccorohaṇī",
+        "paccorohaṇīti"
+      ]
     },
     {
       "id": "padhana",
@@ -10187,7 +12315,25 @@
           "sn51.9:1.1",
           "sn51.13:1.9"
         ]
-      }
+      },
+      "forms": [
+        "padhāna",
+        "padhānanti",
+        "padhānasminti",
+        "padhānasmiṁ",
+        "padhānassa",
+        "padhānañca",
+        "padhānaṁ",
+        "padhānena",
+        "padhānesu",
+        "padhānā",
+        "padhānāna",
+        "padhānānaṁ",
+        "padhānāni",
+        "padhānānīti",
+        "padhānāya",
+        "padhānāyāti"
+      ]
     },
     {
       "id": "pahana",
@@ -10229,7 +12375,16 @@
           "pli-tv-bu-vb-pc8:2.1.23",
           "pli-tv-bu-vb-pj4:4.1.17"
         ]
-      }
+      },
+      "forms": [
+        "pahāna",
+        "pahānañca",
+        "pahānaṁ",
+        "pahānena",
+        "pahānā",
+        "pahānāya",
+        "pahānāyāti"
+      ]
     },
     {
       "id": "pahanapadhanam",
@@ -10282,7 +12437,11 @@
         "patterns": [
           "an10.60:8.1"
         ]
-      }
+      },
+      "forms": [
+        "pahānasaññaṁ",
+        "pahānasaññā"
+      ]
     },
     {
       "id": "pahanaya",
@@ -10334,7 +12493,17 @@
         "broader": [
           "dn34:1.2.13"
         ]
-      }
+      },
+      "forms": [
+        "pahātabba",
+        "pahātabbanti",
+        "pahātabbassa",
+        "pahātabbaṁ",
+        "pahātabbo",
+        "pahātabboti",
+        "pahātabbā",
+        "pahātabbāti"
+      ]
     },
     {
       "id": "pahuneyyo",
@@ -10375,7 +12544,33 @@
           "sn48.10:5.3",
           "(+14)"
         ]
-      }
+      },
+      "forms": [
+        "pajānanti",
+        "pajānassu",
+        "pajāneyya",
+        "pajāneyyanti",
+        "pajāneyyaṁ",
+        "pajāneyyāti",
+        "pajānissasi",
+        "pajānissasīti",
+        "pajānissati",
+        "pajānissatīti",
+        "pajānissāmi",
+        "pajānissāmīti",
+        "pajānāhi",
+        "pajānāhīti",
+        "pajānāma",
+        "pajānāmi",
+        "pajānāmāti",
+        "pajānāmīti",
+        "pajānāsi",
+        "pajānāsīti",
+        "pajānātha",
+        "pajānāthāti",
+        "pajānāti",
+        "pajānātīti"
+      ]
     },
     {
       "id": "pakkhiya",
@@ -10398,14 +12593,32 @@
           "sn8.8:11.2",
           "an5.178:5.3"
         ]
-      }
+      },
+      "forms": [
+        "pamāda",
+        "pamādamhā",
+        "pamādassa",
+        "pamādaṁ",
+        "pamāde",
+        "pamādena",
+        "pamādo",
+        "pamādā",
+        "pamādāya",
+        "pamādāyāti"
+      ]
     },
     {
       "id": "pamojja",
       "num": 192,
       "pali": "pāmojja",
       "ru": "смягчённая-радость",
-      "en": "softened-joy"
+      "en": "softened-joy",
+      "forms": [
+        "pāmojja",
+        "pāmojjassa",
+        "pāmojjaṁ",
+        "pāmojje"
+      ]
     },
     {
       "id": "pananca",
@@ -10424,7 +12637,16 @@
         "broader": [
           "an5.178:1.3"
         ]
-      }
+      },
+      "forms": [
+        "pāṇātipāta",
+        "pāṇātipātassa",
+        "pāṇātipātaṁ",
+        "pāṇātipāte",
+        "pāṇātipāto",
+        "pāṇātipātā",
+        "pāṇātipātāpi"
+      ]
     },
     {
       "id": "panatipata-veramani",
@@ -10496,7 +12718,25 @@
           "pli-tv-bu-vb-pc2:2.1.50",
           "pli-tv-bu-vb-pc3:2.1.16"
         ]
-      }
+      },
+      "forms": [
+        "paṇḍita",
+        "paṇḍitamhi",
+        "paṇḍitassa",
+        "paṇḍitato",
+        "paṇḍitaṁ",
+        "paṇḍite",
+        "paṇḍitehi",
+        "paṇḍitena",
+        "paṇḍito",
+        "paṇḍitoti",
+        "paṇḍitā",
+        "paṇḍitānañca",
+        "paṇḍitānaṁ",
+        "paṇḍitāse",
+        "paṇḍitāti",
+        "paṇḍitāya"
+      ]
     },
     {
       "id": "panna",
@@ -10584,7 +12824,19 @@
           "pli-tv-bu-vb-ss8:1.4.1",
           "pli-tv-bu-vb-ss12:2.8"
         ]
-      }
+      },
+      "forms": [
+        "pañña",
+        "paññañca",
+        "paññaṁ",
+        "paññā",
+        "paññāpi",
+        "paññāti",
+        "paññāto",
+        "paññāva",
+        "paññāya",
+        "paññāyāti"
+      ]
     },
     {
       "id": "pannabala",
@@ -10607,7 +12859,12 @@
           "an7.4:8.1",
           "an9.5:1.4"
         ]
-      }
+      },
+      "forms": [
+        "paññābalanti",
+        "paññābalaṁ",
+        "paññābalena"
+      ]
     },
     {
       "id": "pannadhanam",
@@ -10649,7 +12906,14 @@
           "an8.55:13.1",
           "an8.76:8.1"
         ]
-      }
+      },
+      "forms": [
+        "paññāsampada",
+        "paññāsampadaṁ",
+        "paññāsampadā",
+        "paññāsampadāti",
+        "paññāsampadāya"
+      ]
     },
     {
       "id": "pannindriya",
@@ -10673,7 +12937,14 @@
         "broader": [
           "sn48.44:1.5"
         ]
-      }
+      },
+      "forms": [
+        "paññindriya",
+        "paññindriyampi",
+        "paññindriyassa",
+        "paññindriyaṁ",
+        "paññindriyena"
+      ]
     },
     {
       "id": "papadhammena-papadhammataro",
@@ -10726,7 +12997,34 @@
         "vinaya": [
           "pli-tv-bu-vb-pj3:3.20"
         ]
-      }
+      },
+      "forms": [
+        "pāpaka",
+        "pāpakanti",
+        "pāpakassa",
+        "pāpakato",
+        "pāpakaṁ",
+        "pāpake",
+        "pāpakehi",
+        "pāpakena",
+        "pāpakesu",
+        "pāpako",
+        "pāpakoti",
+        "pāpakā",
+        "pāpakānañca",
+        "pāpakānaṁ",
+        "pāpakānaṁyeva",
+        "pāpakāni",
+        "pāpikañca",
+        "pāpikaṁ",
+        "pāpikā",
+        "pāpikāhi",
+        "pāpikānaṁ",
+        "pāpikāti",
+        "pāpikāya",
+        "pāpikāyaṁ",
+        "pāpikāyo"
+      ]
     },
     {
       "id": "papena-papataro",
@@ -10872,14 +13170,22 @@
           "dn22:18.17",
           "mn141:15.3"
         ]
-      }
+      },
+      "forms": [
+        "paridevaṁ",
+        "paridevehi",
+        "paridevo"
+      ]
     },
     {
       "id": "parimaddana",
       "num": 368,
       "pali": "parimaddana",
       "ru": "пере-минание",
-      "en": "kneading-through (crumpling)"
+      "en": "kneading-through (crumpling)",
+      "forms": [
+        "parimaddanaṁ"
+      ]
     },
     {
       "id": "parinibbana",
@@ -10891,7 +13197,15 @@
         "broader": [
           "sn45.48:1.11"
         ]
-      }
+      },
+      "forms": [
+        "parinibbāna",
+        "parinibbānanti",
+        "parinibbānaṁ",
+        "parinibbānena",
+        "parinibbānā",
+        "parinibbānāya"
+      ]
     },
     {
       "id": "parinna",
@@ -10937,7 +13251,17 @@
           "sn38.15:1.11",
           "sn45.5:4.4"
         ]
-      }
+      },
+      "forms": [
+        "pariñña",
+        "pariññañca",
+        "pariññaṁ",
+        "pariññā",
+        "pariññāti",
+        "pariññāto",
+        "pariññāya",
+        "pariññāyāti"
+      ]
     },
     {
       "id": "parinnata",
@@ -10949,7 +13273,17 @@
         "compounds": [
           "pariññātāvī puggalo"
         ]
-      }
+      },
+      "forms": [
+        "pariññāta",
+        "pariññātanti",
+        "pariññātaṁ",
+        "pariññāte",
+        "pariññāto",
+        "pariññātā",
+        "pariññātāsu",
+        "pariññātāti"
+      ]
     },
     {
       "id": "parinnatavi-puggalo",
@@ -10994,7 +13328,11 @@
           "sn38.15:1.11",
           "sn45.5:4.4"
         ]
-      }
+      },
+      "forms": [
+        "pariññāya",
+        "pariññāyāti"
+      ]
     },
     {
       "id": "parinneyya",
@@ -11019,7 +13357,14 @@
         "broader": [
           "dn34:1.2.10"
         ]
-      }
+      },
+      "forms": [
+        "pariññeyyanti",
+        "pariññeyyaṁ",
+        "pariññeyye",
+        "pariññeyyo",
+        "pariññeyyā"
+      ]
     },
     {
       "id": "parinneyya-dhamma",
@@ -11123,7 +13468,15 @@
           "sn46.51:10.1",
           "an5.27:1.7"
         ]
-      }
+      },
+      "forms": [
+        "passaddhi",
+        "passaddhiyo",
+        "passaddhiyā",
+        "passaddhiṁ",
+        "passaddhī",
+        "passaddhīti"
+      ]
     },
     {
       "id": "passaddhisambojjhanga",
@@ -11136,14 +13489,23 @@
           "sn46.2:13.1",
           "sn46.51:10.1"
         ]
-      }
+      },
+      "forms": [
+        "passaddhisambojjhaṅgassa",
+        "passaddhisambojjhaṅgaṁ",
+        "passaddhisambojjhaṅgo",
+        "passaddhisambojjhaṅgoti"
+      ]
     },
     {
       "id": "passasa",
       "num": 208,
       "pali": "passāsa",
       "ru": "вдох",
-      "en": "inhalation"
+      "en": "inhalation",
+      "forms": [
+        "passāso"
+      ]
     },
     {
       "id": "patala",
@@ -11159,7 +13521,14 @@
         "definition": "Sārīrikānaṁ kho etaṁ, bhikkhave, dukkhānaṁ vedanānaṁ adhivacanaṁ yadidaṁ ‘pātālo’ti."
       },
       "dgNote": "Особое определение (обыватель так говорит, в каноне иначе): Обычно: Обыватель говорит: «в океане есть бездна» — о несуществующем. Не так, как говорит обыватель (assutavā puthujjano bhāsati): «Бездна» — это обозначение болезненных телесных чувствований.",
-      "kind": "special: assutavā puthujjano bhāsati"
+      "kind": "special: assutavā puthujjano bhāsati",
+      "forms": [
+        "pātālaṁ",
+        "pātāle",
+        "pātālo",
+        "pātāloti",
+        "pātālā"
+      ]
     },
     {
       "id": "pathama-jhana",
@@ -11265,7 +13634,10 @@
           "pli-tv-bu-vb-pc90:2.1",
           "pli-tv-bu-vb-pj1:5.11.31"
         ]
-      }
+      },
+      "forms": [
+        "paṭicca"
+      ]
     },
     {
       "id": "paticcasamuppada",
@@ -11290,7 +13662,15 @@
           "sn12.1:2.14",
           "sn12.20:3.17"
         ]
-      }
+      },
+      "forms": [
+        "paṭiccasamuppāda",
+        "paṭiccasamuppādañca",
+        "paṭiccasamuppādaññeva",
+        "paṭiccasamuppādaṁ",
+        "paṭiccasamuppādaṁyeva",
+        "paṭiccasamuppādo"
+      ]
     },
     {
       "id": "paticcasamuppanna-dhamma",
@@ -11314,21 +13694,38 @@
       "num": 213,
       "pali": "paṭigha",
       "ru": "отторжение",
-      "en": "rejection"
+      "en": "rejection",
+      "forms": [
+        "paṭighaṁ",
+        "paṭighe",
+        "paṭigho",
+        "paṭighā"
+      ]
     },
     {
       "id": "patighanusaya",
       "num": 214,
       "pali": "paṭighānusaya",
       "ru": "к-отторжению-предрасположенность",
-      "en": "predisposition-to-rejection"
+      "en": "predisposition-to-rejection",
+      "forms": [
+        "paṭighānusayassa",
+        "paṭighānusayaṁ",
+        "paṭighānusayo",
+        "paṭighānusayānaṁ"
+      ]
     },
     {
       "id": "patiloma",
       "num": 215,
       "pali": "paṭiloma",
       "ru": "обратный порядок",
-      "en": "reverse order"
+      "en": "reverse order",
+      "forms": [
+        "paṭiloma",
+        "paṭilomampi",
+        "paṭilomaṁ"
+      ]
     },
     {
       "id": "patinissagga",
@@ -11340,7 +13737,15 @@
         "patterns": [
           "sn22.4:3.1"
         ]
-      }
+      },
+      "forms": [
+        "paṭinissagga",
+        "paṭinissaggaṁ",
+        "paṭinissagge",
+        "paṭinissaggo",
+        "paṭinissaggā",
+        "paṭinissaggāya"
+      ]
     },
     {
       "id": "patipada-dandhabhinna",
@@ -11480,7 +13885,11 @@
         "patterns": [
           "an4.246:1.4"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "petaseyyā"
+      ]
     },
     {
       "id": "pharusa-vaca",
@@ -11509,7 +13918,11 @@
       "num": null,
       "pali": "phassapaccayā",
       "ru": "касания-условием",
-      "en": "touch as condition"
+      "en": "touch as condition",
+      "forms": [
+        "phassapaccayā",
+        "phassapaccayāti"
+      ]
     },
     {
       "id": "phasso",
@@ -11559,14 +13972,41 @@
         "vinaya": [
           "pli-tv-bu-vb-pj3:4.9.29"
         ]
-      }
+      },
+      "forms": [
+        "phoṭṭhabba",
+        "phoṭṭhabbaṁ",
+        "phoṭṭhabbe",
+        "phoṭṭhabbehi",
+        "phoṭṭhabbehīti",
+        "phoṭṭhabbepi",
+        "phoṭṭhabbesu",
+        "phoṭṭhabbesupi",
+        "phoṭṭhabbo",
+        "phoṭṭhabbā",
+        "phoṭṭhabbāna",
+        "phoṭṭhabbānaṁ",
+        "phoṭṭhabbānaṁyeva",
+        "phoṭṭhabbāni",
+        "phoṭṭhabbāti"
+      ]
     },
     {
       "id": "pipasa",
       "num": 369,
       "pali": "pipāsā",
       "ru": "желание пить, жажда",
-      "en": "wish to drink, thirst"
+      "en": "wish to drink, thirst",
+      "forms": [
+        "pipāsato",
+        "pipāsañca",
+        "pipāsaṁ",
+        "pipāsā",
+        "pipāsāya",
+        "pipāsāyapi",
+        "pipāsāyaṁ",
+        "pipāsāyo"
+      ]
     },
     {
       "id": "pisuna-vaca",
@@ -11601,7 +14041,13 @@
           "sn46.51:9.1",
           "an9.41:9.5"
         ]
-      }
+      },
+      "forms": [
+        "pīti",
+        "pītiyā",
+        "pītiñca",
+        "pītiṁ"
+      ]
     },
     {
       "id": "pitisambojjhanga",
@@ -11614,7 +14060,13 @@
           "sn46.2:12.1",
           "sn46.51:9.1"
         ]
-      }
+      },
+      "forms": [
+        "pītisambojjhaṅgassa",
+        "pītisambojjhaṅgaṁ",
+        "pītisambojjhaṅgo",
+        "pītisambojjhaṅgoti"
+      ]
     },
     {
       "id": "piyehi-vippayogo",
@@ -11710,7 +14162,25 @@
           "pli-tv-bi-vb-ss5:2.1.9",
           "pli-tv-bu-vb-pc54:2.1.3"
         ]
-      }
+      },
+      "forms": [
+        "puggala",
+        "puggalampi",
+        "puggalassa",
+        "puggalañca",
+        "puggalaṁ",
+        "puggale",
+        "puggalehi",
+        "puggalena",
+        "puggalesu",
+        "puggaleti",
+        "puggalo",
+        "puggalopi",
+        "puggaloti",
+        "puggalā",
+        "puggalānaṁ",
+        "puggalāti"
+      ]
     },
     {
       "id": "puggalo-andho",
@@ -12121,7 +14591,20 @@
           "an7.73:3.5",
           "an8.39:7.5"
         ]
-      }
+      },
+      "forms": [
+        "puññameva",
+        "puññanti",
+        "puññassa",
+        "puññañca",
+        "puññaṁ",
+        "puññe",
+        "puññena",
+        "puññāna",
+        "puññānaṁ",
+        "puññāni",
+        "puññānīti"
+      ]
     },
     {
       "id": "puranakammam",
@@ -12152,7 +14635,21 @@
           "sn36.4:1.7",
           "sn36.6:1.25"
         ]
-      }
+      },
+      "forms": [
+        "puthujjana",
+        "puthujjananti",
+        "puthujjanassa",
+        "puthujjanaṁ",
+        "puthujjane",
+        "puthujjanehi",
+        "puthujjanena",
+        "puthujjanenāti",
+        "puthujjano",
+        "puthujjanopi",
+        "puthujjanā",
+        "puthujjanānaṁ"
+      ]
     },
     {
       "id": "puthupanno-puggalo",
@@ -12194,7 +14691,22 @@
         "vinaya": [
           "pli-tv-bu-vb-pc83:1.1.10"
         ]
-      }
+      },
+      "forms": [
+        "rāga",
+        "rāgassa",
+        "rāgassāti",
+        "rāgañca",
+        "rāgaṁ",
+        "rāge",
+        "rāgehi",
+        "rāgena",
+        "rāgo",
+        "rāgoti",
+        "rāgā",
+        "rāgāya",
+        "rāgāyapi"
+      ]
     },
     {
       "id": "rajaniya",
@@ -12248,7 +14760,26 @@
           "pli-tv-bu-vb-ss1:1.1.6",
           "pli-tv-bu-vb-ss13:3.2.25"
         ]
-      }
+      },
+      "forms": [
+        "rasa",
+        "rasato",
+        "rasañca",
+        "rasaṁ",
+        "rase",
+        "rasehi",
+        "rasena",
+        "rasenapi",
+        "rasesu",
+        "rasesupi",
+        "raso",
+        "rasā",
+        "rasāna",
+        "rasānaṁ",
+        "rasāni",
+        "rasāti",
+        "rasāya"
+      ]
     },
     {
       "id": "runna",
@@ -12328,14 +14859,48 @@
           "pli-tv-bu-vb-pj4:9.2.10",
           "pli-tv-bu-vb-ss1:3.2.1"
         ]
-      }
+      },
+      "forms": [
+        "rūpa",
+        "rūpameva",
+        "rūpamhā",
+        "rūpampi",
+        "rūpanti",
+        "rūpasmimpi",
+        "rūpasmiṁ",
+        "rūpasmā",
+        "rūpassa",
+        "rūpato",
+        "rūpañca",
+        "rūpaññeva",
+        "rūpaṁ",
+        "rūpaṁyeva",
+        "rūpe",
+        "rūpehi",
+        "rūpena",
+        "rūpesu",
+        "rūpesupi",
+        "rūpā",
+        "rūpāhi",
+        "rūpāna",
+        "rūpānanti",
+        "rūpānañca",
+        "rūpānaṁ",
+        "rūpānaṁyeva",
+        "rūpāni",
+        "rūpāti"
+      ]
     },
     {
       "id": "ruparaga",
       "num": 235,
       "pali": "rūparāga",
       "ru": "образо-очарованность",
-      "en": "image-fascination"
+      "en": "image-fascination",
+      "forms": [
+        "rūparāgaṁ",
+        "rūparāgo"
+      ]
     },
     {
       "id": "sabbaloke-anabhiratasanna",
@@ -12352,7 +14917,10 @@
         "patterns": [
           "an10.60:11.1"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     },
     {
       "id": "sabbasankharesu-anicchasanna",
@@ -12394,7 +14962,16 @@
           "an10.154:1.5",
           "an10.198:1.6"
         ]
-      }
+      },
+      "forms": [
+        "sacchikātabba",
+        "sacchikātabbanti",
+        "sacchikātabbañca",
+        "sacchikātabbaṁ",
+        "sacchikātabbo",
+        "sacchikātabbā",
+        "sacchikātabbāti"
+      ]
     },
     {
       "id": "sacchikatabbo-dhammo",
@@ -12444,7 +15021,12 @@
           "pli-tv-bu-vb-pc8:2.1.21",
           "pli-tv-bu-vb-pj4:4.1.15"
         ]
-      }
+      },
+      "forms": [
+        "sacchikiriyā",
+        "sacchikiriyāya",
+        "sacchikiriyāyāti"
+      ]
     },
     {
       "id": "sacchikiriyaya",
@@ -12558,7 +15140,24 @@
           "pli-tv-bu-vb-pc35:2.6",
           "(+9)"
         ]
-      }
+      },
+      "forms": [
+        "sadda",
+        "saddañca",
+        "saddaṁ",
+        "sadde",
+        "saddehi",
+        "saddena",
+        "saddesu",
+        "saddesupi",
+        "saddo",
+        "saddoti",
+        "saddā",
+        "saddāna",
+        "saddānaṁ",
+        "saddāni",
+        "saddāti"
+      ]
     },
     {
       "id": "saddha",
@@ -12641,7 +15240,23 @@
           "pli-tv-bu-vb-pc45:2.1.7",
           "(+5)"
         ]
-      }
+      },
+      "forms": [
+        "saddha",
+        "saddhañca",
+        "saddhaññeva",
+        "saddhaṁ",
+        "saddhe",
+        "saddhā",
+        "saddhāpi",
+        "saddhāti",
+        "saddhāya",
+        "saddhāyapi",
+        "saddhāyaṁ",
+        "saddhāyeva",
+        "saddhāyo",
+        "saddhāyāti"
+      ]
     },
     {
       "id": "saddhabala",
@@ -12662,7 +15277,11 @@
           "an5.14:2.1",
           "an7.4:2.1"
         ]
-      }
+      },
+      "forms": [
+        "saddhābalaṁ",
+        "saddhābalena"
+      ]
     },
     {
       "id": "saddhadhanam",
@@ -12740,7 +15359,13 @@
           "an8.55:10.4",
           "an8.76:5.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "saddhāsampadaṁ",
+        "saddhāsampadā",
+        "saddhāsampadāya"
+      ]
     },
     {
       "id": "saddhindriya",
@@ -12764,7 +15389,15 @@
         "broader": [
           "sn48.44:1.5"
         ]
-      }
+      },
+      "forms": [
+        "saddhindriya",
+        "saddhindriyampi",
+        "saddhindriyanti",
+        "saddhindriyassa",
+        "saddhindriyaṁ",
+        "saddhindriyena"
+      ]
     },
     {
       "id": "sadhu",
@@ -12807,7 +15440,20 @@
         "broader": [
           "mn142:6.1"
         ]
-      }
+      },
+      "forms": [
+        "sakadāgāminaṁ",
+        "sakadāgāmini",
+        "sakadāgāminiyo",
+        "sakadāgāmino",
+        "sakadāgāminā",
+        "sakadāgāmināpi",
+        "sakadāgāminī",
+        "sakadāgāmissa",
+        "sakadāgāmiṁ",
+        "sakadāgāmī",
+        "sakadāgāmīnaṁ"
+      ]
     },
     {
       "id": "sakkayaditthi",
@@ -12822,7 +15468,14 @@
           "sn22.82:8.1",
           "sn41.3:5.1"
         ]
-      }
+      },
+      "forms": [
+        "sakkāyadiṭṭhi",
+        "sakkāyadiṭṭhimeva",
+        "sakkāyadiṭṭhiyā",
+        "sakkāyadiṭṭhiṁ",
+        "sakkāyadiṭṭhī"
+      ]
     },
     {
       "id": "sakkayanirodhagamini-patipada",
@@ -12999,14 +15652,27 @@
         "broader": [
           "mn38:18.36"
         ]
-      }
+      },
+      "forms": [
+        "saḷāyatana",
+        "saḷāyatananti",
+        "saḷāyatanassa",
+        "saḷāyatanañca",
+        "saḷāyatanaṁ",
+        "saḷāyatane",
+        "saḷāyatano",
+        "saḷāyatanoti"
+      ]
     },
     {
       "id": "salayatanapaccaya",
       "num": null,
       "pali": "saḷāyatanapaccayā",
       "ru": "шести-областей-условием",
-      "en": "six domains as condition"
+      "en": "six domains as condition",
+      "forms": [
+        "saḷāyatanapaccayā"
+      ]
     },
     {
       "id": "sallekha",
@@ -13023,7 +15689,17 @@
         "definition": "Na kho panete, cunda, ariyassa vinaye sallekhā vuccanti. Diṭṭhadhammasukhavihārā ete ariyassa vinaye vuccanti. … Idha kho pana vo, cunda, sallekho karaṇīyo."
       },
       "dgNote": "Особое определение: Обычно: Монах думает: «пребываю в стирании», когда входит в джханы и бесформенные сферы. В выведении благородного (ariyassa vinaye): Четыре джханы в выведении благородного называются не «стиранием», а пребываниями в приятном здесь и сейчас; четыре бесформенные сферы — спокойными пребываниями. Стирание — это 44 решения: «другие будут вредящими, мы здесь будем невредящими» … «другие будут цепляться за свой взгляд, мы не будем».",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "sallekhassa",
+        "sallekhaññeva",
+        "sallekhaṁ",
+        "sallekhaṁyeva",
+        "sallekhena",
+        "sallekho",
+        "sallekhā",
+        "sallekhāya"
+      ]
     },
     {
       "id": "sama-parisa",
@@ -13108,7 +15784,24 @@
           "pli-tv-bu-vb-pc8:2.1.13",
           "pli-tv-bu-vb-pj4:4.1.7"
         ]
-      }
+      },
+      "forms": [
+        "samādhi",
+        "samādhimhi",
+        "samādhimhā",
+        "samādhimhāti",
+        "samādhinā",
+        "samādhināti",
+        "samādhismimpi",
+        "samādhismiṁ",
+        "samādhissa",
+        "samādhisu",
+        "samādhiñca",
+        "samādhiṁ",
+        "samādhī",
+        "samādhīnaṁ",
+        "samādhīti"
+      ]
     },
     {
       "id": "samadhibala",
@@ -13127,7 +15820,12 @@
           "an5.14:5.1",
           "an7.4:7.1"
         ]
-      }
+      },
+      "forms": [
+        "samādhibalañca",
+        "samādhibalaṁ",
+        "samādhibalena"
+      ]
     },
     {
       "id": "samadhindriya",
@@ -13148,7 +15846,14 @@
           "sn48.10:4.1",
           "sn48.11:4.1"
         ]
-      }
+      },
+      "forms": [
+        "samādhindriya",
+        "samādhindriyampi",
+        "samādhindriyassa",
+        "samādhindriyaṁ",
+        "samādhindriyena"
+      ]
     },
     {
       "id": "samadhisambojjhanga",
@@ -13161,7 +15866,13 @@
           "sn46.2:14.1",
           "sn46.51:11.1"
         ]
-      }
+      },
+      "forms": [
+        "samādhisambojjhaṅgassa",
+        "samādhisambojjhaṅgaṁ",
+        "samādhisambojjhaṅgo",
+        "samādhisambojjhaṅgoti"
+      ]
     },
     {
       "id": "samagga-parisa",
@@ -13201,7 +15912,10 @@
           "an8.55:6.1",
           "an8.76:4.1"
         ]
-      }
+      },
+      "forms": [
+        "samajīvitā"
+      ]
     },
     {
       "id": "samana",
@@ -13249,7 +15963,34 @@
           "pli-tv-bu-vb-pj1:8.3.31",
           "pli-tv-bu-vb-pj2:7.48.9"
         ]
-      }
+      },
+      "forms": [
+        "samaṇa",
+        "samaṇamhā",
+        "samaṇamhāti",
+        "samaṇassa",
+        "samaṇasseva",
+        "samaṇañca",
+        "samaṇaṁ",
+        "samaṇaṁyeva",
+        "samaṇe",
+        "samaṇebhi",
+        "samaṇehi",
+        "samaṇena",
+        "samaṇesu",
+        "samaṇo",
+        "samaṇopi",
+        "samaṇoti",
+        "samaṇova",
+        "samaṇā",
+        "samaṇāna",
+        "samaṇānampi",
+        "samaṇānañca",
+        "samaṇānaṁ",
+        "samaṇāneva",
+        "samaṇāpi",
+        "samaṇāti"
+      ]
     },
     {
       "id": "samannam",
@@ -13314,14 +16055,47 @@
         "patterns": [
           "an4.177:6.1"
         ]
-      }
+      },
+      "forms": [
+        "samanupassa",
+        "samanupassanti",
+        "samanupassantīti",
+        "samanupassasi",
+        "samanupassasīti",
+        "samanupassatha",
+        "samanupassathāti",
+        "samanupassati",
+        "samanupassatīti",
+        "samanupasseyya",
+        "samanupasseyyuṁ",
+        "samanupasseyyātha",
+        "samanupasseyyāti",
+        "samanupassāma",
+        "samanupassāmi",
+        "samanupassāmāti",
+        "samanupassāmīti"
+      ]
     },
     {
       "id": "samatha",
       "num": 252,
       "pali": "samatha",
       "ru": "равновесие, равностность",
-      "en": "balance, evenness"
+      "en": "balance, evenness",
+      "forms": [
+        "samatha",
+        "samathassa",
+        "samathañca",
+        "samathaṁ",
+        "samathe",
+        "samathehi",
+        "samathena",
+        "samatho",
+        "samathā",
+        "samathānaṁ",
+        "samathāti",
+        "samathāya"
+      ]
     },
     {
       "id": "sambodhaya",
@@ -13355,7 +16129,16 @@
         "broader": [
           "sn36.31:1.11"
         ]
-      }
+      },
+      "forms": [
+        "sāmisa",
+        "sāmisañca",
+        "sāmisaṁ",
+        "sāmisena",
+        "sāmiso",
+        "sāmisā",
+        "sāmisāpi"
+      ]
     },
     {
       "id": "samisa-piti",
@@ -13485,7 +16268,12 @@
           "pli-tv-bu-vb-np22:2.1.37",
           "(+10)"
         ]
-      }
+      },
+      "forms": [
+        "sammadeva",
+        "sammā",
+        "sammāti"
+      ]
     },
     {
       "id": "sammaajiva",
@@ -13513,7 +16301,17 @@
           "mn141:28.3",
           "sn45.8:7.3"
         ]
-      }
+      },
+      "forms": [
+        "sammāājīva",
+        "sammāājīvassa",
+        "sammāājīvaṁ",
+        "sammāājīve",
+        "sammāājīvena",
+        "sammāājīvo",
+        "sammāājīvoti",
+        "sammāājīvā"
+      ]
     },
     {
       "id": "sammaditthi",
@@ -13549,7 +16347,16 @@
           "mn141:24.3",
           "sn45.8:3.3"
         ]
-      }
+      },
+      "forms": [
+        "sammādiṭṭhi",
+        "sammādiṭṭhino",
+        "sammādiṭṭhissa",
+        "sammādiṭṭhiyā",
+        "sammādiṭṭhiṁ",
+        "sammādiṭṭhī",
+        "sammādiṭṭhīti"
+      ]
     },
     {
       "id": "sammaditthi-ariya-anasava",
@@ -13600,7 +16407,17 @@
           "mn141:27.3",
           "sn45.8:6.3"
         ]
-      }
+      },
+      "forms": [
+        "sammākammanta",
+        "sammākammantassa",
+        "sammākammantaṁ",
+        "sammākammante",
+        "sammākammantena",
+        "sammākammanto",
+        "sammākammantoti",
+        "sammākammantā"
+      ]
     },
     {
       "id": "sammapatipada",
@@ -13621,7 +16438,14 @@
           "sn45.23:1.7",
           "sn45.24:3.3"
         ]
-      }
+      },
+      "forms": [
+        "sammāpaṭipada",
+        "sammāpaṭipadañca",
+        "sammāpaṭipadaṁ",
+        "sammāpaṭipadā",
+        "sammāpaṭipadāti"
+      ]
     },
     {
       "id": "sammapatipanno",
@@ -13667,7 +16491,19 @@
         "patterns": [
           "sn43.6:1.2"
         ]
-      }
+      },
+      "forms": [
+        "sammappadhāna",
+        "sammappadhānaṁ",
+        "sammappadhāne",
+        "sammappadhānesu",
+        "sammappadhānā",
+        "sammappadhānāna",
+        "sammappadhānānaṁ",
+        "sammappadhānāni",
+        "sammappadhānānīti",
+        "sammappadhānāti"
+      ]
     },
     {
       "id": "sammasamadhi",
@@ -13697,7 +16533,19 @@
           "sn45.28:1.7",
           "an7.45:1.4"
         ]
-      }
+      },
+      "forms": [
+        "sammāsamādhi",
+        "sammāsamādhimhi",
+        "sammāsamādhino",
+        "sammāsamādhinā",
+        "sammāsamādhissa",
+        "sammāsamādhissāti",
+        "sammāsamādhiṁ",
+        "sammāsamādhī",
+        "sammāsamādhīhi",
+        "sammāsamādhīti"
+      ]
     },
     {
       "id": "sammasambuddho",
@@ -13749,7 +16597,17 @@
           "mn141:25.3",
           "sn45.8:4.3"
         ]
-      }
+      },
+      "forms": [
+        "sammāsaṅkappa",
+        "sammāsaṅkappassa",
+        "sammāsaṅkappaṁ",
+        "sammāsaṅkappe",
+        "sammāsaṅkappena",
+        "sammāsaṅkappo",
+        "sammāsaṅkappoti",
+        "sammāsaṅkappā"
+      ]
     },
     {
       "id": "sammasati",
@@ -13775,7 +16633,15 @@
           "mn141:30.6",
           "sn45.8:9.6"
         ]
-      }
+      },
+      "forms": [
+        "sammāsati",
+        "sammāsatino",
+        "sammāsatissa",
+        "sammāsatiyā",
+        "sammāsatiṁ",
+        "sammāsatī"
+      ]
     },
     {
       "id": "sammatta",
@@ -13825,7 +16691,14 @@
           "mn141:26.3",
           "sn45.8:5.3"
         ]
-      }
+      },
+      "forms": [
+        "sammāvāca",
+        "sammāvācaṁ",
+        "sammāvācā",
+        "sammāvācāti",
+        "sammāvācāya"
+      ]
     },
     {
       "id": "sammavayama",
@@ -13851,7 +16724,15 @@
           "mn141:29.6",
           "sn45.8:8.6"
         ]
-      }
+      },
+      "forms": [
+        "sammāvāyāmassa",
+        "sammāvāyāmaṁ",
+        "sammāvāyāme",
+        "sammāvāyāmena",
+        "sammāvāyāmo",
+        "sammāvāyāmā"
+      ]
     },
     {
       "id": "sampajana",
@@ -13881,7 +16762,16 @@
         "vinaya": [
           "pli-tv-bu-vb-pc1:2.1.1"
         ]
-      }
+      },
+      "forms": [
+        "sampajānassa",
+        "sampajānaṁ",
+        "sampajānena",
+        "sampajāno",
+        "sampajānoti",
+        "sampajānā",
+        "sampajānānaṁ"
+      ]
     },
     {
       "id": "samparayikam-vajjam",
@@ -13905,7 +16795,15 @@
       "num": 267,
       "pali": "samphappalāpa",
       "ru": "пустословие",
-      "en": "idle chatter"
+      "en": "idle chatter",
+      "forms": [
+        "samphappalāpa",
+        "samphappalāpassa",
+        "samphappalāpaṁ",
+        "samphappalāpe",
+        "samphappalāpo",
+        "samphappalāpā"
+      ]
     },
     {
       "id": "samphappalapa-veramani",
@@ -13970,7 +16868,17 @@
         "vinaya": [
           "pli-tv-bu-vb-pj1:1.8.2"
         ]
-      }
+      },
+      "forms": [
+        "samudayañca",
+        "samudayaṁ",
+        "samudaye",
+        "samudayo",
+        "samudayoti",
+        "samudayā",
+        "samudayāya",
+        "samudayāyāti"
+      ]
     },
     {
       "id": "samudda",
@@ -13987,7 +16895,19 @@
         "definition": "Neso, bhikkhave, ariyassa vinaye samuddo. Mahā eso, bhikkhave, udakarāsi mahāudakaṇṇavo. Cakkhu, bhikkhave, purisassa samuddo; tassa rūpamayo vego. … Santi, bhikkhave, cakkhuviññeyyā rūpā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā. Ayaṁ vuccati, bhikkhave, ariyassa vinaye samuddo."
       },
       "dgNote": "Особое определение: Обычно: Обыватель (assutavā puthujjano) называет «океаном» большую массу воды, большой водный поток. В выведении благородного (ariyassa vinaye): Глаз человека — океан, его напор — из образов; кто выдерживает этот напор, тот пересёк океан глаза. Так же ухо, нос, язык, тело, ум-представление. • Обычно: Обыватель называет «океаном» большую массу воды. В выведении благородного (ariyassa vinaye): Глазом распознаваемые образы, желанные, обожаемые, приятные, миловидные, связанные с желанием, очаровывающие, — это называется в выведении благородного «океан». Так же звуки, запахи, вкусы, касания, явления.",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "samuddassa",
+        "samuddassapi",
+        "samuddato",
+        "samuddaṁ",
+        "samudde",
+        "samuddepi",
+        "samuddo",
+        "samuddoti",
+        "samuddova",
+        "samuddā"
+      ]
     },
     {
       "id": "samvarapadhanam",
@@ -14047,7 +16967,23 @@
           "mn105:15.7",
           "an2.36:2.5"
         ]
-      }
+      },
+      "forms": [
+        "saṁyojana",
+        "saṁyojananti",
+        "saṁyojanassa",
+        "saṁyojanañca",
+        "saṁyojanaṁ",
+        "saṁyojane",
+        "saṁyojanehi",
+        "saṁyojanena",
+        "saṁyojano",
+        "saṁyojanā",
+        "saṁyojanāna",
+        "saṁyojanānaṁ",
+        "saṁyojanāni",
+        "saṁyojanānīti"
+      ]
     },
     {
       "id": "samyojaniya-dhamma",
@@ -14077,7 +17013,10 @@
       "num": 371,
       "pali": "sañcetanā",
       "ru": "осмысливание, замышливание, замысел",
-      "en": "comprehending, devising, design"
+      "en": "comprehending, devising, design",
+      "forms": [
+        "sañcetanā"
+      ]
     },
     {
       "id": "sanditthiko",
@@ -14158,7 +17097,28 @@
           "pli-tv-bu-vb-np18:2.42",
           "(+27)"
         ]
-      }
+      },
+      "forms": [
+        "saṅgha",
+        "saṅghamhi",
+        "saṅghamhā",
+        "saṅghasmiṁ",
+        "saṅghassa",
+        "saṅghato",
+        "saṅghañca",
+        "saṅghañhi",
+        "saṅghaṁ",
+        "saṅghe",
+        "saṅghena",
+        "saṅghenāti",
+        "saṅghepi",
+        "saṅgho",
+        "saṅghopi",
+        "saṅghoti",
+        "saṅghova",
+        "saṅghā",
+        "saṅghānaṁ"
+      ]
     },
     {
       "id": "sankhara",
@@ -14209,14 +17169,35 @@
           "sn51.13:3.7",
           "an10.60:12.3"
         ]
-      }
+      },
+      "forms": [
+        "saṅkhāra",
+        "saṅkhāraṁ",
+        "saṅkhāre",
+        "saṅkhārehi",
+        "saṅkhāresu",
+        "saṅkhāresupi",
+        "saṅkhāreyeva",
+        "saṅkhāro",
+        "saṅkhārā",
+        "saṅkhārāna",
+        "saṅkhārānaṁ",
+        "saṅkhārānaṁyeva",
+        "saṅkhārāni",
+        "saṅkhārāpi",
+        "saṅkhārāti"
+      ]
     },
     {
       "id": "sankharapaccaya",
       "num": null,
       "pali": "saṅkhārapaccayā",
       "ru": "составляющих-условием",
-      "en": "constituents as condition"
+      "en": "constituents as condition",
+      "forms": [
+        "saṅkhārapaccayā",
+        "saṅkhārapaccayāti"
+      ]
     },
     {
       "id": "sankhata",
@@ -14241,7 +17222,16 @@
           "sn43.11:1.3",
           "sn43.12:1.8"
         ]
-      }
+      },
+      "forms": [
+        "saṅkhata",
+        "saṅkhatassa",
+        "saṅkhataṁ",
+        "saṅkhate",
+        "saṅkhato",
+        "saṅkhatoti",
+        "saṅkhatā"
+      ]
     },
     {
       "id": "sankhittena",
@@ -14263,7 +17253,11 @@
           "an10.115:2.6",
           "an10.172:2.6"
         ]
-      }
+      },
+      "forms": [
+        "saṅkhittena",
+        "saṅkhittenapi"
+      ]
     },
     {
       "id": "sankhittena-pancupadanakkhandha",
@@ -14341,7 +17335,23 @@
           "pli-tv-bu-vb-pj4:1.3.34",
           "pli-tv-bu-vb-ss6:2.1.1"
         ]
-      }
+      },
+      "forms": [
+        "sañña",
+        "saññato",
+        "saññañca",
+        "saññaññeva",
+        "saññaṁ",
+        "saññaṁyeva",
+        "saññā",
+        "saññānaṁ",
+        "saññāpi",
+        "saññāto",
+        "saññāya",
+        "saññāyapi",
+        "saññāyaṁ",
+        "saññāyo"
+      ]
     },
     {
       "id": "sannanam-vemattata",
@@ -14389,7 +17399,14 @@
         "broader": [
           "an9.41:15.5"
         ]
-      }
+      },
+      "forms": [
+        "saññāvedayitanirodha",
+        "saññāvedayitanirodhaṁ",
+        "saññāvedayitanirodhe",
+        "saññāvedayitanirodho",
+        "saññāvedayitanirodhā"
+      ]
     },
     {
       "id": "sappurisa",
@@ -14440,7 +17457,20 @@
           "an10.148:1.5",
           "an10.192:1.6"
         ]
-      }
+      },
+      "forms": [
+        "sappurisa",
+        "sappurisassa",
+        "sappurisañca",
+        "sappurisaṁ",
+        "sappurise",
+        "sappurisehi",
+        "sappurisena",
+        "sappuriso",
+        "sappurisoti",
+        "sappurisā",
+        "sappurisānaṁ"
+      ]
     },
     {
       "id": "sappurisadhammo",
@@ -14616,7 +17646,16 @@
           "pli-tv-bi-vb-pc18:1.6",
           "(+126)"
         ]
-      }
+      },
+      "forms": [
+        "sati",
+        "satiyaṁ",
+        "satiyā",
+        "satiyāpi",
+        "satiñca",
+        "satiṁ",
+        "satī"
+      ]
     },
     {
       "id": "satibala",
@@ -14635,7 +17674,12 @@
           "an5.14:4.1",
           "an7.4:6.1"
         ]
-      }
+      },
+      "forms": [
+        "satibalañca",
+        "satibalaṁ",
+        "satibalena"
+      ]
     },
     {
       "id": "satindriya",
@@ -14656,7 +17700,14 @@
           "sn48.10:3.1",
           "sn48.11:3.1"
         ]
-      }
+      },
+      "forms": [
+        "satindriya",
+        "satindriyampi",
+        "satindriyassa",
+        "satindriyaṁ",
+        "satindriyena"
+      ]
     },
     {
       "id": "satipatthana",
@@ -14685,7 +17736,17 @@
           "an10.61:6.8",
           "an10.62:6.8"
         ]
-      }
+      },
+      "forms": [
+        "satipaṭṭhāna",
+        "satipaṭṭhānañca",
+        "satipaṭṭhānaṁ",
+        "satipaṭṭhāne",
+        "satipaṭṭhānesu",
+        "satipaṭṭhānā",
+        "satipaṭṭhānānaṁ",
+        "satipaṭṭhānāti"
+      ]
     },
     {
       "id": "satipatthanabhavana",
@@ -14702,7 +17763,12 @@
         "patterns": [
           "sn47.40:2.1"
         ]
-      }
+      },
+      "forms": [
+        "satipaṭṭhānabhāvanañca",
+        "satipaṭṭhānabhāvanaṁ",
+        "satipaṭṭhānabhāvanā"
+      ]
     },
     {
       "id": "satipatthanabhavanagamini-patipada",
@@ -14732,7 +17798,13 @@
           "sn46.2:9.1",
           "sn46.51:6.1"
         ]
-      }
+      },
+      "forms": [
+        "satisambojjhaṅgassa",
+        "satisambojjhaṅgaṁ",
+        "satisambojjhaṅgo",
+        "satisambojjhaṅgoti"
+      ]
     },
     {
       "id": "sattasattari-nanavatthuni",
@@ -14793,7 +17865,13 @@
           "pli-tv-bu-vb-sk59:1.4.1",
           "pli-tv-bu-vb-ss1:3.2.35"
         ]
-      }
+      },
+      "forms": [
+        "satthā",
+        "satthāpi",
+        "satthāti",
+        "satthāva"
+      ]
     },
     {
       "id": "sattha-devamanussanam",
@@ -14871,7 +17949,23 @@
         "vinaya": [
           "pli-tv-bu-vb-pj1:8.3.30"
         ]
-      }
+      },
+      "forms": [
+        "sāvaka",
+        "sāvakassa",
+        "sāvakaṁ",
+        "sāvake",
+        "sāvakehi",
+        "sāvakena",
+        "sāvakesu",
+        "sāvako",
+        "sāvakopi",
+        "sāvakoti",
+        "sāvakā",
+        "sāvakānañca",
+        "sāvakānaṁ",
+        "sāvakāti"
+      ]
     },
     {
       "id": "sekha",
@@ -14902,7 +17996,23 @@
           "mn152:17.1",
           "an3.73:3.3"
         ]
-      }
+      },
+      "forms": [
+        "sekha",
+        "sekhampi",
+        "sekhassa",
+        "sekhañhi",
+        "sekhaṁ",
+        "sekhena",
+        "sekho",
+        "sekhopi",
+        "sekhoti",
+        "sekhā",
+        "sekhāna",
+        "sekhānaṁ",
+        "sekhāpi",
+        "sekhāya"
+      ]
     },
     {
       "id": "sekha-panna",
@@ -14974,7 +18084,11 @@
           "pli-tv-bu-vb-pj4:3.44",
           "pli-tv-bu-vb-ss12:1.11"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "seyyathāpi"
+      ]
     },
     {
       "id": "sihaseyya",
@@ -14991,7 +18105,11 @@
         "patterns": [
           "an4.246:3.1"
         ]
-      }
+      },
+      "forms": [
+        "sīhaseyyaṁ",
+        "sīhaseyyā"
+      ]
     },
     {
       "id": "sila",
@@ -15040,28 +18158,64 @@
           "an8.54:11.3",
           "(+3)"
         ]
-      }
+      },
+      "forms": [
+        "sīla",
+        "sīlameva",
+        "sīlampi",
+        "sīlasmiṁ",
+        "sīlassa",
+        "sīlato",
+        "sīlañca",
+        "sīlañhi",
+        "sīlaṁ",
+        "sīle",
+        "sīlehi",
+        "sīlena",
+        "sīlesu",
+        "sīlo",
+        "sīlā",
+        "sīlāna",
+        "sīlānaṁ",
+        "sīlāni",
+        "sīlāse"
+      ]
     },
     {
       "id": "silabbata",
       "num": 360,
       "pali": "sīlabbata",
       "ru": "правила-обеты (из sīlabbataparāmāsa)",
-      "en": "rules-vows"
+      "en": "rules-vows",
+      "forms": [
+        "sīlabbataṁ",
+        "sīlabbatena",
+        "sīlabbatenāpi",
+        "sīlabbatāni"
+      ]
     },
     {
       "id": "silabbataparamasa",
       "num": 288,
       "pali": "sīlabbataparāmāsa",
       "ru": "правилами-обетами-одержимость",
-      "en": "rules-vows-obsession"
+      "en": "rules-vows-obsession",
+      "forms": [
+        "sīlabbataparāmāsassa",
+        "sīlabbataparāmāsaṁ",
+        "sīlabbataparāmāso"
+      ]
     },
     {
       "id": "silabbatupadana",
       "num": null,
       "pali": "sīlabbatupādāna",
       "ru": "правил-обетов-поддерживание",
-      "en": "rules-vows-sustaining"
+      "en": "rules-vows-sustaining",
+      "forms": [
+        "sīlabbatupādānassa",
+        "sīlabbatupādānaṁ"
+      ]
     },
     {
       "id": "siladhanam",
@@ -15097,7 +18251,12 @@
         "patterns": [
           "an4.194:3.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "sīlapārisuddhi",
+        "sīlapārisuddhiṁ"
+      ]
     },
     {
       "id": "silasampada",
@@ -15124,7 +18283,13 @@
           "an8.55:11.1",
           "an8.76:6.1"
         ]
-      }
+      },
+      "forms": [
+        "sīlasampadaṁ",
+        "sīlasampadā",
+        "sīlasampadāya",
+        "sīlasampadāyāti"
+      ]
     },
     {
       "id": "silavipatti",
@@ -15143,7 +18308,14 @@
           "an3.117:1.4",
           "an3.118:2.1"
         ]
-      }
+      },
+      "forms": [
+        "sīlavipatti",
+        "sīlavipattiyā",
+        "sīlavipattiṁ",
+        "sīlavipattī",
+        "sīlavipattīti"
+      ]
     },
     {
       "id": "soceyya",
@@ -15159,7 +18331,16 @@
         "definition": "Aññathā kho, cunda, … soceyyāni paññapenti, aññathā ca pana ariyassa vinaye soceyyaṁ hoti. … Tividhaṁ kho, cunda, kāyena soceyyaṁ hoti."
       },
       "dgNote": "Особое определение: Обычно: Брахманы запада с кувшинами: касаться земли, навоза, травы, поклоняться огню и солнцу, трижды окунаться в воду. В выведении благородного (ariyassa vinaye): Чистота в выведении благородного: трёхчастная телом, четырёхчастная речью, трёхчастная умом — десять направлений благотворной активности (без уничтожения живого … без алчности, без враждебности, правильный взгляд).",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "soceyya",
+        "soceyyañca",
+        "soceyyaṁ",
+        "soceyyāna",
+        "soceyyānaṁ",
+        "soceyyāni",
+        "soceyyānīti"
+      ]
     },
     {
       "id": "soka",
@@ -15186,7 +18367,16 @@
         "vinaya": [
           "pli-tv-bi-vb-pc79:2.1.13"
         ]
-      }
+      },
+      "forms": [
+        "sokassa",
+        "sokaṁ",
+        "sokehi",
+        "sokena",
+        "soko",
+        "sokā",
+        "sokāna"
+      ]
     },
     {
       "id": "somanassa",
@@ -15213,7 +18403,14 @@
         "broader": [
           "sn48.40:4.9"
         ]
-      }
+      },
+      "forms": [
+        "somanassa",
+        "somanassaṁ",
+        "somanassena",
+        "somanassāni",
+        "somanassāya"
+      ]
     },
     {
       "id": "somanassindriyam",
@@ -15291,7 +18488,27 @@
           "pli-tv-bu-vb-pc44:2.1.13",
           "pli-tv-bu-vb-pc45:2.1.15"
         ]
-      }
+      },
+      "forms": [
+        "sota",
+        "sotasmimpi",
+        "sotasmiṁ",
+        "sotassa",
+        "sotañca",
+        "sotaṁ",
+        "sote",
+        "sotehi",
+        "sotena",
+        "sotenapi",
+        "sotesu",
+        "soto",
+        "sototi",
+        "sotova",
+        "sotā",
+        "sotāna",
+        "sotānaṁ",
+        "sotāni"
+      ]
     },
     {
       "id": "sotapanna",
@@ -15330,7 +18547,20 @@
           "pli-tv-bu-vb-pc2:2.2.36",
           "pli-tv-bu-vb-pc3:2.2.18"
         ]
-      }
+      },
+      "forms": [
+        "sotāpanna",
+        "sotāpannassa",
+        "sotāpannaṁ",
+        "sotāpanne",
+        "sotāpannena",
+        "sotāpannenapi",
+        "sotāpanno",
+        "sotāpannoti",
+        "sotāpannā",
+        "sotāpannānaṁ",
+        "sotāpannāti"
+      ]
     },
     {
       "id": "soto",
@@ -15473,7 +18703,38 @@
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
-      }
+      },
+      "forms": [
+        "sukha",
+        "sukhamhi",
+        "sukhamiti",
+        "sukhampi",
+        "sukhanti",
+        "sukhasmiñca",
+        "sukhasmiṁ",
+        "sukhassa",
+        "sukhassāti",
+        "sukhato",
+        "sukhañca",
+        "sukhañhi",
+        "sukhaññeva",
+        "sukhaṁ",
+        "sukhaṁyeva",
+        "sukhe",
+        "sukhena",
+        "sukhenapi",
+        "sukho",
+        "sukhoti",
+        "sukhā",
+        "sukhānaṁ",
+        "sukhāni",
+        "sukhāpi",
+        "sukhāya",
+        "sukhāyapi",
+        "sukhāyaṁ",
+        "sukhāyo",
+        "sukhāyāti"
+      ]
     },
     {
       "id": "sukha-patipada-dandhabhinna",
@@ -15546,7 +18807,14 @@
         "definition": "Tatheva ariyavinaye, saddhā yassa patiṭṭhitā; hirīmano ca ottappī, paññavā sīlasaṁvuto. Eso kho ariyavinaye, ‘sukhajīvī’ti vuccati."
       },
       "dgNote": "Особое определение: Обычно: Домохозяин, щедрый и без долгов, живёт приятно. В выведении благородного (ariyassa vinaye): Кто устойчив в вере, стыдлив, боится проступка, понимающий, сдержан нравственностью, тот в благородном выведении называется «приятно-живущим».",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "sukhajīvi",
+        "sukhajīvino",
+        "sukhajīvinoti",
+        "sukhajīvī",
+        "sukhajīvīti"
+      ]
     },
     {
       "id": "sukhavipako-dhammo",
@@ -15655,7 +18923,15 @@
           "mn43:33.4",
           "sn41.7:4.4"
         ]
-      }
+      },
+      "forms": [
+        "suññata",
+        "suññatañca",
+        "suññataṁ",
+        "suññatā",
+        "suññatāti",
+        "suññatāya"
+      ]
     },
     {
       "id": "sunnata-cetovimutti",
@@ -15756,14 +19032,30 @@
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
-      }
+      },
+      "forms": [
+        "taṇha",
+        "taṇhanti",
+        "taṇhañca",
+        "taṇhaṁ",
+        "taṇhā",
+        "taṇhānaṁ",
+        "taṇhāsu",
+        "taṇhāti",
+        "taṇhāto",
+        "taṇhāya"
+      ]
     },
     {
       "id": "tanhapaccaya",
       "num": null,
       "pali": "taṇhāpaccayā",
       "ru": "цепляния-условием",
-      "en": "clinging as condition"
+      "en": "clinging as condition",
+      "forms": [
+        "taṇhāpaccayā",
+        "taṇhāpaccayāti"
+      ]
     },
     {
       "id": "tapaniyo-dhammo",
@@ -15793,7 +19085,12 @@
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
-      }
+      },
+      "forms": [
+        "tasinā",
+        "tasinānaṁ",
+        "tasināya"
+      ]
     },
     {
       "id": "tathagata",
@@ -15831,7 +19128,27 @@
           "an8.82:1.2",
           "(+2)"
         ]
-      }
+      },
+      "forms": [
+        "tathāgata",
+        "tathāgatassa",
+        "tathāgatasseva",
+        "tathāgatassāpi",
+        "tathāgatassāti",
+        "tathāgataññeva",
+        "tathāgataṁ",
+        "tathāgate",
+        "tathāgatena",
+        "tathāgatenāti",
+        "tathāgato",
+        "tathāgatopi",
+        "tathāgatoti",
+        "tathāgatova",
+        "tathāgatā",
+        "tathāgatānanti",
+        "tathāgatānaṁ",
+        "tathāgatāti"
+      ]
     },
     {
       "id": "tathagataseyya",
@@ -15848,7 +19165,10 @@
         "patterns": [
           "an4.246:4.1"
         ]
-      }
+      },
+      "forms": [
+        "tathāgataseyyā"
+      ]
     },
     {
       "id": "tatiya-jhana",
@@ -15923,7 +19243,14 @@
           "mn140:16.6",
           "sn14.31:1.5"
         ]
-      }
+      },
+      "forms": [
+        "tejodhātu",
+        "tejodhātuyaṁ",
+        "tejodhātuyā",
+        "tejodhātuyāpi",
+        "tejodhātuṁ"
+      ]
     },
     {
       "id": "tevijja",
@@ -15940,7 +19267,16 @@
         "definition": "Aññathā kho, brāhmaṇa, brāhmaṇā brāhmaṇaṁ tevijjaṁ paññāpenti, aññathā ca pana ariyassa vinaye tevijjo hoti. … Evaṁ kho, brāhmaṇa, ariyassa vinaye tevijjo hoti."
       },
       "dgNote": "Особое определение: Обычно: Брахманы: брахман знатного рода, знаток трёх Вед. В выведении благородного (ariyassa vinaye): Монах в четвёртой джхане направляет ум к памятованию прежних жизней, к знанию ухода и появления существ, к знанию уничтожения истечений. Так в выведении благородного становятся трёх-знающим.",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "tevijjassa",
+        "tevijjaṁ",
+        "tevijjehi",
+        "tevijjesu",
+        "tevijjo",
+        "tevijjā",
+        "tevijjānaṁ"
+      ]
     },
     {
       "id": "thinamiddha",
@@ -15953,7 +19289,19 @@
           "sn46.2:4.1",
           "sn46.51:3.1"
         ]
-      }
+      },
+      "forms": [
+        "thinamiddha",
+        "thinamiddhampi",
+        "thinamiddhanti",
+        "thinamiddhassa",
+        "thinamiddhassapi",
+        "thinamiddhañca",
+        "thinamiddhaṁ",
+        "thinamiddhaṁyeva",
+        "thinamiddho",
+        "thinamiddhā"
+      ]
     },
     {
       "id": "thitatto-puggalo",
@@ -15977,7 +19325,11 @@
       "num": 367,
       "pali": "ucchādana",
       "ru": "покрывание",
-      "en": "covering"
+      "en": "covering",
+      "forms": [
+        "ucchādanaṁ",
+        "ucchādanena"
+      ]
     },
     {
       "id": "ucchangapanno-puggalo",
@@ -16040,7 +19392,15 @@
           "sn46.2:5.1",
           "sn46.51:4.1"
         ]
-      }
+      },
+      "forms": [
+        "uddhaccasmiṁ",
+        "uddhaccassa",
+        "uddhaccañca",
+        "uddhaccaṁ",
+        "uddhaccena",
+        "uddhaccāya"
+      ]
     },
     {
       "id": "uddhaccakukkucca",
@@ -16053,14 +19413,31 @@
           "sn46.2:5.1",
           "sn46.51:4.1"
         ]
-      }
+      },
+      "forms": [
+        "uddhaccakukkucca",
+        "uddhaccakukkuccampi",
+        "uddhaccakukkuccanti",
+        "uddhaccakukkuccassa",
+        "uddhaccakukkuccassapi",
+        "uddhaccakukkuccañca",
+        "uddhaccakukkuccaṁ",
+        "uddhaccakukkuccaṁyeva",
+        "uddhaccakukkuccā"
+      ]
     },
     {
       "id": "uddhambhagiya",
       "num": 308,
       "pali": "uddhambhāgiya",
       "ru": "восходящие",
-      "en": "ascending"
+      "en": "ascending",
+      "forms": [
+        "uddhambhāgiyā",
+        "uddhambhāgiyāna",
+        "uddhambhāgiyānaṁ",
+        "uddhambhāgiyāni"
+      ]
     },
     {
       "id": "ujuppatipanno",
@@ -16106,14 +19483,33 @@
           "sn35.62:20.8",
           "sn38.12:1.11"
         ]
-      }
+      },
+      "forms": [
+        "upādāna",
+        "upādānanti",
+        "upādānasmiṁ",
+        "upādānassa",
+        "upādānañca",
+        "upādānaṁ",
+        "upādāne",
+        "upādānā",
+        "upādānāna",
+        "upādānānaṁ",
+        "upādānāni",
+        "upādānānīti",
+        "upādānāya"
+      ]
     },
     {
       "id": "upadanapaccaya",
       "num": null,
       "pali": "upādānapaccayā",
       "ru": "поддерживания-условием",
-      "en": "sustaining as condition"
+      "en": "sustaining as condition",
+      "forms": [
+        "upādānapaccayā",
+        "upādānapaccayāti"
+      ]
     },
     {
       "id": "upadaniya-dhamma",
@@ -16197,7 +19593,19 @@
         "patterns": [
           "dn28:18.3"
         ]
-      }
+      },
+      "forms": [
+        "upadhayo",
+        "upadhi",
+        "upadhismiṁ",
+        "upadhiñca",
+        "upadhiñhi",
+        "upadhiṁ",
+        "upadhī",
+        "upadhīhi",
+        "upadhīnaṁ",
+        "upadhīsu"
+      ]
     },
     {
       "id": "upakkilesa",
@@ -16209,7 +19617,17 @@
         "patterns": [
           "mn7:3.1"
         ]
-      }
+      },
+      "forms": [
+        "upakkilesa",
+        "upakkilesaṁ",
+        "upakkilese",
+        "upakkilesehi",
+        "upakkilesena",
+        "upakkileso",
+        "upakkilesoti",
+        "upakkilesā"
+      ]
     },
     {
       "id": "upasamaya",
@@ -16239,7 +19657,12 @@
           "dn22:18.26",
           "mn141:18.3"
         ]
-      }
+      },
+      "forms": [
+        "upāyāsehi",
+        "upāyāso",
+        "upāyāsā"
+      ]
     },
     {
       "id": "upekkha",
@@ -16270,7 +19693,18 @@
         "vinaya": [
           "pli-tv-bu-vb-pj1:1.5.6"
         ]
-      }
+      },
+      "forms": [
+        "upekkha",
+        "upekkhañhi",
+        "upekkhaṁ",
+        "upekkhe",
+        "upekkhā",
+        "upekkhāsu",
+        "upekkhāti",
+        "upekkhāya",
+        "upekkhāyeva"
+      ]
     },
     {
       "id": "upekkhasambojjhanga",
@@ -16283,7 +19717,13 @@
           "sn46.2:15.1",
           "sn46.51:12.1"
         ]
-      }
+      },
+      "forms": [
+        "upekkhāsambojjhaṅgassa",
+        "upekkhāsambojjhaṅgaṁ",
+        "upekkhāsambojjhaṅgo",
+        "upekkhāsambojjhaṅgoti"
+      ]
     },
     {
       "id": "upekkhindriyam",
@@ -16380,7 +19820,11 @@
           "an8.55:3.1",
           "an8.76:1.4"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "uṭṭhānasampadā"
+      ]
     },
     {
       "id": "vacimoneyyam",
@@ -16467,7 +19911,21 @@
           "pli-tv-bu-vb-pc22:1.9",
           "(+5)"
         ]
-      }
+      },
+      "forms": [
+        "vāda",
+        "vādamhi",
+        "vādañca",
+        "vādañhi",
+        "vādaṁ",
+        "vāde",
+        "vādehi",
+        "vādehīti",
+        "vādena",
+        "vādesu",
+        "vādo",
+        "vādā"
+      ]
     },
     {
       "id": "vadha",
@@ -16483,7 +19941,18 @@
         "definition": "Vadho heso, kesi, ariyassa vinaye— yaṁ na tathāgato vattabbaṁ anusāsitabbaṁ maññati."
       },
       "dgNote": "Особое определение: Обычно: Кеси: Татхагате ведь не подобает убивать. В выведении благородного (ariyassa vinaye): Когда Татхагата и знающие товарищи по святой жизни не считают человека достойным разговора и наставления — это в выведении благородного «убийство».",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "vadha",
+        "vadhassa",
+        "vadhaṁ",
+        "vadhe",
+        "vadhena",
+        "vadho",
+        "vadhoyeva",
+        "vadhā",
+        "vadhāya"
+      ]
     },
     {
       "id": "vagga",
@@ -16508,7 +19977,22 @@
           "an2.43:1.6",
           "an3.95:3.2"
         ]
-      }
+      },
+      "forms": [
+        "vagga",
+        "vaggameva",
+        "vaggasmiṁ",
+        "vaggaṁ",
+        "vagge",
+        "vaggehi",
+        "vaggena",
+        "vaggenāpi",
+        "vaggo",
+        "vaggoti",
+        "vaggā",
+        "vaggānaṁ",
+        "vaggāpi"
+      ]
     },
     {
       "id": "vagga-parisa",
@@ -16586,7 +20070,17 @@
           "pli-tv-bu-vb-pj1:5.8.15",
           "pli-tv-bu-vb-pj2:3.35"
         ]
-      }
+      },
+      "forms": [
+        "vayañca",
+        "vayaṁ",
+        "vayena",
+        "vayo",
+        "vayopi",
+        "vayoti",
+        "vayā",
+        "vayāya"
+      ]
     },
     {
       "id": "vayodhatu",
@@ -16613,7 +20107,16 @@
           "mn140:17.6",
           "sn14.31:1.6"
         ]
-      }
+      },
+      "forms": [
+        "vāyodhātu",
+        "vāyodhātuyaṁ",
+        "vāyodhātuyā",
+        "vāyodhātuyāpi",
+        "vāyodhātuṁ",
+        "vāyodhātū",
+        "vāyodhātūti"
+      ]
     },
     {
       "id": "vedana",
@@ -16683,7 +20186,25 @@
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
-      }
+      },
+      "forms": [
+        "vedana",
+        "vedanañca",
+        "vedanaññeva",
+        "vedanaṁ",
+        "vedanaṁyeva",
+        "vedanā",
+        "vedanāhi",
+        "vedanānañca",
+        "vedanānaṁ",
+        "vedanāpi",
+        "vedanāsu",
+        "vedanāti",
+        "vedanāya",
+        "vedanāyapi",
+        "vedanāyaṁ",
+        "vedanāyo"
+      ]
     },
     {
       "id": "vedananam-vemattata",
@@ -16731,14 +20252,23 @@
         "broader": [
           "sn47.31:2.1"
         ]
-      }
+      },
+      "forms": [
+        "vedanānupassana",
+        "vedanānupassanā",
+        "vedanānupassanāti"
+      ]
     },
     {
       "id": "vedanapaccaya",
       "num": null,
       "pali": "vedanāpaccayā",
       "ru": "чувствования-условием",
-      "en": "feeling as condition"
+      "en": "feeling as condition",
+      "forms": [
+        "vedanāpaccayā",
+        "vedanāpaccayāti"
+      ]
     },
     {
       "id": "veramani",
@@ -16750,21 +20280,40 @@
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
-      }
+      },
+      "forms": [
+        "veramaṇiyo",
+        "veramaṇiyoti",
+        "veramaṇiyā",
+        "veramaṇiṁ",
+        "veramaṇī",
+        "veramaṇīpi"
+      ]
     },
     {
       "id": "vibhava",
       "num": 322,
       "pali": "vibhava",
       "ru": "разлучение (не-бытие)",
-      "en": "separation (non-being)"
+      "en": "separation (non-being)",
+      "forms": [
+        "vibhavañca",
+        "vibhavaṁ",
+        "vibhavena",
+        "vibhavo",
+        "vibhavā",
+        "vibhavāya"
+      ]
     },
     {
       "id": "vibhavatanha",
       "num": 323,
       "pali": "vibhavataṇhā",
       "ru": "разлучения-цепляние",
-      "en": "separation-clinging"
+      "en": "separation-clinging",
+      "forms": [
+        "vibhavataṇhā"
+      ]
     },
     {
       "id": "vicara",
@@ -16780,7 +20329,11 @@
         "broader": [
           "dn1:3.22.6"
         ]
-      }
+      },
+      "forms": [
+        "vicāre",
+        "vicāro"
+      ]
     },
     {
       "id": "vicikiccha",
@@ -16794,14 +20347,30 @@
           "sn46.51:5.1",
           "an7.54:1.2"
         ]
-      }
+      },
+      "forms": [
+        "vicikiccha",
+        "vicikicchañca",
+        "vicikicchaṁ",
+        "vicikicchaṁyeva",
+        "vicikicchā",
+        "vicikicchānaṁ",
+        "vicikicchāpi",
+        "vicikicchāti",
+        "vicikicchāya"
+      ]
     },
     {
       "id": "vicikicchanusaya",
       "num": 326,
       "pali": "vicikicchānusaya",
       "ru": "к-непрояснению-предрасположенность",
-      "en": "predisposition-to-unclarity"
+      "en": "predisposition-to-unclarity",
+      "forms": [
+        "vicikicchānusayassa",
+        "vicikicchānusayo",
+        "vicikicchānusayānaṁ"
+      ]
     },
     {
       "id": "vidha",
@@ -16833,7 +20402,15 @@
           "pli-tv-bu-vb-pj1:3.2.6",
           "pli-tv-bu-vb-ss13:1.1.6"
         ]
-      }
+      },
+      "forms": [
+        "vidhanti",
+        "vidhaṁ",
+        "vidhe",
+        "vidhā",
+        "vidhānaṁ",
+        "vidhāsu"
+      ]
     },
     {
       "id": "vihara",
@@ -16860,7 +20437,23 @@
           "pli-tv-bu-vb-pj2:4.11.1",
           "pli-tv-bu-vb-ss7:2.3"
         ]
-      }
+      },
+      "forms": [
+        "vihāra",
+        "vihārassa",
+        "vihārato",
+        "vihāraṁ",
+        "vihāre",
+        "vihārehi",
+        "vihārena",
+        "vihāresu",
+        "vihāresūti",
+        "vihāro",
+        "vihāroti",
+        "vihārā",
+        "vihārāya",
+        "vihārāyāti"
+      ]
     },
     {
       "id": "vihesa",
@@ -16873,7 +20466,17 @@
           "pli-tv-bi-vb-ss12:2.1.11",
           "pli-tv-bu-vb-pc12:2.2"
         ]
-      }
+      },
+      "forms": [
+        "vihesa",
+        "vihesañca",
+        "vihesaṁ",
+        "vihese",
+        "vihesā",
+        "vihesānaṁ",
+        "vihesāti",
+        "vihesāya"
+      ]
     },
     {
       "id": "vijja",
@@ -16971,7 +20574,10 @@
           "sn51.9:4.1",
           "sn51.13:4.2"
         ]
-      }
+      },
+      "forms": [
+        "vīmaṁsāsamādhi"
+      ]
     },
     {
       "id": "vimamsasamadhippadhanasankharasamannagata-iddhipada",
@@ -17030,7 +20636,16 @@
         "vinaya": [
           "pli-tv-bu-vb-pj1:1.8.5"
         ]
-      }
+      },
+      "forms": [
+        "vimutti",
+        "vimuttinti",
+        "vimuttiyā",
+        "vimuttiyāti",
+        "vimuttiṁ",
+        "vimuttī",
+        "vimuttīti"
+      ]
     },
     {
       "id": "vimuttiparisuddhi",
@@ -17047,7 +20662,12 @@
         "patterns": [
           "an4.194:6.1"
         ]
-      }
+      },
+      "forms": [
+        "",
+        "vimuttipārisuddhi",
+        "vimuttipārisuddhiṁ"
+      ]
     },
     {
       "id": "vinaya",
@@ -17086,7 +20706,25 @@
           "pli-tv-bu-vb-pc63:2.1.8",
           "pli-tv-bu-vb-pc79:2.1.6"
         ]
-      }
+      },
+      "forms": [
+        "vinaya",
+        "vinayamhi",
+        "vinayasmiṁ",
+        "vinayassa",
+        "vinayato",
+        "vinayañca",
+        "vinayaṁ",
+        "vinaye",
+        "vinayena",
+        "vinayenāti",
+        "vinayesu",
+        "vinayo",
+        "vinayoti",
+        "vinayā",
+        "vinayāni",
+        "vinayāya"
+      ]
     },
     {
       "id": "vinnana",
@@ -17141,14 +20779,43 @@
         "vinaya": [
           "pli-tv-bu-vb-pj3:3.8"
         ]
-      }
+      },
+      "forms": [
+        "viññāṇa",
+        "viññāṇameva",
+        "viññāṇamhā",
+        "viññāṇampi",
+        "viññāṇanti",
+        "viññāṇasmimpi",
+        "viññāṇasmiṁ",
+        "viññāṇasmā",
+        "viññāṇassa",
+        "viññāṇañca",
+        "viññāṇaññeva",
+        "viññāṇaṁ",
+        "viññāṇaṁyeva",
+        "viññāṇe",
+        "viññāṇena",
+        "viññāṇesu",
+        "viññāṇā",
+        "viññāṇānaṁ",
+        "viññāṇāya",
+        "viññāṇāyāti"
+      ]
     },
     {
       "id": "vinnanadhatu",
       "num": 336,
       "pali": "viññāṇadhātu",
       "ru": "внимания-распознавания-дхату",
-      "en": "attention-recognition-dhatu"
+      "en": "attention-recognition-dhatu",
+      "forms": [
+        "viññāṇadhātu",
+        "viññāṇadhātuyaṁ",
+        "viññāṇadhātuyā",
+        "viññāṇadhātuyāpi",
+        "viññāṇadhātuṁ"
+      ]
     },
     {
       "id": "vinnanancayatana",
@@ -17169,14 +20836,28 @@
           "sn14.11:3.5",
           "an9.41:12.5"
         ]
-      }
+      },
+      "forms": [
+        "viññāṇañcāyatana",
+        "viññāṇañcāyatanampi",
+        "viññāṇañcāyatananti",
+        "viññāṇañcāyatanasmiṁ",
+        "viññāṇañcāyatanato",
+        "viññāṇañcāyatanaṁ",
+        "viññāṇañcāyatane",
+        "viññāṇañcāyatanā"
+      ]
     },
     {
       "id": "vinnanapaccaya",
       "num": null,
       "pali": "viññāṇapaccayā",
       "ru": "распознавания-условием",
-      "en": "recognition as condition"
+      "en": "recognition as condition",
+      "forms": [
+        "viññāṇapaccayā",
+        "viññāṇapaccayāti"
+      ]
     },
     {
       "id": "vipaka",
@@ -17198,21 +20879,43 @@
           "an10.144:1.5",
           "an10.188:1.6"
         ]
-      }
+      },
+      "forms": [
+        "vipākato",
+        "vipākañca",
+        "vipākaṁ",
+        "vipākena",
+        "vipāko",
+        "vipākoti",
+        "vipākā"
+      ]
     },
     {
       "id": "vipallasa",
       "num": 364,
       "pali": "vipallāsa",
       "ru": "искажение",
-      "en": "distortion"
+      "en": "distortion",
+      "forms": [
+        "vipallāsa",
+        "vipallāsampi",
+        "vipallāsaṁ",
+        "vipallāso",
+        "vipallāsā"
+      ]
     },
     {
       "id": "vipassana",
       "num": 339,
       "pali": "vipassanā",
       "ru": "рассматривание, высматривание",
-      "en": "examining, looking-into"
+      "en": "examining, looking-into",
+      "forms": [
+        "vipassanañca",
+        "vipassanaṁ",
+        "vipassanā",
+        "vipassanāya"
+      ]
     },
     {
       "id": "viraga",
@@ -17233,7 +20936,18 @@
           "sn45.41:1.11",
           "an10.60:9.4"
         ]
-      }
+      },
+      "forms": [
+        "virāga",
+        "virāgassa",
+        "virāgañca",
+        "virāgaṁ",
+        "virāge",
+        "virāgena",
+        "virāgo",
+        "virāgā",
+        "virāgāya"
+      ]
     },
     {
       "id": "viragasanna",
@@ -17250,7 +20964,11 @@
         "patterns": [
           "an10.60:9.1"
         ]
-      }
+      },
+      "forms": [
+        "virāgasaññaṁ",
+        "virāgasaññā"
+      ]
     },
     {
       "id": "viriya",
@@ -17284,7 +21002,19 @@
           "sn51.9:2.1",
           "sn51.13:2.2"
         ]
-      }
+      },
+      "forms": [
+        "vīriya",
+        "vīriyamhi",
+        "vīriyampi",
+        "vīriyanti",
+        "vīriyassa",
+        "vīriyañca",
+        "vīriyaṁ",
+        "vīriye",
+        "vīriyena",
+        "vīriyā"
+      ]
     },
     {
       "id": "viriyabala",
@@ -17307,7 +21037,11 @@
           "an7.4:3.1",
           "an9.5:2.1"
         ]
-      }
+      },
+      "forms": [
+        "vīriyabalaṁ",
+        "vīriyabalena"
+      ]
     },
     {
       "id": "viriyasamadhi",
@@ -17320,7 +21054,10 @@
           "sn51.9:2.1",
           "sn51.13:2.2"
         ]
-      }
+      },
+      "forms": [
+        "vīriyasamādhi"
+      ]
     },
     {
       "id": "viriyasamadhippadhanasankharasamannagata-iddhipada",
@@ -17346,7 +21083,13 @@
           "sn46.2:11.1",
           "sn46.51:8.1"
         ]
-      }
+      },
+      "forms": [
+        "vīriyasambojjhaṅgassa",
+        "vīriyasambojjhaṅgaṁ",
+        "vīriyasambojjhaṅgo",
+        "vīriyasambojjhaṅgoti"
+      ]
     },
     {
       "id": "viriyindriya",
@@ -17367,7 +21110,14 @@
           "sn48.10:2.1",
           "sn48.11:2.1"
         ]
-      }
+      },
+      "forms": [
+        "vīriyindriya",
+        "vīriyindriyampi",
+        "vīriyindriyassa",
+        "vīriyindriyaṁ",
+        "vīriyindriyena"
+      ]
     },
     {
       "id": "visama-parisa",
@@ -17409,14 +21159,42 @@
           "an5.74:5.2",
           "an9.41:8.5"
         ]
-      }
+      },
+      "forms": [
+        "vitakka",
+        "vitakkassa",
+        "vitakkaṁ",
+        "vitakke",
+        "vitakkehi",
+        "vitakkena",
+        "vitakkesu",
+        "vitakko",
+        "vitakkoti",
+        "vitakkā",
+        "vitakkānaṁ",
+        "vitakkāni",
+        "vitakkāya"
+      ]
     },
     {
       "id": "viveka",
       "num": 346,
       "pali": "viveka",
       "ru": "уединение, разъединение",
-      "en": "seclusion, disconnection"
+      "en": "seclusion, disconnection",
+      "forms": [
+        "viveka",
+        "vivekamhā",
+        "vivekanti",
+        "vivekaññeva",
+        "vivekaṁ",
+        "viveke",
+        "vivekena",
+        "viveko",
+        "vivekā",
+        "vivekānaṁ",
+        "vivekāya"
+      ]
     },
     {
       "id": "voharasamuccheda",
@@ -17432,7 +21210,13 @@
         "definition": "aṭṭha kho ime, gahapati, dhammā ariyassa vinaye vohārasamucchedāya saṁvattanti. … Ettāvatā kho, gahapati, ariyassa vinaye sabbena sabbaṁ sabbathā sabbaṁ vohārasamucchedo hoti."
       },
       "dgNote": "Особое определение: Обычно: Домохозяин Поталия: «отказался от всех дел, отдал имущество детям». В выведении благородного (ariyassa vinaye): Восемь вещей ведут в выведении благородного к отсечению дел: опираясь на не-уничтожение живого, оставить уничтожение живого; … опираясь на не-высокомерие, оставить высокомерие. Полное отсечение: увидев опасность желаний (сравнения с костью, куском мяса и др.), монах достигает чистоты памятования через равностное-видение и трёх знаний.",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "vohārasamucchedaṁ",
+        "vohārasamucchedo",
+        "vohārasamucchedā",
+        "vohārasamucchedāya"
+      ]
     },
     {
       "id": "vuddhi",
@@ -17457,7 +21241,16 @@
         "definition": "Vuddhihesā ariyassa vinaye, yo accayaṁ accayato disvā yathādhammaṁ paṭikaroti, āyatiṁ saṁvaraṁ āpajjati."
       },
       "dgNote": "Особое определение: Обычно: Признание проступка. В выведении благородного (ariyassa vinaye): Когда видят проступок как проступок, исправляют по Дхамме и впредь сдерживаются — это рост в выведении благородного.",
-      "kind": "special: ariyassa vinaye"
+      "kind": "special: ariyassa vinaye",
+      "forms": [
+        "vuddhi",
+        "vuddhiyeva",
+        "vuddhiyo",
+        "vuddhiyoti",
+        "vuddhiyā",
+        "vuddhiṁ",
+        "vuddhīnaṁ"
+      ]
     },
     {
       "id": "vupasama",
@@ -17473,7 +21266,19 @@
           "pli-tv-bi-vb-pc45:1.5",
           "pli-tv-bu-vb-pj3:1.3.1"
         ]
-      }
+      },
+      "forms": [
+        "vūpasama",
+        "vūpasamaṁ",
+        "vūpasame",
+        "vūpasamehi",
+        "vūpasamehīti",
+        "vūpasamena",
+        "vūpasamo",
+        "vūpasamā",
+        "vūpasamāya",
+        "vūpasamāyāti"
+      ]
     },
     {
       "id": "yampiccham-na-labhati",
@@ -17511,7 +21316,11 @@
           "mn79:43.2",
           "(+52)"
         ]
-      }
+      },
+      "forms": [
+        "yathābhūtañhi",
+        "yathābhūtaṁ"
+      ]
     },
     {
       "id": "yoga",
@@ -17542,7 +21351,18 @@
           "sn56.13:6.1",
           "(+42)"
         ]
-      }
+      },
+      "forms": [
+        "yogasmiñca",
+        "yogasmiṁ",
+        "yogassa",
+        "yogaṁ",
+        "yogehi",
+        "yogena",
+        "yogo",
+        "yogā",
+        "yogānaṁ"
+      ]
     },
     {
       "id": "yogakkhema",
@@ -17559,7 +21379,14 @@
           "sn35.104:1.11",
           "sn48.58:2.7"
         ]
-      }
+      },
+      "forms": [
+        "yogakkhemassa",
+        "yogakkhemaṁ",
+        "yogakkhemo",
+        "yogakkhemā",
+        "yogakkhemāya"
+      ]
     },
     {
       "id": "yoniso-manasikara",
@@ -17573,7 +21400,10 @@
           "an10.61:2.17",
           "an10.62:2.20"
         ]
-      }
+      },
+      "forms": [
+        ""
+      ]
     }
   ]
 }
