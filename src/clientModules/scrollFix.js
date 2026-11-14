@@ -9,7 +9,10 @@
 // already restored a stale offset before this module runs, undo it once here too — but only
 // when the URL has no hash, so a legitimate deep link to a heading (`#some-heading`) still
 // works normally.
-if (typeof window !== 'undefined' && 'scrollRestoration' in window.history) {
+//
+// Only on that page (/sutta, en and ru): everywhere else a reload must keep the reader where they were, as browsers do
+// (f3-ultra 2026-11-14: /ru/docs/policies scrolled to y 2730, Reload -> back at the top).
+if (typeof window !== 'undefined' && 'scrollRestoration' in window.history && /\/docs\/sutta\/?$/.test(window.location.pathname)) {
   window.history.scrollRestoration = 'manual';
   if (!window.location.hash) {
     window.scrollTo(0, 0);
