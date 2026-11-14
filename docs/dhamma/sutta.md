@@ -59,6 +59,8 @@ The three recollections are not only a religious form. The qualities with which 
 
 In SN 22.43 one who lives as an island examines the root itself: where sorrow, lamentation, pain, displeasure and distress are born from (<SiteLink to="/sn22.43:1.3?lang=en&hide=id">SN 22.43:1.3</SiteLink>). After the Buddha's passing, the Dhamma and Vinaya he taught remain as the teacher (<SiteLink to="/dn16:6.1.5?lang=en&hide=id">DN 16:6.1.5</SiteLink>). A reading that rests only on an interpreter's authority is another refuge. <SuttaLink index={34}>Read →</SuttaLink>
 
+Friends are not superfluous here. Ānanda calls good friendship half of the holy life, and the Buddha corrects him: not half, the whole holy life (<SiteLink to="/sn45.2:2.2?lang=en&hide=id">SN 45.2:2.2</SiteLink>). But he names the chief good friend himself: "relying on me as a good friend", beings are freed from birth, ageing, death, from sorrow, lamentation, pain, displeasure and distress (<SiteLink to="/sn45.2:4.2?lang=en&hide=id">SN 45.2:4.2</SiteLink>). Friends help, and the measure of their words is the same: the Dhamma. <SuttaLink index={35}>Read →</SuttaLink>
+
 ## A disciple's analysis confirmed by the Buddha
 
 A disciple's words carry the weight of the Teacher's when the Buddha himself confirmed them. Of Mahākaccāna's analysis he says: if you asked me, I would explain it in just the same way (<SiteLink to="/mn18:21.2?lang=en&hide=id">MN 18:21.2</SiteLink>). The same of the nun Dhammadinnā's analysis (<SiteLink to="/mn44:30.5?lang=en&hide=id">MN 44:30.5</SiteLink>). In MN 141 the Buddha says beforehand that Sāriputta is able to set out and analyse the four noble truths in detail (<SiteLink to="/mn141:5.7?lang=en&hide=id">MN 141:5.7</SiteLink>), and the rest of the sutta is that analysis.
@@ -241,6 +243,7 @@ relevant line:
   { label: 'MN 22 · chinnapilotiko', desc: 'The Dhamma well formulated, with the patchwork cut away.', src: '/mn22:42.1?lang=en&hide=id' },
   { label: 'AN 4.23 · Loka', desc: 'All that is said from awakening to nibbāna is so and not otherwise.', src: '/an4.23:3.1?lang=en&hide=id' },
   { label: 'SN 47.13 · Cunda', desc: 'The island: the Dhamma and one\'s own observation, no other refuge.', src: '/sn47.13:6.9?lang=en&hide=id' },
+  { label: 'SN 45.2 · Upaḍḍha', desc: 'Good friendship is the whole holy life; the chief good friend is the Buddha.', src: '/sn45.2:4.2?lang=en&hide=id' },
 ]} />
 
 ## See also
