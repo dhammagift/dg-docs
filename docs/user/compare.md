@@ -48,6 +48,7 @@ Try it: [sn56.11](https://dhamma.gift/sn56.11?mode=multi&editions=ms,bjt,my,th,m
 | | what | where |
 |---|---|---|
 | ✅ | no Pātimokkha: the Mahāmakuṭa Pātimokkha is shown, its preliminaries whole in the first line | [pli-tv-bu-pm:1.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ✅ | Mahāmakuṭa Pātimokkha: OCR misreadings corrected against the Vibhaṅga rules and VRI (`piṇghapātaṃ` → `piṇḍapātaṃ`, `paṭinissajajeyya` → `paṭinissajjeyya` …), 51 lines | [pli-tv-bu-pm:194.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### Buddha Jayanti (BJT)
 
@@ -64,6 +65,7 @@ Reported: [tipitaka.lk#154](https://github.com/pathnirvana/tipitaka.lk/issues/15
 |---|---|---|
 | ✅ | Pātimokkha rule names and section titles ran into the text | [pli-tv-bu-pm:1.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 | ❗ | almost a whole book in its first line | [ya7.2.1:1.1](https://dhamma.gift/ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ➖ | `uddissamānena` for `uddissamāne na` (apart in the Vibhaṅga: "does not listen carefully"); the same in MS | [pli-tv-bu-pm:138.4](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
 
 ### Mahāsaṅgīti 2005, printed (MS05)
 

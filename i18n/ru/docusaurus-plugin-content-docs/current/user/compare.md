@@ -48,6 +48,7 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | | что | где |
 |---|---|---|
 | ✅ | нет Патимоккхи: показана Патимоккха Махамакута, её вступление целиком в первой строке | [pli-tv-bu-pm:1.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1&lang=ru) |
+| ✅ | Pātimokkha Mahāmakuṭa: ошибки распознавания (OCR) исправлены по правилам Vibhaṅga и VRI (`piṇghapātaṃ` → `piṇḍapātaṃ`, `paṭinissajajeyya` → `paṭinissajjeyya` …), 51 строка | [pli-tv-bu-pm:194.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1&lang=ru) |
 
 ### Buddha Jayanti (BJT)
 
@@ -64,6 +65,7 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 |---|---|---|
 | ✅ | названия правил Патимоккхи и разделов склеивались с текстом | [pli-tv-bu-pm:1.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1&lang=ru) |
 | ❗ | почти вся книга в первой строке | [ya7.2.1:1.1](https://dhamma.gift/ya7.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1&lang=ru) |
+| ➖ | `uddissamānena` вместо `uddissamāne na` (в Vibhaṅga раздельно: «не слушает внимательно»); так же в MS | [pli-tv-bu-pm:138.4](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1&lang=ru) |
 
 ### Mahāsaṅgīti 2005, печатная (MS05)
 
