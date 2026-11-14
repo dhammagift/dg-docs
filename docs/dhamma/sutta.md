@@ -53,6 +53,12 @@ The three recollections are not only a religious form. The qualities with which 
 
 **Sangha.** The Sangha of disciples practises the straight and true way (*ujuppaṭipanno, ñāyappaṭipanno*): the four pairs, the eight kinds of persons (<SiteLink to="/an6.10:4.2?lang=en&hide=id">AN 6.10:4.2</SiteLink>), that is, the noble disciples. Hence the next section: a disciple's analysis carries the Teacher's weight when the Buddha confirmed it.
 
+## The island: the Dhamma and one's own observation
+
+"Live as an island to yourselves, a refuge to yourselves, with no other refuge; with the Dhamma as island, the Dhamma as refuge, with no other refuge" (<SiteLink to="/dn16:2.26.1?lang=en&hide=id">DN 16:2.26.1</SiteLink>; <SiteLink to="/sn47.13:6.9?lang=en&hide=id">SN 47.13:6.9</SiteLink>). The sutta says at once how this is done: observing the body in the body, feelings in feelings, the mind in the mind, phenomena in phenomena (<SiteLink to="/sn47.13:7.1?lang=en&hide=id">SN 47.13:7.1–7.6</SiteLink>). The island here is not an opinion or a tradition, but the Dhamma and one's own observation.
+
+In SN 22.43 one who lives as an island examines the root itself: where sorrow, lamentation, pain, displeasure and distress are born from (<SiteLink to="/sn22.43:1.3?lang=en&hide=id">SN 22.43:1.3</SiteLink>). After the Buddha's passing, the Dhamma and Vinaya he taught remain as the teacher (<SiteLink to="/dn16:6.1.5?lang=en&hide=id">DN 16:6.1.5</SiteLink>). A reading that rests only on an interpreter's authority is another refuge. <SuttaLink index={34}>Read →</SuttaLink>
+
 ## A disciple's analysis confirmed by the Buddha
 
 A disciple's words carry the weight of the Teacher's when the Buddha himself confirmed them. Of Mahākaccāna's analysis he says: if you asked me, I would explain it in just the same way (<SiteLink to="/mn18:21.2?lang=en&hide=id">MN 18:21.2</SiteLink>). The same of the nun Dhammadinnā's analysis (<SiteLink to="/mn44:30.5?lang=en&hide=id">MN 44:30.5</SiteLink>). In MN 141 the Buddha says beforehand that Sāriputta is able to set out and analyse the four noble truths in detail (<SiteLink to="/mn141:5.7?lang=en&hide=id">MN 141:5.7</SiteLink>), and the rest of the sutta is that analysis.
@@ -234,6 +240,7 @@ relevant line:
   { label: 'AN 6.10 · Mahānāma', desc: 'Recollection of Buddha, Dhamma, Sangha: the qualities of the Dhamma as criteria.', src: '/an6.10:3.2?lang=en&hide=id' },
   { label: 'MN 22 · chinnapilotiko', desc: 'The Dhamma well formulated, with the patchwork cut away.', src: '/mn22:42.1?lang=en&hide=id' },
   { label: 'AN 4.23 · Loka', desc: 'All that is said from awakening to nibbāna is so and not otherwise.', src: '/an4.23:3.1?lang=en&hide=id' },
+  { label: 'SN 47.13 · Cunda', desc: 'The island: the Dhamma and one\'s own observation, no other refuge.', src: '/sn47.13:6.9?lang=en&hide=id' },
 ]} />
 
 ## See also
