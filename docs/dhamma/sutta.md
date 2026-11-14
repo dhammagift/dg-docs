@@ -39,6 +39,20 @@ and verifying it takes a check against the Suttas and the Vinaya). <SuttaLink in
 
 **AN 1.132–139**: monks who present what the Realized One did not say as said by him, and what he said as not said, act for the harm of many and make the true Dhamma disappear. So before saying "the Buddha taught this," find where it is said. If a claim is found only in the commentaries, the Abhidhamma or later texts, it cannot be passed off as the Teacher's word. <SuttaLink index={16}>Read →</SuttaLink>
 
+## Buddha, Dhamma, Sangha: keys to reading
+
+The three recollections are not only a religious form. The qualities with which the suttas describe the Buddha, the Dhamma and the Sangha work as criteria in their own right: a reading that contradicts them is in doubt.
+
+**Dhamma.** The recollection of the Dhamma: "the Dhamma is well formulated by the Blessed One, visible here and now, timeless, inviting to come and see, leading onward, to be known personally by the wise" (<SiteLink to="/an6.10:3.2?lang=en&hide=id">AN 6.10:3.2</SiteLink>). A well-formulated Dhamma does not need to be repaired by interpretation. Visible here and now and known personally: a right reading is checked by experience, not held up by a commentary. <SuttaLink index={31}>Read →</SuttaLink>
+
+**No patchwork.** "So well formulated by me is the Dhamma, opened up, made clear, with the patchwork cut away" (*chinnapilotiko*, <SiteLink to="/mn22:42.1?lang=en&hide=id">MN 22:42.1</SiteLink>; <SiteLink to="/sn12.22:2.1?lang=en&hide=id">SN 12.22:2.1</SiteLink>). If a word has to be read one way in one place and another way elsewhere, with interpretations stitched in between, that is patchwork. DN 29 calls the teaching complete, with nothing lacking and nothing in excess (*anūnamanadhikaṁ*, <SiteLink to="/dn29:16.5?lang=en&hide=id">DN 29:16.5</SiteLink>). <SuttaLink index={32}>Read →</SuttaLink>
+
+**So and not otherwise.** Everything the Realized One says between the night of awakening and the night of final nibbāna "is just so and not otherwise" (<SiteLink to="/an4.23:3.1?lang=en&hide=id">AN 4.23:3.1</SiteLink>; <SiteLink to="/dn29:29.3?lang=en&hide=id">DN 29:29.3</SiteLink>). So a term defined in one sutta means the same in another: the suttas are checked against each other, and a term has one meaning. <SuttaLink index={33}>Read →</SuttaLink>
+
+**Buddha.** The recollection of the Buddha calls him rightly awakened, knower of the world, teacher of gods and humans (<SiteLink to="/an6.10:2.3?lang=en&hide=id">AN 6.10:2.3</SiteLink>). A definition the Teacher gave weighs more than a later interpretation.
+
+**Sangha.** The Sangha of disciples practises the straight and true way (*ujuppaṭipanno, ñāyappaṭipanno*): the four pairs, the eight kinds of persons (<SiteLink to="/an6.10:4.2?lang=en&hide=id">AN 6.10:4.2</SiteLink>), that is, the noble disciples. Hence the next section: a disciple's analysis carries the Teacher's weight when the Buddha confirmed it.
+
 ## A disciple's analysis confirmed by the Buddha
 
 A disciple's words carry the weight of the Teacher's when the Buddha himself confirmed them. Of Mahākaccāna's analysis he says: if you asked me, I would explain it in just the same way (<SiteLink to="/mn18:21.2?lang=en&hide=id">MN 18:21.2</SiteLink>). The same of the nun Dhammadinnā's analysis (<SiteLink to="/mn44:30.5?lang=en&hide=id">MN 44:30.5</SiteLink>). In MN 141 the Buddha says beforehand that Sāriputta is able to set out and analyse the four noble truths in detail (<SiteLink to="/mn141:5.7?lang=en&hide=id">MN 141:5.7</SiteLink>), and the rest of the sutta is that analysis.
@@ -217,6 +231,9 @@ relevant line:
   { label: 'DN 29 · Pāsādika', desc: 'Meaning and wording: which words fit the meaning better, which meaning fits the words.', src: '/dn29:18.3?lang=en&hide=id' },
   { label: 'AN 5.79', desc: 'A future danger: listening to poets\' compositions instead of the Realized One\'s words.', src: '/an5.79:5.2?lang=en&hide=id' },
   { label: 'AN 3.67 · Kathāvatthu', desc: 'How a person takes part in discussion shows whether he is fit to discuss with.', src: '/an3.67:2.2?lang=en&hide=id' },
+  { label: 'AN 6.10 · Mahānāma', desc: 'Recollection of Buddha, Dhamma, Sangha: the qualities of the Dhamma as criteria.', src: '/an6.10:3.2?lang=en&hide=id' },
+  { label: 'MN 22 · chinnapilotiko', desc: 'The Dhamma well formulated, with the patchwork cut away.', src: '/mn22:42.1?lang=en&hide=id' },
+  { label: 'AN 4.23 · Loka', desc: 'All that is said from awakening to nibbāna is so and not otherwise.', src: '/an4.23:3.1?lang=en&hide=id' },
 ]} />
 
 ## See also
