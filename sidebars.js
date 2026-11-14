@@ -64,6 +64,7 @@ const sidebars = {
               ],
             },
             'user/policies',
+            'user/cite',
           ],
         },
         {
@@ -144,6 +145,7 @@ const sidebars = {
               ],
             },
             'user/policies',
+            'user/cite',
           ],
         },
         {

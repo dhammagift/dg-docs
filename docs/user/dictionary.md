@@ -140,14 +140,19 @@ Help (?, Alt+H) and Share are icons in the menu header. On
 dhamma.gift/dict the menu also has **Compass** (Alt+P) — the Dhamma.Gift quick
 window with the site's favorites and history, key suttas and Memo.
 
-### Offline mini-dictionary
+### Offline dictionary
 
-Under **Menu → Data**, a **download** button saves a small DPD dataset
-(~3.7 MB) right in the browser. Once downloaded, it works as an automatic
-fallback: if a live lookup can't reach the server, this page shows short
-entries from the downloaded data instead — no separate "offline mode" to
-turn on, it just kicks in when needed. The button turns into **delete**
-once the data is downloaded, to free the space back up.
+Under **Menu → Data**, a **download** button saves the dictionary right in the browser (~3.9 MB; on the
+Russian page ~6.1 MB, with the English meanings too):
+
+- definitions by the Suttas: for a key term, links to the suttas where the canon itself defines the word, with the
+  project's rendering;
+- DPD's short meanings.
+
+The page itself is saved too, so it opens with no network. Once downloaded, it works as an automatic fallback: if a
+live lookup can't reach the server, this page shows short entries from the downloaded data instead — no separate
+"offline mode" to turn on, it just kicks in when needed. The button turns into **delete** once the data is
+downloaded, to free the space back up.
 
 ### Other dictionaries — Alt+S
 
