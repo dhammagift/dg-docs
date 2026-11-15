@@ -105,8 +105,8 @@ Errors of SuttaCentral's version, introduced by their edits; the printed edition
 
 | | what | where |
 |---|---|---|
-| ✅ | lines out of place put back: 577 lines in 73 texts, and 150 lines in 11 texts where a repeated passage shifted the alignment | [sn35.229:1.1](https://dhamma.gift/sn35.229?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [an4.102:3.2](https://dhamma.gift/an4.102?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
-| ❗ | 1995 places left where a word stands in another line (in 777 more the edition prints a passage twice, which is no error); worked through by plan, twice a week |  |
+| ✅ | lines out of place put back: 577 lines in 73 texts, and 175 lines in 14 texts where a repeated passage shifted the alignment | [sn35.229:1.1](https://dhamma.gift/sn35.229?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1), [an4.102:3.2](https://dhamma.gift/an4.102?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1) |
+| ❗ | 1991 places left where a word stands in another line (in 777 more the edition prints a passage twice, which is no error); worked through by plan, twice a week |  |
 
 In detail, with every place: [editions-problems.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/editions-problems.md).
 ## Found a mistake?
