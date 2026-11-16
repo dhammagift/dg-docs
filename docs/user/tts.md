@@ -46,8 +46,9 @@ the translation, in three steps: kind → language → voice. The ▶ next to a
 voice plays a short sample (DG voices).
 
 :::tip[Neural voices made for Pāḷi]
-No phone or computer has a Pāḷi voice, so we made our own. They are in
-beta and still being tuned by ear, sound by sound.
+There is no ready Pāḷi voice: not on phones and computers, not in cloud services — there Pāḷi is read
+by voices of other languages (Hindi). So we made our own neural voices made for Pāḷi. They are in beta
+and still being tuned by ear, sound by sound.
 :::
 
 ### DG Voice — our own free neural voices (default)
@@ -86,11 +87,12 @@ the first of them.
 The **Cūḷa DG** and **Yojanāni DG** voices are made from recordings of real people's voices. All rights
 in these voices and their models are reserved.
 
-**Permitted:** downloading these voices and listening to texts with them on the Dhamma.Gift website and
-in the Dhamma.Gift apps, for personal, non-commercial use.
+**Permitted only:** downloading these voices and listening to texts with them on the Dhamma.Gift website
+and in the Dhamma.Gift apps.
 
 **Prohibited without prior written permission from Dhamma.Gift:**
-- using these voices or their models outside the Dhamma.Gift website and apps;
+- any use of these voices or their models outside the Dhamma.Gift website and apps, personal and
+  non-commercial use included;
 - copying, distributing, publishing or passing on the model files to third parties;
 - cloning or imitating these voices;
 - training or fine-tuning other models on these models or on the audio they produce;
