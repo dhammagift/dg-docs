@@ -11,7 +11,7 @@ import TtsAbLoop from '@site/static/img/help/tts-ab-loop-en.png';
 
 # Voice / TTS
 
-> The Dhamma was originally an oral teaching. — <SiteLink to="/an5.209">AN 5.209</SiteLink>
+> "There are these five dangers, monks, for one who recites the Dhamma in a drawn-out singing voice: he is charmed by the sound himself; others are charmed by it; householders take offence: 'the ascetics, sons of the Sakyan, sing just as we sing'; one who craves a fine sound breaks his samādhi; and the next generation follows the example." — <SiteLink to="/an5.209:1.1?lang=en&hide=id">AN 5.209:1.1–1.5</SiteLink>
 
 Live demo — voice mode starts automatically via a URL parameter, no
 clicking required (the floating player at the bottom is the point here, not
