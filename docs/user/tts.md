@@ -45,9 +45,9 @@ In **⚙ → Voice settings** you choose the voice separately for Pāḷi and fo
 the translation, in three steps: kind → language → voice. The ▶ next to a
 voice plays a short sample (DG voices).
 
-:::tip[The first neural Pāḷi voices]
-We built neural voices that read Pāḷi itself — to our knowledge, the first in the world. Every
-sound, vowel length and stress has been checked by ear in blind listening rounds.
+:::tip[The first neural voices that speak Pāḷi]
+DG Voice are the first neural voices that read Pāḷi as plain speech, not chant: with Pāḷi's long and
+short vowels, and without the singing voice <SiteLink to="/an5.209:1.1?lang=en&hide=id">AN 5.209</SiteLink> warns about.
 :::
 
 ### DG Voice — our own free neural voices (default)
