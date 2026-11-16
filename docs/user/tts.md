@@ -56,13 +56,9 @@ They run on our server: no key, no limits, nothing to install. Each one
 can also be downloaded to your device and then reads without internet.
 
 - **Pāḷi**
-  - **Pratham ♂ · Piper** (default): a neural voice (Piper) that reads Pāḷi
-    through our own Pāḷi pronunciation rules (letters → sounds, stress,
-    long vowels), tuned in blind listening rounds. Beta.
-  - **Cūḷa DG ♂ · beta**: a voice trained on real Pāḷi readings.
-    Its pronunciation is closer to living Pāḷi, but the sound is still
-    rough. A new version is on the way.
-  - **Priyamvada ♀ · Piper**: a female voice with the same rules.
+  - **Pratham ♂ · Piper** (default): reads Pāḷi by our pronunciation rules.
+  - **Cūḷa DG ♂ · beta**: trained on real Pāḷi readings.
+  - **Priyamvada ♀ · Piper**: a female voice, the same pronunciation rules.
 - **English**: **Yojanāni DG ♂** (US, default), **Alan ♂** (UK), **Kathleen ♀**
   (US).
 - **Russian**: **Cūḷa DG ♂** (default), **Puriso ♂**,
@@ -73,6 +69,14 @@ can also be downloaded to your device and then reads without internet.
   the text prints е.
 - The next sentences are prepared while one is playing, so there are no
   gaps between them.
+
+### Limitations
+
+- **Pāḷi:** rare words and long compounds are sometimes pronounced inaccurately.
+- **Pāḷi:** a line of one or two words sounds less clear than the same words inside a phrase.
+- **Cūḷa DG (Pāḷi):** the sound is still rougher than Pratham's.
+- **Russian:** where the stress depends on the meaning (за́мок / замо́к), it is sometimes wrong.
+- **Kathleen:** low sound quality.
 
 ### Offline: download a DG voice
 
