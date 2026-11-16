@@ -11,22 +11,20 @@ import TtsAbLoop from '@site/static/img/help/tts-ab-loop-en.png';
 
 # Voice / TTS
 
-> "There are these five dangers, monks, for one who recites the Dhamma in a drawn-out singing voice: he is charmed by the sound himself; others are charmed by it; householders take offence: 'the ascetics, sons of the Sakyan, sing just as we sing'; one who craves a fine sound breaks his samādhi; and the next generation follows the example." — <SiteLink to="/an5.209:1.1?lang=en&hide=id">AN 5.209:1.1–1.5</SiteLink>
+> "There are these five dangers, monks, for one who recites the Dhamma in a drawn-out singing voice." — <SiteLink to="/an5.209:1.1?lang=en&hide=id">AN 5.209:1.1</SiteLink>
 
-Live demo — voice mode starts automatically via a URL parameter, no
-clicking required (the floating player at the bottom is the point here, not
-the reader text behind it):
+Try it: the line below is already selected — press ▶ at the bottom of the frame and listen:
 
-<AppFrame src="/an5.209?autoplay=1&lang=en" title="Live voice player" height={260} />
+<AppFrame src="/an5.209:1.1?lang=en" title="Live voice player" height={420} />
 
-## 5 ways to activate Voice Mode
+## 5 ways to start the voice
 
-1. Click the **Voice** link at the top of the page (next to En, Ru, etc.).
-2. Click the 🔉 icon to the left of the text's title.
-3. Click any Pali or translation sentence to highlight it, then click the
-   **Play** button that appears bottom-right.
-4. Hover/tap before or after a line to reveal a **✦** link, then choose
-   "Listen".
+1. Click the 🔉 icon next to the text's title: next to the Pali title it reads the Pali, next to a
+   translation's title that translation.
+2. Click any Pali or translation sentence to highlight it, then press the ▶ button that appears at the
+   bottom.
+3. Tap the **✦** before or after a line and choose **Voice** in its menu.
+4. Open a link to a line (for example `/an5.209:1.1`): the line is highlighted and ▶ is already there.
 5. Press **Alt+R** (**Option+R** on Mac).
 
 ## Player
