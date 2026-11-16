@@ -100,7 +100,7 @@ grasped, and what was well grasped as well grasped. <SuttaLink index={4}>Read �
 
 **Cullavagga (Kd 15:33)**: two monks proposed to put the Buddha's word into verse metre (*chandaso*), because monks of various clans "spoil it in their own dialect." The Buddha did not allow it, and allowed the Buddha's word to be learned *sakāya niruttiyā*, "in one's own dialect" (<SiteLink to="/pli-tv-kd15:33.1.15?lang=en&hide=id">Kd 15:33.1.15</SiteLink>). Whose dialect is meant is read in different ways. But recasting the teaching in an elevated form for the sake of beauty the Buddha did not allow. <SuttaLink index={26}>Read →</SuttaLink>
 
-## A term: direct, figurative and special sense
+## A term: direct, metaphorical, figurative and special sense in the noble one's discipline
 
 The suttas use words in different ways and usually say themselves which.
 
