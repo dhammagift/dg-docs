@@ -11,7 +11,7 @@ import TtsAbLoop from '@site/static/img/help/tts-ab-loop-en.png';
 
 # Voice / TTS
 
-> "There are these five dangers, monks, for one who recites the Dhamma in a drawn-out singing voice." — <SiteLink to="/an5.209:1.1?lang=en&hide=id">AN 5.209:1.1</SiteLink>
+> "There are these five dangers, monks, for one who recites the Dhamma in a drawn-out singing voice." — <SiteLink to="/an5.209:1.1?lang=en&hide=id">AN 5.209</SiteLink>
 
 Try it: the line below is already selected — press ▶ at the bottom of the frame and listen:
 
