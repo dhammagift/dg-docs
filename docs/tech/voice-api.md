@@ -6,8 +6,17 @@ description: "Our free TTS for Pali, English and Russian: the same neural voices
 
 # Voice API (TTS)
 
-The Dhamma.Gift voice is an open text-to-speech service: the same one that reads in the site's
-player and the dictionary. Anyone can call it from a browser or a server — no key, no login.
+The Dhamma.Gift voice is a text-to-speech service: the same one that reads in the site's player and
+the dictionary. It can be called from a browser or a server, no key, no login.
+
+:::warning[Terms of use]
+- `pratham`, `priyamvada`, `alan`, `kathleen`, `irina`, `puriso` may be used freely, within the limits below
+  and each voice's own licence.
+- `dg`, `dgru`, `yojanani` (Cūḷa DG, Yojanāni DG) are made from recordings of real people's voices. All rights
+  reserved. They may be used only on the Dhamma.Gift website and in the Dhamma.Gift apps. Any other use
+  through this API — personal and non-commercial included — requires prior written permission from
+  Dhamma.Gift.
+:::
 
 **Address:** `https://api.dhamma.gift` · CORS is open · a limit of 60 requests per minute per IP.
 
@@ -46,8 +55,8 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 | `pratham` | Pāḷi | "Pratham": Piper neural voice + our Pāḷi pronunciation rules (IAST → sounds, stress, long vowels). Default |
 | `dg` | Pāḷi | "Cūḷa DG": a voice trained on real Pāḷi readings. Beta |
 | `priyamvada` | Pāḷi | "Priyamvada": a female Piper voice with the same rules |
-| `miles`, `alan`, `kathleen` | English | Piper voices. `miles` is shown as "Yojanāni DG" (the default): trained on the readings of a real person. Pāḷi words and abbreviations (Ven., SN 56.11) are read properly |
-| `puriso`, `dgru`, `irina` | Russian | Piper voices. `puriso` (the default) is Supertonic's male voice M1 taught to Piper; `dgru` is "Cūḷa DG". Pāḷi in Latin script is read the Pāḷi way, Russian words with the right stress |
+| `yojanani`, `alan`, `kathleen` | English | Piper voices. `yojanani` is "Yojanāni DG" (the default): trained on a real person's readings. Pāḷi words and abbreviations (Ven., SN 56.11) are read properly |
+| `puriso`, `dgru`, `irina` | Russian | Piper voices. `dgru` is "Cūḷa DG" (the default); `puriso` is Supertonic's male voice M1 taught to Piper. Pāḷi in Latin script is read the Pāḷi way, Russian words with the right stress |
 
 `GET /api/tts/dg-voices` gives the list as `{"voices": [{"id", "lang", "label"}]}` in menu order (a language's first voice is its default); `GET /api/tts/health` shows that the
 service is up and which version of the pronunciation rules it uses. `GET /api/tts/offline/pali-ipa.json`
@@ -76,7 +85,8 @@ pauses at most 180. One such request counts as ten against the per-minute limit.
 - The service code and the Pāḷi rules: [github.com/dhammagift/pali-tts](https://github.com/dhammagift/pali-tts).
 - `pratham`: weights MIT ([rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)),
   recordings AI4Bharat IndicVoices (CC BY 4.0).
-- `dg`, `dgru`: CC BY-NC-SA 4.0, non-commercial use only.
+- `dg`, `dgru`, `yojanani`: all rights reserved; only on the Dhamma.Gift website and apps, anything else
+  with prior written permission (see Terms of use above).
 - `priyamvada`, `alan`, `kathleen`, `irina`: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),
   each under its own licence.
 
