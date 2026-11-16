@@ -12,7 +12,7 @@ description: "Наш бесплатный TTS для пали, русского 
 :::warning[Условия использования]
 - `pratham`, `priyamvada`, `alan`, `kathleen`, `irina`, `puriso` можно использовать свободно, в пределах
   лимитов ниже и лицензии каждого голоса.
-- `dg`, `dgru`, `yojanani` (Cūḷa DG, Yojanāni DG) созданы по записям голосов реальных людей. Все права
+- `dg`, `dgru`, `dgen` (Cūḷa DG, Yojanāni DG) созданы по записям голосов реальных людей. Все права
   защищены. Использовать их можно только на сайте и в приложениях Dhamma.Gift. Любое другое использование
   через этот API, в том числе личное и некоммерческое, — только с предварительного письменного разрешения
   Dhamma.Gift.
@@ -55,7 +55,7 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 | `pratham` | пали | «Pratham»: нейроголос Piper + наши правила произношения пали (IAST → звуки, ударение, долгие гласные). По умолчанию |
 | `dg` | пали | «Cūḷa DG»: голос, обученный на настоящем чтении пали. Бета |
 | `priyamvada` | пали | «Priyamvada»: женский голос Piper с теми же правилами |
-| `yojanani`, `alan`, `kathleen` | английский | голоса Piper. `yojanani` — «Yojanāni DG» (по умолчанию): обучен на чтении реального человека. Слова пали и сокращения (Ven., SN 56.11) читаются правильно |
+| `dgen`, `alan`, `kathleen` | английский | голоса Piper. `dgen` — «Yojanāni DG» (по умолчанию): обучен на чтении реального человека. Слова пали и сокращения (Ven., SN 56.11) читаются правильно |
 | `puriso`, `dgru`, `irina` | русский | голоса Piper. `dgru` — «Cūḷa DG» (по умолчанию); `puriso` — мужской голос M1 из Supertonic, перенесённый в Piper. Пали латиницей читается по-палийски, русские слова с правильными ударениями |
 
 `GET /api/tts/dg-voices` отдаёт список `{"voices": [{"id", "lang", "label"}]}` в порядке меню (первый голос языка — по умолчанию); `GET /api/tts/health` показывает, что
@@ -85,7 +85,7 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 - Код сервиса и правила пали: [github.com/dhammagift/pali-tts](https://github.com/dhammagift/pali-tts).
 - `pratham`: веса MIT ([rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)), записи
   AI4Bharat IndicVoices (CC BY 4.0).
-- `dg`, `dgru`, `yojanani`: все права защищены; только на сайте и в приложениях Dhamma.Gift, остальное — с
+- `dg`, `dgru`, `dgen`: все права защищены; только на сайте и в приложениях Dhamma.Gift, остальное — с
   предварительного письменного разрешения (см. «Условия использования» выше).
 - `priyamvada`, `alan`, `kathleen`, `irina`: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),
   у каждого своя лицензия.
