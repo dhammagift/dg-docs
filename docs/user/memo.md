@@ -73,13 +73,13 @@ rule's class and name to test yourself. **Next** shows another rule, and
 
 ## Voice settings (TTS)
 
-- **Separator** — how to cut the text into pieces (period, comma, line,
+- **Split by** — how to cut the text into pieces (period, comma, line,
   etc.).
-- **Interval** — the pause between pieces.
-- **End pause** — a separate, usually longer pause at the end of the
+- **Interval (sec)** — the pause between pieces.
+- **End Wait (sec)** — a separate, usually longer pause at the end of the
   whole cycle.
-- **Sound** — the sound at the end of the cycle: Tick, Gong or None.
-- **Cycle** — how many times to repeat (infinite included).
+- **End Sound** — the sound at the end of the cycle: Tick, Gong or None.
+- **Loop** — how many times to repeat (∞ by default).
 - **Translation** — read the translation instead of / alongside Pali.
 - **Auto-cursor** — when playback stops, puts the cursor at the end of the
   current line.
@@ -91,7 +91,7 @@ to listen offline or outside the browser.
 
 When you download a session as an MP3:
 
-- **DG voice** — the interval and the end pause can each be up to **1 hour**;
+- **DG voice** — the interval and the end wait can each be up to **1 hour**;
   the whole file up to **3 hours**; the speech itself up to **30 minutes**
   (pauses do not count towards it). Up to 200 lines and 20,000 characters
   of text.
