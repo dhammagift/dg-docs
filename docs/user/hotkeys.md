@@ -47,7 +47,7 @@ way.
 |---|---|
 | **Ctrl+→** / **Ctrl+←** | Next / previous text |
 | **Alt+Shift+1** … **Alt+Shift+4** | Reader modes: Reading, Compare, For Memorization, Devanagari |
-| **Alt+Z** | Show / hide the second language (Pali or translation) |
+| **Alt+Z** | Languages in turn: Pali and translation → Pali only → translation only |
 | **Alt+C** | One or two columns |
 | **Alt+V** | Show / hide variant readings |
 | **Alt+W** | Table of contents of the text |
@@ -61,6 +61,7 @@ way.
 | Shortcut | What it does |
 |---|---|
 | **Shift+Space** | Expand / collapse all results |
+| **Alt+Z** | Languages in turn: Pali and translation → Pali only → translation only |
 | **Alt+R** | Read the results aloud |
 
 ## Dictionary
@@ -83,7 +84,7 @@ Work while the player is open, without Alt/Ctrl:
 | **←** / **→** (or **↑** / **↓**) | Previous / next line (with auto-scroll on) |
 | **1** … **4** | What to read: Pali · Pali then translation · translation · translation then Pali |
 | **−** / **+** | Slower / faster (step 0.05) |
-| **R** | Normal speed |
+| **R** | Default speed |
 
 :::note
 In a text field, **Ctrl+←/→** and **/** keep their usual meaning (moving by words, typing a slash) —

@@ -24,9 +24,9 @@ account needed.
 
 ## Offline library
 
-Download the whole library once (about 216 MB) and everything works in
-airplane mode: search, the table of contents, every text with its
-translations, and the dictionary. Voices can be downloaded too, so reading
+Download the library once and everything works in airplane mode: search,
+the table of contents, the texts with their translations, and the
+dictionary. Voices can be downloaded too, so reading
 aloud also works offline ([Voice](/tts)). The download keeps going in the
 background and with the screen locked. Until then the app works online,
 exactly like the site. The library can be deleted any time: Settings →
@@ -51,15 +51,17 @@ aloud ([Voice](/tts)).
 - **Shortcuts on the icon.** A long press on the app icon. On Android:
   favorites & history, plus either your 3 most recent texts or Contents,
   Memo and Dictionary (Settings → Recent texts in app shortcuts). On
-  iPhone: favorites & history, Contents, Memo and Dictionary; the same
-  actions are available to Siri and the Shortcuts app.
+  iPhone: favorites & history and your 3 most recent texts; Siri and the
+  Shortcuts app can open Dhamma.Gift, a section (Contents, Memo,
+  Dictionary…) or a search.
 - **In the text-selection menu.** Select text in any app, and
   Dhamma.Gift in the selection menu opens the search. *Android.*
 - **The phone's own search.** In Android's system search Dhamma.Gift is
   offered as a place to search: the query opens as a search in the app. The
   texts you read recently show up there too. *Android.*
-- **Quick Settings.** A Dhamma.Gift button in the notification shade: one
-  tap from anywhere, offline. *Android.*
+- **Quick Settings and Control Center.** A Dhamma.Gift button in the
+  notification shade on Android and in Control Center on iPhone: one tap
+  from anywhere, offline.
 - **Player on the lock screen.** While a text is read aloud, its player is
   in the notification shade and on the lock screen. *Android.*
 - **Links open in the app.** A dhamma.gift link tapped in a messenger or in

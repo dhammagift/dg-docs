@@ -21,6 +21,7 @@ The compass icon in the toolbar or the burger menu, or the **Alt+P**
 Each tab can be opened directly from here, with one click:
 
 - <a href="#" onClick={(e) => { e.preventDefault(); window.dgOpenQuickModal && window.dgOpenQuickModal('tab-fav'); }}>☆ & History</a>
+- <a href="#" onClick={(e) => { e.preventDefault(); window.dgOpenQuickModal && window.dgOpenQuickModal('tab-subs'); }}>Subscriptions</a>
 - <a href="#" onClick={(e) => { e.preventDefault(); window.dgOpenQuickModal && window.dgOpenQuickModal('tab-4as'); }}>4AS</a>
 - <a href="#" onClick={(e) => { e.preventDefault(); window.dgOpenQuickModal && window.dgOpenQuickModal('tab-memo'); }}>Memo</a>
 - <a href="#" onClick={(e) => { e.preventDefault(); window.dgOpenQuickModal && window.dgOpenQuickModal('tab-dpd'); }}>Dict</a>
@@ -35,8 +36,8 @@ tab instead of replacing the current page.
 
 ## Tabs
 
-- **☆ & History** — your bookmarks and search history in one list.
-  Sort alphabetically or by date (the ⇅ icon), rename or delete
+- **☆ & History** — your bookmarks (Favorites) and Search History in
+  one tab. Sort each alphabetically or by date (the ⇅ icon), rename or delete
   bookmarks, hide individual history entries. At the bottom, the **"All
   history →"** link opens the full history page.
 

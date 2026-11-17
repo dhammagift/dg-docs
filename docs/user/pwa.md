@@ -19,6 +19,12 @@ without installing anything through an app store: one button right in
 your browser, and an icon appears on your phone or computer, just like a
 regular app.
 
+On the home page, open **Apps** at the bottom and tap **Web App**: where
+the browser can install sites (Chrome, Edge), it asks right away.
+Elsewhere use the browser's own menu: in Safari on iPhone and iPad,
+Share → Add to Home Screen; in other browsers, Install app or Add to Home
+screen.
+
 A few conveniences are added on top of the site:
 
 ## Shortcuts
