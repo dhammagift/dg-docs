@@ -65,6 +65,13 @@ is checked against the Pali text first, and only falls back to
 non-Russian translations (typically English) if nothing matched there.
 :::
 
+**Search by meaning.** When an exact search finds nothing — for instance
+a question in your own words, `why are the five aggregates not self` — the
+suttas closest to it in meaning are shown instead, with the note
+*No exact matches — guesses by meaning*. They are guesses: check what you
+find against the suttas themselves. It covers the four Nikāyas, Snp, Ud,
+Iti and the Vinaya, in Pali, English and Russian.
+
 **Tip #1.** You can type Pali in plain Latin letters, no diacritics
 required (`kacchapa`) — the special characters (ā ī ū ḍ ḷ ṁ ṇ ṅ ñ ṭ) are
 available to copy from the [RegEx Cheat
