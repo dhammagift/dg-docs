@@ -214,7 +214,7 @@ The other icons of this row are described [above](#the-icons-above-the-text).
 - Under every text: links to **Principles by the Suttas · Rationale ·
   Glossary**.
 - A row of icons: Search, Read by Chapters ([TOC](/toc)), Create Lists,
-  Compare, History, **Export** (**Copy**, **TXT**, **MD**, **PDF** — the
+  Compare, Compass ([Quick window](/quickmodal)), **Export** (**Copy**, **TXT**, **MD**, **PDF** — the
   text as it is on screen), [Memo](/memo), Edit Translation (the
   [Translation Editor](/translator)), DharmaMitra, 4NT, Sutta Name Search
   and the Pali English Dictionary. To share the text, copy the link from
