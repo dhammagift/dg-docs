@@ -106,7 +106,8 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | | что | где |
 |---|---|---|
 | ✅ | строки не на месте возвращены на свои: 577 строк в 73 текстах, ещё 185 строк в 19 текстах, где повторённый абзац сдвигал выравнивание | [sn35.229:1.1](https://dhamma.gift/sn35.229?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1&lang=ru), [an4.102:3.2](https://dhamma.gift/an4.102?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1&lang=ru) |
-| ❗ | осталось 1989 мест, где слово стоит не в своей строке (ещё 777 мест издание печатает отрывок дважды, это не ошибка); разбираем по плану, 2 прохода в неделю |  |
+| ✅ | цепочка заголовков, напечатанная одной строкой, разнесена по строкам MS: 3079 строк в 96 текстах (Chaṭṭha Saṅgāyana, Mahāsaṅgīti 2005; Paṭṭhāna, Yamaka) | [patthana3.1:114.0.1](https://dhamma.gift/patthana3.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1&lang=ru), [ya2.2.1:1.0.1](https://dhamma.gift/ya2.2.1?mode=multi&editions=ms,bjt,my,th,mso,pts&diff=1&lang=ru) |
+| ❗ | осталось 1322 места, где слово стоит не в своей строке (ещё 777 мест издание печатает отрывок дважды, это не ошибка); разбираем по плану, 2 прохода в неделю |  |
 
 Подробнее, со всеми местами: [editions-problems.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/editions-problems.md).
 ## Нашли ошибку?
