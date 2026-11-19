@@ -213,9 +213,11 @@ The other icons of this row are described [above](#the-icons-above-the-text).
   whole text: the Pali and the translation, with the translator named.
 - Under every text: links to **Principles by the Suttas · Rationale ·
   Glossary**.
-- A row of icons: copy link, **Export** (**Copy**, **TXT**, **MD**, **PDF** —
-  the text as it is on screen), Edit Translation (the
-  [Translation Editor](/translator)), [Memo](/memo), Create Lists, Compare,
-  History, DharmaMitra and 4NT.
+- A row of icons: Search, Read by Chapters ([TOC](/toc)), Create Lists,
+  Compare, Compass ([Quick window](/quickmodal)), **Export** (**Copy**, **TXT**, **MD**, **PDF** — the
+  text as it is on screen), [Memo](/memo), Edit Translation (the
+  [Translation Editor](/translator)), DharmaMitra, 4NT, Sutta Name Search
+  and the Pali English Dictionary. To share the text, copy the link from
+  the address bar or use Share in the apps.
 - The **Pāḷi / En** pill at the bottom right (Alt+Z) shows or hides
   either language.

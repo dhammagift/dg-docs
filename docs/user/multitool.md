@@ -56,7 +56,7 @@ the bottom, under "Settings":
 - **Add your own button** — your own link with fields for **Label** (up
   to 24 characters), **Address** (you can drop `{{q}}` into it — it gets
   replaced with whatever's currently in the search box), **Description**
-  (optional, shown as a tooltip), and an **Icon** — pick one from the
+  (optional, a line under the button label), and an **Icon** — pick one from the
   built-in set or type your own emoji:
 
   <img src={EditTile} alt="Button edit form: label, address, description, icon" style={{maxWidth: 'min(480px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
@@ -79,8 +79,8 @@ the bottom, under "Settings":
 - **Reset buttons** — this option only shows up in the "Settings" menu
   when there's something to reset (something hidden, the order changed,
   or buttons of your own added). It brings back the original set and order of tiles; if you've
-  added tiles of your own, those get deleted for good in the process (the
-  app warns you and asks for confirmation first — there's no way to bring
+  added tiles of your own, those get deleted for good in the process (DG
+  warns you and asks for confirmation first — there's no way to bring
   them back afterward).
 
 Your own buttons, edits, custom emoji icons and the tile order are NOT
@@ -91,7 +91,7 @@ synced to the Cloud — they stay purely local to this particular browser.
 Each tile like "External", "AI & Dicts" or "Materials" opens a list of
 links on that topic. Some of them already carry a gold star — the
 project's own editorial pick. A long-press (on phones) or right-click (on
-desktop) on any link in that list toggles a star for you personally, on
+desktop) on the icon to the left of a link in that list toggles a star for you personally, on
 top of the editorial one — say, to remove a star from something you
 don't care for, or mark your own favorite resource. These personal marks
 are also stored only in this browser, not in the Cloud.

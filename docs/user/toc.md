@@ -22,7 +22,7 @@ also open it from anywhere on the site — **Alt+2**.
 
 - **Lazy tree** — books and chapters expand on demand instead of loading
   the whole canon up front.
-- **Translator filter** — a side panel with a "Find translator…" search
+- **Translator filter** — a side panel with a "Find a translator…" search
   box, a separate group of checkboxes per language (with a text count
   next to each translator), and a select-all checkbox per group.
   Less-common translators are tucked behind a "More" link. Filtering
@@ -49,7 +49,7 @@ also open it from anywhere on the site — **Alt+2**.
 Once you uncheck something, it stays unchecked on your next visit — easy
 to forget, and then wonder why some translations seem to have
 "disappeared". While the filter is active, a **"Filter active — reset"**
-link appears above the tree.
+link appears at the top of the filter panel.
 :::
 
 ## The Khuddaka Nikāya isn't shown in full

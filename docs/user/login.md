@@ -10,15 +10,15 @@ import LoginSynced from '@site/static/img/help/login-synced-en.png';
 
 # Login
 
-Dhamma.gift doesn't need an account or an email address. "Login" here
+Dhamma.Gift doesn't need an account or an email address. "Login" here
 means cloud sync of your favorites, history, subscriptions, reading
 progress and settings across devices — three ways to do it:
 
 - **Google** — a regular Google account sign-in.
 - **Apple** — Sign in with Apple, with your Apple ID. Apple may let you
   hide your e-mail; we then only get a private relay address from Apple.
-- **Secret passphrase** — fully anonymous: pick a phrase of at least 8
-  characters (no email, no password). Anyone who types the same phrase on
+- **Secret Passphrase** — fully anonymous: type a phrase of at least 8
+  characters and press **Anonymous Login** (no email, no password). Anyone who types the same phrase on
   another device gets access to the same synced data — treat it like a
   password.
 
@@ -29,9 +29,9 @@ progress and settings across devices — three ways to do it:
 Logging in (either way) on a device that already has its own history or
 favorites shows a choice:
 
-- **Merge** — keep what's already on this device and add the cloud data
+- **Merge Data** — keep what's already on this device and add the cloud data
   on top of it.
-- **Overwrite** — wipe this device's data and pull down the cloud copy
+- **Overwrite from Cloud** — wipe this device's data and pull down the cloud copy
   instead.
 
 ## After logging in

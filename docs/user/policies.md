@@ -157,10 +157,16 @@ External services:
   your IP address.
 - **cdnjs.cloudflare.com** — a charting script loaded on the Hatthipada
   page.
-- **AI search** — only when an exact search finds nothing and AI search is
-  turned on: the query text is sent to a language model (Groq, Google Gemini
-  or DeepSeek) and to [tripitaka-mcp.com](https://tripitaka-mcp.com) to find
-  passages by meaning. Our server sends it; your IP address is not passed on.
+- **AI search** — only when an exact search finds nothing, or when you press
+  AI mode. The query text is turned into numbers by Cloudflare Workers AI
+  (the bge-m3 model) to find passages by meaning in our own index, and it is
+  sent to a language model from a pool of free services, which names suttas
+  that our index then checks. The pool changes, because we use free tiers:
+  now Google Gemini, Zhipu GLM (Z.ai) and Groq, with DeepSeek and
+  [tripitaka-mcp.com](https://tripitaka-mcp.com) in reserve. Our server sends
+  only the query text: your IP address and your account are not passed on.
+  If you want your query to stay on our server, use the exact search: it
+  never leaves it.
 - **Google Cloud Text-to-Speech** — only when you choose a Google voice:
   it receives the text being read. On the website your browser sends it
   to Google directly (with the site's trial key or your own API key), so

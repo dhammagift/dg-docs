@@ -11,22 +11,20 @@ import TtsAbLoop from '@site/static/img/help/tts-ab-loop-en.png';
 
 # Voice / TTS
 
-> The Dhamma was originally an oral teaching. — <SiteLink to="/an5.209">AN 5.209</SiteLink>
+> "There are these five dangers, monks, for one who recites the Dhamma in a drawn-out singing voice." — <SiteLink to="/an5.209:1.1?lang=en&hide=id">AN 5.209</SiteLink>
 
-Live demo — voice mode starts automatically via a URL parameter, no
-clicking required (the floating player at the bottom is the point here, not
-the reader text behind it):
+Try it: the line below is already selected — press ▶ at the bottom of the frame and listen:
 
-<AppFrame src="/an5.209?autoplay=1&lang=en" title="Live voice player" height={260} />
+<AppFrame src="/an5.209:1.1?lang=en" title="Live voice player" height={420} />
 
-## 5 ways to activate Voice Mode
+## 5 ways to start the voice
 
-1. Click the **Voice** link at the top of the page (next to En, Ru, etc.).
-2. Click the 🔉 icon to the left of the text's title.
-3. Click any Pali or translation sentence to highlight it, then click the
-   **Play** button that appears bottom-right.
-4. Hover/tap before or after a line to reveal a **✦** link, then choose
-   "Listen".
+1. Click the 🔉 icon next to the text's title: next to the Pali title it reads the Pali, next to a
+   translation's title that translation.
+2. Click any Pali or translation sentence to highlight it, then press the ▶ button that appears at the
+   bottom.
+3. Tap the **✦** before or after a line and choose **Voice** in its menu.
+4. Open a link to a line (for example `/an5.209:1.1`): the line is highlighted and ▶ is already there.
 5. Press **Alt+R** (**Option+R** on Mac).
 
 ## Player
@@ -47,9 +45,9 @@ In **⚙ → Voice settings** you choose the voice separately for Pāḷi and fo
 the translation, in three steps: kind → language → voice. The ▶ next to a
 voice plays a short sample (DG voices).
 
-:::tip[Neural voices made for Pāḷi]
-No phone or computer has a Pāḷi voice, so we made our own. They are in
-beta and still being tuned by ear, sound by sound.
+:::tip[The first neural voices that speak Pāḷi]
+DG Voice are the first neural voices that read Pāḷi as plain speech, not chant: with Pāḷi's long and
+short vowels, and without the singing voice <SiteLink to="/an5.209:1.1?lang=en&hide=id">AN 5.209</SiteLink> warns about.
 :::
 
 ### DG Voice — our own free neural voices (default)
@@ -58,13 +56,9 @@ They run on our server: no key, no limits, nothing to install. Each one
 can also be downloaded to your device and then reads without internet.
 
 - **Pāḷi**
-  - **Pratham ♂ · Piper** (default): a neural voice (Piper) that reads Pāḷi
-    through our own Pāḷi pronunciation rules (letters → sounds, stress,
-    long vowels), tuned in blind listening rounds. Beta.
-  - **Cūḷa DG ♂ · beta**: a voice trained on real Pāḷi readings.
-    Its pronunciation is closer to living Pāḷi, but the sound is still
-    rough. A new version is on the way.
-  - **Priyamvada ♀ · Piper**: a female voice with the same rules.
+  - **Pratham ♂ · Piper** (default): reads Pāḷi by our pronunciation rules.
+  - **Cūḷa DG ♂ · beta**: trained on real Pāḷi readings.
+  - **Priyamvada ♀ · Piper**: a female voice, the same pronunciation rules.
 - **English**: **Yojanāni DG ♂** (US, default), **Alan ♂** (UK), **Kathleen ♀**
   (US).
 - **Russian**: **Cūḷa DG ♂** (default), **Puriso ♂**,
@@ -76,19 +70,38 @@ can also be downloaded to your device and then reads without internet.
 - The next sentences are prepared while one is playing, so there are no
   gaps between them.
 
+### Limitations
+
+- **Pāḷi:** rare words and long compounds are sometimes pronounced inaccurately.
+- **Pāḷi:** a line of one or two words sounds less clear than the same words inside a phrase.
+- **Cūḷa DG (Pāḷi):** the sound is still rougher than Pratham's.
+- **Russian:** where the stress depends on the meaning (за́мок / замо́к), it is sometimes wrong.
+- **Kathleen:** low sound quality.
+
 ### Offline: download a DG voice
 
 In **Voice settings → DG Voice**, each voice in the list has a ⬇ icon
 with its download size. Once downloaded, the voice reads on your device
 with no network, on the reader and on the Memo page. The 🗑 icon deletes it.
 The English and Russian voices download a shared pronunciation module with
-the first of them. 
-:::warning[Real people's voices: all rights reserved]
-The **Cūḷa DG** and **Yojanāni DG** voices are real people's voices.
-You may download them and listen in
-Dhamma.Gift. Anything else — using them outside Dhamma.Gift, copying the
-voice, training other models on its sound — needs written permission. The
-same notice is written in each such model's file.
+the first of them.
+
+:::warning[Cūḷa DG and Yojanāni DG voices: all rights reserved]
+The **Cūḷa DG** and **Yojanāni DG** voices are made from recordings of real people's voices. All rights
+in these voices and their models are reserved.
+
+**Permitted only:** downloading these voices and listening to texts with them on the Dhamma.Gift website
+and in the Dhamma.Gift apps.
+
+**Prohibited without prior written permission from Dhamma.Gift:**
+- any use of these voices or their models outside the Dhamma.Gift website and apps, personal and
+  non-commercial use included;
+- copying, distributing, publishing or passing on the model files to third parties;
+- cloning or imitating these voices;
+- training or fine-tuning other models on these models or on the audio they produce;
+- any commercial use.
+
+This restriction is also stated in the file of each such model.
 :::
 
 ### Google — cloud voices with a free quota

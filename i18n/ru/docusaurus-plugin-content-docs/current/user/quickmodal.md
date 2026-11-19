@@ -22,6 +22,7 @@ import AppFrame from '@site/src/components/AppFrame';
 Каждую вкладку можно открыть прямо отсюда, одним кликом:
 
 - <a href="#" onClick={(e) => { e.preventDefault(); window.dgOpenQuickModal && window.dgOpenQuickModal('tab-fav'); }}>☆ + История</a>
+- <a href="#" onClick={(e) => { e.preventDefault(); window.dgOpenQuickModal && window.dgOpenQuickModal('tab-subs'); }}>Подписки</a>
 - <a href="#" onClick={(e) => { e.preventDefault(); window.dgOpenQuickModal && window.dgOpenQuickModal('tab-4as'); }}>4AS</a>
 - <a href="#" onClick={(e) => { e.preventDefault(); window.dgOpenQuickModal && window.dgOpenQuickModal('tab-memo'); }}>Memo</a>
 - <a href="#" onClick={(e) => { e.preventDefault(); window.dgOpenQuickModal && window.dgOpenQuickModal('tab-dpd'); }}>Словарь</a>
@@ -36,8 +37,9 @@ import AppFrame from '@site/src/components/AppFrame';
 
 ## Вкладки
 
-- **☆ + История** — ваши закладки и история поиска в одном списке.
-  Сортировка по алфавиту или по дате (значок ⇅), переименование и удаление
+- **☆ + История** — ваши закладки (Избранное) и История поиска на
+  одной вкладке. Сортировка каждого списка по алфавиту или по дате
+  (значок ⇅), переименование и удаление
   закладок, скрытие отдельных записей истории. Внизу ссылка **«Вся
   история →»** открывает полную страницу истории.
 

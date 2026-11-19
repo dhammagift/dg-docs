@@ -127,8 +127,8 @@ is searched as a word. On top of that, the bot has commands and settings.
 
 ### Settings
 
-- **Language** — `/language` (two buttons, the current one is checked) sets it; the button under the `/start` welcome message and under any message
-  (`Lang En/Ru` / `Язык Ru/En`) switches it. The choice is remembered and affects the links:
+- **Language** — `/language` (two buttons, the current one is checked) sets it; the `Русский` / `English` button under the `/start` welcome message
+  and the `Lang En/Ru` / `Язык Ru/En` button under a search message switch it. The choice is remembered and affects the links:
   the Russian interface leads to `dhamma.gift/<query>?lang=ru` and `dict.dhamma.gift/ru/<query>`.
 - **The city for the Uposatha list** — `/uposatha <city>` remembers it,
   `/uposatha reset` forgets it, and the empty `/uposatha` keeps showing it.

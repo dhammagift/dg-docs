@@ -21,7 +21,8 @@ This is a demo with SN 56.11 and an existing translation loaded; saving does not
 
 The editor opens for everyone: the Pali text and the published translations. Saving to the server, and
 loading the AI draft translations into the Russian editor, are for translators: sign in with Google
-(**🔒 Sign in**, or the Save button asks for it).
+(the sign-in icon at the end of the top bar; without it, **Save** still downloads
+the file and says “Sign in with Google first.”).
 
 ## Toolbar
 
@@ -50,8 +51,8 @@ A two-column table (Text | Translation) — each row is edited separately.
 
 - Click a cell — edit it.
 - The 🔗 icon — jump to this row in quick-entry mode.
-- **↑ / ←** — move to the cell above.
-- **↓ / →** — move to the cell below.
+- **↑ / ←** at the start of a cell — move to the cell above.
+- **↓ / →** at the end of a cell — move to the cell below.
 - **Enter** — add an empty row, or wrap text onto a new row.
 - **Ctrl+Enter** — move text to the start of the next row.
 - **Backspace** at the start of a row — merge with the previous row.
@@ -62,9 +63,9 @@ A two-column table (Text | Translation) — each row is edited separately.
 One large text field — the whole translation at once, synced live with
 the table.
 
-- **Ctrl+Q** — select a range of rows and merge them into one.
-- **Ctrl+F / Ctrl+H** — search/replace (same escaping as the toolbar's
-  find/replace, for `()`/`[]`).
+- **Ctrl+Q** (or the button after Find/Replace) — select a range of rows and merge them into one.
+- **Ctrl+Shift+F / Ctrl+Shift+H** — open Find/Replace (same escaping for
+  `()`/`[]`).
 
 ## Quick templates
 
@@ -75,7 +76,8 @@ Truths formula, full and short), **n8p** / **n8p short** (the Noble
 Eightfold Path), **Thus said…** (a sutta's closing formula), plus an
 em-dash, curly quotes, and an inverted question mark for punctuation.
 
-## Settings
+## File name
 
-Your translator name (used in the filename when saving) and a toggle to
-replace `+edited+o` in the filename with `o` — for final versions.
+**Save** names the file by the text and the translator
+(`sn56.11_translation-en-thanissaro.json`); the **tr. o** checkbox next to
+**Format** puts `o` in place of the translator — for final versions.
