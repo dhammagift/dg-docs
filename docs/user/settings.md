@@ -56,8 +56,10 @@ anywhere.
   `localStorage.theme` — the same key this Help site itself uses for its
   own light/dark toggle, so switching it here or on this page keeps both
   in sync live, same-origin.)
-- **Cloud** — sync bookmarks, notes and settings across devices, see
-  [Login](/login).
+- **On start, open** — in the app and the installed site: **Last place**
+  (search, contents, a text or Memo, wherever you left off) or **Home**.
+- **Cloud** — sync bookmarks, history, subscriptions and settings across
+  devices, see [Login](/login).
 - **Button descriptions** — a short line under each home-screen button's
   name; turned off, the description stays as a hover tooltip only.
 
@@ -87,6 +89,9 @@ anywhere.
   Vinaya checkbox list as in Quick Settings, but this is the default used
   for new queries (you can still change the scope for one particular
   search).
+- **Search with variant readings** — also finds words as the other editions
+  read them (Buddha Jayanti, Chaṭṭha Saṅgāyana, Siam Rath, PTS); turn it off
+  to search the Mahāsaṅgīti text only, which is faster.
 - **Search languages** — match your reading languages by default; a
   toggle lets you set a separate language list just for search.
 - **Context lines** — how many lines to show before/after a match, as a
@@ -101,16 +106,19 @@ anywhere.
   (see [Dictionary](/dictionary)).
 - **Mode** — exactly which window/tab opens when you click a word.
 - **En / Ru** — the language of the dictionary's meanings.
-- **Auto-search selected text** — the same thing as the multi-select
-  button in the reader (**Alt+J**): select several words and the
-  dictionary looks them up on its own, no button click needed. Comes
-  with a delay setting (3 or 5 seconds).
+- **Multi-select** — the same thing as the multi-select button in the
+  reader (**Alt+J**): select several words and the dictionary looks them
+  up on its own, no button click needed.
 
 ## Pali root text
 
-Results show the **Mahāsaṅgīti** (MS) text, with variant readings from
-all editions (BJT, VRI, Siam, PTS); search covers those readings too.
-Choosing BJT, VRI, SIAM or PTS as the text in the reader is coming soon.
+**Editions in the reader** — **BJT**, **VRI**, **SR**, **MS**, **MS05**,
+**PTS**: the reader shows the Pali in the editions you pick; a line an
+edition lacks comes from the Mahāsaṅgīti (MS). Several editions are shown
+line by line or one column each. Works for the Suttas and the Vinaya, and
+offline once downloaded in the Offline library. Search always uses the
+Mahāsaṅgīti with the variant readings of all editions. See
+[Pali editions](/read#pali-editions) and [Compare](/compare).
 
 ## Voice
 
@@ -123,12 +131,14 @@ Choosing BJT, VRI, SIAM or PTS as the text in the reader is coming soon.
 
 ## Data
 
-- **Offline library** — download the whole library to this device, so
-  search and reading work without internet; "Delete" frees the space. It
-  doesn't work in a private (incognito) window.
+- **Offline library** — **Choose…** opens the list of what to download:
+  the root texts (the Mahāsaṅgīti is required, the other editions are
+  optional) and translations, each with its size; what you leave out opens
+  online. Search and reading of what is downloaded work without internet;
+  "Delete" frees the space. It doesn't work in a private (incognito) window.
 - **Search history and favorites** — "Clear" wipes them from this device
   (stored locally unless you're signed in to [the cloud](/login)).
-- **All settings** — "Reset" returns everything on this page to its
+- **Erase all settings** — "Reset all" returns everything on this page to its
   defaults, without touching history, favorites, or your cloud login.
 
 ## Related hotkeys

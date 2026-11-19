@@ -36,7 +36,10 @@ Try it: the line below is already selected — press ▶ at the bottom of the fr
   translation + Pāḷi.
 - **Speed** — the speed button opens a slider with presets; the default
   for Pāḷi is 0.7× ("normal" for the DG voice).
-- **Settings** (⚙) — auto-scroll, autoplay, pause between sentences and
+- **Memo** — opens the [Memo](/memo) page.
+- **AB** — the [A-B loop](#a-b-loop--repeat-a-passage-for-memorization).
+- **Settings** (⚙) — **Scroll** (S: the text follows the voice), the
+  pause between phrases in seconds, **Pause only between paragraphs**, and
   **Voice settings**.
 
 ## Voices: three kinds
@@ -84,7 +87,8 @@ In **Voice settings → DG Voice**, each voice in the list has a ⬇ icon
 with its download size. Once downloaded, the voice reads on your device
 with no network, on the reader and on the Memo page. The 🗑 icon deletes it.
 The English and Russian voices download a shared pronunciation module with
-the first of them.
+the first of them. While a DG voice is reading online, the player itself
+offers **Listen offline · Download** with the voice's size; × hides the offer.
 
 :::warning[Cūḷa DG and Yojanāni DG voices: all rights reserved]
 The **Cūḷa DG** and **Yojanāni DG** voices are made from recordings of real people's voices. All rights
