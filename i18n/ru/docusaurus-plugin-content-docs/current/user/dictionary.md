@@ -205,7 +205,7 @@ fallback: если живой лукап не может достучаться 
 Dict.Dhamma.Gift — отдельный сайт, его можно открывать напрямую:
 [dict.dhamma.gift](https://dict.dhamma.gift). Он работает и вне
 Dhamma.Gift — как [расширение для браузеров](/browser-extension) (Chrome,
-Firefox, Edge, Opera), по умолчанию в боковой панели. Всплывающий словарь DPD
+Firefox, Edge, Opera), по умолчанию в боковой панели (в Firefox — во всплывающем окне). Всплывающий словарь DPD
 есть как скрипт Tampermonkey
 ([установка](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md));
 плагин можно встроить на любой сайт

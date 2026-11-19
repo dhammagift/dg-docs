@@ -15,8 +15,10 @@ word or phrase (or just click on a word) and the extension shows the
 dictionary entry right there, without leaving the page.
 
 In the extension's settings, pick where the result opens: Side Panel (the
-default), New Window, Popup, Compact, Dharmamitra (New Window), GoldenDict-NG, DictTango
-App, MDict (macOS) or a Custom URL. The default language is set there too
+default; in Firefox the default is Popup, and Side Panel opens a window while
+the sidebar is closed), New Window, Popup, Dharmamitra (New Window),
+GoldenDict-NG, DictTango App (Android), MDict (macOS) or a Custom URL (an
+https address). The default language is set there too
 (English or Русский).
 
 Right-click a selected phrase for either a Dhamma.gift text search or a

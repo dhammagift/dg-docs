@@ -15,8 +15,10 @@ Gandhari, санскритские словари и другие — на лю�
 статью на месте, без перехода на другой сайт.
 
 В настройках расширения выбирается, где открывать результат: Side Panel
-(боковая панель, по умолчанию), New Window, Popup, Compact, Dharmamitra (New
-Window), GoldenDict-NG, DictTango App, MDict (macOS) или свой адрес (Custom URL). Там
+(боковая панель, по умолчанию; в Firefox по умолчанию Popup, а Side Panel,
+пока боковая панель закрыта, открывается окном), New Window, Popup, Dharmamitra
+(New Window), GoldenDict-NG, DictTango App (Android), MDict (macOS) или свой
+адрес (Custom URL, только https). Там
 же задаётся язык по умолчанию: English или Русский.
 
 Правый клик по выделенной фразе — поиск по текстам Dhamma.gift или полный
