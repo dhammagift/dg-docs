@@ -3,6 +3,7 @@ title: "Сравнение редакций Палийского канона: 6
 description: "Единственное место, где все шесть изданий Палийского канона стоят рядом, с подсветкой отличий, в одно нажатие. Любая сутта построчно: Буддха Джаянти (Шри-Ланка), Чаттха Сангаяна (Мьянма), Сиам Ратх (Таиланд), Махасангити, Махасангити 2005 и PTS, с подсветкой различий."
 keywords: [Pali Canon editions, Tipitaka comparison, BJT, VRI, Chattha Sangayana, Siam Rath, PTS, Mahasangiti, издания Палийского канона, сравнение Типитаки]
 slug: /compare
+sidebar_label: "6 изданий Пали рядом"
 sidebar_position: 3
 ---
 
@@ -16,14 +17,16 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 
 Только здесь все шесть изданий Палийского канона стоят рядом: любой текст, строка за строкой, с подсветкой отличий, в одно нажатие.
 
-| Метка | Издание | Страна, исходное письмо | Тип издания | Источник | Известные проблемы |
-|---|---|---|---|---|---|
-| **BJT** | Buddha Jayanti (1957-1993) | Шри-Ланка, сингальское | национальное | [Tipitaka.lk](https://tipitaka.lk) | [BJT](#buddha-jayanti-bjt) |
-| **VRI** | Chaṭṭha Saṅgāyana (Шестой собор, 1954-1956) | Мьянма, бирманское | национальное | [Tipitaka.org](https://tipitaka.org) | [VRI](#chaṭṭha-saṅgāyana-vri) |
-| **SR** | Siam Rath 1927 | Таиланд, тайское | национальное | E-Tipitaka | [SR](#siam-rath-1927-sr) |
-| **MS** | Mahāsaṅgīti | латиница | производное от MS05: сегменты и правки SuttaCentral | [SuttaCentral](https://suttacentral.net) | [MS](#mahāsaṅgīti-ms) |
-| **MS05** | Mahāsaṅgīti 2005, печатная | латиница | производное: издание Шестого собора (Мьянма) латиницей | [Tipitaka2500.github.io](https://tipitaka2500.github.io) | [MS05](#mahāsaṅgīti-2005-печатная-ms05) |
-| **PTS** | Pali Text Society (1880-е и позже) | Великобритания, латиница | критическое, европейское: по рукописям Шри-Ланки, Мьянмы, Таиланда | [GRETIL](https://gretil.sub.uni-goettingen.de/) | [PTS](#pts) |
+| Метка | Издание | Страна, исходное письмо | Тип издания | Источник |
+|---|---|---|---|---|
+| [**BJT**](#buddha-jayanti-bjt) | Buddha Jayanti (1957-1993) | Шри-Ланка, сингальское | национальное | [Tipitaka.lk](https://tipitaka.lk) |
+| [**VRI**](#chaṭṭha-saṅgāyana-vri) | Chaṭṭha Saṅgāyana (Шестой собор, 1954-1956) | Мьянма, бирманское | национальное | [Tipitaka.org](https://tipitaka.org) |
+| [**SR**](#siam-rath-1927-sr) | Siam Rath 1927 | Таиланд, тайское | национальное | E-Tipitaka |
+| [**MS**](#mahāsaṅgīti-ms) | Mahāsaṅgīti | латиница | производное от MS05: сегменты и правки SuttaCentral | [SuttaCentral](https://suttacentral.net) |
+| [**MS05**](#mahāsaṅgīti-2005-печатная-ms05) | Mahāsaṅgīti 2005, печатная | латиница | производное: издание Шестого собора (Мьянма) латиницей | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
+| [**PTS**](#pts) | Pali Text Society (1880-е и позже) | Великобритания, латиница | критическое, европейское: по рукописям Шри-Ланки, Мьянмы, Таиланда | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
+
+Метка ведёт к известным проблемам издания, ниже.
 
 Порядок колонок: сначала три национальных издания — BJT, VRI, SR, — затем Mahāsaṅgīti: версия SuttaCentral (MS) и печатная (MS05), и последним PTS, критическое издание. Колонки, расставленные вами, сохраняют ваш порядок.
 

@@ -2,6 +2,7 @@
 title: "Dhamma.Gift Features: Pali Canon Search, Reader and 6 Editions"
 description: "Find a passage, read the Pali beside the translation, tap a word for the dictionary, then listen and learn it by heart, all in one window."
 slug: /key-features
+sidebar_label: "Key Features"
 sidebar_position: 1
 ---
 
