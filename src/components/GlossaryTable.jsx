@@ -363,7 +363,7 @@ export default function GlossaryTable({locale = 'en'}) {
       const reducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
       window.requestAnimationFrame(() => {
         document
-          .getElementById(`term-${id}`)
+          .getElementById(id)
           ?.scrollIntoView({block: 'center', behavior: reducedMotion ? 'auto' : 'smooth'});
       });
     }
@@ -581,7 +581,8 @@ export default function GlossaryTable({locale = 'en'}) {
               const isOpen = open.has(term.id);
               return (
                 <Fragment key={term.id}>
-                  <tr id={`term-${term.id}`} className={highlight === term.id ? 'is-target' : undefined}>
+                  {/* the row's id is the term's own: /docs/glossary/#dukkha and the DefinedTerm @id land on it without JS */}
+                  <tr id={term.id} className={highlight === term.id ? 'is-target' : undefined}>
                     <td className="dg-glossary__pali" lang="pi">
                       {term.pali}
                     </td>
