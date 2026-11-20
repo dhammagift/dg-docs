@@ -1,11 +1,15 @@
 ---
-title: "Ключевые Возможности Dhamma.Gift"
+title: "Dhamma.Gift: поиск, ридер и 6 изданий Палийского канона — возможности"
 description: "Нашли отрывок, читаете пали рядом с переводом, клик по слову открывает словарь, дальше слушаете и учите наизусть. Всё в одном окне."
 slug: /key-features
 sidebar_position: 1
 ---
 
 import SiteLink from '@site/src/components/SiteLink';
+
+<head>
+  <title>Dhamma.Gift: поиск, ридер и 6 изданий Палийского канона — возможности</title>
+</head>
 
 # Ключевые особенности
 
@@ -15,6 +19,16 @@ Dhamma.gift — это набор связанных инструментов в
 переводом, прослушать и заучить можно было в одном непрерывном сценарии, а
 не в разных приложениях. Любой текст можно читать и сразу в шести изданиях
 Палийского канона, с подсветкой отличий.
+
+## Только на Dhamma.Gift
+
+- **Шесть изданий канона, отличия в одно нажатие.** Любая сутта построчно в Buddha Jayanti (Шри-Ланка),
+  Chaṭṭha Saṅgāyana (Мьянма), Siam Rath (Таиланд), Mahāsaṅgīti, её печатном издании 2005 года и PTS, с
+  подсветкой мест, где они расходятся. См. [Сравнение](/compare).
+- **Поиск по смыслу в Суттах и Винае.** Опишите отрывок своими словами, по-русски или по-английски, и
+  получите сутту: [`притча про пилу`](https://dhamma.gift/ru/?q=притча%20про%20пилу) находит MN 21, [`как не бояться смерти`](https://dhamma.gift/ru/?q=как%20не%20бояться%20смерти) — AN 4.184,
+  [`what leads to a long life`](https://dhamma.gift/ru/?q=what%20leads%20to%20a%20long%20life) — AN 5.125. Это предположения по смыслу: сверяйте найденное с текстом.
+  См. [Поиск](/search-guide).
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать в App Store" style={{width: '100%', display: 'block'}} /></a></span>

@@ -1,11 +1,15 @@
 ---
-title: "Key Features of Dhamma.Gift"
+title: "Dhamma.Gift Features: Pali Canon Search, Reader and 6 Editions"
 description: "Find a passage, read the Pali beside the translation, tap a word for the dictionary, then listen and learn it by heart, all in one window."
 slug: /key-features
 sidebar_position: 1
 ---
 
 import SiteLink from '@site/src/components/SiteLink';
+
+<head>
+  <title>Dhamma.Gift Features: Pali Canon Search, Reader and 6 Editions</title>
+</head>
 
 # Key Features
 
@@ -15,6 +19,16 @@ dictionary, and a text-to-speech player, tied together so that finding a
 passage, reading it with a translation, listening to it, and memorizing it
 are all one continuous workflow rather than separate apps. Any text can also be read in six Pali
 editions of the Canon at once, with the differences highlighted.
+
+## Only on Dhamma.Gift
+
+- **Six editions of the Canon, the differences in one click.** Any sutta line by line in Buddha Jayanti
+  (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), the Mahāsaṅgīti, its 2005 print and PTS,
+  with the places where they differ highlighted. See [Compare](/compare).
+- **Search by meaning over the Suttas and the Vinaya.** Describe a passage in your own words, in English or
+  Russian, and get the sutta: [`parable of the saw`](https://dhamma.gift/?q=parable%20of%20the%20saw) finds MN 21, [`how not to fear death`](https://dhamma.gift/?q=how%20not%20to%20fear%20death) AN 4.184,
+  [`what leads to a long life`](https://dhamma.gift/?q=what%20leads%20to%20a%20long%20life) AN 5.125. These are guesses by meaning: check them against the text. See
+  [Search](/search-guide).
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{width: '100%', display: 'block'}} /></a></span>

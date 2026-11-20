@@ -78,7 +78,8 @@ a question in your own words, `why are the five aggregates not self` — the
 suttas closest to it in meaning are shown instead, with the note
 *No exact matches — guesses by meaning*. They are guesses: check what you
 find against the suttas themselves. It covers the four Nikāyas, Snp, Ud,
-Iti and the Vinaya, in Pali, English and Russian.
+Iti and the Vinaya, in Pali, English and Russian. Examples: [`parable of the saw`](https://dhamma.gift/?q=parable%20of%20the%20saw) finds MN 21,
+[`how not to fear death`](https://dhamma.gift/?q=how%20not%20to%20fear%20death) AN 4.184, [`what leads to a long life`](https://dhamma.gift/?q=what%20leads%20to%20a%20long%20life) AN 5.125.
 
 **Tip #1.** You can type Pali in plain Latin letters, no diacritics
 required (`kacchapa`) — for an exact query, the special characters (ā ī ū
