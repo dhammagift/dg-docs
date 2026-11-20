@@ -23,7 +23,7 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | [**VRI**](#chaṭṭha-saṅgāyana-vri) | Chaṭṭha Saṅgāyana (Шестой собор, 1954-1956) | Мьянма, бирманское | национальное | [Tipitaka.org](https://tipitaka.org) |
 | [**SR**](#siam-rath-1927-sr) | Siam Rath 1927 | Таиланд, тайское | национальное | E-Tipitaka |
 | [**MS**](#mahāsaṅgīti-ms) | Mahāsaṅgīti | латиница | производное от MS05: сегменты и правки SuttaCentral | [SuttaCentral](https://suttacentral.net) |
-| [**MS05**](#mahāsaṅgīti-2005-печатная-ms05) | Mahāsaṅgīti 2005, печатная | латиница | производное: издание Шестого собора (Мьянма) латиницей | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
+| [**MS05**](#mahāsaṅgīti-2005-печатная-ms05) | Mahāsaṅgīti 2005, печатная | латиница | производное: издание Шестого собора (Мьянма) латиницей | [Tipitaka2500](https://tipitaka2500.github.io) |
 | [**PTS**](#pts) | Pali Text Society (1880-е и позже) | Великобритания, латиница | критическое, европейское: по рукописям Шри-Ланки, Мьянмы, Таиланда | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
 
 Метка ведёт к известным проблемам издания, ниже.

@@ -23,7 +23,7 @@ Only here are all six editions of the Pali Canon side by side: any text, line by
 | [**VRI**](#chaṭṭha-saṅgāyana-vri) | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | Myanmar, Burmese | national | [Tipitaka.org](https://tipitaka.org) |
 | [**SR**](#siam-rath-1927-sr) | Siam Rath 1927 | Thailand, Thai | national | E-Tipitaka |
 | [**MS**](#mahāsaṅgīti-ms) | Mahāsaṅgīti | Roman script | derived from MS05: SuttaCentral's segments and edits | [SuttaCentral](https://suttacentral.net) |
-| [**MS05**](#mahāsaṅgīti-2005-printed-ms05) | Mahāsaṅgīti 2005, as printed | Roman script | derived: the Sixth Council edition (Myanmar) in Roman script | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
+| [**MS05**](#mahāsaṅgīti-2005-printed-ms05) | Mahāsaṅgīti 2005, as printed | Roman script | derived: the Sixth Council edition (Myanmar) in Roman script | [Tipitaka2500](https://tipitaka2500.github.io) |
 | [**PTS**](#pts) | Pali Text Society (from the 1880s) | UK, Roman script | critical, European: from manuscripts of Sri Lanka, Myanmar and Thailand | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
 
 A tag leads to the edition's known problems, below.
