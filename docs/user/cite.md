@@ -44,7 +44,7 @@ Every line of every text has a permanent link: the text's id and the line's numb
 - **APA:** Dhamma.Gift. (n.d.). *SN 56.11:4.2* [Russian translation]. Retrieved November 14, 2026, from https://dhamma.gift/sn56.11:4.2?lang=ru
 
 Name the Pali edition when you quote the Pali: the Mahāsaṅgīti (MS) by default, or the one picked in the reader
-(BJT, CS, SR, MS 2005, PTS).
+(BJT, VRI, SR, MS05, PTS).
 
 ## A glossary term
 

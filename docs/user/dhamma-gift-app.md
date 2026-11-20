@@ -40,7 +40,8 @@ collection and translator, and a match context that opens straight in the
 reader ([Search](/search-guide)). In the reader: a text beside its
 translation, reading modes, Pāli in other scripts. Tap a Pāli word — the
 [dictionary](/dictionary) opens, offline too. Tap a paragraph — it is read
-aloud ([Voice](/tts)).
+aloud ([Voice](/tts)). The app opens where you left off: the last search, a
+text, the contents or Memo (Settings → On start, open).
 
 ## Built into the phone
 
@@ -62,14 +63,25 @@ aloud ([Voice](/tts)).
 - **Quick Settings and Control Center.** A Dhamma.Gift button in the
   notification shade on Android and in Control Center on iPhone: one tap
   from anywhere, offline.
-- **Player on the lock screen.** While a text is read aloud, its player is
-  in the notification shade and on the lock screen. *Android.*
+- **Player on the lock screen.** While a text is read aloud or a recording
+  plays (the Pātimokkha's sections), its player is in the notification shade
+  and on the lock screen. *Android.*
 - **Links open in the app.** A dhamma.gift link tapped in a messenger or in
   notes (`https://dhamma.gift/mn1`) opens the text in the app, not in the
   browser.
 - **Reminders on schedule.** [Subscriptions](/quickmodal) — a text or a word
   to come back to — can remind you at a set time with a notification; a
   browser can't promise that with the tab closed.
+
+## Updates
+
+Fixes reach the app from the site, without a store update: when new files
+have come in, the **New version available** bar offers **Update** (the page
+reloads) or **Later**. Settings → **App version** shows the version; its
+**check** button looks for an update, says the result in a word or two (Up
+to date, Update available, Offline…) and then offers the next step:
+**Update**, **Retry**, or **Store** when the update needs a newer version
+of the app.
 
 ## Your data
 

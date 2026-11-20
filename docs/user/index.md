@@ -80,9 +80,9 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
   memorizing any phrase. See [Voice / TTS](/tts).
 - **Keyboard shortcuts** for fast navigation. See
   [Keyboard shortcuts](/hotkeys).
-- **Links out** — the strip under the title links to the same passage on
-  S.Dhamma.Gift, DigitalPaliReader, Tipitaka.lk, SuttaCentral and other
-  sites.
+- **External links** — the menu above the text (and again at its end)
+  opens the same passage on S.Dhamma.Gift, Digital Pali Reader,
+  Tipitaka.lk, SuttaCentral and other sites.
 
 <div style={{clear: 'both'}} />
 
@@ -139,6 +139,8 @@ build audio meditations:
 Download the text library once, from Settings or from the banner on the
 home screen. Then search and reading work without internet: on the site,
 in the PWA and in the apps. It does not work in a private browser window.
+On the site and in the PWA, a text you have opened once also opens again
+offline, without the library.
 See [Offline library](../tech/offline-db.md).
 
 ## Dict.Dhamma.Gift

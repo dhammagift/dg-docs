@@ -63,6 +63,11 @@ locally in the browser — no request to dict.dhamma.gift or anywhere else.
 It's a smaller, single-dictionary alternative to the full Dict.Dhamma.Gift
 platform below, meant for reading with no or a poor connection.
 
+For a key term of the project's [glossary](/glossary), the first line, marked
+**(DG)**, gives the Dhamma.Gift rendering and, after *def.*, every sutta where
+the canon defines the word; a special definition (one the canon gives for a
+particular context) shows that Pali phrase in italics instead of *def.*
+
 If a word isn't in the built-in DPD, the popup offers two links instead:
 **Search on Dhamma.gift** and **Search in the full Dict.Dhamma.Gift**.
 
@@ -72,8 +77,8 @@ A click opens one word. To look up a phrase or translate a whole sentence,
 turn on multi-select — the selection icon in the reader toolbar or **Alt+J** —
 and select that part of the Pali text. After 3 seconds the selection opens
 by itself in the dictionary of the chosen mode. For translating and parsing a
-sentence, the DharmaMitra.org mode or a right click on the **DG** button in
-the dictionary window works best. The delay (3 or 5 seconds) can be changed
+sentence, the DharmaMitra.org mode or a right click on the Dict.Dhamma.Gift
+button in the dictionary window works best. The delay (3 or 5 seconds) can be changed
 in [Settings](/settings), under "Multi-select".
 
 ## The dictionary window
@@ -87,8 +92,8 @@ in [Settings](/settings), under "Multi-select".
 | Button | What it does |
 |---|---|
 | 🔍 | Searches the texts on Dhamma.Gift for the word |
-| **DG** | Opens the word in the full dictionary — dict.dhamma.gift |
-| **DG** with a right click, a middle click or a long tap on a phone | Opens DharmaMitra — grammar analysis and research on the word |
+| Dict.Dhamma.Gift logo (middle button) | Opens the word in the full dictionary — dict.dhamma.gift |
+| The same button with a right click, a middle click or a long tap on a phone | Opens DharmaMitra — grammar analysis of the word |
 | ✕ | Closes the window (Esc) |
 
 Drag the window by its title and resize it from the bottom right corner.
@@ -108,14 +113,16 @@ and it works offline there. Add a word to the address to open its page:
 
 ### The word page
 
-<img src={DictWordPage} alt="The page for dukkha: history on the left, the DPD entry, buttons next to the word" style={{maxWidth: '100%', display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={DictWordPage} alt="The page for dukkha: history on the left, buttons next to the word, the Dhamma.Gift rendering with the suttas that define it, the DPD entry" style={{maxWidth: '100%', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **On the left** — favorite and recent words. The clock button in the header
   hides and shows this column; on a phone it opens the list.
 - **Next to the word** — ☆ to favorites (Alt+Q), 🔊 read aloud (Alt+R), copy
   the word and a link to it.
-- **"Open on Dhamma.Gift"** — searches the site's texts for the word (Alt+3
-  does the same).
+- **Under the word** — how many texts and matches Dhamma.Gift search finds
+  for it, and **"Open on Dhamma.Gift"**, which runs that search (Alt+3 does
+  the same). For a key term of the glossary, the Dhamma.Gift rendering and
+  **Defined in:** — every sutta where the canon defines the word.
 - Double-clicking any word inside an entry also searches for it.
 - The dictionary blocks can be moved up and down (↑/↓). In the Sanskrit
   block, +/− expands or collapses all its dictionaries.
@@ -127,7 +134,7 @@ and it works offline there. Add a word to the address to open its page:
 The menu (Alt+M) is one panel:
 
 - **Find on the page** (Alt+F) — search the open entry, the same as on the site.
-- **Appearance** — interface language, light or dark theme, font size
+- **Appearance** — interface language, dark, light or auto theme, font size
   (Alt+− / Alt+= / Alt+0), sans or serif font, niggahita spelling (ṃ/ṁ).
 - **Expand right away** — which entry sections open at once (grammar,
   examples, summary) and the "one section at a time" mode.

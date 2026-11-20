@@ -29,29 +29,37 @@ the real search page):
 <img src={SearchToolbar} alt="Buttons above the search results table" style={{maxWidth: 'min(700px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **Saṁvaṭṭo / Vivaṭṭo** — yes, the labels are literally Pali ("collapsing" /
-  "unfolding") — expands or collapses the quoted lines in every row at
-  once (same as Shift+Space).
+  "unfolding"; on a phone, an icon of two arrows) — expands or collapses
+  the quoted lines in every row at once (same as Shift+Space).
 - **Words** — switches the table from a list of texts to a list of the
   matched words instead.
+- **Show variants** (eye icon) — shows or hides the variant readings of the
+  other editions. Off by default: the variant lines, and the matches found
+  only in them, are left out of the results and their counts.
+- **1/2 columns** — toggles quotes between one wide column and Pali +
+  translation side by side.
 - **Dictionary** (speech-bubble icon, Alt+A) — turns the click-to-look-up popup dictionary on/off.
 - **Multi-select** (Alt+J) — select several words or a whole sentence and
   it opens in the dictionary by itself (see [Dictionary](/dictionary)).
-- **1/2 columns** — toggles quotes between one wide column and Pali +
-  translation side by side.
+- **Compass** — opens the [Quick Window](/quickmodal) (favorites, history,
+  subscriptions).
 - **Read marks** — adds a "read" checkbox column to every row. These marks
   belong to the current result set (this query + this scope), not to the
   sutta as a whole — rerun the same search later and you'll see the same
   marks, but that's a different thing from a sutta's overall reading
   progress.
 - **Help** — opens this very page.
+- **Subscribe** (bell icon, on the right) — sends you the texts found, one at
+  a time, as a [subscription](/quickmodal); **Configure →** opens its settings.
 
-Right under the search box, a **"variants"** link shows up when the word
+Next to the number of results, a **"variants"** link shows up when the word
 you searched for has alternate spellings elsewhere in the texts.
 
 Search covers the Mahāsaṅgīti text and the variant readings collated from
 the other editions: Sri Lankan (BJT), Burmese (VRI), Thai (Siam Rath) and the
-PTS. A word read differently in another edition is found too, and the result
-shows the Mahāsaṅgīti line with the readings for it.
+PTS (**With variant readings** in Quick Settings, on by default). A word read
+differently in another edition is found too, and with **Show variants** on the
+result shows the Mahāsaṅgīti line with the readings for it.
 
 ## Basics
 
@@ -73,9 +81,10 @@ find against the suttas themselves. It covers the four Nikāyas, Snp, Ud,
 Iti and the Vinaya, in Pali, English and Russian.
 
 **Tip #1.** You can type Pali in plain Latin letters, no diacritics
-required (`kacchapa`) — the special characters (ā ī ū ḍ ḷ ṁ ṇ ṅ ñ ṭ) are
-available to copy from the [RegEx Cheat
-Sheet](#regex-cheat-sheet--try-it-live) below if you want an exact query.
+required (`kacchapa`) — for an exact query, the special characters (ā ī ū
+ḍ ḷ ṁ ṇ ṅ ñ ṭ) are typed into the search box by the "Pāḷi diacritics"
+buttons in Quick Settings, and can be copied from the [RegEx Cheat Sheet](#regex-cheat-sheet--try-it-live)
+below.
 
 **Tip #2. Where to search.** By default search covers the 4 Nikāyas (DN,
 MN, SN, AN) plus part of the Khuddaka Nikāya (Dhammapada, Udāna,
@@ -87,7 +96,7 @@ Nikāya books to include:
 <img src={SearchQuickSettings} alt="Quick Settings panel — choosing where to search" style={{maxWidth: 'min(345px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 The same panel controls how many lines of context to show before/after a
-quote ("Quote context") — the same setting as the `lb`/`la` parameters in
+quote ("Context lines") — the same setting as the `lb`/`la` parameters in
 the API.
 
 **Tip #3.** Too few results? Try the word's stem instead — drop the
@@ -132,11 +141,12 @@ GitHub.
 - **✦** — an invisible link at the start and end of each quoted fragment,
   to open the reader at exactly that spot.
 - **Tap a row** and a Play button appears to read that quote aloud;
-  **Alt+R** reads the results from the first quote.
-- The **Search** field inside the table filters the results already shown.
+  **Alt+R** reads the results from the first quote, each text's name before
+  its quotes.
+- The **Filter** field above the table filters the results already shown.
   It spells loosely: no diacritics, case, aspiration or doubled letters
-  (`tanha` finds taṇhā, `dama` finds dhamma). The **Custom Search Builder**
-  at the bottom does multi-condition filtering.
+  (`tanha` finds taṇhā, `dama` finds dhamma). The **Advanced filter** button
+  next to it (sliders icon) does multi-condition filtering.
 - **Export** — download the results as TXT, PDF or MD (Markdown), handy for
   AI or analysis.
 - The **Words** button switches the table to results grouped by word
@@ -147,23 +157,28 @@ GitHub.
   **Whole text** (all the words, at any distance from each other).
 - **Collections** on the home screen are ready-made searches on one theme;
   "Show all" lists them.
-- Below the table, links to a few standalone helper tools: **Make List**
-  (build a list from arbitrary text), **List Diff** (compare two lists of
-  links) and **Sutta Diff** (compare editions of a sutta) — each opens as
-  its own page.
+- Below the table: **Main** (the home screen), **History** (search history),
+  **Read** (the table of contents), and a few standalone helper tools —
+  **Make List** (build a list from arbitrary text), **List Diff** (compare
+  two lists of links) and **Sutta Diff** (compare editions of a sutta), each
+  on its own page. **Visibility** shows or hides table columns.
 
 ## Table columns and links
 
 - **Sutta** — the text's id (e.g. `sn56.11`, `dn22`, `an10.46`).
 - **Title** — the text's title.
 - **Words** — the matched words in the text.
-- **Count** — number of matches in the text, variants included.
+- **Ct** — number of matches in the text (with **Show variants** off, the
+  matches found only in variant readings are not counted).
+- **Mr** — similes and metaphors in the text (see above).
 - **Type** — `4 Nikāyas` (Dīgha/Majjhima/Saṁyutta/Aṅguttara), `Khuddaka
-  Nikāya` (any KN book), or `Vinaya` (anything from the Vinaya).
-- **Quote** — the quote containing the match.
-- **Links** — Pi (read on Dhamma.Gift), Ru (Theravada.ru or
-  tipitaka.theravada.su, when available) and the Pali editions side by side
-  on s.dhamma.gift.
+  Nikāya` (any KN book), or `Vinaya` (anything from the Vinaya). Hidden by
+  default: turn it on under **Visibility**.
+- **Quote** — the quote containing the match, in the row's expanded part.
+- **Links** — Pi and En open the text on s.dhamma.gift (the BJT, CST and
+  Thai editions with translations side by side); on the Russian page, Ru
+  opens a Russian translation (Theravada.ru or tipitaka.theravada.su, when
+  available). The sutta id itself opens the text in the Dhamma.Gift reader.
 
 For edition abbreviations (`ms`, `pts1ed`, `sya-all`, `mr`, etc.), see the
 <SiteLink to="/assets/texts/abbr.html">Edition Abbreviations</SiteLink> page.
@@ -176,7 +191,7 @@ For edition abbreviations (`ms`, `pts1ed`, `sya-all`, `mr`, etc.), see the
 | Alt+S | Open/close [Quick Settings](/settings) (the sliders icon next to the search box) |
 | Alt+Shift+S | Open/close the full [Settings](/settings) page |
 | Alt+T | Dark / light / auto theme |
-| Alt+Space, Alt+Z | Show/hide Pali or other languages in results |
+| Alt+Space, Alt+Z | Results: both languages → Pali only → translation only |
 | Ctrl+Shift+F (Cmd+Shift+F on Mac) | Find on page (site-wide, not just here) — also in the burger menu |
 | Shift+Space | Collapse/expand all search results |
 | Alt+R | Read the results aloud |

@@ -59,7 +59,7 @@ That is the whole thing. `setup.sh` does, in one pass:
    [`dg-docs`](https://github.com/dhammagift/dg-docs)) into `dg-docs/`,
    so `/docs` works right away.
 5. `npm run build-search-db` — **`dg.db`, the SQLite/FTS5 corpus the
-   production server reads.** Around 600 MB and a minute or two; this is the
+   production server reads.** Around 900 MB and a minute or two; this is the
    slow step.
 6. `node test-search-db.js` — asserts the freshly built database is sane
    before you ever start the server.
@@ -117,7 +117,7 @@ filesystem walk, and the same query now answers in roughly two seconds.
 ### Building it
 
 ```bash
-npm run build-search-db     # → dg.db, about 600 MB, ~85 seconds
+npm run build-search-db     # → dg.db, about 900 MB, ~85 seconds
 ```
 
 The build reads the corpus directly — the same trees `scripts/setup.sh` wires

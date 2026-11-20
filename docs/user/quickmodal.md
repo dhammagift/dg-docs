@@ -13,7 +13,8 @@ Fast access to favorites, history, key suttas, and memorization — from
 **anywhere** on the site, without leaving the page you're on.
 
 :::tip[How to open it]
-The compass icon in the toolbar or the burger menu, or the **Alt+P**
+The compass icon (in the reader's toolbar, in the row of icons under a text,
+at the top of the home page), or the **Alt+P**
 (or **Alt+Y** — both work regardless of your keyboard layout) shortcut.
 :::
 
@@ -37,7 +38,8 @@ tab instead of replacing the current page.
 ## Tabs
 
 - **☆ & History** — your bookmarks (Favorites) and Search History in
-  one tab. Sort each alphabetically or by date (the ⇅ icon), rename or delete
+  one tab. Sort each by date or alphabetically (the **Newest** / **A-Z** switch on
+  the right of the list's heading), rename or delete
   bookmarks, hide individual history entries. At the bottom, the **"All
   history →"** link opens the full history page.
 

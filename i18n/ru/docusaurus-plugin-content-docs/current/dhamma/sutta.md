@@ -93,10 +93,10 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 - **Прямое определение.** У него несколько формул, и все они прямые:
   - «что такое X? … это называется X» (*Katamañca … ? … idaṁ vuccati …*): так в разборе первой истины определены рождение, старение, боль, недовольство и другие (<SiteLink to="/dn22:18.18?lang=ru&hide=id">ДН 22</SiteLink>; весь ряд <SiteLink to="/dn22:18.3?lang=ru&hide=id">ДН 22</SiteLink>);
-  - слово повторено дважды, «„X, X“, так говорят. Что же такое X?» (*‘Nibbānaṁ, nibbānan’ti, āvuso, vuccati. Katamaṁ nu kho, āvuso, nibbānan’ti?*), и ответ «это называется ниббана» (<SiteLink to="/sn38.1:2.1?lang=ru&hide=id">СН 38.1</SiteLink>);
+  - слово повторено дважды, «„X, X“, так говорят. Что же такое X?» (*‘Nibbānaṁ, nibbānan’ti, āvuso sāriputta, vuccati. Katamaṁ nu kho, āvuso, nibbānan’ti?*), и ответ «это называется ниббана» (<SiteLink to="/sn38.1:2.1?lang=ru&hide=id">СН 38.1</SiteLink>);
   - «„X, X“, так говорят. В какой мере говорят X?» (*‘Saññā saññā’ti, āvuso, vuccati. Kittāvatā nu kho, āvuso, saññāti vuccati?*, <SiteLink to="/mn43:8.1?lang=ru&hide=id">МН 43</SiteLink>);
   - «как бывает X? … так бывает X» (*Kathañca … ? … Evaṁ kho …*, <SiteLink to="/sn47.13:7.1?lang=ru&hide=id">СН 47.13</SiteLink>, <SiteLink to="/sn47.13:7.6?lang=ru&hide=id">7.6</SiteLink>).
-- **Сравнение** (*seyyathāpi … evameva kho*, «подобно тому как … точно так же»). Будда сам говорит, что это сравнение: «сравнение это я привёл, чтобы донести смысл» (*upamā kho myāyaṁ katā atthassa viññāpanāya*, <SiteLink to="/sn35.238:7.1?lang=ru&hide=id">СН 35.238</SiteLink>), и объясняет каждую его часть.
+- **Сравнение** (*seyyathāpi … evameva kho*, «подобно тому как … точно так же»). Будда сам говорит, что это сравнение: «сравнение это я привёл, чтобы донести смысл» (*upamā kho myāyaṁ, bhikkhave, katā atthassa viññāpanāya*, <SiteLink to="/sn35.238:7.1?lang=ru&hide=id">СН 35.238</SiteLink>), и объясняет каждую его часть.
 - **Обозначение** (*adhivacana*). Переносное название так и названо обозначением: «„тревога“, монахи, это обозначение желаний» (*‘Bhayan’ti, bhikkhave, kāmānametaṁ adhivacanaṁ*), и дальше сказано почему (<SiteLink to="/an6.23:1.1?lang=ru&hide=id">АН 6.23</SiteLink>, <SiteLink to="/an6.23:2.2?lang=ru&hide=id">2.2</SiteLink>).
 - **Условный и прямой смысл** (*pariyāyena / nippariyāyena*). Ананда разбирает одно выражение: «до этой степени сказано Благословенным в условном смысле» (*vutto bhagavatā pariyāyena*), а в конце: «в прямом смысле» (*nippariyāyena*, <SiteLink to="/an9.42:4.2?lang=ru&hide=id">АН 9.42</SiteLink>, <SiteLink to="/an9.42:12.2?lang=ru&hide=id">12.2</SiteLink>).
 - **В учении Благородного** (*ariyassa vinaye*). Особый смысл назван прямо, часто с противопоставлением: «у брахманов так, а в учении Благородного иначе» (*aññathā kho, brāhmaṇa, brāhmaṇā … paññāpenti, aññathā ca pana ariyassa vinaye …*, <SiteLink to="/an3.58:3.1?lang=ru&hide=id">АН 3.58</SiteLink>); «то, что разрушается, называется миром в учении Благородного» (*yaṁ kho, ānanda, palokadhammaṁ, ayaṁ vuccati ariyassa vinaye loko*, <SiteLink to="/sn35.84:2.3?lang=ru&hide=id">СН 35.84</SiteLink>).
@@ -122,7 +122,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
 
 **МН 95 (Caṅkī Sutta)** — спутник Kālāma: если Kālāma говорит, из чего
 *нельзя* заключать об истинности учения, то МН 95 говорит, что честно
-сказать вместо этого. Оберегание истины (*saccānurakkhana*) — это сказать
+сказать вместо этого. Оберегание истины (*saccānurakkhaṇa*) — это сказать
 «такова моя вера», а не «только это истинно, остальное ложно». <SuttaLink index={2} />
 
 ## Разбирайтесь, прежде чем хвалить или порицать
@@ -226,7 +226,7 @@ import VijjaHatthipada from '@site/static/img/thumb/vijja-hatthipada-nobg.webp';
   { label: 'АН 8.8', desc: '«Всё, что хорошо сказано, — слово Будды» — но вместе с Mahāpadesa и Kālāma, а не как разрешение на что угодно.', src: '/an8.8:6.7?lang=ru&hide=id' },
   { label: 'МН 22', desc: 'Изучать Дхамму ради спора, а не понимания, — значит усваивать её неверно.', src: '/mn22:10.10?lang=ru&hide=id' },
   { label: 'АН 5.209', desc: 'Пять опасностей произносить Дхамму протяжным песенным голосом.', src: '/an5.209:1.1?lang=ru&hide=id' },
-  { label: 'АН 1.132–139', desc: 'Выдавать несказанное Татхагатой за сказанное и наоборот: во вред многим.', src: '/an1.132-139:1.1?lang=ru&hide=id' },
+  { label: 'АН 1.132–139', desc: 'Выдавать несказанное Татхагатой за сказанное и наоборот: во вред многим.', src: '/an1.132:1.1?lang=ru&hide=id' },
   { label: 'МН 18', desc: 'Будда о разборе Махакаччаны: «я объяснил бы точно так же».', src: '/mn18:21.2?lang=ru&hide=id' },
   { label: 'МН 44', desc: 'То же о разборе монахини Дхаммадинны.', src: '/mn44:30.5?lang=ru&hide=id' },
   { label: 'МН 141', desc: 'Будда заранее признаёт разбор четырёх истин Сарипуттой.', src: '/mn141:5.7?lang=ru&hide=id' },
