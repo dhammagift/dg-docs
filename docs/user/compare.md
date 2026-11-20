@@ -1,6 +1,6 @@
 ---
-title: "Compare 6 Pali Editions Side by Side"
-description: "Any sutta line by line in 6 Pali editions: Buddha Jayanti (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), Mahāsaṅgīti, Mahāsaṅgīti 2005 and PTS, with the differences highlighted."
+title: "Compare 6 Pali Canon Editions — Differences in One Click"
+description: "The only place with all six editions of the Pali Canon side by side, differences highlighted, in one click. Any sutta line by line: Buddha Jayanti (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), Mahāsaṅgīti, Mahāsaṅgīti 2005 and PTS, with the differences highlighted."
 keywords: [Pali Canon editions, Tipitaka comparison, BJT, VRI, Chattha Sangayana, Siam Rath, PTS, Mahasangiti]
 slug: /compare
 sidebar_position: 3
@@ -8,18 +8,22 @@ sidebar_position: 3
 
 import CompareDiff from '@site/static/img/help/compare-diff-en.png';
 
-# Compare: Pali Editions Side by Side
+<head>
+  <title>Compare 6 Pali Canon Editions — Differences in One Click</title>
+</head>
 
-Any text can be read in six Pali editions at once, line by line, with the differences highlighted.
+# Compare 6 Pali Canon Editions
 
-| Tag | Edition | Type of edition | Source |
-|---|---|---|---|
-| **BJT** | Buddha Jayanti (1957-1993) | national, Sri Lanka | [Tipitaka.lk](https://tipitaka.lk) |
-| **VRI** | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | national, Myanmar | [Tipitaka.org](https://tipitaka.org) |
-| **SR** | Siam Rath 1927 | national, Thailand | E-Tipitaka |
-| **MS** | Mahāsaṅgīti | derived from MS05: SuttaCentral's segments and edits | [SuttaCentral](https://suttacentral.net) |
-| **MS05** | Mahāsaṅgīti 2005, as printed | derived: the Sixth Council edition (Myanmar) in Roman script | [Tipitaka2500.github.io](https://tipitaka2500.github.io) |
-| **PTS** | Pali Text Society (from the 1880s) | critical, European: from manuscripts of Sri Lanka, Myanmar and Thailand | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
+Only here are all six editions of the Pali Canon side by side: any text, line by line, with the differences highlighted, in one click.
+
+| Tag | Edition | Country, original script | Type of edition | Source | Known problems |
+|---|---|---|---|---|---|
+| **BJT** | Buddha Jayanti (1957-1993) | Sri Lanka, Sinhala | national | [Tipitaka.lk](https://tipitaka.lk) | [BJT](#buddha-jayanti-bjt) |
+| **VRI** | Chaṭṭha Saṅgāyana (Sixth Council, 1954-1956) | Myanmar, Burmese | national | [Tipitaka.org](https://tipitaka.org) | [VRI](#chaṭṭha-saṅgāyana-vri) |
+| **SR** | Siam Rath 1927 | Thailand, Thai | national | E-Tipitaka | [SR](#siam-rath-1927-sr) |
+| **MS** | Mahāsaṅgīti | Roman script | derived from MS05: SuttaCentral's segments and edits | [SuttaCentral](https://suttacentral.net) | [MS](#mahāsaṅgīti-ms) |
+| **MS05** | Mahāsaṅgīti 2005, as printed | Roman script | derived: the Sixth Council edition (Myanmar) in Roman script | [Tipitaka2500.github.io](https://tipitaka2500.github.io) | [MS05](#mahāsaṅgīti-2005-printed-ms05) |
+| **PTS** | Pali Text Society (from the 1880s) | UK, Roman script | critical, European: from manuscripts of Sri Lanka, Myanmar and Thailand | [GRETIL](https://gretil.sub.uni-goettingen.de/) | [PTS](#pts) |
 
 Column order: the three national editions first — BJT, VRI, SR — then the Mahāsaṅgīti, SuttaCentral's version (MS) and the printed one (MS05), and PTS last, a critical edition. Columns you arrange yourself keep your order.
 
