@@ -1284,6 +1284,16 @@
           "an10.60:13.20"
         ]
       },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "dakkho bhamakāro dīghaṁ vā añchanto ‘dīghaṁ añchāmī’ti pajānāti",
+          "refs": [
+            "dn22:2.8",
+            "mn10:4.8"
+          ]
+        }
+      ],
       "forms": [
         "ānāpānassati",
         "ānāpānassatinti",
@@ -1816,7 +1826,17 @@
         "patterns": [
           "sn40.9:1.2"
         ]
-      }
+      },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "rājā vā rājamahāmatto vā caturaṅginiyā senāya vanasaṇḍe ekarattiṁ vāsaṁ upagaccheyya",
+          "refs": [
+            "an6.60:8.5",
+            "an6.60:8.10"
+          ]
+        }
+      ]
     },
     {
       "id": "anjalikaraniyo",
@@ -5913,7 +5933,28 @@
         "vinaya": [
           "pli-tv-bu-vb-pc79:2.1.6"
         ]
-      }
+      },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "odātena vatthena sasīsaṁ pārupitvā",
+          "refs": [
+            "an5.28:5.4",
+            "dn2:82.1",
+            "dn10:2.18.4",
+            "mn77:28.3",
+            "mn119:21.3"
+          ]
+        },
+        {
+          "kind": "seyyathāpi",
+          "text": "pabbatasaṅkhepe udakarahado nivāto vigataūmiko",
+          "refs": [
+            "an6.60:7.4",
+            "an6.60:7.8"
+          ]
+        }
+      ]
     },
     {
       "id": "cetana",
@@ -7160,6 +7201,16 @@
           "pli-tv-bu-vb-ss8:1.6.9"
         ]
       },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "dakkho kevaṭṭo sukhumacchikena jālena parittaṁ udakadahaṁ otthareyya",
+          "refs": [
+            "dn1:3.72.3",
+            "dn1:3.72.4"
+          ]
+        }
+      ],
       "forms": [
         "diṭṭheva",
         "diṭṭhi",
@@ -7992,7 +8043,28 @@
           "pli-tv-bu-vb-pj1:5.7.23",
           "pli-tv-bu-vb-ss8:1.5.10"
         ]
-      }
+      },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "udakarahado ubbhidodako",
+          "refs": [
+            "an5.28:3.4",
+            "dn2:78.1",
+            "dn10:2.16.1",
+            "mn77:26.3",
+            "mn119:19.3"
+          ]
+        },
+        {
+          "kind": "seyyathāpi",
+          "text": "gāmassa vā nigamassa vā avidūre mahantaṁ taḷākaṁ",
+          "refs": [
+            "an6.60:5.4",
+            "an6.60:5.9"
+          ]
+        }
+      ]
     },
     {
       "id": "ehi-tvam",
@@ -8557,6 +8629,16 @@
           "sn12.33:3.3"
         ]
       },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "jajjarasakaṭaṁ veṭhamissakena yāpeti (tathāgatassa kāyo)",
+          "refs": [
+            "dn16:2.25.11",
+            "dn16:2.25.12"
+          ]
+        }
+      ],
       "forms": [
         "jara",
         "jarampi",
@@ -9586,6 +9668,25 @@
           "(+5)"
         ]
       },
+      "metaphors": [
+        {
+          "kind": "no formula",
+          "text": "khetta (kammaṁ khettaṁ, viññāṇaṁ bījaṁ, taṇhā sneho)",
+          "refs": [
+            "an3.76:2.3",
+            "an3.77:2.3"
+          ]
+        },
+        {
+          "kind": "seyyathāpi",
+          "text": "loṇakapalla (pāpakamma)",
+          "refs": [
+            "an3.100:4.1",
+            "an3.100:4.7",
+            "an3.100:5.1"
+          ]
+        }
+      ],
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
@@ -11981,6 +12082,17 @@
           "pli-tv-bu-vb-pj4:4.1.11"
         ]
       },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "maṇi veḷuriyo subho jātimā aṭṭhaṁso, tatrāssa suttaṁ āvutaṁ",
+          "refs": [
+            "dn2:84.1",
+            "dn10:2.22.1",
+            "mn77:29.4"
+          ]
+        }
+      ],
       "forms": [
         "ñāṇadassananti",
         "ñāṇadassanato",
@@ -12740,6 +12852,24 @@
             "caṅgavāranti",
             "caṅgavāraṁ",
             "caṅgavāro"
+          ]
+        },
+        {
+          "kind": "yathā",
+          "text": "iṇa, roga, bandhanāgāra, dāsabya, kantāraddhānamagga (appahīnā)",
+          "refs": [
+            "dn2:74.1",
+            "dn10:2.12.1",
+            "mn39:14.29"
+          ]
+        },
+        {
+          "kind": "yathā",
+          "text": "āṇaṇya, ārogya, bandhanāmokkha, bhujissa, khemantabhūmi (pahīnā)",
+          "refs": [
+            "dn2:74.2",
+            "dn10:2.12.2",
+            "mn39:14.30"
           ]
         }
       ],
@@ -13592,6 +13722,14 @@
             "mn146:12.6",
             "mn146:25.5"
           ]
+        },
+        {
+          "kind": "seyyathāpi",
+          "text": "hatthena vā hatthaṁ dhoveyya, pādena vā pādaṁ (paññāparidhotaṁ sīlaṁ)",
+          "refs": [
+            "dn4:21.8",
+            "dn4:22.5"
+          ]
         }
       ],
       "forms": [
@@ -14338,7 +14476,29 @@
         "vinaya": [
           "pli-tv-bu-vb-pj3:3.8"
         ]
-      }
+      },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "nhāpako nhāniyapiṇḍaṁ",
+          "refs": [
+            "an5.28:2.4",
+            "dn2:76.1",
+            "dn10:2.14.1",
+            "mn39:15.4",
+            "mn77:25.4",
+            "mn119:18.3"
+          ]
+        },
+        {
+          "kind": "seyyathāpi",
+          "text": "cātumahāpathe thullaphusitako devo vassanto rajaṁ antaradhāpeyya",
+          "refs": [
+            "an6.60:4.4",
+            "an6.60:4.8"
+          ]
+        }
+      ]
     },
     {
       "id": "pathavidhatu",
@@ -15638,6 +15798,20 @@
           "pli-tv-bu-vb-ss1:3.2.1"
         ]
       },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "pheṇapiṇḍa",
+          "refs": [
+            "sn22.95:2.1",
+            "sn22.95:2.2"
+          ],
+          "forms": [
+            "pheṇapiṇḍaṁ",
+            "pheṇapiṇḍe"
+          ]
+        }
+      ],
       "forms": [
         "rūpa",
         "rūpameva",
@@ -17975,6 +18149,21 @@
           "an10.60:12.3"
         ]
       },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "kadalikkhandha",
+          "refs": [
+            "sn22.95:5.1",
+            "sn22.95:5.2"
+          ],
+          "forms": [
+            "",
+            "kadalikkhandhaṁ",
+            "kadalikkhandhe"
+          ]
+        }
+      ],
       "forms": [
         "saṅkhāra",
         "saṅkhāraṁ",
@@ -18141,6 +18330,21 @@
           "pli-tv-bu-vb-ss6:2.1.1"
         ]
       },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "marīcikā",
+          "refs": [
+            "sn22.95:4.1",
+            "sn22.95:4.2"
+          ],
+          "forms": [
+            "marīcikaṁ",
+            "marīcikā",
+            "marīcikāya"
+          ]
+        }
+      ],
       "forms": [
         "sañña",
         "saññato",
@@ -19035,6 +19239,23 @@
             "nelaṅganti",
             "nelaṅgaṁ",
             "nelaṅgo"
+          ]
+        },
+        {
+          "kind": "seyyathāpi",
+          "text": "rājā khattiyo muddhāvasitto nihatapaccāmitto na kutoci bhayaṁ samanupassati",
+          "refs": [
+            "dn2:63.2",
+            "dn8:19.6",
+            "dn10:1.29.2"
+          ]
+        },
+        {
+          "kind": "seyyathāpi",
+          "text": "hatthena vā hatthaṁ dhoveyya, pādena vā pādaṁ (sīlaparidhotā paññā)",
+          "refs": [
+            "dn4:21.8",
+            "dn4:22.5"
           ]
         }
       ],
@@ -19934,6 +20155,23 @@
             "sotānaṁ",
             "sotāni"
           ]
+        },
+        {
+          "kind": "no formula",
+          "text": "sneha (kammaṁ khettaṁ, viññāṇaṁ bījaṁ, taṇhā sneho)",
+          "refs": [
+            "an3.76:2.3",
+            "an3.77:2.3"
+          ]
+        },
+        {
+          "kind": "no formula",
+          "text": "dutiya (taṇhādutiyo puriso)",
+          "refs": [
+            "iti15:3.1",
+            "iti105:3.1",
+            "snp3.12:28.1"
+          ]
         }
       ],
       "rationale": {
@@ -20345,7 +20583,29 @@
         "vinaya": [
           "pli-tv-bu-vb-pc47:1.4.12"
         ]
-      }
+      },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "uppaliniyaṁ uppalāni udakānuggatāni",
+          "refs": [
+            "an5.28:4.4",
+            "dn2:80.1",
+            "dn10:2.17.3",
+            "mn39:17.3",
+            "mn77:27.3",
+            "mn119:20.3"
+          ]
+        },
+        {
+          "kind": "seyyathāpi",
+          "text": "purisaṁ paṇītabhojanaṁ bhuttāviṁ ābhidosikaṁ bhojanaṁ nacchādeyya",
+          "refs": [
+            "an6.60:6.4",
+            "an6.60:6.9"
+          ]
+        }
+      ]
     },
     {
       "id": "tatratatrabhinandini",
@@ -21319,6 +21579,20 @@
           "(+13)"
         ]
       },
+      "metaphors": [
+        {
+          "kind": "seyyathāpi",
+          "text": "udakapubbuḷa",
+          "refs": [
+            "sn22.95:3.1",
+            "sn22.95:3.2"
+          ],
+          "forms": [
+            "udakapubbuḷaṁ",
+            "udakapubbuḷe"
+          ]
+        }
+      ],
       "rationale": {
         "en": "/rationale#passages",
         "ru": "/rationale#passages"
@@ -21966,6 +22240,40 @@
             "nagarassāmi",
             "nagarassāmī",
             "nagarassāmīti"
+          ]
+        },
+        {
+          "kind": "no formula",
+          "text": "bīja (kammaṁ khettaṁ, viññāṇaṁ bījaṁ, taṇhā sneho)",
+          "refs": [
+            "an3.76:2.3",
+            "an3.77:2.3"
+          ]
+        },
+        {
+          "kind": "seyyathāpi",
+          "text": "māyā",
+          "refs": [
+            "sn22.95:6.1",
+            "sn22.95:6.2"
+          ],
+          "forms": [
+            "māya",
+            "māyañca",
+            "māyaṁ",
+            "māye",
+            "māyā",
+            "māyāya",
+            "māyāyaṁ",
+            "māyāyāti"
+          ]
+        },
+        {
+          "kind": "seyyathāpi",
+          "text": "coro āgucārī (viññāṇāhāra)",
+          "refs": [
+            "sn12.63:6.2",
+            "sn12.63:6.23"
           ]
         }
       ],
