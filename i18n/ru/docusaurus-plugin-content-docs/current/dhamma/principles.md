@@ -1,5 +1,5 @@
 ---
-title: "Принципы Перевода"
+title: "Принципы перевода"
 description: "Что обещает отметка «o» у перевода Dhamma.Gift: перевод с пали или сверка с пали по этим принципам."
 slug: /principles
 sidebar_position: 2

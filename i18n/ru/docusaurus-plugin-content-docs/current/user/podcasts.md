@@ -1,5 +1,5 @@
 ---
-title: "Подкасты Сутт"
+title: "Подкасты сутт"
 description: "Сутты и Виная Палийского канона вслух, новый выпуск каждый день, начиная с Ангуттара-никаи, на пали, русском и английском: Apple Podcasts, YouTube Music, Amazon Music или RSS."
 slug: /podcasts
 sidebar_position: 16

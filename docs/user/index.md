@@ -73,9 +73,6 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
 
 <img src="/assets/img/dgsanhkalogo.png" alt="Dhamma.Gift Read logo" style={{float: 'left', marginRight: '15px', maxWidth: '96px'}} />
 
-- **Compare 6 Pali editions** — any text line by line in Buddha Jayanti (Sri Lanka),
-  Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), Mahāsaṅgīti, Mahāsaṅgīti 2005
-  and PTS, with the differences highlighted. See [Compare](/compare).
 - Line-by-line Pali with an English translation, and 24 more languages: AN, DN,
   MN, SN, KN (Snp, Ud, Iti, Dhp, Thag, Thig) and the Vinaya Vibhaṅga.
 - A click-to-look-up popup [dictionary](/dictionary): the Canon's own
@@ -106,6 +103,13 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
   Tipitaka.lk, SuttaCentral and other sites.
 
 <div style={{clear: 'both'}} />
+
+## Compare 6 Pali Canon editions
+
+Any text line by line in six editions of the Canon: the three national ones — Buddha Jayanti (Sri Lanka),
+Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand) — then the Mahāsaṅgīti, its 2005 print and PTS. One click
+highlights where they differ; the national editions decide the reading. ✦ → **Compare** on any line, or the
+**Compare** reader mode (**Alt+Shift+2**). See [Compare](/compare), with each edition's known problems.
 
 ## Dhamma.Gift Voice — a unified text + audio ecosystem
 
