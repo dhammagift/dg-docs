@@ -30,9 +30,9 @@ editions of the Canon at once, with the differences highlighted.
   Russian, and get the sutta: [`parable of the saw`](https://dhamma.gift/?q=parable%20of%20the%20saw) finds MN 21, [`how not to fear death`](https://dhamma.gift/?q=how%20not%20to%20fear%20death) AN 4.184,
   [`what leads to a long life`](https://dhamma.gift/?q=what%20leads%20to%20a%20long%20life) AN 5.125. These are guesses by meaning: check them against the text. See
   [Search](/search-guide).
-- **A Pali dictionary by the Suttas and the Vinaya.** For 800 key terms, the Canon's own definition word for
-  word and every line where it is given, with the Dhamma.Gift rendering; DPD, PTS and Sanskrit dictionaries
-  beside it. See [Dictionary](/dictionary).
+- **A Pali dictionary by the Suttas and the Vinaya.** Definitions and similes from the Canon for any word; for
+  800 key terms, the Canon's own definition word for word and every line where it is given, with the
+  Dhamma.Gift rendering; DPD, PTS and Sanskrit dictionaries beside it. See [Dictionary](/dictionary).
 - **Thanissaro Bhikkhu's English beside the Pali, line by line** — 1,400+ suttas of SN, AN, MN, Iti, Ud, Snp,
   Thag and Thig, a translation SuttaCentral does not have. See [Reader](/read).
 
@@ -176,7 +176,7 @@ A Pali dictionary by the Suttas and the Vinaya, built for phones and tablets
 too: for 800 key terms, the Canon's own definition and every line where it is
 given, with the Dhamma.Gift rendering; then, in the page's order,
 [DPD](https://digitalpalidictionary.github.io/) (Digital Pāḷi Dictionary),
-Sutta-Vinaya Definitions and Similes (from the Canon, for any word), the
+Sutta-Vinaya Definitions and Similes (the Canon's definitions and similes for any word), the
 Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library and
 Sanskrit dictionaries. More on the dictionary modes on the
 dedicated [Dictionary](/dictionary) page. Open the

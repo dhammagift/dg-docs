@@ -1,7 +1,7 @@
 ---
 title: "Pali Dictionary by the Suttas and Vinaya"
 sidebar_label: "Pali Dictionary"
-description: "A Pali dictionary by the Suttas and the Vinaya: for 800 key terms, the Canon's own definition and every line where it is given, with the Dhamma.Gift rendering. DPD, PTS, Sanskrit and other dictionaries beside it. Offline too."
+description: "A Pali dictionary by the Suttas and the Vinaya: definitions and similes from the Canon itself, and for 800 key terms the Canon's own definition with every line where it is given and the Dhamma.Gift rendering. DPD, PTS, Sanskrit and other dictionaries beside it. Offline too."
 slug: /dictionary
 sidebar_position: 4
 ---
@@ -38,7 +38,7 @@ import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
 </div>
 
 Dict.Dhamma.Gift is a dictionary by the Suttas and the Vinaya: a word means
-what the Canon itself says it means.
+what the Canon itself says it means — in its definitions and in its similes.
 
 - **The Canon's own definitions.** For 800 key terms of the
   [glossary](/glossary) — 702 of them defined in the Canon — it gives the
@@ -49,8 +49,8 @@ what the Canon itself says it means.
   (*ariyassa vinaye*), are marked. Inflected
   forms find the term too: *dukkhassa*, *dukkhena*, *dukkhato*.
 - **Then, in the order the word page shows them:** DPD (Digital Pāḷi
-  Dictionary); Sutta-Vinaya Definitions and Similes — where the Suttas and the
-  Vinaya define or illustrate any word; the Gandhari Dictionary (M. Cone and
+  Dictionary); Sutta-Vinaya Definitions and Similes — for any word, the places
+  where the Suttas and the Vinaya define it and the similes that explain it; the Gandhari Dictionary (M. Cone and
   others); PTS; Buddhadust; Wisdom Library; and 30+ Sanskrit dictionaries —
   one search, every source on one page.
 
