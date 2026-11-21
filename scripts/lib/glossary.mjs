@@ -106,6 +106,9 @@ const COLUMN_SPECS = [
   {key: 'kind', labels: ['Тип определения', 'Definition type'], match: 'exact'},
   // Metaphors (owner 2026-11-21): «adhivacana: bhaya — an6.23:1.1, an8.56:1.1; dukkha — … | seyyathāpi: …»
   {key: 'metaphors', labels: ['Метафоры', 'Metaphors'], match: 'prefix'},
+  // Assāda · ādīnava · nissaraṇa (owner «ko assādo… → Dict DG», f3-seo 2026-11-21): a kind of definition, the same cell
+  // format as the metaphors («assāda: text — refs; … | ādīnava: … | nissaraṇa: …»), parsed the same way
+  {key: 'assada', labels: ['Assāda', 'Assada'], match: 'prefix'},
 ];
 
 export function resolveColumns(headerRow) {
@@ -301,6 +304,7 @@ export function buildGlossary(csvText) {
     const dgNote = cell(row, cols.dgNote);
     const kind = cell(row, cols.kind);
     const metaphors = parseMetaphors(cell(row, cols.metaphors));
+    const assada = parseMetaphors(cell(row, cols.assada));
     const rationale = rationaleFor(pali);
     const term = {
       id: '',
@@ -312,6 +316,7 @@ export function buildGlossary(csvText) {
       ...(dgNote ? {dgNote} : {}),
       ...(kind ? {kind} : {}),
       ...(metaphors.length ? {metaphors} : {}),
+      ...(assada.length ? {assada} : {}),
       ...(rationale ? {rationale} : {}),
     };
     terms.push(term);
@@ -322,7 +327,8 @@ export function buildGlossary(csvText) {
     if (!num) stats.withoutNumber++;
     if (kind) stats.special++;
     if (metaphors.length) stats.metaphors = (stats.metaphors || 0) + metaphors.length;
-    if (definition || link || where.length || compounds.length || patterns.length || broader.length || vinaya.length || dgNote || rationale || metaphors.length) {
+    if (assada.length) stats.assada = (stats.assada || 0) + assada.length;
+    if (definition || link || where.length || compounds.length || patterns.length || broader.length || vinaya.length || dgNote || rationale || metaphors.length || assada.length) {
       stats.expandable++;
     }
   }

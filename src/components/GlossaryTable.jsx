@@ -174,6 +174,7 @@ function hasDetails(term, locale) {
       canon.vinaya?.length ||
       term.rationale ||
       term.metaphors?.length ||
+      term.assada?.length ||
       (locale === 'ru' && term.dgNote),
   );
 }
@@ -269,6 +270,23 @@ function TermDetails({term, t, locale, copied, onCopy}) {
                   <span className="dg-glossary__chips">
                     {m.refs.map((value, i) => (
                       <RefChip key={`m-${index}-${value}-${i}`} value={value} locale={locale} t={t} />
+                    ))}
+                  </span>
+                </div>
+              ))}
+            </section>
+          )}
+          {term.assada?.length > 0 && (
+            <section className="dg-glossary__section">
+              <h4 lang="pi">Assāda · ādīnava · nissaraṇa</h4>
+              {term.assada.map((m, index) => (
+                <div key={`a-${index}`} className="dg-glossary__refgroup">
+                  <span className="dg-glossary__reflabel" lang="pi">
+                    <i>{m.kind}</i> {m.text}
+                  </span>
+                  <span className="dg-glossary__chips">
+                    {m.refs.map((value, i) => (
+                      <RefChip key={`a-${index}-${value}-${i}`} value={value} locale={locale} t={t} />
                     ))}
                   </span>
                 </div>
