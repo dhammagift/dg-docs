@@ -168,9 +168,10 @@ PWA и в приложениях. В приватном окне браузер�
 
 Словарь пали по Суттам и Винае, удобный и на телефоне: для 800 ключевых
 терминов — собственное определение канона и все строки, где оно дано, с
-переводом Dhamma.Gift; определения и сравнения из канона для любого слова; а
-рядом [DPD](https://digitalpalidictionary.github.io/) (Digital Pāḷi Dictionary),
-Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library и
+переводом Dhamma.Gift; затем, в порядке страницы,
+[DPD](https://digitalpalidictionary.github.io/) (Digital Pāḷi Dictionary),
+Sutta-Vinaya Definitions and Similes (из канона, для любого слова), Gandhari
+Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library и
 санскритские словари. Подробнее о режимах словаря — на отдельной странице
 [Словарь](/dictionary). Открыть [сайт словаря](https://dict.dhamma.gift/ru).
 

@@ -47,11 +47,11 @@ Dict.Dhamma.Gift — словарь по Суттам и Винае: слово 
   *dukkha*), с переводом Dhamma.Gift на русский и английский. Особые
   определения, данные для одного контекста (*ariyassa vinaye*), отмечены. Термин находится и по формам слова: *dukkhassa*,
   *dukkhena*, *dukkhato*.
-- **Определения и сравнения из канона** для любого слова: блок, который
-  находит, где Сутты и Виная определяют или поясняют его.
-- **Другие словари рядом:** DPD (Digital Pāḷi Dictionary), PTS, словарь
-  Gandhari (M. Cone и другие), Buddhadust, Wisdom Library и 30+ санскритских
-  словарей — один поиск, все источники на одной странице.
+- **Дальше — в том порядке, в каком их показывает страница слова:** DPD
+  (Digital Pāḷi Dictionary); Sutta-Vinaya Definitions and Similes — где Сутты и
+  Виная определяют или поясняют любое слово; словарь Gandhari (M. Cone и
+  другие); PTS; Buddhadust; Wisdom Library и 30+ санскритских словарей — один
+  поиск, все источники на одной странице.
 
 Это отдельный сайт [dict.dhamma.gift](https://dict.dhamma.gift/ru) и приложение;
 он же встроен в Dhamma.Gift: всплывает по клику на палийское слово при чтении и
@@ -122,7 +122,7 @@ Dict.Dhamma.Gift в окне словаря. Задержку (3 или 5 сек
 ## Полная версия: Dict.Dhamma.Gift
 
 [Dict.Dhamma.Gift](https://dict.dhamma.gift/ru): сначала собственные определения
-канона и перевод Dhamma.Gift, затем определения и сравнения из Сутт и Винаи, DPD,
+канона и перевод Dhamma.Gift, затем DPD, Sutta-Vinaya Definitions and Similes,
 словари Gandhari и PTS, Buddhadust, Wisdom Library и санскритские словари — в
 одном месте.
 

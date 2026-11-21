@@ -174,10 +174,11 @@ See [Offline library](../tech/offline-db.md).
 
 A Pali dictionary by the Suttas and the Vinaya, built for phones and tablets
 too: for 800 key terms, the Canon's own definition and every line where it is
-given, with the Dhamma.Gift rendering; definitions and similes from the Canon
-for any word; and beside them [DPD](https://digitalpalidictionary.github.io/)
-(Digital Pāḷi Dictionary), the Gandhari Dictionary, PTS Dictionary, Buddhadust
-Glossology, Wisdom Library and Sanskrit dictionaries. More on the dictionary modes on the
+given, with the Dhamma.Gift rendering; then, in the page's order,
+[DPD](https://digitalpalidictionary.github.io/) (Digital Pāḷi Dictionary),
+Sutta-Vinaya Definitions and Similes (from the Canon, for any word), the
+Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library and
+Sanskrit dictionaries. More on the dictionary modes on the
 dedicated [Dictionary](/dictionary) page. Open the
 [dictionary site](https://dict.dhamma.gift).
 

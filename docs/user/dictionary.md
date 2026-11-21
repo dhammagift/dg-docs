@@ -48,11 +48,11 @@ what the Canon itself says it means.
   English and Russian. Special definitions, given for one context
   (*ariyassa vinaye*), are marked. Inflected
   forms find the term too: *dukkhassa*, *dukkhena*, *dukkhato*.
-- **Definitions and similes from the Canon** for any word: a block that
-  finds where the Suttas and the Vinaya define or illustrate it.
-- **Other dictionaries beside it:** DPD (Digital Pāḷi Dictionary), PTS,
-  the Gandhari Dictionary (M. Cone and others), Buddhadust, Wisdom Library and
-  30+ Sanskrit dictionaries — one search, every source on one page.
+- **Then, in the order the word page shows them:** DPD (Digital Pāḷi
+  Dictionary); Sutta-Vinaya Definitions and Similes — where the Suttas and the
+  Vinaya define or illustrate any word; the Gandhari Dictionary (M. Cone and
+  others); PTS; Buddhadust; Wisdom Library; and 30+ Sanskrit dictionaries —
+  one search, every source on one page.
 
 It is a separate site, [dict.dhamma.gift](https://dict.dhamma.gift), and an app;
 it is also built into Dhamma.Gift: it pops up when you click a Pali word while
@@ -121,9 +121,9 @@ Drag the window by its title and resize it from the bottom right corner.
 ## The full version: Dict.Dhamma.Gift
 
 [Dict.Dhamma.Gift](https://dict.dhamma.gift): the Canon's own definitions and
-the Dhamma.Gift rendering first, then definitions and similes from the Suttas and
-the Vinaya, DPD, the Gandhari and PTS dictionaries, Buddhadust, Wisdom Library
-and Sanskrit dictionaries, in one place.
+the Dhamma.Gift rendering first, then DPD, Sutta-Vinaya Definitions and Similes,
+the Gandhari and PTS dictionaries, Buddhadust, Wisdom Library and Sanskrit
+dictionaries, in one place.
 
 <AppFrame src="/dict/" title="Dict.Dhamma.Gift" height={550} />
 
