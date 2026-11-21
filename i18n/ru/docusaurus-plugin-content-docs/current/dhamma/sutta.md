@@ -1,9 +1,9 @@
 ---
-title: "Принципы Дхаммы по суттам"
+title: "Принципы Дхаммы по Суттам"
 description: "Критерии самого Будды из Сутт: как проверить любое учение и распознать искажения. На них стоят наши переводы."
 slug: /sutta
 sidebar_position: 1
-sidebar_label: Принципы по суттам
+sidebar_label: Принципы по Суттам
 ---
 
 import SuttaBrowser from '@site/src/components/SuttaBrowser';

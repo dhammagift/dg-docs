@@ -9,7 +9,7 @@ slug: /cite
 ## Датасет
 
 Перевод проекта, пали сегмент за сегментом, глоссарий с местами, где сутты определяют каждый термин, и тексты
-«Принципы по суттам» и «Обоснование» опубликованы как датасет на
+«Принципы по Суттам» и «Обоснование» опубликованы как датасет на
 [Zenodo](https://doi.org/10.5281/zenodo.23491473), [Hugging Face](https://huggingface.co/datasets/dhammagift/dg-dataset)
 и [GitHub](https://github.com/dhammagift/dg-dataset).
 
