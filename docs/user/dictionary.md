@@ -1,6 +1,7 @@
 ---
-title: "Pali Dictionary"
-description: "Dict.Dhamma.Gift is a dictionary platform: many Pali and Sanskrit dictionaries on one page. In the reader, a tap on a word opens its entry over the text, offline too."
+title: "Pali Dictionary by the Suttas and Vinaya"
+sidebar_label: "Pali Dictionary"
+description: "A Pali dictionary by the Suttas and the Vinaya: for 800 key terms, the Canon's own definition and every line where it is given, with the Dhamma.Gift rendering. DPD, PTS, Sanskrit and other dictionaries beside it. Offline too."
 slug: /dictionary
 sidebar_position: 4
 ---
@@ -16,7 +17,11 @@ import DictWordPage from '@site/static/img/help/dict-word-page-en.png';
 import PopupLight from '@site/static/img/help/dict-popup-light-en.png';
 import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
 
-# Dictionary
+<head>
+  <title>Pali Dictionary by the Suttas and Vinaya — Dict.Dhamma.Gift</title>
+</head>
+
+# Pali Dictionary by the Suttas and Vinaya
 
 <a href="https://dict.dhamma.gift" className="dg-page-logo">
   <ThemedImage
@@ -32,11 +37,26 @@ import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
   <a href="https://apps.microsoft.com/detail/9P3B7HLRXXGC"><img src="/assets/img/buttons/msstore-cta.png" alt="Get Dict.Dhamma.Gift from the Microsoft Store" style={{maxWidth: '200px'}} /></a>
 </div>
 
-The dictionary is built into the site: it pops up when you click a Pali word
-while reading, and it opens in the "Dict" tab of the [Quick
-Window](/quickmodal). The built-in dictionary is **DPD** (Digital Pāḷi
-Dictionary). The full version with every dictionary is a separate site,
-[dict.dhamma.gift](https://dict.dhamma.gift) — more on it below.
+Dict.Dhamma.Gift is a dictionary by the Suttas and the Vinaya: a word means
+what the Canon itself says it means.
+
+- **The Canon's own definitions.** For 800 key terms of the
+  [glossary](/glossary) — 702 of them defined in the Canon — it gives the
+  Pali definition, word for word, and every line in the Suttas and the
+  Vinaya where it stands (*Katamañca, bhikkhave, dukkhaṁ? …* — DN 22, MN 9,
+  MN 141 and six more for *dukkha*), with the Dhamma.Gift rendering in
+  English and Russian. Special definitions, given for one context
+  (*ariyassa vinaye*), are marked. Inflected
+  forms find the term too: *dukkhassa*, *dukkhena*, *dukkhato*.
+- **Definitions and similes from the Canon** for any word: a block that
+  finds where the Suttas and the Vinaya define or illustrate it.
+- **Other dictionaries beside it:** DPD (Digital Pāḷi Dictionary), PTS,
+  the Gandhari Dictionary (M. Cone and others), Buddhadust, Wisdom Library and
+  30+ Sanskrit dictionaries — one search, every source on one page.
+
+It is a separate site, [dict.dhamma.gift](https://dict.dhamma.gift), and an app;
+it is also built into Dhamma.Gift: it pops up when you click a Pali word while
+reading, and it opens in the "Dict" tab of the [Quick Window](/quickmodal).
 
 ## Try it on this page
 
@@ -57,16 +77,16 @@ Modes in the list: the built-in DPD, Dict.DG in a popup, in a new window or
 mini, DharmaMitra.org, search only, and external apps (DPD Android, DictTango
 Android, Mdict iOS, GoldenDict-NG Desktop). **Alt+B** switches the mode.
 
-The **built-in DPD** mode works fully offline: the dictionary data loads
-once (as a script, in English or Russian) and every lookup after that runs
-locally in the browser — no request to dict.dhamma.gift or anywhere else.
-It's a smaller, single-dictionary alternative to the full Dict.Dhamma.Gift
-platform below, meant for reading with no or a poor connection.
+For a key term of the project's [glossary](/glossary), the popup's first line,
+marked **(DG)**, gives the Dhamma.Gift rendering and, after *def.*, every sutta
+where the Canon defines the word; a special definition (one the Canon gives for
+a particular context) shows that Pali phrase in italics instead of *def.*
 
-For a key term of the project's [glossary](/glossary), the first line, marked
-**(DG)**, gives the Dhamma.Gift rendering and, after *def.*, every sutta where
-the canon defines the word; a special definition (one the canon gives for a
-particular context) shows that Pali phrase in italics instead of *def.*
+The **built-in DPD** mode works fully offline: the Canon's definitions and DPD's
+short meanings load once (as a script, in English or Russian) and every lookup
+after that runs locally in the browser — no request to dict.dhamma.gift or
+anywhere else. It is meant for reading with no or a poor connection; the full
+Dict.Dhamma.Gift below has every source.
 
 If a word isn't in the built-in DPD, the popup offers two links instead:
 **Search on Dhamma.gift** and **Search in the full Dict.Dhamma.Gift**.
@@ -100,10 +120,10 @@ Drag the window by its title and resize it from the bottom right corner.
 
 ## The full version: Dict.Dhamma.Gift
 
-[Dict.Dhamma.Gift](https://dict.dhamma.gift) isn't just one dictionary,
-it's a platform: DPD, the Gandhari and PTS dictionaries, Buddhadust, Wisdom
-Library, Sanskrit dictionaries and definitions from the Suttas and Vinaya in
-one place.
+[Dict.Dhamma.Gift](https://dict.dhamma.gift): the Canon's own definitions and
+the Dhamma.Gift rendering first, then definitions and similes from the Suttas and
+the Vinaya, DPD, the Gandhari and PTS dictionaries, Buddhadust, Wisdom Library
+and Sanskrit dictionaries, in one place.
 
 <AppFrame src="/dict/" title="Dict.Dhamma.Gift" height={550} />
 

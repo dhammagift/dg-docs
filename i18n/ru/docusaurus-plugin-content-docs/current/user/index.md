@@ -30,6 +30,9 @@ Dhamma.gift — это набор связанных инструментов в
   получите сутту: [`притча про пилу`](https://dhamma.gift/ru/?q=притча%20про%20пилу) находит MN 21, [`как не бояться смерти`](https://dhamma.gift/ru/?q=как%20не%20бояться%20смерти) — AN 4.184,
   [`what leads to a long life`](https://dhamma.gift/ru/?q=what%20leads%20to%20a%20long%20life) — AN 5.125. Это предположения по смыслу: сверяйте найденное с текстом.
   См. [Поиск](/search-guide).
+- **Словарь пали по Суттам и Винае.** Для 800 ключевых терминов — собственное определение канона дословно и
+  все строки, где оно дано, с переводом Dhamma.Gift; рядом DPD, PTS и санскритские словари. См.
+  [Словарь](/dictionary).
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать в App Store" style={{width: '100%', display: 'block'}} /></a></span>
@@ -73,8 +76,9 @@ tipitaka.theravada.su и s.dhamma.gift (издания BJT, CST и тайско�
   Махасангити 2005 и PTS, с подсветкой отличий. См. [Сравнение](/compare).
 - Построчные пали-русские тексты: АН, ДН, МН, СН, КН (Snp, Уд, Iti, Дхп,
   Тхаг, Тхиг), а также частично Виная-Вибханга.
-- Встроенная онлайн русская версия Digital Pāḷi Dictionary (DPD) —
-  всплывающий по клику словарь.
+- Всплывающий по клику [словарь](/dictionary): сначала собственное определение
+  канона для ключевого термина и перевод Dhamma.Gift, за ними краткие значения
+  DPD (на русском или английском); работает и без интернета.
 - **Режим «Сравнить»** — пали и любые из 25 языков перевода или несколько
   изданий на экране одновременно.
 - **Избранное и История** — личная библиотека текстов для быстрого доступа.
@@ -83,7 +87,7 @@ tipitaka.theravada.su и s.dhamma.gift (издания BJT, CST и тайско�
   чтения и настройки (языки, тема, шрифт) синхронизируются между
   устройствами анонимно, по секретной кодовой фразе — без email и
   регистрации, — или через Google или Apple. См. [Вход](/login).
-- Полноценный онлайн-словарь DPD, а также интеграция с DictTango (Android),
+- Полный Dict.Dhamma.Gift в окне, а также интеграция с DictTango (Android),
   Mdict (iOS), GoldenDict-NG (десктоп) и Dharmamitra.org для глубокого
   грамматического разбора.
 - **Умный TOC** — быстрая навигация, адаптирующаяся под выбранные языки.
@@ -155,11 +159,12 @@ PWA и в приложениях. В приватном окне браузер�
 
 <img src="/assets/svg/dg-logo-dark.svg" alt="Логотип Dict.Dhamma.Gift" style={{float: 'left', marginRight: '15px', maxWidth: '96px'}} />
 
-Словарь палийского канона с несколькими источниками, навигация и интерфейс
-адаптированы для смартфонов и планшетов: [DPD](https://digitalpalidictionary.github.io/)
-(Digital Pāḷi Dictionary, основной), Sutta-Vinaya Definitions and Similes,
-Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library,
-словарь санскрита. Подробнее о режимах словаря — на отдельной странице
+Словарь пали по Суттам и Винае, удобный и на телефоне: для 800 ключевых
+терминов — собственное определение канона и все строки, где оно дано, с
+переводом Dhamma.Gift; определения и сравнения из канона для любого слова; а
+рядом [DPD](https://digitalpalidictionary.github.io/) (Digital Pāḷi Dictionary),
+Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library и
+санскритские словари. Подробнее о режимах словаря — на отдельной странице
 [Словарь](/dictionary). Открыть [сайт словаря](https://dict.dhamma.gift/ru).
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
@@ -204,7 +209,7 @@ Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library,
 
 ## Браузерные расширения
 
-Поиск по суттам и всплывающий пали-словарь DPD на любом сайте:
+Поиск по суттам и словарь пали по Суттам и Винае на любом сайте:
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <a href="https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd"><img src="/assets/img/buttons/chrome-cta.png" alt="Chrome Web Store" style={{maxWidth: '180px'}} /></a>
