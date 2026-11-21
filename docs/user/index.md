@@ -33,6 +33,8 @@ editions of the Canon at once, with the differences highlighted.
 - **A Pali dictionary by the Suttas and the Vinaya.** For 800 key terms, the Canon's own definition word for
   word and every line where it is given, with the Dhamma.Gift rendering; DPD, PTS and Sanskrit dictionaries
   beside it. See [Dictionary](/dictionary).
+- **Thanissaro Bhikkhu's English beside the Pali, line by line** — 1,400+ suttas of SN, AN, MN, Iti, Ud, Snp,
+  Thag and Thig, a translation SuttaCentral does not have. See [Reader](/read).
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{width: '100%', display: 'block'}} /></a></span>

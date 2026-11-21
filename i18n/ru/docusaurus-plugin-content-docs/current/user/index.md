@@ -33,6 +33,8 @@ Dhamma.gift — это набор связанных инструментов в
 - **Словарь пали по Суттам и Винае.** Для 800 ключевых терминов — собственное определение канона дословно и
   все строки, где оно дано, с переводом Dhamma.Gift; рядом DPD, PTS и санскритские словари. См.
   [Словарь](/dictionary).
+- **Английский перевод Таниссаро Бхиккху построчно рядом с пали** — 1400+ сутт SN, AN, MN, Iti, Ud, Snp, Thag и
+  Thig; на SuttaCentral этого перевода нет. См. [Ридер](/read).
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать в App Store" style={{width: '100%', display: 'block'}} /></a></span>
