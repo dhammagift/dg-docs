@@ -66,6 +66,11 @@ async function addForms(terms, previous) {
     console.warn(`glossary: forms not updated (${I2H_URL}: ${error.message})`);
     const old = new Map((previous?.terms || []).map((t) => [t.pali, t.forms]));
     for (const t of terms) if (old.get(t.pali)) t.forms = old.get(t.pali);
+    const oldM = new Map((previous?.terms || []).map((t) => [t.pali, t.metaphors || []]));
+    for (const t of terms) for (const m of t.metaphors || []) {
+      const was = (oldM.get(t.pali) || []).find((x) => x.text === m.text && x.forms);
+      if (was) m.forms = was.forms;
+    }
     return;
   }
   const byBase = new Map();
@@ -80,6 +85,11 @@ async function addForms(terms, previous) {
   for (const t of terms) {
     const forms = byBase.get(norm(t.pali));
     if (forms) t.forms = [...forms].sort();
+    // a one-word metaphor image (adhivacana: vammika -> kāya) gets its DPD forms too, so a click on the image finds its meaning
+    for (const m of t.metaphors || []) {
+      const f = /^[^\s,]+$/.test(m.text) && byBase.get(norm(m.text));
+      if (f) m.forms = [...f].sort();
+    }
   }
 }
 

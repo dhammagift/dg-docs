@@ -80,6 +80,7 @@ const STRINGS = {
     broader: 'Шире',
     vinaya: 'Виная (Вибханги)',
     dgNote: 'Пояснение DG',
+    metaphors: 'Метафоры',
     rationale: 'Обоснование',
     copyLink: 'Ссылка',
     copied: 'Скопировано',
@@ -117,6 +118,7 @@ const STRINGS = {
     broader: 'Broader',
     vinaya: 'Vinaya (Vibhaṅgas)',
     dgNote: 'DG note',
+    metaphors: 'Metaphors',
     rationale: 'Rationale',
     copyLink: 'Link',
     copied: 'Copied',
@@ -171,6 +173,7 @@ function hasDetails(term, locale) {
       canon.broader?.length ||
       canon.vinaya?.length ||
       term.rationale ||
+      term.metaphors?.length ||
       (locale === 'ru' && term.dgNote),
   );
 }
@@ -249,6 +252,23 @@ function TermDetails({term, t, locale, copied, onCopy}) {
                   <span className="dg-glossary__chips">
                     {refs.map((value, index) => (
                       <RefChip key={`${key}-${value}-${index}`} value={value} locale={locale} t={t} />
+                    ))}
+                  </span>
+                </div>
+              ))}
+            </section>
+          )}
+          {term.metaphors?.length > 0 && (
+            <section className="dg-glossary__section">
+              <h4>{t.metaphors}</h4>
+              {term.metaphors.map((m, index) => (
+                <div key={`m-${index}`} className="dg-glossary__refgroup">
+                  <span className="dg-glossary__reflabel" lang="pi">
+                    <i>{m.kind}</i> {m.text}
+                  </span>
+                  <span className="dg-glossary__chips">
+                    {m.refs.map((value, i) => (
+                      <RefChip key={`m-${index}-${value}-${i}`} value={value} locale={locale} t={t} />
                     ))}
                   </span>
                 </div>

@@ -104,6 +104,8 @@ const COLUMN_SPECS = [
   // «special: ariyassa vinaye» / «special: assutavā puthujjano bhāsati»: the canon gives the word a sense of its own,
   // other than the everyday one (owner 2026-11-13); empty for an ordinary definition
   {key: 'kind', labels: ['Тип определения', 'Definition type'], match: 'exact'},
+  // Metaphors (owner 2026-11-21): «adhivacana: bhaya — an6.23:1.1, an8.56:1.1; dukkha — … | seyyathāpi: …»
+  {key: 'metaphors', labels: ['Метафоры', 'Metaphors'], match: 'prefix'},
 ];
 
 export function resolveColumns(headerRow) {
@@ -142,6 +144,20 @@ function cell(row, index) {
 
 // Reference lists are comma/newline separated. «(+15)» means the sheet itself truncated the
 // list; keep it as a separate token so the UI can render it as muted text, not as a link.
+// «adhivacana: bhaya — an6.23:1.1, an8.56:1.1; dukkha — an6.23:1.2 | seyyathāpi: …» -> [{kind, text, refs}]
+export function parseMetaphors(value) {
+  const out = [];
+  for (const group of String(value || '').split(/\s+\|\s+/)) {
+    const m = group.match(/^\s*([^:]+?):\s*(.+)$/s);
+    if (!m) continue;
+    for (const item of m[2].split(/;\s+/)) {
+      const [text, refs = ''] = item.split(/\s+—\s+/);
+      if (text && text.trim()) out.push({kind: m[1].trim(), text: text.trim(), refs: parseRefs(refs)});
+    }
+  }
+  return out;
+}
+
 export function parseRefs(value) {
   const refs = [];
   if (!value) return refs;
@@ -284,6 +300,7 @@ export function buildGlossary(csvText) {
     const num = /^\d+$/.test(numRaw) ? Number(numRaw) : null;
     const dgNote = cell(row, cols.dgNote);
     const kind = cell(row, cols.kind);
+    const metaphors = parseMetaphors(cell(row, cols.metaphors));
     const rationale = rationaleFor(pali);
     const term = {
       id: '',
@@ -294,6 +311,7 @@ export function buildGlossary(csvText) {
       ...(Object.keys(canon).length ? {canon} : {}),
       ...(dgNote ? {dgNote} : {}),
       ...(kind ? {kind} : {}),
+      ...(metaphors.length ? {metaphors} : {}),
       ...(rationale ? {rationale} : {}),
     };
     terms.push(term);
@@ -303,7 +321,8 @@ export function buildGlossary(csvText) {
     if (definition) stats.canon++;
     if (!num) stats.withoutNumber++;
     if (kind) stats.special++;
-    if (definition || link || where.length || compounds.length || patterns.length || broader.length || vinaya.length || dgNote || rationale) {
+    if (metaphors.length) stats.metaphors = (stats.metaphors || 0) + metaphors.length;
+    if (definition || link || where.length || compounds.length || patterns.length || broader.length || vinaya.length || dgNote || rationale || metaphors.length) {
       stats.expandable++;
     }
   }
