@@ -1,7 +1,7 @@
 ---
 title: "Pali Dictionary by the Suttas and Vinaya"
 sidebar_label: "Pali Dictionary"
-description: "A Pali dictionary by the Suttas and the Vinaya: definitions and similes from the Canon itself, and for 800 key terms the Canon's own definition with every line where it is given and the Dhamma.Gift rendering. DPD, PTS, Sanskrit and other dictionaries beside it. Offline too."
+description: "A Pali dictionary by the Suttas and the Vinaya: definitions and similes from the Suttas and the Vinaya themselves, and for 800 key terms their definition with every line where it is given and the Dhamma.Gift rendering. DPD, PTS, Sanskrit and other dictionaries beside it. Offline too."
 slug: /dictionary
 sidebar_position: 4
 ---
@@ -38,10 +38,11 @@ import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
 </div>
 
 Dict.Dhamma.Gift is a dictionary by the Suttas and the Vinaya: a word means
-what the Canon itself says it means — in its definitions and in its similes.
+what the Suttas and the Vinaya themselves say it means — in their definitions
+and in their similes.
 
-- **The Canon's own definitions.** For 800 key terms of the
-  [glossary](/glossary) — 702 of them defined in the Canon — it gives the
+- **Definitions from the Suttas and the Vinaya.** For 800 key terms of the
+  [glossary](/glossary) — 702 of them defined in the Suttas and the Vinaya — it gives the
   Pali definition, word for word, and every line in the Suttas and the
   Vinaya where it stands (*Katamañca, bhikkhave, dukkhaṁ? …* — DN 22, MN 9,
   MN 141 and six more for *dukkha*), with the Dhamma.Gift rendering in
@@ -79,10 +80,10 @@ Android, Mdict iOS, GoldenDict-NG Desktop). **Alt+B** switches the mode.
 
 For a key term of the project's [glossary](/glossary), the popup's first line,
 marked **(DG)**, gives the Dhamma.Gift rendering and, after *def.*, every sutta
-where the Canon defines the word; a special definition (one the Canon gives for
+where the Suttas or the Vinaya define the word; a special definition (one they give for
 a particular context) shows that Pali phrase in italics instead of *def.*
 
-The **built-in DPD** mode works fully offline: the Canon's definitions and DPD's
+The **built-in DPD** mode works fully offline: the definitions from the Suttas and the Vinaya and DPD's
 short meanings load once (as a script, in English or Russian) and every lookup
 after that runs locally in the browser — no request to dict.dhamma.gift or
 anywhere else. It is meant for reading with no or a poor connection; the full
@@ -120,8 +121,8 @@ Drag the window by its title and resize it from the bottom right corner.
 
 ## The full version: Dict.Dhamma.Gift
 
-[Dict.Dhamma.Gift](https://dict.dhamma.gift): the Canon's own definitions and
-the Dhamma.Gift rendering first, then DPD, Sutta-Vinaya Definitions and Similes,
+[Dict.Dhamma.Gift](https://dict.dhamma.gift): the definitions from the Suttas and the
+Vinaya and the Dhamma.Gift rendering first, then DPD, Sutta-Vinaya Definitions and Similes,
 the Gandhari and PTS dictionaries, Buddhadust, Wisdom Library and Sanskrit
 dictionaries, in one place.
 
@@ -142,7 +143,7 @@ and it works offline there. Add a word to the address to open its page:
 - **Under the word** — how many texts and matches Dhamma.Gift search finds
   for it, and **"Open on Dhamma.Gift"**, which runs that search (Alt+3 does
   the same). For a key term of the glossary, the Dhamma.Gift rendering and
-  **Defined in:** — every sutta where the canon defines the word.
+  **Defined in:** — every sutta where the word is defined.
 - Double-clicking any word inside an entry also searches for it.
 - The dictionary blocks can be moved up and down (↑/↓). In the Sanskrit
   block, +/− expands or collapses all its dictionaries.
@@ -172,7 +173,7 @@ window with the site's favorites and history, key suttas and Memo.
 Under **Menu → Data**, a **download** button saves the dictionary right in the browser (~3.9 MB; on the
 Russian page ~6.1 MB, with the English meanings too):
 
-- definitions by the Suttas: for a key term, links to the suttas where the canon itself defines the word, with the
+- definitions by the Suttas: for a key term, links to the suttas where the Suttas themselves define the word, with the
   project's rendering;
 - DPD's short meanings.
 

@@ -30,8 +30,8 @@ editions of the Canon at once, with the differences highlighted.
   Russian, and get the sutta: [`parable of the saw`](https://dhamma.gift/?q=parable%20of%20the%20saw) finds MN 21, [`how not to fear death`](https://dhamma.gift/?q=how%20not%20to%20fear%20death) AN 4.184,
   [`what leads to a long life`](https://dhamma.gift/?q=what%20leads%20to%20a%20long%20life) AN 5.125. These are guesses by meaning: check them against the text. See
   [Search](/search-guide).
-- **A Pali dictionary by the Suttas and the Vinaya.** Definitions and similes from the Canon for any word; for
-  800 key terms, the Canon's own definition word for word and every line where it is given, with the
+- **A Pali dictionary by the Suttas and the Vinaya.** Definitions and similes from the Suttas and the Vinaya for any word;
+  for 800 key terms, their definition word for word and every line where it is given, with the
   Dhamma.Gift rendering; DPD, PTS and Sanskrit dictionaries beside it. See [Dictionary](/dictionary).
 - **Thanissaro Bhikkhu's English beside the Pali, line by line** — 1,400+ suttas of SN, AN, MN, Iti, Ud, Snp,
   Thag and Thig, a translation SuttaCentral does not have. See [Reader](/read).
@@ -75,8 +75,8 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
 
 - Line-by-line Pali with an English translation, and 24 more languages: AN, DN,
   MN, SN, KN (Snp, Ud, Iti, Dhp, Thag, Thig) and the Vinaya Vibhaṅga.
-- A click-to-look-up popup [dictionary](/dictionary): the Canon's own
-  definition of a key term and the Dhamma.Gift rendering first, DPD's short
+- A click-to-look-up popup [dictionary](/dictionary): the definition of a key term
+  from the Suttas and the Vinaya and the Dhamma.Gift rendering first, DPD's short
   meanings (English or Russian) after it; offline too.
 - **Compare mode** — the Pali with any of the 25 translation languages, or
   several editions, side by side at once.
@@ -173,10 +173,10 @@ See [Offline library](../tech/offline-db.md).
 <img src="/assets/svg/dg-logo-dark.svg" alt="Dict.Dhamma.Gift logo" style={{float: 'left', marginRight: '15px', maxWidth: '96px'}} />
 
 A Pali dictionary by the Suttas and the Vinaya, built for phones and tablets
-too: for 800 key terms, the Canon's own definition and every line where it is
+too: for 800 key terms, the definition from the Suttas and the Vinaya and every line where it is
 given, with the Dhamma.Gift rendering; then, in the page's order,
 [DPD](https://digitalpalidictionary.github.io/) (Digital Pāḷi Dictionary),
-Sutta-Vinaya Definitions and Similes (the Canon's definitions and similes for any word), the
+Sutta-Vinaya Definitions and Similes (definitions and similes from the Suttas and the Vinaya for any word), the
 Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library and
 Sanskrit dictionaries. More on the dictionary modes on the
 dedicated [Dictionary](/dictionary) page. Open the

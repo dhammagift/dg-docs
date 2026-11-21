@@ -1,6 +1,6 @@
 ---
 title: "Browser Extension: Pali Dictionary on Any Site"
-description: "Select or click a word on any website to see it in the Pali dictionary by the Suttas and Vinaya: the Canon's own definition, then DPD, PTS and Sanskrit dictionaries. And search the Suttas."
+description: "Select or click a word on any website to see it in the Pali dictionary by the Suttas and Vinaya: their own definition, then DPD, PTS and Sanskrit dictionaries. And search the Suttas."
 slug: /browser-extension
 sidebar_position: 15
 ---
