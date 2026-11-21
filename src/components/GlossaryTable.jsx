@@ -192,6 +192,12 @@ function CanonLink({link, locale, t}) {
   return <SiteLink to={withLang(link, locale)}>{label}</SiteLink>;
 }
 
+// metaphors / assāda: segments of one sutta (mn13:19.4, mn13:20.3 …) as one chip linked to the first
+function bySutta(refs) {
+  const seen = new Set();
+  return refs.filter((v) => !REF_ID.test(v) || (!seen.has(suttaLabel(v)) && seen.add(suttaLabel(v))));
+}
+
 function RefChip({value, locale, t}) {
   const more = value.match(/^\(\+(\d+)\)$/);
   if (more) return <span className="dg-glossary__more">{t.more(Number(more[1]))}</span>;
@@ -268,7 +274,7 @@ function TermDetails({term, t, locale, copied, onCopy}) {
                     <i>{m.kind}</i> {m.text}
                   </span>
                   <span className="dg-glossary__chips">
-                    {m.refs.map((value, i) => (
+                    {bySutta(m.refs).map((value, i) => (
                       <RefChip key={`m-${index}-${value}-${i}`} value={value} locale={locale} t={t} />
                     ))}
                   </span>
@@ -285,7 +291,7 @@ function TermDetails({term, t, locale, copied, onCopy}) {
                     <i>{m.kind}</i> {m.text}
                   </span>
                   <span className="dg-glossary__chips">
-                    {m.refs.map((value, i) => (
+                    {bySutta(m.refs).map((value, i) => (
                       <RefChip key={`a-${index}-${value}-${i}`} value={value} locale={locale} t={t} />
                     ))}
                   </span>
