@@ -19,7 +19,9 @@ import SearchQuickSettings from '@site/static/img/help/search-quick-settings-en.
 Search the Pali Canon and its translations by a word, a phrase or a regular
 expression. Plenty of filters and settings narrow it down — where to search,
 which languages, how much context around each quote — and the **Words** view
-gives a report on every word form that was found. Try it live below (this is
+gives a report on every word form that was found. When nothing matches
+exactly, it finds the suttas closest in meaning — over the Suttas and the
+Vinaya, in Pali, English and Russian ([below](#basics)). Try it live (this is
 the real search page):
 
 <AppFrame src="/nodejs/res/?q=kacchapa&scope=dhamma" title="Live search" height={700} />
@@ -148,8 +150,8 @@ GitHub.
   It spells loosely: no diacritics, case, aspiration or doubled letters
   (`tanha` finds taṇhā, `dama` finds dhamma). The **Advanced filter** button
   next to it (sliders icon) does multi-condition filtering.
-- **Export** — download the results as TXT, PDF or MD (Markdown), handy for
-  AI or analysis.
+- **Export** — copy the results or download them as Excel, CSV, TXT, MD
+  (Markdown) or PDF, handy for AI or analysis.
 - The **Words** button switches the table to results grouped by word
   instead of by sutta. With a pattern such as `kacch.*a` it lists the word
   forms found.
@@ -193,7 +195,7 @@ For edition abbreviations (`ms`, `pts1ed`, `sya-all`, `mr`, etc.), see the
 | Alt+Shift+S | Open/close the full [Settings](/settings) page |
 | Alt+T | Dark / light / auto theme |
 | Alt+Space, Alt+Z | Results: both languages → Pali only → translation only |
-| Ctrl+Shift+F (Cmd+Shift+F on Mac) | Find on page (site-wide, not just here) — also in the burger menu |
+| Alt+F, Ctrl+Shift+F (Cmd+Shift+F on Mac) | Find on page (site-wide, not just here) — also in the burger menu |
 | Shift+Space | Collapse/expand all search results |
 | Alt+R | Read the results aloud |
 | / | Put the cursor into the search field |
