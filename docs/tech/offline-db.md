@@ -33,14 +33,14 @@ index. The copy is rebuilt from `dg.db` with the same schema and rowids and its 
 cut down with `DELETE` + `VACUUM`. Its `build_id` is the hash of its own content.
 
 Tables: `suttas`, `texts`, `html`, `fts` (FTS5, `tokenize='trigram remove_diacritics 1'`, external
-content over `texts`), `vocab`, `meta`. About 217 MB gzipped and 613 MB on the device.
+content over `texts`), `vocab`, `meta`. About 257 MB gzipped and 682 MB on the device.
 
 `db-manifest.json` is what clients read first:
 
 ```json
-{ "schema_version": 1, "build_id": "71381ea7133d4182", "langs": "all", "fts": "trigram",
-  "source": "dg.db", "built_at": "2026-10-11T22:39:58.752Z", "file_gz": "dg.db.gz",
-  "bytes_gz": 216794065, "bytes": 613142528, "sha256": "…" }
+{ "schema_version": 1, "build_id": "3b0765f32062b0bb", "langs": "all", "fts": "trigram",
+  "source": "dg.db", "built_at": "2026-10-31T12:22:46.130Z", "file_gz": "dg.db.gz",
+  "bytes_gz": 256666299, "bytes": 682291200, "sha256": "…" }
 ```
 
 `sha256` is the hash of the unpacked database. A client never reads `build_id` from the manifest
@@ -95,7 +95,8 @@ deliberate step.
    proven; then the old file is removed.
 8. The shell (HTML, JS, CSS, wasm, `core-bundle.js`) is cached by the service worker. The dictionary
    is cached by the page right after the library is adopted, because the service worker's install
-   pass alone proved unreliable (see below).
+   pass alone proved unreliable (see below). Without the library, a text read once still opens again
+   offline: the service worker keeps the latest 200 texts read (`/api/text/…`).
 
 Only one tab owns the OPFS pool (a single-writer resource). The tab in front takes it over, and a tab
 without it can be served by the owner over a `BroadcastChannel`.
@@ -135,6 +136,9 @@ are `dg-test` and `dg-prod`.
 - The service worker's install-time precache can silently miss entries (127 of ~145 in one measured
   run, with the server answering those files 200). Anything that must be there offline is cached from
   the page as well.
+- The server answers `Vary: Origin` (CORS), and a page's `fetch()` carries an `Origin` the precache's
+  own requests did not, so the service worker looks its cache up with `ignoreVary` (same-origin GETs
+  only); without it every `fetch()`ed file missed offline.
 - Tab lifecycle: a page in the back/forward cache keeps its worker and the pool handles. So the worker
   is terminated on `pagehide` (never during a download), and the library is re-opened on
   `focus`/`visibilitychange`/`pageshow`.

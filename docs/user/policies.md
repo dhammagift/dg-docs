@@ -98,10 +98,16 @@ functionality:
   word goes there instead: dharmamitra.org (the DharmaMitra mode and the
   "Explain grammar (DharmaMitra)" menu item send the selected text), the
   address you enter as a Custom URL, or a dictionary app on your computer
-  (GoldenDict, MDict). The extension's settings stay in your browser's
+  (GoldenDict, MDict) or on an Android device (DictTango). The extension's settings stay in your browser's
   extension storage; the size and position of the dictionary window are kept
   in the visited site's local storage. The extension has no analytics and no
   account.
+- **Telegram bot** — to remember your choices, the bot keeps under your
+  Telegram user ID only the interface language and the city you saved for the
+  Uposatha list (`/uposatha reset` forgets the city). Our server looks a city
+  name up in the Open-Meteo geocoding service (geocoding-api.open-meteo.com),
+  without your ID. Inline queries are written to the bot's log together with
+  the user ID.
 - **Technical logs** — standard request metadata (IP address, User-Agent)
   is collected by web servers for security purposes and DDoS protection.
 
@@ -109,7 +115,8 @@ functionality:
 
 - Personal identification (except the email address used during Google
   or Apple Login).
-- Telegram user IDs or private chat histories.
+- Private Telegram chat histories (the bot keeps only what is listed under
+  Telegram bot above).
 - Browsing history outside of our specific services.
 - Persistent tracking identifiers (beyond the scope of a user-initiated
   sync session).
@@ -121,8 +128,8 @@ Our own services:
 - <SiteLink to="/">dhamma.gift</SiteLink> / [dict.dhamma.gift](https://dict.dhamma.gift/)
   — for search and reader functionality.
 - **api.dhamma.gift** (and its reserve api2.dhamma.gift) — the DG voices:
-  it receives the text being read aloud. It also serves the MCP server and
-  the API.
+  it receives the text being read aloud, and for the AI search the query
+  text. It also serves the MCP server and the API.
 - **files.dhamma.gift** — MP3 files of the texts.
 - **s.dhamma.gift** — other Pali editions side by side.
 - **Google Firebase** — solely to provide the optional cloud
@@ -184,8 +191,8 @@ marketing or advertising purposes.
   Search queries appear only in the server logs (see below).
 - **With synchronization** — history, favorites, reading progress, subscriptions, and settings are stored
   in the Google Cloud database until deleted by the user.
-- **Offline library** — the full text database (about 200 MB to download,
-  about 590 MB on the device) is downloaded from dhamma.gift and kept on
+- **Offline library** — the full text database (about 260 MB to download,
+  about 680 MB on the device) is downloaded from dhamma.gift and kept on
   your device only. On the website and in the PWA the download starts only
   with your consent. The Android and iOS apps always ask before the
   download, on Wi-Fi too, and name its size; if you say no, the app

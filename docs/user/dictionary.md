@@ -1,6 +1,7 @@
 ---
-title: "Pali Dictionary"
-description: "Dict.Dhamma.Gift is a dictionary platform: many Pali and Sanskrit dictionaries on one page. In the reader, a tap on a word opens its entry over the text, offline too."
+title: "Pali Dictionary by the Suttas and Vinaya"
+sidebar_label: "Pali Dictionary"
+description: "A Pali dictionary by the Suttas and the Vinaya: definitions and similes from the Suttas and the Vinaya themselves, and for 800 key terms their definition with every line where it is given and the Dhamma.Gift rendering. DPD, PTS, Sanskrit and other dictionaries beside it. Offline too."
 slug: /dictionary
 sidebar_position: 4
 ---
@@ -16,7 +17,11 @@ import DictWordPage from '@site/static/img/help/dict-word-page-en.png';
 import PopupLight from '@site/static/img/help/dict-popup-light-en.png';
 import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
 
-# Dictionary
+<head>
+  <title>Pali Dictionary by the Suttas and Vinaya — Dict.Dhamma.Gift</title>
+</head>
+
+# Pali Dictionary by the Suttas and Vinaya
 
 <a href="https://dict.dhamma.gift" className="dg-page-logo">
   <ThemedImage
@@ -32,11 +37,27 @@ import PopupDark from '@site/static/img/help/dict-popup-dark-en.png';
   <a href="https://apps.microsoft.com/detail/9P3B7HLRXXGC"><img src="/assets/img/buttons/msstore-cta.png" alt="Get Dict.Dhamma.Gift from the Microsoft Store" style={{maxWidth: '200px'}} /></a>
 </div>
 
-The dictionary is built into the site: it pops up when you click a Pali word
-while reading, and it opens in the "Dict" tab of the [Quick
-Window](/quickmodal). The built-in dictionary is **DPD** (Digital Pāḷi
-Dictionary). The full version with every dictionary is a separate site,
-[dict.dhamma.gift](https://dict.dhamma.gift) — more on it below.
+Dict.Dhamma.Gift is a dictionary by the Suttas and the Vinaya: a word means
+what the Suttas and the Vinaya themselves say it means — in their definitions
+and in their similes.
+
+- **Definitions from the Suttas and the Vinaya.** For 800 key terms of the
+  [glossary](/glossary) — 702 of them defined in the Suttas and the Vinaya — it gives the
+  Pali definition, word for word, and every line in the Suttas and the
+  Vinaya where it stands (*Katamañca, bhikkhave, dukkhaṁ? …* — DN 22, MN 9,
+  MN 141 and six more for *dukkha*), with the Dhamma.Gift rendering in
+  English and Russian. Special definitions, given for one context
+  (*ariyassa vinaye*), are marked. Inflected
+  forms find the term too: *dukkhassa*, *dukkhena*, *dukkhato*.
+- **Then, in the order the word page shows them:** DPD (Digital Pāḷi
+  Dictionary); Sutta-Vinaya Definitions and Similes — for any word, the places
+  where the Suttas and the Vinaya define it and the similes that explain it; the Gandhari Dictionary (M. Cone and
+  others); PTS; Buddhadust; Wisdom Library; and 30+ Sanskrit dictionaries —
+  one search, every source on one page.
+
+It is a separate site, [dict.dhamma.gift](https://dict.dhamma.gift), and an app;
+it is also built into Dhamma.Gift: it pops up when you click a Pali word while
+reading, and it opens in the "Dict" tab of the [Quick Window](/quickmodal).
 
 ## Try it on this page
 
@@ -57,11 +78,16 @@ Modes in the list: the built-in DPD, Dict.DG in a popup, in a new window or
 mini, DharmaMitra.org, search only, and external apps (DPD Android, DictTango
 Android, Mdict iOS, GoldenDict-NG Desktop). **Alt+B** switches the mode.
 
-The **built-in DPD** mode works fully offline: the dictionary data loads
-once (as a script, in English or Russian) and every lookup after that runs
-locally in the browser — no request to dict.dhamma.gift or anywhere else.
-It's a smaller, single-dictionary alternative to the full Dict.Dhamma.Gift
-platform below, meant for reading with no or a poor connection.
+For a key term of the project's [glossary](/glossary), the popup's first line,
+marked **(DG)**, gives the Dhamma.Gift rendering and, after *def.*, every sutta
+where the Suttas or the Vinaya define the word; a special definition (one they give for
+a particular context) shows that Pali phrase in italics instead of *def.*
+
+The **built-in DPD** mode works fully offline: the definitions from the Suttas and the Vinaya and DPD's
+short meanings load once (as a script, in English or Russian) and every lookup
+after that runs locally in the browser — no request to dict.dhamma.gift or
+anywhere else. It is meant for reading with no or a poor connection; the full
+Dict.Dhamma.Gift below has every source.
 
 If a word isn't in the built-in DPD, the popup offers two links instead:
 **Search on Dhamma.gift** and **Search in the full Dict.Dhamma.Gift**.
@@ -72,8 +98,8 @@ A click opens one word. To look up a phrase or translate a whole sentence,
 turn on multi-select — the selection icon in the reader toolbar or **Alt+J** —
 and select that part of the Pali text. After 3 seconds the selection opens
 by itself in the dictionary of the chosen mode. For translating and parsing a
-sentence, the DharmaMitra.org mode or a right click on the **DG** button in
-the dictionary window works best. The delay (3 or 5 seconds) can be changed
+sentence, the DharmaMitra.org mode or a right click on the Dict.Dhamma.Gift
+button in the dictionary window works best. The delay (3 or 5 seconds) can be changed
 in [Settings](/settings), under "Multi-select".
 
 ## The dictionary window
@@ -87,18 +113,18 @@ in [Settings](/settings), under "Multi-select".
 | Button | What it does |
 |---|---|
 | 🔍 | Searches the texts on Dhamma.Gift for the word |
-| **DG** | Opens the word in the full dictionary — dict.dhamma.gift |
-| **DG** with a right click, a middle click or a long tap on a phone | Opens DharmaMitra — grammar analysis and research on the word |
+| Dict.Dhamma.Gift logo (middle button) | Opens the word in the full dictionary — dict.dhamma.gift |
+| The same button with a right click, a middle click or a long tap on a phone | Opens DharmaMitra — grammar analysis of the word |
 | ✕ | Closes the window (Esc) |
 
 Drag the window by its title and resize it from the bottom right corner.
 
 ## The full version: Dict.Dhamma.Gift
 
-[Dict.Dhamma.Gift](https://dict.dhamma.gift) isn't just one dictionary,
-it's a platform: DPD, the Gandhari and PTS dictionaries, Buddhadust, Wisdom
-Library, Sanskrit dictionaries and definitions from the Suttas and Vinaya in
-one place.
+[Dict.Dhamma.Gift](https://dict.dhamma.gift): the definitions from the Suttas and the
+Vinaya and the Dhamma.Gift rendering first, then DPD, Sutta-Vinaya Definitions and Similes,
+the Gandhari and PTS dictionaries, Buddhadust, Wisdom Library and Sanskrit
+dictionaries, in one place.
 
 <AppFrame src="/dict/" title="Dict.Dhamma.Gift" height={550} />
 
@@ -108,14 +134,16 @@ and it works offline there. Add a word to the address to open its page:
 
 ### The word page
 
-<img src={DictWordPage} alt="The page for dukkha: history on the left, the DPD entry, buttons next to the word" style={{maxWidth: '100%', display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={DictWordPage} alt="The page for dukkha: history on the left, buttons next to the word, the Dhamma.Gift rendering with the suttas that define it, the DPD entry" style={{maxWidth: '100%', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **On the left** — favorite and recent words. The clock button in the header
   hides and shows this column; on a phone it opens the list.
 - **Next to the word** — ☆ to favorites (Alt+Q), 🔊 read aloud (Alt+R), copy
   the word and a link to it.
-- **"Open on Dhamma.Gift"** — searches the site's texts for the word (Alt+3
-  does the same).
+- **Under the word** — how many texts and matches Dhamma.Gift search finds
+  for it, and **"Open on Dhamma.Gift"**, which runs that search (Alt+3 does
+  the same). For a key term of the glossary, the Dhamma.Gift rendering and
+  **Defined in:** — every sutta where the word is defined.
 - Double-clicking any word inside an entry also searches for it.
 - The dictionary blocks can be moved up and down (↑/↓). In the Sanskrit
   block, +/− expands or collapses all its dictionaries.
@@ -127,7 +155,7 @@ and it works offline there. Add a word to the address to open its page:
 The menu (Alt+M) is one panel:
 
 - **Find on the page** (Alt+F) — search the open entry, the same as on the site.
-- **Appearance** — interface language, light or dark theme, font size
+- **Appearance** — interface language, dark, light or auto theme, font size
   (Alt+− / Alt+= / Alt+0), sans or serif font, niggahita spelling (ṃ/ṁ).
 - **Expand right away** — which entry sections open at once (grammar,
   examples, summary) and the "one section at a time" mode.
@@ -145,7 +173,7 @@ window with the site's favorites and history, key suttas and Memo.
 Under **Menu → Data**, a **download** button saves the dictionary right in the browser (~3.9 MB; on the
 Russian page ~6.1 MB, with the English meanings too):
 
-- definitions by the Suttas: for a key term, links to the suttas where the canon itself defines the word, with the
+- definitions by the Suttas: for a key term, links to the suttas where the Suttas themselves define the word, with the
   project's rendering;
 - DPD's short meanings.
 
@@ -208,7 +236,7 @@ The app for phones has a few things of its own:
 Dict.Dhamma.Gift is a separate site you can open directly:
 [dict.dhamma.gift](https://dict.dhamma.gift). It also works outside
 Dhamma.Gift as a [browser extension](/browser-extension) (Chrome, Firefox,
-Edge, Opera), in the side panel by default. The DPD popup dictionary is
+Edge, Opera), in the side panel by default (in Firefox, a popup). The DPD popup dictionary is
 available as a Tampermonkey script
 ([installation](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md));
 the plugin can be embedded on any site

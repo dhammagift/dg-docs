@@ -58,7 +58,7 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 | `dgen`, `alan`, `kathleen` | English | Piper voices. `dgen` is "Yojanāni DG" (the default): trained on a real person's readings. Pāḷi words and abbreviations (Ven., SN 56.11) are read properly |
 | `puriso`, `dgru`, `irina` | Russian | Piper voices. `dgru` is "Cūḷa DG" (the default); `puriso` is Supertonic's male voice M1 taught to Piper. Pāḷi in Latin script is read the Pāḷi way, Russian words with the right stress |
 
-`GET /api/tts/dg-voices` gives the list as `{"voices": [{"id", "lang", "label"}]}` in menu order (a language's first voice is its default); `GET /api/tts/health` shows that the
+`GET /api/tts/dg-voices` gives the list as `{"voices": [{"id", "lang", "label"}]}` in menu order (a language's first voice is its default; Yojanāni DG is listed there by its internal id `miles`, which works the same as `dgen`); `GET /api/tts/health` shows that the
 service is up and which version of the pronunciation rules it uses. `GET /api/tts/offline/pali-ipa.json`
 gives the rules, the engine and the voice models that DG downloads to read on the device, offline.
 

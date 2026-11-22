@@ -147,6 +147,18 @@ test('buildGlossary reads the definition type, empty for an ordinary definition'
   assert.equal(stats.special, 2);
 });
 
+test('buildGlossary reads the Assāda · ādīnava · nissaraṇa column like the metaphors', () => {
+  const [header] = FIXTURE.split('\n');
+  const cols = parseCsv(header)[0].length;
+  const row = (pali, cell) => [`1`, pali, 'перевод', 'rendering', ...new Array(cols - 4).fill(''), cell].join(',');
+  const cell = '"assāda: yaṁ rūpaṁ paṭicca — sn22.26:2.4 | ādīnava: yaṁ rūpaṁ aniccaṁ — sn22.26:2.4 | nissaraṇa: yo chandarāgavinayo — sn22.26:2.4, sn22.27:1.1"';
+  const csv = [`${header},Assāda · ādīnava · nissaraṇa`, row('rūpa', cell), row('adhamma', '')].join('\n');
+  const {terms, stats} = buildGlossary(csv);
+  assert.deepEqual(terms.find((t) => t.pali === 'rūpa').assada.map((m) => [m.kind, m.refs.length]), [['assāda', 1], ['ādīnava', 1], ['nissaraṇa', 2]]);
+  assert.equal(terms.find((t) => t.pali === 'adhamma').assada, undefined);
+  assert.equal(stats.assada, 3);
+});
+
 test('validateGlossary allows only DN, MN, SN, AN, Snp, Iti, Ud and the Vinaya', () => {
   const ok = {id: 'a', pali: 'a', canon: {where: ['mn141', 'snp3.12', 'iti50', 'ud1.10', '(+3)', 'āhuneyyaggi'], vinaya: ['pli-tv-bu-vb-pc8'], link: '/an10.114:2.1'}};
   assert.deepEqual(foreignRefs(ok), []);

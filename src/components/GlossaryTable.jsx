@@ -80,6 +80,7 @@ const STRINGS = {
     broader: 'Шире',
     vinaya: 'Виная (Вибханги)',
     dgNote: 'Пояснение DG',
+    metaphors: 'Метафоры',
     rationale: 'Обоснование',
     copyLink: 'Ссылка',
     copied: 'Скопировано',
@@ -117,6 +118,7 @@ const STRINGS = {
     broader: 'Broader',
     vinaya: 'Vinaya (Vibhaṅgas)',
     dgNote: 'DG note',
+    metaphors: 'Metaphors',
     rationale: 'Rationale',
     copyLink: 'Link',
     copied: 'Copied',
@@ -171,6 +173,8 @@ function hasDetails(term, locale) {
       canon.broader?.length ||
       canon.vinaya?.length ||
       term.rationale ||
+      term.metaphors?.length ||
+      term.assada?.length ||
       (locale === 'ru' && term.dgNote),
   );
 }
@@ -186,6 +190,12 @@ function CanonLink({link, locale, t}) {
   }
   if (!link.startsWith('/')) return <span>{link}</span>;
   return <SiteLink to={withLang(link, locale)}>{label}</SiteLink>;
+}
+
+// metaphors / assāda: segments of one sutta (mn13:19.4, mn13:20.3 …) as one chip linked to the first
+function bySutta(refs) {
+  const seen = new Set();
+  return refs.filter((v) => !REF_ID.test(v) || (!seen.has(suttaLabel(v)) && seen.add(suttaLabel(v))));
 }
 
 function RefChip({value, locale, t}) {
@@ -249,6 +259,40 @@ function TermDetails({term, t, locale, copied, onCopy}) {
                   <span className="dg-glossary__chips">
                     {refs.map((value, index) => (
                       <RefChip key={`${key}-${value}-${index}`} value={value} locale={locale} t={t} />
+                    ))}
+                  </span>
+                </div>
+              ))}
+            </section>
+          )}
+          {term.metaphors?.length > 0 && (
+            <section className="dg-glossary__section">
+              <h4>{t.metaphors}</h4>
+              {term.metaphors.map((m, index) => (
+                <div key={`m-${index}`} className="dg-glossary__refgroup">
+                  <span className="dg-glossary__reflabel" lang="pi">
+                    <i>{m.kind}</i> {m.text}
+                  </span>
+                  <span className="dg-glossary__chips">
+                    {bySutta(m.refs).map((value, i) => (
+                      <RefChip key={`m-${index}-${value}-${i}`} value={value} locale={locale} t={t} />
+                    ))}
+                  </span>
+                </div>
+              ))}
+            </section>
+          )}
+          {term.assada?.length > 0 && (
+            <section className="dg-glossary__section">
+              <h4 lang="pi">Assāda · ādīnava · nissaraṇa</h4>
+              {term.assada.map((m, index) => (
+                <div key={`a-${index}`} className="dg-glossary__refgroup">
+                  <span className="dg-glossary__reflabel" lang="pi">
+                    <i>{m.kind}</i> {m.text}
+                  </span>
+                  <span className="dg-glossary__chips">
+                    {bySutta(m.refs).map((value, i) => (
+                      <RefChip key={`a-${index}-${value}-${i}`} value={value} locale={locale} t={t} />
                     ))}
                   </span>
                 </div>
@@ -363,7 +407,7 @@ export default function GlossaryTable({locale = 'en'}) {
       const reducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
       window.requestAnimationFrame(() => {
         document
-          .getElementById(`term-${id}`)
+          .getElementById(id)
           ?.scrollIntoView({block: 'center', behavior: reducedMotion ? 'auto' : 'smooth'});
       });
     }
@@ -581,7 +625,8 @@ export default function GlossaryTable({locale = 'en'}) {
               const isOpen = open.has(term.id);
               return (
                 <Fragment key={term.id}>
-                  <tr id={`term-${term.id}`} className={highlight === term.id ? 'is-target' : undefined}>
+                  {/* the row's id is the term's own: /docs/glossary/#dukkha and the DefinedTerm @id land on it without JS */}
+                  <tr id={term.id} className={highlight === term.id ? 'is-target' : undefined}>
                     <td className="dg-glossary__pali" lang="pi">
                       {term.pali}
                     </td>

@@ -27,6 +27,10 @@ Try it: the line below is already selected — press ▶ at the bottom of the fr
 4. Open a link to a line (for example `/an5.209:1.1`): the line is highlighted and ▶ is already there.
 5. Press **Alt+R** (**Option+R** on Mac).
 
+On the search results page **Alt+R** reads the quotes found, in the same
+player: each sutta's name first, then its quotes, and the row being read is
+highlighted.
+
 ## Player
 
 - **Controls** — Play/Pause, previous/next sentence.
@@ -68,8 +72,9 @@ can also be downloaded to your device and then reads without internet.
   **Irina ♀**.
 - Pāḷi words inside a translation (sutta, Dhamma, bhikkhu, names) are read
   the Pāḷi way. Abbreviations are spelled out (Ven. → Venerable, SN 56.11 →
-  Saṁyutta Nikāya 56, 11). Russian words get the right stress, and ё where
-  the text prints е.
+  Saṁyutta Nikāya 56, 11). Russian words get their stress from the context
+  (дела́ его / иметь де́ла), online and with a downloaded voice alike, and ё
+  where the text prints е.
 - The next sentences are prepared while one is playing, so there are no
   gaps between them.
 
@@ -150,9 +155,11 @@ limit (or infinite).
   point **A** and the panel waits for you to click a line for point **B**;
   if nothing was selected, click a line for **A** first, then for **B**.
   As soon as both points are set, the loop starts automatically.
-- **Pause (sec)** — how long to wait between repeats.
-- **Repeat count** — defaults to ∞ (infinite); type your own number and
-  the loop stops on its own once it's done.
+- The panel opens under the player; **AB** opens and closes it again.
+- **Pause between loops** — seconds to wait between repeats (− / + or type
+  a number).
+- **Repeats** — defaults to ∞ (infinite); set your own number and the loop
+  stops on its own once it's done. The 🗑 button clears both points.
 - To move a point, click it again and pick a new line. To clear a point,
   **right-click** (or **long-press** on phones) directly on the A or B
   button.

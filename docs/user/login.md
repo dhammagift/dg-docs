@@ -26,7 +26,7 @@ progress and settings across devices — three ways to do it:
 
 ## If the device already has local data
 
-Logging in (either way) on a device that already has its own history or
+Logging in (any of the three ways) on a device that already has its own history or
 favorites shows a choice:
 
 - **Merge Data** — keep what's already on this device and add the cloud data

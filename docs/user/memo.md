@@ -84,8 +84,11 @@ rule's class and name to test yourself. **Next** shows another rule, and
 - **Auto-cursor** — when playback stops, puts the cursor at the end of the
   current line.
 
-A finished session can be downloaded as an MP3 (the download icon) — say,
-to listen offline or outside the browser.
+A finished session can be downloaded as an MP3 (**Download MP3**, the
+download icon) — say, to listen offline or outside the browser.
+**Save** (the disk icon) puts the session — its text and settings — into
+your favorites, and **Share link** copies a link that opens Memo with the
+same text and settings (up to 1,900 characters of text).
 
 ## Limits of the audio file
 
@@ -95,8 +98,7 @@ When you download a session as an MP3:
   the whole file up to **3 hours**; the speech itself up to **30 minutes**
   (pauses do not count towards it). Up to 200 lines and 20,000 characters
   of text.
-- **Google voice** (needs your own API key in the settings) — pauses up to
-  **10 seconds**.
+- **Google voice** — pauses up to **10 seconds**.
 
 See also [Voice / TTS](/tts) for the simpler player built right into the
 reader, without slicing or repeats.

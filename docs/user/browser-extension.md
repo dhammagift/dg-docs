@@ -1,6 +1,6 @@
 ---
 title: "Browser Extension: Pali Dictionary on Any Site"
-description: "Select or click a word on any website to see its entry in DPD, PTS and other Pali and Sanskrit dictionaries, and search the Suttas."
+description: "Select or click a word on any website to see it in the Pali dictionary by the Suttas and Vinaya: their own definition, then DPD, PTS and Sanskrit dictionaries. And search the Suttas."
 slug: /browser-extension
 sidebar_position: 15
 ---
@@ -9,14 +9,17 @@ import ExtensionMock from '@site/src/components/ExtensionMock';
 
 # Browser extension
 
-Search the Suttas and look words up in Dict.Dhamma.Gift — DPD, PTS,
-Gandhari and Sanskrit dictionaries and more — on any website: select a
+Search the Suttas and look words up in Dict.Dhamma.Gift — the dictionary by
+the Suttas and the Vinaya, with DPD, PTS, Gandhari, Sanskrit dictionaries and
+more beside it — on any website: select a
 word or phrase (or just click on a word) and the extension shows the
 dictionary entry right there, without leaving the page.
 
 In the extension's settings, pick where the result opens: Side Panel (the
-default), New Window, Popup, Compact, Dharmamitra (New Window), GoldenDict-NG, DictTango
-App, MDict (macOS) or a Custom URL. The default language is set there too
+default; in Firefox the default is Popup, and Side Panel opens a window while
+the sidebar is closed), New Window, Popup, Dharmamitra (New Window),
+GoldenDict-NG, DictTango App (Android), MDict (macOS) or a Custom URL (an
+https address). The default language is set there too
 (English or Русский).
 
 Right-click a selected phrase for either a Dhamma.gift text search or a

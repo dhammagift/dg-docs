@@ -30,11 +30,12 @@ where you are — here are all of them, together:
 
 - **Where to search** — the same 4 Nikāyas / Khuddaka Nikāya / Vinaya
   toggles as "Default search scope" below on this page, but this one
-  only changes the scope for the current query.
+  only changes the scope for the current query. Under it, **With variant
+  readings** — the same as "Search with variant readings" below.
 - **Dictionary** — which dictionary mode to use (see [Dictionary](/dictionary)).
-- **Quote context** — results page only: how many lines to show
+- **Context lines** — results page only: how many lines to show
   before/after a match.
-- **Result view** — Texts / Words (results page only).
+- **Results view** — Texts / Words (results page only).
 - **Reading** — reading variants and column mode (in the reader), hide
   Pāḷi punctuation (anywhere there's Pali text).
 - **Devanagari script** — only shows up while the reader is in
@@ -95,7 +96,7 @@ anywhere.
 - **Search languages** — match your reading languages by default; a
   toggle lets you set a separate language list just for search.
 - **Context lines** — how many lines to show before/after a match, as a
-  number rather than buttons — the same setting as "Quote context" in
+  number rather than buttons — the same setting as "Context lines" in
   Quick Settings.
 - **Multiple words, any order** — visible in the UI, but honestly labeled
   "not yet implemented server-side" — the toggle is disabled.
@@ -108,7 +109,8 @@ anywhere.
 - **En / Ru** — the language of the dictionary's meanings.
 - **Multi-select** — the same thing as the multi-select button in the
   reader (**Alt+J**): select several words and the dictionary looks them
-  up on its own, no button click needed.
+  up on its own, no button click needed. **Delay** (3 s or 5 s, shown while
+  Multi-select is on) — how long it waits after the selection.
 
 ## Pali root text
 
@@ -125,7 +127,7 @@ Mahāsaṅgīti with the variant readings of all editions. See
 - **Google Cloud API key** — optional: the Google voices work with a
   built-in trial key, your own key is for regular use (stored only in this
   browser) — details on [Voice / TTS](/tts).
-- **Voice and playback speed** — opens a separate panel (the same one the
+- **Voice and reading speed** — opens a separate panel (the same one the
   settings icon in the reader's own player opens, Alt+R) — see
   [Voice / TTS](/tts).
 

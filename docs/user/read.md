@@ -32,7 +32,7 @@ clone — click around, switch modes, change the font):
 | ![Frame](/img/help/icons/select-slash.svg) | Multi-select: select a few words and they open in the dictionary | **Alt+J** |
 | ![Compass](/img/help/icons/compass.svg) | [Quick window](/quickmodal): favorites, history | **Alt+P** |
 | ![Question mark](/img/help/icons/question.svg) | This help | **Alt+H** |
-| ![Bell](/img/help/icons/bell.svg) | Shown when the text is in your subscription: mark it read | |
+| ![Bell](/img/help/icons/bell.svg) | Subscribe to this text's collection; when the text is already in your subscriptions, mark it read | |
 | ![List](/img/help/icons/list-ul-solid-full.svg) **Title** | Contents of the text | **Alt+W** |
 | **‹ dn21 · dn23 ›** | Previous / next text | **Ctrl+←** / **Ctrl+→** |
 
@@ -131,7 +131,7 @@ to) — is in the dropdown on the [Settings](/settings) page.
 
 The burger menu (☰) has **−** and **+** buttons for the text size, from
 70 % to 250 %. **Alt+−** and **Alt+=** do the same, **Alt+0** goes back
-to 100 %.
+to 100 %. The line you are reading stays where it was on the screen.
 
 The starting size follows the device: 100 % on a computer, 110 % on a phone,
 120 % on a tablet. In the [Dhamma.Gift app](/dhamma-gift-app) a two-finger
@@ -161,6 +161,8 @@ the search box — also works inside the reader):
   convenience.
 - **Hide Pāḷi punctuation** (Alt+G) — strips punctuation from the Pali
   text, handy for memorization.
+- **Highlight differences** — marks where the Pali editions differ (see
+  [Compare](/compare)).
 
 Further down the same panel is a **"Pāḷi diacritics"** block — buttons
 for the special Pali characters (ā ī ū ṁ ñ ṅ ṭ ḍ ṇ ḷ); clicking one
@@ -179,7 +181,7 @@ keyboard doesn't have them.
 | Alt+A | Toggle the [dictionary](/dictionary) on word click |
 | Alt+N | Open the [dictionary](/dictionary) in a separate window |
 | Alt+W | Table of contents of the text |
-| Alt+2 | Open the [TOC Navigator](/toc) at this sutta's chapter |
+| Alt+2 | Open the [TOC Navigator](/toc) (the contents icon in the search box opens it at this text) |
 | Alt+Z | Show/hide the Pali or the translation (the Pāḷi / En pill at the bottom right) |
 | Alt+− / Alt+= / Alt+0 | Smaller / larger / default text size |
 | Ctrl+← / Ctrl+→ | Previous / next sutta |
@@ -191,8 +193,9 @@ All hotkeys are listed on [Keyboard shortcuts](/hotkeys).
 
 ## External editions and cross-references
 
-**External links ▾** above the text opens the same passage on other sites.
-Each site has small plates with the Pali editions it gives:
+**External links ▾** above the text (and again at its end, by the links
+to the previous and next text) opens the same passage on other sites. Each site
+has small plates with the Pali editions it gives:
 
 - **4NT** (s.4nt.org) — **MS BJT VRI SIAM** side by side (in the reader
   itself: [Compare](/compare)).
@@ -200,24 +203,27 @@ Each site has small plates with the Pali editions it gives:
 - **Tipitaka.lk** — **BJT**, the Buddha Jayanti Tipiṭaka.
 - **SuttaCentral** — **MS**.
 - **The Buddha's Words** — **MS**.
-- **Th.ru / Th.su** — Theravada.ru / Theravada.su (Russian interface only;
-  Theravada.su for the Dīgha Nikāya, the one collection complete there).
-- **Final** (Vinaya texts only) — jumps to the final edition of a rule, if
-  it changed over the course of the history/discussion.
+- **Theravada.ru**, **Theravada.su** — Russian interface only (Theravada.su
+  for the Dīgha Nikāya, the one collection complete there).
+
+On Vinaya texts whose rule changed over the course of the story, a
+**Final** link next to the menu jumps to the rule's final wording.
 
 The other icons of this row are described [above](#the-icons-above-the-text).
 
 ## Under the text
 
-- **Listen in MP3** — under some texts, a line with MP3 files of the
-  whole text: the Pali and the translation, with the translator named.
-- Under every text: links to **Principles by the Suttas · Rationale ·
-  Glossary**.
 - A row of icons: Search, Read by Chapters ([TOC](/toc)), Create Lists,
   Compare, Compass ([Quick window](/quickmodal)), **Export** (**Copy**, **TXT**, **MD**, **PDF** — the
   text as it is on screen), [Memo](/memo), Edit Translation (the
   [Translation Editor](/translator)), DharmaMitra, 4NT, Sutta Name Search
   and the Pali English Dictionary. To share the text, copy the link from
   the address bar or use Share in the apps.
+- Under every text: links to **Principles · Rationale · Glossary ·
+  6 Pali editions** (the last one opens [Compare](/compare)).
+- **MP3:** — under some texts, MP3 files of the whole text: the Pali and
+  the translation (the translator is named in the link's tooltip).
 - The **Pāḷi / En** pill at the bottom right (Alt+Z) shows or hides
   either language.
+- At the very bottom, **Terms** opens the [terms and licences](/policies#terms),
+  **Privacy** the [privacy policy](/policies).

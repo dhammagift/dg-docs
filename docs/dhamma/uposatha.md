@@ -84,7 +84,7 @@ with a particular community, follow its calendar.
 <img src={UpoSettings} alt="The menu: the settings groups" style={{maxWidth: 'min(380px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
 
-Open the settings (the gear ⚙ at the top). They are in folding groups — "General settings" (language, theme, font size), "Uposatha settings", "Meals" and "Parts of the night and day"; what you leave open is remembered. The link "change" on the *Summary* tab and "set a place" on the *Night–day* tab lead straight to the place.
+Open the settings (the gear ⚙ at the top). They are in folding groups — "General settings" (language, theme, font size), "Uposatha settings", "Meals", "Parts of the night and day" and "Test reminders"; what you leave open is remembered. The link "change" on the *Summary* tab and "set a place" on the *Night–day* tab lead straight to the place.
 
 **Time zone and hemisphere** (under "Advanced"). The moments are shown in your time zone; the hemisphere decides which side of the Moon is lit in
 the pictures. When a place is set, both are taken from it and the manual fields are hidden.
@@ -147,7 +147,7 @@ posture, rising — is how the arahants and other monks of the suttas spend it (
 rule; a layperson is not required to do so. The word *majjhanhikasamaya* itself is in MN 79 ("the sun at midday"); SN 28.1 does
 not use it, but describes that part of the day: after the meal, the day's meditation, coming out in the evening.
 
-**Reminders of the parts.** The bell by the heading sets a reminder at the start of each part: by default only the day parts, on
+**Reminders of the parts.** The "Remind" bell by the "Day" heading sets a reminder at the start of each part: by default only the day parts, on
 Uposatha days, with the part's name read aloud in Pali. The night parts, every day and the sound are in the menu.
 
 ### Other moon tools

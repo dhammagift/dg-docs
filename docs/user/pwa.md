@@ -51,4 +51,6 @@ and Windows. On iPhone and iPad (Safari) neither works: there the
 
 The installed site can hold the whole library on the device, so search and
 reading work without internet: Settings → Offline library. This doesn't
-work in a private (incognito) window, and the site says so.
+work in a private (incognito) window, and the site says so. Even without
+the library, a text you have already opened once opens again without a
+connection.

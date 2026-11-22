@@ -1,11 +1,16 @@
 ---
-title: "Key Features of Dhamma.Gift"
+title: "Dhamma.Gift Features: Pali Canon Search, Reader and 6 Editions"
 description: "Find a passage, read the Pali beside the translation, tap a word for the dictionary, then listen and learn it by heart, all in one window."
 slug: /key-features
+sidebar_label: "Key Features"
 sidebar_position: 1
 ---
 
 import SiteLink from '@site/src/components/SiteLink';
+
+<head>
+  <title>Dhamma.Gift Features: Pali Canon Search, Reader and 6 Editions</title>
+</head>
 
 # Key Features
 
@@ -15,6 +20,21 @@ dictionary, and a text-to-speech player, tied together so that finding a
 passage, reading it with a translation, listening to it, and memorizing it
 are all one continuous workflow rather than separate apps. Any text can also be read in six Pali
 editions of the Canon at once, with the differences highlighted.
+
+## Only on Dhamma.Gift
+
+- **Six editions of the Canon, the differences in one click.** Any sutta line by line in Buddha Jayanti
+  (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), the Mahāsaṅgīti, its 2005 print and PTS,
+  with the places where they differ highlighted. See [Compare](/compare).
+- **Search by meaning over the Suttas and the Vinaya.** Describe a passage in your own words, in English or
+  Russian, and get the sutta: [`parable of the saw`](https://dhamma.gift/?q=parable%20of%20the%20saw) finds MN 21, [`how not to fear death`](https://dhamma.gift/?q=how%20not%20to%20fear%20death) AN 4.184,
+  [`what leads to a long life`](https://dhamma.gift/?q=what%20leads%20to%20a%20long%20life) AN 5.125. These are guesses by meaning: check them against the text. See
+  [Search](/search-guide).
+- **A Pali dictionary by the Suttas and the Vinaya.** Definitions and similes from the Suttas and the Vinaya for any word;
+  for 800 key terms, their definition word for word and every line where it is given, with the
+  Dhamma.Gift rendering; DPD, PTS and Sanskrit dictionaries beside it. See [Dictionary](/dictionary).
+- **Thanissaro Bhikkhu's English beside the Pali, line by line** — 1,400+ suttas of SN, AN, MN, Iti, Ud, Snp,
+  Thag and Thig, a translation SuttaCentral does not have. See [Reader](/read).
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Download on the App Store" style={{width: '100%', display: 'block'}} /></a></span>
@@ -53,13 +73,11 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
 
 <img src="/assets/img/dgsanhkalogo.png" alt="Dhamma.Gift Read logo" style={{float: 'left', marginRight: '15px', maxWidth: '96px'}} />
 
-- **Compare 6 Pali editions** — any text line by line in Buddha Jayanti (Sri Lanka),
-  Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), Mahāsaṅgīti, Mahāsaṅgīti 2005
-  and PTS, with the differences highlighted. See [Compare](/compare).
 - Line-by-line Pali with an English translation, and 24 more languages: AN, DN,
   MN, SN, KN (Snp, Ud, Iti, Dhp, Thag, Thig) and the Vinaya Vibhaṅga.
-- A built-in online Russian version of the Digital Pāḷi Dictionary (DPD) —
-  a click-to-look-up popup dictionary.
+- A click-to-look-up popup [dictionary](/dictionary): the definition of a key term
+  from the Suttas and the Vinaya and the Dhamma.Gift rendering first, DPD's short
+  meanings (English or Russian) after it; offline too.
 - **Compare mode** — the Pali with any of the 25 translation languages, or
   several editions, side by side at once.
 - **Favorites & History** — a personal library of texts for quick access.
@@ -68,7 +86,7 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
   preferences (languages, theme, font) synced across devices, anonymously
   via a secret passphrase — no email or registration required — or with
   Google or Apple. See [Login](/login).
-- Full online DPD dictionary lookup, plus integration with DictTango
+- The full Dict.Dhamma.Gift in a window, plus integration with DictTango
   (Android), Mdict (iOS), GoldenDict-NG (desktop), and Dharmamitra.org for
   deep grammatical analysis.
 - **Smart TOC** — fast navigation that adapts to your selected languages.
@@ -80,11 +98,18 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
   memorizing any phrase. See [Voice / TTS](/tts).
 - **Keyboard shortcuts** for fast navigation. See
   [Keyboard shortcuts](/hotkeys).
-- **Links out** — the strip under the title links to the same passage on
-  S.Dhamma.Gift, DigitalPaliReader, Tipitaka.lk, SuttaCentral and other
-  sites.
+- **External links** — the menu above the text (and again at its end)
+  opens the same passage on S.Dhamma.Gift, Digital Pali Reader,
+  Tipitaka.lk, SuttaCentral and other sites.
 
 <div style={{clear: 'both'}} />
+
+## Compare 6 Pali Canon editions
+
+Any text line by line in six editions of the Canon: the three national ones — Buddha Jayanti (Sri Lanka),
+Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand) — then the Mahāsaṅgīti, its 2005 print and PTS. One click
+highlights where they differ; the national editions decide the reading. ✦ → **Compare** on any line, or the
+**Compare** reader mode (**Alt+Shift+2**). See [Compare](/compare), with each edition's known problems.
 
 ## Dhamma.Gift Voice — a unified text + audio ecosystem
 
@@ -139,17 +164,21 @@ build audio meditations:
 Download the text library once, from Settings or from the banner on the
 home screen. Then search and reading work without internet: on the site,
 in the PWA and in the apps. It does not work in a private browser window.
+On the site and in the PWA, a text you have opened once also opens again
+offline, without the library.
 See [Offline library](../tech/offline-db.md).
 
 ## Dict.Dhamma.Gift
 
 <img src="/assets/svg/dg-logo-dark.svg" alt="Dict.Dhamma.Gift logo" style={{float: 'left', marginRight: '15px', maxWidth: '96px'}} />
 
-A multi-source Pali Canon dictionary, with navigation and an interface
-built for phones and tablets: [DPD](https://digitalpalidictionary.github.io/)
-(Digital Pāḷi Dictionary, the core), Sutta-Vinaya Definitions and Similes,
-the Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom
-Library, and a Sanskrit dictionary. More on the dictionary modes on the
+A Pali dictionary by the Suttas and the Vinaya, built for phones and tablets
+too: for 800 key terms, the definition from the Suttas and the Vinaya and every line where it is
+given, with the Dhamma.Gift rendering; then, in the page's order,
+[DPD](https://digitalpalidictionary.github.io/) (Digital Pāḷi Dictionary),
+Sutta-Vinaya Definitions and Similes (definitions and similes from the Suttas and the Vinaya for any word), the
+Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library and
+Sanskrit dictionaries. More on the dictionary modes on the
 dedicated [Dictionary](/dictionary) page. Open the
 [dictionary site](https://dict.dhamma.gift).
 
@@ -195,7 +224,7 @@ and the [dictionary](http://t.me/dhammagift_bot/dict).
 
 ## Browser extensions
 
-Sutta search and the DPD Pali pop-up dictionary on any website:
+Sutta search and the Pali dictionary by the Suttas and the Vinaya on any website:
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <a href="https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd"><img src="/assets/img/buttons/chrome-cta.png" alt="Chrome Web Store" style={{maxWidth: '180px'}} /></a>

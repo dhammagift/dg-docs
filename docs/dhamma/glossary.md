@@ -9,6 +9,6 @@ import GlossaryTable from '@site/src/components/GlossaryTable';
 
 # Glossary
 
-Terms rendered according to the [Principles by Suttas](/sutta), with definitions from the Suttas and the Vinaya where they exist. The Pali definition is quoted verbatim, with links to the reader.
+Terms rendered according to the [Principles by Suttas](/sutta), with definitions from the Suttas and the Vinaya where they exist. The Pali definition is quoted verbatim, with links to the reader. Some terms also have the metaphors the Suttas use for them (*adhivacana*, *seyyathāpi*), and the Suttas' own *assāda · ādīnava · nissaraṇa* (attraction · drawback · rescue) of a thing — for the five blocks (*khandha*), the four *dhātu*, the domains (*āyatana*), desire and the world.
 
 <GlossaryTable locale="en" />

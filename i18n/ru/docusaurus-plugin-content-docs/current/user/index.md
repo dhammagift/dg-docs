@@ -1,11 +1,16 @@
 ---
-title: "Ключевые Возможности Dhamma.Gift"
+title: "Dhamma.Gift: поиск, ридер и 6 изданий Палийского канона — возможности"
 description: "Нашли отрывок, читаете пали рядом с переводом, клик по слову открывает словарь, дальше слушаете и учите наизусть. Всё в одном окне."
 slug: /key-features
+sidebar_label: "Ключевые возможности"
 sidebar_position: 1
 ---
 
 import SiteLink from '@site/src/components/SiteLink';
+
+<head>
+  <title>Dhamma.Gift: поиск, ридер и 6 изданий Палийского канона — возможности</title>
+</head>
 
 # Ключевые особенности
 
@@ -15,6 +20,22 @@ Dhamma.gift — это набор связанных инструментов в
 переводом, прослушать и заучить можно было в одном непрерывном сценарии, а
 не в разных приложениях. Любой текст можно читать и сразу в шести изданиях
 Палийского канона, с подсветкой отличий.
+
+## Только на Dhamma.Gift
+
+- **Шесть изданий канона, отличия в одно нажатие.** Любая сутта построчно в Buddha Jayanti (Шри-Ланка),
+  Chaṭṭha Saṅgāyana (Мьянма), Siam Rath (Таиланд), Mahāsaṅgīti, её печатном издании 2005 года и PTS, с
+  подсветкой мест, где они расходятся. См. [Сравнение](/compare).
+- **Поиск по смыслу в Суттах и Винае.** Опишите отрывок своими словами, по-русски или по-английски, и
+  получите сутту: [`притча про пилу`](https://dhamma.gift/ru/?q=притча%20про%20пилу) находит MN 21, [`как не бояться смерти`](https://dhamma.gift/ru/?q=как%20не%20бояться%20смерти) — AN 4.184,
+  [`what leads to a long life`](https://dhamma.gift/ru/?q=what%20leads%20to%20a%20long%20life) — AN 5.125. Это предположения по смыслу: сверяйте найденное с текстом.
+  См. [Поиск](/search-guide).
+- **Словарь пали по Суттам и Винае.** Определения и сравнения из Сутт и Винаи для любого слова; для 800
+  ключевых терминов — их определение дословно и все строки, где оно дано, с переводом Dhamma.Gift;
+  рядом DPD, PTS и санскритские словари. См.
+  [Словарь](/dictionary).
+- **Английский перевод Таниссаро Бхиккху построчно рядом с пали** — 1400+ сутт SN, AN, MN, Iti, Ud, Snp, Thag и
+  Thig; на SuttaCentral этого перевода нет. См. [Ридер](/read).
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <span style={{flex: '1 1 150px', maxWidth: '200px'}}><a href="https://apps.apple.com/app/dhamma-gift/id6813706217"><img src="/assets/img/buttons/appstore-cta.png" alt="Скачать в App Store" style={{width: '100%', display: 'block'}} /></a></span>
@@ -53,13 +74,11 @@ tipitaka.theravada.su и s.dhamma.gift (издания BJT, CST и тайско�
 
 <img src="/assets/img/dgsanhkalogo.png" alt="Логотип Dhamma.Gift Read" style={{float: 'left', marginRight: '15px', maxWidth: '96px'}} />
 
-- **Сравнение 6 изданий Пали** — любой текст построчно в изданиях Буддха Джаянти
-  (Шри-Ланка), Чаттха Сангаяна (Мьянма), Сиам Рат (Таиланд), Махасангити,
-  Махасангити 2005 и PTS, с подсветкой отличий. См. [Сравнение](/compare).
 - Построчные пали-русские тексты: АН, ДН, МН, СН, КН (Snp, Уд, Iti, Дхп,
   Тхаг, Тхиг), а также частично Виная-Вибханга.
-- Встроенная онлайн русская версия Digital Pāḷi Dictionary (DPD) —
-  всплывающий по клику словарь.
+- Всплывающий по клику [словарь](/dictionary): сначала определение ключевого
+  термина из Сутт и Винаи и перевод Dhamma.Gift, за ними краткие значения
+  DPD (на русском или английском); работает и без интернета.
 - **Режим «Сравнить»** — пали и любые из 25 языков перевода или несколько
   изданий на экране одновременно.
 - **Избранное и История** — личная библиотека текстов для быстрого доступа.
@@ -68,7 +87,7 @@ tipitaka.theravada.su и s.dhamma.gift (издания BJT, CST и тайско�
   чтения и настройки (языки, тема, шрифт) синхронизируются между
   устройствами анонимно, по секретной кодовой фразе — без email и
   регистрации, — или через Google или Apple. См. [Вход](/login).
-- Полноценный онлайн-словарь DPD, а также интеграция с DictTango (Android),
+- Полный Dict.Dhamma.Gift в окне, а также интеграция с DictTango (Android),
   Mdict (iOS), GoldenDict-NG (десктоп) и Dharmamitra.org для глубокого
   грамматического разбора.
 - **Умный TOC** — быстрая навигация, адаптирующаяся под выбранные языки.
@@ -80,11 +99,19 @@ tipitaka.theravada.su и s.dhamma.gift (издания BJT, CST и тайско�
   заучиванию любой фразы одним кликом. См. [Голос / TTS](/tts).
 - **Горячие клавиши** для быстрой навигации. См.
   [Горячие клавиши](/hotkeys).
-- **Внешние ссылки** — полоса под заголовком ведёт к тому же месту на
-  S.Dhamma.Gift, DigitalPaliReader, Tipitaka.lk, SuttaCentral и других
-  сайтах.
+- **Внешние ссылки** — меню над текстом (и ещё раз в его конце)
+  открывает то же место на S.Dhamma.Gift, Digital Pali Reader,
+  Tipitaka.lk, SuttaCentral и других сайтах.
 
 <div style={{clear: 'both'}} />
+
+## Сравнение 6 изданий Палийского канона
+
+Любой текст построчно в шести изданиях канона: три национальных — Buddha Jayanti (Шри-Ланка), Chaṭṭha
+Saṅgāyana (Мьянма), Siam Rath (Таиланд), — затем Mahāsaṅgīti, её печатное издание 2005 года и PTS. Одно
+нажатие подсвечивает, где они расходятся; чтение решают национальные издания. ✦ → **Сравнить** на любой
+строке или режим ридера **«Сравнить»** (**Alt+Shift+2**). См. [Сравнение](/compare) — там и известные
+проблемы каждого издания.
 
 ## Dhamma.Gift Voice — единая экосистема текста и звука
 
@@ -131,18 +158,22 @@ tipitaka.theravada.su и s.dhamma.gift (издания BJT, CST и тайско�
 
 Скачайте библиотеку текстов один раз — в Настройках или с баннера на
 главном экране. Дальше поиск и чтение работают без интернета: на сайте, в
-PWA и в приложениях. В приватном окне браузера она не работает. См.
+PWA и в приложениях. В приватном окне браузера она не работает. На сайте
+и в PWA текст, открытый один раз, открывается снова без интернета и без
+библиотеки. См.
 [Офлайн-библиотека](../tech/offline-db.md).
 
 ## Dict.Dhamma.Gift
 
 <img src="/assets/svg/dg-logo-dark.svg" alt="Логотип Dict.Dhamma.Gift" style={{float: 'left', marginRight: '15px', maxWidth: '96px'}} />
 
-Словарь палийского канона с несколькими источниками, навигация и интерфейс
-адаптированы для смартфонов и планшетов: [DPD](https://digitalpalidictionary.github.io/)
-(Digital Pāḷi Dictionary, основной), Sutta-Vinaya Definitions and Similes,
-Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library,
-словарь санскрита. Подробнее о режимах словаря — на отдельной странице
+Словарь пали по Суттам и Винае, удобный и на телефоне: для 800 ключевых
+терминов — определение из Сутт и Винаи и все строки, где оно дано, с
+переводом Dhamma.Gift; затем, в порядке страницы,
+[DPD](https://digitalpalidictionary.github.io/) (Digital Pāḷi Dictionary),
+Sutta-Vinaya Definitions and Similes (определения и сравнения из Сутт и Винаи для любого слова), Gandhari
+Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library и
+санскритские словари. Подробнее о режимах словаря — на отдельной странице
 [Словарь](/dictionary). Открыть [сайт словаря](https://dict.dhamma.gift/ru).
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
@@ -187,7 +218,7 @@ Gandhari Dictionary, PTS Dictionary, Buddhadust Glossology, Wisdom Library,
 
 ## Браузерные расширения
 
-Поиск по суттам и всплывающий пали-словарь DPD на любом сайте:
+Поиск по суттам и словарь пали по Суттам и Винае на любом сайте:
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <a href="https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd"><img src="/assets/img/buttons/chrome-cta.png" alt="Chrome Web Store" style={{maxWidth: '180px'}} /></a>
