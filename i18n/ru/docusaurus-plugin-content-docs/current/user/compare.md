@@ -1,6 +1,6 @@
 ---
 title: "Сравнение редакций Палийского канона: 6 изданий в одно нажатие"
-description: "Единственное место, где все шесть изданий Палийского канона стоят рядом, с подсветкой отличий, в одно нажатие. Любая сутта построчно: Буддха Джаянти (Шри-Ланка), Чаттха Сангаяна (Мьянма), Сиам Ратх (Таиланд), Махасангити, Махасангити 2005 и PTS, с подсветкой различий."
+description: "Единственное место, где все шесть изданий Палийского канона стоят рядом, с подсветкой отличий, в одно нажатие. Любая сутта построчно: Сиам Ратх (Таиланд), Буддха Джаянти (Шри-Ланка), Чаттха Сангаяна (Мьянма), Махасангити 2005, Махасангити и PTS, с подсветкой различий."
 keywords: [Pali Canon editions, Tipitaka comparison, BJT, VRI, Chattha Sangayana, Siam Rath, PTS, Mahasangiti, издания Палийского канона, сравнение Типитаки]
 slug: /compare
 sidebar_label: "6 изданий пали рядом"
@@ -19,18 +19,18 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 
 | Метка | Издание | Страна, исходное письмо | Тип издания | Источник |
 |---|---|---|---|---|
+| [**SR**](#siam-rath-1927-sr) | Siam Rath 1927 | Таиланд, тайское | национальное | E-Tipitaka |
 | [**BJT**](#buddha-jayanti-bjt) | Buddha Jayanti (1957-1993) | Шри-Ланка, сингальское | национальное | [Tipitaka.lk](https://tipitaka.lk) |
 | [**VRI**](#chaṭṭha-saṅgāyana-vri) | Chaṭṭha Saṅgāyana (Шестой собор, 1954-1956) | Мьянма, бирманское | национальное | [Tipitaka.org](https://tipitaka.org) |
-| [**SR**](#siam-rath-1927-sr) | Siam Rath 1927 | Таиланд, тайское | национальное | E-Tipitaka |
-| [**MS**](#mahāsaṅgīti-ms) | Mahāsaṅgīti | латиница | производное от MS05: сегменты и правки SuttaCentral | [SuttaCentral](https://suttacentral.net) |
 | [**MS05**](#mahāsaṅgīti-2005-печатная-ms05) | Mahāsaṅgīti 2005, печатная | латиница | производное: издание Шестого собора (Мьянма) латиницей | [Tipitaka2500](https://tipitaka2500.github.io) |
+| [**MS**](#mahāsaṅgīti-ms) | Mahāsaṅgīti | латиница | производное от MS05: сегменты и правки SuttaCentral | [SuttaCentral](https://suttacentral.net) |
 | [**PTS**](#pts) | Pali Text Society (1880-е и позже) | Великобритания, латиница | критическое, европейское: по рукописям Шри-Ланки, Мьянмы, Таиланда | [GRETIL](https://gretil.sub.uni-goettingen.de/) |
 
 Метка ведёт к известным проблемам издания, ниже.
 
-Порядок колонок: сначала три национальных издания — BJT, VRI, SR, — затем Mahāsaṅgīti: версия SuttaCentral (MS) и печатная (MS05), и последним PTS, критическое издание. Колонки, расставленные вами, сохраняют ваш порядок.
+Порядок колонок: сначала национальные издания, от меньшего числа поздних текстов в Khuddaka Nikāya к большему: SR, BJT, VRI. Затем Mahāsaṅgīti: печатная (MS05), потом её версия SuttaCentral (MS), и последним PTS, критическое издание. Колонки, расставленные вами, сохраняют ваш порядок.
 
-Национальных изданий три: BJT, VRI, SR. MS05 и MS производные от мьянманского, поэтому с VRI почти совпадают. Из поздних книг Khuddaka Nikāya Siam Rath не включает Milindapañha, Nettippakaraṇa и Peṭakopadesa, Buddha Jayanti включает два последних, Chaṭṭha Saṅgāyana все три.
+Национальных изданий три: SR, BJT, VRI. MS05 и MS производные от мьянманского, поэтому с VRI почти совпадают. Из поздних книг Khuddaka Nikāya Siam Rath не включает Milindapañha, Nettippakaraṇa и Peṭakopadesa, Buddha Jayanti включает два последних, Chaṭṭha Saṅgāyana все три.
 
 ## Как сравнивать
 
@@ -41,13 +41,13 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 - Издания выбираются в [Настройках](/settings) или в быстрых настройках ридера. В колонках (**Alt+C**) название
   колонки (**▾**) открывает меню, где в неё можно поставить другое издание или перевод, а **−** / **+** убирают или
   добавляют колонку.
-- Переключатель **Отличия** подсвечивает, где издание расходится с чтением показанных национальных изданий (BJT, VRI,
-  SR): решает их большинство. MS, MS05 и PTS отмечаются там, где отличаются от него, но не голосуют. Если показано одно
+- Переключатель **Отличия** подсвечивает, где издание расходится с чтением показанных национальных изданий (SR, BJT,
+  VRI): решает их большинство. MS05, MS и PTS отмечаются там, где отличаются от него, но не голосуют. Если показано одно
   национальное издание, сверка идёт по нему; если ни одного — голосуют все показанные.
 
 <img src={CompareDiff} alt="SN 56.11 в Buddha Jayanti, Chaṭṭha Saṅgāyana и Siam Rath с включёнными отличиями" style={{maxWidth: 'min(720px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
-Попробуйте: [sn56.11](https://dhamma.gift/sn56.11?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru).
+Попробуйте: [sn56.11](https://dhamma.gift/sn56.11?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru).
 
 ## Проблемы изданий и что мы сделали
 
@@ -57,8 +57,8 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 
 | | что | где |
 |---|---|---|
-| ✅ | нет Патимоккхи: показана Патимоккха Махамакута (колонка **Mahāmakuṭa**), её вступление целиком в первой строке | [pli-tv-bu-pm:1.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ✅ | Pātimokkha Mahāmakuṭa: ошибки распознавания (OCR) исправлены по правилам Vibhaṅga и VRI (`piṇghapātaṃ` → `piṇḍapātaṃ`, `paṭinissajajeyya` → `paṭinissajjeyya` …), 51 строка | [pli-tv-bu-pm:194.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
+| ✅ | нет Патимоккхи: показана Патимоккха Махамакута (колонка **Mahāmakuṭa**), её вступление целиком в первой строке | [pli-tv-bu-pm:1.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ✅ | Pātimokkha Mahāmakuṭa: ошибки распознавания (OCR) исправлены по правилам Vibhaṅga и VRI (`piṇghapātaṃ` → `piṇḍapātaṃ`, `paṭinissajajeyya` → `paṭinissajjeyya` …), 51 строка | [pli-tv-bu-pm:194.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
 
 ### Buddha Jayanti (BJT)
 
@@ -67,15 +67,15 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 | | что | где |
 |---|---|---|
 | 📨 | слова склеены кавычкой, 4 места |  |
-| ➖ | две сутты там, где в MS одна | [sn37.5:1.1](https://dhamma.gift/sn37.5?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [sn37.15:1.1](https://dhamma.gift/sn37.15?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
+| ➖ | две сутты там, где в MS одна | [sn37.5:1.1](https://dhamma.gift/sn37.5?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [sn37.15:1.1](https://dhamma.gift/sn37.15?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
 
 ### Chaṭṭha Saṅgāyana (VRI)
 
 | | что | где |
 |---|---|---|
-| ✅ | названия правил Патимоккхи и разделов склеивались с текстом | [pli-tv-bu-pm:1.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ❗ | почти вся книга в первой строке | [ya7.2.1:1.1](https://dhamma.gift/ya7.2.1?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ➖ | `uddissamānena` вместо `uddissamāne na` (в Vibhaṅga раздельно: «не слушает внимательно»); так же в MS | [pli-tv-bu-pm:138.4](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
+| ✅ | названия правил Патимоккхи и разделов склеивались с текстом | [pli-tv-bu-pm:1.1](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ❗ | почти вся книга в первой строке | [ya7.2.1:1.1](https://dhamma.gift/ya7.2.1?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ➖ | `uddissamānena` вместо `uddissamāne na` (в Vibhaṅga раздельно: «не слушает внимательно»); так же в MS | [pli-tv-bu-pm:138.4](https://dhamma.gift/pli-tv-bu-pm?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
 
 ### Mahāsaṅgīti 2005, печатная (MS05)
 
@@ -83,12 +83,12 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 
 | | что | где |
 |---|---|---|
-| ✅ | `ānāmi` → `jānāmi` (8 мест), `yoveti` → `yo vedi`, `kharapattasannitaṁ` → `kharapattasannibhaṁ` | [an1.439:1.3](https://dhamma.gift/an1.394-574?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [iti99:6.1](https://dhamma.gift/iti99?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [ja526:41.2](https://dhamma.gift/ja526?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ➖ | пропущено отрицание `na` | [mn94:3.6](https://dhamma.gift/mn94?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [pli-tv-kd2:21.1.1](https://dhamma.gift/pli-tv-kd2?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ➖ | пропущена часть фразы (`pāṇātipātaṁ pahāya`, `so rūpe` …), 9 мест | [an10.217:20.2](https://dhamma.gift/an10.217?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [sn22.149:1.7](https://dhamma.gift/sn22.149?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ➖ | лишнее слово, которого нет в других изданиях, 15 мест | [dn9:33.26](https://dhamma.gift/dn9?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [dn29:30.4](https://dhamma.gift/dn29?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ➖ | долгота гласной и написание (`dussilyaṁ`, `thinamiddha` …), 150 чтений | [an10.75:9.4](https://dhamma.gift/an10.75?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [mn10:36.6](https://dhamma.gift/mn10?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ❗ | на сайте реконструкции нет нескольких отрывков Паттханы | [patthana3.3:1.1](https://dhamma.gift/patthana3.3?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
+| ✅ | `ānāmi` → `jānāmi` (8 мест), `yoveti` → `yo vedi`, `kharapattasannitaṁ` → `kharapattasannibhaṁ` | [an1.439:1.3](https://dhamma.gift/an1.394-574?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [iti99:6.1](https://dhamma.gift/iti99?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [ja526:41.2](https://dhamma.gift/ja526?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ➖ | пропущено отрицание `na` | [mn94:3.6](https://dhamma.gift/mn94?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [pli-tv-kd2:21.1.1](https://dhamma.gift/pli-tv-kd2?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ➖ | пропущена часть фразы (`pāṇātipātaṁ pahāya`, `so rūpe` …), 9 мест | [an10.217:20.2](https://dhamma.gift/an10.217?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [sn22.149:1.7](https://dhamma.gift/sn22.149?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ➖ | лишнее слово, которого нет в других изданиях, 15 мест | [dn9:33.26](https://dhamma.gift/dn9?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [dn29:30.4](https://dhamma.gift/dn29?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ➖ | долгота гласной и написание (`dussilyaṁ`, `thinamiddha` …), 150 чтений | [an10.75:9.4](https://dhamma.gift/an10.75?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [mn10:36.6](https://dhamma.gift/mn10?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ❗ | на сайте реконструкции нет нескольких отрывков Паттханы | [patthana3.3:1.1](https://dhamma.gift/patthana3.3?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
 
 ### Mahāsaṅgīti (MS)
 
@@ -96,28 +96,28 @@ import CompareDiff from '@site/static/img/help/compare-diff.png';
 
 | | что | где |
 |---|---|---|
-| 📨 | `aparimutto` вместо `parimutto`: смысл наоборот | [sn35.19:2.9](https://dhamma.gift/sn35.19?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [sn35.20:2.2](https://dhamma.gift/sn35.20?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| 📨 | `Idha, bhikkhave` вместо `Idhāvuso` | [dn33:1.11.85](https://dhamma.gift/dn33?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| 📨 | два сегмента в обратном порядке | [sn22.7:8.2](https://dhamma.gift/sn22.7?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| 📨 | пропущено `vā`; `ammukhāvinayena` вместо `sammukhāvinayena` | [pli-tv-bu-vb-ss13:2.8](https://dhamma.gift/pli-tv-bu-vb-ss13?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [pli-tv-pvr5:122.4](https://dhamma.gift/pli-tv-pvr5?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| 📨 | английская пометка «On Display: Title of Section Only» вместо пали | [sn48.137-146:1.1](https://dhamma.gift/sn48.137-146?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [sn50.67-76:1.1](https://dhamma.gift/sn50.67-76?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| 📨 | нет изложения четырёх истин, которое есть в печати | [mn10:44.3](https://dhamma.gift/mn10?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
+| 📨 | `aparimutto` вместо `parimutto`: смысл наоборот | [sn35.19:2.9](https://dhamma.gift/sn35.19?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [sn35.20:2.2](https://dhamma.gift/sn35.20?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| 📨 | `Idha, bhikkhave` вместо `Idhāvuso` | [dn33:1.11.85](https://dhamma.gift/dn33?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| 📨 | два сегмента в обратном порядке | [sn22.7:8.2](https://dhamma.gift/sn22.7?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| 📨 | пропущено `vā`; `ammukhāvinayena` вместо `sammukhāvinayena` | [pli-tv-bu-vb-ss13:2.8](https://dhamma.gift/pli-tv-bu-vb-ss13?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [pli-tv-pvr5:122.4](https://dhamma.gift/pli-tv-pvr5?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| 📨 | английская пометка «On Display: Title of Section Only» вместо пали | [sn48.137-146:1.1](https://dhamma.gift/sn48.137-146?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [sn50.67-76:1.1](https://dhamma.gift/sn50.67-76?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| 📨 | нет изложения четырёх истин, которое есть в печати | [mn10:44.3](https://dhamma.gift/mn10?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
 
 ### PTS
 
 | | что | где |
 |---|---|---|
-| ✅ | начало фразы было оторвано перед пропущенным отрывком, 38 мест | [dn22:18.27](https://dhamma.gift/dn22?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ❗ | три воззрения изложены почти одинаковыми формулами: блок второго стоит на месте первого | [mn60:7.1](https://dhamma.gift/mn60?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
+| ✅ | начало фразы было оторвано перед пропущенным отрывком, 38 мест | [dn22:18.27](https://dhamma.gift/dn22?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ❗ | три воззрения изложены почти одинаковыми формулами: блок второго стоит на месте первого | [mn60:7.1](https://dhamma.gift/mn60?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
 | ➖ | нет строк-концовок и заголовков; Джатака только стихи; нет Нетти и Петакопадесы |  |
 
 ### Все издания
 
 | | что | где |
 |---|---|---|
-| ✅ | строки не на месте возвращены на свои: 577 строк в 73 текстах, ещё 185 строк в 19 текстах, где повторённый абзац сдвигал выравнивание | [sn35.229:1.1](https://dhamma.gift/sn35.229?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [an4.102:3.2](https://dhamma.gift/an4.102?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ✅ | цепочка заголовков, напечатанная одной строкой, разнесена по строкам MS: 3079 строк в 96 текстах (Chaṭṭha Saṅgāyana, Mahāsaṅgīti 2005; Paṭṭhāna, Yamaka) | [patthana3.1:114.0.1](https://dhamma.gift/patthana3.1?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [ya2.2.1:1.0.1](https://dhamma.gift/ya2.2.1?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
-| ✅ | закрывающее цитату ti, которое PTS печатает отдельным словом, возвращено в свою строку: 3026 строк в 1570 текстах (PTS, Buddha Jayanti) | [an1.5:1.2](https://dhamma.gift/an1.5?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru), [sn34.50:1.8](https://dhamma.gift/sn34.50?mode=multi&editions=bjt,my,th,ms,mso,pts&diff=1&lang=ru) |
+| ✅ | строки не на месте возвращены на свои: 577 строк в 73 текстах, ещё 185 строк в 19 текстах, где повторённый абзац сдвигал выравнивание | [sn35.229:1.1](https://dhamma.gift/sn35.229?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [an4.102:3.2](https://dhamma.gift/an4.102?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ✅ | цепочка заголовков, напечатанная одной строкой, разнесена по строкам MS: 3079 строк в 96 текстах (Chaṭṭha Saṅgāyana, Mahāsaṅgīti 2005; Paṭṭhāna, Yamaka) | [patthana3.1:114.0.1](https://dhamma.gift/patthana3.1?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [ya2.2.1:1.0.1](https://dhamma.gift/ya2.2.1?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
+| ✅ | закрывающее цитату ti, которое PTS печатает отдельным словом, возвращено в свою строку: 3026 строк в 1570 текстах (PTS, Buddha Jayanti) | [an1.5:1.2](https://dhamma.gift/an1.5?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru), [sn34.50:1.8](https://dhamma.gift/sn34.50?mode=multi&editions=th,bjt,my,mso,ms,pts&diff=1&lang=ru) |
 | ❗ | осталось 1160 мест, где слово стоит не в своей строке (ещё 777 мест издание печатает отрывок дважды, это не ошибка); разбираем по плану, 2 прохода в неделю |  |
 
 Подробнее, со всеми местами: [editions-problems.md](https://github.com/dhammagift/offline-data/blob/main/dhammagift/root/build/compare/editions-problems.md).
