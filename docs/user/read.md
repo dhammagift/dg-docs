@@ -16,7 +16,9 @@ import ReaderQuickSettingsDict from '@site/static/img/help/reader-quick-settings
 <img src={ReaderLogo} className="dg-page-logo" alt="Dhamma.Gift logo: a conch shell over an open book" style={{width: 124}} />
 
 Open any sutta directly by its id (`dn22`, `mn139`, `sn56.11`, `an4.180`) —
-no search needed. Try it live below (this is the real reader, not a demo
+no search needed. The Pali comes line by line with its translations, Thanissaro
+Bhikkhu's English among them, and in six editions of the Canon with the
+differences highlighted in one click ([Compare](/compare)). Try it live below (this is the real reader, not a demo
 clone — click around, switch modes, change the font):
 
 <AppFrame src="/dn22?lang=en" title="Live reader — DN 22" height={700} />
@@ -202,7 +204,6 @@ has small plates with the Pali editions it gives:
 - **Digital Pali Reader** — **VRI SIAM**, Burmese and Thai editions.
 - **Tipitaka.lk** — **BJT**, the Buddha Jayanti Tipiṭaka.
 - **SuttaCentral** — **MS**.
-- **The Buddha's Words** — **MS**.
 - **Theravada.ru**, **Theravada.su** — Russian interface only (Theravada.su
   for the Dīgha Nikāya, the one collection complete there).
 
