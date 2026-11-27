@@ -107,7 +107,7 @@ functionality:
   Uposatha list (`/uposatha reset` forgets the city). Our server looks a city
   name up in the Open-Meteo geocoding service (geocoding-api.open-meteo.com),
   without your ID. Inline queries are written to the bot's log together with
-  the user ID.
+  the user ID; the log is kept for 30 days, then deleted.
 - **Technical logs** — standard request metadata (IP address, User-Agent)
   is collected by web servers for security purposes and DDoS protection.
 
