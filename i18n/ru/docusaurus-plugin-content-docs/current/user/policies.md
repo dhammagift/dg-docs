@@ -35,8 +35,8 @@ import SiteLink from '@site/src/components/SiteLink';
 - [Расширение для Chrome](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
 - [Расширение для Firefox](https://addons.mozilla.org/en-US/firefox/addon/dhamma-gift/)
 - [Расширение для Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/dhammagift-search-and-wo/aokegkhdaijkikbdocanadeghllhfmhj)
-- Расширение для Safari на macOS (App Store: «Dict.Dhamma.Gift Extension»).
-  Приложение, которое его устанавливает, только открывает настройки Safari и
+- Расширение для Safari на macOS (App Store: «Dict.Dhamma.Gift Extension»,
+  ещё не опубликовано). Приложение, которое его устанавливает, только открывает настройки Safari и
   ничего не собирает.
 
 ### Облачная синхронизация (опционально)

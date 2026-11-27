@@ -39,8 +39,8 @@ Aksharamukha и DharmaMitra. Включается и выключается кл
 Отдельной страницы в каталоге Opera нет: в Opera расширение ставится из
 Chrome Web Store (кнопка Opera выше ведёт туда).
 
-Скрипт для Tampermonkey (подходит и для Safari — там расширений нет, но
-скрипт работает так же): [инструкция по установке](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md).
+Скрипт для Tampermonkey (подходит и для Safari: наше расширение для Safari на
+macOS ещё не опубликовано): [инструкция по установке](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md).
 Плагин всплывающего словаря можно встроить на любой сайт — [описание здесь](https://github.com/dhammagift/dictPlugin?tab=readme-ov-file#dictplugin).
 
 <ExtensionMock />

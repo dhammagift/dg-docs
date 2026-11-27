@@ -35,7 +35,7 @@ The apps work online and offline. Throughout this policy an iOS app behaves exac
 - [Chrome Extension](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
 - [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/dhamma-gift/)
 - [Microsoft Edge Add-on](https://microsoftedge.microsoft.com/addons/detail/dhammagift-search-and-wo/aokegkhdaijkikbdocanadeghllhfmhj)
-- Safari Extension for macOS (App Store: "Dict.Dhamma.Gift Extension"). The
+- Safari Extension for macOS (App Store: "Dict.Dhamma.Gift Extension", not published yet). The
   app that installs it only opens Safari's settings; it collects nothing.
 
 ### Cloud Synchronization (Optional)

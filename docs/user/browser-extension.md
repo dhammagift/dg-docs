@@ -41,8 +41,8 @@ settings.
 Opera has no listing of its own: install the extension from the Chrome
 Web Store (the Opera button above leads there).
 
-Tampermonkey script (also works on Safari, which has no extensions of its
-own): [installation instructions](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md).
+Tampermonkey script (also works on Safari: our Safari extension for macOS is
+not published yet): [installation instructions](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md).
 The pop-up dictionary plugin can be embedded on any website — [details here](https://github.com/dhammagift/dictPlugin?tab=readme-ov-file#dictplugin).
 
 <ExtensionMock />
