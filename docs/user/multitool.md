@@ -36,7 +36,8 @@ Some of what the tiles hold:
 - **Materials** — **Hatthipada** (how the suttas define every word of the
   four noble truths), **Declensions** (a declension trainer) and
   **Patimokkha** (a Patimokkha trainer).
-- **Tools** — **Old.Dhamma.Gift** (the previous version of the site),
+- **Tools** — the **Uposatha days** calendar by the Suttas,
+  **Old.Dhamma.Gift** (the previous version of the site),
   **Sutta Difference** (compare two suttas), **List Difference**, **Line
   to List**, **Blurbs** (build a JSON of sutta summaries), and the **Loop
   Timer**, **Repeat timer #2** and **Pomodoro** timers.

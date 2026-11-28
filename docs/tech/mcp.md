@@ -25,6 +25,9 @@ as the site.
 | `compare_translations` | One segment (e.g. `mn129:21.3`) in the Pali, every edition and every available translation side by side. |
 | `list_structure` | What exists: collections, books with sutta counts, translation languages and translators; with a prefix (`mn`, `sn56`) the list of suttas under it. |
 
+`get_text`, `compare_editions` and `compare_translations` also return `compare_link`: the text in the reader's
+Compare view, every edition beside the translation (e.g. `https://dhamma.gift/sn56.11?mode=multi`).
+
 ## Connecting
 
 - **Claude (claude.ai / Desktop):** Settings → Connectors → Add custom connector → URL `https://api.dhamma.gift/mcp`.

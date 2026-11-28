@@ -84,7 +84,8 @@ pauses at most 180. One such request counts as ten against the per-minute limit.
 
 - The service code and the Pāḷi rules: [github.com/dhammagift/pali-tts](https://github.com/dhammagift/pali-tts).
 - `pratham`: weights MIT ([rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)),
-  recordings AI4Bharat IndicVoices (CC BY 4.0).
+  trained by PravalX on AI4Bharat data under CC BY-NC-SA 4.0 ([model card](https://huggingface.co/rhasspy/piper-voices/blob/main/hi/hi_IN/pratham/medium/MODEL_CARD)): non-commercial use only,
+  with attribution.
 - `dg`, `dgru`, `dgen`: all rights reserved; only on the Dhamma.Gift website and apps, anything else
   with prior written permission (see Terms of use above).
 - `priyamvada`, `alan`, `kathleen`, `irina`: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),

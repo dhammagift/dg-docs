@@ -83,8 +83,9 @@ new Audio('data:audio/mp3;base64,' + (await r.json()).audioContent).play();
 ## Лицензии
 
 - Код сервиса и правила пали: [github.com/dhammagift/pali-tts](https://github.com/dhammagift/pali-tts).
-- `pratham`: веса MIT ([rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)), записи
-  AI4Bharat IndicVoices (CC BY 4.0).
+- `pratham`: веса MIT ([rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)), обучен
+  PravalX на данных AI4Bharat под CC BY-NC-SA 4.0 ([карточка модели](https://huggingface.co/rhasspy/piper-voices/blob/main/hi/hi_IN/pratham/medium/MODEL_CARD)): только некоммерчески,
+  с указанием авторства.
 - `dg`, `dgru`, `dgen`: все права защищены; только на сайте и в приложениях Dhamma.Gift, остальное — с
   предварительного письменного разрешения (см. «Условия использования» выше).
 - `priyamvada`, `alan`, `kathleen`, `irina`: [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices),

@@ -35,7 +35,7 @@ The apps work online and offline. Throughout this policy an iOS app behaves exac
 - [Chrome Extension](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
 - [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/dhamma-gift/)
 - [Microsoft Edge Add-on](https://microsoftedge.microsoft.com/addons/detail/dhammagift-search-and-wo/aokegkhdaijkikbdocanadeghllhfmhj)
-- Safari Extension for macOS (App Store: "Dict.Dhamma.Gift Extension"). The
+- Safari Extension for macOS (App Store: "Dict.Dhamma.Gift Extension", not published yet). The
   app that installs it only opens Safari's settings; it collects nothing.
 
 ### Cloud Synchronization (Optional)
@@ -107,7 +107,7 @@ functionality:
   Uposatha list (`/uposatha reset` forgets the city). Our server looks a city
   name up in the Open-Meteo geocoding service (geocoding-api.open-meteo.com),
   without your ID. Inline queries are written to the bot's log together with
-  the user ID.
+  the user ID; the log is kept for 30 days, then deleted.
 - **Technical logs** — standard request metadata (IP address, User-Agent)
   is collected by web servers for security purposes and DDoS protection.
 
@@ -273,8 +273,7 @@ them:
   [dhammatalks.org](https://www.dhammatalks.org/);
 - Russian translations by **A. Ya. Syrkin**, **V. N. Toporov** and the other
   translators credited on each text;
-- edited versions of those Russian translations, prepared by the project;
-- materials from **[TheBuddhasWords.net](https://thebuddhaswords.net/)**.
+- edited versions of those Russian translations, prepared by the project.
 
 Thai translations by **Mahachula** and **Siam Rath** (from
 [E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc), which states no

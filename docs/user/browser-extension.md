@@ -18,18 +18,23 @@ dictionary entry right there, without leaving the page.
 In the extension's settings, pick where the result opens: Side Panel (the
 default; in Firefox the default is Popup, and Side Panel opens a window while
 the sidebar is closed), New Window, Popup, Dharmamitra (New Window),
-GoldenDict-NG, DictTango App (Android), MDict (macOS) or a Custom URL (an
-https address). The default language is set there too
-(English or Русский).
+GoldenDict-NG, MDict (macOS) or a Custom URL (an https address). The
+default language is set there too (English or Русский).
 
 Right-click a selected phrase for either a Dhamma.gift text search or a
 full grammar breakdown via DharmaMitra. Right-click the extension's icon in
 the toolbar for quick links to Dhamma.gift, Dict.Dhamma.Gift, Aksharamukha
-and DharmaMitra. Toggle the extension on/off by clicking its icon or with a
-keyboard shortcut: `Ctrl+Shift+X` by default (on a Mac it is
-`Control+Shift+X`). In Firefox, `Ctrl+Shift+Y` (`Cmd+Shift+Y` on a
-Mac) opens the sidebar. Shortcuts can be changed in your browser's
-settings.
+and DharmaMitra. Toggle the extension on/off by clicking its icon or with
+`Alt+Shift+X` (`Option+Shift+X` on a Mac). To look up a selected word,
+press `Alt+Shift+Z`, or copy it twice quickly: `Ctrl+C+C` (`⌘C C` on a
+Mac); a checkbox in the settings turns the double copy off. In Firefox,
+`Ctrl+Shift+Y` (`Cmd+Shift+Y` on a Mac) opens the sidebar. Shortcuts can
+be changed in your browser's settings (**Change shortcuts** in the
+extension's settings leads there).
+
+Firefox Add-ons still has the earlier version 0.6.1. There Side Panel is
+the default, the toggle is `Ctrl+Shift+X`, the list also has Compact and
+DictTango App, and there is no `Alt+Shift+Z` or `Ctrl+C+C`.
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <a href="https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd"><img src="/assets/img/buttons/chrome-cta.png" alt="Chrome Web Store" style={{maxWidth: '180px'}} /></a>
@@ -41,8 +46,8 @@ settings.
 Opera has no listing of its own: install the extension from the Chrome
 Web Store (the Opera button above leads there).
 
-Tampermonkey script (also works on Safari, which has no extensions of its
-own): [installation instructions](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md).
+Tampermonkey script (also works on Safari: our Safari extension for macOS is
+not published yet): [installation instructions](https://github.com/dhammagift/dictPlugin/blob/main/ExtentionMethod.md).
 The pop-up dictionary plugin can be embedded on any website — [details here](https://github.com/dhammagift/dictPlugin?tab=readme-ov-file#dictplugin).
 
 <ExtensionMock />

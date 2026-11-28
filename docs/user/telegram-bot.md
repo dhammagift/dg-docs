@@ -67,10 +67,11 @@ and, under the message, the buttons.
 
 <img src={MessageSutta} alt="The sent message: sn56.11 with the links Dhamma.gift and Dictionary, and the buttons Lang En/Ru, Dictionary, Read at Dhamma.gift En" style={{maxWidth: '100%', borderRadius: 10}} />
 
-- `🔎 Dhamma.gift` — the word or the text in the site's search;
+- `🔎 Dhamma.gift` in the message and the `Read at 🔎 Dhamma.gift En` button
+  lead to the same place: a text number (`sn56.11`) opens the text itself in
+  the reader, a word opens the site's search;
 - `📘 Dictionary` — the word in the dictionaries (`dict.dhamma.gift`); its short
-  meaning from the mini dictionary is already in the message, above the links;
-- `Read at 🔎 Dhamma.gift En` — the text itself, in the reader.
+  meaning from the mini dictionary is already in the message, above the links.
 
 An extra word does not break the link: `mn10 metta` still opens `mn10`.
 

@@ -47,7 +47,9 @@ and in their similes.
   Vinaya where it stands (*Katamañca, bhikkhave, dukkhaṁ? …* — DN 22, MN 9,
   MN 141 and six more for *dukkha*), with the Dhamma.Gift rendering in
   English and Russian. Special definitions, given for one context
-  (*ariyassa vinaye*), are marked. Inflected
+  (*ariyassa vinaye*), are marked. Where the Suttas call something else by the
+  word (*adhivacana*), that is shown too: *dukkha* → *kāma* desire, from
+  *‘dukkhan’ti, bhikkhave, kāmānametaṁ adhivacanaṁ* (AN 6.23:1.2, AN 8.56:1.2). Inflected
   forms find the term too: *dukkhassa*, *dukkhena*, *dukkhato*.
 - **Then, in the order the word page shows them:** DPD (Digital Pāḷi
   Dictionary); Sutta-Vinaya Definitions and Similes — for any word, the places
@@ -81,7 +83,9 @@ Android, Mdict iOS, GoldenDict-NG Desktop). **Alt+B** switches the mode.
 For a key term of the project's [glossary](/glossary), the popup's first line,
 marked **(DG)**, gives the Dhamma.Gift rendering and, after *def.*, every sutta
 where the Suttas or the Vinaya define the word; a special definition (one they give for
-a particular context) shows that Pali phrase in italics instead of *def.*
+a particular context) shows that Pali phrase in italics instead of *def.* A
+second line, *adhivacana* →, names what the Suttas call by this word, with
+those suttas.
 
 The **built-in DPD** mode works fully offline: the definitions from the Suttas and the Vinaya and DPD's
 short meanings load once (as a script, in English or Russian) and every lookup
@@ -134,7 +138,7 @@ and it works offline there. Add a word to the address to open its page:
 
 ### The word page
 
-<img src={DictWordPage} alt="The page for dukkha: history on the left, buttons next to the word, the Dhamma.Gift rendering with the suttas that define it, the DPD entry" style={{maxWidth: '100%', display: 'block', margin: '0 auto 1.5rem'}} />
+<img src={DictWordPage} alt="The page for dukkha: history on the left, buttons next to the word, the Dhamma.Gift rendering with the suttas that define it and the adhivacana line, the DPD entry" style={{maxWidth: '100%', display: 'block', margin: '0 auto 1.5rem'}} />
 
 - **On the left** — favorite and recent words. The clock button in the header
   hides and shows this column; on a phone it opens the list.
@@ -143,7 +147,8 @@ and it works offline there. Add a word to the address to open its page:
 - **Under the word** — how many texts and matches Dhamma.Gift search finds
   for it, and **"Open on Dhamma.Gift"**, which runs that search (Alt+3 does
   the same). For a key term of the glossary, the Dhamma.Gift rendering and
-  **Defined in:** — every sutta where the word is defined.
+  **Defined in:** — every sutta where the word is defined; where the Suttas
+  call something else by the word, an *adhivacana* → line with those suttas.
 - Double-clicking any word inside an entry also searches for it.
 - The dictionary blocks can be moved up and down (↑/↓). In the Sanskrit
   block, +/− expands or collapses all its dictionaries.

@@ -35,8 +35,8 @@ import SiteLink from '@site/src/components/SiteLink';
 - [Расширение для Chrome](https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd)
 - [Расширение для Firefox](https://addons.mozilla.org/en-US/firefox/addon/dhamma-gift/)
 - [Расширение для Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/dhammagift-search-and-wo/aokegkhdaijkikbdocanadeghllhfmhj)
-- Расширение для Safari на macOS (App Store: «Dict.Dhamma.Gift Extension»).
-  Приложение, которое его устанавливает, только открывает настройки Safari и
+- Расширение для Safari на macOS (App Store: «Dict.Dhamma.Gift Extension»,
+  ещё не опубликовано). Приложение, которое его устанавливает, только открывает настройки Safari и
   ничего не собирает.
 
 ### Облачная синхронизация (опционально)
@@ -108,7 +108,7 @@ Dhamma.gift **только по желанию пользователя** для
   Упосатхи (`/uposatha reset` забывает город). Название города наш сервер
   ищет в сервисе геокодирования Open-Meteo (geocoding-api.open-meteo.com),
   без вашего ID. Inline-запросы записываются в журнал бота вместе с ID
-  пользователя.
+  пользователя; журнал хранится 30 дней, затем удаляется.
 - **Технические данные** — базовая метаинформация запросов (IP-адрес,
   User-Agent), собираемая веб-серверами для защиты от атак.
 
@@ -276,8 +276,7 @@ Dhamma.gift использует
   [dhammatalks.org](https://www.dhammatalks.org/);
 - русские переводы **А. Я. Сыркина**, **В. Н. Топорова** и других
   переводчиков, указанных при каждом тексте;
-- отредактированные проектом версии этих русских переводов;
-- материалы **[TheBuddhasWords.net](https://thebuddhaswords.net/)**.
+- отредактированные проектом версии этих русских переводов.
 
 Тайские переводы **Mahachula** и **Siam Rath** (из
 [E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc), где лицензия не указана)
