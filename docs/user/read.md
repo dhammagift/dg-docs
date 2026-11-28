@@ -199,9 +199,9 @@ All hotkeys are listed on [Keyboard shortcuts](/hotkeys).
 to the previous and next text) opens the same passage on other sites. Each site
 has small plates with the Pali editions it gives:
 
-- **4NT** (s.4nt.org) — **SIAM BJT VRI MS** side by side (in the reader
+- **4NT** (s.4nt.org) — **SR BJT VRI MS** side by side (in the reader
   itself: [Compare](/compare)).
-- **Digital Pali Reader** — **SIAM VRI**, Thai and Burmese editions.
+- **Digital Pali Reader** — **SR VRI**, Thai and Burmese editions.
 - **Tipitaka.lk** — **BJT**, the Buddha Jayanti Tipiṭaka.
 - **SuttaCentral** — **MS**.
 - **Theravada.ru**, **Theravada.su** — Russian interface only (Theravada.su
