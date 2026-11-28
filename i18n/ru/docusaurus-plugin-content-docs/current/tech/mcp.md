@@ -24,6 +24,9 @@ ChatGPT, Cursor и другие) сам ищет по Палийскому ка�
 | `compare_translations` | Один сегмент (например `mn129:21.3`) на пали, во всех изданиях и во всех доступных переводах рядом. |
 | `list_structure` | Что есть: коллекции, книги с числом сутт, языки и переводчики; с префиксом (`mn`, `sn56`) — список сутт под ним. |
 
+`get_text`, `compare_editions` и `compare_translations` возвращают ещё и `compare_link`: текст в режиме
+сравнения ридера, все издания рядом с переводом (например, `https://dhamma.gift/sn56.11?mode=multi`).
+
 ## Подключение
 
 - **Claude (claude.ai / Desktop):** Settings → Connectors → Add custom connector → URL `https://api.dhamma.gift/mcp`.

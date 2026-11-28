@@ -276,8 +276,7 @@ Dhamma.gift использует
   [dhammatalks.org](https://www.dhammatalks.org/);
 - русские переводы **А. Я. Сыркина**, **В. Н. Топорова** и других
   переводчиков, указанных при каждом тексте;
-- отредактированные проектом версии этих русских переводов;
-- материалы **[TheBuddhasWords.net](https://thebuddhaswords.net/)**.
+- отредактированные проектом версии этих русских переводов.
 
 Тайские переводы **Mahachula** и **Siam Rath** (из
 [E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc), где лицензия не указана)

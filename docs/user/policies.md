@@ -273,8 +273,7 @@ them:
   [dhammatalks.org](https://www.dhammatalks.org/);
 - Russian translations by **A. Ya. Syrkin**, **V. N. Toporov** and the other
   translators credited on each text;
-- edited versions of those Russian translations, prepared by the project;
-- materials from **[TheBuddhasWords.net](https://thebuddhaswords.net/)**.
+- edited versions of those Russian translations, prepared by the project.
 
 Thai translations by **Mahachula** and **Siam Rath** (from
 [E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc), which states no

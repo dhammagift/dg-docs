@@ -14,7 +14,8 @@ Fast access to favorites, history, key suttas, and memorization — from
 
 :::tip[How to open it]
 The compass icon (in the reader's toolbar, in the row of icons under a text,
-at the top of the home page), or the **Alt+P**
+at the top of the home page on a wide screen), the **Favorites, history,
+subscriptions** tile on the home screen, or the **Alt+P**
 (or **Alt+Y** — both work regardless of your keyboard layout) shortcut.
 :::
 
@@ -51,19 +52,20 @@ tab instead of replacing the current page.
   :::
 
 - **Subscriptions** — "a text a day". Subscribe to a collection (for
-  example MN), to a search, or to random texts from the parts of the
+  example MN), to a search (also with the bell on the search results page), or to random texts from the parts of the
   canon you choose, and get one text a day: in order, by match count (for
   a search) or at random. The reminder comes once a day when the browser
-  or the app opens, or on a schedule (schedules work in the app). For
+  or the app opens, or on a schedule (schedules work in the app: times of
+  day, every day, weekdays, the Uposatha days or days you pick). For
   each subscription you can open the next text, pause it or edit it. If
   you are signed in, subscriptions and read marks sync to the Cloud.
 - **4AS** — a curated set of key suttas for studying the Four
   Noble Truths, in six thematic groups: the Four Noble Truths (SN 56.11,
-  DN 22, SN 12.2), the five aggregates of clinging / khandha (SN 22.56,
+  DN 22, SN 12.2), the five khandhas (SN 22.56,
   22.79, 22.85, all of SN 22), the six sense bases / āyatana (SN 35.228,
   229, 236, 238, all of SN 35), elements / dhātu (MN 28, MN 115, MN 140,
-  all of SN 14), "delighting in what leads to suffering" (SN 14.35,
-  22.29, 35.19, 35.20), and an "Extra" set of eight more suttas on
+  all of SN 14), "Dukkhaṁ so abhinandati" — "one delights in pain"
+  (SN 14.35:1.2; SN 14.35, 22.29, 35.19, 35.20), and an "Extra" set of eight more suttas on
   related topics. The tab ends with the **"In depth: Hatthipada"** card:
   [Hatthipada](https://dhamma.gift/hatthipada/) shows how the suttas
   define every word of the four truths.

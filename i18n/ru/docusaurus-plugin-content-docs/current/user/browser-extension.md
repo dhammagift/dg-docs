@@ -18,16 +18,24 @@ import ExtensionMock from '@site/src/components/ExtensionMock';
 В настройках расширения выбирается, где открывать результат: Side Panel
 (боковая панель, по умолчанию; в Firefox по умолчанию Popup, а Side Panel,
 пока боковая панель закрыта, открывается окном), New Window, Popup, Dharmamitra
-(New Window), GoldenDict-NG, DictTango App (Android), MDict (macOS) или свой
-адрес (Custom URL, только https). Там
+(New Window), GoldenDict-NG, MDict (macOS) или свой адрес (Custom URL,
+только https). Там
 же задаётся язык по умолчанию: English или Русский.
 
 Правый клик по выделенной фразе — поиск по текстам Dhamma.gift или полный
 грамматический разбор через DharmaMitra. Правый клик по значку расширения на
 панели браузера открывает быстрые ссылки на Dhamma.gift, Dict.Dhamma.Gift,
 Aksharamukha и DharmaMitra. Включается и выключается кликом по значку или
-сочетанием клавиш: по умолчанию `Ctrl+Shift+X` (на Mac — `Control+Shift+X`). В Firefox `Ctrl+Shift+Y` (`Cmd+Shift+Y` на Mac)
-открывает боковую панель. Сочетания можно поменять в настройках браузера.
+сочетанием `Alt+Shift+X` (на Mac — `Option+Shift+X`). Чтобы найти
+выделенное слово, нажмите `Alt+Shift+Z` или быстро скопируйте его дважды:
+`Ctrl+C+C` (на Mac — `⌘C C`); двойное копирование отключается галочкой в
+настройках. В Firefox `Ctrl+Shift+Y` (`Cmd+Shift+Y` на Mac) открывает
+боковую панель. Сочетания можно поменять в настройках браузера (туда ведёт
+**Change shortcuts** в настройках расширения).
+
+В Firefox Add-ons пока прежняя версия 0.6.1. Там по умолчанию Side Panel,
+включение — `Ctrl+Shift+X`, в списке есть ещё Compact и DictTango App, а
+`Alt+Shift+Z` и `Ctrl+C+C` нет.
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center', margin: '1rem 0'}}>
   <a href="https://chromewebstore.google.com/detail/dhammagift-search-and-wor/dnnogjdcmhbiobpnkhdbfnfjnjlikabd"><img src="/assets/img/buttons/chrome-cta.png" alt="Chrome Web Store" style={{maxWidth: '180px'}} /></a>

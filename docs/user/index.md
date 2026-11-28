@@ -99,8 +99,8 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
 - **Keyboard shortcuts** for fast navigation. See
   [Keyboard shortcuts](/hotkeys).
 - **External links** — the menu above the text (and again at its end)
-  opens the same passage on S.Dhamma.Gift, Digital Pali Reader,
-  Tipitaka.lk, SuttaCentral and other sites.
+  opens the same passage on 4NT (s.4nt.org), Digital Pali Reader,
+  Tipitaka.lk, SuttaCentral and The Buddha's Words.
 
 <div style={{clear: 'both'}} />
 
@@ -149,7 +149,7 @@ build audio meditations:
 
 ## More tools
 
-- **Listen in MP3** — under many texts, MP3 files of the whole text: the
+- **MP3: Pali · English** — under many texts, MP3 files of the whole text: the
   Pali and the translation.
 - **Export** — save a text or search results as PDF or Markdown.
 - **Subscriptions** — a text a day from a collection or a search, with
@@ -161,8 +161,8 @@ build audio meditations:
 
 ## Offline library
 
-Download the text library once, from Settings or from the banner on the
-home screen. Then search and reading work without internet: on the site,
+Download the text library once, in Settings (**Offline library** →
+**Choose…**); the app offers it at first launch. Then search and reading work without internet: on the site,
 in the PWA and in the apps. It does not work in a private browser window.
 On the site and in the PWA, a text you have opened once also opens again
 offline, without the library.

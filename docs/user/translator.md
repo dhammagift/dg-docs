@@ -40,8 +40,9 @@ the file and says “Sign in with Google first.”).
 - **Open file / Load from server** — open a previously saved draft.
 - **Save** — download the translation as JSON and, for a signed-in translator, save it on the server.
 
-In the top bar, the **Diff Checker** icon opens an external tool for
-comparing text versions.
+In the top bar: **?** opens the instructions, with a video tutorial;
+**ru** switches to the Russian editor; the **Diff Checker** icon opens an
+external tool for comparing text versions.
 
 ## Two input modes
 

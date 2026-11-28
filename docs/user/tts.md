@@ -48,9 +48,11 @@ highlighted.
 
 ## Voices: three kinds
 
-In **⚙ → Voice settings** you choose the voice separately for Pāḷi and for
-the translation, in three steps: kind → language → voice. The ▶ next to a
-voice plays a short sample (DG voices).
+**⚙ → Voice settings** has two rows, **Pāḷi** and **Translation**: tap a
+row, pick the kind (**DG Voice**, **Google Cloud** or **System**), then the
+voice; for Google, first its language. The ▶ next to a row plays a short
+sample (DG voices). ↺ brings back the default voices; downloaded voices stay.
+On the first play a tip lists the three kinds; × hides it.
 
 :::tip[The first neural voices that speak Pāḷi]
 DG Voice are the first neural voices that read Pāḷi as plain speech, not chant: with Pāḷi's long and
@@ -120,7 +122,7 @@ Devanagari with our own fixes. They work with a built-in trial key; for
 regular use enter **your own Google API key** (see below), whose free
 monthly quota is generous for personal use.
 
-### Built-in — your device's voices, work offline
+### System — your device's voices, work offline
 
 Uses the speech synthesis of your system or browser: no internet needed,
 nothing is sent anywhere. There is no Pāḷi voice in any system, so install
@@ -140,7 +142,7 @@ English is used as a fallback.
   voices: [Microsoft help](https://support.microsoft.com/en-us/windows/appendix-a-supported-languages-and-voices-4486e345-7730-53da-fcfe-55cc64300f01).
 
 After installing a voice, reload the page and pick it in **Voice settings
-→ Built-in**.
+→ System**.
 
 ## A-B loop — repeat a passage for memorization
 
@@ -200,15 +202,17 @@ regardless of autoscroll.
 Only for the Google voices, when the trial key isn't enough. Create a project in Google Cloud,
 enable the **Text-to-Speech API** and create an API key
 ([how to start](https://cloud.google.com/text-to-speech/docs/before-you-begin));
-paste it in **Voice settings → Google API Key**. Free monthly limits and
+once a Google voice is chosen, **Voice settings** shows a key field under the
+two rows: paste it there. Free monthly limits and
 prices: [Google Cloud pricing](https://cloud.google.com/text-to-speech/pricing).
 By default translations use the cheaper Standard voices, Pāḷi a premium one.
 
 ## Whole texts in MP3
 
-For some texts, a **Listen in MP3** line under the text gives the whole
-sutta as one file, in Pāḷi and in the translation, read by the DG voices,
-with the translator named. The Vinaya's two Vibhaṅgas have audio as well:
+For some texts, an **MP3:** line under the text (for example **MP3: Pali ·
+English**) gives the whole sutta as one file, in Pāḷi and in the
+translation, read by the DG voices; hover the translation link to see the
+translator. The Vinaya's two Vibhaṅgas have audio as well:
 Pāḷi for 347 rules and Russian for 34.
 
 ## MP3 for the Memo page

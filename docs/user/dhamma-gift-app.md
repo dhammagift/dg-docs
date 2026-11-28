@@ -26,11 +26,15 @@ account needed.
 
 Download the library once and everything works in airplane mode: search,
 the table of contents, the texts with their translations, and the
-dictionary. Voices can be downloaded too, so reading
-aloud also works offline ([Voice](/tts)). The download keeps going in the
-background and with the screen locked. Until then the app works online,
-exactly like the site. The library can be deleted any time: Settings →
-Offline library.
+dictionary. You choose what goes on the device: Settings → Offline library
+→ **Choose…**. The Mahāsaṅgīti is required (it holds the contents and
+search); the other Pali editions and the translation languages are up to
+you, and the texts you leave out open online. Voices can be downloaded too,
+so reading aloud also works offline ([Voice](/tts)). The download keeps
+going in the background and with the screen locked. Until then the app
+works online, exactly like the site. When the library has new files, the
+**Offline library update** bar offers **Update**. **Change…** in the same row
+changes the choice or deletes the library (**Remove all**) any time.
 
 ## Search and reader
 

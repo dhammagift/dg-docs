@@ -83,6 +83,8 @@ rule's class and name to test yourself. **Next** shows another rule, and
 - **Translation** — read the translation instead of / alongside Pali.
 - **Auto-cursor** — when playback stops, puts the cursor at the end of the
   current line.
+- The trash icon in the panel's corner (**Reset settings**) brings these
+  back to the defaults and puts back the default text; it asks first.
 
 A finished session can be downloaded as an MP3 (**Download MP3**, the
 download icon) — say, to listen offline or outside the browser.

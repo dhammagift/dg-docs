@@ -15,11 +15,14 @@ The real, live Settings page — nothing to click or search for here:
 
 <AppFrame src="/settings/" title="Live Settings page" height={700} />
 
+At the top, **Preview** shows a short passage with your current settings and changes with them. Its
+text link opens the passage in the reader, ⟳ refreshes the preview, ︿ folds it.
+
 ## Quick Settings — a lighter panel right next to search
 
 Besides this full page, there's a second, lighter panel — **Quick
-Settings**, the sliders icon next to the search box (the ⚙︎ icon left of
-the magnifying glass), also reachable with **Alt+S**. It doesn't
+Settings**, the sliders icon in the search box, left of the magnifying
+glass, also reachable with **Alt+S**. It doesn't
 duplicate the settings page — it gives
 fast access to whatever's most relevant right where you're already
 working: on the home screen, in search results, or in the reader,
@@ -32,12 +35,14 @@ where you are — here are all of them, together:
   toggles as "Default search scope" below on this page, but this one
   only changes the scope for the current query. Under it, **With variant
   readings** — the same as "Search with variant readings" below.
-- **Dictionary** — which dictionary mode to use (see [Dictionary](/dictionary)).
+- **Dictionary** — En / Ru (the language of the meanings) and which dictionary mode to use (see
+  [Dictionary](/dictionary)).
 - **Context lines** — results page only: how many lines to show
   before/after a match.
 - **Results view** — Texts / Words (results page only).
-- **Reading** — reading variants and column mode (in the reader), hide
-  Pāḷi punctuation (anywhere there's Pali text).
+- **Reading** — column mode and hide Pāḷi punctuation; in the reader also
+  show variant readings and highlight differences (where the Pali editions
+  on screen differ).
 - **Devanagari script** — only shows up while the reader is in
   "Devanagari" mode (see [Reader](/read)).
 - **Several words** — how words typed together are found: In a row, In a
@@ -51,8 +56,8 @@ anywhere.
 
 ## General
 
-- **Interface language** — menus and labels (doesn't affect text
-  languages).
+- **Interface language** — English, Russian or Thai: menus and labels
+  (doesn't affect text languages).
 - **Theme** — light / dark / auto. **Alt+T**. (Stored in
   `localStorage.theme` — the same key this Help site itself uses for its
   own light/dark toggle, so switching it here or on this page keeps both
@@ -74,11 +79,11 @@ anywhere.
 
   <img src={SettingsLanguages} alt="Choosing reading languages — well beyond just English and Russian" style={{maxWidth: 'min(460px, 100%)', display: 'block', margin: '0 auto 1.5rem'}} />
 
-- **Pali script** — Latin (ISO) and other scripts (see [Pali
+- **Pali script** — Latin (IAST) and about 160 other scripts (see [Pali
   script](/read#pali-script) on the Reader page). The toggle **Only in
   "Devanagari" mode** decides whether the choice applies everywhere or only
   in the reader's "Devanagari" mode.
-- **Text size** — plus/minus, from 70 % to 250 %, the same **Alt+=** /
+- **Text size** — plus/minus in steps of 10 %, from 20 % to 250 %, the same **Alt+=** /
   **Alt+-** used everywhere on the site (**Alt+0** goes back to 100 %).
 - **Show Pali punctuation** — turn off to strip commas/quotes and
   replace periods/`?`/`!` with a vertical bar — closer to how manuscripts
@@ -149,12 +154,11 @@ Mahāsaṅgīti with the variant readings of all editions. See
 |---|---|
 | Alt+S | Open/close Quick Settings (the sliders icon next to search) |
 | Alt+Shift+S | Open/close this full Settings page |
-| Ctrl+Shift+F (Cmd+Shift+F on Mac) | Find on page — not Alt+F, that's [favorites](/read); not plain Ctrl+F either, real browsers reserve that for their own find bar |
-| Alt+Z | Show/hide the second language |
+| Alt+F, Alt+Shift+F or Ctrl+Shift+F (Cmd+Shift+F on Mac) | Find on page; plain Ctrl+F stays the browser's own find bar |
+| Alt+Z | Languages in turn: Pali and translation → Pali only → translation only |
 | Alt+T | Theme |
 | Alt+G | Strip Pali punctuation |
 | Alt+J | Multi-select for the dictionary |
-| Alt+= / Alt+- | Text size |
+| Alt+= / Alt+- / Alt+0 | Text size: larger / smaller / 100 % |
 | Ctrl+1 / Ctrl+2 / Ctrl+3 | Home / Table of contents / Dictionary |
 | Alt+1 | Site language |
-| Alt+8 | ml/th display mode |
