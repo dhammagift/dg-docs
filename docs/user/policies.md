@@ -233,9 +233,12 @@ Bhikkhu**. See [SuttaCentral licensing](https://suttacentral.net/licensing).
 Dhamma.gift uses several
 editions of the Pali Canon, cut into the same segments. Search covers the
 Mahāsaṅgīti text together with the variant readings collated from the other
-editions (BJT, VRI, Siam Rath, PTS); s.dhamma.gift shows the BJT, CST and
-Thai editions side by side. Each edition keeps the license of its source:
+editions (Siam Rath, BJT, VRI, PTS); s.dhamma.gift shows the Thai, BJT and
+CST editions side by side. Each edition keeps the license of its source:
 
+- **Syāmaraṭṭha Tipiṭaka** (Siam Rath, 1927), from
+  [E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc): no license stated by
+  the source; attribution E-Tipitaka (Sutee Sudprasert).
 - **Buddha Jayanti Tipiṭaka** (Sri Lanka), from
   [tipitaka.lk](https://github.com/pathnirvana/tipitaka.lk):
   [CC BY-ND 4.0](https://github.com/pathnirvana/tipitaka.lk/blob/master/LICENSE.md),
@@ -244,9 +247,6 @@ Thai editions side by side. Each edition keeps the license of its source:
 - **Chaṭṭha Saṅgāyana Tipiṭaka**, from the
   [Vipassana Research Institute](https://github.com/VipassanaTech/tipitaka-xml)
   (tipitaka.org): free for non-commercial use, attribution VRI.
-- **Syāmaraṭṭha Tipiṭaka** (Siam Rath, 1927), from
-  [E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc): no license stated by
-  the source; attribution E-Tipitaka (Sutee Sudprasert).
 - **Mahāsaṅgīti Tipiṭaka as printed** (World Tipiṭaka Edition, Dhamma Society,
   2005), from [tipitaka2500.github.io](https://tipitaka2500.github.io):
   [CC0](https://creativecommons.org/public-domain/cc0/) as published there;

@@ -27,8 +27,8 @@ resources, study materials, and utilities: **Read Pāḷi**, **External**
 
 Some of what the tiles hold:
 
-- **External** — **S.4nt.org** (also at s.dhamma.gift) shows the BJT,
-  CST and Thai editions of the Pali text side by side.
+- **External** — **S.4nt.org** (also at s.dhamma.gift) shows the Thai,
+  BJT and CST editions of the Pali text side by side.
 - **Subscriptions** — a text a day, with reminders. Opens the
   Subscriptions tab of the [Quick Window](/quickmodal).
 - **AI & Dicts** — **Google Custom Search** (`/cse`) runs your query over

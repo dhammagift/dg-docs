@@ -29,7 +29,7 @@ import EditTile from '@site/static/img/help/multitool-edit-tile.png';
 Кое-что из того, что внутри:
 
 - **Иностранные** — **S.4nt.org** (он же s.dhamma.gift) показывает
-  издания BJT, CST и тайское рядом.
+  тайское издание, BJT и CST рядом.
 - **ИИ, Словари** — **Google Custom Search** (`/cse`) ищет ваш запрос по
   подборке сайтов о Дхамме.
 - **Обучение** — **Hatthipada** (как сутты определяют каждое слово

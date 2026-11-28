@@ -21,7 +21,7 @@ as the site.
 |---|---|
 | `search` | Keyword, substring or regular-expression search. Returns a list of the matching suttas (id, title, number of matches, reader link): suttas that define the term first, then those named after it, then by how often it occurs. `include_segments` adds the matched Pali lines, `include_translations` with `langs` adds translations. |
 | `get_text` | A sutta by id (`mn1`, `dn22`, `sn56.11`): the Pali, and translations when `langs` is given; `editions` adds the whole text in the other editions, line by line. |
-| `compare_editions` | The canon's editions compared line by line: the Mahāsaṅgīti beside Buddha Jayanti (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), the printed Mahāsaṅgīti of 2005 and the PTS editions (DN, MN, SN, AN). A sutta, a line or a range: first a summary per edition, then the lines that differ, word by word. |
+| `compare_editions` | The canon's editions compared line by line: the Mahāsaṅgīti beside Siam Rath (Thailand), Buddha Jayanti (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), the printed Mahāsaṅgīti of 2005 and the PTS editions (DN, MN, SN, AN). A sutta, a line or a range: first a summary per edition, then the lines that differ, word by word. |
 | `compare_translations` | One segment (e.g. `mn129:21.3`) in the Pali, every edition and every available translation side by side. |
 | `list_structure` | What exists: collections, books with sutta counts, translation languages and translators; with a prefix (`mn`, `sn56`) the list of suttas under it. |
 

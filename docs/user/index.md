@@ -23,8 +23,8 @@ editions of the Canon at once, with the differences highlighted.
 
 ## Only on Dhamma.Gift
 
-- **Six editions of the Canon, the differences in one click.** Any sutta line by line in Buddha Jayanti
-  (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand), the Mahāsaṅgīti, its 2005 print and PTS,
+- **Six editions of the Canon, the differences in one click.** Any sutta line by line in Siam Rath
+  (Thailand), Buddha Jayanti (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar), the Mahāsaṅgīti, its 2005 print and PTS,
   with the places where they differ highlighted. See [Compare](/compare).
 - **Search by meaning over the Suttas and the Vinaya.** Describe a passage in your own words, in English or
   Russian, and get the sutta: [`parable of the saw`](https://dhamma.gift/?q=parable%20of%20the%20saw) finds MN 21, [`how not to fear death`](https://dhamma.gift/?q=how%20not%20to%20fear%20death) AN 4.184,
@@ -64,7 +64,7 @@ advanced filtering, several sort orders, and grouping by text or by word.
 Gives direct access to the Pali texts with translations in 25 languages
 (for Thai: Mahachula first, then Siam Rath); any of them can be shown side
 by side. Results also link to Theravada.ru, tipitaka.theravada.su and
-s.dhamma.gift (the BJT, CST and Thai editions side by side). See
+s.dhamma.gift (the Thai, BJT and CST editions side by side). See
 [Search](/search-guide).
 
 <div style={{clear: 'both'}} />
@@ -106,8 +106,8 @@ s.dhamma.gift (the BJT, CST and Thai editions side by side). See
 
 ## Compare 6 Pali Canon editions
 
-Any text line by line in six editions of the Canon: the three national ones — Buddha Jayanti (Sri Lanka),
-Chaṭṭha Saṅgāyana (Myanmar), Siam Rath (Thailand) — then the Mahāsaṅgīti, its 2005 print and PTS. One click
+Any text line by line in six editions of the Canon: the three national ones — Siam Rath (Thailand),
+Buddha Jayanti (Sri Lanka), Chaṭṭha Saṅgāyana (Myanmar) — then the Mahāsaṅgīti, its 2005 print and PTS. One click
 highlights where they differ; the national editions decide the reading. ✦ → **Compare** on any line, or the
 **Compare** reader mode (**Alt+Shift+2**). See [Compare](/compare), with each edition's known problems.
 

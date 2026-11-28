@@ -235,9 +235,12 @@ Bilara) — палийские тексты и переводы — переда
 Dhamma.gift использует
 несколько изданий Палийского канона, разбитых на те же сегменты. Поиск идёт по
 тексту Махасангити вместе с разночтениями, сведёнными из других изданий
-(BJT, VRI, Siam Rath, PTS); s.dhamma.gift показывает издания BJT, CST и
-тайское рядом. Каждое издание сохраняет лицензию своего источника:
+(Siam Rath, BJT, VRI, PTS); s.dhamma.gift показывает тайское издание, BJT
+и CST рядом. Каждое издание сохраняет лицензию своего источника:
 
+- **Сиамская Типитака** (Siam Rath, 1927), из
+  [E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc): источник лицензию не
+  указал; с указанием E-Tipitaka (Sutee Sudprasert).
 - **Буддха Джаянти Типитака** (Шри-Ланка), из
   [tipitaka.lk](https://github.com/pathnirvana/tipitaka.lk):
   [CC BY-ND 4.0](https://github.com/pathnirvana/tipitaka.lk/blob/master/LICENSE.md),
@@ -246,9 +249,6 @@ Dhamma.gift использует
 - **Чаттха Сангаяна Типитака**, от
   [Vipassana Research Institute](https://github.com/VipassanaTech/tipitaka-xml)
   (tipitaka.org): бесплатно для некоммерческого использования, с указанием VRI.
-- **Сиамская Типитака** (Siam Rath, 1927), из
-  [E-Tipitaka](https://github.com/ssutee/e-tipitaka-pc): источник лицензию не
-  указал; с указанием E-Tipitaka (Sutee Sudprasert).
 - **Махасангити Типитака в печатном виде** (World Tipiṭaka Edition, Dhamma
   Society, 2005), с [tipitaka2500.github.io](https://tipitaka2500.github.io):
   [CC0](https://creativecommons.org/public-domain/cc0/), как указано там; с

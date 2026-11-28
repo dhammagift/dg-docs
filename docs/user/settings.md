@@ -96,7 +96,7 @@ anywhere.
   for new queries (you can still change the scope for one particular
   search).
 - **Search with variant readings** — also finds words as the other editions
-  read them (Buddha Jayanti, Chaṭṭha Saṅgāyana, Siam Rath, PTS); turn it off
+  read them (Siam Rath, Buddha Jayanti, Chaṭṭha Saṅgāyana, PTS); turn it off
   to search the Mahāsaṅgīti text only, which is faster.
 - **Search languages** — match your reading languages by default; a
   toggle lets you set a separate language list just for search.
@@ -119,7 +119,7 @@ anywhere.
 
 ## Pali root text
 
-**Editions in the reader** — **BJT**, **VRI**, **SR**, **MS**, **MS05**,
+**Editions in the reader** — **SR**, **BJT**, **VRI**, **MS**, **MS05**,
 **PTS**: the reader shows the Pali in the editions you pick; a line an
 edition lacks comes from the Mahāsaṅgīti (MS). Several editions are shown
 line by line or one column each. Works for the Suttas and the Vinaya, and

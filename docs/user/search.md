@@ -58,7 +58,7 @@ Next to the number of results, a **"variants"** link shows up when the word
 you searched for has alternate spellings elsewhere in the texts.
 
 Search covers the Mahāsaṅgīti text and the variant readings collated from
-the other editions: Sri Lankan (BJT), Burmese (VRI), Thai (Siam Rath) and the
+the other editions: Thai (Siam Rath), Sri Lankan (BJT), Burmese (VRI) and the
 PTS (**With variant readings** in Quick Settings, on by default). A word read
 differently in another edition is found too, and with **Show variants** on the
 result shows the Mahāsaṅgīti line with the readings for it.
@@ -178,8 +178,8 @@ GitHub.
   Nikāya` (any KN book), or `Vinaya` (anything from the Vinaya). Hidden by
   default: turn it on under **Visibility**.
 - **Quote** — the quote containing the match, in the row's expanded part.
-- **Links** — Pi and En open the text on s.dhamma.gift (the BJT, CST and
-  Thai editions with translations side by side); on the Russian page, Ru
+- **Links** — Pi and En open the text on s.dhamma.gift (the Thai, BJT and
+  CST editions with translations side by side); on the Russian page, Ru
   opens a Russian translation (Theravada.ru or tipitaka.theravada.su, when
   available). The sutta id itself opens the text in the Dhamma.Gift reader.
 

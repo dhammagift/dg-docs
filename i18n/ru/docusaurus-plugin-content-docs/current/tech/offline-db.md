@@ -14,7 +14,7 @@ Android и iOS.
 
 | Что | Путь | Отдаётся как |
 |---|---|---|
-| Исходники корпуса: тексты на пали шести изданий (Махасангити, её печатное MS05, BJT, мьянманское, тайское, PTS) и переводы | `siteroot/data/suttacentral.net`, `siteroot/data/dhammagift` (симлинки) | — |
+| Исходники корпуса: тексты на пали шести изданий (тайское, BJT, мьянманское, Махасангити, её печатное MS05, PTS) и переводы | `siteroot/data/suttacentral.net`, `siteroot/data/dhammagift` (симлинки) | — |
 | Серверная база (собранная) | `dg.db` | её использует `dg-fastify.js`: поиск, ридер, API, MCP |
 | **Офлайн-библиотека** | `siteroot/mobile-data/dg.db.gz` | `/mobile-data/dg.db.gz` |
 | Её манифест | `siteroot/mobile-data/db-manifest.json` | `/mobile-data/db-manifest.json` |
